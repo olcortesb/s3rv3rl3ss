@@ -272,67 +272,130 @@
       ],
       "runtimes": [
         {
+          "name": "Node.js 24",
+          "identifier": "nodejs24.x",
+          "status": "active",
+          "eol": "2028-04-30"
+        },
+        {
           "name": "Node.js 22",
+          "identifier": "nodejs22.x",
           "status": "active",
           "eol": "2027-04-30"
         },
         {
           "name": "Node.js 20",
+          "identifier": "nodejs20.x",
           "status": "active",
           "eol": "2026-04-30"
         },
         {
-          "name": "Python 3.13",
+          "name": "Python 3.14",
+          "identifier": "python3.14",
           "status": "active",
-          "eol": "2029-10-01"
+          "eol": "2029-06-30"
+        },
+        {
+          "name": "Python 3.13",
+          "identifier": "python3.13",
+          "status": "active",
+          "eol": "2029-06-30"
         },
         {
           "name": "Python 3.12",
+          "identifier": "python3.12",
           "status": "active",
-          "eol": "2028-10-01"
+          "eol": "2028-10-31"
+        },
+        {
+          "name": "Python 3.11",
+          "identifier": "python3.11",
+          "status": "active",
+          "eol": "2027-06-30"
+        },
+        {
+          "name": "Python 3.10",
+          "identifier": "python3.10",
+          "status": "active",
+          "eol": "2026-10-31"
+        },
+        {
+          "name": "Java 25",
+          "identifier": "java25",
+          "status": "active",
+          "eol": "2029-06-30"
         },
         {
           "name": "Java 21",
+          "identifier": "java21",
           "status": "active",
-          "eol": "2028-09-01"
+          "eol": "2029-06-30"
         },
         {
           "name": "Java 17",
+          "identifier": "java17",
           "status": "active",
-          "eol": "2027-09-01"
+          "eol": "2027-06-30"
         },
         {
-          "name": ".NET 8",
+          "name": "Java 11",
+          "identifier": "java11",
+          "status": "active",
+          "eol": "2027-06-30"
+        },
+        {
+          "name": "Java 8",
+          "identifier": "java8.al2",
+          "status": "active",
+          "eol": "2027-06-30"
+        },
+        {
+          "name": ".NET 10",
+          "identifier": "dotnet10",
+          "status": "active",
+          "eol": "2028-11-14"
+        },
+        {
+          "name": ".NET 9 (container only)",
+          "identifier": "dotnet9",
           "status": "active",
           "eol": "2026-11-10"
         },
         {
+          "name": ".NET 8",
+          "identifier": "dotnet8",
+          "status": "active",
+          "eol": "2026-11-10"
+        },
+        {
+          "name": "Ruby 3.4",
+          "identifier": "ruby3.4",
+          "status": "active",
+          "eol": "2028-03-31"
+        },
+        {
           "name": "Ruby 3.3",
+          "identifier": "ruby3.3",
           "status": "active",
           "eol": "2027-03-31"
         },
         {
-          "name": "Go (provided.al2023)",
-          "status": "active"
-        },
-        {
-          "name": "Rust (provided.al2023)",
-          "status": "active"
-        },
-        {
-          "name": "Node.js 18",
+          "name": "Ruby 3.2",
+          "identifier": "ruby3.2",
           "status": "deprecated",
-          "eol": "2025-04-30"
+          "eol": "2026-03-31"
         },
         {
-          "name": "Python 3.9",
-          "status": "deprecated",
-          "eol": "2025-10-01"
+          "name": "OS-only Runtime",
+          "identifier": "provided.al2023",
+          "status": "active",
+          "eol": "2029-06-30"
         },
         {
-          "name": "Java 11",
-          "status": "deprecated",
-          "eol": "2025-01-01"
+          "name": "OS-only Runtime",
+          "identifier": "provided.al2",
+          "status": "active",
+          "eol": "2026-07-31"
         }
       ],
       "news": [
