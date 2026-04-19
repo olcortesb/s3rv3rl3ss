@@ -273,35 +273,43 @@
       "runtimes": [
         {
           "name": "Node.js 22",
-          "status": "active"
+          "status": "active",
+          "eol": "2027-04-30"
         },
         {
           "name": "Node.js 20",
-          "status": "active"
+          "status": "active",
+          "eol": "2026-04-30"
         },
         {
           "name": "Python 3.13",
-          "status": "active"
+          "status": "active",
+          "eol": "2029-10-01"
         },
         {
           "name": "Python 3.12",
-          "status": "active"
+          "status": "active",
+          "eol": "2028-10-01"
         },
         {
           "name": "Java 21",
-          "status": "active"
+          "status": "active",
+          "eol": "2028-09-01"
         },
         {
           "name": "Java 17",
-          "status": "active"
+          "status": "active",
+          "eol": "2027-09-01"
         },
         {
           "name": ".NET 8",
-          "status": "active"
+          "status": "active",
+          "eol": "2026-11-10"
         },
         {
           "name": "Ruby 3.3",
-          "status": "active"
+          "status": "active",
+          "eol": "2027-03-31"
         },
         {
           "name": "Go (provided.al2023)",
@@ -313,15 +321,18 @@
         },
         {
           "name": "Node.js 18",
-          "status": "deprecated"
+          "status": "deprecated",
+          "eol": "2025-04-30"
         },
         {
           "name": "Python 3.9",
-          "status": "deprecated"
+          "status": "deprecated",
+          "eol": "2025-10-01"
         },
         {
           "name": "Java 11",
-          "status": "deprecated"
+          "status": "deprecated",
+          "eol": "2025-01-01"
         }
       ],
       "news": [
