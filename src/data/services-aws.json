@@ -429,8 +429,99 @@
       "icon": "📬",
       "limits": [
         {
-          "name": "Message size",
-          "value": "256 KB"
+          "name": "Attributes per Message",
+          "value": "10",
+          "description": "The number of attributes added to a message."
+        },
+        {
+          "name": "Tags per Queue",
+          "value": "50",
+          "description": "The number of tags added to a queue."
+        },
+        {
+          "name": "UTF-8 Queue Tag Value Length",
+          "value": "256",
+          "description": "The length of a UTF-8 queue tag value."
+        },
+        {
+          "name": "Conditions per Queue Policy",
+          "value": "10",
+          "description": "The number of conditions in a queue policy."
+        },
+        {
+          "name": "Messages per Batch",
+          "value": "10",
+          "description": "The number of messages in a message batch."
+        },
+        {
+          "name": "Statements per Queue Policy",
+          "value": "20",
+          "description": "The number of statements in a queue policy."
+        },
+        {
+          "name": "Principals per Queue Policy",
+          "value": "50",
+          "description": "The number of principals in a queue policy."
+        },
+        {
+          "name": "Queue Name Length",
+          "value": "80",
+          "description": "The queue name length."
+        },
+        {
+          "name": "UTF-8 Queue Tag Key Length",
+          "value": "128",
+          "description": "The length of a UTF-8 queue tag key."
+        },
+        {
+          "name": "Message Size",
+          "value": "1024 KB",
+          "description": "The size of a message, in kilobytes.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Message Retention Time",
+          "value": "345600 Seconds",
+          "description": "The length of time, in seconds, for which Amazon SQS retains a message if it isn't deleted. The maximum is 14 days (1,209,600 seconds).",
+          "unit": "Seconds"
+        },
+        {
+          "name": "Message Size in S3 Bucket",
+          "value": "2 GB",
+          "description": "The size of a message, in gigabytes, in an Amazon S3 bucket.",
+          "unit": "Gigabytes"
+        },
+        {
+          "name": "Batched Message ID Length",
+          "value": "80",
+          "description": "The length of a batched message ID."
+        },
+        {
+          "name": "Message Invisibility Period",
+          "value": "0 Seconds",
+          "description": "The length of time, in seconds, for which a message consumed from a queue remains invisible to other consumers.",
+          "unit": "Seconds"
+        },
+        {
+          "name": "Actions per Queue Policy",
+          "value": "7",
+          "description": "The number of actions in a queue policy."
+        },
+        {
+          "name": "Queue Policy Size",
+          "value": "8192 Bytes",
+          "description": "The size, in bytes, of a queue policy.",
+          "unit": "Bytes"
+        },
+        {
+          "name": "In-Flight Messages per Standard Queue",
+          "value": "120000",
+          "description": "The number of in-flight messages in a standard queue."
+        },
+        {
+          "name": "Queue Delivery Delay",
+          "value": "15",
+          "description": "The length of time, in minutes, by which to delay the initial delivery of messages to a queue."
         },
         {
           "name": "Message retention",
