@@ -1,0 +1,168 @@
+{
+  "services": [
+    {
+      "id": "lambda",
+      "enabled": true,
+      "name": "AWS Lambda",
+      "category": "Compute",
+      "description": "Run code without provisioning or managing servers. Pay only for the compute time you consume.",
+      "useCases": ["APIs", "Event processing", "Data transformation", "Scheduled tasks"],
+      "pricing": "Pay per request and compute duration",
+      "url": "https://aws.amazon.com/lambda/",
+      "icon": "⚡",
+      "runtimes": [
+        { "name": "Node.js 22", "status": "active" },
+        { "name": "Node.js 20", "status": "active" },
+        { "name": "Python 3.13", "status": "active" },
+        { "name": "Python 3.12", "status": "active" },
+        { "name": "Java 21", "status": "active" },
+        { "name": "Java 17", "status": "active" },
+        { "name": ".NET 8", "status": "active" },
+        { "name": "Ruby 3.3", "status": "active" },
+        { "name": "Go (provided.al2023)", "status": "active" },
+        { "name": "Rust (provided.al2023)", "status": "active" },
+        { "name": "Node.js 18", "status": "deprecated" },
+        { "name": "Python 3.9", "status": "deprecated" },
+        { "name": "Java 11", "status": "deprecated" }
+      ],
+      "limits": [
+        { "name": "Memory", "value": "128 MB – 10,240 MB" },
+        { "name": "Timeout", "value": "900 seconds (15 min)" },
+        { "name": "Package size (zip)", "value": "50 MB compressed, 250 MB uncompressed" },
+        { "name": "Container image size", "value": "10 GB" },
+        { "name": "Ephemeral storage (/tmp)", "value": "512 MB – 10,240 MB" },
+        { "name": "Concurrent executions", "value": "1,000 (default, adjustable)" },
+        { "name": "Payload (sync)", "value": "6 MB" },
+        { "name": "Payload (async)", "value": "256 KB" },
+        { "name": "Environment variables", "value": "4 KB total" }
+      ],
+      "news": [
+        { "date": "2024-12", "title": "Lambda supports Node.js 22 runtime" },
+        { "date": "2024-11", "title": "Lambda SnapStart now available for Python and .NET" },
+        { "date": "2024-09", "title": "Lambda supports Python 3.13 runtime" },
+        { "date": "2024-04", "title": "Lambda increases max concurrency to 10,000 with reserved concurrency" }
+      ]
+    },
+    {
+      "id": "api-gateway",
+      "enabled": false,
+      "name": "Amazon API Gateway",
+      "category": "Integration",
+      "description": "Create, publish, maintain, monitor, and secure APIs at any scale.",
+      "useCases": ["REST APIs", "WebSocket APIs", "HTTP APIs", "API management"],
+      "pricing": "Pay per API call and data transfer",
+      "url": "https://aws.amazon.com/api-gateway/",
+      "icon": "🔗"
+    },
+    {
+      "id": "dynamodb",
+      "enabled": false,
+      "name": "Amazon DynamoDB",
+      "category": "Database",
+      "description": "Fast, flexible NoSQL database service for single-digit millisecond performance at any scale.",
+      "useCases": ["Key-value store", "Session management", "Real-time analytics", "IoT data"],
+      "pricing": "Pay per read/write capacity unit or on-demand",
+      "url": "https://aws.amazon.com/dynamodb/",
+      "icon": "🗄️"
+    },
+    {
+      "id": "s3",
+      "enabled": false,
+      "name": "Amazon S3",
+      "category": "Storage",
+      "description": "Object storage built to retrieve any amount of data from anywhere.",
+      "useCases": ["Static hosting", "Data lake", "Backup", "Content distribution"],
+      "pricing": "Pay per GB stored and requests",
+      "url": "https://aws.amazon.com/s3/",
+      "icon": "📦"
+    },
+    {
+      "id": "step-functions",
+      "enabled": false,
+      "name": "AWS Step Functions",
+      "category": "Integration",
+      "description": "Visual workflow service to orchestrate AWS services and build distributed applications.",
+      "useCases": ["Workflow orchestration", "ETL pipelines", "Order processing", "ML pipelines"],
+      "pricing": "Pay per state transition",
+      "url": "https://aws.amazon.com/step-functions/",
+      "icon": "🔄"
+    },
+    {
+      "id": "eventbridge",
+      "enabled": false,
+      "name": "Amazon EventBridge",
+      "category": "Integration",
+      "description": "Serverless event bus that connects applications using events from your apps, SaaS, and AWS services.",
+      "useCases": ["Event-driven architecture", "SaaS integration", "Scheduling", "Cross-account events"],
+      "pricing": "Pay per event published",
+      "url": "https://aws.amazon.com/eventbridge/",
+      "icon": "📡"
+    },
+    {
+      "id": "sqs",
+      "enabled": false,
+      "name": "Amazon SQS",
+      "category": "Integration",
+      "description": "Fully managed message queuing service to decouple and scale microservices.",
+      "useCases": ["Message queuing", "Decoupling services", "Buffering", "Batch processing"],
+      "pricing": "Pay per million requests",
+      "url": "https://aws.amazon.com/sqs/",
+      "icon": "📬"
+    },
+    {
+      "id": "sns",
+      "enabled": false,
+      "name": "Amazon SNS",
+      "category": "Integration",
+      "description": "Fully managed pub/sub messaging and mobile notifications service.",
+      "useCases": ["Push notifications", "Fan-out patterns", "Alerts", "Email/SMS delivery"],
+      "pricing": "Pay per publish and delivery",
+      "url": "https://aws.amazon.com/sns/",
+      "icon": "📢"
+    },
+    {
+      "id": "fargate",
+      "enabled": false,
+      "name": "AWS Fargate",
+      "category": "Compute",
+      "description": "Serverless compute engine for containers that works with ECS and EKS.",
+      "useCases": ["Container workloads", "Microservices", "Batch processing", "CI/CD"],
+      "pricing": "Pay per vCPU and memory per second",
+      "url": "https://aws.amazon.com/fargate/",
+      "icon": "🐳"
+    },
+    {
+      "id": "cognito",
+      "enabled": false,
+      "name": "Amazon Cognito",
+      "category": "Security",
+      "description": "Add user sign-up, sign-in, and access control to your web and mobile apps.",
+      "useCases": ["User authentication", "Social login", "MFA", "User management"],
+      "pricing": "Pay per MAU (monthly active user)",
+      "url": "https://aws.amazon.com/cognito/",
+      "icon": "🔐"
+    },
+    {
+      "id": "aurora-serverless",
+      "enabled": false,
+      "name": "Amazon Aurora Serverless",
+      "category": "Database",
+      "description": "On-demand, auto-scaling relational database compatible with MySQL and PostgreSQL.",
+      "useCases": ["Variable workloads", "Dev/test databases", "Infrequent access apps", "Multi-tenant SaaS"],
+      "pricing": "Pay per ACU (Aurora Capacity Unit) per second",
+      "url": "https://aws.amazon.com/rds/aurora/serverless/",
+      "icon": "🌐"
+    },
+    {
+      "id": "appsync",
+      "enabled": false,
+      "name": "AWS AppSync",
+      "category": "Integration",
+      "description": "Managed GraphQL service to build data-driven apps with real-time and offline capabilities.",
+      "useCases": ["GraphQL APIs", "Real-time data sync", "Offline apps", "Data aggregation"],
+      "pricing": "Pay per query and real-time update",
+      "url": "https://aws.amazon.com/appsync/",
+      "icon": "🔺"
+    }
+  ]
+}
