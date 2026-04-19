@@ -85,11 +85,14 @@
       </div>
 
       <div v-if="service.news" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">News</h2>
+        <h2 class="font-semibold text-gray-900 mb-2">News
+          <span class="text-xs font-normal text-gray-400 ml-1">via AWS What's New</span>
+        </h2>
         <ul class="space-y-2">
           <li v-for="n in service.news" :key="n.title" class="flex gap-3 text-sm">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
-            <span class="text-gray-700">{{ n.title }}</span>
+            <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }} ↗</a>
+            <span v-else class="text-gray-700">{{ n.title }}</span>
           </li>
         </ul>
       </div>
