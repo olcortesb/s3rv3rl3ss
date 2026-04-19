@@ -323,6 +323,13 @@
           "name": "Java 11",
           "status": "deprecated"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-04",
+          "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/"
+        }
       ]
     },
     {
