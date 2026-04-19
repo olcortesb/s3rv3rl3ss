@@ -38,16 +38,50 @@
         </div>
       </div>
 
-      <div v-if="service.limits" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">Limits & Quotas</h2>
-        <table class="w-full text-sm">
-          <tbody>
-            <tr v-for="l in service.limits" :key="l.name" class="border-b border-gray-100">
-              <td class="py-2 text-gray-500 pr-4">{{ l.name }}</td>
-              <td class="py-2 text-gray-900 font-medium">{{ l.value }}</td>
-            </tr>
-          </tbody>
-        </table>
+      <!-- Service Quotas (from API, with description) -->
+      <div v-if="apiQuotas.length" class="mb-6">
+        <button @click="showQuotas = !showQuotas" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showQuotas ? '▼' : '▶' }}</span>
+          Service Quotas
+          <span class="text-xs font-normal text-gray-400">({{ filteredQuotas.length }})</span>
+        </button>
+        <div v-show="showQuotas">
+          <input
+            v-model="quotaSearch"
+            type="text"
+            placeholder="Search quotas..."
+            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          />
+          <div class="space-y-1">
+            <div
+              v-for="l in filteredQuotas"
+              :key="l.name"
+              class="flex items-start justify-between py-2 border-b border-gray-100"
+            >
+              <div class="pr-4 min-w-0">
+                <span class="text-sm text-gray-700">{{ l.name }}</span>
+                <p v-if="l.description" class="text-xs text-gray-400 mt-0.5">{{ l.description }}</p>
+              </div>
+              <span class="text-sm text-gray-900 font-medium shrink-0">{{ l.value }}</span>
+            </div>
+          </div>
+          <p v-if="!filteredQuotas.length" class="text-sm text-gray-400 mt-2">No quotas match.</p>
+        </div>
+      </div>
+
+      <!-- Static Limits -->
+      <div v-if="staticLimits.length" class="mb-6">
+        <h2 class="font-semibold text-gray-900 mb-2">Limits</h2>
+        <div class="space-y-1">
+          <div
+            v-for="l in staticLimits"
+            :key="l.name"
+            class="flex items-start justify-between py-2 border-b border-gray-100"
+          >
+            <span class="text-sm text-gray-500 pr-4">{{ l.name }}</span>
+            <span class="text-sm text-gray-900 font-medium shrink-0">{{ l.value }}</span>
+          </div>
+        </div>
       </div>
 
       <div v-if="service.news" class="mb-6">
@@ -72,10 +106,32 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
+import Fuse from 'fuse.js'
 import { getProviderData } from '../data/index.js'
 
 const props = defineProps({ provider: String, id: String })
 const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
+
+const showQuotas = ref(true)
+const quotaSearch = ref('')
+
+const apiQuotas = computed(() =>
+  (service.value?.limits || []).filter(l => l.description)
+)
+const staticLimits = computed(() =>
+  (service.value?.limits || []).filter(l => !l.description)
+)
+
+const quotaFuse = computed(() => new Fuse(apiQuotas.value, {
+  keys: ['name', 'description', 'value'],
+  threshold: 0.3,
+}))
+
+const filteredQuotas = computed(() =>
+  quotaSearch.value
+    ? quotaFuse.value.search(quotaSearch.value).map(r => r.item)
+    : apiQuotas.value
+)
 </script>
