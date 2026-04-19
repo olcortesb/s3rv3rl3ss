@@ -1,6 +1,6 @@
 <template>
   <router-link
-    :to="`/service/${service.id}`"
+    :to="`/${provider}/${service.id}`"
     class="block bg-white rounded-xl shadow-sm hover:shadow-md transition p-5 border border-gray-100"
   >
     <div class="flex items-center gap-3 mb-2">
@@ -15,5 +15,5 @@
 </template>
 
 <script setup>
-defineProps({ service: Object })
+defineProps({ service: Object, provider: String })
 </script>

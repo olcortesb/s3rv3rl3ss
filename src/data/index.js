@@ -1,0 +1,14 @@
+import providersData from '../data/providers.json'
+import awsData from '../data/services-aws.json'
+
+const dataMap = { aws: awsData }
+
+export const providers = providersData.providers.filter(p => p.enabled)
+
+export function getProviderData(providerId) {
+  return dataMap[providerId] || null
+}
+
+export function getProvider(providerId) {
+  return providersData.providers.find(p => p.id === providerId) || null
+}

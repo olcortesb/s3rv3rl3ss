@@ -1,0 +1,7 @@
+{
+  "providers": [
+    { "id": "aws", "name": "AWS", "enabled": true, "icon": "🟠" },
+    { "id": "azure", "name": "Azure", "enabled": false, "icon": "🔵" },
+    { "id": "gcp", "name": "GCP", "enabled": false, "icon": "🔴" }
+  ]
+}
