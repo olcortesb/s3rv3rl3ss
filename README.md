@@ -22,7 +22,7 @@ The file `src/data/services-aws.json` is generated and committed automatically b
 
 - Quotas via [Service Quotas API](https://docs.aws.amazon.com/servicequotas/2019-06-24/apireference/API_ListServiceQuotas.html)
 - News via [AWS What's New RSS](https://aws.amazon.com/about-aws/whats-new/recent/feed/)
-- Runtimes via [AWS Docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+- Runtimes via [AWS Docs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) (scraped from the markdown version, includes deprecation dates)
 
 To add or enable a service, edit `src/collector/services.py` in the backend repo. See the [backend README](https://github.com/olcortesb/s3rv3rl3ss-backend) for details.
 
