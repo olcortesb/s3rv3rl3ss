@@ -32,8 +32,10 @@
               'px-3 py-1 rounded-full text-sm',
               rt.status === 'active' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-500 line-through'
             ]"
+            :title="rt.eol ? `EOL: ${rt.eol}${rt.identifier ? ' | ' + rt.identifier : ''}` : rt.identifier || ''"
           >
             {{ rt.name }}
+            <span v-if="rt.eol" class="ml-1 text-xs opacity-70">{{ eolLabel(rt.eol) }}</span>
           </span>
         </div>
       </div>
@@ -119,6 +121,16 @@ const service = computed(() => providerData?.services.find(s => s.id === props.i
 
 const showQuotas = ref(true)
 const quotaSearch = ref('')
+
+function eolLabel(eol) {
+  const now = new Date()
+  const end = new Date(eol)
+  const diff = Math.ceil((end - now) / (1000 * 60 * 60 * 24))
+  if (diff < 0) return '(expired)'
+  if (diff < 90) return `(${diff}d left)`
+  const months = Math.round(diff / 30)
+  return `(~${months}mo)`
+}
 
 const apiQuotas = computed(() =>
   (service.value?.limits || []).filter(l => l.description)
