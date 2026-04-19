@@ -411,6 +411,52 @@
           "value": "100"
         }
       ]
+    },
+    {
+      "id": "sqs",
+      "enabled": true,
+      "name": "Amazon SQS",
+      "category": "Integration",
+      "description": "Fully managed message queuing service to decouple and scale microservices.",
+      "useCases": [
+        "Message queuing",
+        "Decoupling services",
+        "Buffering",
+        "Batch processing"
+      ],
+      "pricing": "Pay per million requests",
+      "url": "https://aws.amazon.com/sqs/",
+      "icon": "📬",
+      "limits": [
+        {
+          "name": "Message size",
+          "value": "256 KB"
+        },
+        {
+          "name": "Message retention",
+          "value": "1 min – 14 days"
+        },
+        {
+          "name": "Visibility timeout",
+          "value": "0 s – 12 hours"
+        },
+        {
+          "name": "Long poll wait",
+          "value": "0 – 20 seconds"
+        },
+        {
+          "name": "Batch size",
+          "value": "10 messages"
+        },
+        {
+          "name": "In-flight (standard)",
+          "value": "120,000"
+        },
+        {
+          "name": "In-flight (FIFO)",
+          "value": "20,000"
+        }
+      ]
     }
   ]
 }
