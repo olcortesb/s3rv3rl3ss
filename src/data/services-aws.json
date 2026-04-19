@@ -18,6 +18,226 @@
       "icon": "⚡",
       "limits": [
         {
+          "name": "Rate of capacity provider write API requests",
+          "value": "1",
+          "description": "The maximum combined rate (requests per second) for all capacity provider write APIs."
+        },
+        {
+          "name": "Rate of SendDurableExecutionCallbackSuccess API requests",
+          "value": "300",
+          "description": "The maximum number of SendDurableExecutionCallbackSuccess API requests per second."
+        },
+        {
+          "name": "Rate of GetDurableExecutionHistory API requests",
+          "value": "15",
+          "description": "The maximum number of GetDurableExecutionHistory API requests per second."
+        },
+        {
+          "name": "Function and layer storage",
+          "value": "75 Gigabytes",
+          "description": "The amount of storage that's available for deployment packages and layer archives in the current Region.",
+          "unit": "Gigabytes"
+        },
+        {
+          "name": "Function timeout",
+          "value": "900",
+          "description": "The maximum timeout that you can configure for a function."
+        },
+        {
+          "name": "Synchronous payload",
+          "value": "6 Megabytes",
+          "description": "The maximum size of an incoming synchronous invocation request or outgoing response.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Rate of GetDurableExecution API requests",
+          "value": "30",
+          "description": "The maximum number of GetDurableExecution API requests per second."
+        },
+        {
+          "name": "Rate of control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
+          "value": "15",
+          "description": "The maximum number of API requests per second (excluding invocation, GetFunction, and GetPolicy requests)."
+        },
+        {
+          "name": "Concurrent executions",
+          "value": "1000 Count",
+          "description": "The maximum number of events that functions can process simultaneously in the current Region.",
+          "unit": "Count"
+        },
+        {
+          "name": "SQS Event Source Mapping throughput in default mode on Lambda Managed Instances",
+          "value": "5 Megabytes/Second",
+          "description": "The maximum data throughput (MB/s) per SQS event source mapping in default mode on Lambda Managed Instances.",
+          "unit": "Megabytes/Second"
+        },
+        {
+          "name": "Deployment package size (unzipped)",
+          "value": "250 Megabytes",
+          "description": "The maximum size of the contents of a deployment package or layer archive when it's unzipped.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Maximum running durable executions",
+          "value": "1000000",
+          "description": "The maximum number of durable executions that can be running simultaneously in the current region."
+        },
+        {
+          "name": "Deployment package size (direct upload)",
+          "value": "50 Megabytes",
+          "description": "The maximum size of a deployment package or layer archive when you upload it directly to Lambda. Upload larger files with Amazon S3.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Capacity providers",
+          "value": "1000",
+          "description": "The maximum number of capacity providers that can be created in an account."
+        },
+        {
+          "name": "Rate of SendDurableExecutionCallbackFailure API requests",
+          "value": "300",
+          "description": "The maximum number of SendDurableExecutionCallbackFailure API requests per second."
+        },
+        {
+          "name": "Kinesis Event Source Mapping throughput on Lambda Managed Instances",
+          "value": "25 Megabytes/Second",
+          "description": "The maximum data throughput (MB/s) per Kinesis event source mapping on Lambda Managed Instances.",
+          "unit": "Megabytes/Second"
+        },
+        {
+          "name": "Rate of SendDurableExecutionCallbackHeartbeat API requests",
+          "value": "300",
+          "description": "The maximum number of SendDurableExecutionCallbackHeartbeat API requests per second."
+        },
+        {
+          "name": "Environment variable size",
+          "value": "4 Kilobytes",
+          "description": "The maximum combined size of environment variables that are configured on a function.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Rate of GetFunction API requests",
+          "value": "100",
+          "description": "The maximum number of GetFunction API requests per second."
+        },
+        {
+          "name": "Rate of CheckpointDurableExecution API requests",
+          "value": "1000",
+          "description": "The maximum number of CheckpointDurableExecution API requests per second."
+        },
+        {
+          "name": "Function versions per capacity provider",
+          "value": "100",
+          "description": "The maximum number of function versions per capacity provider."
+        },
+        {
+          "name": "Maximum number of durable operations per durable execution",
+          "value": "3000",
+          "description": "The maximum number of durable operations (including customer-initiated operations and automatic retries) that trigger state persistence within a single durable execution."
+        },
+        {
+          "name": "Function invocation rate to initiate durable executions",
+          "value": "300",
+          "description": "The maximum number of new durable executions that you can initiate per second."
+        },
+        {
+          "name": "Rate of ListDurableExecutionsByFunction API requests",
+          "value": "15",
+          "description": "The maximum number of ListDurableExecutionsByFunction API requests per second."
+        },
+        {
+          "name": "Rate of GetDurableExecutionState API requests",
+          "value": "1000",
+          "description": "The maximum number of GetDurableExecutionState API requests per second."
+        },
+        {
+          "name": "Kafka Event Source Mappings in default mode on Lambda Managed Instances",
+          "value": "100",
+          "description": "The maximum number of Kafka event source mappings in default mode on Lambda Managed Instances."
+        },
+        {
+          "name": "Processes and threads",
+          "value": "1024",
+          "description": "The maximum combined number of processes and threads that a function can have open."
+        },
+        {
+          "name": "Asynchronous invocation request throughput on Lambda Managed Instances",
+          "value": "5 Megabytes/Second",
+          "description": "The maximum invoke request throughput (MB/s) for asynchronous invocations on Lambda Managed Instances. Asynchronous invocations occur when Lambda functions are invoked by services such as Amazon S3 or Amazon SNS.",
+          "unit": "Megabytes/Second"
+        },
+        {
+          "name": "Rate of capacity provider read API requests",
+          "value": "15",
+          "description": "The maximum combined rate (requests per second) for all capacity provider read APIs."
+        },
+        {
+          "name": "File descriptors",
+          "value": "1024",
+          "description": "The maximum number of file descriptors that a function can have open."
+        },
+        {
+          "name": "Kafka Event Source Mapping throughput in default mode on Lambda Managed Instances",
+          "value": "1 Megabytes/Second",
+          "description": "The maximum data throughput (MB/s) per Kafka event source mapping in default mode on Lambda Managed Instances.",
+          "unit": "Megabytes/Second"
+        },
+        {
+          "name": "Rate of GetPolicy API requests",
+          "value": "15",
+          "description": "The maximum number of GetPolicy API requests per second."
+        },
+        {
+          "name": "Function layers",
+          "value": "5",
+          "description": "The maximum number of layers that you can add to your function."
+        },
+        {
+          "name": "DynamoDB Event Source Mapping throughput on Lambda Managed Instances",
+          "value": "10 Megabytes/Second",
+          "description": "The maximum data throughput (MB/s) per DynamoDB event source mapping on Lambda Managed Instances.",
+          "unit": "Megabytes/Second"
+        },
+        {
+          "name": "Durable execution storage written in megabytes",
+          "value": "100 Megabytes",
+          "description": "The maximum cumulative amount of data persisted per durable execution, including input and output payloads, checkpoints and error data, measured in megabytes.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Asynchronous payload",
+          "value": "1024 Kilobytes",
+          "description": "The maximum size of an incoming asynchronous invocation request.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Function resource-based policy",
+          "value": "20 Kilobytes",
+          "description": "The maximum combined size of resource-based policies that are configured on a function.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Deployment package size (console editor)",
+          "value": "3 Megabytes",
+          "description": "The maximum size of a deployment package or layer archive when you upload it through the console editor. Upload larger files with Amazon S3.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Test events (console editor)",
+          "value": "10",
+          "description": "The maximum amount of test events for a function through the console editor."
+        },
+        {
+          "name": "Concurrency scaling rate",
+          "value": "1000",
+          "description": "The maximum immediate increase in function concurrency that can occur in response to an increase in traffic or execution duration. Every 10 seconds, each synchronously invoked Lambda function can scale by an additional 1,000 concurrent executions until the total concurrency across your functions in a Region reaches the account concurrency limit."
+        },
+        {
+          "name": "Rate of StopDurableExecution API requests",
+          "value": "30",
+          "description": "The maximum number of StopDurableExecution API requests per second."
+        },
+        {
           "name": "Memory",
           "value": "128 MB – 10,240 MB"
         },
