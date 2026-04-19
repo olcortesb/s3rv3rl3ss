@@ -324,6 +324,93 @@
           "status": "deprecated"
         }
       ]
+    },
+    {
+      "id": "dynamodb",
+      "enabled": true,
+      "name": "Amazon DynamoDB",
+      "category": "Database",
+      "description": "Fast, flexible NoSQL database service for single-digit millisecond performance at any scale.",
+      "useCases": [
+        "Key-value store",
+        "Session management",
+        "Real-time analytics",
+        "IoT data"
+      ],
+      "pricing": "Pay per read/write capacity unit or on-demand",
+      "url": "https://aws.amazon.com/dynamodb/",
+      "icon": "🗄️",
+      "limits": [
+        {
+          "name": "Global Secondary Indexes per table",
+          "value": "20",
+          "description": "The maximum number of global secondary indexes that can be created for a table. For more information, see, https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-secondary-indexes"
+        },
+        {
+          "name": "Table-level write throughput limit",
+          "value": "40000",
+          "description": "The maximum number of write throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+          "name": "Write throughput limit for DynamoDB Streams (Provisioned mode)",
+          "value": "40000",
+          "description": "The maximum number of write capacity units allowed for a table with streams enabled; applicable only for tables in provisioned read/write capacity mode. Other quotas might also apply. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-dynamodb-streams"
+        },
+        {
+          "name": "Account-level write throughput limit (Provisioned mode)",
+          "value": "80000",
+          "description": "The maximum number of write capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+          "name": "Maximum number of tables",
+          "value": "2500",
+          "description": "The maximum number of tables that can be created per region. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-tables"
+        },
+        {
+          "name": "Table-level read throughput limit",
+          "value": "40000",
+          "description": "The maximum number of read throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+          "name": "Concurrent control plane operations",
+          "value": "500",
+          "description": "The maximum number of allowed concurrent control plane operations. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#limits-api"
+        },
+        {
+          "name": "Account-level read throughput limit (Provisioned mode)",
+          "value": "80000",
+          "description": "The maximum number of read capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+          "name": "Provisioned capacity decreases per day",
+          "value": "27",
+          "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+        },
+        {
+          "name": "Item size",
+          "value": "400 KB"
+        },
+        {
+          "name": "Partition key length",
+          "value": "2048 bytes"
+        },
+        {
+          "name": "Sort key length",
+          "value": "1024 bytes"
+        },
+        {
+          "name": "GSIs per table",
+          "value": "20"
+        },
+        {
+          "name": "LSIs per table",
+          "value": "5"
+        },
+        {
+          "name": "Projected attributes per index",
+          "value": "100"
+        }
+      ]
     }
   ]
 }
