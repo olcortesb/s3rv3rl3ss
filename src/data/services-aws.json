@@ -34,7 +34,7 @@
         },
         {
           "name": "Function and layer storage",
-          "value": "75 Gigabytes",
+          "value": "75 GB",
           "description": "The amount of storage that's available for deployment packages and layer archives in the current Region.",
           "unit": "Gigabytes"
         },
@@ -45,7 +45,7 @@
         },
         {
           "name": "Synchronous payload",
-          "value": "6 Megabytes",
+          "value": "6 MB",
           "description": "The maximum size of an incoming synchronous invocation request or outgoing response.",
           "unit": "Megabytes"
         },
@@ -61,19 +61,19 @@
         },
         {
           "name": "Concurrent executions",
-          "value": "1000 Count",
+          "value": "1000",
           "description": "The maximum number of events that functions can process simultaneously in the current Region.",
           "unit": "Count"
         },
         {
           "name": "SQS Event Source Mapping throughput in default mode on Lambda Managed Instances",
-          "value": "5 Megabytes/Second",
+          "value": "5 MB/s",
           "description": "The maximum data throughput (MB/s) per SQS event source mapping in default mode on Lambda Managed Instances.",
           "unit": "Megabytes/Second"
         },
         {
           "name": "Deployment package size (unzipped)",
-          "value": "250 Megabytes",
+          "value": "250 MB",
           "description": "The maximum size of the contents of a deployment package or layer archive when it's unzipped.",
           "unit": "Megabytes"
         },
@@ -84,7 +84,7 @@
         },
         {
           "name": "Deployment package size (direct upload)",
-          "value": "50 Megabytes",
+          "value": "50 MB",
           "description": "The maximum size of a deployment package or layer archive when you upload it directly to Lambda. Upload larger files with Amazon S3.",
           "unit": "Megabytes"
         },
@@ -100,7 +100,7 @@
         },
         {
           "name": "Kinesis Event Source Mapping throughput on Lambda Managed Instances",
-          "value": "25 Megabytes/Second",
+          "value": "25 MB/s",
           "description": "The maximum data throughput (MB/s) per Kinesis event source mapping on Lambda Managed Instances.",
           "unit": "Megabytes/Second"
         },
@@ -111,7 +111,7 @@
         },
         {
           "name": "Environment variable size",
-          "value": "4 Kilobytes",
+          "value": "4 KB",
           "description": "The maximum combined size of environment variables that are configured on a function.",
           "unit": "Kilobytes"
         },
@@ -162,7 +162,7 @@
         },
         {
           "name": "Asynchronous invocation request throughput on Lambda Managed Instances",
-          "value": "5 Megabytes/Second",
+          "value": "5 MB/s",
           "description": "The maximum invoke request throughput (MB/s) for asynchronous invocations on Lambda Managed Instances. Asynchronous invocations occur when Lambda functions are invoked by services such as Amazon S3 or Amazon SNS.",
           "unit": "Megabytes/Second"
         },
@@ -178,7 +178,7 @@
         },
         {
           "name": "Kafka Event Source Mapping throughput in default mode on Lambda Managed Instances",
-          "value": "1 Megabytes/Second",
+          "value": "1 MB/s",
           "description": "The maximum data throughput (MB/s) per Kafka event source mapping in default mode on Lambda Managed Instances.",
           "unit": "Megabytes/Second"
         },
@@ -194,31 +194,31 @@
         },
         {
           "name": "DynamoDB Event Source Mapping throughput on Lambda Managed Instances",
-          "value": "10 Megabytes/Second",
+          "value": "10 MB/s",
           "description": "The maximum data throughput (MB/s) per DynamoDB event source mapping on Lambda Managed Instances.",
           "unit": "Megabytes/Second"
         },
         {
           "name": "Durable execution storage written in megabytes",
-          "value": "100 Megabytes",
+          "value": "100 MB",
           "description": "The maximum cumulative amount of data persisted per durable execution, including input and output payloads, checkpoints and error data, measured in megabytes.",
           "unit": "Megabytes"
         },
         {
           "name": "Asynchronous payload",
-          "value": "1024 Kilobytes",
+          "value": "1024 KB",
           "description": "The maximum size of an incoming asynchronous invocation request.",
           "unit": "Kilobytes"
         },
         {
           "name": "Function resource-based policy",
-          "value": "20 Kilobytes",
+          "value": "20 KB",
           "description": "The maximum combined size of resource-based policies that are configured on a function.",
           "unit": "Kilobytes"
         },
         {
           "name": "Deployment package size (console editor)",
-          "value": "3 Megabytes",
+          "value": "3 MB",
           "description": "The maximum size of a deployment package or layer archive when you upload it through the console editor. Upload larger files with Amazon S3.",
           "unit": "Megabytes"
         },
