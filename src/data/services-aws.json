@@ -1006,6 +1006,147 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/"
         }
       ]
+    },
+    {
+      "id": "appsync",
+      "enabled": true,
+      "name": "AWS AppSync",
+      "category": "Integration",
+      "description": "Managed GraphQL service to build data-driven apps with real-time and offline capabilities.",
+      "useCases": [
+        "GraphQL APIs",
+        "Real-time data sync",
+        "Offline apps",
+        "Data aggregation"
+      ],
+      "pricing": "Pay per query and real-time update",
+      "url": "https://aws.amazon.com/appsync/",
+      "icon": "🔺",
+      "limits": [
+        {
+          "name": "GraphQL APIs - Source API associations per Merged API",
+          "value": "10",
+          "description": "The maximum number of Source API associations per Merged API."
+        },
+        {
+          "name": "Event APIs - Number of characters allowed in a channel segment",
+          "value": "50",
+          "description": "The maximum character length of a channel segment"
+        },
+        {
+          "name": "Event APIs - APIs per region",
+          "value": "50",
+          "description": "The maximum number of AppSync Event APIs per region"
+        },
+        {
+          "name": "GraphQL APIs - Rate of request tokens",
+          "value": "10000",
+          "description": "The maximum number of request tokens per second for GraphQL APIs in this account in the current Region. AWS AppSync allocates tokens to mutation and query requests based on the amount of resources (processing time and memory) that they consume. For more details on tokens, see the Monitoring section in the AWS AppSync documentation."
+        },
+        {
+          "name": "Event APIs - Rate of connections per API",
+          "value": "2000",
+          "description": "The maximum number of Event API connect requests per second."
+        },
+        {
+          "name": "Event APIs - Number of segments allowed in a channel",
+          "value": "5",
+          "description": "The maximum number of segments in a channel"
+        },
+        {
+          "name": "All APIs - Subscriptions per client connection",
+          "value": "200",
+          "description": "Subscriptions code statements per client in a single WebSocket connection. Each statement allows the client to receive multiple messages related to the specific subscription."
+        },
+        {
+          "name": "GraphQL APIs - Rate of inbound messages per API",
+          "value": "10000",
+          "description": "The maximum number of inbound messages per second. Each subscription type invoked by a mutation generates one inbound message."
+        },
+        {
+          "name": "GraphQL APIs - APIs per region",
+          "value": "50",
+          "description": "Maximum number of GraphQL APIs per region"
+        },
+        {
+          "name": "All APIs - Number of custom domain names",
+          "value": "50",
+          "description": "The maximum number of custom domain names per region"
+        },
+        {
+          "name": "Event APIs - Batch size per publish request",
+          "value": "5",
+          "description": "The maximum number of events that can be batched in one publish operation."
+        },
+        {
+          "name": "Event APIs - Rate of outbound messages per API",
+          "value": "1000000",
+          "description": "The maximum number of outbound metered events per second. One metered event equals 5 kB of delivered event."
+        },
+        {
+          "name": "GraphQL APIs - Rate of connections per API",
+          "value": "2000",
+          "description": "The maximum number of GraphQL API connect requests per second."
+        },
+        {
+          "name": "Event APIs - Publish payload size",
+          "value": "1.2 MB",
+          "description": "The maximum size of the entire payload sent in a publish operation",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Event APIs - Channel namespaces per API",
+          "value": "50",
+          "description": "The maximum number of channel namespaces on an Event API"
+        },
+        {
+          "name": "GraphQL APIs - Maximum query length",
+          "value": "15000",
+          "description": "Maximum length of a GraphQL query, measured in tokens (15,000). Tokens are individual parsed elements of the query string. Queries exceeding this limit will fail with the error message 'Maximum char length exceeded'."
+        },
+        {
+          "name": "Event APIs - Rate of request tokens",
+          "value": "2000",
+          "description": "The maximum number of request tokens per second for Event APIs in this account in the current Region. AWS AppSync allocates tokens to publish requests based on the amount of resources (processing time and memory) that they consume and the number of 5kB messages published."
+        },
+        {
+          "name": "GraphQL APIs - Rate of outbound messages per API",
+          "value": "1000000",
+          "description": "The maximum number of outbound messages per second. One outbound message is equal to 5 KB of payload data delivered."
+        },
+        {
+          "name": "Event APIs - Rate of inbound events per API",
+          "value": "10000",
+          "description": "The maximum number of inbound events per second. Each published event generates a single inbound event."
+        },
+        {
+          "name": "All APIs - Handler, resolver, and function code size",
+          "value": "32 KB",
+          "description": "Maximum code size of handlers, resolvers, and functions running on APPSYNC_JS runtime.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Event APIs - Rate of publish requests per client connection",
+          "value": "25",
+          "description": "The maximum number of publish requests per second per WebSocket connection. WebSocket publish requests are also evaluated against the rate of request tokens quota."
+        },
+        {
+          "name": "Request payload",
+          "value": "1 MB"
+        },
+        {
+          "name": "Subscription payload",
+          "value": "240 KB"
+        },
+        {
+          "name": "Resolvers per API",
+          "value": "10,000"
+        },
+        {
+          "name": "Request timeout",
+          "value": "30 seconds"
+        }
+      ]
     }
   ]
 }
