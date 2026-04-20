@@ -932,6 +932,80 @@
           "value": "2 hours idle, 10 min message"
         }
       ]
+    },
+    {
+      "id": "s3",
+      "enabled": true,
+      "name": "Amazon S3",
+      "category": "Storage",
+      "description": "Object storage built to retrieve any amount of data from anywhere.",
+      "useCases": [
+        "Static hosting",
+        "Data lake",
+        "Backup",
+        "Content distribution"
+      ],
+      "pricing": "Pay per GB stored and requests",
+      "url": "https://aws.amazon.com/s3/",
+      "icon": "📦",
+      "limits": [
+        {
+          "name": "General purpose buckets",
+          "value": "10000",
+          "description": "The number of Amazon S3 general purpose buckets that you can create in an account"
+        },
+        {
+          "name": "Replication rules",
+          "value": "1000",
+          "description": "The maximum number of rules you can specify in an Amazon S3 Replication configuration"
+        },
+        {
+          "name": "Replication Destinations",
+          "value": "28",
+          "description": "The number of destination S3 buckets you can add for each source S3 bucket across all replication rules."
+        },
+        {
+          "name": "Replication transfer rate",
+          "value": "1 Gigabits",
+          "description": "The maximum Replication Time Control transfer rate that you can replicate from the source region in this account.",
+          "unit": "Gigabits"
+        },
+        {
+          "name": "Object size",
+          "value": "48.828125 TB",
+          "description": "The maximum size (in TB) of an Amazon S3 object",
+          "unit": "Terabytes"
+        },
+        {
+          "name": "PUT/COPY/POST/DELETE",
+          "value": "3,500 req/s per prefix"
+        },
+        {
+          "name": "GET/HEAD",
+          "value": "5,500 req/s per prefix"
+        },
+        {
+          "name": "Metadata size",
+          "value": "2 KB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04",
+          "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/"
+        }
+      ]
     }
   ]
 }
