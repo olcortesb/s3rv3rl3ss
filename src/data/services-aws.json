@@ -238,36 +238,116 @@
           "description": "The maximum number of StopDurableExecution API requests per second."
         },
         {
-          "name": "Memory",
-          "value": "128 MB – 10,240 MB"
+          "name": "Storage for uploaded functions (.zip file archives) and layers. Each function version and layer version consumes storage. For best practices on managing your code storage, see Monitoring Lambda code storage in Serverless Land.",
+          "value": "75 GB"
         },
         {
-          "name": "Timeout",
-          "value": "900 seconds (15 min)"
+          "name": "Storage for functions defined as container images. These images are stored in Amazon ECR.",
+          "value": "See Amazon ECR service quotas."
         },
         {
-          "name": "Package size (zip)",
-          "value": "50 MB compressed, 250 MB uncompressed"
+          "name": "Elastic network interfaces per virtual private cloud (VPC) This quota is shared with other services, such as Amazon Elastic File System (Amazon EFS). See Amazon VPC quotas.",
+          "value": "500"
         },
         {
-          "name": "Container image size",
-          "value": "10 GB"
+          "name": "Function memory allocation",
+          "value": "128 MB to 10,240 MB, in 1-MB increments. Note: Lambda allocates CPU power in proportion to the amount of memory configured. You can increase or decrease the memory and CPU power allocated to your function using the Memory (MB) setting. At 1,769 MB, a function has the equivalent of one vCPU."
         },
         {
-          "name": "Ephemeral storage (/tmp)",
-          "value": "512 MB – 10,240 MB"
+          "name": "Function environment variables",
+          "value": "4 KB, for all environment variables associated with the function, in aggregate"
         },
         {
-          "name": "Payload (sync)",
-          "value": "6 MB"
+          "name": "Function concurrency scaling limit",
+          "value": "For each function, 1,000 execution environments every 10 seconds"
         },
         {
-          "name": "Payload (async)",
-          "value": "256 KB"
+          "name": "Invocation payload (request and response)",
+          "value": "6 MB each for request and response (synchronous) 200 MB for each streamed response (synchronous) 1 MB (asynchronous) 1 MB for the total combined size of request line and header values"
         },
         {
-          "name": "Environment variables",
-          "value": "4 KB total"
+          "name": "Bandwidth for streamed responses",
+          "value": "Uncapped for the first 6 MB of your function's response For responses larger than 6 MB, 2MBps for the remainder of the response"
+        },
+        {
+          "name": "Deployment package (.zip file archive) size",
+          "value": "50 MB (zipped, when uploaded through the Lambda API or SDKs). Upload larger files with Amazon S3. 50 MB (when uploaded through the Lambda console) 250 MB The maximum size of the contents of a deployment package, including layers and custom runtimes. (unzipped)"
+        },
+        {
+          "name": "Container image settings size",
+          "value": "16 KB"
+        },
+        {
+          "name": "Container image code package size",
+          "value": "10 GB (maximum uncompressed image size, including all layers)"
+        },
+        {
+          "name": "/tmp directory storage",
+          "value": "Between 512 MB and 10,240 MB, in 1-MB increments"
+        },
+        {
+          "name": "Execution processes/threads",
+          "value": "1,024 Lambda Managed Instances use the default process and thread limits from Bottlerocket. For more information, see Understanding the Lambda Managed Instances execution environment."
+        },
+        {
+          "name": "Invocation requests per function per Region (synchronous)",
+          "value": "Each instance of your execution environment can serve up to 10 requests per second. In other words, the total invocation limit is 10 times your concurrency limit. See Understanding Lambda function scaling."
+        },
+        {
+          "name": "Invocation requests per function per Region (asynchronous)",
+          "value": "Each instance of your execution environment can serve an unlimited number of requests. In other words, the total invocation limit is based only on concurrency available to your function. See Understanding Lambda function scaling."
+        },
+        {
+          "name": "Invocation requests per function version or alias (requests per second)",
+          "value": "10 x allocated provisioned concurrency This quota applies only to functions that use provisioned concurrency."
+        },
+        {
+          "name": "GetFunction API requests",
+          "value": "100 requests per second. Cannot be increased."
+        },
+        {
+          "name": "GetPolicy API requests",
+          "value": "15 requests per second. Cannot be increased."
+        },
+        {
+          "name": "CheckpointDurableExecution API requests",
+          "value": "1,000 requests per second."
+        },
+        {
+          "name": "GetDurableExecution API requests",
+          "value": "30 requests per second."
+        },
+        {
+          "name": "GetDurableExecutionHistory API requests",
+          "value": "15 requests per second."
+        },
+        {
+          "name": "GetDurableExecutionState API requests",
+          "value": "1,000 requests per second."
+        },
+        {
+          "name": "ListDurableExecutionsByFunction API requests",
+          "value": "15 requests per second."
+        },
+        {
+          "name": "SendDurableExecutionCallbackFailure API requests",
+          "value": "300 requests per second."
+        },
+        {
+          "name": "SendDurableExecutionCallbackHeartbeat API requests",
+          "value": "300 requests per second."
+        },
+        {
+          "name": "SendDurableExecutionCallbackSuccess API requests",
+          "value": "300 requests per second."
+        },
+        {
+          "name": "StopDurableExecution API requests",
+          "value": "30 requests per second."
+        },
+        {
+          "name": "Remainder of the control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
+          "value": "15 requests per second across all APIs (not 15 requests per second per API). Cannot be increased."
         }
       ],
       "runtimes": [
@@ -404,7 +484,8 @@
           "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/"
         }
-      ]
+      ],
+      "dataStatus": "ok"
     },
     {
       "id": "dynamodb",
@@ -466,32 +547,9 @@
           "name": "Provisioned capacity decreases per day",
           "value": "27",
           "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
-        },
-        {
-          "name": "Item size",
-          "value": "400 KB"
-        },
-        {
-          "name": "Partition key length",
-          "value": "2048 bytes"
-        },
-        {
-          "name": "Sort key length",
-          "value": "1024 bytes"
-        },
-        {
-          "name": "GSIs per table",
-          "value": "20"
-        },
-        {
-          "name": "LSIs per table",
-          "value": "5"
-        },
-        {
-          "name": "Projected attributes per index",
-          "value": "100"
         }
-      ]
+      ],
+      "dataStatus": "ok"
     },
     {
       "id": "sqs",
@@ -605,30 +663,27 @@
           "description": "The length of time, in minutes, by which to delay the initial delivery of messages to a queue."
         },
         {
-          "name": "Message retention",
-          "value": "1 min – 14 days"
+          "name": "Bytes",
+          "value": "8,192"
         },
         {
-          "name": "Visibility timeout",
-          "value": "0 s – 12 hours"
+          "name": "Conditions",
+          "value": "10"
         },
         {
-          "name": "Long poll wait",
-          "value": "0 – 20 seconds"
+          "name": "Principals",
+          "value": "50"
         },
         {
-          "name": "Batch size",
-          "value": "10 messages"
+          "name": "Statements",
+          "value": "20"
         },
         {
-          "name": "In-flight (standard)",
-          "value": "120,000"
-        },
-        {
-          "name": "In-flight (FIFO)",
-          "value": "20,000"
+          "name": "Actions per statement",
+          "value": "7"
         }
-      ]
+      ],
+      "dataStatus": "ok"
     },
     {
       "id": "api-gateway",
@@ -916,22 +971,479 @@
           "description": "The maximum number of API-stage throttle settings you can create in a usage plan in this account in the current region"
         },
         {
+          "name": "Throttle quota per account, per Region across HTTP APIs, REST APIs, WebSocket APIs, and WebSocket callback APIs",
+          "value": "10,000 requests per second (RPS) with an additional burst capacity provided by the token bucket algorithm, using a maximum bucket capacity of 5,000 requests. \\$1 The burst quota is determined by the API Gateway service team based on the overall RPS quota for the account in the Region. It is not a quota that a customer can control or request changes to."
+        },
+        {
+          "name": "Throttle quota without access control per account per Region for a portal",
+          "value": "250,000 requests per second"
+        },
+        {
+          "name": "Throttle quota with access control per account per Region for a portal",
+          "value": "10,000 requests per second"
+        },
+        {
+          "name": "CreateApiKey",
+          "value": "5 requests per second per account"
+        },
+        {
+          "name": "CreateDeployment",
+          "value": "1 request every 5 seconds per account"
+        },
+        {
+          "name": "CreateDocumentationVersion",
+          "value": "1 request every 20 seconds per account"
+        },
+        {
+          "name": "CreateDomainName",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "CreateResource",
+          "value": "5 requests per second per account"
+        },
+        {
+          "name": "CreateRestApi for Regional or private API",
+          "value": "1 request every 3 seconds per account"
+        },
+        {
+          "name": "CreateRestApi for edge-optimized API",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "CreateVpcLink (V2)",
+          "value": "1 request every 15 seconds per account"
+        },
+        {
+          "name": "DeleteApiKey",
+          "value": "5 requests per second per account"
+        },
+        {
+          "name": "DeleteDomainName",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "DeleteResource",
+          "value": "5 requests per second per account"
+        },
+        {
+          "name": "DeleteRestApi",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "GetResources",
+          "value": "5 requests every 2 seconds per account"
+        },
+        {
+          "name": "DeleteVpcLink (V2)",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "ImportDocumentationParts",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "ImportRestApi for Regional or private API",
+          "value": "1 request every 3 seconds per account"
+        },
+        {
+          "name": "ImportRestApi for edge-optimized API",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "PutRestApi",
+          "value": "1 request per second per account"
+        },
+        {
+          "name": "UpdateAccount",
+          "value": "1 request every 20 seconds per account"
+        },
+        {
+          "name": "UpdateDomainName",
+          "value": "1 request every 30 seconds per account"
+        },
+        {
+          "name": "UpdateUsagePlan",
+          "value": "1 request every 20 seconds per account"
+        },
+        {
+          "name": "Create Portal",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "Update Portal",
+          "value": "2 requests per minute"
+        },
+        {
+          "name": "Get Portal",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "List Portals",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "Publish Portal",
+          "value": "2 requests per minute"
+        },
+        {
+          "name": "DeletePortal",
+          "value": "2 requests per minute"
+        },
+        {
+          "name": "PreviewPortal",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "DisablePortal",
+          "value": "2 requests per minute"
+        },
+        {
+          "name": "GetPortalProduct",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "ListPortalProduct",
+          "value": "5 requests per second"
+        },
+        {
+          "name": "CreatePortalProduct",
+          "value": "2 requests per second"
+        },
+        {
+          "name": "UpdatePortalProduct",
+          "value": "0.5 requests per second"
+        },
+        {
+          "name": "DeletePortalProduct",
+          "value": "1 request per second"
+        },
+        {
+          "name": "PutPortalProductSharingPolicy",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "GetPortalProductSharingPolicy",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "DeletePortalProductSharingPolicy",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "CreateProductRestEndpointPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "GetProductRestEndpointPage",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "UpdateProductRestEndpointPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "DeleteProductRestEndpointPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "ListProductRestEndpointPages",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "CreateProductPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "GetProductPage",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "UpdateProductPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "DeleteProductPage",
+          "value": "1 request every 3 seconds"
+        },
+        {
+          "name": "ListProductPages",
+          "value": "10 requests per second"
+        },
+        {
+          "name": "Other operations",
+          "value": "No quota up to the total account quota."
+        },
+        {
+          "name": "Total operations",
+          "value": "10 requests per second with a burst quota of 40 requests per second."
+        },
+        {
+          "name": "Public custom domain names per account per Region",
+          "value": "120"
+        },
+        {
+          "name": "Private custom domain names per account per Region",
+          "value": "50"
+        },
+        {
+          "name": "Regional APIs per Region",
+          "value": "600"
+        },
+        {
+          "name": "Edge-optimized APIs per Region",
+          "value": "120"
+        },
+        {
+          "name": "Private APIs per account per Region",
+          "value": "600"
+        },
+        {
+          "name": "Domain name access associations per account",
+          "value": "100"
+        },
+        {
+          "name": "Multi-level API mappings per domain",
+          "value": "200"
+        },
+        {
+          "name": "Routing rules per domain",
+          "value": "50"
+        },
+        {
+          "name": "Length, in characters, of the URL for an edge-optimized API",
+          "value": "8192"
+        },
+        {
+          "name": "Length, in characters, of the URL for a Regional API",
+          "value": "10240"
+        },
+        {
+          "name": "Length, in characters, of the URL for a private API",
+          "value": "8192"
+        },
+        {
+          "name": "Length, in characters, of API Gateway resource policy",
+          "value": "8192"
+        },
+        {
+          "name": "API keys per account per Region",
+          "value": "10000"
+        },
+        {
+          "name": "Client certificates per account per Region",
+          "value": "60"
+        },
+        {
+          "name": "Authorizers per API (AWS Lambda and Amazon Cognito)",
+          "value": "10"
+        },
+        {
+          "name": "Documentation parts per API",
+          "value": "2000"
+        },
+        {
+          "name": "Resources per API",
+          "value": "300"
+        },
+        {
+          "name": "Length, in characters, of the key in a stage variable",
+          "value": "64"
+        },
+        {
+          "name": "Length, in characters, of the value in a stage variable",
+          "value": "512"
+        },
+        {
+          "name": "Usage plans per account per Region",
+          "value": "300"
+        },
+        {
+          "name": "VPC links per account per Region",
+          "value": "20"
+        },
+        {
+          "name": "API caching TTL",
+          "value": "300 seconds by default and configurable between 0 and 3600 by an API owner."
+        },
+        {
+          "name": "Cached response size",
+          "value": "1048576 Bytes. Cache data encryption may increase the size of the item that is being cached."
+        },
+        {
+          "name": "Integration timeout for Regional APIs",
+          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
+        },
+        {
+          "name": "Integration timeout for edge-optimized APIs",
+          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
+        },
+        {
+          "name": "Integration timeout for private APIs",
+          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
+        },
+        {
+          "name": "Total combined size of all header values, including header names, values, any line terminators, and whitespaces",
+          "value": "10240 Bytes"
+        },
+        {
+          "name": "Total combined size of all header values for a private API",
+          "value": "8000 Bytes"
+        },
+        {
           "name": "Payload size",
           "value": "10 MB"
         },
         {
-          "name": "Timeout (REST)",
-          "value": "29 seconds"
+          "name": "Number of iterations in a \\$1foreach ... \\$1end loop in mapping templates",
+          "value": "1000"
         },
         {
-          "name": "Timeout (HTTP API)",
+          "name": "Maximum mapping template size",
+          "value": "300 KB"
+        },
+        {
+          "name": "Access log template size",
+          "value": "3 KB"
+        },
+        {
+          "name": "Method-level throttling settings for a stage in a usage plan",
+          "value": "20"
+        },
+        {
+          "name": "Model size per API",
+          "value": "400 KB"
+        },
+        {
+          "name": "Number of certificates in a truststore",
+          "value": "1,000 certificates up to 1 MB total object size."
+        },
+        {
+          "name": "Idle connection timeout",
+          "value": "310 seconds"
+        },
+        {
+          "name": "Maximum API definition file size when using restapi:import or restapi:put",
+          "value": "6 MB"
+        },
+        {
+          "name": "Routes per API",
+          "value": "300"
+        },
+        {
+          "name": "Integrations per API",
+          "value": "300"
+        },
+        {
+          "name": "Maximum integration timeout",
           "value": "30 seconds"
         },
         {
-          "name": "Timeout (WebSocket)",
-          "value": "2 hours idle, 10 min message"
+          "name": "Total combined size of request line and header values",
+          "value": "10240 bytes"
+        },
+        {
+          "name": "Custom domains per account per Region",
+          "value": "120"
+        },
+        {
+          "name": "Amazon CloudWatch Logs log entry",
+          "value": "1 MB"
+        },
+        {
+          "name": "Authorizers per API",
+          "value": "10"
+        },
+        {
+          "name": "Audiences per authorizer",
+          "value": "50"
+        },
+        {
+          "name": "Scopes per route",
+          "value": "10"
+        },
+        {
+          "name": "Timeout for JSON Web Key Set endpoint",
+          "value": "1500 ms"
+        },
+        {
+          "name": "Response size from JSON Web Key Set endpoint",
+          "value": "150000 bytes"
+        },
+        {
+          "name": "Timeout for OpenID Connect discovery endpoint",
+          "value": "1500 ms"
+        },
+        {
+          "name": "Timeout for Lambda authorizer response",
+          "value": "10000 ms"
+        },
+        {
+          "name": "Subnets per VPC link",
+          "value": "10"
+        },
+        {
+          "name": "Portal products per portal",
+          "value": "200"
+        },
+        {
+          "name": "Portal products per account",
+          "value": "2000"
+        },
+        {
+          "name": "Product REST endpoint pages per portal product",
+          "value": "40"
+        },
+        {
+          "name": "Product pages per portal product",
+          "value": "40"
+        },
+        {
+          "name": "Logo size",
+          "value": "200 KB"
+        },
+        {
+          "name": "Documentation page size per product REST endpoint page",
+          "value": "32,000 characters"
+        },
+        {
+          "name": "Custom page size for product pages",
+          "value": "32,000 characters"
+        },
+        {
+          "name": "Custom domain names per portal",
+          "value": "1"
+        },
+        {
+          "name": "Authorizers per portal",
+          "value": "1"
+        },
+        {
+          "name": "New connections per second per account (across all WebSocket APIs) per Region",
+          "value": "500"
+        },
+        {
+          "name": "Concurrent connections",
+          "value": "Not applicable \\$1"
+        },
+        {
+          "name": "AWS Lambda authorizers per API",
+          "value": "10"
+        },
+        {
+          "name": "Integration timeout",
+          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
+        },
+        {
+          "name": "Message payload size",
+          "value": "128 KB \\$1\\$1"
+        },
+        {
+          "name": "Length, in characters, of the URL for a WebSocket API",
+          "value": "4096"
         }
-      ]
+      ],
+      "dataStatus": "ok"
     },
     {
       "id": "s3",
@@ -975,18 +1487,6 @@
           "value": "48.828125 TB",
           "description": "The maximum size (in TB) of an Amazon S3 object",
           "unit": "Terabytes"
-        },
-        {
-          "name": "PUT/COPY/POST/DELETE",
-          "value": "3,500 req/s per prefix"
-        },
-        {
-          "name": "GET/HEAD",
-          "value": "5,500 req/s per prefix"
-        },
-        {
-          "name": "Metadata size",
-          "value": "2 KB"
         }
       ],
       "news": [
@@ -1005,7 +1505,8 @@
           "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/"
         }
-      ]
+      ],
+      "dataStatus": "ok"
     },
     {
       "id": "appsync",
@@ -1146,7 +1647,8 @@
           "name": "Request timeout",
           "value": "30 seconds"
         }
-      ]
+      ],
+      "dataStatus": "partial"
     }
   ]
 }
