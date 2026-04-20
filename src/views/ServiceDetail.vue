@@ -10,6 +10,9 @@
           <span class="text-xs font-medium px-2 py-1 rounded-full bg-orange-100 text-orange-700">
             {{ service.category }}
           </span>
+          <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-1 rounded-full bg-yellow-100 text-yellow-700 ml-1" title="Some data sources were unavailable">
+            Partial data
+          </span>
         </div>
       </div>
 
@@ -73,16 +76,29 @@
 
       <!-- Static Limits -->
       <div v-if="staticLimits.length" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">Limits</h2>
-        <div class="space-y-1">
-          <div
-            v-for="l in staticLimits"
-            :key="l.name"
-            class="flex items-start justify-between py-2 border-b border-gray-100"
-          >
-            <span class="text-sm text-gray-500 pr-4">{{ l.name }}</span>
-            <span class="text-sm text-gray-900 font-medium shrink-0">{{ l.value }}</span>
+        <button @click="showLimits = !showLimits" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showLimits ? '▼' : '▶' }}</span>
+          Limits
+          <span class="text-xs font-normal text-gray-400">({{ filteredLimits.length }})</span>
+        </button>
+        <div v-show="showLimits">
+          <input
+            v-model="limitSearch"
+            type="text"
+            placeholder="Search limits..."
+            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          />
+          <div class="space-y-1">
+            <div
+              v-for="l in filteredLimits"
+              :key="l.name"
+              class="py-2 border-b border-gray-100"
+            >
+              <div class="font-medium text-sm text-gray-700">{{ l.name }}</div>
+              <div class="text-sm text-gray-500 mt-0.5">{{ l.value }}</div>
+            </div>
           </div>
+          <p v-if="!filteredLimits.length" class="text-sm text-gray-400 mt-2">No limits match.</p>
         </div>
       </div>
 
@@ -119,8 +135,10 @@ const props = defineProps({ provider: String, id: String })
 const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
 
-const showQuotas = ref(true)
+const showQuotas = ref(false)
+const showLimits = ref(false)
 const quotaSearch = ref('')
+const limitSearch = ref('')
 
 function eolLabel(eol) {
   const now = new Date()
@@ -143,6 +161,17 @@ const quotaFuse = computed(() => new Fuse(apiQuotas.value, {
   keys: ['name', 'description', 'value'],
   threshold: 0.3,
 }))
+
+const limitFuse = computed(() => new Fuse(staticLimits.value, {
+  keys: ['name', 'value'],
+  threshold: 0.3,
+}))
+
+const filteredLimits = computed(() =>
+  limitSearch.value
+    ? limitFuse.value.search(limitSearch.value).map(r => r.item)
+    : staticLimits.value
+)
 
 const filteredQuotas = computed(() =>
   quotaSearch.value
