@@ -629,6 +629,309 @@
           "value": "20,000"
         }
       ]
+    },
+    {
+      "id": "api-gateway",
+      "enabled": true,
+      "name": "Amazon API Gateway",
+      "category": "Integration",
+      "description": "Create, publish, maintain, monitor, and secure APIs at any scale.",
+      "useCases": [
+        "REST APIs",
+        "WebSocket APIs",
+        "HTTP APIs",
+        "API management"
+      ],
+      "pricing": "Pay per API call and data transfer",
+      "url": "https://aws.amazon.com/api-gateway/",
+      "icon": "🔗",
+      "limits": [
+        {
+          "name": "Domain name access associations",
+          "value": "100",
+          "description": "The maximum number of domain name access associations that you can create in this account in the current region"
+        },
+        {
+          "name": "Regional APIs",
+          "value": "600",
+          "description": "The maximum number of regional APIs that you can create in this account in the current region"
+        },
+        {
+          "name": "Maximum Iterations In Mapping Template",
+          "value": "1000",
+          "description": "Maximum number of iterations in a #foreach ... #end loop in mapping templates"
+        },
+        {
+          "name": "Throttle rate",
+          "value": "10000",
+          "description": "The maximum number of requests per second that your APIs can receive in this account in the current region"
+        },
+        {
+          "name": "Maximum Logo Size",
+          "value": "200 KB",
+          "description": "The maximum size of a logo",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "PortalProducts per account",
+          "value": "500",
+          "description": "The maximum number of PortalProducts per account"
+        },
+        {
+          "name": "Maximum Custom Domain Names per Portal",
+          "value": "1",
+          "description": "The maximum number of custom domain names per portal"
+        },
+        {
+          "name": "Resources/Routes per REST/WebSocket API",
+          "value": "300",
+          "description": "The maximum number of resources/routes that you can include in a REST or WebSocket API"
+        },
+        {
+          "name": "WebSocket message payload size",
+          "value": "128 KB",
+          "description": "Maximum WebSocket message payload size.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "Edge-optimized APIs",
+          "value": "120",
+          "description": "The maximum number of edge-optimized APIs that you can create in this account in the current region"
+        },
+        {
+          "name": "Maximum Authorizers per Portal",
+          "value": "1",
+          "description": "The maximum number of authorizer per portal"
+        },
+        {
+          "name": "Routes per HTTP API",
+          "value": "300",
+          "description": "The maximum number of routes that you can include in an HTTP API"
+        },
+        {
+          "name": "Portals per account",
+          "value": "15",
+          "description": "The maximum number of Portals per account"
+        },
+        {
+          "name": "WebSocket new connections burst rate",
+          "value": "500",
+          "description": "New connections in burst capacity per account (across all WebSocket APIs) per region"
+        },
+        {
+          "name": "Stage variables per stage",
+          "value": "100",
+          "description": "Stage variables per stage"
+        },
+        {
+          "name": "WebSocket frame size",
+          "value": "32 KB",
+          "description": "Maximum WebSocket frame size.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "ProductPages per PortalProduct",
+          "value": "40",
+          "description": "The maximum number of ProductPages per PortalProduct"
+        },
+        {
+          "name": "API keys",
+          "value": "10000",
+          "description": "The maximum number of API keys that you can create in this account in the current region"
+        },
+        {
+          "name": "Tags Per Stage",
+          "value": "50",
+          "description": "Maximum tags per stage."
+        },
+        {
+          "name": "VPC links(V2)",
+          "value": "10",
+          "description": "The maximum number of V2 VPC links that you can create in this account in the current Region"
+        },
+        {
+          "name": "Edge API URL Length",
+          "value": "8192",
+          "description": "Length, in characters, of the URL for an edge-optimized API."
+        },
+        {
+          "name": "Stages per API",
+          "value": "10",
+          "description": "The maximum number of stages that you can create for an API"
+        },
+        {
+          "name": "WebSocket new connections rate",
+          "value": "500",
+          "description": "New connections per second per account (across all WebSocket APIs) per region"
+        },
+        {
+          "name": "Maximum Combined Header Size",
+          "value": "10240 Bytes",
+          "description": "Maximum combined size of all header values",
+          "unit": "Bytes"
+        },
+        {
+          "name": "Maximum Size per ProductPage body",
+          "value": "32768 Bytes",
+          "description": "The maximum size per ProductPage body",
+          "unit": "Bytes"
+        },
+        {
+          "name": "Regional API URL Length",
+          "value": "10240",
+          "description": "Length, in characters, of the URL for a regional API"
+        },
+        {
+          "name": "ProductRestEndpointPages per PortalProduct",
+          "value": "40",
+          "description": "The maximum number of ProductRestEndpointPages per PortalProduct"
+        },
+        {
+          "name": "Custom Domain Names",
+          "value": "120",
+          "description": "The maximum number of Custom domain names that you can create in this account in the current region"
+        },
+        {
+          "name": "PortalProducts per Portal",
+          "value": "200",
+          "description": "The maximum number of PortalProducts per Portal"
+        },
+        {
+          "name": "Usage plans",
+          "value": "300",
+          "description": "The maximum number of usage plans that you can create in this account in the current region"
+        },
+        {
+          "name": "RoutingRules Per Domain Name",
+          "value": "50",
+          "description": "The maximum number of RoutingRules per DomainName that you can create in this account in the current region"
+        },
+        {
+          "name": "Stage Variable Key Length",
+          "value": "64",
+          "description": "Length, in characters, of the key in a stage variable"
+        },
+        {
+          "name": "AWS Lambda authorizer result size",
+          "value": "8 KB",
+          "description": "The maximum size of AWS Lambda authorizer result.",
+          "unit": "Kilobytes"
+        },
+        {
+          "name": "VPC links",
+          "value": "20",
+          "description": "The maximum number of VPC links that you can create in this account in the current region"
+        },
+        {
+          "name": "Subnets per VPC link(V2)",
+          "value": "10",
+          "description": "The maximum number of subnets per V2 VPC link in this account in the current Region"
+        },
+        {
+          "name": "Maximum Documentation Size per ProductRestEndpointPage",
+          "value": "32768 Bytes",
+          "description": "The maximum documentation size per ProductRestEndpointPage",
+          "unit": "Bytes"
+        },
+        {
+          "name": "Stage Variable Value Length",
+          "value": "512",
+          "description": "Length, in characters, of the value in a stage variable"
+        },
+        {
+          "name": "Maximum Cached Response Size",
+          "value": "1048576 Bytes",
+          "description": "Maximum size of cached response in bytes",
+          "unit": "Bytes"
+        },
+        {
+          "name": "Usage plans per API key",
+          "value": "10",
+          "description": "The maximum number of usage plans that you can associate with an API key"
+        },
+        {
+          "name": "Private custom domain names",
+          "value": "50",
+          "description": "The maximum number of private custom domain names that you can create in this account in the current region"
+        },
+        {
+          "name": "Throttle burst rate",
+          "value": "5000",
+          "description": "The maximum number of additional requests per second (RPS) that you can send in one burst in this account in the current region"
+        },
+        {
+          "name": "WebSocket Idle Connection Timeout",
+          "value": "600 Seconds",
+          "description": "WebSocket API idle connection timeout.",
+          "unit": "Seconds"
+        },
+        {
+          "name": "Method ARN Length",
+          "value": "1600 Bytes",
+          "description": "ARN length of a method with authorization",
+          "unit": "Bytes"
+        },
+        {
+          "name": "Maximum integration timeout in milliseconds",
+          "value": "29000 Milliseconds",
+          "description": "The maximum integration timeout (in milliseconds) allowed for your account in the current region. This limit can only be increased for Regional and private APIs.",
+          "unit": "Milliseconds"
+        },
+        {
+          "name": "Maximum API caching TTL",
+          "value": "3600 Seconds",
+          "description": "The maximum API caching TTL you can have in this account in the current region.",
+          "unit": "Seconds"
+        },
+        {
+          "name": "API Payload Size",
+          "value": "10 MB",
+          "description": "Maximum payload size for non WebSocket API.",
+          "unit": "Megabytes"
+        },
+        {
+          "name": "Maximum resource policy size in bytes",
+          "value": "8192",
+          "description": "The maximum resource policy size in bytes you can have in this account in the current region."
+        },
+        {
+          "name": "Private APIs",
+          "value": "600",
+          "description": "The maximum number of private APIs that you can create in this account in the current region"
+        },
+        {
+          "name": "Client certificates",
+          "value": "60",
+          "description": "The maximum number of certificates that you can associate with this account in the current region"
+        },
+        {
+          "name": "Connection duration for WebSocket API",
+          "value": "7200 Seconds",
+          "description": "Maximum duration for WebSocket API connection.",
+          "unit": "Seconds"
+        },
+        {
+          "name": "API Stage throttles in a usage plan",
+          "value": "20",
+          "description": "The maximum number of API-stage throttle settings you can create in a usage plan in this account in the current region"
+        },
+        {
+          "name": "Payload size",
+          "value": "10 MB"
+        },
+        {
+          "name": "Timeout (REST)",
+          "value": "29 seconds"
+        },
+        {
+          "name": "Timeout (HTTP API)",
+          "value": "30 seconds"
+        },
+        {
+          "name": "Timeout (WebSocket)",
+          "value": "2 hours idle, 10 min message"
+        }
+      ]
     }
   ]
 }
