@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-21",
   "services": [
     {
       "id": "lambda",
@@ -663,27 +663,31 @@
           "description": "The length of time, in minutes, by which to delay the initial delivery of messages to a queue."
         },
         {
-          "name": "Bytes",
-          "value": "8,192"
+          "name": "Message retention",
+          "value": "1 min – 14 days"
         },
         {
-          "name": "Conditions",
-          "value": "10"
+          "name": "Visibility timeout",
+          "value": "0 s – 12 hours"
         },
         {
-          "name": "Principals",
-          "value": "50"
+          "name": "Long poll wait",
+          "value": "0 – 20 seconds"
         },
         {
-          "name": "Statements",
-          "value": "20"
+          "name": "Batch size",
+          "value": "10 messages"
         },
         {
-          "name": "Actions per statement",
-          "value": "7"
+          "name": "In-flight (standard)",
+          "value": "120,000"
+        },
+        {
+          "name": "In-flight (FIFO)",
+          "value": "20,000"
         }
       ],
-      "dataStatus": "ok"
+      "dataStatus": "partial"
     },
     {
       "id": "api-gateway",
@@ -1490,6 +1494,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-04",
+          "title": "Amazon S3 Express One Zone now supports S3 Inventory",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/"
+        },
         {
           "date": "2026-04",
           "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
