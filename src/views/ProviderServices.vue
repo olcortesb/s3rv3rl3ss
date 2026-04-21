@@ -58,6 +58,14 @@ const filtered = computed(() => {
   if (selectedCategory.value) {
     results = results.filter(s => s.category === selectedCategory.value)
   }
+
+  // Sort: services with recent news first
+  results.sort((a, b) => {
+    const aDate = a.news?.[0]?.date || ''
+    const bDate = b.news?.[0]?.date || ''
+    return bDate.localeCompare(aDate)
+  })
+
   return results
 })
 </script>
