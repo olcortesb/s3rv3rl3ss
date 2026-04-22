@@ -1,5 +1,6 @@
 import providersData from '../data/providers.json'
 import awsData from '../data/services-aws.json'
+import changelogData from '../data/changelog.json'
 
 const dataMap = { aws: awsData }
 
@@ -11,4 +12,8 @@ export function getProviderData(providerId) {
 
 export function getProvider(providerId) {
   return providersData.providers.find(p => p.id === providerId) || null
+}
+
+export function getChangelog(serviceId) {
+  return (changelogData.changes || []).filter(c => c.service === serviceId)
 }

@@ -119,6 +119,24 @@
       <h2 class="font-semibold text-gray-900 mb-2">Pricing</h2>
       <p class="text-gray-600 mb-6">{{ service.pricing }}</p>
 
+      <!-- Changelog -->
+      <div v-if="changelog.length" class="mb-6">
+        <button @click="showChangelog = !showChangelog" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showChangelog ? '▼' : '▶' }}</span>
+          Changelog
+          <span class="text-xs font-normal text-gray-400">({{ changelog.length }})</span>
+        </button>
+        <div v-show="showChangelog">
+          <ul class="space-y-2">
+            <li v-for="(c, i) in changelog" :key="i" class="flex gap-3 text-sm">
+              <span class="text-gray-400 shrink-0">{{ c.date }}</span>
+              <span class="shrink-0">{{ typeIcon(c.type) }}</span>
+              <span class="text-gray-700">{{ c.detail }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <a :href="service.url" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition text-sm">
         View on {{ provider.toUpperCase() }} →
       </a>
@@ -130,16 +148,33 @@
 <script setup>
 import { ref, computed } from 'vue'
 import Fuse from 'fuse.js'
-import { getProviderData } from '../data/index.js'
+import { getProviderData, getChangelog } from '../data/index.js'
 
 const props = defineProps({ provider: String, id: String })
 const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
+const changelog = computed(() => getChangelog(props.id))
 
 const showQuotas = ref(false)
 const showLimits = ref(false)
+const showChangelog = ref(false)
 const quotaSearch = ref('')
 const limitSearch = ref('')
+
+const TYPE_ICONS = {
+  quota_changed: '📊',
+  quota_added: '📊',
+  quota_removed: '📊',
+  new_runtime: '⚙️',
+  runtime_changed: '⚙️',
+  runtime_removed: '⚙️',
+  new_news: '📰',
+  service_added: '🆕',
+}
+
+function typeIcon(type) {
+  return TYPE_ICONS[type] || '🔹'
+}
 
 function eolLabel(eol) {
   const now = new Date()
