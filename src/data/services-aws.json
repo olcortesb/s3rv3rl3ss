@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21",
+  "lastUpdated": "2026-04-22",
   "services": [
     {
       "id": "lambda",
@@ -479,6 +479,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-04",
+          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
+        },
+        {
+          "date": "2026-04",
+          "title": "AWS Lambda Durable Execution SDK for Java GA",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/"
+        },
         {
           "date": "2026-04",
           "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
@@ -1496,6 +1506,11 @@
       "news": [
         {
           "date": "2026-04",
+          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
+        },
+        {
+          "date": "2026-04",
           "title": "Amazon S3 Express One Zone now supports S3 Inventory",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/"
         },
@@ -1508,11 +1523,6 @@
           "date": "2026-04",
           "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/"
-        },
-        {
-          "date": "2026-04",
-          "title": "Amazon S3 starts rolling out new security best practice to new and existing buckets by default",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-default-bucket-security-setting/"
         }
       ],
       "dataStatus": "ok"
