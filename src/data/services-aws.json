@@ -6,7 +6,7 @@
       "enabled": true,
       "name": "AWS Lambda",
       "category": "Compute",
-      "description": "Run code without provisioning or managing servers. Pay only for the compute time you consume.",
+      "description": "AWS Lambda is a serverless, event-driven compute service that lets you run code for virtually any type of application or backend service without provisioning or managing servers.",
       "useCases": [
         "APIs",
         "Event processing",
@@ -532,11 +532,6 @@
         },
         {
           "date": "2026-04",
-          "title": "AWS Lambda expands response streaming support to all commercial AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-response-streaming/"
-        },
-        {
-          "date": "2026-04",
           "title": "Building Memory-Intensive Apps with AWS Lambda Managed Instances",
           "url": "https://aws.amazon.com/blogs/compute/building-memory-intensive-apps-with-aws-lambda-managed-instances/"
         },
@@ -578,7 +573,7 @@
       "enabled": true,
       "name": "Amazon DynamoDB",
       "category": "Database",
-      "description": "Fast, flexible NoSQL database service for single-digit millisecond performance at any scale.",
+      "description": "Amazon DynamoDB is a serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale.",
       "useCases": [
         "Key-value store",
         "Session management",
@@ -644,13 +639,6 @@
           "adjustable": true
         }
       ],
-      "news": [
-        {
-          "date": "2026-03",
-          "title": "Enabling nested transactions in Amazon DynamoDB using C#",
-          "url": "https://aws.amazon.com/blogs/database/enabling-nested-transactions-in-amazon-dynamodb-using-c/"
-        }
-      ],
       "dataStatus": "ok"
     },
     {
@@ -658,7 +646,7 @@
       "enabled": true,
       "name": "Amazon SQS",
       "category": "Integration",
-      "description": "Fully managed message queuing service to decouple and scale microservices.",
+      "description": "Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.",
       "useCases": [
         "Message queuing",
         "Decoupling services",
@@ -814,7 +802,7 @@
       "enabled": true,
       "name": "Amazon API Gateway",
       "category": "Integration",
-      "description": "Create, publish, maintain, monitor, and secure APIs at any scale.",
+      "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.",
       "useCases": [
         "REST APIs",
         "WebSocket APIs",
@@ -1625,7 +1613,7 @@
       "enabled": true,
       "name": "Amazon S3",
       "category": "Storage",
-      "description": "Object storage built to retrieve any amount of data from anywhere.",
+      "description": "Amazon S3 is an object storage service offering industry-leading scalability, data availability, security, and performance.",
       "useCases": [
         "Static hosting",
         "Data lake",
@@ -1728,7 +1716,7 @@
       "enabled": true,
       "name": "AWS AppSync",
       "category": "Integration",
-      "description": "Managed GraphQL service to build data-driven apps with real-time and offline capabilities.",
+      "description": "AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by handling the heavy lifting of securely connecting to data sources like DynamoDB, Lambda, and more.",
       "useCases": [
         "GraphQL APIs",
         "Real-time data sync",
@@ -1928,7 +1916,7 @@
       "enabled": true,
       "name": "Amazon EventBridge",
       "category": "Integration",
-      "description": "Serverless event bus that connects applications using events from your apps, SaaS, and AWS services.",
+      "description": "Amazon EventBridge is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated SaaS applications, and AWS services.",
       "useCases": [
         "Event-driven architecture",
         "SaaS integration",
@@ -2056,7 +2044,7 @@
       "enabled": true,
       "name": "Amazon SNS",
       "category": "Integration",
-      "description": "Fully managed pub/sub messaging and mobile notifications service.",
+      "description": "Amazon SNS is a fully managed messaging service for both application-to-application and application-to-person communication.",
       "useCases": [
         "Push notifications",
         "Fan-out patterns",
@@ -2343,7 +2331,7 @@
       "enabled": true,
       "name": "Amazon Cognito",
       "category": "Security",
-      "description": "Add user sign-up, sign-in, and access control to your web and mobile apps.",
+      "description": "Amazon Cognito lets you easily add user sign-up and authentication to your mobile and web apps. Amazon Cognito also enables you to authenticate users through an external identity provider.",
       "useCases": [
         "User authentication",
         "Social login",
