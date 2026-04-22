@@ -26,8 +26,12 @@
       </div>
 
       <div v-if="service.runtimes" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">Runtime Support</h2>
-        <div class="flex flex-wrap gap-2">
+        <button @click="showRuntimes = !showRuntimes" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showRuntimes ? '▼' : '▶' }}</span>
+          Runtime Support
+          <span class="text-xs font-normal text-gray-400">({{ service.runtimes.length }})</span>
+        </button>
+        <div v-show="showRuntimes" class="flex flex-wrap gap-2">
           <span
             v-for="rt in service.runtimes"
             :key="rt.name"
@@ -155,6 +159,7 @@ const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
 const changelog = computed(() => getChangelog(props.id))
 
+const showRuntimes = ref(false)
 const showQuotas = ref(false)
 const showLimits = ref(false)
 const showChangelog = ref(false)
@@ -177,13 +182,11 @@ function typeIcon(type) {
 }
 
 function eolLabel(eol) {
-  const now = new Date()
   const end = new Date(eol)
-  const diff = Math.ceil((end - now) / (1000 * 60 * 60 * 24))
-  if (diff < 0) return '(expired)'
-  if (diff < 90) return `(${diff}d left)`
-  const months = Math.round(diff / 30)
-  return `(~${months}mo)`
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+  const now = new Date()
+  if (end < now) return '(expired)'
+  return `(${months[end.getMonth()]} ${end.getFullYear()})`
 }
 
 const apiQuotas = computed(() =>
