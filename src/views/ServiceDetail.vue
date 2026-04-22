@@ -65,6 +65,7 @@
             >
               <div class="pr-4 min-w-0">
                 <span class="text-sm text-gray-700">{{ l.name }}</span>
+                <span v-if="l.adjustable" class="ml-1 text-xs px-1.5 py-0.5 rounded bg-blue-50 text-blue-600" title="This quota can be increased">adjustable</span>
                 <p v-if="l.description" class="text-xs text-gray-400 mt-0.5">{{ l.description }}</p>
               </div>
               <span class="text-sm text-gray-900 font-medium shrink-0">{{ l.value }}</span>
