@@ -1518,11 +1518,6 @@
           "date": "2026-04",
           "title": "Amazon S3 Lifecycle pauses actions on objects that are unable to replicate",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-lifecycle-pauses-actions-on-objects/"
-        },
-        {
-          "date": "2026-04",
-          "title": "Announcing Amazon S3 Files, making S3 buckets accessible as file systems",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-s3-files/"
         }
       ],
       "dataStatus": "ok"
@@ -1665,6 +1660,496 @@
         {
           "name": "Request timeout",
           "value": "30 seconds"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "eventbridge",
+      "enabled": true,
+      "name": "Amazon EventBridge",
+      "category": "Integration",
+      "description": "Serverless event bus that connects applications using events from your apps, SaaS, and AWS services.",
+      "useCases": [
+        "Event-driven architecture",
+        "SaaS integration",
+        "Scheduling",
+        "Cross-account events"
+      ],
+      "pricing": "Pay per event published",
+      "url": "https://aws.amazon.com/eventbridge/",
+      "icon": "📡",
+      "limits": [
+        {
+          "name": "Throttle limit in transactions per second for control plane APIs",
+          "value": "50",
+          "description": "Maximum number of requests per second for EventBridge control plane API operations. Additional requests are throttled."
+        },
+        {
+          "name": "Event pattern size",
+          "value": "2048",
+          "description": "Maximum size of an event pattern, in characters."
+        },
+        {
+          "name": "Invocations throttle limit in transactions per second",
+          "value": "18750",
+          "description": "An invocation is an event matching a rule and being sent on to the rule's targets. After the limit is reached, the invocations are throttled; that is, they still happen but they are delayed."
+        },
+        {
+          "name": "CreateEndpoint throttle limit in transactions per second",
+          "value": "5",
+          "description": "The maximum number of requests per second for CreateEndpoint API. Additional requests are throttled."
+        },
+        {
+          "name": "Rate of invocations per API destination",
+          "value": "300",
+          "description": "The maximum number of invocations per second to send to each API destination endpoint per account per Region. Once the quota is met, future invocations to that API endpoint are throttled. The invocations will still occur, but are delayed."
+        },
+        {
+          "name": "Number of rules",
+          "value": "300",
+          "description": "Maximum number of rules an account can have per event bus"
+        },
+        {
+          "name": "Event bus policy size",
+          "value": "10240",
+          "description": "Maximum policy size, in characters. This policy size increases each time you grant access to another account. You can see your current policy and its size by using the DescribeEventBus API."
+        },
+        {
+          "name": "Event buses",
+          "value": "100",
+          "description": "Maximum event buses per account."
+        },
+        {
+          "name": "Api destinations",
+          "value": "3000",
+          "description": "The maximum number of API destinations per account per Region."
+        },
+        {
+          "name": "PutEvents throttle limit in transactions per second",
+          "value": "10000",
+          "description": "Maximum number of requests per second for PutEvents API. Additional requests are throttled."
+        },
+        {
+          "name": "Connections",
+          "value": "3000",
+          "description": "The maximum number of connections per account per Region."
+        },
+        {
+          "name": "DeleteEndpoint throttle limit in transactions per second",
+          "value": "5",
+          "description": "The maximum number of requests per second for DeleteEndpoint API. Additional requests are throttled."
+        },
+        {
+          "name": "Endpoints",
+          "value": "100",
+          "description": "The maximum number of endpoints per account per Region."
+        },
+        {
+          "name": "Targets per rule",
+          "value": "5",
+          "description": "Maximum number of targets that can be associated with a rule"
+        },
+        {
+          "name": "UpdateEndpoint throttle limit in transactions per second",
+          "value": "5",
+          "description": "The maximum number of requests per second for UpdateEndpoint API. Additional requests are throttled."
+        },
+        {
+          "name": "Event size",
+          "value": "256 KB"
+        },
+        {
+          "name": "Rules per event bus",
+          "value": "300"
+        },
+        {
+          "name": "Invocation rate",
+          "value": "10,000/s (soft)"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "sns",
+      "enabled": true,
+      "name": "Amazon SNS",
+      "category": "Integration",
+      "description": "Fully managed pub/sub messaging and mobile notifications service.",
+      "useCases": [
+        "Push notifications",
+        "Fan-out patterns",
+        "Alerts",
+        "Email/SMS delivery"
+      ],
+      "pricing": "Pay per publish and delivery",
+      "url": "https://aws.amazon.com/sns/",
+      "icon": "📢",
+      "limits": [
+        {
+          "name": "ListSubscriptionsByTopic Transactions per Second",
+          "value": "30",
+          "description": "The maximum number of times the ListSubscriptionsByTopic action can be called per second."
+        },
+        {
+          "name": "ListOriginationNumbers Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the ListOriginationNumbers action can be called per second."
+        },
+        {
+          "name": "AddPermission Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the AddPermission action can be called per second."
+        },
+        {
+          "name": "SetEndpointAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the SetEndpointAttributes action can be called per second."
+        },
+        {
+          "name": "SetSubscriptionAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the SetSubscriptionAttributes action can be called per second."
+        },
+        {
+          "name": "DeletePlatformApplication Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the DeletePlatformApplication action can be called per second."
+        },
+        {
+          "name": "SetSMSAttributes Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the SetSMSAttributes action can be called per second."
+        },
+        {
+          "name": "VerifySMSSandboxPhoneNumber Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the VerifySMSSandboxPhoneNumber action can be called per second."
+        },
+        {
+          "name": "Filter Policies per Account",
+          "value": "10000",
+          "description": "The maximum number of Amazon SNS filter policies that an AWS account can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy)."
+        },
+        {
+          "name": "ListPlatformApplications Transactions per Second",
+          "value": "15",
+          "description": "The maximum number of times the ListPlatformApplications action can be called per second."
+        },
+        {
+          "name": "GetSMSSandboxAccountStatus Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the GetSMSSandboxAccountStatus action can be called per second."
+        },
+        {
+          "name": "DeleteSMSSandboxPhoneNumber Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the DeleteSMSSandboxPhoneNumber action can be called per second."
+        },
+        {
+          "name": "CreateTopic Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the CreateTopic action can be called per second."
+        },
+        {
+          "name": "ListSubscriptions Transactions per Second",
+          "value": "30",
+          "description": "The maximum number of times the ListSubscriptions action can be called per second."
+        },
+        {
+          "name": "GetPlatformApplicationAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the GetPlatformApplicationAttributes action can be called per second."
+        },
+        {
+          "name": "DeleteTopic Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the DeleteTopic action can be called per second."
+        },
+        {
+          "name": "ListTagsForResource Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the ListTagsForResource action can be called per second."
+        },
+        {
+          "name": "UntagResource Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the UntagResource action can be called per second."
+        },
+        {
+          "name": "Pending Subscriptions per Account",
+          "value": "5000",
+          "description": "The maximum number of pending subscriptions per AWS account, across all regions."
+        },
+        {
+          "name": "Subscriptions per Topic",
+          "value": "12500000",
+          "description": "The maximum number of subscriptions per topic, including confirmed and pending subscriptions."
+        },
+        {
+          "name": "ListSMSSandboxPhoneNumbers Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the ListSMSSandboxPhoneNumbers action can be called per second."
+        },
+        {
+          "name": "CreateSMSSandboxPhoneNumber Transactions per Second",
+          "value": "1",
+          "description": "The maximum number of times the CreateSMSSandboxPhoneNumber action can be called per second."
+        },
+        {
+          "name": "TagResource Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the TagResource action can be called per second."
+        },
+        {
+          "name": "ListTopics Transactions per Second",
+          "value": "30",
+          "description": "The maximum number of times the ListTopics action can be called per second."
+        },
+        {
+          "name": "Subscribe Transactions per Second",
+          "value": "100",
+          "description": "The maximum number of times the Subscribe action can be called per second."
+        },
+        {
+          "name": "SetPlatformApplicationAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the SetPlatformApplicationAttributes action can be called per second."
+        },
+        {
+          "name": "SetTopicAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the SetTopicAttributes action can be called per second."
+        },
+        {
+          "name": "CreatePlatformApplication Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the CreatePlatformApplication action can be called per second."
+        },
+        {
+          "name": "Topics per Account",
+          "value": "100000",
+          "description": "The maximum number of Amazon SNS topics that an AWS account can create across all regions."
+        },
+        {
+          "name": "Filter Policies per Topic",
+          "value": "200",
+          "description": "The maximum number of Amazon SNS filter policies that an Amazon SNS topic can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy)."
+        },
+        {
+          "name": "Unsubscribe Transactions per Second",
+          "value": "100",
+          "description": "The maximum number of times the Unsubscribe action can be called per second."
+        },
+        {
+          "name": "GetSMSAttributes Transactions per Second",
+          "value": "20",
+          "description": "The maximum number of times the GetSMSAttributes action can be called per second."
+        },
+        {
+          "name": "Messages Published per Second",
+          "value": "30000",
+          "description": "The maximum number of messages published per second. Utilization value displays per minute usage."
+        },
+        {
+          "name": "RemovePermission Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the RemovePermission action can be called per second."
+        },
+        {
+          "name": "ListEndpointsByPlatformApplication Transactions per Second",
+          "value": "30",
+          "description": "The maximum number of times the ListEndpointsByPlatformApplication action can be called per second."
+        },
+        {
+          "name": "ListPhoneNumbersOptedOut Transactions per Second",
+          "value": "10",
+          "description": "The maximum number of times the ListPhoneNumbersOptedOut action can be called per second."
+        },
+        {
+          "name": "CheckIfPhoneNumberIsOptedOut Transactions per Second",
+          "value": "50",
+          "description": "The maximum number of times the CheckIfPhoneNumberIsOptedOut action can be called per second."
+        },
+        {
+          "name": "CreatePlatformEndpoint Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the CreatePlatformEndpoint action can be called per second."
+        },
+        {
+          "name": "GetTopicAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the GetTopicAttributes action can be called per second."
+        },
+        {
+          "name": "ConfirmSubscription Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the ConfirmSubscription action can be called per second."
+        },
+        {
+          "name": "GetSubscriptionAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the GetSubscriptionAttributes action can be called per second."
+        },
+        {
+          "name": "OptInPhoneNumber Transactions per Second",
+          "value": "20",
+          "description": "The maximum number of times the OptInPhoneNumber action can be called per second."
+        },
+        {
+          "name": "GetEndpointAttributes Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the GetEndpointAttributes action can be called per second."
+        },
+        {
+          "name": "DeleteEndpoint Transactions per Second",
+          "value": "3000",
+          "description": "The maximum number of times the DeleteEndpoint action can be called per second."
+        },
+        {
+          "name": "Message size",
+          "value": "256 KB"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "cognito",
+      "enabled": true,
+      "name": "Amazon Cognito",
+      "category": "Security",
+      "description": "Add user sign-up, sign-in, and access control to your web and mobile apps.",
+      "useCases": [
+        "User authentication",
+        "Social login",
+        "MFA",
+        "User management"
+      ],
+      "pricing": "Pay per MAU (monthly active user)",
+      "url": "https://aws.amazon.com/cognito/",
+      "icon": "🔐",
+      "limits": [
+        {
+          "name": "Rate of UserToken requests",
+          "value": "120",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserToken category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserFederation requests",
+          "value": "25",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserFederation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "User import jobs per user pool",
+          "value": "1000",
+          "description": "The maximum number of user import jobs per user pool."
+        },
+        {
+          "name": "Identity providers per user pool",
+          "value": "300",
+          "description": "The maximum number of identity providers per user pool."
+        },
+        {
+          "name": "Rate of UserPoolResourceRead requests per account",
+          "value": "20",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserResourceUpdate requests",
+          "value": "25",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserList requests",
+          "value": "30",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserList category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserPoolRead requests",
+          "value": "15",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserResourceRead requests",
+          "value": "50",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserAccountRecovery requests",
+          "value": "30",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAccountRecovery category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserAuthentication requests",
+          "value": "120",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserPoolUpdate requests",
+          "value": "15",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "User pools per account",
+          "value": "1000",
+          "description": "The maximum number of user pools that you can create in this account per region."
+        },
+        {
+          "name": "Rate of UserRead requests",
+          "value": "120",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of ClientAuthentication requests per account",
+          "value": "150",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the ClientAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserPoolResourceUpdate requests per account",
+          "value": "15",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Apps per user pool",
+          "value": "1000",
+          "description": "The maximum number of app clients per user pool."
+        },
+        {
+          "name": "Rate of UserUpdate requests",
+          "value": "25",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Resource servers per user pool",
+          "value": "25",
+          "description": "The maximum number of resource servers per user pool. A resource server is a server for access-protected resources."
+        },
+        {
+          "name": "Rate of UserCreation requests",
+          "value": "50",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserCreation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserPoolClientUpdate requests per account",
+          "value": "15",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "Rate of UserPoolClientRead requests per account",
+          "value": "15",
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+        },
+        {
+          "name": "App clients per pool",
+          "value": "1,000"
+        },
+        {
+          "name": "Custom attributes per pool",
+          "value": "50"
+        },
+        {
+          "name": "Groups per pool",
+          "value": "10,000"
         }
       ],
       "dataStatus": "partial"
