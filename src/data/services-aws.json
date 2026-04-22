@@ -20,222 +20,263 @@
         {
           "name": "Rate of capacity provider write API requests",
           "value": "1",
-          "description": "The maximum combined rate (requests per second) for all capacity provider write APIs."
+          "description": "The maximum combined rate (requests per second) for all capacity provider write APIs.",
+          "adjustable": false
         },
         {
           "name": "Rate of SendDurableExecutionCallbackSuccess API requests",
           "value": "300",
-          "description": "The maximum number of SendDurableExecutionCallbackSuccess API requests per second."
+          "description": "The maximum number of SendDurableExecutionCallbackSuccess API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Rate of GetDurableExecutionHistory API requests",
           "value": "15",
-          "description": "The maximum number of GetDurableExecutionHistory API requests per second."
+          "description": "The maximum number of GetDurableExecutionHistory API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Function and layer storage",
           "value": "75 GB",
           "description": "The amount of storage that's available for deployment packages and layer archives in the current Region.",
-          "unit": "Gigabytes"
+          "unit": "Gigabytes",
+          "adjustable": true
         },
         {
           "name": "Function timeout",
           "value": "900",
-          "description": "The maximum timeout that you can configure for a function."
+          "description": "The maximum timeout that you can configure for a function.",
+          "adjustable": false
         },
         {
           "name": "Synchronous payload",
           "value": "6 MB",
           "description": "The maximum size of an incoming synchronous invocation request or outgoing response.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Rate of GetDurableExecution API requests",
           "value": "30",
-          "description": "The maximum number of GetDurableExecution API requests per second."
+          "description": "The maximum number of GetDurableExecution API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Rate of control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
           "value": "15",
-          "description": "The maximum number of API requests per second (excluding invocation, GetFunction, and GetPolicy requests)."
+          "description": "The maximum number of API requests per second (excluding invocation, GetFunction, and GetPolicy requests).",
+          "adjustable": false
         },
         {
           "name": "Concurrent executions",
           "value": "1000",
           "description": "The maximum number of events that functions can process simultaneously in the current Region.",
-          "unit": "Count"
+          "unit": "Count",
+          "adjustable": true
         },
         {
           "name": "SQS Event Source Mapping throughput in default mode on Lambda Managed Instances",
           "value": "5 MB/s",
           "description": "The maximum data throughput (MB/s) per SQS event source mapping in default mode on Lambda Managed Instances.",
-          "unit": "Megabytes/Second"
+          "unit": "Megabytes/Second",
+          "adjustable": false
         },
         {
           "name": "Deployment package size (unzipped)",
           "value": "250 MB",
           "description": "The maximum size of the contents of a deployment package or layer archive when it's unzipped.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Maximum running durable executions",
           "value": "1000000",
-          "description": "The maximum number of durable executions that can be running simultaneously in the current region."
+          "description": "The maximum number of durable executions that can be running simultaneously in the current region.",
+          "adjustable": true
         },
         {
           "name": "Deployment package size (direct upload)",
           "value": "50 MB",
           "description": "The maximum size of a deployment package or layer archive when you upload it directly to Lambda. Upload larger files with Amazon S3.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Capacity providers",
           "value": "1000",
-          "description": "The maximum number of capacity providers that can be created in an account."
+          "description": "The maximum number of capacity providers that can be created in an account.",
+          "adjustable": true
         },
         {
           "name": "Rate of SendDurableExecutionCallbackFailure API requests",
           "value": "300",
-          "description": "The maximum number of SendDurableExecutionCallbackFailure API requests per second."
+          "description": "The maximum number of SendDurableExecutionCallbackFailure API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Kinesis Event Source Mapping throughput on Lambda Managed Instances",
           "value": "25 MB/s",
           "description": "The maximum data throughput (MB/s) per Kinesis event source mapping on Lambda Managed Instances.",
-          "unit": "Megabytes/Second"
+          "unit": "Megabytes/Second",
+          "adjustable": true
         },
         {
           "name": "Rate of SendDurableExecutionCallbackHeartbeat API requests",
           "value": "300",
-          "description": "The maximum number of SendDurableExecutionCallbackHeartbeat API requests per second."
+          "description": "The maximum number of SendDurableExecutionCallbackHeartbeat API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Environment variable size",
           "value": "4 KB",
           "description": "The maximum combined size of environment variables that are configured on a function.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Rate of GetFunction API requests",
           "value": "100",
-          "description": "The maximum number of GetFunction API requests per second."
+          "description": "The maximum number of GetFunction API requests per second.",
+          "adjustable": false
         },
         {
           "name": "Rate of CheckpointDurableExecution API requests",
           "value": "1000",
-          "description": "The maximum number of CheckpointDurableExecution API requests per second."
+          "description": "The maximum number of CheckpointDurableExecution API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Function versions per capacity provider",
           "value": "100",
-          "description": "The maximum number of function versions per capacity provider."
+          "description": "The maximum number of function versions per capacity provider.",
+          "adjustable": false
         },
         {
           "name": "Maximum number of durable operations per durable execution",
           "value": "3000",
-          "description": "The maximum number of durable operations (including customer-initiated operations and automatic retries) that trigger state persistence within a single durable execution."
+          "description": "The maximum number of durable operations (including customer-initiated operations and automatic retries) that trigger state persistence within a single durable execution.",
+          "adjustable": false
         },
         {
           "name": "Function invocation rate to initiate durable executions",
           "value": "300",
-          "description": "The maximum number of new durable executions that you can initiate per second."
+          "description": "The maximum number of new durable executions that you can initiate per second.",
+          "adjustable": true
         },
         {
           "name": "Rate of ListDurableExecutionsByFunction API requests",
           "value": "15",
-          "description": "The maximum number of ListDurableExecutionsByFunction API requests per second."
+          "description": "The maximum number of ListDurableExecutionsByFunction API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Rate of GetDurableExecutionState API requests",
           "value": "1000",
-          "description": "The maximum number of GetDurableExecutionState API requests per second."
+          "description": "The maximum number of GetDurableExecutionState API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Kafka Event Source Mappings in default mode on Lambda Managed Instances",
           "value": "100",
-          "description": "The maximum number of Kafka event source mappings in default mode on Lambda Managed Instances."
+          "description": "The maximum number of Kafka event source mappings in default mode on Lambda Managed Instances.",
+          "adjustable": false
         },
         {
           "name": "Processes and threads",
           "value": "1024",
-          "description": "The maximum combined number of processes and threads that a function can have open."
+          "description": "The maximum combined number of processes and threads that a function can have open.",
+          "adjustable": false
         },
         {
           "name": "Asynchronous invocation request throughput on Lambda Managed Instances",
           "value": "5 MB/s",
           "description": "The maximum invoke request throughput (MB/s) for asynchronous invocations on Lambda Managed Instances. Asynchronous invocations occur when Lambda functions are invoked by services such as Amazon S3 or Amazon SNS.",
-          "unit": "Megabytes/Second"
+          "unit": "Megabytes/Second",
+          "adjustable": true
         },
         {
           "name": "Rate of capacity provider read API requests",
           "value": "15",
-          "description": "The maximum combined rate (requests per second) for all capacity provider read APIs."
+          "description": "The maximum combined rate (requests per second) for all capacity provider read APIs.",
+          "adjustable": false
         },
         {
           "name": "File descriptors",
           "value": "1024",
-          "description": "The maximum number of file descriptors that a function can have open."
+          "description": "The maximum number of file descriptors that a function can have open.",
+          "adjustable": false
         },
         {
           "name": "Kafka Event Source Mapping throughput in default mode on Lambda Managed Instances",
           "value": "1 MB/s",
           "description": "The maximum data throughput (MB/s) per Kafka event source mapping in default mode on Lambda Managed Instances.",
-          "unit": "Megabytes/Second"
+          "unit": "Megabytes/Second",
+          "adjustable": false
         },
         {
           "name": "Rate of GetPolicy API requests",
           "value": "15",
-          "description": "The maximum number of GetPolicy API requests per second."
+          "description": "The maximum number of GetPolicy API requests per second.",
+          "adjustable": false
         },
         {
           "name": "Function layers",
           "value": "5",
-          "description": "The maximum number of layers that you can add to your function."
+          "description": "The maximum number of layers that you can add to your function.",
+          "adjustable": false
         },
         {
           "name": "DynamoDB Event Source Mapping throughput on Lambda Managed Instances",
           "value": "10 MB/s",
           "description": "The maximum data throughput (MB/s) per DynamoDB event source mapping on Lambda Managed Instances.",
-          "unit": "Megabytes/Second"
+          "unit": "Megabytes/Second",
+          "adjustable": true
         },
         {
           "name": "Durable execution storage written in megabytes",
           "value": "100 MB",
           "description": "The maximum cumulative amount of data persisted per durable execution, including input and output payloads, checkpoints and error data, measured in megabytes.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Asynchronous payload",
           "value": "1024 KB",
           "description": "The maximum size of an incoming asynchronous invocation request.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Function resource-based policy",
           "value": "20 KB",
           "description": "The maximum combined size of resource-based policies that are configured on a function.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Deployment package size (console editor)",
           "value": "3 MB",
           "description": "The maximum size of a deployment package or layer archive when you upload it through the console editor. Upload larger files with Amazon S3.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Test events (console editor)",
           "value": "10",
-          "description": "The maximum amount of test events for a function through the console editor."
+          "description": "The maximum amount of test events for a function through the console editor.",
+          "adjustable": false
         },
         {
           "name": "Concurrency scaling rate",
           "value": "1000",
-          "description": "The maximum immediate increase in function concurrency that can occur in response to an increase in traffic or execution duration. Every 10 seconds, each synchronously invoked Lambda function can scale by an additional 1,000 concurrent executions until the total concurrency across your functions in a Region reaches the account concurrency limit."
+          "description": "The maximum immediate increase in function concurrency that can occur in response to an increase in traffic or execution duration. Every 10 seconds, each synchronously invoked Lambda function can scale by an additional 1,000 concurrent executions until the total concurrency across your functions in a Region reaches the account concurrency limit.",
+          "adjustable": false
         },
         {
           "name": "Rate of StopDurableExecution API requests",
           "value": "30",
-          "description": "The maximum number of StopDurableExecution API requests per second."
+          "description": "The maximum number of StopDurableExecution API requests per second.",
+          "adjustable": true
         },
         {
           "name": "Storage for uploaded functions (.zip file archives) and layers",
@@ -516,47 +557,56 @@
         {
           "name": "Global Secondary Indexes per table",
           "value": "20",
-          "description": "The maximum number of global secondary indexes that can be created for a table. For more information, see, https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-secondary-indexes"
+          "description": "The maximum number of global secondary indexes that can be created for a table. For more information, see, https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-secondary-indexes",
+          "adjustable": true
         },
         {
           "name": "Table-level write throughput limit",
           "value": "40000",
-          "description": "The maximum number of write throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+          "description": "The maximum number of write throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes",
+          "adjustable": true
         },
         {
           "name": "Write throughput limit for DynamoDB Streams (Provisioned mode)",
           "value": "40000",
-          "description": "The maximum number of write capacity units allowed for a table with streams enabled; applicable only for tables in provisioned read/write capacity mode. Other quotas might also apply. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-dynamodb-streams"
+          "description": "The maximum number of write capacity units allowed for a table with streams enabled; applicable only for tables in provisioned read/write capacity mode. Other quotas might also apply. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-dynamodb-streams",
+          "adjustable": true
         },
         {
           "name": "Account-level write throughput limit (Provisioned mode)",
           "value": "80000",
-          "description": "The maximum number of write capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+          "description": "The maximum number of write capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes",
+          "adjustable": true
         },
         {
           "name": "Maximum number of tables",
           "value": "2500",
-          "description": "The maximum number of tables that can be created per region. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-tables"
+          "description": "The maximum number of tables that can be created per region. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-tables",
+          "adjustable": true
         },
         {
           "name": "Table-level read throughput limit",
           "value": "40000",
-          "description": "The maximum number of read throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+          "description": "The maximum number of read throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes",
+          "adjustable": true
         },
         {
           "name": "Concurrent control plane operations",
           "value": "500",
-          "description": "The maximum number of allowed concurrent control plane operations. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#limits-api"
+          "description": "The maximum number of allowed concurrent control plane operations. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#limits-api",
+          "adjustable": true
         },
         {
           "name": "Account-level read throughput limit (Provisioned mode)",
           "value": "80000",
-          "description": "The maximum number of read capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+          "description": "The maximum number of read capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes",
+          "adjustable": true
         },
         {
           "name": "Provisioned capacity decreases per day",
           "value": "27",
-          "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+          "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
+          "adjustable": true
         }
       ],
       "dataStatus": "ok"
@@ -580,97 +630,115 @@
         {
           "name": "Attributes per Message",
           "value": "10",
-          "description": "The number of attributes added to a message."
+          "description": "The number of attributes added to a message.",
+          "adjustable": false
         },
         {
           "name": "Tags per Queue",
           "value": "50",
-          "description": "The number of tags added to a queue."
+          "description": "The number of tags added to a queue.",
+          "adjustable": false
         },
         {
           "name": "UTF-8 Queue Tag Value Length",
           "value": "256",
-          "description": "The length of a UTF-8 queue tag value."
+          "description": "The length of a UTF-8 queue tag value.",
+          "adjustable": false
         },
         {
           "name": "Conditions per Queue Policy",
           "value": "10",
-          "description": "The number of conditions in a queue policy."
+          "description": "The number of conditions in a queue policy.",
+          "adjustable": false
         },
         {
           "name": "Messages per Batch",
           "value": "10",
-          "description": "The number of messages in a message batch."
+          "description": "The number of messages in a message batch.",
+          "adjustable": false
         },
         {
           "name": "Statements per Queue Policy",
           "value": "20",
-          "description": "The number of statements in a queue policy."
+          "description": "The number of statements in a queue policy.",
+          "adjustable": false
         },
         {
           "name": "Principals per Queue Policy",
           "value": "50",
-          "description": "The number of principals in a queue policy."
+          "description": "The number of principals in a queue policy.",
+          "adjustable": false
         },
         {
           "name": "Queue Name Length",
           "value": "80",
-          "description": "The queue name length."
+          "description": "The queue name length.",
+          "adjustable": false
         },
         {
           "name": "UTF-8 Queue Tag Key Length",
           "value": "128",
-          "description": "The length of a UTF-8 queue tag key."
+          "description": "The length of a UTF-8 queue tag key.",
+          "adjustable": false
         },
         {
           "name": "Message Size",
           "value": "1024 KB",
           "description": "The size of a message, in kilobytes.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Message Retention Time",
           "value": "345600 Seconds",
           "description": "The length of time, in seconds, for which Amazon SQS retains a message if it isn't deleted. The maximum is 14 days (1,209,600 seconds).",
-          "unit": "Seconds"
+          "unit": "Seconds",
+          "adjustable": false
         },
         {
           "name": "Message Size in S3 Bucket",
           "value": "2 GB",
           "description": "The size of a message, in gigabytes, in an Amazon S3 bucket.",
-          "unit": "Gigabytes"
+          "unit": "Gigabytes",
+          "adjustable": false
         },
         {
           "name": "Batched Message ID Length",
           "value": "80",
-          "description": "The length of a batched message ID."
+          "description": "The length of a batched message ID.",
+          "adjustable": false
         },
         {
           "name": "Message Invisibility Period",
           "value": "0 Seconds",
           "description": "The length of time, in seconds, for which a message consumed from a queue remains invisible to other consumers.",
-          "unit": "Seconds"
+          "unit": "Seconds",
+          "adjustable": false
         },
         {
           "name": "Actions per Queue Policy",
           "value": "7",
-          "description": "The number of actions in a queue policy."
+          "description": "The number of actions in a queue policy.",
+          "adjustable": false
         },
         {
           "name": "Queue Policy Size",
           "value": "8192 Bytes",
           "description": "The size, in bytes, of a queue policy.",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "In-Flight Messages per Standard Queue",
           "value": "120000",
-          "description": "The number of in-flight messages in a standard queue."
+          "description": "The number of in-flight messages in a standard queue.",
+          "adjustable": false
         },
         {
           "name": "Queue Delivery Delay",
           "value": "15",
-          "description": "The length of time, in minutes, by which to delay the initial delivery of messages to a queue."
+          "description": "The length of time, in minutes, by which to delay the initial delivery of messages to a queue.",
+          "adjustable": false
         },
         {
           "name": "Message retention",
@@ -718,271 +786,322 @@
         {
           "name": "Domain name access associations",
           "value": "100",
-          "description": "The maximum number of domain name access associations that you can create in this account in the current region"
+          "description": "The maximum number of domain name access associations that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Regional APIs",
           "value": "600",
-          "description": "The maximum number of regional APIs that you can create in this account in the current region"
+          "description": "The maximum number of regional APIs that you can create in this account in the current region",
+          "adjustable": false
         },
         {
           "name": "Maximum Iterations In Mapping Template",
           "value": "1000",
-          "description": "Maximum number of iterations in a #foreach ... #end loop in mapping templates"
+          "description": "Maximum number of iterations in a #foreach ... #end loop in mapping templates",
+          "adjustable": false
         },
         {
           "name": "Throttle rate",
           "value": "10000",
-          "description": "The maximum number of requests per second that your APIs can receive in this account in the current region"
+          "description": "The maximum number of requests per second that your APIs can receive in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Maximum Logo Size",
           "value": "200 KB",
           "description": "The maximum size of a logo",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "PortalProducts per account",
           "value": "500",
-          "description": "The maximum number of PortalProducts per account"
+          "description": "The maximum number of PortalProducts per account",
+          "adjustable": false
         },
         {
           "name": "Maximum Custom Domain Names per Portal",
           "value": "1",
-          "description": "The maximum number of custom domain names per portal"
+          "description": "The maximum number of custom domain names per portal",
+          "adjustable": false
         },
         {
           "name": "Resources/Routes per REST/WebSocket API",
           "value": "300",
-          "description": "The maximum number of resources/routes that you can include in a REST or WebSocket API"
+          "description": "The maximum number of resources/routes that you can include in a REST or WebSocket API",
+          "adjustable": true
         },
         {
           "name": "WebSocket message payload size",
           "value": "128 KB",
           "description": "Maximum WebSocket message payload size.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Edge-optimized APIs",
           "value": "120",
-          "description": "The maximum number of edge-optimized APIs that you can create in this account in the current region"
+          "description": "The maximum number of edge-optimized APIs that you can create in this account in the current region",
+          "adjustable": false
         },
         {
           "name": "Maximum Authorizers per Portal",
           "value": "1",
-          "description": "The maximum number of authorizer per portal"
+          "description": "The maximum number of authorizer per portal",
+          "adjustable": false
         },
         {
           "name": "Routes per HTTP API",
           "value": "300",
-          "description": "The maximum number of routes that you can include in an HTTP API"
+          "description": "The maximum number of routes that you can include in an HTTP API",
+          "adjustable": true
         },
         {
           "name": "Portals per account",
           "value": "15",
-          "description": "The maximum number of Portals per account"
+          "description": "The maximum number of Portals per account",
+          "adjustable": true
         },
         {
           "name": "WebSocket new connections burst rate",
           "value": "500",
-          "description": "New connections in burst capacity per account (across all WebSocket APIs) per region"
+          "description": "New connections in burst capacity per account (across all WebSocket APIs) per region",
+          "adjustable": false
         },
         {
           "name": "Stage variables per stage",
           "value": "100",
-          "description": "Stage variables per stage"
+          "description": "Stage variables per stage",
+          "adjustable": false
         },
         {
           "name": "WebSocket frame size",
           "value": "32 KB",
           "description": "Maximum WebSocket frame size.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "ProductPages per PortalProduct",
           "value": "40",
-          "description": "The maximum number of ProductPages per PortalProduct"
+          "description": "The maximum number of ProductPages per PortalProduct",
+          "adjustable": true
         },
         {
           "name": "API keys",
           "value": "10000",
-          "description": "The maximum number of API keys that you can create in this account in the current region"
+          "description": "The maximum number of API keys that you can create in this account in the current region",
+          "adjustable": false
         },
         {
           "name": "Tags Per Stage",
           "value": "50",
-          "description": "Maximum tags per stage."
+          "description": "Maximum tags per stage.",
+          "adjustable": false
         },
         {
           "name": "VPC links(V2)",
           "value": "10",
-          "description": "The maximum number of V2 VPC links that you can create in this account in the current Region"
+          "description": "The maximum number of V2 VPC links that you can create in this account in the current Region",
+          "adjustable": true
         },
         {
           "name": "Edge API URL Length",
           "value": "8192",
-          "description": "Length, in characters, of the URL for an edge-optimized API."
+          "description": "Length, in characters, of the URL for an edge-optimized API.",
+          "adjustable": false
         },
         {
           "name": "Stages per API",
           "value": "10",
-          "description": "The maximum number of stages that you can create for an API"
+          "description": "The maximum number of stages that you can create for an API",
+          "adjustable": true
         },
         {
           "name": "WebSocket new connections rate",
           "value": "500",
-          "description": "New connections per second per account (across all WebSocket APIs) per region"
+          "description": "New connections per second per account (across all WebSocket APIs) per region",
+          "adjustable": true
         },
         {
           "name": "Maximum Combined Header Size",
           "value": "10240 Bytes",
           "description": "Maximum combined size of all header values",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "Maximum Size per ProductPage body",
           "value": "32768 Bytes",
           "description": "The maximum size per ProductPage body",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "Regional API URL Length",
           "value": "10240",
-          "description": "Length, in characters, of the URL for a regional API"
+          "description": "Length, in characters, of the URL for a regional API",
+          "adjustable": false
         },
         {
           "name": "ProductRestEndpointPages per PortalProduct",
           "value": "40",
-          "description": "The maximum number of ProductRestEndpointPages per PortalProduct"
+          "description": "The maximum number of ProductRestEndpointPages per PortalProduct",
+          "adjustable": true
         },
         {
           "name": "Custom Domain Names",
           "value": "120",
-          "description": "The maximum number of Custom domain names that you can create in this account in the current region"
+          "description": "The maximum number of Custom domain names that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "PortalProducts per Portal",
           "value": "200",
-          "description": "The maximum number of PortalProducts per Portal"
+          "description": "The maximum number of PortalProducts per Portal",
+          "adjustable": false
         },
         {
           "name": "Usage plans",
           "value": "300",
-          "description": "The maximum number of usage plans that you can create in this account in the current region"
+          "description": "The maximum number of usage plans that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "RoutingRules Per Domain Name",
           "value": "50",
-          "description": "The maximum number of RoutingRules per DomainName that you can create in this account in the current region"
+          "description": "The maximum number of RoutingRules per DomainName that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Stage Variable Key Length",
           "value": "64",
-          "description": "Length, in characters, of the key in a stage variable"
+          "description": "Length, in characters, of the key in a stage variable",
+          "adjustable": false
         },
         {
           "name": "AWS Lambda authorizer result size",
           "value": "8 KB",
           "description": "The maximum size of AWS Lambda authorizer result.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "VPC links",
           "value": "20",
-          "description": "The maximum number of VPC links that you can create in this account in the current region"
+          "description": "The maximum number of VPC links that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Subnets per VPC link(V2)",
           "value": "10",
-          "description": "The maximum number of subnets per V2 VPC link in this account in the current Region"
+          "description": "The maximum number of subnets per V2 VPC link in this account in the current Region",
+          "adjustable": true
         },
         {
           "name": "Maximum Documentation Size per ProductRestEndpointPage",
           "value": "32768 Bytes",
           "description": "The maximum documentation size per ProductRestEndpointPage",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "Stage Variable Value Length",
           "value": "512",
-          "description": "Length, in characters, of the value in a stage variable"
+          "description": "Length, in characters, of the value in a stage variable",
+          "adjustable": false
         },
         {
           "name": "Maximum Cached Response Size",
           "value": "1048576 Bytes",
           "description": "Maximum size of cached response in bytes",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "Usage plans per API key",
           "value": "10",
-          "description": "The maximum number of usage plans that you can associate with an API key"
+          "description": "The maximum number of usage plans that you can associate with an API key",
+          "adjustable": true
         },
         {
           "name": "Private custom domain names",
           "value": "50",
-          "description": "The maximum number of private custom domain names that you can create in this account in the current region"
+          "description": "The maximum number of private custom domain names that you can create in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Throttle burst rate",
           "value": "5000",
-          "description": "The maximum number of additional requests per second (RPS) that you can send in one burst in this account in the current region"
+          "description": "The maximum number of additional requests per second (RPS) that you can send in one burst in this account in the current region",
+          "adjustable": false
         },
         {
           "name": "WebSocket Idle Connection Timeout",
           "value": "600 Seconds",
           "description": "WebSocket API idle connection timeout.",
-          "unit": "Seconds"
+          "unit": "Seconds",
+          "adjustable": false
         },
         {
           "name": "Method ARN Length",
           "value": "1600 Bytes",
           "description": "ARN length of a method with authorization",
-          "unit": "Bytes"
+          "unit": "Bytes",
+          "adjustable": false
         },
         {
           "name": "Maximum integration timeout in milliseconds",
           "value": "29000 Milliseconds",
           "description": "The maximum integration timeout (in milliseconds) allowed for your account in the current region. This limit can only be increased for Regional and private APIs.",
-          "unit": "Milliseconds"
+          "unit": "Milliseconds",
+          "adjustable": true
         },
         {
           "name": "Maximum API caching TTL",
           "value": "3600 Seconds",
           "description": "The maximum API caching TTL you can have in this account in the current region.",
-          "unit": "Seconds"
+          "unit": "Seconds",
+          "adjustable": false
         },
         {
           "name": "API Payload Size",
           "value": "10 MB",
           "description": "Maximum payload size for non WebSocket API.",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Maximum resource policy size in bytes",
           "value": "8192",
-          "description": "The maximum resource policy size in bytes you can have in this account in the current region."
+          "description": "The maximum resource policy size in bytes you can have in this account in the current region.",
+          "adjustable": true
         },
         {
           "name": "Private APIs",
           "value": "600",
-          "description": "The maximum number of private APIs that you can create in this account in the current region"
+          "description": "The maximum number of private APIs that you can create in this account in the current region",
+          "adjustable": false
         },
         {
           "name": "Client certificates",
           "value": "60",
-          "description": "The maximum number of certificates that you can associate with this account in the current region"
+          "description": "The maximum number of certificates that you can associate with this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Connection duration for WebSocket API",
           "value": "7200 Seconds",
           "description": "Maximum duration for WebSocket API connection.",
-          "unit": "Seconds"
+          "unit": "Seconds",
+          "adjustable": false
         },
         {
           "name": "API Stage throttles in a usage plan",
           "value": "20",
-          "description": "The maximum number of API-stage throttle settings you can create in a usage plan in this account in the current region"
+          "description": "The maximum number of API-stage throttle settings you can create in a usage plan in this account in the current region",
+          "adjustable": true
         },
         {
           "name": "Throttle quota per account, per Region across HTTP APIs, REST APIs, WebSocket APIs, and WebSocket callback APIs",
@@ -1478,29 +1597,34 @@
         {
           "name": "General purpose buckets",
           "value": "10000",
-          "description": "The number of Amazon S3 general purpose buckets that you can create in an account"
+          "description": "The number of Amazon S3 general purpose buckets that you can create in an account",
+          "adjustable": true
         },
         {
           "name": "Replication rules",
           "value": "1000",
-          "description": "The maximum number of rules you can specify in an Amazon S3 Replication configuration"
+          "description": "The maximum number of rules you can specify in an Amazon S3 Replication configuration",
+          "adjustable": false
         },
         {
           "name": "Replication Destinations",
           "value": "28",
-          "description": "The number of destination S3 buckets you can add for each source S3 bucket across all replication rules."
+          "description": "The number of destination S3 buckets you can add for each source S3 bucket across all replication rules.",
+          "adjustable": true
         },
         {
           "name": "Replication transfer rate",
           "value": "1 Gigabits",
           "description": "The maximum Replication Time Control transfer rate that you can replicate from the source region in this account.",
-          "unit": "Gigabits"
+          "unit": "Gigabits",
+          "adjustable": true
         },
         {
           "name": "Object size",
           "value": "48.828125 TB",
           "description": "The maximum size (in TB) of an Amazon S3 object",
-          "unit": "Terabytes"
+          "unit": "Terabytes",
+          "adjustable": false
         }
       ],
       "news": [
@@ -1541,109 +1665,130 @@
         {
           "name": "GraphQL APIs - Source API associations per Merged API",
           "value": "10",
-          "description": "The maximum number of Source API associations per Merged API."
+          "description": "The maximum number of Source API associations per Merged API.",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Number of characters allowed in a channel segment",
           "value": "50",
-          "description": "The maximum character length of a channel segment"
+          "description": "The maximum character length of a channel segment",
+          "adjustable": false
         },
         {
           "name": "Event APIs - APIs per region",
           "value": "50",
-          "description": "The maximum number of AppSync Event APIs per region"
+          "description": "The maximum number of AppSync Event APIs per region",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - Rate of request tokens",
           "value": "10000",
-          "description": "The maximum number of request tokens per second for GraphQL APIs in this account in the current Region. AWS AppSync allocates tokens to mutation and query requests based on the amount of resources (processing time and memory) that they consume. For more details on tokens, see the Monitoring section in the AWS AppSync documentation."
+          "description": "The maximum number of request tokens per second for GraphQL APIs in this account in the current Region. AWS AppSync allocates tokens to mutation and query requests based on the amount of resources (processing time and memory) that they consume. For more details on tokens, see the Monitoring section in the AWS AppSync documentation.",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Rate of connections per API",
           "value": "2000",
-          "description": "The maximum number of Event API connect requests per second."
+          "description": "The maximum number of Event API connect requests per second.",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Number of segments allowed in a channel",
           "value": "5",
-          "description": "The maximum number of segments in a channel"
+          "description": "The maximum number of segments in a channel",
+          "adjustable": false
         },
         {
           "name": "All APIs - Subscriptions per client connection",
           "value": "200",
-          "description": "Subscriptions code statements per client in a single WebSocket connection. Each statement allows the client to receive multiple messages related to the specific subscription."
+          "description": "Subscriptions code statements per client in a single WebSocket connection. Each statement allows the client to receive multiple messages related to the specific subscription.",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - Rate of inbound messages per API",
           "value": "10000",
-          "description": "The maximum number of inbound messages per second. Each subscription type invoked by a mutation generates one inbound message."
+          "description": "The maximum number of inbound messages per second. Each subscription type invoked by a mutation generates one inbound message.",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - APIs per region",
           "value": "50",
-          "description": "Maximum number of GraphQL APIs per region"
+          "description": "Maximum number of GraphQL APIs per region",
+          "adjustable": true
         },
         {
           "name": "All APIs - Number of custom domain names",
           "value": "50",
-          "description": "The maximum number of custom domain names per region"
+          "description": "The maximum number of custom domain names per region",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Batch size per publish request",
           "value": "5",
-          "description": "The maximum number of events that can be batched in one publish operation."
+          "description": "The maximum number of events that can be batched in one publish operation.",
+          "adjustable": false
         },
         {
           "name": "Event APIs - Rate of outbound messages per API",
           "value": "1000000",
-          "description": "The maximum number of outbound metered events per second. One metered event equals 5 kB of delivered event."
+          "description": "The maximum number of outbound metered events per second. One metered event equals 5 kB of delivered event.",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - Rate of connections per API",
           "value": "2000",
-          "description": "The maximum number of GraphQL API connect requests per second."
+          "description": "The maximum number of GraphQL API connect requests per second.",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Publish payload size",
           "value": "1.2 MB",
           "description": "The maximum size of the entire payload sent in a publish operation",
-          "unit": "Megabytes"
+          "unit": "Megabytes",
+          "adjustable": false
         },
         {
           "name": "Event APIs - Channel namespaces per API",
           "value": "50",
-          "description": "The maximum number of channel namespaces on an Event API"
+          "description": "The maximum number of channel namespaces on an Event API",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - Maximum query length",
           "value": "15000",
-          "description": "Maximum length of a GraphQL query, measured in tokens (15,000). Tokens are individual parsed elements of the query string. Queries exceeding this limit will fail with the error message 'Maximum char length exceeded'."
+          "description": "Maximum length of a GraphQL query, measured in tokens (15,000). Tokens are individual parsed elements of the query string. Queries exceeding this limit will fail with the error message 'Maximum char length exceeded'.",
+          "adjustable": false
         },
         {
           "name": "Event APIs - Rate of request tokens",
           "value": "2000",
-          "description": "The maximum number of request tokens per second for Event APIs in this account in the current Region. AWS AppSync allocates tokens to publish requests based on the amount of resources (processing time and memory) that they consume and the number of 5kB messages published."
+          "description": "The maximum number of request tokens per second for Event APIs in this account in the current Region. AWS AppSync allocates tokens to publish requests based on the amount of resources (processing time and memory) that they consume and the number of 5kB messages published.",
+          "adjustable": true
         },
         {
           "name": "GraphQL APIs - Rate of outbound messages per API",
           "value": "1000000",
-          "description": "The maximum number of outbound messages per second. One outbound message is equal to 5 KB of payload data delivered."
+          "description": "The maximum number of outbound messages per second. One outbound message is equal to 5 KB of payload data delivered.",
+          "adjustable": true
         },
         {
           "name": "Event APIs - Rate of inbound events per API",
           "value": "10000",
-          "description": "The maximum number of inbound events per second. Each published event generates a single inbound event."
+          "description": "The maximum number of inbound events per second. Each published event generates a single inbound event.",
+          "adjustable": true
         },
         {
           "name": "All APIs - Handler, resolver, and function code size",
           "value": "32 KB",
           "description": "Maximum code size of handlers, resolvers, and functions running on APPSYNC_JS runtime.",
-          "unit": "Kilobytes"
+          "unit": "Kilobytes",
+          "adjustable": false
         },
         {
           "name": "Event APIs - Rate of publish requests per client connection",
           "value": "25",
-          "description": "The maximum number of publish requests per second per WebSocket connection. WebSocket publish requests are also evaluated against the rate of request tokens quota."
+          "description": "The maximum number of publish requests per second per WebSocket connection. WebSocket publish requests are also evaluated against the rate of request tokens quota.",
+          "adjustable": false
         },
         {
           "name": "Request payload",
@@ -1683,77 +1828,92 @@
         {
           "name": "Throttle limit in transactions per second for control plane APIs",
           "value": "50",
-          "description": "Maximum number of requests per second for EventBridge control plane API operations. Additional requests are throttled."
+          "description": "Maximum number of requests per second for EventBridge control plane API operations. Additional requests are throttled.",
+          "adjustable": false
         },
         {
           "name": "Event pattern size",
           "value": "2048",
-          "description": "Maximum size of an event pattern, in characters."
+          "description": "Maximum size of an event pattern, in characters.",
+          "adjustable": true
         },
         {
           "name": "Invocations throttle limit in transactions per second",
           "value": "18750",
-          "description": "An invocation is an event matching a rule and being sent on to the rule's targets. After the limit is reached, the invocations are throttled; that is, they still happen but they are delayed."
+          "description": "An invocation is an event matching a rule and being sent on to the rule's targets. After the limit is reached, the invocations are throttled; that is, they still happen but they are delayed.",
+          "adjustable": true
         },
         {
           "name": "CreateEndpoint throttle limit in transactions per second",
           "value": "5",
-          "description": "The maximum number of requests per second for CreateEndpoint API. Additional requests are throttled."
+          "description": "The maximum number of requests per second for CreateEndpoint API. Additional requests are throttled.",
+          "adjustable": false
         },
         {
           "name": "Rate of invocations per API destination",
           "value": "300",
-          "description": "The maximum number of invocations per second to send to each API destination endpoint per account per Region. Once the quota is met, future invocations to that API endpoint are throttled. The invocations will still occur, but are delayed."
+          "description": "The maximum number of invocations per second to send to each API destination endpoint per account per Region. Once the quota is met, future invocations to that API endpoint are throttled. The invocations will still occur, but are delayed.",
+          "adjustable": true
         },
         {
           "name": "Number of rules",
           "value": "300",
-          "description": "Maximum number of rules an account can have per event bus"
+          "description": "Maximum number of rules an account can have per event bus",
+          "adjustable": true
         },
         {
           "name": "Event bus policy size",
           "value": "10240",
-          "description": "Maximum policy size, in characters. This policy size increases each time you grant access to another account. You can see your current policy and its size by using the DescribeEventBus API."
+          "description": "Maximum policy size, in characters. This policy size increases each time you grant access to another account. You can see your current policy and its size by using the DescribeEventBus API.",
+          "adjustable": true
         },
         {
           "name": "Event buses",
           "value": "100",
-          "description": "Maximum event buses per account."
+          "description": "Maximum event buses per account.",
+          "adjustable": true
         },
         {
           "name": "Api destinations",
           "value": "3000",
-          "description": "The maximum number of API destinations per account per Region."
+          "description": "The maximum number of API destinations per account per Region.",
+          "adjustable": true
         },
         {
           "name": "PutEvents throttle limit in transactions per second",
           "value": "10000",
-          "description": "Maximum number of requests per second for PutEvents API. Additional requests are throttled."
+          "description": "Maximum number of requests per second for PutEvents API. Additional requests are throttled.",
+          "adjustable": true
         },
         {
           "name": "Connections",
           "value": "3000",
-          "description": "The maximum number of connections per account per Region."
+          "description": "The maximum number of connections per account per Region.",
+          "adjustable": true
         },
         {
           "name": "DeleteEndpoint throttle limit in transactions per second",
           "value": "5",
-          "description": "The maximum number of requests per second for DeleteEndpoint API. Additional requests are throttled."
+          "description": "The maximum number of requests per second for DeleteEndpoint API. Additional requests are throttled.",
+          "adjustable": false
         },
         {
           "name": "Endpoints",
           "value": "100",
-          "description": "The maximum number of endpoints per account per Region."
+          "description": "The maximum number of endpoints per account per Region.",
+          "adjustable": true
         },
         {
           "name": "Targets per rule",
           "value": "5",
-          "description": "Maximum number of targets that can be associated with a rule"
+          "description": "Maximum number of targets that can be associated with a rule",
+          "adjustable": false
         },
         {
           "name": "UpdateEndpoint throttle limit in transactions per second",
           "value": "5",
-          "description": "The maximum number of requests per second for UpdateEndpoint API. Additional requests are throttled."
+          "description": "The maximum number of requests per second for UpdateEndpoint API. Additional requests are throttled.",
+          "adjustable": false
         },
         {
           "name": "Event size",
@@ -1789,222 +1949,266 @@
         {
           "name": "ListSubscriptionsByTopic Transactions per Second",
           "value": "30",
-          "description": "The maximum number of times the ListSubscriptionsByTopic action can be called per second."
+          "description": "The maximum number of times the ListSubscriptionsByTopic action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "ListOriginationNumbers Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the ListOriginationNumbers action can be called per second."
+          "description": "The maximum number of times the ListOriginationNumbers action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "AddPermission Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the AddPermission action can be called per second."
+          "description": "The maximum number of times the AddPermission action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "SetEndpointAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the SetEndpointAttributes action can be called per second."
+          "description": "The maximum number of times the SetEndpointAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "SetSubscriptionAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the SetSubscriptionAttributes action can be called per second."
+          "description": "The maximum number of times the SetSubscriptionAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "DeletePlatformApplication Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the DeletePlatformApplication action can be called per second."
+          "description": "The maximum number of times the DeletePlatformApplication action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "SetSMSAttributes Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the SetSMSAttributes action can be called per second."
+          "description": "The maximum number of times the SetSMSAttributes action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "VerifySMSSandboxPhoneNumber Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the VerifySMSSandboxPhoneNumber action can be called per second."
+          "description": "The maximum number of times the VerifySMSSandboxPhoneNumber action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "Filter Policies per Account",
           "value": "10000",
-          "description": "The maximum number of Amazon SNS filter policies that an AWS account can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy)."
+          "description": "The maximum number of Amazon SNS filter policies that an AWS account can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy).",
+          "adjustable": true
         },
         {
           "name": "ListPlatformApplications Transactions per Second",
           "value": "15",
-          "description": "The maximum number of times the ListPlatformApplications action can be called per second."
+          "description": "The maximum number of times the ListPlatformApplications action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "GetSMSSandboxAccountStatus Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the GetSMSSandboxAccountStatus action can be called per second."
+          "description": "The maximum number of times the GetSMSSandboxAccountStatus action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "DeleteSMSSandboxPhoneNumber Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the DeleteSMSSandboxPhoneNumber action can be called per second."
+          "description": "The maximum number of times the DeleteSMSSandboxPhoneNumber action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "CreateTopic Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the CreateTopic action can be called per second."
+          "description": "The maximum number of times the CreateTopic action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "ListSubscriptions Transactions per Second",
           "value": "30",
-          "description": "The maximum number of times the ListSubscriptions action can be called per second."
+          "description": "The maximum number of times the ListSubscriptions action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "GetPlatformApplicationAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the GetPlatformApplicationAttributes action can be called per second."
+          "description": "The maximum number of times the GetPlatformApplicationAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "DeleteTopic Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the DeleteTopic action can be called per second."
+          "description": "The maximum number of times the DeleteTopic action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "ListTagsForResource Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the ListTagsForResource action can be called per second."
+          "description": "The maximum number of times the ListTagsForResource action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "UntagResource Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the UntagResource action can be called per second."
+          "description": "The maximum number of times the UntagResource action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "Pending Subscriptions per Account",
           "value": "5000",
-          "description": "The maximum number of pending subscriptions per AWS account, across all regions."
+          "description": "The maximum number of pending subscriptions per AWS account, across all regions.",
+          "adjustable": true
         },
         {
           "name": "Subscriptions per Topic",
           "value": "12500000",
-          "description": "The maximum number of subscriptions per topic, including confirmed and pending subscriptions."
+          "description": "The maximum number of subscriptions per topic, including confirmed and pending subscriptions.",
+          "adjustable": false
         },
         {
           "name": "ListSMSSandboxPhoneNumbers Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the ListSMSSandboxPhoneNumbers action can be called per second."
+          "description": "The maximum number of times the ListSMSSandboxPhoneNumbers action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "CreateSMSSandboxPhoneNumber Transactions per Second",
           "value": "1",
-          "description": "The maximum number of times the CreateSMSSandboxPhoneNumber action can be called per second."
+          "description": "The maximum number of times the CreateSMSSandboxPhoneNumber action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "TagResource Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the TagResource action can be called per second."
+          "description": "The maximum number of times the TagResource action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "ListTopics Transactions per Second",
           "value": "30",
-          "description": "The maximum number of times the ListTopics action can be called per second."
+          "description": "The maximum number of times the ListTopics action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "Subscribe Transactions per Second",
           "value": "100",
-          "description": "The maximum number of times the Subscribe action can be called per second."
+          "description": "The maximum number of times the Subscribe action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "SetPlatformApplicationAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the SetPlatformApplicationAttributes action can be called per second."
+          "description": "The maximum number of times the SetPlatformApplicationAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "SetTopicAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the SetTopicAttributes action can be called per second."
+          "description": "The maximum number of times the SetTopicAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "CreatePlatformApplication Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the CreatePlatformApplication action can be called per second."
+          "description": "The maximum number of times the CreatePlatformApplication action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "Topics per Account",
           "value": "100000",
-          "description": "The maximum number of Amazon SNS topics that an AWS account can create across all regions."
+          "description": "The maximum number of Amazon SNS topics that an AWS account can create across all regions.",
+          "adjustable": true
         },
         {
           "name": "Filter Policies per Topic",
           "value": "200",
-          "description": "The maximum number of Amazon SNS filter policies that an Amazon SNS topic can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy)."
+          "description": "The maximum number of Amazon SNS filter policies that an Amazon SNS topic can assign to Amazon SNS subscriptions (one subscription can have a maximum of one filter policy).",
+          "adjustable": true
         },
         {
           "name": "Unsubscribe Transactions per Second",
           "value": "100",
-          "description": "The maximum number of times the Unsubscribe action can be called per second."
+          "description": "The maximum number of times the Unsubscribe action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "GetSMSAttributes Transactions per Second",
           "value": "20",
-          "description": "The maximum number of times the GetSMSAttributes action can be called per second."
+          "description": "The maximum number of times the GetSMSAttributes action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "Messages Published per Second",
           "value": "30000",
-          "description": "The maximum number of messages published per second. Utilization value displays per minute usage."
+          "description": "The maximum number of messages published per second. Utilization value displays per minute usage.",
+          "adjustable": true
         },
         {
           "name": "RemovePermission Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the RemovePermission action can be called per second."
+          "description": "The maximum number of times the RemovePermission action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "ListEndpointsByPlatformApplication Transactions per Second",
           "value": "30",
-          "description": "The maximum number of times the ListEndpointsByPlatformApplication action can be called per second."
+          "description": "The maximum number of times the ListEndpointsByPlatformApplication action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "ListPhoneNumbersOptedOut Transactions per Second",
           "value": "10",
-          "description": "The maximum number of times the ListPhoneNumbersOptedOut action can be called per second."
+          "description": "The maximum number of times the ListPhoneNumbersOptedOut action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "CheckIfPhoneNumberIsOptedOut Transactions per Second",
           "value": "50",
-          "description": "The maximum number of times the CheckIfPhoneNumberIsOptedOut action can be called per second."
+          "description": "The maximum number of times the CheckIfPhoneNumberIsOptedOut action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "CreatePlatformEndpoint Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the CreatePlatformEndpoint action can be called per second."
+          "description": "The maximum number of times the CreatePlatformEndpoint action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "GetTopicAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the GetTopicAttributes action can be called per second."
+          "description": "The maximum number of times the GetTopicAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "ConfirmSubscription Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the ConfirmSubscription action can be called per second."
+          "description": "The maximum number of times the ConfirmSubscription action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "GetSubscriptionAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the GetSubscriptionAttributes action can be called per second."
+          "description": "The maximum number of times the GetSubscriptionAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "OptInPhoneNumber Transactions per Second",
           "value": "20",
-          "description": "The maximum number of times the OptInPhoneNumber action can be called per second."
+          "description": "The maximum number of times the OptInPhoneNumber action can be called per second.",
+          "adjustable": false
         },
         {
           "name": "GetEndpointAttributes Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the GetEndpointAttributes action can be called per second."
+          "description": "The maximum number of times the GetEndpointAttributes action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "DeleteEndpoint Transactions per Second",
           "value": "3000",
-          "description": "The maximum number of times the DeleteEndpoint action can be called per second."
+          "description": "The maximum number of times the DeleteEndpoint action can be called per second.",
+          "adjustable": true
         },
         {
           "name": "Message size",
@@ -2032,112 +2236,134 @@
         {
           "name": "Rate of UserToken requests",
           "value": "120",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserToken category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserToken category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserFederation requests",
           "value": "25",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserFederation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserFederation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "User import jobs per user pool",
           "value": "1000",
-          "description": "The maximum number of user import jobs per user pool."
+          "description": "The maximum number of user import jobs per user pool.",
+          "adjustable": true
         },
         {
           "name": "Identity providers per user pool",
           "value": "300",
-          "description": "The maximum number of identity providers per user pool."
+          "description": "The maximum number of identity providers per user pool.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserPoolResourceRead requests per account",
           "value": "20",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserResourceUpdate requests",
           "value": "25",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserList requests",
           "value": "30",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserList category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserList category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserPoolRead requests",
           "value": "15",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserResourceRead requests",
           "value": "50",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserResourceRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserAccountRecovery requests",
           "value": "30",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAccountRecovery category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAccountRecovery category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserAuthentication requests",
           "value": "120",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserPoolUpdate requests",
           "value": "15",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "User pools per account",
           "value": "1000",
-          "description": "The maximum number of user pools that you can create in this account per region."
+          "description": "The maximum number of user pools that you can create in this account per region.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserRead requests",
           "value": "120",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "Rate of ClientAuthentication requests per account",
           "value": "150",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the ClientAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the ClientAuthentication category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserPoolResourceUpdate requests per account",
           "value": "15",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolResourceUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Apps per user pool",
           "value": "1000",
-          "description": "The maximum number of app clients per user pool."
+          "description": "The maximum number of app clients per user pool.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserUpdate requests",
           "value": "25",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Resource servers per user pool",
           "value": "25",
-          "description": "The maximum number of resource servers per user pool. A resource server is a server for access-protected resources."
+          "description": "The maximum number of resource servers per user pool. A resource server is a server for access-protected resources.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserCreation requests",
           "value": "50",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserCreation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserCreation category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": true
         },
         {
           "name": "Rate of UserPoolClientUpdate requests per account",
           "value": "15",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientUpdate category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "Rate of UserPoolClientRead requests per account",
           "value": "15",
-          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases."
+          "description": "The maximum combined call rate (requests per second) for all API operations in the UserPoolClientRead category. All operations within a category share the same quota. For the list of included operations, see https://docs.aws.amazon.com/cognito/latest/developerguide/limits.html#category_operations. Additional charges apply for quota increases.",
+          "adjustable": false
         },
         {
           "name": "App clients per pool",
