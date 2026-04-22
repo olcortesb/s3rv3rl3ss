@@ -7,10 +7,10 @@
       {{ badge }}
     </span>
     <div class="flex items-center gap-3 mb-2">
-      <span class="text-2xl">{{ service.icon }}</span>
+      <img :src="`/icons/aws/${service.id}.svg`" :alt="service.name" class="w-8 h-8" />
       <h3 class="font-semibold text-gray-900">{{ service.name }}</h3>
     </div>
-    <span class="inline-block text-xs font-medium px-2 py-1 rounded-full bg-orange-100 text-orange-700 mb-2">
+    <span class="inline-block text-xs font-medium px-2 py-1 rounded-full bg-gray-100 text-gray-600 mb-2">
       {{ service.category }}
     </span>
     <p class="text-sm text-gray-600 line-clamp-2 mb-3">{{ service.description }}</p>

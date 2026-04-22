@@ -4,10 +4,10 @@
 
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 max-w-3xl">
       <div class="flex items-center gap-3 mb-4">
-        <span class="text-4xl">{{ service.icon }}</span>
+        <img :src="`/icons/aws/${service.id}.svg`" :alt="service.name" class="w-12 h-12" />
         <div>
           <h1 class="text-2xl font-bold text-gray-900">{{ service.name }}</h1>
-          <span class="text-xs font-medium px-2 py-1 rounded-full bg-orange-100 text-orange-700">
+          <span class="text-xs font-medium px-2 py-1 rounded-full bg-gray-100 text-gray-600">
             {{ service.category }}
           </span>
           <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-1 rounded-full bg-yellow-100 text-yellow-700 ml-1" title="Some data sources were unavailable">
