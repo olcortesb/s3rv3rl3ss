@@ -576,7 +576,7 @@
       "pricingDetails": [
         {
           "label": "Compute (GB-second)",
-          "price": "AWS Lambda - Total Compute for ARM - US East (Northern Virginia)-Tier-3"
+          "price": "AWS Lambda - Total Compute"
         }
       ]
     },
@@ -1889,11 +1889,11 @@
       "pricingDetails": [
         {
           "label": "PUT/COPY/POST/LIST Requests",
-          "price": "$0.005 per 1,000 PUT Requests/COPY/POST or LIST Requests to S3 Table Buckets in US East (N. Virginia)"
+          "price": "$0.005 per 1,000 PUT Requests/COPY/POST or LIST Requests to S3 Table Buckets"
         },
         {
           "label": "GET/SELECT Requests",
-          "price": "$0.0004 per 1,000 GET and All Other Requests to S3 Table Buckets in US East (N. Virginia)"
+          "price": "$0.0004 per 1,000 GET and All Other Requests to S3 Table Buckets"
         }
       ]
     },
