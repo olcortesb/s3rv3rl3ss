@@ -23,17 +23,19 @@
 
 <script setup>
 import { computed } from 'vue'
+import { getChangelog } from '../data/index.js'
 
 const props = defineProps({ service: Object, provider: String })
 
 const badge = computed(() => {
-  if (!props.service.news?.length) return null
-  const latest = props.service.news[0].date
+  const changes = getChangelog(props.service.id)
+  if (!changes.length) return null
+  const latest = changes[0].date
   if (!latest) return null
   const now = new Date()
-  const newsDate = new Date(latest + '-01')
-  const days = Math.floor((now - newsDate) / (1000 * 60 * 60 * 24))
-  if (days <= 7) return 'New'
+  const changeDate = new Date(latest)
+  const days = Math.floor((now - changeDate) / (1000 * 60 * 60 * 24))
+  if (days <= 1) return 'New'
   if (days <= 30) return 'Updated'
   return null
 })

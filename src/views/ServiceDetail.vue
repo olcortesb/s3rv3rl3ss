@@ -109,17 +109,19 @@
 
       <!-- Integrations -->
       <div v-if="service.integrations" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">{{ service.integrations.label }}
-          <span v-if="service.integrations.description" class="text-xs font-normal text-gray-400 ml-1">{{ service.integrations.description }}</span>
-        </h2>
-        <div class="flex flex-wrap gap-2">
-          <span
-            v-for="item in service.integrations.items"
-            :key="item.id"
-            class="px-3 py-1 rounded-full text-sm bg-purple-50 text-purple-700"
-          >
-            {{ item.name }}
-          </span>
+        <div v-for="group in service.integrations" :key="group.label" class="mb-4">
+          <h2 class="font-semibold text-gray-900 mb-1">{{ group.label }}
+            <span v-if="group.description" class="text-xs font-normal text-gray-400 ml-1">{{ group.description }}</span>
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <span
+              v-for="item in group.items"
+              :key="item.id"
+              class="px-3 py-1 rounded-full text-sm bg-purple-50 text-purple-700"
+            >
+              {{ item.name }}
+            </span>
+          </div>
         </div>
       </div>
 
