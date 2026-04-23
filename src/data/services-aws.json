@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "services": [
     {
       "id": "lambda",
@@ -520,6 +520,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-04",
+          "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/"
+        },
         {
           "date": "2026-04",
           "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",

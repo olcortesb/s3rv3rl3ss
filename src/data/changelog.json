@@ -1,4 +1,11 @@
 {
-  "lastUpdated": "2026-04-22",
-  "changes": []
+  "lastUpdated": "2026-04-23",
+  "changes": [
+    {
+      "date": "2026-04-23",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda durable functions are now available in 16 additional AWS Regions"
+    }
+  ]
 }
