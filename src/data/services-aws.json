@@ -644,7 +644,31 @@
           "adjustable": true
         }
       ],
-      "dataStatus": "ok"
+      "dataStatus": "ok",
+      "integrations": [
+        {
+          "label": "Stream View Types",
+          "description": "Data captured in DynamoDB Streams for change data capture",
+          "items": [
+            {
+              "id": "NEW_IMAGE",
+              "name": "New Image"
+            },
+            {
+              "id": "OLD_IMAGE",
+              "name": "Old Image"
+            },
+            {
+              "id": "NEW_AND_OLD_IMAGES",
+              "name": "New and Old Images"
+            },
+            {
+              "id": "KEYS_ONLY",
+              "name": "Keys Only"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "sqs",
@@ -1611,7 +1635,71 @@
           "value": "4096"
         }
       ],
-      "dataStatus": "ok"
+      "dataStatus": "ok",
+      "integrations": [
+        {
+          "label": "Integration Types",
+          "description": "Backend integration methods for API endpoints",
+          "items": [
+            {
+              "id": "HTTP",
+              "name": "HTTP Endpoints"
+            },
+            {
+              "id": "AWS",
+              "name": "AWS Service"
+            },
+            {
+              "id": "MOCK",
+              "name": "Mock"
+            },
+            {
+              "id": "HTTP_PROXY",
+              "name": "HTTP Proxy"
+            },
+            {
+              "id": "AWS_PROXY",
+              "name": "AWS Lambda Proxy"
+            }
+          ]
+        },
+        {
+          "label": "Endpoint Types",
+          "description": "API endpoint deployment options",
+          "items": [
+            {
+              "id": "REGIONAL",
+              "name": "Regional"
+            },
+            {
+              "id": "EDGE",
+              "name": "Edge-Optimized"
+            },
+            {
+              "id": "PRIVATE",
+              "name": "Private"
+            }
+          ]
+        },
+        {
+          "label": "Authorizer Types",
+          "description": "Authentication methods for API access control",
+          "items": [
+            {
+              "id": "TOKEN",
+              "name": "Token"
+            },
+            {
+              "id": "REQUEST",
+              "name": "Request"
+            },
+            {
+              "id": "COGNITO_USER_POOLS",
+              "name": "Cognito User Pools"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "s3",
@@ -1714,7 +1802,55 @@
           "url": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/"
         }
       ],
-      "dataStatus": "ok"
+      "dataStatus": "ok",
+      "integrations": [
+        {
+          "label": "Event Notifications",
+          "description": "Events that can trigger notifications to SNS, SQS, or Lambda",
+          "items": [
+            {
+              "id": "s3:ReducedRedundancyLostObject",
+              "name": "S3:Reducedredundancylostobject"
+            },
+            {
+              "id": "s3:ObjectCreated:*",
+              "name": "Object Created"
+            },
+            {
+              "id": "s3:ObjectRemoved:*",
+              "name": "Object Removed"
+            },
+            {
+              "id": "s3:ObjectRestore:*",
+              "name": "Object Restore"
+            },
+            {
+              "id": "s3:Replication:*",
+              "name": "Replication"
+            },
+            {
+              "id": "s3:LifecycleTransition",
+              "name": "Lifecycle Transition"
+            },
+            {
+              "id": "s3:IntelligentTiering",
+              "name": "Intelligent Tiering"
+            },
+            {
+              "id": "s3:ObjectAcl:Put",
+              "name": "S3:Objectacl:Put"
+            },
+            {
+              "id": "s3:LifecycleExpiration:*",
+              "name": "Lifecycle Expiration"
+            },
+            {
+              "id": "s3:ObjectTagging:*",
+              "name": "Object Tagging"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "appsync",
@@ -1915,48 +2051,50 @@
         }
       ],
       "dataStatus": "partial",
-      "integrations": {
-        "label": "Data Sources",
-        "description": "Backends that AppSync can connect to as resolvers for your GraphQL API",
-        "items": [
-          {
-            "id": "AWS_LAMBDA",
-            "name": "AWS Lambda"
-          },
-          {
-            "id": "AMAZON_DYNAMODB",
-            "name": "Amazon DynamoDB"
-          },
-          {
-            "id": "AMAZON_ELASTICSEARCH",
-            "name": "Amazon OpenSearch (legacy)"
-          },
-          {
-            "id": "NONE",
-            "name": "Local Resolvers"
-          },
-          {
-            "id": "HTTP",
-            "name": "HTTP Endpoints"
-          },
-          {
-            "id": "RELATIONAL_DATABASE",
-            "name": "Amazon Aurora Serverless (RDS)"
-          },
-          {
-            "id": "AMAZON_OPENSEARCH_SERVICE",
-            "name": "Amazon OpenSearch Service"
-          },
-          {
-            "id": "AMAZON_EVENTBRIDGE",
-            "name": "Amazon EventBridge"
-          },
-          {
-            "id": "AMAZON_BEDROCK_RUNTIME",
-            "name": "Amazon Bedrock"
-          }
-        ]
-      }
+      "integrations": [
+        {
+          "label": "Data Sources",
+          "description": "Backends that AppSync can connect to as resolvers for your GraphQL API",
+          "items": [
+            {
+              "id": "AWS_LAMBDA",
+              "name": "AWS Lambda"
+            },
+            {
+              "id": "AMAZON_DYNAMODB",
+              "name": "Amazon DynamoDB"
+            },
+            {
+              "id": "AMAZON_ELASTICSEARCH",
+              "name": "Amazon OpenSearch (legacy)"
+            },
+            {
+              "id": "NONE",
+              "name": "Local Resolvers"
+            },
+            {
+              "id": "HTTP",
+              "name": "HTTP Endpoints"
+            },
+            {
+              "id": "RELATIONAL_DATABASE",
+              "name": "Amazon Aurora Serverless (RDS)"
+            },
+            {
+              "id": "AMAZON_OPENSEARCH_SERVICE",
+              "name": "Amazon OpenSearch Service"
+            },
+            {
+              "id": "AMAZON_EVENTBRIDGE",
+              "name": "Amazon EventBridge"
+            },
+            {
+              "id": "AMAZON_BEDROCK_RUNTIME",
+              "name": "Amazon Bedrock"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "eventbridge",
@@ -2534,7 +2672,39 @@
           "value": "10,000"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "integrations": [
+        {
+          "label": "Identity Providers",
+          "description": "External identity providers for federated authentication",
+          "items": [
+            {
+              "id": "SAML",
+              "name": "SAML"
+            },
+            {
+              "id": "Facebook",
+              "name": "Facebook"
+            },
+            {
+              "id": "Google",
+              "name": "Google"
+            },
+            {
+              "id": "LoginWithAmazon",
+              "name": "Login with Amazon"
+            },
+            {
+              "id": "SignInWithApple",
+              "name": "Sign in with Apple"
+            },
+            {
+              "id": "OIDC",
+              "name": "OIDC"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
