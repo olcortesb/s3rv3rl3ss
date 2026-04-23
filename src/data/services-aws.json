@@ -1914,7 +1914,48 @@
           "url": "https://aws.amazon.com/blogs/mobile/working-with-aws-appsync-events-serverless-websockets-for-pub-sub/"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "integrations": {
+        "label": "Data Sources",
+        "items": [
+          {
+            "id": "AWS_LAMBDA",
+            "name": "AWS Lambda"
+          },
+          {
+            "id": "AMAZON_DYNAMODB",
+            "name": "Amazon DynamoDB"
+          },
+          {
+            "id": "AMAZON_ELASTICSEARCH",
+            "name": "Amazon OpenSearch (legacy)"
+          },
+          {
+            "id": "NONE",
+            "name": "Local Resolvers"
+          },
+          {
+            "id": "HTTP",
+            "name": "HTTP Endpoints"
+          },
+          {
+            "id": "RELATIONAL_DATABASE",
+            "name": "Amazon Aurora Serverless (RDS)"
+          },
+          {
+            "id": "AMAZON_OPENSEARCH_SERVICE",
+            "name": "Amazon OpenSearch Service"
+          },
+          {
+            "id": "AMAZON_EVENTBRIDGE",
+            "name": "Amazon EventBridge"
+          },
+          {
+            "id": "AMAZON_BEDROCK_RUNTIME",
+            "name": "Amazon Bedrock"
+          }
+        ]
+      }
     },
     {
       "id": "eventbridge",
