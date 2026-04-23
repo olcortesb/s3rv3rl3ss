@@ -577,7 +577,7 @@
         {
           "label": "Compute (Provisioned, ARM)",
           "price": "$0.0000077778",
-          "unit": "Lambda-GB-Second",
+          "unit": "GB-second",
           "description": "AWS Lambda - Total Compute (Provisioned) for ARM - US East (N. Virginia)"
         },
         {
@@ -701,19 +701,19 @@
         {
           "label": "Write Requests (on-demand)",
           "price": "$0.000000625",
-          "unit": "ReplicatedWriteRequestUnits",
+          "unit": "per write request",
           "description": "$0.625 per million replicated write request units (N. Virginia)"
         },
         {
           "label": "Read Requests (on-demand)",
           "price": "$0.000000125",
-          "unit": "ReadRequestUnits",
+          "unit": "per read request",
           "description": "$0.125 per million read request units (N. Virginia)"
         },
         {
           "label": "Storage (Standard)",
           "price": "$0.25",
-          "unit": "GB-Mo",
+          "unit": "per GB/month",
           "description": "$0.25 per GB-Month of storage used beyond first 25 free GB-Months"
         }
       ]
@@ -1768,13 +1768,13 @@
         {
           "label": "REST API Requests",
           "price": "$0.0000035",
-          "unit": "Requests",
+          "unit": "per request",
           "description": "$3.50/million requests - first 333 million requests/month"
         },
         {
           "label": "WebSocket Messages",
           "price": "$0.000001",
-          "unit": "Messages",
+          "unit": "per message",
           "description": "$1/million messages - first 1 billion messages/month"
         }
       ]
@@ -1934,25 +1934,25 @@
         {
           "label": "Storage (Infrequent Access)",
           "price": "$0.0125",
-          "unit": "GB-Mo",
+          "unit": "per GB/month",
           "description": "$0.0125 per GB-Month of storage used in Standard-Infrequent Access"
         },
         {
           "label": "PUT/COPY/POST/LIST (Express One Zone)",
           "price": "$0.00000113",
-          "unit": "Requests",
+          "unit": "per request",
           "description": "$0.00113 per 1,000 PUT Requests/COPY/POST or LIST Requests to Express One Zone"
         },
         {
           "label": "GET Requests (Express One Zone)",
           "price": "$0.00000003",
-          "unit": "Requests",
+          "unit": "per request",
           "description": "$0.00003 per 1,000 GET and All Other Requests to Express One Zone"
         },
         {
           "label": "Intelligent-Tiering Monitoring",
           "price": "$0.0000025",
-          "unit": "Objects",
+          "unit": "per object",
           "description": "$0.0025 per 1,000 Objects per month in Intelligent-Tiering"
         }
       ]
@@ -2205,25 +2205,25 @@
         {
           "label": "Query & Mutation",
           "price": "$0.000004",
-          "unit": "Requests",
+          "unit": "per request",
           "description": "$4 per million query and data modification operations in US East (N. Virginia)"
         },
         {
           "label": "Real-time Updates",
           "price": "$0.000002",
-          "unit": "Messages",
+          "unit": "per message",
           "description": "$2 per million real-time updates in US East (N. Virginia)"
         },
         {
           "label": "Event API Operations",
           "price": "$0.000001",
-          "unit": "Operation",
+          "unit": "per operation",
           "description": "$1 per million Event API operations in US East (N. Virginia)"
         },
         {
           "label": "Event API Connection",
           "price": "$0.00000008",
-          "unit": "Minute",
+          "unit": "per minute",
           "description": "$0.08 per million Event API connection minutes in US East (N. Virginia)"
         }
       ]
@@ -2662,13 +2662,13 @@
         {
           "label": "HTTP/HTTPS Notifications",
           "price": "$0.0000006",
-          "unit": "Notifications",
+          "unit": "per notification",
           "description": "$0.06 per 100,000 Amazon SNS HTTP/HTTPS Notifications thereafter"
         },
         {
           "label": "Email Notifications",
           "price": "$0.00002",
-          "unit": "Notifications",
+          "unit": "per notification",
           "description": "$2.00 per 100,000 Amazon SNS Email/Email-JSON Notifications thereafter"
         }
       ]
@@ -2872,13 +2872,13 @@
         {
           "label": "Essentials (per MAU)",
           "price": "$0.015",
-          "unit": "CognitoUserPoolsMAU",
+          "unit": "per MAU",
           "description": "Cognito Essentials us-east-1 tier 1 pricing"
         },
         {
           "label": "M2M Token Requests",
           "price": "$0.00225",
-          "unit": "CognitoUserPools-M2MTokens",
+          "unit": "per token",
           "description": "USD 0.00225 per client credential flow (M2M) token request in tier 1  in US East (N. Virginia)"
         }
       ]
