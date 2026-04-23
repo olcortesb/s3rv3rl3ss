@@ -15,7 +15,6 @@
       ],
       "pricing": "Pay per request and compute duration",
       "pricingUrl": "https://aws.amazon.com/lambda/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/Lambda",
       "url": "https://aws.amazon.com/lambda/",
       "icon": "⚡",
       "limits": [
@@ -573,7 +572,13 @@
           "url": "https://aws.amazon.com/blogs/compute/node-js-24-runtime-now-available-in-aws-lambda/"
         }
       ],
-      "dataStatus": "ok"
+      "dataStatus": "ok",
+      "pricingDetails": [
+        {
+          "label": "Compute (GB-second)",
+          "price": "AWS Lambda - Total Compute for ARM - US East (Northern Virginia)-Tier-3"
+        }
+      ]
     },
     {
       "id": "dynamodb",
@@ -589,7 +594,6 @@
       ],
       "pricing": "Pay per read/write capacity unit or on-demand",
       "pricingUrl": "https://aws.amazon.com/dynamodb/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/DynamoDB",
       "url": "https://aws.amazon.com/dynamodb/",
       "icon": "🗄️",
       "limits": [
@@ -672,6 +676,20 @@
             }
           ]
         }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Write Request Units (on-demand)",
+          "price": "$0.625 per million replicated write request units (N. Virginia)"
+        },
+        {
+          "label": "Read Request Units (on-demand)",
+          "price": "$0.125 per million read request units (N. Virginia)"
+        },
+        {
+          "label": "Storage",
+          "price": "$0.25 per GB-Month of storage used beyond first 25 free GB-Months"
+        }
       ]
     },
     {
@@ -688,7 +706,6 @@
       ],
       "pricing": "Pay per million requests",
       "pricingUrl": "https://aws.amazon.com/sqs/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/SQS",
       "url": "https://aws.amazon.com/sqs/",
       "icon": "📬",
       "limits": [
@@ -846,7 +863,6 @@
       ],
       "pricing": "Pay per API call and data transfer",
       "pricingUrl": "https://aws.amazon.com/api-gateway/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/APIGateway",
       "url": "https://aws.amazon.com/api-gateway/",
       "icon": "🔗",
       "limits": [
@@ -1707,6 +1723,16 @@
             }
           ]
         }
+      ],
+      "pricingDetails": [
+        {
+          "label": "REST API Requests",
+          "price": "$3.50/million requests - first 333 million requests/month"
+        },
+        {
+          "label": "WebSocket Messages",
+          "price": "$1/million messages - first 1 billion messages/month"
+        }
       ]
     },
     {
@@ -1723,7 +1749,6 @@
       ],
       "pricing": "Pay per GB stored and requests",
       "pricingUrl": "https://aws.amazon.com/s3/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/S3",
       "url": "https://aws.amazon.com/s3/",
       "icon": "📦",
       "limits": [
@@ -1860,6 +1885,16 @@
             }
           ]
         }
+      ],
+      "pricingDetails": [
+        {
+          "label": "PUT/COPY/POST/LIST Requests",
+          "price": "$0.005 per 1,000 PUT Requests/COPY/POST or LIST Requests to S3 Table Buckets in US East (N. Virginia)"
+        },
+        {
+          "label": "GET/SELECT Requests",
+          "price": "$0.0004 per 1,000 GET and All Other Requests to S3 Table Buckets in US East (N. Virginia)"
+        }
       ]
     },
     {
@@ -1876,7 +1911,6 @@
       ],
       "pricing": "Pay per query and real-time update",
       "pricingUrl": "https://aws.amazon.com/appsync/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/AppSync",
       "url": "https://aws.amazon.com/appsync/",
       "icon": "🔺",
       "limits": [
@@ -2122,7 +2156,6 @@
       ],
       "pricing": "Pay per event published",
       "pricingUrl": "https://aws.amazon.com/eventbridge/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/EventBridge",
       "url": "https://aws.amazon.com/eventbridge/",
       "icon": "📡",
       "limits": [
@@ -2252,7 +2285,6 @@
       ],
       "pricing": "Pay per publish and delivery",
       "pricingUrl": "https://aws.amazon.com/sns/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/SNS",
       "url": "https://aws.amazon.com/sns/",
       "icon": "📢",
       "limits": [
@@ -2525,7 +2557,21 @@
           "value": "256 KB"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "HTTP Notifications",
+          "price": "$0.06 per 100,000 Amazon SNS HTTP/HTTPS Notifications thereafter"
+        },
+        {
+          "label": "Email Notifications",
+          "price": "$2.00 per 100,000 Amazon SNS Email/Email-JSON Notifications thereafter"
+        },
+        {
+          "label": "Publish Requests",
+          "price": "$0.50 per 1,000,000 Amazon SNS API Requests per month thereafter"
+        }
+      ]
     },
     {
       "id": "cognito",
@@ -2541,7 +2587,6 @@
       ],
       "pricing": "Pay per MAU (monthly active user)",
       "pricingUrl": "https://aws.amazon.com/cognito/pricing/",
-      "calculatorUrl": "https://calculator.aws/createCalculator/Cognito",
       "url": "https://aws.amazon.com/cognito/",
       "icon": "🔐",
       "limits": [
@@ -2721,6 +2766,12 @@
               "name": "OIDC"
             }
           ]
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Monthly Active Users",
+          "price": "Cognito User Pools us-east-1 tier 4 pricing"
         }
       ]
     }
