@@ -1917,6 +1917,7 @@
       "dataStatus": "partial",
       "integrations": {
         "label": "Data Sources",
+        "description": "Backends that AppSync can connect to as resolvers for your GraphQL API",
         "items": [
           {
             "id": "AWS_LAMBDA",
