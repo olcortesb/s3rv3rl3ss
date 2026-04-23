@@ -14,6 +14,8 @@
         "Scheduled tasks"
       ],
       "pricing": "Pay per request and compute duration",
+      "pricingUrl": "https://aws.amazon.com/lambda/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/Lambda",
       "url": "https://aws.amazon.com/lambda/",
       "icon": "⚡",
       "limits": [
@@ -586,6 +588,8 @@
         "IoT data"
       ],
       "pricing": "Pay per read/write capacity unit or on-demand",
+      "pricingUrl": "https://aws.amazon.com/dynamodb/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/DynamoDB",
       "url": "https://aws.amazon.com/dynamodb/",
       "icon": "🗄️",
       "limits": [
@@ -683,6 +687,8 @@
         "Batch processing"
       ],
       "pricing": "Pay per million requests",
+      "pricingUrl": "https://aws.amazon.com/sqs/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/SQS",
       "url": "https://aws.amazon.com/sqs/",
       "icon": "📬",
       "limits": [
@@ -839,6 +845,8 @@
         "API management"
       ],
       "pricing": "Pay per API call and data transfer",
+      "pricingUrl": "https://aws.amazon.com/api-gateway/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/APIGateway",
       "url": "https://aws.amazon.com/api-gateway/",
       "icon": "🔗",
       "limits": [
@@ -1714,6 +1722,8 @@
         "Content distribution"
       ],
       "pricing": "Pay per GB stored and requests",
+      "pricingUrl": "https://aws.amazon.com/s3/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/S3",
       "url": "https://aws.amazon.com/s3/",
       "icon": "📦",
       "limits": [
@@ -1865,6 +1875,8 @@
         "Data aggregation"
       ],
       "pricing": "Pay per query and real-time update",
+      "pricingUrl": "https://aws.amazon.com/appsync/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/AppSync",
       "url": "https://aws.amazon.com/appsync/",
       "icon": "🔺",
       "limits": [
@@ -2109,6 +2121,8 @@
         "Cross-account events"
       ],
       "pricing": "Pay per event published",
+      "pricingUrl": "https://aws.amazon.com/eventbridge/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/EventBridge",
       "url": "https://aws.amazon.com/eventbridge/",
       "icon": "📡",
       "limits": [
@@ -2237,6 +2251,8 @@
         "Email/SMS delivery"
       ],
       "pricing": "Pay per publish and delivery",
+      "pricingUrl": "https://aws.amazon.com/sns/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/SNS",
       "url": "https://aws.amazon.com/sns/",
       "icon": "📢",
       "limits": [
@@ -2524,6 +2540,8 @@
         "User management"
       ],
       "pricing": "Pay per MAU (monthly active user)",
+      "pricingUrl": "https://aws.amazon.com/cognito/pricing/",
+      "calculatorUrl": "https://calculator.aws/createCalculator/Cognito",
       "url": "https://aws.amazon.com/cognito/",
       "icon": "🔐",
       "limits": [
