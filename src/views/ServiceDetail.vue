@@ -37,7 +37,7 @@
             :key="rt.name"
             :class="[
               'px-3 py-1 rounded-full text-sm',
-              rt.status === 'active' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-500 line-through'
+              runtimeClass(rt)
             ]"
             :title="rt.eol ? `EOL: ${rt.eol}${rt.identifier ? ' | ' + rt.identifier : ''}` : rt.identifier || ''"
           >
@@ -138,8 +138,35 @@
         </ul>
       </div>
 
-      <h2 class="font-semibold text-gray-900 mb-2">Pricing</h2>
-      <p class="text-gray-600 mb-6">{{ service.pricing }}</p>
+      <!-- Pricing -->
+      <div class="mb-6">
+        <h2 class="font-semibold text-gray-900 mb-2">Pricing
+          <span class="text-xs font-normal text-gray-400 ml-1">US East (N. Virginia) · On-Demand</span>
+        </h2>
+        <p class="text-gray-600 text-sm mb-3">{{ service.pricing }}</p>
+        <div v-if="service.pricingDetails" class="bg-gray-50 rounded-lg p-3 mb-3">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-200">
+                <th class="text-left py-1 text-gray-500 font-normal">Item</th>
+                <th class="text-right py-1 text-gray-500 font-normal">Price (USD)</th>
+                <th class="text-left py-1 pl-2 text-gray-500 font-normal">Per</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="p in service.pricingDetails" :key="p.label" class="border-b border-gray-100 last:border-0" :title="p.description">
+                <td class="py-2 text-gray-700">{{ p.label }}</td>
+                <td class="py-2 text-right font-mono font-medium text-gray-900">{{ p.price }}</td>
+                <td class="py-2 pl-2 text-gray-400">{{ p.unit }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a v-if="service.pricingUrl" :href="service.pricingUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">Full pricing details ↗</a>
+          <a href="https://calculator.aws" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">AWS Pricing Calculator ↗</a>
+        </div>
+      </div>
 
       <!-- Changelog -->
       <div v-if="changelog.length" class="mb-6">
@@ -205,6 +232,15 @@ function eolLabel(eol) {
   const now = new Date()
   if (end < now) return '(expired)'
   return `(${months[end.getMonth()]} ${end.getFullYear()})`
+}
+
+function runtimeClass(rt) {
+  if (rt.status === 'deprecated') return 'bg-red-100 text-red-500 line-through'
+  if (rt.eol) {
+    const days = Math.floor((new Date(rt.eol) - new Date()) / (1000 * 60 * 60 * 24))
+    if (days <= 210) return 'bg-yellow-100 text-yellow-700'
+  }
+  return 'bg-green-100 text-green-700'
 }
 
 const apiQuotas = computed(() =>
