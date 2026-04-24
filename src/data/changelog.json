@@ -3,6 +3,24 @@
   "changes": [
     {
       "date": "2026-04-24",
+      "service": "step-functions",
+      "type": "service_added",
+      "detail": "AWS Step Functions"
+    },
+    {
+      "date": "2026-04-24",
+      "service": "fargate",
+      "type": "service_added",
+      "detail": "AWS Fargate"
+    },
+    {
+      "date": "2026-04-24",
+      "service": "aurora-serverless",
+      "type": "service_added",
+      "detail": "Amazon Aurora Serverless"
+    },
+    {
+      "date": "2026-04-24",
       "service": "api-gateway",
       "type": "quota_changed",
       "detail": "Portal products per account: 2000 → 500"

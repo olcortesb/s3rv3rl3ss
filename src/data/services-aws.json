@@ -577,7 +577,7 @@
         {
           "label": "Compute (Provisioned, ARM)",
           "price": "$0.0000077778",
-          "unit": "GB-second",
+          "unit": "per GB-second",
           "description": "AWS Lambda - Total Compute (Provisioned) for ARM - US East (N. Virginia)"
         },
         {
@@ -2882,6 +2882,973 @@
           "description": "USD 0.00225 per client credential flow (M2M) token request in tier 1  in US East (N. Virginia)"
         }
       ]
+    },
+    {
+      "id": "step-functions",
+      "enabled": true,
+      "name": "AWS Step Functions",
+      "category": "Integration",
+      "description": "AWS Step Functions is a serverless orchestration service that lets you combine AWS Lambda functions and other AWS services to build business-critical applications.",
+      "useCases": [
+        "Workflow orchestration",
+        "ETL pipelines",
+        "Order processing",
+        "ML pipelines"
+      ],
+      "pricing": "Pay per state transition",
+      "pricingUrl": "https://aws.amazon.com/step-functions/pricing/",
+      "url": "https://aws.amazon.com/step-functions/",
+      "icon": "🔄",
+      "limits": [
+        {
+          "name": "StateTransition throttle token refill rate per second",
+          "value": "5000",
+          "description": "The token refill rate per second of StateTransition calls.",
+          "adjustable": true
+        },
+        {
+          "name": "UpdateStateMachine throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of UpdateStateMachine calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachineVersion throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of DeleteStateMachineVersion calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "State machine aliases per state machine",
+          "value": "100",
+          "description": "The maximum number of aliases that can be created for a state machine.",
+          "adjustable": true
+        },
+        {
+          "name": "PublishStateMachineVersion throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for PublishStateMachineVersion calls.",
+          "adjustable": true
+        },
+        {
+          "name": "SendTaskSuccess throttle token refill rate per second",
+          "value": "500",
+          "description": "The token refill rate per second of SendTaskSuccess calls.",
+          "adjustable": true
+        },
+        {
+          "name": "ListActivities throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListActivities calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum redrives of a Map Run",
+          "value": "1000",
+          "description": "Maximum redrives of a Map Run",
+          "adjustable": false
+        },
+        {
+          "name": "ListMapRuns throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for ListMapRuns calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Request size",
+          "value": "1 MB",
+          "description": "The total data size in Megabytes per Step Functions API request, including the request header and all other associated request data.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "SendTaskHeartbeat throttle token refill rate per second",
+          "value": "500",
+          "description": "The token refill rate per second of SendTaskHeartbeat calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Registered state machines",
+          "value": "100000",
+          "description": "The maximum number of state machines that you can create in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "ListStateMachineVersions throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for ListStateMachineVersions calls.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateActivity throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for CreateActivity calls.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateStateMachineAlias throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of CreateStateMachineAlias calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ListTagsForResource throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListTagsForResource calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "TestState throttle token refill rate per second",
+          "value": "10",
+          "description": "The token refill rate per second of TestState calls.",
+          "adjustable": false
+        },
+        {
+          "name": "GetExecutionHistory throttle token refill rate per second",
+          "value": "20",
+          "description": "The token refill rate per second of GetExecutionHistory calls.",
+          "adjustable": true
+        },
+        {
+          "name": "TagResource throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of TagResource calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum Concurrency",
+          "value": "10000",
+          "description": "The maximum number of parallel Map Run child executions",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum Number of Items Read per Map Run",
+          "value": "100000000",
+          "description": "Maximum Number of Items Read per Map Run",
+          "adjustable": false
+        },
+        {
+          "name": "SendTaskFailure throttle token bucket size",
+          "value": "3000",
+          "description": "The maximum number of SendTaskFailure calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ValidateStateMachineDefinition throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for ValidateStateMachineDefinition calls.",
+          "adjustable": true
+        },
+        {
+          "name": "StopExecution throttle token refill rate per second",
+          "value": "200",
+          "description": "The token refill rate per second of StopExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "StartMapRun throttle token refill rate per second",
+          "value": "25",
+          "description": "The token refill rate per second of StartMapRun calls",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeStateMachineAlias throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of DescribeStateMachineAlias calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachine throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of DeleteStateMachine calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteActivity throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of DeleteActivity calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Input file data size for a Map Run",
+          "value": "10 GB",
+          "description": "Input file data size for a Map Run",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "UpdateMapRun throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for UpdateMapRun calls.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateStateMachine throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of CreateStateMachine calls.",
+          "adjustable": true
+        },
+        {
+          "name": "ValidateStateMachineDefinition throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ValidateStateMachineDefinition calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "UntagResource throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of UntagResource calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Registered activities",
+          "value": "100000",
+          "description": "The maximum number of activities that you can create in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": " Open Map Runs",
+          "value": "1000",
+          "description": "The maximum number of open Map Runs allowed at a time in this account.",
+          "adjustable": false
+        },
+        {
+          "name": "ListStateMachineAliases throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for ListStateMachineAliases calls.",
+          "adjustable": true
+        },
+        {
+          "name": "StartExpressExecution throttle token bucket size",
+          "value": "6000",
+          "description": "The maximum number of StartExpressExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeMapRun throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for DescribeMapRun calls.",
+          "adjustable": true
+        },
+        {
+          "name": "ListActivities throttle token refill rate per second",
+          "value": "10",
+          "description": "The token refill rate per second of ListActivities calls.",
+          "adjustable": true
+        },
+        {
+          "name": "TestState throttle token bucket size",
+          "value": "50",
+          "description": "The maximum number of TestState calls that you can make per second.",
+          "adjustable": false
+        },
+        {
+          "name": "StartExecution throttle token bucket size",
+          "value": "1300",
+          "description": "The maximum number of StartExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateActivity throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of CreateActivity calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateStateMachine throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of CreateStateMachine calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeMapRun throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of DescribeMapRun calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "RedriveExecution throttle token bucket size",
+          "value": "800",
+          "description": "The maximum number of RedriveExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "UntagResource throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of UntagResource calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeStateMachine throttle token refill rate per second",
+          "value": "20",
+          "description": "The token refill rate per second of DescribeStateMachine calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachineAlias throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of DeleteStateMachineAlias calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteActivity throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of DeleteActivity calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "GetActivityTask throttle token bucket size",
+          "value": "3000",
+          "description": "The maximum number of GetActivityTask calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "StartMapRun throttle token bucket size",
+          "value": "25",
+          "description": "The maximum number of StartMapRun calls that you can make per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeActivity throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of DescribeActivity calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "StopExecution throttle token bucket size",
+          "value": "1000",
+          "description": "The maximum number of StopExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Execution history size",
+          "value": "25000",
+          "description": "The maximum number of events in a state machine's execution history.",
+          "adjustable": false
+        },
+        {
+          "name": "PublishStateMachineVersion throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of PublishStateMachineVersion calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "StartExecution throttle token refill rate per second",
+          "value": "300",
+          "description": "The token refill rate per second of StartExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Published state machine versions per state machine",
+          "value": "1000",
+          "description": "The maximum number of versions that can be published for a state machine.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachine throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of DeleteStateMachine calls.",
+          "adjustable": true
+        },
+        {
+          "name": "UpdateMapRun throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of UpdateMapRun calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ListStateMachineVersions throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListStateMachineVersions calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeStateMachine throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of DescribeStateMachine calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "TagResource throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of TagResource calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Execution history retention time",
+          "value": "90",
+          "description": "The maximum time (in days) for which the execution history is stored after an execution completes.",
+          "adjustable": true
+        },
+        {
+          "name": "Activity pollers per ARN",
+          "value": "1000",
+          "description": "The maximum number of workers concurrently polling an activity per ARN.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeStateMachineAlias throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for DescribeStateMachineAlias calls.",
+          "adjustable": true
+        },
+        {
+          "name": "UpdateStateMachineAlias throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for UpdateStateMachineAlias calls.",
+          "adjustable": true
+        },
+        {
+          "name": "GetActivityTask throttle token refill rate per second",
+          "value": "500",
+          "description": "The token refill rate per second of GetActivityTask calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Execution idle time",
+          "value": "1",
+          "description": "The maximum amount of time (in years) a state machine execution can remain idle.",
+          "adjustable": false
+        },
+        {
+          "name": "RedriveExecution throttle token refill rate per second",
+          "value": "150",
+          "description": "The token refill rate per second for RedriveExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "ListStateMachineAliases throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListStateMachineAliases calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeExecution throttle token bucket size",
+          "value": "300",
+          "description": "The maximum number of DescribeExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "StartExpressExecution throttle token refill rate per second",
+          "value": "6000",
+          "description": "The token refill rate per second of StartExpressExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeStateMachineForExecution throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of DescribeStateMachineForExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeActivity throttle token refill rate per second",
+          "value": "20",
+          "description": "The token refill rate per second of DescribeActivity calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Input or result data size in task state or execution",
+          "value": "262144 Bytes",
+          "description": "The maximum size of input or output data (in bytes) as a UTF-8 encoded string. This quota affects tasks (activity, Lambda function, or integrated service), state or execution output, and input data when scheduling a task, entering a state, or starting an execution.",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "SendTaskSuccess throttle token bucket size",
+          "value": "3000",
+          "description": "The maximum number of SendTaskSuccess calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "CreateStateMachineAlias throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for CreateStateMachineAlias calls.",
+          "adjustable": true
+        },
+        {
+          "name": "ListStateMachines throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListStateMachine calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ListTagsForResource throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second of ListTagsForResource calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Task retention time in queue",
+          "value": "1",
+          "description": "The maximum time (in years) that Step Functions keeps a task in the queue.",
+          "adjustable": false
+        },
+        {
+          "name": "GetExecutionHistory throttle token bucket size",
+          "value": "400",
+          "description": "The maximum number of GetExecutionHistory calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "StateTransition throttle token bucket size",
+          "value": "5000",
+          "description": "The maximum number of StateTransition calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Open executions",
+          "value": "1000000",
+          "description": "The maximum number of open executions per account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "ListStateMachines throttle token refill rate per second",
+          "value": "5",
+          "description": "The token refill rate per second of ListStateMachines calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum size of CSV headers",
+          "value": "10 KB",
+          "description": "Maximum size of CSV headers",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "ListMapRuns throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of ListMapRuns calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ListExecutions throttle token refill rate per second",
+          "value": "5",
+          "description": "The token refill rate per second of ListExecutions calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Task execution time",
+          "value": "1",
+          "description": "The maximum time (in years) that a task can take to complete an execution.",
+          "adjustable": false
+        },
+        {
+          "name": "SendTaskHeartbeat throttle token bucket size",
+          "value": "3000",
+          "description": "The maximum number of SendTaskHeartbeat calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeExecution throttle token refill rate per second",
+          "value": "50",
+          "description": "The token refill rate per second of DescribeExecution calls.",
+          "adjustable": true
+        },
+        {
+          "name": "UpdateStateMachineAlias throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of UpdateStateMachineAlias calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "UpdateStateMachine throttle token bucket size",
+          "value": "100",
+          "description": "The maximum number of UpdateStateMachine calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachineAlias throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for DeleteStateMachineAlias calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DeleteStateMachineVersion throttle token refill rate per second",
+          "value": "1",
+          "description": "The token refill rate per second for DeleteStateMachineVersion calls.",
+          "adjustable": true
+        },
+        {
+          "name": "Execution time",
+          "value": "1",
+          "description": "The maximum amount of time (in years) for which an execution can run.",
+          "adjustable": false
+        },
+        {
+          "name": "SendTaskFailure throttle token refill rate per second",
+          "value": "500",
+          "description": "The token refill rate per second of SendTaskFailure calls.",
+          "adjustable": true
+        },
+        {
+          "name": "DescribeStateMachineForExecution throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of DescribeStateMachineForExecution calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "ListExecutions throttle token bucket size",
+          "value": "200",
+          "description": "The maximum number of ListExecutions calls that you can make per second.",
+          "adjustable": true
+        },
+        {
+          "name": "Max execution time (Standard)",
+          "value": "1 year"
+        },
+        {
+          "name": "Max execution time (Express)",
+          "value": "5 minutes"
+        },
+        {
+          "name": "Max input/output size",
+          "value": "256 KB"
+        },
+        {
+          "name": "Max execution history events",
+          "value": "25,000"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03",
+          "title": "Testing Step Functions workflows: a guide to the enhanced TestState API",
+          "url": "https://aws.amazon.com/blogs/compute/testing-step-functions-workflows-a-guide-to-the-enhanced-teststate-api/"
+        },
+        {
+          "date": "2025-11",
+          "title": "Orchestrating large-scale document processing with AWS Step Functions and Amazon Bedrock batch inference",
+          "url": "https://aws.amazon.com/blogs/compute/orchestrating-large-scale-document-processing-with-aws-step-functions-and-amazon-bedrock-batch-inference/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "fargate",
+      "enabled": true,
+      "name": "AWS Fargate",
+      "category": "Compute",
+      "description": "AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers, compatible with Amazon ECS and Amazon EKS.",
+      "useCases": [
+        "Container workloads",
+        "Microservices",
+        "Batch processing",
+        "CI/CD"
+      ],
+      "pricing": "Pay per vCPU and memory per second",
+      "pricingUrl": "https://aws.amazon.com/fargate/pricing/",
+      "url": "https://aws.amazon.com/fargate/",
+      "icon": "🐳",
+      "limits": [
+        {
+          "name": "Fargate Spot Sustained Launch Rate",
+          "value": "20",
+          "description": "The maximum number of Spot Amazon ECS tasks launched per second (sustained rate) in this account in the current region. Note: For Regions introduced after May 20, 2025, the maximum is 5",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate On-Demand Burst Launch Rate",
+          "value": "100",
+          "description": "The maximum number of on-demand Amazon ECS tasks or Amazon EKS pods launched in a single burst (burst rate) in this account in the current region. Note: For Regions introduced after May 20, 2025, the maximum is 25",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate Spot Burst Launch Rate",
+          "value": "100",
+          "description": "The maximum number of Spot Amazon ECS tasks launched in a single burst (burst rate) in this account in the current region. Note: For Regions introduced after May 20, 2025, the maximum is 25",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate On-Demand vCPU resource count",
+          "value": "64",
+          "description": "The number of Fargate vCPUs running concurrently as Fargate On-Demand in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate Spot vCPU resource count",
+          "value": "64",
+          "description": "The number of Fargate vCPUs running concurrently as Fargate Spot in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate On-Demand Sustained Launch Rate",
+          "value": "20",
+          "description": "The maximum number of on-demand Amazon ECS tasks or Amazon EKS pods launched per second (sustained rate) in this account in the current region. Note: For Regions introduced after May 20, 2025, the maximum is 5",
+          "adjustable": true
+        },
+        {
+          "name": "vCPU",
+          "value": "0.25 – 16"
+        },
+        {
+          "name": "Memory",
+          "value": "0.5 GB – 120 GB"
+        },
+        {
+          "name": "Ephemeral storage",
+          "value": "20 GB – 200 GB"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "aurora-serverless",
+      "enabled": true,
+      "name": "Amazon Aurora Serverless",
+      "category": "Database",
+      "description": "Amazon Aurora Serverless is an on-demand, auto-scaling configuration for Amazon Aurora that automatically starts up, shuts down, and scales capacity based on your application's needs.",
+      "useCases": [
+        "Variable workloads",
+        "Dev/test databases",
+        "Infrequent access apps",
+        "Multi-tenant SaaS"
+      ],
+      "pricing": "Pay per ACU (Aurora Capacity Unit) per second",
+      "pricingUrl": "https://aws.amazon.com/rds/aurora/pricing/",
+      "url": "https://aws.amazon.com/rds/aurora/serverless/",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "Custom endpoints per DB cluster",
+          "value": "5",
+          "description": "The maximum number of custom endpoints that you can create per Aurora DB cluster in this account in the current Region. This value reflects the highest number of custom endpoints in a DB cluster in the account. Other DB clusters in the account might have a lower number of custom endpoints.",
+          "adjustable": true
+        },
+        {
+          "name": "Data API maximum concurrent requests",
+          "value": "500",
+          "description": "The maximum number of Data API requests to an Aurora Serverless v1 DB cluster that use the same secret and can be processed at the same time. Additional requests are queued and processed as in-process requests complete.",
+          "adjustable": false
+        },
+        {
+          "name": "Data API HTTP request body size",
+          "value": "4 MB",
+          "description": "The maximum size allowed for the HTTP request body.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Total storage for all DB instances",
+          "value": "100000",
+          "description": "The maximum total storage (in GB) on EBS volumes for all Amazon RDS DB instances added together. This quota does not apply to Amazon Aurora, which has a maximum cluster volume of 128 TiB for each DB cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Manual DB cluster snapshots",
+          "value": "100",
+          "description": "The maximum number of manual DB cluster snapshots",
+          "adjustable": true
+        },
+        {
+          "name": "Parameter groups",
+          "value": "50",
+          "description": "The maximum number of parameter groups",
+          "adjustable": true
+        },
+        {
+          "name": "Manual DB instance snapshots",
+          "value": "100",
+          "description": "The maximum number of manual DB instance snapshots",
+          "adjustable": true
+        },
+        {
+          "name": "DB clusters",
+          "value": "40",
+          "description": "The maximum number of Aurora clusters allowed in this account in the current Region",
+          "adjustable": true
+        },
+        {
+          "name": "Read replicas per primary",
+          "value": "15",
+          "description": "The maximum number of read replicas per primary DB instance. This quota can't be adjusted for Amazon Aurora.",
+          "adjustable": true
+        },
+        {
+          "name": "IAM roles per DB cluster",
+          "value": "5",
+          "description": "The maximum number of IAM roles associated with a DB cluster",
+          "adjustable": true
+        },
+        {
+          "name": "Security groups",
+          "value": "25",
+          "description": "The maximum number of DB security groups",
+          "adjustable": true
+        },
+        {
+          "name": "Data API maximum concurrent cluster-secret pairs",
+          "value": "30",
+          "description": "The maximum number of unique pairs of Aurora Serverless v1 DB clusters and secrets in concurrent Data API requests for this account in the current AWS Region.",
+          "adjustable": false
+        },
+        {
+          "name": "Integrations",
+          "value": "100",
+          "description": "The maximum number of integrations allowed in this account in the current AWS Region",
+          "adjustable": false
+        },
+        {
+          "name": "Reserved DB instances",
+          "value": "40",
+          "description": "The maximum number of reserved DB instances allowed in this account in the current AWS Region",
+          "adjustable": true
+        },
+        {
+          "name": "DB cluster parameter groups",
+          "value": "50",
+          "description": "The maximum number of DB cluster parameter groups",
+          "adjustable": true
+        },
+        {
+          "name": "Custom engine versions",
+          "value": "40",
+          "description": "The maximum number of custom engine versions allowed in this account in the current Region",
+          "adjustable": true
+        },
+        {
+          "name": "DB instances",
+          "value": "40",
+          "description": "The maximum number of DB instances allowed in this account in the current Region",
+          "adjustable": true
+        },
+        {
+          "name": "Data API requests per second",
+          "value": "1000",
+          "description": "The maximum number of requests to the Data API per second allowed for this account in the current AWS Region. This quota only applies to Amazon Aurora Serverless v1 clusters.",
+          "adjustable": false
+        },
+        {
+          "name": "Subnets per DB subnet group",
+          "value": "20",
+          "description": "The maximum number of subnets per DB subnet group",
+          "adjustable": false
+        },
+        {
+          "name": "DB shard groups",
+          "value": "5",
+          "description": "The maximum number of DB shard groups for Aurora Limitless Database in this account in the current Region",
+          "adjustable": true
+        },
+        {
+          "name": "Proxies",
+          "value": "20",
+          "description": "The maximum number of proxies allowed in this account in the current AWS Region",
+          "adjustable": true
+        },
+        {
+          "name": "Data API maximum size of JSON response string",
+          "value": "10 MB",
+          "description": "The maximum size of the simplified JSON response string returned by the RDS Data API.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Event subscriptions",
+          "value": "20",
+          "description": "The maximum number of event subscriptions",
+          "adjustable": true
+        },
+        {
+          "name": "Authorizations per DB security group",
+          "value": "20",
+          "description": "Number of security group authorizations per DB security group",
+          "adjustable": false
+        },
+        {
+          "name": "Option groups",
+          "value": "20",
+          "description": "The maximum number of option groups",
+          "adjustable": true
+        },
+        {
+          "name": "DB subnet groups",
+          "value": "50",
+          "description": "The maximum number of DB subnet groups",
+          "adjustable": true
+        },
+        {
+          "name": "Data API maximum result set size",
+          "value": "1 MB",
+          "description": "The maximum size of the database result set that can be returned by the Data API.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "IAM roles per DB instance",
+          "value": "5",
+          "description": "The maximum number of IAM roles associated with a DB instance",
+          "adjustable": true
+        },
+        {
+          "name": "Min ACU",
+          "value": "0.5"
+        },
+        {
+          "name": "Max ACU",
+          "value": "256"
+        },
+        {
+          "name": "Max storage",
+          "value": "128 TiB"
+        },
+        {
+          "name": "Max connections (per ACU)",
+          "value": "~45"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04",
+          "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/"
+        },
+        {
+          "date": "2026-04",
+          "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Aurora DSQL launches connector that simplifies building PHP applications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Aurora Serverless: Faster performance, enhanced scaling, and still scales down to zero",
+          "url": "https://aws.amazon.com/blogs/database/aurora-serverless-faster-performance-enhanced-scaling-and-still-scales-down-to-zero/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Build resilient Kerberos authentication for Aurora Global Database without joining Active Directory domain",
+          "url": "https://aws.amazon.com/blogs/database/build-resilient-kerberos-authentication-for-aurora-global-database-without-joining-active-directory-domain/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Accelerate database migration to Amazon Aurora DSQL with Kiro and Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/database/accelerate-database-migration-to-amazon-aurora-dsql-with-kiro-and-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Connecting .NET Lambda to Amazon Aurora PostgreSQL via RDS Proxy",
+          "url": "https://aws.amazon.com/blogs/database/connecting-net-lambda-to-amazon-aurora-postgresql-via-rds-proxy/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Optimize full-text search in Amazon RDS for MySQL and Amazon Aurora MySQL",
+          "url": "https://aws.amazon.com/blogs/database/optimize-full-text-search-in-amazon-rds-for-mysql-and-amazon-aurora-mysql/"
+        },
+        {
+          "date": "2026-04",
+          "title": "Working with identity columns and sequences in Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/working-with-identity-columns-and-sequences-in-aurora-dsql/"
+        }
+      ],
+      "dataStatus": "partial"
     }
   ]
 }
