@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "changes": [
+    {
+      "date": "2026-04-24",
+      "service": "api-gateway",
+      "type": "quota_changed",
+      "detail": "Portal products per account: 2000 → 500"
+    },
+    {
+      "date": "2026-04-24",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 now supports five additional checksum algorithms"
+    },
     {
       "date": "2026-04-23",
       "service": "lambda",
