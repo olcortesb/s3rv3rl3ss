@@ -1,6 +1,414 @@
 {
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "changes": [
+    {
+      "date": "2026-04-25",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions "
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Public custom domain names per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Private custom domain names per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Regional APIs per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Edge-optimized APIs per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Private APIs per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Domain name access associations per account removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Multi-level API mappings per domain removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Routing rules per domain removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the URL for an edge-optimized API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the URL for a Regional API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the URL for a private API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of API Gateway resource policy removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "API keys per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Client certificates per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Authorizers per API (AWS Lambda and Amazon Cognito) removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Documentation parts per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Resources per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the key in a stage variable removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the value in a stage variable removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Usage plans per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "VPC links per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "API caching TTL removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Cached response size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Integration timeout for Regional APIs removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Integration timeout for edge-optimized APIs removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Integration timeout for private APIs removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Total combined size of all header values, including header names, values, any line terminators, and whitespaces removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Total combined size of all header values for a private API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Payload size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Number of iterations in a \\$1foreach .. removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Maximum mapping template size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Access log template size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Method-level throttling settings for a stage in a usage plan removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Model size per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Number of certificates in a truststore removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Idle connection timeout removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Maximum API definition file size when using restapi:import or restapi:put removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Routes per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Integrations per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Maximum integration timeout removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Total combined size of request line and header values removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Custom domains per account per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Amazon CloudWatch Logs log entry removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Authorizers per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Audiences per authorizer removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Scopes per route removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Timeout for JSON Web Key Set endpoint removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Response size from JSON Web Key Set endpoint removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Timeout for OpenID Connect discovery endpoint removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Timeout for Lambda authorizer response removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Subnets per VPC link removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Portal products per portal removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Portal products per account removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Product REST endpoint pages per portal product removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Product pages per portal product removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Logo size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Documentation page size per product REST endpoint page removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Custom page size for product pages removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Custom domain names per portal removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Authorizers per portal removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "New connections per second per account (across all WebSocket APIs) per Region removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Concurrent connections removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "AWS Lambda authorizers per API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Integration timeout removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Message payload size removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "api-gateway",
+      "type": "quota_removed",
+      "detail": "Length, in characters, of the URL for a WebSocket API removed"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Migrate to Amazon S3 account regional namespaces"
+    },
     {
       "date": "2026-04-24",
       "service": "step-functions",

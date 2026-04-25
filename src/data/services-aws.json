@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "services": [
     {
       "id": "lambda",
@@ -523,6 +523,11 @@
       "news": [
         {
           "date": "2026-04",
+          "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/"
+        },
+        {
+          "date": "2026-04",
           "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/"
         },
@@ -565,11 +570,6 @@
           "date": "2026-01",
           "title": ".NET 10 runtime now available in AWS Lambda",
           "url": "https://aws.amazon.com/blogs/compute/net-10-runtime-now-available-in-aws-lambda/"
-        },
-        {
-          "date": "2025-11",
-          "title": "Node.js 24 runtime now available in AWS Lambda",
-          "url": "https://aws.amazon.com/blogs/compute/node-js-24-runtime-now-available-in-aws-lambda/"
         }
       ],
       "dataStatus": "ok",
@@ -1433,270 +1433,6 @@
         {
           "name": "Total operations",
           "value": "10 requests per second with a burst quota of 40 requests per second."
-        },
-        {
-          "name": "Public custom domain names per account per Region",
-          "value": "120"
-        },
-        {
-          "name": "Private custom domain names per account per Region",
-          "value": "50"
-        },
-        {
-          "name": "Regional APIs per Region",
-          "value": "600"
-        },
-        {
-          "name": "Edge-optimized APIs per Region",
-          "value": "120"
-        },
-        {
-          "name": "Private APIs per account per Region",
-          "value": "600"
-        },
-        {
-          "name": "Domain name access associations per account",
-          "value": "100"
-        },
-        {
-          "name": "Multi-level API mappings per domain",
-          "value": "200"
-        },
-        {
-          "name": "Routing rules per domain",
-          "value": "50"
-        },
-        {
-          "name": "Length, in characters, of the URL for an edge-optimized API",
-          "value": "8192"
-        },
-        {
-          "name": "Length, in characters, of the URL for a Regional API",
-          "value": "10240"
-        },
-        {
-          "name": "Length, in characters, of the URL for a private API",
-          "value": "8192"
-        },
-        {
-          "name": "Length, in characters, of API Gateway resource policy",
-          "value": "8192"
-        },
-        {
-          "name": "API keys per account per Region",
-          "value": "10000"
-        },
-        {
-          "name": "Client certificates per account per Region",
-          "value": "60"
-        },
-        {
-          "name": "Authorizers per API (AWS Lambda and Amazon Cognito)",
-          "value": "10"
-        },
-        {
-          "name": "Documentation parts per API",
-          "value": "2000"
-        },
-        {
-          "name": "Resources per API",
-          "value": "300"
-        },
-        {
-          "name": "Length, in characters, of the key in a stage variable",
-          "value": "64"
-        },
-        {
-          "name": "Length, in characters, of the value in a stage variable",
-          "value": "512"
-        },
-        {
-          "name": "Usage plans per account per Region",
-          "value": "300"
-        },
-        {
-          "name": "VPC links per account per Region",
-          "value": "20"
-        },
-        {
-          "name": "API caching TTL",
-          "value": "300 seconds by default and configurable between 0 and 3600 by an API owner."
-        },
-        {
-          "name": "Cached response size",
-          "value": "1048576 Bytes. Cache data encryption may increase the size of the item that is being cached."
-        },
-        {
-          "name": "Integration timeout for Regional APIs",
-          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
-        },
-        {
-          "name": "Integration timeout for edge-optimized APIs",
-          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
-        },
-        {
-          "name": "Integration timeout for private APIs",
-          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
-        },
-        {
-          "name": "Total combined size of all header values, including header names, values, any line terminators, and whitespaces",
-          "value": "10240 Bytes"
-        },
-        {
-          "name": "Total combined size of all header values for a private API",
-          "value": "8000 Bytes"
-        },
-        {
-          "name": "Payload size",
-          "value": "10 MB"
-        },
-        {
-          "name": "Number of iterations in a \\$1foreach ..",
-          "value": "1000"
-        },
-        {
-          "name": "Maximum mapping template size",
-          "value": "300 KB"
-        },
-        {
-          "name": "Access log template size",
-          "value": "3 KB"
-        },
-        {
-          "name": "Method-level throttling settings for a stage in a usage plan",
-          "value": "20"
-        },
-        {
-          "name": "Model size per API",
-          "value": "400 KB"
-        },
-        {
-          "name": "Number of certificates in a truststore",
-          "value": "1,000 certificates up to 1 MB total object size."
-        },
-        {
-          "name": "Idle connection timeout",
-          "value": "310 seconds"
-        },
-        {
-          "name": "Maximum API definition file size when using restapi:import or restapi:put",
-          "value": "6 MB"
-        },
-        {
-          "name": "Routes per API",
-          "value": "300"
-        },
-        {
-          "name": "Integrations per API",
-          "value": "300"
-        },
-        {
-          "name": "Maximum integration timeout",
-          "value": "30 seconds"
-        },
-        {
-          "name": "Total combined size of request line and header values",
-          "value": "10240 bytes"
-        },
-        {
-          "name": "Custom domains per account per Region",
-          "value": "120"
-        },
-        {
-          "name": "Amazon CloudWatch Logs log entry",
-          "value": "1 MB"
-        },
-        {
-          "name": "Authorizers per API",
-          "value": "10"
-        },
-        {
-          "name": "Audiences per authorizer",
-          "value": "50"
-        },
-        {
-          "name": "Scopes per route",
-          "value": "10"
-        },
-        {
-          "name": "Timeout for JSON Web Key Set endpoint",
-          "value": "1500 ms"
-        },
-        {
-          "name": "Response size from JSON Web Key Set endpoint",
-          "value": "150000 bytes"
-        },
-        {
-          "name": "Timeout for OpenID Connect discovery endpoint",
-          "value": "1500 ms"
-        },
-        {
-          "name": "Timeout for Lambda authorizer response",
-          "value": "10000 ms"
-        },
-        {
-          "name": "Subnets per VPC link",
-          "value": "10"
-        },
-        {
-          "name": "Portal products per portal",
-          "value": "200"
-        },
-        {
-          "name": "Portal products per account",
-          "value": "500"
-        },
-        {
-          "name": "Product REST endpoint pages per portal product",
-          "value": "40"
-        },
-        {
-          "name": "Product pages per portal product",
-          "value": "40"
-        },
-        {
-          "name": "Logo size",
-          "value": "200 KB"
-        },
-        {
-          "name": "Documentation page size per product REST endpoint page",
-          "value": "32,000 characters"
-        },
-        {
-          "name": "Custom page size for product pages",
-          "value": "32,000 characters"
-        },
-        {
-          "name": "Custom domain names per portal",
-          "value": "1"
-        },
-        {
-          "name": "Authorizers per portal",
-          "value": "1"
-        },
-        {
-          "name": "New connections per second per account (across all WebSocket APIs) per Region",
-          "value": "500"
-        },
-        {
-          "name": "Concurrent connections",
-          "value": "Not applicable \\$1"
-        },
-        {
-          "name": "AWS Lambda authorizers per API",
-          "value": "10"
-        },
-        {
-          "name": "Integration timeout",
-          "value": "50 milliseconds - 29 seconds for all integration types, including Lambda, Lambda proxy, HTTP, HTTP proxy, and AWS integrations."
-        },
-        {
-          "name": "Message payload size",
-          "value": "128 KB \\$1\\$1"
-        },
-        {
-          "name": "Length, in characters, of the URL for a WebSocket API",
-          "value": "4096"
         }
       ],
       "dataStatus": "ok",
@@ -1847,6 +1583,11 @@
         },
         {
           "date": "2026-04",
+          "title": "Migrate to Amazon S3 account regional namespaces",
+          "url": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/"
+        },
+        {
+          "date": "2026-04",
           "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
           "url": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/"
         },
@@ -1874,11 +1615,6 @@
           "date": "2026-03",
           "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
           "url": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/"
-        },
-        {
-          "date": "2026-03",
-          "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
-          "url": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/"
         }
       ],
       "dataStatus": "ok",
@@ -3811,11 +3547,6 @@
           "date": "2026-04",
           "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/"
-        },
-        {
-          "date": "2026-04",
-          "title": "Aurora DSQL launches connector that simplifies building PHP applications",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-dsql-connector-for-php/"
         },
         {
           "date": "2026-04",
