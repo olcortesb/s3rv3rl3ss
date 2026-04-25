@@ -3,6 +3,24 @@
   "changes": [
     {
       "date": "2026-04-25",
+      "service": "kinesis",
+      "type": "service_added",
+      "detail": "Amazon Kinesis Data Streams"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "bedrock",
+      "type": "service_added",
+      "detail": "Amazon Bedrock"
+    },
+    {
+      "date": "2026-04-25",
+      "service": "secrets-manager",
+      "type": "service_added",
+      "detail": "AWS Secrets Manager"
+    },
+    {
+      "date": "2026-04-25",
       "service": "lambda",
       "type": "new_news",
       "detail": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions "
