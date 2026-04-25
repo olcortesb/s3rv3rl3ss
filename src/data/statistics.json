@@ -1,1 +1,59 @@
-{"lastUpdated": "", "summary": {}, "topServices": {}, "byCategory": []}
+{
+  "summary": {
+    "totalServices": 15,
+    "totalQuotas": 1506,
+    "totalLimits": 117,
+    "totalNews": 51,
+    "totalRuntimes": 21,
+    "activeRuntimes": 20,
+    "deprecatedRuntimes": 1
+  },
+  "topServices": {
+    "mostQuotas": {
+      "id": "bedrock",
+      "name": "Amazon Bedrock",
+      "count": 1129
+    },
+    "mostNews": {
+      "id": "lambda",
+      "name": "AWS Lambda",
+      "count": 10
+    },
+    "mostLimits": {
+      "id": "api-gateway",
+      "name": "Amazon API Gateway",
+      "count": 52
+    }
+  },
+  "byCategory": [
+    {
+      "category": "Integration",
+      "count": 6
+    },
+    {
+      "category": "Compute",
+      "count": 2
+    },
+    {
+      "category": "Database",
+      "count": 2
+    },
+    {
+      "category": "Security",
+      "count": 2
+    },
+    {
+      "category": "Storage",
+      "count": 1
+    },
+    {
+      "category": "Analytics",
+      "count": 1
+    },
+    {
+      "category": "AI/ML",
+      "count": 1
+    }
+  ],
+  "lastUpdated": "2026-04-25"
+}
