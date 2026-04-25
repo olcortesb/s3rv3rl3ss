@@ -3257,7 +3257,21 @@
           "url": "https://aws.amazon.com/blogs/compute/orchestrating-large-scale-document-processing-with-aws-step-functions-and-amazon-bedrock-batch-inference/"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "Standard Workflows",
+          "price": "$0.025",
+          "unit": "per 1K transitions",
+          "description": "$0.025 per 1,000 state transitions"
+        },
+        {
+          "label": "Express Workflows",
+          "price": "$1.00",
+          "unit": "per 1M requests",
+          "description": "$1.00 per million requests"
+        }
+      ]
     },
     {
       "id": "fargate",
@@ -3325,7 +3339,27 @@
           "value": "20 GB – 200 GB"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.04048",
+          "unit": "per vCPU/hour",
+          "description": "$0.04048 per vCPU per hour"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.004445",
+          "unit": "per GB/hour",
+          "description": "$0.004445 per GB per hour"
+        },
+        {
+          "label": "Ephemeral Storage",
+          "price": "$0.000111",
+          "unit": "per GB/hour",
+          "description": "$0.000111 per GB per hour (above 20 GB)"
+        }
+      ]
     },
     {
       "id": "aurora-serverless",
@@ -3621,7 +3655,27 @@
           "value": "2 MB/s"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "On-Demand Write",
+          "price": "$0.08",
+          "unit": "per GB",
+          "description": "$0.08 per GB of data written"
+        },
+        {
+          "label": "On-Demand Read",
+          "price": "$0.04",
+          "unit": "per GB",
+          "description": "$0.04 per GB of data read"
+        },
+        {
+          "label": "Provisioned Shard",
+          "price": "$0.015",
+          "unit": "per shard/hour",
+          "description": "$0.015 per shard hour"
+        }
+      ]
     },
     {
       "id": "bedrock",
@@ -10481,7 +10535,27 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "Claude 3.5 Sonnet Input",
+          "price": "$0.003",
+          "unit": "per 1K tokens",
+          "description": "$0.003 per 1,000 input tokens"
+        },
+        {
+          "label": "Claude 3.5 Sonnet Output",
+          "price": "$0.015",
+          "unit": "per 1K tokens",
+          "description": "$0.015 per 1,000 output tokens"
+        },
+        {
+          "label": "Titan Text Lite Input",
+          "price": "$0.0003",
+          "unit": "per 1K tokens",
+          "description": "$0.0003 per 1,000 input tokens"
+        }
+      ]
     },
     {
       "id": "secrets-manager",
@@ -10630,7 +10704,21 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "Secret Storage",
+          "price": "$0.40",
+          "unit": "per secret/month",
+          "description": "$0.40 per secret per month"
+        },
+        {
+          "label": "API Calls",
+          "price": "$0.05",
+          "unit": "per 10K calls",
+          "description": "$0.05 per 10,000 API calls"
+        }
+      ]
     }
   ]
 }
