@@ -522,52 +522,52 @@
       ],
       "news": [
         {
-          "date": "2026-04",
+          "date": "2026-04-24",
           "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-22",
           "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-21",
           "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-21",
           "title": "AWS Lambda Durable Execution SDK for Java GA",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-10",
           "title": "Building Memory-Intensive Apps with AWS Lambda Managed Instances",
           "url": "https://aws.amazon.com/blogs/compute/building-memory-intensive-apps-with-aws-lambda-managed-instances/"
         },
         {
-          "date": "2026-03",
+          "date": "2026-03-30",
           "title": "Build high-performance apps with AWS Lambda Managed Instances",
           "url": "https://aws.amazon.com/blogs/compute/build-high-performance-apps-with-aws-lambda-managed-instances/"
         },
         {
-          "date": "2026-03",
+          "date": "2026-03-23",
           "title": "Best practices for Lambda durable functions using a fraud detection example",
           "url": "https://aws.amazon.com/blogs/compute/best-practices-for-lambda-durable-functions-using-a-fraud-detection-example/"
         },
         {
-          "date": "2026-02",
+          "date": "2026-02-25",
           "title": "Optimizing Compute-Intensive Serverless Workloads with Multi-threaded Rust on AWS Lambda",
           "url": "https://aws.amazon.com/blogs/compute/optimizing-compute-intensive-serverless-workloads-with-multi-threaded-rust-on-aws-lambda/"
         },
         {
-          "date": "2026-02",
+          "date": "2026-02-06",
           "title": "Building fault-tolerant applications with AWS Lambda durable functions",
           "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions/"
         },
         {
-          "date": "2026-01",
+          "date": "2026-01-08",
           "title": ".NET 10 runtime now available in AWS Lambda",
           "url": "https://aws.amazon.com/blogs/compute/net-10-runtime-now-available-in-aws-lambda/"
         }
@@ -1567,52 +1567,52 @@
       ],
       "news": [
         {
-          "date": "2026-04",
-          "title": "Amazon S3 now supports five additional checksum algorithms",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/"
-        },
-        {
-          "date": "2026-04",
-          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
-        },
-        {
-          "date": "2026-04",
-          "title": "Amazon S3 Express One Zone now supports S3 Inventory",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/"
-        },
-        {
-          "date": "2026-04",
+          "date": "2026-04-24",
           "title": "Migrate to Amazon S3 account regional namespaces",
           "url": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-23",
+          "title": "Amazon S3 now supports five additional checksum algorithms",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Amazon S3 Express One Zone now supports S3 Inventory",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-express-one-zone-supports-s3-inventory/"
+        },
+        {
+          "date": "2026-04-20",
           "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
           "url": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-20",
           "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
           "url": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-09",
           "title": "Building automated AWS Regional availability checks with Amazon S3",
           "url": "https://aws.amazon.com/blogs/storage/building-automated-aws-regional-availability-checks-with-amazon-s3/"
         },
         {
-          "date": "2026-03",
+          "date": "2026-03-25",
           "title": "How Tavily reduced AI search caching costs by 95% with Amazon S3 Express One Zone",
           "url": "https://aws.amazon.com/blogs/storage/how-tavily-reduced-ai-search-caching-costs-by-95-with-amazon-s3-express-one-zone/"
         },
         {
-          "date": "2026-03",
+          "date": "2026-03-16",
           "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
           "url": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/"
         },
         {
-          "date": "2026-03",
+          "date": "2026-03-11",
           "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
           "url": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/"
         }
@@ -1857,37 +1857,37 @@
       ],
       "news": [
         {
-          "date": "2025-10",
+          "date": "2025-10-09",
           "title": "Unlocking deeper insights with enhanced monitoring in AWS AppSync",
           "url": "https://aws.amazon.com/blogs/mobile/unlocking-deeper-insights-with-enhanced-monitoring-in-aws-appsync/"
         },
         {
-          "date": "2025-06",
+          "date": "2025-06-19",
           "title": "Offline caching with AWS Amplify, Tanstack, AppSync and MongoDB Atlas",
           "url": "https://aws.amazon.com/blogs/mobile/offline-caching-with-aws-amplify-tanstack-appsync-and-mongodb-atlas/"
         },
         {
-          "date": "2025-05",
+          "date": "2025-05-14",
           "title": "Simplify AWS AppSync Events integration with Powertools for AWS Lambda",
           "url": "https://aws.amazon.com/blogs/mobile/simplify-aws-appsync-events-integration-with-powertools-for-aws-lambda/"
         },
         {
-          "date": "2025-03",
+          "date": "2025-03-13",
           "title": "Building real-time apps with AWS AppSync Events’ WebSocket publishing",
           "url": "https://aws.amazon.com/blogs/mobile/building-real-time-apps-with-aws-appsync-events-websocket-publishing/"
         },
         {
-          "date": "2025-01",
+          "date": "2025-01-14",
           "title": "AWS AppSync field-level resolvers: Enhancing GraphQL API development",
           "url": "https://aws.amazon.com/blogs/mobile/aws-appsync-field-level-resolvers-enhancing-graphql-api-development/"
         },
         {
-          "date": "2024-11",
+          "date": "2024-11-26",
           "title": "Working with AWS AppSync Events: Real-time Web Games with Chat",
           "url": "https://aws.amazon.com/blogs/mobile/working-with-aws-appsync-events-real-time-web-games-with-chat/"
         },
         {
-          "date": "2024-11",
+          "date": "2024-11-25",
           "title": "Working with AWS AppSync Events: Serverless WebSockets for Pub/Sub",
           "url": "https://aws.amazon.com/blogs/mobile/working-with-aws-appsync-events-serverless-websockets-for-pub-sub/"
         }
@@ -2086,7 +2086,7 @@
       ],
       "news": [
         {
-          "date": "2026-04",
+          "date": "2026-04-14",
           "title": "AWS Outposts monitoring and reporting: A comprehensive Amazon EventBridge solution",
           "url": "https://aws.amazon.com/blogs/compute/aws-outposts-monitoring-and-reporting-a-comprehensive-amazon-eventbridge-solution/"
         }
@@ -3247,12 +3247,12 @@
       ],
       "news": [
         {
-          "date": "2026-03",
+          "date": "2026-03-22",
           "title": "Testing Step Functions workflows: a guide to the enhanced TestState API",
           "url": "https://aws.amazon.com/blogs/compute/testing-step-functions-workflows-a-guide-to-the-enhanced-teststate-api/"
         },
         {
-          "date": "2025-11",
+          "date": "2025-11-26",
           "title": "Orchestrating large-scale document processing with AWS Step Functions and Amazon Bedrock batch inference",
           "url": "https://aws.amazon.com/blogs/compute/orchestrating-large-scale-document-processing-with-aws-step-functions-and-amazon-bedrock-batch-inference/"
         }
@@ -3568,47 +3568,47 @@
       ],
       "news": [
         {
-          "date": "2026-04",
+          "date": "2026-04-23",
           "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-21",
           "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-21",
           "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-20",
           "title": "Aurora Serverless: Faster performance, enhanced scaling, and still scales down to zero",
           "url": "https://aws.amazon.com/blogs/database/aurora-serverless-faster-performance-enhanced-scaling-and-still-scales-down-to-zero/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-16",
           "title": "Build resilient Kerberos authentication for Aurora Global Database without joining Active Directory domain",
           "url": "https://aws.amazon.com/blogs/database/build-resilient-kerberos-authentication-for-aurora-global-database-without-joining-active-directory-domain/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-14",
           "title": "Accelerate database migration to Amazon Aurora DSQL with Kiro and Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/database/accelerate-database-migration-to-amazon-aurora-dsql-with-kiro-and-amazon-bedrock-agentcore/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-13",
           "title": "Connecting .NET Lambda to Amazon Aurora PostgreSQL via RDS Proxy",
           "url": "https://aws.amazon.com/blogs/database/connecting-net-lambda-to-amazon-aurora-postgresql-via-rds-proxy/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-06",
           "title": "Optimize full-text search in Amazon RDS for MySQL and Amazon Aurora MySQL",
           "url": "https://aws.amazon.com/blogs/database/optimize-full-text-search-in-amazon-rds-for-mysql-and-amazon-aurora-mysql/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-06",
           "title": "Working with identity columns and sequences in Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/working-with-identity-columns-and-sequences-in-aurora-dsql/"
         }
@@ -10485,52 +10485,52 @@
       ],
       "news": [
         {
-          "date": "2026-04",
+          "date": "2026-04-24",
           "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
           "url": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-22",
           "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/"
         },
         {
-          "date": "2026-04",
-          "title": "Claude Opus 4.7 is now available in Amazon Bedrock ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/"
-        },
-        {
-          "date": "2026-04",
+          "date": "2026-04-22",
           "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-22",
           "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0",
           "url": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-21",
           "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-20",
           "title": "Omnichannel ordering with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
           "url": "https://aws.amazon.com/blogs/machine-learning/omnichannel-ordering-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-17",
           "title": "Introducing granular cost attribution for Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-17",
           "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-16",
+          "title": "Claude Opus 4.7 is now available in Amazon Bedrock ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/"
+        },
+        {
+          "date": "2026-04-16",
           "title": "Cost-efficient custom text-to-SQL using Amazon Nova Micro and Amazon Bedrock on-demand inference",
           "url": "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/"
         }
@@ -10694,12 +10694,12 @@
       ],
       "news": [
         {
-          "date": "2026-04",
+          "date": "2026-04-22",
           "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/secrets-manager-managed-external-secrets-mongodb-confluent/"
         },
         {
-          "date": "2026-04",
+          "date": "2026-04-14",
           "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/"
         }
