@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "services": [
     {
       "id": "lambda",
@@ -3568,6 +3568,16 @@
       ],
       "news": [
         {
+          "date": "2026-04-27",
+          "title": "DSQL SQL Dialect: How Amazon Aurora DSQL differs from single-instance PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/dsql-sql-dialect-how-amazon-aurora-dsql-differs-from-single-instance-postgresql/"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "How Kajabi optimized costs with Amazon Aurora upgrades",
+          "url": "https://aws.amazon.com/blogs/database/how-kajabi-optimized-costs-with-amazon-aurora-upgrades/"
+        },
+        {
           "date": "2026-04-23",
           "title": "AWS Backup expands support for Amazon Aurora PITR to six Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/"
@@ -3606,11 +3616,6 @@
           "date": "2026-04-06",
           "title": "Optimize full-text search in Amazon RDS for MySQL and Amazon Aurora MySQL",
           "url": "https://aws.amazon.com/blogs/database/optimize-full-text-search-in-amazon-rds-for-mysql-and-amazon-aurora-mysql/"
-        },
-        {
-          "date": "2026-04-06",
-          "title": "Working with identity columns and sequences in Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/working-with-identity-columns-and-sequences-in-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -10485,6 +10490,11 @@
       ],
       "news": [
         {
+          "date": "2026-04-27",
+          "title": "Build and deploy an automatic sync solution for Amazon Bedrock Knowledge Bases",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-and-deploy-an-automatic-sync-solution-for-amazon-bedrock-knowledge-bases/"
+        },
+        {
           "date": "2026-04-24",
           "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
           "url": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/"
@@ -10523,16 +10533,6 @@
           "date": "2026-04-17",
           "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-04-16",
-          "title": "Claude Opus 4.7 is now available in Amazon Bedrock ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/claude-opus-4.7-amazon-bedrock/"
-        },
-        {
-          "date": "2026-04-16",
-          "title": "Cost-efficient custom text-to-SQL using Amazon Nova Micro and Amazon Bedrock on-demand inference",
-          "url": "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/"
         }
       ],
       "dataStatus": "partial",
@@ -10697,11 +10697,6 @@
           "date": "2026-04-22",
           "title": "AWS Secrets Manager extends managed external secrets to MongoDB Atlas and Confluent Cloud",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/secrets-manager-managed-external-secrets-mongodb-confluent/"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "AWS Secrets Manager now supports hybrid post-quantum TLS to protect secrets from quantum threats ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-post-quantum-tls/"
         }
       ],
       "dataStatus": "partial",

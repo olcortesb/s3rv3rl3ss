@@ -3,7 +3,7 @@
     "totalServices": 15,
     "totalQuotas": 1506,
     "totalLimits": 117,
-    "totalNews": 51,
+    "totalNews": 50,
     "totalRuntimes": 21,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 1
@@ -55,5 +55,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-04-27"
+  "lastUpdated": "2026-04-28"
 }

@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "changes": [
+    {
+      "date": "2026-04-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "DSQL SQL Dialect: How Amazon Aurora DSQL differs from single-instance PostgreSQL"
+    },
+    {
+      "date": "2026-04-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "How Kajabi optimized costs with Amazon Aurora upgrades"
+    },
+    {
+      "date": "2026-04-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build and deploy an automatic sync solution for Amazon Bedrock Knowledge Bases"
+    },
     {
       "date": "2026-04-25",
       "service": "kinesis",
