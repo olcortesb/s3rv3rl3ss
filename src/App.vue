@@ -23,7 +23,7 @@
       </div>
     </header>
     <main class="max-w-6xl mx-auto px-4 py-8 flex-1">
-      <router-view />
+      <router-view :key="$route.fullPath" />
     </main>
     <footer class="border-t border-gray-200">
       <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-400">
