@@ -1,0 +1,333 @@
+{
+  "lastUpdated": "2026-04-28",
+  "services": [
+    {
+      "id": "cloud-run",
+      "enabled": true,
+      "name": "Cloud Run",
+      "category": "Compute",
+      "description": "Cloud Run is a fully managed compute platform that lets you deploy and scale containerized applications quickly and securely.",
+      "useCases": [
+        "Container workloads",
+        "Web apps",
+        "APIs",
+        "Microservices"
+      ],
+      "pricing": "Pay per vCPU, memory and request",
+      "pricingUrl": "https://cloud.google.com/run/pricing",
+      "url": "https://cloud.google.com/run",
+      "icon": "🚀",
+      "limits": [
+        {
+          "name": "Max instances",
+          "value": "1,000"
+        },
+        {
+          "name": "Max request timeout",
+          "value": "3,600 seconds (60 min)"
+        },
+        {
+          "name": "Max vCPU per instance",
+          "value": "8"
+        },
+        {
+          "name": "Max memory per instance",
+          "value": "32 GiB"
+        },
+        {
+          "name": "Max request body size",
+          "value": "32 MB"
+        },
+        {
+          "name": "Max response body size",
+          "value": "32 MB"
+        },
+        {
+          "name": "Max concurrent requests per instance",
+          "value": "1,000"
+        },
+        {
+          "name": "Container image size",
+          "value": "10 GiB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_03_2026"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.00002400",
+          "unit": "per vCPU-second",
+          "description": "$0.00002400 per vCPU-second"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.00000250",
+          "unit": "per GiB-second",
+          "description": "$0.00000250 per GiB-second"
+        },
+        {
+          "label": "Requests",
+          "price": "$0.40",
+          "unit": "per 1M requests",
+          "description": "$0.40 per million requests"
+        }
+      ]
+    },
+    {
+      "id": "cloud-run-functions",
+      "enabled": true,
+      "name": "Cloud Run Functions",
+      "category": "Compute",
+      "description": "Cloud Run Functions is a lightweight, event-driven compute solution that allows you to create small, single-purpose functions that respond to cloud events.",
+      "useCases": [
+        "Event processing",
+        "Webhooks",
+        "Data transformation",
+        "IoT backends"
+      ],
+      "pricing": "Pay per invocation, compute time and networking",
+      "pricingUrl": "https://cloud.google.com/functions/pricing",
+      "url": "https://cloud.google.com/functions",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Max function timeout (1st gen)",
+          "value": "540 seconds (9 min)"
+        },
+        {
+          "name": "Max function timeout (2nd gen)",
+          "value": "3,600 seconds (60 min)"
+        },
+        {
+          "name": "Max memory",
+          "value": "32 GiB"
+        },
+        {
+          "name": "Max vCPUs",
+          "value": "8"
+        },
+        {
+          "name": "Max request size (HTTP)",
+          "value": "32 MB"
+        },
+        {
+          "name": "Max response size (HTTP)",
+          "value": "32 MB"
+        },
+        {
+          "name": "Max event size",
+          "value": "512 KB"
+        },
+        {
+          "name": "Max concurrent requests per instance",
+          "value": "1,000"
+        },
+        {
+          "name": "Max instances",
+          "value": "3,000"
+        },
+        {
+          "name": "Deployment size (compressed)",
+          "value": "100 MB"
+        },
+        {
+          "name": "Deployment size (uncompressed)",
+          "value": "500 MB"
+        }
+      ],
+      "runtimes": [
+        {
+          "name": "Node.js 22",
+          "status": "active"
+        },
+        {
+          "name": "Node.js 20",
+          "status": "active"
+        },
+        {
+          "name": "Node.js 18",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.12",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.11",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.10",
+          "status": "active"
+        },
+        {
+          "name": "Go 1.22",
+          "status": "active"
+        },
+        {
+          "name": "Go 1.21",
+          "status": "active"
+        },
+        {
+          "name": "Java 21",
+          "status": "active"
+        },
+        {
+          "name": "Java 17",
+          "status": "active"
+        },
+        {
+          "name": "Java 11",
+          "status": "active"
+        },
+        {
+          "name": ".NET 8",
+          "status": "active"
+        },
+        {
+          "name": ".NET 6",
+          "status": "active"
+        },
+        {
+          "name": "Ruby 3.3",
+          "status": "active"
+        },
+        {
+          "name": "Ruby 3.2",
+          "status": "active"
+        },
+        {
+          "name": "PHP 8.3",
+          "status": "active"
+        },
+        {
+          "name": "PHP 8.2",
+          "status": "active"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03-17",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_17_2026"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_12_2026"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_03_2026"
+        },
+        {
+          "date": "2026-02-27",
+          "title": "Feature\nSupport for PHP 8.5 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_27_2026"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "Feature\nSupport for the ability to configure Direct VPC egress for 2nd gen functions is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_24_2026"
+        },
+        {
+          "date": "2026-02-19",
+          "title": "Feature\nSupport for Go 1.26 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_19_2026"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "Feature\nSupport for .NET 10 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_18_2026"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "Feature\nSupport for PHP 8.5 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_02_2026"
+        },
+        {
+          "date": "2026-01-27",
+          "title": "Feature\nSupport for .NET 10 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#January_27_2026"
+        },
+        {
+          "date": "2026-01-06",
+          "title": "Feature\nYou can now configure Direct VPC egress for 2nd gen functions. This support is at the Preview release level.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#January_06_2026"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Invocations",
+          "price": "$0.40",
+          "unit": "per 1M invocations",
+          "description": "$0.40 per million invocations"
+        },
+        {
+          "label": "Compute (GHz-second)",
+          "price": "$0.0000100",
+          "unit": "per GHz-second",
+          "description": "$0.0000100 per GHz-second"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.0000025",
+          "unit": "per GB-second",
+          "description": "$0.0000025 per GB-second"
+        }
+      ]
+    }
+  ]
+}

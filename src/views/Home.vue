@@ -5,7 +5,7 @@
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center gap-6">
       <router-link
         v-for="p in providers"
         :key="p.id"

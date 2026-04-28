@@ -88,7 +88,7 @@ const props = defineProps({ provider: String })
 
 const providerInfo = getProvider(props.provider)
 const providerData = getProviderData(props.provider)
-const stats = getStatistics()
+const stats = getStatistics(props.provider)
 const showStats = ref(false)
 
 const search = ref('')

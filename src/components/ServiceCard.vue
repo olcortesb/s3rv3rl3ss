@@ -7,7 +7,8 @@
       {{ badge }}
     </span>
     <div class="flex items-center gap-3 mb-2">
-      <img :src="`/icons/aws/${service.id}.svg`" :alt="service.name" class="w-8 h-8" />
+      <img :src="iconUrl" :alt="service.name" class="w-8 h-8" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
+      <span class="text-2xl" style="display:none">{{ service.icon }}</span>
       <h3 class="font-semibold text-gray-900">{{ service.name }}</h3>
     </div>
     <span class="inline-block text-xs font-medium px-2 py-1 rounded-full bg-gray-100 text-gray-600 mb-2">
@@ -26,6 +27,11 @@ import { computed } from 'vue'
 import { getChangelog } from '../data/index.js'
 
 const props = defineProps({ service: Object, provider: String })
+
+const iconUrl = computed(() => {
+  const base = `/icons/${props.provider}/${props.service.id}`
+  return `${base}.svg`
+})
 
 const badge = computed(() => {
   const changes = getChangelog(props.service.id)

@@ -4,7 +4,8 @@
 
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 max-w-3xl">
       <div class="flex items-center gap-3 mb-4">
-        <img :src="`/icons/aws/${service.id}.svg`" :alt="service.name" class="w-12 h-12" />
+        <img :src="iconUrl" :alt="service.name" class="w-12 h-12" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
+        <span class="text-4xl" style="display:none">{{ service.icon }}</span>
         <div>
           <h1 class="text-2xl font-bold text-gray-900">{{ service.name }}</h1>
           <span class="text-xs font-medium px-2 py-1 rounded-full bg-gray-100 text-gray-600">
@@ -203,6 +204,7 @@ const props = defineProps({ provider: String, id: String })
 const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
 const changelog = computed(() => getChangelog(props.id))
+const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
 
 const showRuntimes = ref(false)
 const showQuotas = ref(false)
