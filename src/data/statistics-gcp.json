@@ -1,1 +1,23 @@
-{"lastUpdated": "", "summary": {}, "topServices": {}, "byCategory": []}
+{
+  "summary": {
+    "totalServices": 2,
+    "totalNews": 20,
+    "totalRuntimes": 17,
+    "activeRuntimes": 17,
+    "deprecatedRuntimes": 0
+  },
+  "topServices": {
+    "mostNews": {
+      "id": "cloud-run",
+      "name": "Cloud Run",
+      "count": 10
+    }
+  },
+  "byCategory": [
+    {
+      "category": "Compute",
+      "count": 2
+    }
+  ],
+  "lastUpdated": "2026-04-28"
+}
