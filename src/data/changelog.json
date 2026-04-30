@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "changes": [
+    {
+      "date": "2026-04-30",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Aurora serverless: Faster performance, enhanced scaling, and still scales down to zero"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Anthropic Claude Instant removed"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude Instant removed"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Anthropic Claude V2 removed"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude V2 removed"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Run custom MCP proxies serverless on Amazon Bedrock AgentCore Runtime"
+    },
+    {
+      "date": "2026-04-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Runtime now supports Node.js for direct code deployment"
+    },
     {
       "date": "2026-04-29",
       "service": "bedrock",
