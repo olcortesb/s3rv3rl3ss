@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-01",
   "services": [
     {
       "id": "lambda",
@@ -406,12 +406,6 @@
           "eol": "2027-04-30"
         },
         {
-          "name": "Node.js 20",
-          "identifier": "nodejs20.x",
-          "status": "active",
-          "eol": "2026-04-30"
-        },
-        {
           "name": "Python 3.14",
           "identifier": "python3.14",
           "status": "active",
@@ -490,6 +484,12 @@
           "eol": "2026-11-10"
         },
         {
+          "name": "Ruby 4.0",
+          "identifier": "ruby4.0",
+          "status": "active",
+          "eol": "2029-03-31"
+        },
+        {
           "name": "Ruby 3.4",
           "identifier": "ruby3.4",
           "status": "active",
@@ -500,12 +500,6 @@
           "identifier": "ruby3.3",
           "status": "active",
           "eol": "2027-03-31"
-        },
-        {
-          "name": "Ruby 3.2",
-          "identifier": "ruby3.2",
-          "status": "deprecated",
-          "eol": "2026-03-31"
         },
         {
           "name": "OS-only Runtime",
@@ -522,6 +516,11 @@
       ],
       "news": [
         {
+          "date": "2026-04-30",
+          "title": "AWS Lambda adds support for Ruby 4.0",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-adds-ruby/"
+        },
+        {
           "date": "2026-04-24",
           "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/"
@@ -535,11 +534,6 @@
           "date": "2026-04-21",
           "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "AWS Lambda Durable Execution SDK for Java GA",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-execution-java-ga/"
         },
         {
           "date": "2026-04-10",
@@ -3583,16 +3577,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-backup-amazon-aurora-pitr/"
         },
         {
-          "date": "2026-04-21",
-          "title": "Amazon Aurora serverless: Up to 30% better performance, smarter scaling, and still scales to zero",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aurora-serverless-smarter-scaling/"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "AWS Backup adds Amazon Redshift Serverless and Aurora DSQL support for AWS Organizations backup policies ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/backup-policies-aurora-dsql-redshift-serverless/"
-        },
-        {
           "date": "2026-04-20",
           "title": "Aurora serverless: Faster performance, enhanced scaling, and still scales down to zero",
           "url": "https://aws.amazon.com/blogs/database/aurora-serverless-faster-performance-enhanced-scaling-and-still-scales-down-to-zero/"
@@ -4008,7 +3992,7 @@
         },
         {
           "name": "Cross-region model inference tokens per minute for Anthropic Claude Opus 4.7",
-          "value": "15000000",
+          "value": "0",
           "description": "The maximum number of cross-region tokens that you can submit for model inference in one minute for Anthropic Claude Opus 4.7. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": true
         },
@@ -6499,7 +6483,7 @@
         },
         {
           "name": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 4.7",
-          "value": "15000000",
+          "value": "0",
           "description": "The maximum number of global cross-region tokens that you can submit for model inference in one minute for Anthropic Claude Opus 4.7. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": true
         },
@@ -10461,6 +10445,21 @@
       ],
       "news": [
         {
+          "date": "2026-04-30",
+          "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/"
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Configuring Amazon Bedrock AgentCore Gateway for secure access to private resources",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/"
+        },
+        {
           "date": "2026-04-29",
           "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/"
@@ -10494,21 +10493,6 @@
           "date": "2026-04-22",
           "title": "Amazon Bedrock AgentCore adds new features to help developers build agents faster",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/agentcore-new-features-to-build-agents-faster/"
-        },
-        {
-          "date": "2026-04-22",
-          "title": "Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-04-22",
-          "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0",
-          "url": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",

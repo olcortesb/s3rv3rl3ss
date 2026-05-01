@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-01",
   "changes": [
+    {
+      "date": "2026-05-01",
+      "service": "lambda",
+      "type": "new_runtime",
+      "detail": "Ruby 4.0 added (active)"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "lambda",
+      "type": "runtime_removed",
+      "detail": "Node.js 20 removed"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "lambda",
+      "type": "runtime_removed",
+      "detail": "Ruby 3.2 removed"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda adds support for Ruby 4.0"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Opus 4.7: 15000000 → 0"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 4.7: 15000000 → 0"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview"
+    },
+    {
+      "date": "2026-05-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Configuring Amazon Bedrock AgentCore Gateway for secure access to private resources"
+    },
     {
       "date": "2026-04-30",
       "service": "s3",
