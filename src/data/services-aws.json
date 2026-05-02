@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-02",
   "services": [
     {
       "id": "lambda",
@@ -524,16 +524,6 @@
           "date": "2026-04-24",
           "title": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-Lambda-provisioned-esm-region-expansion/"
-        },
-        {
-          "date": "2026-04-22",
-          "title": "AWS Lambda durable functions are now available in 16 additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/lambda-durable-functions-16-new-regions/"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
         },
         {
           "date": "2026-04-10",
@@ -1576,11 +1566,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/s3-five-additional-checksum-algorithms/"
         },
         {
-          "date": "2026-04-21",
-          "title": "AWS Lambda functions can now mount Amazon S3 buckets as file systems with S3 Files ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-lambda-amazon-s3/"
-        },
-        {
           "date": "2026-04-20",
           "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
           "url": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/"
@@ -1609,6 +1594,11 @@
           "date": "2026-03-11",
           "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
           "url": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+          "url": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/"
         }
       ],
       "dataStatus": "ok",
@@ -10445,6 +10435,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-01",
+          "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/"
+        },
+        {
           "date": "2026-04-30",
           "title": "Amazon Bedrock AgentCore Identity now supports On-Behalf-Of (OBO) token exchange",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore/"
@@ -10465,11 +10460,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/"
         },
         {
-          "date": "2026-04-29",
-          "title": "Run custom MCP proxies serverless on Amazon Bedrock AgentCore Runtime",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-custom-mcp-proxies-serverless-on-amazon-bedrock-agentcore-runtime/"
-        },
-        {
           "date": "2026-04-28",
           "title": "Amazon Bedrock AgentCore Runtime now supports Node.js for direct code deployment",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-runtime/"
@@ -10480,14 +10470,14 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/"
         },
         {
-          "date": "2026-04-27",
-          "title": "Build and deploy an automatic sync solution for Amazon Bedrock Knowledge Bases",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-and-deploy-an-automatic-sync-solution-for-amazon-bedrock-knowledge-bases/"
-        },
-        {
           "date": "2026-04-24",
           "title": "Amazon Bedrock AgentCore Gateway and Identity support VPC egress",
           "url": "https://aws.amazon.com/about-aws/whats-new/2024/04/agentcore-gateway-identity-vpc/"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sap-mcp-amazon-bedrock/"
         },
         {
           "date": "2026-04-22",

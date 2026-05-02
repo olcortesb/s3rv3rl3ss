@@ -3,7 +3,7 @@
     "totalServices": 15,
     "totalQuotas": 1502,
     "totalLimits": 117,
-    "totalNews": 48,
+    "totalNews": 46,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -15,8 +15,8 @@
       "count": 1125
     },
     "mostNews": {
-      "id": "lambda",
-      "name": "AWS Lambda",
+      "id": "s3",
+      "name": "Amazon S3",
       "count": 10
     },
     "mostLimits": {
@@ -55,5 +55,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-05-01"
+  "lastUpdated": "2026-05-02"
 }

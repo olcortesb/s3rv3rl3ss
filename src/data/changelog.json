@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-02",
   "changes": [
+    {
+      "date": "2026-05-02",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx"
+    },
+    {
+      "date": "2026-05-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region"
+    },
+    {
+      "date": "2026-05-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore"
+    },
     {
       "date": "2026-05-01",
       "service": "lambda",
