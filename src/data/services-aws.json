@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03",
+  "lastUpdated": "2026-05-04",
   "services": [
     {
       "id": "lambda",
@@ -3294,13 +3294,13 @@
         },
         {
           "name": "Fargate On-Demand vCPU resource count",
-          "value": "64",
+          "value": "30",
           "description": "The number of Fargate vCPUs running concurrently as Fargate On-Demand in this account in the current Region.",
           "adjustable": true
         },
         {
           "name": "Fargate Spot vCPU resource count",
-          "value": "64",
+          "value": "30",
           "description": "The number of Fargate vCPUs running concurrently as Fargate Spot in this account in the current Region.",
           "adjustable": true
         },
@@ -3676,7 +3676,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Mistral Large 3",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Mistral Large 3. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -3718,7 +3718,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 2 Chat 70B",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Meta Llama 2 Chat 70B.",
           "adjustable": false
         },
@@ -3754,13 +3754,13 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.6",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.6. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Haiku 4.5",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Haiku 4.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -3772,7 +3772,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova Lite",
-          "value": "4000",
+          "value": "400",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova Lite. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -3802,13 +3802,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude 3.7 Sonnet V1",
-          "value": "250",
+          "value": "13",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude 3.7 Sonnet V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for AI21 Labs Jamba Instruct",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of times that you can call model inference in one minute for AI21 Labs Jamba Instruct. The quota considers the combined sum of requests for Converse and InvokeModel",
           "adjustable": false
         },
@@ -3856,7 +3856,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for NVIDIA Nemotron Nano 2",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for NVIDIA Nemotron Nano 2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -3922,7 +3922,7 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Amazon Nova 2 Lite",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Lite. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -3988,7 +3988,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for GPT OSS Safeguard 20B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for GPT OSS Safeguard 20B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4006,19 +4006,19 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3 8B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3 8B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Minimax M2",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Minimax M2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for DeepSeek V3.2",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for DeepSeek V3.2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4054,19 +4054,19 @@
         },
         {
           "name": "On-demand model inference requests per minute for AI21 Labs Jamba 1.5 Large",
-          "value": "50",
+          "value": "10",
           "description": "The maximum number of times that you can call model inference in one minute for AI21 Labs Jamba 1.5 Large. The quota considers the combined sum of requests for Converse and InvokeModel",
           "adjustable": false
         },
         {
           "name": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Micro",
-          "value": "2000",
+          "value": "200",
           "description": "The sum of input and output on-demand custom model deployment requests per minute submitted to the Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream actions for Amazon Nova Micro",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Opus 4 V1",
-          "value": "200",
+          "value": "10",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4288,7 +4288,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet",
-          "value": "50",
+          "value": "3",
           "description": "The maximum number of times that you can call model inference in one minute for Anthropic Claude 3.5 Sonnet. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -4300,13 +4300,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Text Lite",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Amazon Titan Text Lite",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Creative Upscale",
-          "value": "2",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Creative Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4330,7 +4330,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for NVIDIA Nemotron 3 Super 120B A12B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for NVIDIA Nemotron 3 Super 120B A12B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4378,7 +4378,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length",
-          "value": "1000",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -4432,7 +4432,7 @@
         },
         {
           "name": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Lite",
-          "value": "2000",
+          "value": "200",
           "description": "The sum of input and output on-demand custom model deployment requests per minute submitted to the Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream actions for Amazon Nova Lite",
           "adjustable": false
         },
@@ -4510,13 +4510,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.5",
-          "value": "10000",
+          "value": "25",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "Cross-region model inference requests per minute for Mistral Pixtral Large 25.02 V1",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Mistral Pixtral Large 25.02 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4564,7 +4564,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Anthropic Claude 3.5 Haiku",
-          "value": "1000",
+          "value": "50",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Anthropic Claude 3.5 Haiku. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4576,13 +4576,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Text Embeddings",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Titan Text Embeddings",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.1 70B Instruct",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3.1 70B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4648,7 +4648,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Ministral 3B 3.0",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Ministral 3B 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4672,13 +4672,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Fast Upscale",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Fast Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Control Sketch",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Control Sketch. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4726,7 +4726,7 @@
         },
         {
           "name": "On-demand InvokeModel concurrent requests for Amazon Nova 2 Sonic",
-          "value": "10",
+          "value": "2",
           "description": "The maximum number of concurrent model inference requests that you can submit for Amazon Nova 2 Sonic. The quota considers the combined sum of Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -4738,13 +4738,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Search and Recolor",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Search and Recolor. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Nova Canvas",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of requests that you can submit for model inference in one minute for Amazon Nova Canvas. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -4756,7 +4756,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Text Premier",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Amazon Titan Text Premier",
           "adjustable": false
         },
@@ -4876,7 +4876,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for OpenAI GPT OSS 20B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for OpenAI GPT OSS 20B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4912,7 +4912,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Minimax M2.1",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Minimax M2.1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4936,13 +4936,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Twelve Labs Pegasus",
-          "value": "120",
+          "value": "12",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Twelve Labs Pegasus. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": true
         },
         {
           "name": "On-demand model inference requests per minute for Kimi K2 Thinking",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Kimi K2 Thinking. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -4984,7 +4984,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Magistral Small 1.2",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Magistral Small 1.2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5086,7 +5086,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude 3.5 Sonnet",
-          "value": "100",
+          "value": "5",
           "description": "The maximum number of times that you can call model inference in one minute for Anthropic Claude 3.5 Sonnet. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -5236,13 +5236,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Mistral AI Mistral Small",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call InvokeModel and InvokeModelWithResponseStream in one minute for Mistral AI Mistral Small",
           "adjustable": false
         },
         {
           "name": "Global cross-region model inference requests per minute for Cohere Embed V4",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Cohere Embed V4. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -5290,7 +5290,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Outpaint",
-          "value": "4",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Outpaint. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5326,7 +5326,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Search and Recolor",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Search and Recolor. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5380,13 +5380,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Style Transfer",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Style Transfer. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Sonnet V2",
-          "value": "100",
+          "value": "5",
           "description": "The maximum number of times that you can call model inference in one minute for Anthropic Claude 3.5 Sonnet V2. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -5482,13 +5482,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1",
-          "value": "200",
+          "value": "10",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1",
-          "value": "200",
+          "value": "10",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -5621,7 +5621,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 4 Maverick V1",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 4 Maverick V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5633,7 +5633,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Moonshot AI Kimi K2.5",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Moonshot AI Kimi K2.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5663,7 +5663,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova Premier V1",
-          "value": "500",
+          "value": "50",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova Premier V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5723,7 +5723,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Conservative Upscale",
-          "value": "2",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Conservative Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5801,7 +5801,7 @@
         },
         {
           "name": "On-demand latency-optimized model inference requests per minute for Anthropic Claude 3.5 Haiku",
-          "value": "100",
+          "value": "5",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3.5 Haiku, if latency optimization is configured.",
           "adjustable": false
         },
@@ -5831,7 +5831,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 4 Scout V1",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 4 Scout V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -5867,13 +5867,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.1",
-          "value": "50",
+          "value": "3",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4.1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Pro",
-          "value": "200",
+          "value": "20",
           "description": "The sum of input and output on-demand custom model deployment requests per minute submitted to the Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream actions for Amazon Nova Pro",
           "adjustable": false
         },
@@ -5885,19 +5885,19 @@
         },
         {
           "name": "On-demand InvokeModel concurrent requests for Twelve Labs Marengo",
-          "value": "15",
+          "value": "3",
           "description": "The maximum number of concurrent InvokeModel requests that you can submit for model inference for Twelve Labs Marengo.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Nova Pro",
-          "value": "250",
+          "value": "25",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Nova Pro. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet V2",
-          "value": "50",
+          "value": "3",
           "description": "The maximum number of times that you can call model inference in one minute for Anthropic Claude 3.5 Sonnet V2. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -6017,7 +6017,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 3.3 70B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 3.3 70B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6029,7 +6029,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for AI21 Labs Jamba 1.5 Mini",
-          "value": "50",
+          "value": "10",
           "description": "The maximum number of times that you can call model inference in one minute for AI21 Labs Jamba 1.5 Mini. The quota considers the combined sum of requests for Converse and InvokeModel",
           "adjustable": false
         },
@@ -6065,13 +6065,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.5 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Text Embeddings V2",
-          "value": "6000",
+          "value": "600",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Titan Text Embeddings V2",
           "adjustable": false
         },
@@ -6107,7 +6107,7 @@
         },
         {
           "name": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova 2 Lite",
-          "value": "2000",
+          "value": "200",
           "description": "The sum of input and output on-demand custom model deployment requests per minute submitted to the Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream actions for Amazon Nova 2 Lite",
           "adjustable": false
         },
@@ -6179,7 +6179,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Creative Upscale",
-          "value": "4",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Creative Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6233,7 +6233,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Gemma 3 27B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Gemma 3 27B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6281,7 +6281,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.2 90B Instruct",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute for Meta Llama 3.2 90B Instruct. The quota considers the combined sum of requests for InvokeModel, InvokeModelWithResponseStream, Converse, and ConverseStream.",
           "adjustable": false
         },
@@ -6335,7 +6335,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Qwen3 32B V1",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 32B V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6359,7 +6359,7 @@
         },
         {
           "name": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Large",
-          "value": "150000",
+          "value": "30000",
           "description": "The maximum number of tokens that you can submit for model inference in one minute for AI21 Labs Jamba 1.5 Large. The quota considers the combined sum of input and output tokens across all requests to Converse and InvokeModel.",
           "adjustable": false
         },
@@ -6419,7 +6419,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Nemotron Nano 3 30B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Nemotron Nano 3 30B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6437,7 +6437,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3 70B Instruct",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3 70B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6557,7 +6557,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 3.2 1B Instruct",
-          "value": "1600",
+          "value": "160",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 3.2 1B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6611,7 +6611,7 @@
         },
         {
           "name": "On-Demand, latency-optimized model inference requests per minute for Meta Llama 3.1 70B Instruct",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of on-demand, latency-optimized requests that you can submit for model inference in one minute for Meta Llama 3.1 70B Instruct. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -6641,7 +6641,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 2 Chat 13B",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Meta Llama 2 Chat 13B.",
           "adjustable": false
         },
@@ -6659,19 +6659,19 @@
         },
         {
           "name": "On-demand model inference requests per minute for OpenAI GPT OSS 120B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for OpenAI GPT OSS 120B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Search and Replace",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Search and Replace. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Qwen3 Next 80B A3B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 Next 80B A3B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6707,7 +6707,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 3.1 8B Instruct",
-          "value": "1600",
+          "value": "160",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 3.1 8B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6749,25 +6749,25 @@
         },
         {
           "name": "On-demand model inference requests per minute for Qwen3 VL 235B A22B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 VL 235B A22B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 3.2 3B Instruct",
-          "value": "1600",
+          "value": "160",
           "description": "The maximum number of times that you can call model inference in one minute for Meta Llama 3.2 3B Instruct. The quota considers the combined sum of requests for InvokeModel, InvokeModelWithResponseStream, Converse, and ConverseStream.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Conservative Upscale",
-          "value": "4",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Conservative Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude 3 Haiku",
-          "value": "2000",
+          "value": "100",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Haiku.",
           "adjustable": false
         },
@@ -6798,7 +6798,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Cohere Embed V4",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Cohere Embed V4. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6846,13 +6846,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Mistral 7B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Mistral mistral-7b-instruct-v0",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Mid",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call InvokeModel in one minute for AI21 Labs Jurassic-2 Mid",
           "adjustable": false
         },
@@ -6870,7 +6870,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Anthropic Claude 3 Sonnet",
-          "value": "500",
+          "value": "25",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Sonnet.",
           "adjustable": false
         },
@@ -6930,7 +6930,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Twelve Labs Marengo",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Twelve Labs Marengo. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -6984,7 +6984,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova 2 Lite",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Lite. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7050,7 +7050,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for MiniMax M2.5",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for MiniMax M2.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7086,7 +7086,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Z.ai GLM-4.7 Flash",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Z.ai GLM-4.7 Flash. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7134,7 +7134,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Image Generator G1",
-          "value": "60",
+          "value": "6",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Titan Image Generator G1.",
           "adjustable": false
         },
@@ -7224,7 +7224,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Writer Palmyra Vision 7B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Writer Palmyra Vision 7B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7254,13 +7254,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Inpaint",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Inpaint. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Twelve Labs Marengo",
-          "value": "200",
+          "value": "20",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Twelve Labs Marengo. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7272,7 +7272,7 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Amazon Nova 2 Omni",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Omni. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -7440,7 +7440,7 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Amazon Nova 2 Pro Preview",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Pro Preview. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -7470,7 +7470,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Twelve Labs Pegasus",
-          "value": "60",
+          "value": "6",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Twelve Labs Pegasus. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": true
         },
@@ -7488,7 +7488,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for TwelveLabs Marengo Embed 3.0",
-          "value": "1000",
+          "value": "100",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for TwelveLabs Marengo Embed 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -7524,19 +7524,19 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Fast Upscale",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Fast Upscale. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 0.8",
-          "value": "60",
+          "value": "6",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Stability.ai Stable Diffusion XL 0.8",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova Pro",
-          "value": "500",
+          "value": "50",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova Pro. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7596,7 +7596,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova 2 Omni",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Omni. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7662,7 +7662,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Ministral 14B 3.0",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Ministral 14B 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7728,7 +7728,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 2 70B",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Meta Llama 2 70B.",
           "adjustable": false
         },
@@ -7746,7 +7746,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Inpaint",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Inpaint. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7794,7 +7794,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Embed V4",
-          "value": "1000",
+          "value": "100",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Cohere Embed V4. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -7890,7 +7890,7 @@
         },
         {
           "name": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Haiku",
-          "value": "2000",
+          "value": "100",
           "description": "The maximum number of times that you can call InvokeModel and InvokeModelWithResponseStream in one minute. The quota considers the combined sum of InvokeModel and InvokeModelWithResponseStream tokens for Anthropic Claude 3.5 Haiku.",
           "adjustable": false
         },
@@ -7902,7 +7902,7 @@
         },
         {
           "name": "On-Demand, latency-optimized model inference requests per minute for Amazon Nova Pro V1",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand, latency-optimized requests that you can submit for model inference in one minute for Amazon Nova Pro V1. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -7968,13 +7968,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Nova 2 Multimodal Embeddings V1",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Nova 2 Multimodal Embeddings V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand InvokeModel concurrent requests for Twelve Labs Pegasus",
-          "value": "15",
+          "value": "3",
           "description": "The maximum number of concurrent InvokeModel requests that you can submit for model inference for Twelve Labs Pegasus.",
           "adjustable": true
         },
@@ -8022,7 +8022,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Voxtral Mini 1.0",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Voxtral Mini 1.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8088,7 +8088,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for DeepSeek R1 V1",
-          "value": "200",
+          "value": "20",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for DeepSeek R1 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8124,13 +8124,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Style Guide",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Style Guide. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Style Guide",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Style Guide. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8232,7 +8232,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Z.ai GLM-4.7",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Z.ai GLM-4.7. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8298,13 +8298,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 2 13B",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Meta Llama 2 13B.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Remove Background",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Remove Background. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8322,13 +8322,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Ministral 8B 3.0",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Ministral 8B 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.6 V1",
-          "value": "10000",
+          "value": "25",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4.6 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -8352,13 +8352,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Control Structure",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Control Structure. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.2 11B Instruct",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute for Meta Llama 3.2 11B Instruct. The quota considers the combined sum of requests for InvokeModel, InvokeModelWithResponseStream, Converse, and ConverseStream.",
           "adjustable": false
         },
@@ -8406,7 +8406,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude 3 Sonnet",
-          "value": "1000",
+          "value": "50",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Sonnet.",
           "adjustable": false
         },
@@ -8430,7 +8430,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.6",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.6. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -8472,7 +8472,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Outpaint",
-          "value": "2",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Outpaint. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8508,7 +8508,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Control Structure",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Control Structure. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8526,7 +8526,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Text Express",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Amazon Titan Text Express",
           "adjustable": false
         },
@@ -8574,13 +8574,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova Micro",
-          "value": "4000",
+          "value": "400",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova Micro. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Rerank 3.5",
-          "value": "250",
+          "value": "25",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Cohere Rerank 3.5.",
           "adjustable": false
         },
@@ -8592,7 +8592,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Erase Object",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Erase Object. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -8700,7 +8700,7 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length",
-          "value": "1000",
+          "value": "1",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -8730,7 +8730,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1 1M Context Length",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4 V1 1M Context Length. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -8844,7 +8844,7 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Haiku 4.5",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Haiku 4.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -8886,7 +8886,7 @@
         },
         {
           "name": "On-demand InvokeModel async concurrent requests for Amazon Nova 2 Multimodal Embeddings V1",
-          "value": "15",
+          "value": "3",
           "description": "The maximum number of async concurrent model inference requests that you can submit for Amazon Nova 2 Multimodal Embeddings V1. The quota considers the combined sum of Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream.",
           "adjustable": false
         },
@@ -8928,13 +8928,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Gemma 3 4B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Gemma 3 4B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Command R Plus",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Cohere Command R Plus 128k.",
           "adjustable": false
         },
@@ -8976,13 +8976,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Meta Llama 3.1 70B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Meta Llama 3.1 70B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Opus 4.5",
-          "value": "10000",
+          "value": "25",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4.5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -9030,13 +9030,13 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Control Sketch",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Control Sketch. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Voxtral Small 1.0",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Voxtral Small 1.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9090,13 +9090,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Gemma 3 12B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Gemma 3 12B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Command R",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Cohere Command R 128k.",
           "adjustable": false
         },
@@ -9132,13 +9132,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for NVIDIA Nemotron Nano 2 VL",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for NVIDIA Nemotron Nano 2 VL. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Mistral Mixtral 8x7b Instruct",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Mistral mixtral-8x7b-v0",
           "adjustable": false
         },
@@ -9246,7 +9246,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Nova Lite",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Nova Lite. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9264,19 +9264,19 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Remove Background",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Remove Background. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.1 8B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3.1 8B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Embed Multilingual",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Cohere Embed Multilingual.",
           "adjustable": false
         },
@@ -9318,13 +9318,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Erase Object",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Erase Object. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Opus 4.6 V1",
-          "value": "10000",
+          "value": "25",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Opus 4.6 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
@@ -9396,13 +9396,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Nova Micro",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Nova Micro. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Multimodal Embeddings G1",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Titan Multimodal Embeddings G1.",
           "adjustable": false
         },
@@ -9444,7 +9444,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Amazon Nova 2 Pro Preview",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Amazon Nova 2 Pro Preview. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9522,13 +9522,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for Z.ai GLM 5",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Z.ai GLM 5. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Cohere Embed English",
-          "value": "2000",
+          "value": "200",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Cohere Embed English.",
           "adjustable": false
         },
@@ -9552,7 +9552,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.2 1B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3.2 1B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9600,7 +9600,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Meta Llama 3.2 3B Instruct",
-          "value": "800",
+          "value": "80",
           "description": "The maximum number of times that you can call model inference in one minute for Meta Llama 3.2 3B Instruct. The quota considers the combined sum of requests for InvokeModel, InvokeModelWithResponseStream, Converse, and ConverseStream.",
           "adjustable": false
         },
@@ -9612,7 +9612,7 @@
         },
         {
           "name": "Cross-region model inference requests per minute for Stable Image Search and Replace",
-          "value": "20",
+          "value": "2",
           "description": "The maximum number of cross-region requests that you can submit for model inference in one minute for Stable Image Search and Replace. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9654,7 +9654,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Mistral Large",
-          "value": "400",
+          "value": "40",
           "description": "The maximum number of times that you can call InvokeModel and InvokeModelWithResponseStream in one minute for Mistral mistral-large-2402-v1",
           "adjustable": false
         },
@@ -9702,7 +9702,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Rerank 1.0",
-          "value": "200",
+          "value": "20",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Rerank 1.0.",
           "adjustable": false
         },
@@ -9822,25 +9822,25 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 1.0",
-          "value": "60",
+          "value": "6",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Stability.ai Stable Diffusion XL 1.0",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for TwelveLabs Marengo Embed 3.0",
-          "value": "500",
+          "value": "50",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for TwelveLabs Marengo Embed 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Ultra",
-          "value": "100",
+          "value": "10",
           "description": "The maximum number of times that you can call InvokeModel in one minute for AI21 Labs Jurassic-2 Ultra",
           "adjustable": false
         },
         {
           "name": "On-demand InvokeModel async concurrent requests for TwelveLabs Marengo Embed 3.0",
-          "value": "5",
+          "value": "1",
           "description": "The maximum number of async concurrent model inference requests that you can submit for TwelveLabs Marengo Embed 3.0. The quota considers the combined sum of Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream.",
           "adjustable": true
         },
@@ -9900,7 +9900,7 @@
         },
         {
           "name": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Mini",
-          "value": "150000",
+          "value": "30000",
           "description": "The maximum number of tokens that you can submit for model inference in one minute for AI21 Labs Jamba 1.5 Mini. The quota considers the combined sum of input and output tokens across all requests to Converse and InvokeModel.",
           "adjustable": false
         },
@@ -9930,7 +9930,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Stable Image Style Transfer",
-          "value": "10",
+          "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Style Transfer. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9960,13 +9960,13 @@
         },
         {
           "name": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1",
-          "value": "10000",
+          "value": "50",
           "description": "The maximum number of global cross-region requests that you can submit for model inference in one minute for Anthropic Claude Sonnet 4.5 V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "On-demand model inference requests per minute for Qwen3 Coder 30B a3b V1",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 Coder 30B a3b V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -9984,7 +9984,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Anthropic Claude 3 Haiku",
-          "value": "1000",
+          "value": "50",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Haiku.",
           "adjustable": false
         },
@@ -10194,13 +10194,13 @@
         },
         {
           "name": "On-demand model inference requests per minute for GPT OSS Safeguard 120B",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for GPT OSS Safeguard 120B. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
           "name": "On-demand model inference requests per minute for Qwen3 Coder Next",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 Coder Next. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -10254,7 +10254,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Mistral Devstral 2 123b",
-          "value": "10000",
+          "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Mistral Devstral 2 123b. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
@@ -10320,7 +10320,7 @@
         },
         {
           "name": "On-demand model inference requests per minute for Amazon Titan Image Generator G1 V2",
-          "value": "60",
+          "value": "6",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Titan Image Generator G1 V2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },

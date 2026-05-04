@@ -1,6 +1,1050 @@
 {
-  "lastUpdated": "2026-05-03",
+  "lastUpdated": "2026-05-04",
   "changes": [
+    {
+      "date": "2026-05-04",
+      "service": "fargate",
+      "type": "quota_changed",
+      "detail": "Fargate On-Demand vCPU resource count: 64 → 30"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "fargate",
+      "type": "quota_changed",
+      "detail": "Fargate Spot vCPU resource count: 64 → 30"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral Large 3: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 Chat 70B: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.6: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Haiku 4.5: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova Lite: 4000 → 400"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3.7 Sonnet V1: 250 → 13"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jamba Instruct: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for NVIDIA Nemotron Nano 2: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Amazon Nova 2 Lite: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for GPT OSS Safeguard 20B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3 8B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Minimax M2: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for DeepSeek V3.2: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jamba 1.5 Large: 50 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Micro: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Opus 4 V1: 200 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet: 50 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Lite: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Creative Upscale: 2 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for NVIDIA Nemotron 3 Super 120B A12B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length: 1000 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Lite: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.5: 10000 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Mistral Pixtral Large 25.02 V1: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Haiku: 1000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Embeddings: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.1 70B Instruct: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Ministral 3B 3.0: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Fast Upscale: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Control Sketch: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand InvokeModel concurrent requests for Amazon Nova 2 Sonic: 10 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Search and Recolor: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Nova Canvas: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Premier: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for OpenAI GPT OSS 20B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Minimax M2.1: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Twelve Labs Pegasus: 120 → 12"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Kimi K2 Thinking: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Magistral Small 1.2: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3.5 Sonnet: 100 → 5"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral AI Mistral Small: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Cohere Embed V4: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Outpaint: 4 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Search and Recolor: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Style Transfer: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Sonnet V2: 100 → 5"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1: 200 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1: 200 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 4 Maverick V1: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Moonshot AI Kimi K2.5: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova Premier V1: 500 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Conservative Upscale: 2 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand latency-optimized model inference requests per minute for Anthropic Claude 3.5 Haiku: 100 → 5"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 4 Scout V1: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.1: 50 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova Pro: 200 → 20"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand InvokeModel concurrent requests for Twelve Labs Marengo: 15 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Nova Pro: 250 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet V2: 50 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 3.3 70B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jamba 1.5 Mini: 50 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Embeddings V2: 6000 → 600"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Model customization) Sum of on demand custom model deployment requests per minute for Amazon Nova 2 Lite: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Creative Upscale: 4 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Gemma 3 27B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.2 90B Instruct: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Qwen3 32B V1: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Large: 150000 → 30000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Nemotron Nano 3 30B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3 70B Instruct: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 3.2 1B Instruct: 1600 → 160"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-Demand, latency-optimized model inference requests per minute for Meta Llama 3.1 70B Instruct: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 Chat 13B: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for OpenAI GPT OSS 120B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Search and Replace: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Qwen3 Next 80B A3B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 3.1 8B Instruct: 1600 → 160"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Qwen3 VL 235B A22B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 3.2 3B Instruct: 1600 → 160"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Conservative Upscale: 4 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3 Haiku: 2000 → 100"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Cohere Embed V4: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral 7B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Mid: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3 Sonnet: 500 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Twelve Labs Marengo: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova 2 Lite: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for MiniMax M2.5: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Z.ai GLM-4.7 Flash: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Image Generator G1: 60 → 6"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Writer Palmyra Vision 7B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Inpaint: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Twelve Labs Marengo: 200 → 20"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Amazon Nova 2 Omni: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Amazon Nova 2 Pro Preview: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Twelve Labs Pegasus: 60 → 6"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for TwelveLabs Marengo Embed 3.0: 1000 → 100"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Fast Upscale: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 0.8: 60 → 6"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova Pro: 500 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova 2 Omni: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Ministral 14B 3.0: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 70B: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Inpaint: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Embed V4: 1000 → 100"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Haiku: 2000 → 100"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-Demand, latency-optimized model inference requests per minute for Amazon Nova Pro V1: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Nova 2 Multimodal Embeddings V1: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand InvokeModel concurrent requests for Twelve Labs Pegasus: 15 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Voxtral Mini 1.0: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for DeepSeek R1 V1: 200 → 20"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Style Guide: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Style Guide: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Z.ai GLM-4.7: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 13B: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Remove Background: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Ministral 8B 3.0: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Opus 4.6 V1: 10000 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Control Structure: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.2 11B Instruct: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3 Sonnet: 1000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4.6: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Outpaint: 2 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Control Structure: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Express: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova Micro: 4000 → 400"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Rerank 3.5: 250 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Erase Object: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1 1M Context Length: 1000 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude Sonnet 4 V1 1M Context Length: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Haiku 4.5: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand InvokeModel async concurrent requests for Amazon Nova 2 Multimodal Embeddings V1: 15 → 3"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Gemma 3 4B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Command R Plus: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Meta Llama 3.1 70B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Opus 4.5: 10000 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Control Sketch: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Voxtral Small 1.0: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Gemma 3 12B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Command R: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for NVIDIA Nemotron Nano 2 VL: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral Mixtral 8x7b Instruct: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Nova Lite: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Remove Background: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.1 8B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Embed Multilingual: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Erase Object: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Opus 4.6 V1: 10000 → 25"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Nova Micro: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Multimodal Embeddings G1: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Amazon Nova 2 Pro Preview: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Z.ai GLM 5: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Cohere Embed English: 2000 → 200"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.2 1B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 3.2 3B Instruct: 800 → 80"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Cross-region model inference requests per minute for Stable Image Search and Replace: 20 → 2"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral Large: 400 → 40"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Rerank 1.0: 200 → 20"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 1.0: 60 → 6"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for TwelveLabs Marengo Embed 3.0: 500 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Ultra: 100 → 10"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand InvokeModel async concurrent requests for TwelveLabs Marengo Embed 3.0: 5 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Mini: 150000 → 30000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Stable Image Style Transfer: 10 → 1"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "Global cross-region model inference requests per minute for Anthropic Claude Sonnet 4.5 V1: 10000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Qwen3 Coder 30B a3b V1: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3 Haiku: 1000 → 50"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for GPT OSS Safeguard 120B: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Qwen3 Coder Next: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Mistral Devstral 2 123b: 10000 → 1000"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Image Generator G1 V2: 60 → 6"
+    },
     {
       "date": "2026-05-02",
       "service": "s3",
