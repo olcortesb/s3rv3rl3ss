@@ -1,1 +1,191 @@
-{"lastUpdated": "", "services": []}
+{
+  "lastUpdated": "2026-05-04",
+  "services": [
+    {
+      "id": "azure-functions",
+      "enabled": true,
+      "name": "Azure Functions",
+      "category": "Compute",
+      "description": "Azure Functions is an event-driven, serverless compute platform that helps you develop more efficiently using the programming language of your choice.",
+      "useCases": [
+        "APIs",
+        "Event processing",
+        "Scheduled tasks",
+        "Microservices"
+      ],
+      "pricing": "Pay per execution, execution time and memory",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/functions/",
+      "url": "https://azure.microsoft.com/en-us/products/functions",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Max execution time (Consumption)",
+          "value": "10 minutes"
+        },
+        {
+          "name": "Max execution time (Premium/Dedicated)",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max memory (Consumption)",
+          "value": "1.5 GB"
+        },
+        {
+          "name": "Max instances (Consumption)",
+          "value": "200"
+        },
+        {
+          "name": "Max instances (Premium)",
+          "value": "100"
+        },
+        {
+          "name": "HTTP request size",
+          "value": "100 MB"
+        },
+        {
+          "name": "Max concurrent HTTP requests",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Storage (Consumption)",
+          "value": "1 GB"
+        },
+        {
+          "name": "Storage (Premium)",
+          "value": "250 GB"
+        }
+      ],
+      "runtimes": [
+        {
+          "name": "Node.js 20",
+          "status": "active"
+        },
+        {
+          "name": "Node.js 18",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.11",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.10",
+          "status": "active"
+        },
+        {
+          "name": "Python 3.9",
+          "status": "active"
+        },
+        {
+          "name": "Java 21",
+          "status": "active"
+        },
+        {
+          "name": "Java 17",
+          "status": "active"
+        },
+        {
+          "name": "Java 11",
+          "status": "active"
+        },
+        {
+          "name": ".NET 8 (isolated)",
+          "status": "active"
+        },
+        {
+          "name": ".NET 6 (in-process)",
+          "status": "deprecated"
+        },
+        {
+          "name": "PowerShell 7.4",
+          "status": "active"
+        },
+        {
+          "name": "TypeScript",
+          "status": "active"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Executions",
+          "price": "$0.20",
+          "unit": "per 1M executions",
+          "description": "$0.20 per million executions"
+        },
+        {
+          "label": "Execution Time",
+          "price": "$0.000016",
+          "unit": "per GB-second",
+          "description": "$0.000016 per GB-second"
+        }
+      ]
+    },
+    {
+      "id": "container-apps",
+      "enabled": true,
+      "name": "Azure Container Apps",
+      "category": "Compute",
+      "description": "Azure Container Apps is a fully managed serverless container service for building and deploying modern apps at scale.",
+      "useCases": [
+        "Microservices",
+        "Web apps",
+        "APIs",
+        "Background processing"
+      ],
+      "pricing": "Pay per vCPU and memory per second",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/container-apps/",
+      "url": "https://azure.microsoft.com/en-us/products/container-apps",
+      "icon": "🐳",
+      "limits": [
+        {
+          "name": "Max vCPU per container",
+          "value": "4"
+        },
+        {
+          "name": "Max memory per container",
+          "value": "8 GiB"
+        },
+        {
+          "name": "Max replicas",
+          "value": "300"
+        },
+        {
+          "name": "Max apps per environment",
+          "value": "100"
+        },
+        {
+          "name": "Max environments per subscription",
+          "value": "15"
+        },
+        {
+          "name": "Max container image size",
+          "value": "8 GB"
+        },
+        {
+          "name": "Request timeout",
+          "value": "240 seconds"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.000024",
+          "unit": "per vCPU-second",
+          "description": "$0.000024 per vCPU-second"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.000003",
+          "unit": "per GiB-second",
+          "description": "$0.000003 per GiB-second"
+        },
+        {
+          "label": "Requests",
+          "price": "$0.40",
+          "unit": "per 1M requests",
+          "description": "$0.40 per million requests"
+        }
+      ]
+    }
+  ]
+}

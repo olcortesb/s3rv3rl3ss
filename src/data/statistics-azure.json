@@ -1,1 +1,15 @@
-{"lastUpdated": "", "summary": {}, "topServices": {}, "byCategory": []}
+{
+  "summary": {
+    "totalServices": 2,
+    "totalRuntimes": 12,
+    "activeRuntimes": 11,
+    "deprecatedRuntimes": 1
+  },
+  "byCategory": [
+    {
+      "category": "Compute",
+      "count": 2
+    }
+  ],
+  "lastUpdated": "2026-05-04"
+}
