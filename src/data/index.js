@@ -1,12 +1,14 @@
 import providersData from '../data/providers.json'
 import awsData from '../data/services-aws.json'
 import gcpData from '../data/services-gcp.json'
+import azureData from '../data/services-azure.json'
 import changelogData from '../data/changelog.json'
 import statisticsData from '../data/statistics.json'
 import statisticsGcpData from '../data/statistics-gcp.json'
+import statisticsAzureData from '../data/statistics-azure.json'
 
-const dataMap = { aws: awsData, gcp: gcpData }
-const statsMap = { aws: statisticsData, gcp: statisticsGcpData }
+const dataMap = { aws: awsData, gcp: gcpData, azure: azureData }
+const statsMap = { aws: statisticsData, gcp: statisticsGcpData, azure: statisticsAzureData }
 
 export const providers = providersData.providers.filter(p => p.enabled)
 
