@@ -212,7 +212,7 @@ const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
 function shareOnLinkedIn(news) {
   const tag = props.provider.toUpperCase()
   const svcTag = service.value.name.replace(/\s+/g, '')
-  const text = `🆕 #${tag} #${svcTag}\n${news.title}\n${news.url || ''}\ns3rv3rl3ss.olcortesb.com\n#s3rv3rl3ss`
+  const text = `🆕 #${tag} #${svcTag}\n${news.title}\ns3rv3rl3ss.olcortesb.com\n${news.url || ''}\n#s3rv3rl3ss`
   const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(news.url || '')}&text=${encodeURIComponent(text)}`
   window.open(url, '_blank', 'width=600,height=500')
 }
