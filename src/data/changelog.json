@@ -1,6 +1,138 @@
 {
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-05",
   "changes": [
+    {
+      "date": "2026-05-05",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "Amazon EventBridge supports data plane logging to AWS CloudTrail"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL now supports the JSON data type with compression"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Amazon Titan Image Generator G1 removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 Chat 70B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jamba Instruct removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Amazon Titan Text Lite removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for AI21 Labs Jurassic-2 Ultra removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for AI21 Labs Jamba Instruct removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Meta Llama 2 Chat 70B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 Chat 13B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Mid removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 0.8 removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 70B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Meta Llama 2 13B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Amazon Titan Text Lite removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for AI21 Labs Jurassic-2 Mid removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Meta Llama 2 70B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Meta Llama 2 Chat 13B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Stability.ai Stable Diffusion XL 1.0 removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for AI21 Labs Jurassic-2 Ultra removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Meta Llama 2 13B removed"
+    },
+    {
+      "date": "2026-05-05",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Run custom MCP proxies serverless on Amazon Bedrock AgentCore Runtime"
+    },
     {
       "date": "2026-05-04",
       "service": "fargate",
