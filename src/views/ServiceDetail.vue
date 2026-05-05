@@ -131,10 +131,13 @@
           <span class="text-xs font-normal text-gray-400 ml-1">via AWS What's New</span>
         </h2>
         <ul class="space-y-2">
-          <li v-for="n in service.news" :key="n.title" class="flex gap-3 text-sm">
+          <li v-for="n in service.news" :key="n.title" class="flex gap-3 text-sm items-start">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
             <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }} ↗</a>
             <span v-else class="text-gray-700">{{ n.title }}</span>
+            <button @click="shareOnLinkedIn(n)" title="Share on LinkedIn" class="shrink-0 text-blue-600 hover:text-blue-800 transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </button>
           </li>
         </ul>
       </div>
@@ -205,6 +208,14 @@ const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
 const changelog = computed(() => getChangelog(props.id))
 const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
+
+function shareOnLinkedIn(news) {
+  const tag = props.provider.toUpperCase()
+  const svcTag = service.value.name.replace(/\s+/g, '')
+  const text = `🆕 #${tag} #${svcTag}\n${news.title}\n${news.url || ''}\ns3rv3rl3ss.olcortesb.com\n#s3rv3rl3ss`
+  const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(news.url || '')}&text=${encodeURIComponent(text)}`
+  window.open(url, '_blank', 'width=600,height=500')
+}
 
 const showRuntimes = ref(false)
 const showQuotas = ref(false)
