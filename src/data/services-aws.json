@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "services": [
     {
       "id": "lambda",
@@ -515,6 +515,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-05",
+          "title": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-buildkit-aws-lambda/"
+        },
         {
           "date": "2026-04-30",
           "title": "AWS Lambda adds support for Ruby 4.0",
@@ -1417,6 +1422,13 @@
         {
           "name": "Total operations",
           "value": "10 requests per second with a burst quota of 40 requests per second."
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-05",
+          "title": "AWS SAM now supports WebSocket APIs for Amazon API Gateway",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-websocket-apis-api-gateway/"
         }
       ],
       "dataStatus": "ok",
@@ -3552,6 +3564,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-05",
+          "title": "Amazon Aurora DSQL for global-scale financial transactions",
+          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-for-global-scale-financial-transactions/"
+        },
+        {
           "date": "2026-05-04",
           "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/"
@@ -3580,11 +3597,6 @@
           "date": "2026-04-14",
           "title": "Accelerate database migration to Amazon Aurora DSQL with Kiro and Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/database/accelerate-database-migration-to-amazon-aurora-dsql-with-kiro-and-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-04-13",
-          "title": "Connecting .NET Lambda to Amazon Aurora PostgreSQL via RDS Proxy",
-          "url": "https://aws.amazon.com/blogs/database/connecting-net-lambda-to-amazon-aurora-postgresql-via-rds-proxy/"
         }
       ],
       "dataStatus": "partial"
@@ -10321,6 +10333,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-05",
+          "title": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-launch-aws-govcloud-us/"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/"
+        },
+        {
           "date": "2026-05-01",
           "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/"
@@ -10341,19 +10363,9 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/"
         },
         {
-          "date": "2026-04-30",
-          "title": "Configuring Amazon Bedrock AgentCore Gateway for secure access to private resources",
-          "url": "https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/"
-        },
-        {
           "date": "2026-04-29",
           "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Run custom MCP proxies serverless on Amazon Bedrock AgentCore Runtime",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-custom-mcp-proxies-serverless-on-amazon-bedrock-agentcore-runtime/"
         },
         {
           "date": "2026-04-28",

@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "changes": [
+    {
+      "date": "2026-05-06",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images"
+    },
+    {
+      "date": "2026-05-06",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "AWS SAM now supports WebSocket APIs for Amazon API Gateway"
+    },
+    {
+      "date": "2026-05-06",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL for global-scale financial transactions"
+    },
+    {
+      "date": "2026-05-06",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)"
+    },
+    {
+      "date": "2026-05-06",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights"
+    },
     {
       "date": "2026-05-05",
       "service": "eventbridge",
