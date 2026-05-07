@@ -1,7 +1,7 @@
 {
   "summary": {
     "totalServices": 15,
-    "totalQuotas": 1483,
+    "totalQuotas": 1481,
     "totalLimits": 117,
     "totalNews": 47,
     "totalRuntimes": 20,
@@ -12,11 +12,11 @@
     "mostQuotas": {
       "id": "bedrock",
       "name": "Amazon Bedrock",
-      "count": 1106
+      "count": 1104
     },
     "mostNews": {
-      "id": "bedrock",
-      "name": "Amazon Bedrock",
+      "id": "s3",
+      "name": "Amazon S3",
       "count": 10
     },
     "mostLimits": {
@@ -55,5 +55,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-05-06"
+  "lastUpdated": "2026-05-07"
 }

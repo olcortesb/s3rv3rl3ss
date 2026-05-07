@@ -1,6 +1,30 @@
 {
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-07",
   "changes": [
+    {
+      "date": "2026-05-07",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform"
+    },
+    {
+      "date": "2026-05-07",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Advanced Prompt Optimization) Active jobs per account removed"
+    },
+    {
+      "date": "2026-05-07",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Advanced Prompt Optimization) Inactive jobs per account removed"
+    },
+    {
+      "date": "2026-05-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory"
+    },
     {
       "date": "2026-05-06",
       "service": "lambda",
