@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07",
+  "lastUpdated": "2026-05-08",
   "services": [
     {
       "id": "lambda",
@@ -1212,7 +1212,7 @@
         },
         {
           "name": "Throttle quota per account, per Region across HTTP APIs, REST APIs, WebSocket APIs, and WebSocket callback APIs",
-          "value": "10,000 requests per second (RPS) with an additional burst capacity provided by the token bucket algorithm, using a maximum bucket capacity of 5,000 requests. \\$1 The burst quota is determined by the API Gateway service team based on the overall RPS quota for the account in the Region. It is not a quota that a customer can control or request changes to."
+          "value": "10,000 requests per second (RPS) with an additional burst capacity provided by the token bucket algorithm, using a maximum bucket capacity of 5,000 requests. \\* The burst quota is determined by the API Gateway service team based on the overall RPS quota for the account in the Region. It is not a quota that a customer can control or request changes to."
         },
         {
           "name": "Throttle quota without access control per account per Region for a portal",
@@ -1559,6 +1559,11 @@
       "news": [
         {
           "date": "2026-05-06",
+          "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/"
+        },
+        {
+          "date": "2026-05-06",
           "title": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform",
           "url": "https://aws.amazon.com/blogs/storage/implement-single-exchange-tokens-for-short-lived-amazon-s3-presigned-urls-with-terraform/"
         },
@@ -1601,11 +1606,6 @@
           "date": "2026-03-11",
           "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
           "url": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/"
-        },
-        {
-          "date": "2026-03-05",
-          "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
-          "url": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/"
         }
       ],
       "dataStatus": "ok",
@@ -3564,6 +3564,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-07",
+          "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/"
+        },
+        {
           "date": "2026-05-05",
           "title": "Amazon Aurora DSQL for global-scale financial transactions",
           "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-for-global-scale-financial-transactions/"
@@ -3587,16 +3592,6 @@
           "date": "2026-04-20",
           "title": "Aurora serverless: Faster performance, enhanced scaling, and still scales down to zero",
           "url": "https://aws.amazon.com/blogs/database/aurora-serverless-faster-performance-enhanced-scaling-and-still-scales-down-to-zero/"
-        },
-        {
-          "date": "2026-04-16",
-          "title": "Build resilient Kerberos authentication for Aurora Global Database without joining Active Directory domain",
-          "url": "https://aws.amazon.com/blogs/database/build-resilient-kerberos-authentication-for-aurora-global-database-without-joining-active-directory-domain/"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Accelerate database migration to Amazon Aurora DSQL with Kiro and Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/database/accelerate-database-migration-to-amazon-aurora-dsql-with-kiro-and-amazon-bedrock-agentcore/"
         }
       ],
       "dataStatus": "partial"
@@ -10321,6 +10316,21 @@
       ],
       "news": [
         {
+          "date": "2026-05-07",
+          "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Agents that transact: Introducing Amazon Bedrock AgentCore payments, built with Coinbase and Stripe",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/"
+        },
+        {
           "date": "2026-05-06",
           "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata"
@@ -10329,11 +10339,6 @@
           "date": "2026-05-05",
           "title": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-launch-aws-govcloud-us/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/"
         },
         {
           "date": "2026-05-01",
@@ -10359,16 +10364,6 @@
           "date": "2026-04-29",
           "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "Amazon Bedrock AgentCore Runtime now supports Node.js for direct code deployment",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-runtime/"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/"
         }
       ],
       "dataStatus": "partial",
