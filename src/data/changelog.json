@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-08",
+  "lastUpdated": "2026-05-09",
   "changes": [
+    {
+      "date": "2026-05-09",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL"
+    },
+    {
+      "date": "2026-05-09",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI"
+    },
     {
       "date": "2026-05-08",
       "service": "api-gateway",

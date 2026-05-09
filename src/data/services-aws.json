@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08",
+  "lastUpdated": "2026-05-09",
   "services": [
     {
       "id": "lambda",
@@ -3564,6 +3564,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-08",
+          "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/"
+        },
+        {
           "date": "2026-05-07",
           "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/"
@@ -3587,11 +3592,6 @@
           "date": "2026-04-27",
           "title": "How Kajabi optimized costs with Amazon Aurora upgrades",
           "url": "https://aws.amazon.com/blogs/database/how-kajabi-optimized-costs-with-amazon-aurora-upgrades/"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Aurora serverless: Faster performance, enhanced scaling, and still scales down to zero",
-          "url": "https://aws.amazon.com/blogs/database/aurora-serverless-faster-performance-enhanced-scaling-and-still-scales-down-to-zero/"
         }
       ],
       "dataStatus": "partial"
@@ -10316,6 +10316,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-08",
+          "title": "Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/"
+        },
+        {
           "date": "2026-05-07",
           "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
@@ -10359,11 +10364,6 @@
           "date": "2026-04-30",
           "title": "Amazon Bedrock AgentCore launches capabilities for optimizing agent performance in preview",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-optimization-preview/"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "OpenAI GPT OSS and NVIDIA Nemotron Models Available on Amazon Bedrock in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/"
         }
       ],
       "dataStatus": "partial",
