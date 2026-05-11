@@ -186,6 +186,604 @@
           "description": "$0.40 per million requests"
         }
       ]
+    },
+    {
+      "id": "cosmos-db",
+      "enabled": true,
+      "name": "Azure Cosmos DB",
+      "category": "Database",
+      "description": "Azure Cosmos DB is a fully managed, globally distributed, multi-model NoSQL database service for building highly responsive and scalable applications.",
+      "useCases": [
+        "Global apps",
+        "Real-time analytics",
+        "IoT",
+        "Personalization"
+      ],
+      "pricing": "Pay per RU/s provisioned or consumed (serverless)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/cosmos-db/",
+      "url": "https://azure.microsoft.com/en-us/products/cosmos-db",
+      "icon": "🌍",
+      "limits": [
+        {
+          "name": "Max document size",
+          "value": "2 MB"
+        },
+        {
+          "name": "Max RU/s per container (provisioned)",
+          "value": "Unlimited (partitioned)"
+        },
+        {
+          "name": "Max RU/s per request (serverless)",
+          "value": "5,000"
+        },
+        {
+          "name": "Max storage per container",
+          "value": "Unlimited (partitioned)"
+        },
+        {
+          "name": "Max throughput (serverless)",
+          "value": "5,000 RU/s burst"
+        },
+        {
+          "name": "Max storage (serverless)",
+          "value": "1 TB"
+        },
+        {
+          "name": "Max regions",
+          "value": "Unlimited"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "RU/s (serverless)",
+          "price": "$0.25",
+          "unit": "per 1M RUs",
+          "description": "$0.25 per million Request Units"
+        },
+        {
+          "label": "Storage",
+          "price": "$0.25",
+          "unit": "per GB/month",
+          "description": "$0.25 per GB per month"
+        }
+      ]
+    },
+    {
+      "id": "service-bus",
+      "enabled": true,
+      "name": "Azure Service Bus",
+      "category": "Messaging",
+      "description": "Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics for decoupling applications.",
+      "useCases": [
+        "Decoupling services",
+        "Load leveling",
+        "Ordered messaging",
+        "Transactions"
+      ],
+      "pricing": "Pay per million operations and brokered connections",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/service-bus/",
+      "url": "https://azure.microsoft.com/en-us/products/service-bus",
+      "icon": "📨",
+      "limits": [
+        {
+          "name": "Max message size (Standard)",
+          "value": "256 KB"
+        },
+        {
+          "name": "Max message size (Premium)",
+          "value": "100 MB"
+        },
+        {
+          "name": "Max queue/topic size",
+          "value": "80 GB"
+        },
+        {
+          "name": "Max queues/topics per namespace",
+          "value": "10,000"
+        },
+        {
+          "name": "Max subscriptions per topic",
+          "value": "2,000"
+        },
+        {
+          "name": "Max concurrent connections",
+          "value": "5,000"
+        },
+        {
+          "name": "Message retention",
+          "value": "Up to 90 days"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Operations (Standard)",
+          "price": "$0.05",
+          "unit": "per 1M operations",
+          "description": "$0.05 per million messaging operations"
+        },
+        {
+          "label": "Base charge (Standard)",
+          "price": "$0.0135",
+          "unit": "per hour",
+          "description": "$0.0135 per hour (~$9.81/month)"
+        }
+      ]
+    },
+    {
+      "id": "event-grid",
+      "enabled": true,
+      "name": "Azure Event Grid",
+      "category": "Integration",
+      "description": "Azure Event Grid is a fully managed event routing service that enables uniform event consumption using a publish-subscribe model.",
+      "useCases": [
+        "Event-driven architectures",
+        "Serverless triggers",
+        "Automation",
+        "Application integration"
+      ],
+      "pricing": "Pay per million operations",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/event-grid/",
+      "url": "https://azure.microsoft.com/en-us/products/event-grid",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Max event size",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max batch size",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max events per batch",
+          "value": "5,000"
+        },
+        {
+          "name": "Max event subscriptions per topic",
+          "value": "500"
+        },
+        {
+          "name": "Max custom topics per subscription",
+          "value": "100"
+        },
+        {
+          "name": "Max throughput per topic",
+          "value": "5,000 events/second"
+        },
+        {
+          "name": "Event retention",
+          "value": "24 hours"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Operations",
+          "price": "$0.60",
+          "unit": "per 1M operations",
+          "description": "$0.60 per million operations"
+        }
+      ]
+    },
+    {
+      "id": "event-hubs",
+      "enabled": true,
+      "name": "Azure Event Hubs",
+      "category": "Streaming",
+      "description": "Azure Event Hubs is a big data streaming platform and event ingestion service capable of receiving and processing millions of events per second.",
+      "useCases": [
+        "Telemetry streaming",
+        "Log aggregation",
+        "Real-time analytics",
+        "Event sourcing"
+      ],
+      "pricing": "Pay per throughput unit and ingress events",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/event-hubs/",
+      "url": "https://azure.microsoft.com/en-us/products/event-hubs",
+      "icon": "🌊",
+      "limits": [
+        {
+          "name": "Max event size",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max throughput units (Standard)",
+          "value": "40"
+        },
+        {
+          "name": "Max processing units (Premium)",
+          "value": "16"
+        },
+        {
+          "name": "Max partitions (Standard)",
+          "value": "32"
+        },
+        {
+          "name": "Max partitions (Dedicated)",
+          "value": "2,048"
+        },
+        {
+          "name": "Max retention (Standard)",
+          "value": "7 days"
+        },
+        {
+          "name": "Max retention (Premium/Dedicated)",
+          "value": "90 days"
+        },
+        {
+          "name": "Max consumer groups (Standard)",
+          "value": "20"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Throughput unit (Standard)",
+          "price": "$0.015",
+          "unit": "per hour",
+          "description": "$0.015 per throughput unit per hour"
+        },
+        {
+          "label": "Ingress events",
+          "price": "$0.028",
+          "unit": "per 1M events",
+          "description": "$0.028 per million events"
+        }
+      ]
+    },
+    {
+      "id": "logic-apps",
+      "enabled": true,
+      "name": "Azure Logic Apps",
+      "category": "Integration",
+      "description": "Azure Logic Apps is a cloud platform for creating and running automated workflows that integrate your apps, data, services, and systems.",
+      "useCases": [
+        "Workflow automation",
+        "B2B integration",
+        "SaaS connectivity",
+        "Data orchestration"
+      ],
+      "pricing": "Pay per action execution and connector usage",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/logic-apps/",
+      "url": "https://azure.microsoft.com/en-us/products/logic-apps",
+      "icon": "🔀",
+      "limits": [
+        {
+          "name": "Max workflow run duration",
+          "value": "90 days"
+        },
+        {
+          "name": "Max actions per workflow",
+          "value": "500"
+        },
+        {
+          "name": "Max nesting depth",
+          "value": "8 levels"
+        },
+        {
+          "name": "Max concurrent runs",
+          "value": "250"
+        },
+        {
+          "name": "Max message size",
+          "value": "100 MB"
+        },
+        {
+          "name": "Max expression characters",
+          "value": "8,192"
+        },
+        {
+          "name": "Max workflows per subscription per region",
+          "value": "1,000"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Actions (Consumption)",
+          "price": "$0.000125",
+          "unit": "per action",
+          "description": "$0.000125 per action execution"
+        },
+        {
+          "label": "Standard connectors",
+          "price": "$0.000125",
+          "unit": "per call",
+          "description": "$0.000125 per connector call"
+        },
+        {
+          "label": "Enterprise connectors",
+          "price": "$0.001",
+          "unit": "per call",
+          "description": "$0.001 per enterprise connector call"
+        }
+      ]
+    },
+    {
+      "id": "api-management",
+      "enabled": true,
+      "name": "Azure API Management",
+      "category": "Networking",
+      "description": "Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments, enabling secure and productive API programs.",
+      "useCases": [
+        "API gateway",
+        "Developer portal",
+        "Rate limiting",
+        "API versioning"
+      ],
+      "pricing": "Pay per unit (Consumption: per 10K calls)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/api-management/",
+      "url": "https://azure.microsoft.com/en-us/products/api-management",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "Max request size",
+          "value": "4 MB (Consumption)"
+        },
+        {
+          "name": "Max response size",
+          "value": "2 MB (Consumption)"
+        },
+        {
+          "name": "Max APIs",
+          "value": "50 (Consumption)"
+        },
+        {
+          "name": "Max operations per API",
+          "value": "1,000"
+        },
+        {
+          "name": "Max subscriptions",
+          "value": "500 (Consumption)"
+        },
+        {
+          "name": "Max request timeout",
+          "value": "120 seconds"
+        },
+        {
+          "name": "Max policy size",
+          "value": "256 KB"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "API calls (Consumption)",
+          "price": "$3.50",
+          "unit": "per 1M calls",
+          "description": "$3.50 per million API calls"
+        }
+      ]
+    },
+    {
+      "id": "blob-storage",
+      "enabled": true,
+      "name": "Azure Blob Storage",
+      "category": "Storage",
+      "description": "Azure Blob Storage is a massively scalable and secure object storage for cloud-native workloads, archives, data lakes, and high-performance computing.",
+      "useCases": [
+        "Data lakes",
+        "Backups",
+        "Static content",
+        "Big data analytics"
+      ],
+      "pricing": "Pay per GB stored and operations",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
+      "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
+      "icon": "📦",
+      "limits": [
+        {
+          "name": "Max blob size (block blob)",
+          "value": "190.7 TiB"
+        },
+        {
+          "name": "Max block size",
+          "value": "4,000 MiB"
+        },
+        {
+          "name": "Max blocks per blob",
+          "value": "50,000"
+        },
+        {
+          "name": "Max storage account capacity",
+          "value": "5 PiB"
+        },
+        {
+          "name": "Max request rate per storage account",
+          "value": "20,000 requests/second"
+        },
+        {
+          "name": "Max egress per storage account",
+          "value": "50 Gbps"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Hot storage",
+          "price": "$0.018",
+          "unit": "per GB/month",
+          "description": "$0.018 per GB per month"
+        },
+        {
+          "label": "Cool storage",
+          "price": "$0.010",
+          "unit": "per GB/month",
+          "description": "$0.010 per GB per month"
+        },
+        {
+          "label": "Write operations (Hot)",
+          "price": "$0.055",
+          "unit": "per 10K ops",
+          "description": "$0.055 per 10,000 operations"
+        },
+        {
+          "label": "Read operations (Hot)",
+          "price": "$0.0044",
+          "unit": "per 10K ops",
+          "description": "$0.0044 per 10,000 operations"
+        }
+      ]
+    },
+    {
+      "id": "queue-storage",
+      "enabled": true,
+      "name": "Azure Queue Storage",
+      "category": "Messaging",
+      "description": "Azure Queue Storage is a service for storing large numbers of messages that can be accessed from anywhere via authenticated HTTP or HTTPS calls.",
+      "useCases": [
+        "Async processing",
+        "Work queues",
+        "Decoupling components",
+        "Load buffering"
+      ],
+      "pricing": "Pay per 10K operations and storage",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/storage/queues/",
+      "url": "https://azure.microsoft.com/en-us/products/storage/queues",
+      "icon": "📋",
+      "limits": [
+        {
+          "name": "Max message size",
+          "value": "64 KB"
+        },
+        {
+          "name": "Max queue size",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max message TTL",
+          "value": "7 days (or unlimited)"
+        },
+        {
+          "name": "Max visibility timeout",
+          "value": "7 days"
+        },
+        {
+          "name": "Max messages per peek",
+          "value": "32"
+        },
+        {
+          "name": "Target throughput per queue",
+          "value": "2,000 messages/second"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Operations",
+          "price": "$0.004",
+          "unit": "per 10K ops",
+          "description": "$0.004 per 10,000 operations"
+        },
+        {
+          "label": "Storage",
+          "price": "$0.045",
+          "unit": "per GB/month",
+          "description": "$0.045 per GB per month (LRS)"
+        }
+      ]
+    },
+    {
+      "id": "signalr",
+      "enabled": true,
+      "name": "Azure SignalR Service",
+      "category": "Real-time",
+      "description": "Azure SignalR Service is a fully managed service for adding real-time web functionality to applications, enabling server-to-client push content instantly.",
+      "useCases": [
+        "Live dashboards",
+        "Chat apps",
+        "Notifications",
+        "Collaborative editing"
+      ],
+      "pricing": "Pay per unit and messages (serverless mode)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/signalr-service/",
+      "url": "https://azure.microsoft.com/en-us/products/signalr-service",
+      "icon": "📡",
+      "limits": [
+        {
+          "name": "Max connections per unit (Standard)",
+          "value": "1,000"
+        },
+        {
+          "name": "Max messages per unit per day (Free)",
+          "value": "20,000"
+        },
+        {
+          "name": "Max message size",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max units",
+          "value": "100"
+        },
+        {
+          "name": "Max groups per connection",
+          "value": "Unlimited"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Unit (Standard)",
+          "price": "$1.61",
+          "unit": "per unit/day",
+          "description": "$1.61 per unit per day (~$48.97/month)"
+        },
+        {
+          "label": "Messages (Serverless)",
+          "price": "$1.00",
+          "unit": "per 1M messages",
+          "description": "$1.00 per million messages"
+        }
+      ]
+    },
+    {
+      "id": "static-web-apps",
+      "enabled": true,
+      "name": "Azure Static Web Apps",
+      "category": "Compute",
+      "description": "Azure Static Web Apps is a service that automatically builds and deploys full-stack web apps from a code repository to Azure.",
+      "useCases": [
+        "SPAs",
+        "Static sites",
+        "JAMstack",
+        "Serverless APIs"
+      ],
+      "pricing": "Free tier available; Standard plan per app/month",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/app-service/static/",
+      "url": "https://azure.microsoft.com/en-us/products/app-service/static",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "Max app size (Free)",
+          "value": "250 MB"
+        },
+        {
+          "name": "Max app size (Standard)",
+          "value": "500 MB"
+        },
+        {
+          "name": "Max custom domains (Free)",
+          "value": "2"
+        },
+        {
+          "name": "Max custom domains (Standard)",
+          "value": "5"
+        },
+        {
+          "name": "Max API functions",
+          "value": "Managed Functions or bring your own"
+        },
+        {
+          "name": "Bandwidth (Free)",
+          "value": "100 GB/month"
+        },
+        {
+          "name": "Max staging environments (Standard)",
+          "value": "10"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Standard plan",
+          "price": "$9.00",
+          "unit": "per app/month",
+          "description": "$9.00 per app per month"
+        }
+      ]
     }
   ]
 }
