@@ -1,6 +1,84 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-12",
   "changes": [
+    {
+      "date": "2026-05-12",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL is now available in five additional AWS Regions"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL connections: Drivers, strings, and best practices"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Opus 4.7: 0"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Writer AI Palmyra X5 V1: 150000"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Writer AI Palmyra X5 V1 (doubled for cross-region calls): 20520000"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Writer AI Palmyra X4 V1: 150000"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Anthropic Claude Opus 4.7 (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference requests per minute for Writer AI Palmyra X4 V1: 1"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference requests per minute for Writer AI Palmyra X5 V1: 1"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Writer AI Palmyra X4 V1 (doubled for cross-region calls): 4320000"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights"
+    },
     {
       "date": "2026-05-09",
       "service": "aurora-serverless",
