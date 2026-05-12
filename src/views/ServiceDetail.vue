@@ -145,7 +145,7 @@
       <!-- Pricing -->
       <div class="mb-6">
         <h2 class="font-semibold text-gray-900 mb-2">Pricing
-          <span class="text-xs font-normal text-gray-400 ml-1">US East (N. Virginia) · On-Demand</span>
+          <span class="text-xs font-normal text-gray-400 ml-1">{{ pricingSubtitle }}</span>
         </h2>
         <p class="text-gray-600 text-sm mb-3">{{ service.pricing }}</p>
         <div v-if="service.pricingDetails" class="bg-gray-50 rounded-lg p-3 mb-3">
@@ -168,7 +168,7 @@
         </div>
         <div class="flex flex-wrap gap-4">
           <a v-if="service.pricingUrl" :href="service.pricingUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">Full pricing details ↗</a>
-          <a href="https://calculator.aws" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">AWS Pricing Calculator ↗</a>
+          <a :href="calculatorUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">{{ calculatorLabel }} ↗</a>
         </div>
       </div>
 
@@ -206,8 +206,23 @@ import { getProviderData, getChangelog } from '../data/index.js'
 const props = defineProps({ provider: String, id: String })
 const providerData = getProviderData(props.provider)
 const service = computed(() => providerData?.services.find(s => s.id === props.id))
-const changelog = computed(() => getChangelog(props.id))
+const changelog = computed(() => getChangelog(props.id, props.provider))
 const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
+
+const CALCULATORS = {
+  aws: { url: 'https://calculator.aws', label: 'AWS Pricing Calculator' },
+  gcp: { url: 'https://cloud.google.com/products/calculator', label: 'GCP Pricing Calculator' },
+  azure: { url: 'https://azure.microsoft.com/en-us/pricing/calculator/', label: 'Azure Pricing Calculator' },
+}
+const calculatorUrl = computed(() => (CALCULATORS[props.provider] || CALCULATORS.aws).url)
+const calculatorLabel = computed(() => (CALCULATORS[props.provider] || CALCULATORS.aws).label)
+
+const PRICING_SUBTITLES = {
+  aws: 'US East (N. Virginia) · On-Demand',
+  gcp: 'us-central1 · On-Demand',
+  azure: 'East US · Pay-As-You-Go',
+}
+const pricingSubtitle = computed(() => PRICING_SUBTITLES[props.provider] || '')
 
 function shareOnLinkedIn(news) {
   const tag = props.provider.toUpperCase()

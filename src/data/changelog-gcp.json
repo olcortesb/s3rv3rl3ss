@@ -1,0 +1,71 @@
+{
+  "lastUpdated": "2026-05-12",
+  "changes": [
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run",
+      "type": "service_added",
+      "detail": "Cloud Run"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run-functions",
+      "type": "service_added",
+      "detail": "Cloud Run Functions"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "firestore",
+      "type": "service_added",
+      "detail": "Firestore"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bigquery",
+      "type": "service_added",
+      "detail": "BigQuery"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-pubsub",
+      "type": "service_added",
+      "detail": "Cloud Pub/Sub"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-tasks",
+      "type": "service_added",
+      "detail": "Cloud Tasks"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-scheduler",
+      "type": "service_added",
+      "detail": "Cloud Scheduler"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "eventarc",
+      "type": "service_added",
+      "detail": "Eventarc"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-storage",
+      "type": "service_added",
+      "detail": "Cloud Storage"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "workflows",
+      "type": "service_added",
+      "detail": "Workflows"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "api-gateway",
+      "type": "service_added",
+      "detail": "API Gateway"
+    }
+  ]
+}

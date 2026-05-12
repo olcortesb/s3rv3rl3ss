@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-05-12",
+  "changes": [
+    {
+      "date": "2026-05-12",
+      "service": "azure-functions",
+      "type": "service_added",
+      "detail": "Azure Functions"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "container-apps",
+      "type": "service_added",
+      "detail": "Azure Container Apps"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cosmos-db",
+      "type": "service_added",
+      "detail": "Azure Cosmos DB"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "service-bus",
+      "type": "service_added",
+      "detail": "Azure Service Bus"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "event-grid",
+      "type": "service_added",
+      "detail": "Azure Event Grid"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "event-hubs",
+      "type": "service_added",
+      "detail": "Azure Event Hubs"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "logic-apps",
+      "type": "service_added",
+      "detail": "Azure Logic Apps"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "api-management",
+      "type": "service_added",
+      "detail": "Azure API Management"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "blob-storage",
+      "type": "service_added",
+      "detail": "Azure Blob Storage"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "queue-storage",
+      "type": "service_added",
+      "detail": "Azure Queue Storage"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "signalr",
+      "type": "service_added",
+      "detail": "Azure SignalR Service"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "static-web-apps",
+      "type": "service_added",
+      "detail": "Azure Static Web Apps"
+    }
+  ]
+}

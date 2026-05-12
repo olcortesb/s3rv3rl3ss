@@ -34,15 +34,15 @@ const iconUrl = computed(() => {
 })
 
 const badge = computed(() => {
-  const changes = getChangelog(props.service.id)
-  if (!changes.length) return null
-  const latest = changes[0].date
-  if (!latest) return null
-  const now = new Date()
-  const changeDate = new Date(latest)
-  const days = Math.floor((now - changeDate) / (1000 * 60 * 60 * 24))
-  if (days <= 1) return 'New'
-  if (days <= 30) return 'Updated'
+  const changes = getChangelog(props.service.id, props.provider)
+  if (changes.length) {
+    const latest = changes[0].date
+    if (latest) {
+      const days = Math.floor((new Date() - new Date(latest)) / (1000 * 60 * 60 * 24))
+      if (days <= 1) return 'New'
+      if (days <= 30) return 'Updated'
+    }
+  }
   return null
 })
 
