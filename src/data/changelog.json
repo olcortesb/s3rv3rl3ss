@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "changes": [
+    {
+      "date": "2026-05-13",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Filter, transform, and load your DynamoDB table exports using AWS Glue"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser"
+    },
     {
       "date": "2026-05-12",
       "service": "s3",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "services": [
     {
       "id": "lambda",
@@ -516,6 +516,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-12",
+          "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
+        },
+        {
           "date": "2026-05-05",
           "title": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-buildkit-aws-lambda/"
@@ -649,6 +659,13 @@
           "value": "27",
           "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
           "adjustable": true
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-12",
+          "title": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
+          "url": "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/"
         }
       ],
       "dataStatus": "ok",
@@ -2071,6 +2088,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-12",
+          "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
+        },
         {
           "date": "2026-05-04",
           "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
@@ -3558,6 +3580,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-12",
+          "title": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
+          "url": "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/"
+        },
         {
           "date": "2026-05-11",
           "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
@@ -10409,14 +10436,14 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/"
         },
         {
-          "date": "2026-05-01",
-          "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/"
+          "date": "2026-05-05",
+          "title": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/"
         },
         {
           "date": "2026-05-01",
-          "title": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sap-mcp-amazon-bedrock/"
+          "title": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-sao-paulo-region/"
         }
       ],
       "dataStatus": "partial",
