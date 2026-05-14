@@ -659,10 +659,6 @@
           "value": "27",
           "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
           "adjustable": true
-        },
-        {
-          "name": "Item size",
-          "value": "400 KB"
         }
       ],
       "news": [
@@ -796,7 +792,7 @@
         },
         {
           "name": "Message Size",
-          "value": "256 KB",
+          "value": "1024 KB",
           "description": "The size of a message, in kilobytes.",
           "unit": "Kilobytes",
           "adjustable": false
@@ -1571,7 +1567,7 @@
         },
         {
           "name": "Object size",
-          "value": "5 TB (single object)",
+          "value": "48.828125 TB",
           "description": "The maximum size (in TB) of an Amazon S3 object",
           "unit": "Terabytes",
           "adjustable": false
@@ -11248,83 +11244,397 @@
       "dataStatus": "partial"
     },
     {
-      "id": "ecs",
+      "id": "app-runner",
       "enabled": true,
-      "name": "Amazon ECS",
+      "name": "AWS App Runner",
       "category": "Compute",
-      "description": "Amazon Elastic Container Service is a fully managed container orchestration service that helps you deploy, manage, and scale containerized applications.",
+      "description": "AWS App Runner is a fully managed service that makes it easy to quickly deploy containerized web applications and APIs at scale with no infrastructure experience required.",
       "useCases": [
-        "Microservices",
-        "Batch processing",
         "Web apps",
-        "ML inference"
+        "APIs",
+        "Microservices",
+        "Rapid prototyping"
       ],
-      "pricing": "No additional charge for ECS; pay for Fargate or EC2 resources",
-      "pricingUrl": "https://aws.amazon.com/ecs/pricing/",
-      "url": "https://aws.amazon.com/ecs/",
-      "icon": "🐳",
+      "pricing": "Pay per vCPU and memory per second when active",
+      "pricingUrl": "https://aws.amazon.com/apprunner/pricing/",
+      "url": "https://aws.amazon.com/apprunner/",
+      "icon": "🏃",
       "limits": [
         {
-          "name": "Max containers per task",
-          "value": "10"
+          "name": "Services",
+          "value": "30",
+          "description": "The maximum number of services that you can create in this account in the current Region.",
+          "adjustable": true
         },
         {
-          "name": "Max tasks per service",
-          "value": "5,000"
+          "name": "Observability configurations",
+          "value": "10",
+          "description": "The maximum number of observability configurations that you can create in this account in the current Region. You can use a single observability configuration in multiple services.",
+          "adjustable": true
         },
         {
-          "name": "Max services per cluster",
-          "value": "5,000"
+          "name": "Connections",
+          "value": "10",
+          "description": "The maximum number of connections that you can create in this account in the current Region. You can use a single connection in multiple services.",
+          "adjustable": true
         },
         {
-          "name": "Max clusters per account",
-          "value": "10,000"
+          "name": "Auto scaling configurations",
+          "value": "10",
+          "description": "The maximum number of auto scaling configurations that you can create in this account in the current Region. You can use a single auto scaling configuration in multiple services.",
+          "adjustable": true
         },
         {
-          "name": "Max vCPU (Fargate)",
-          "value": "16"
+          "name": "VPC connectors",
+          "value": "10",
+          "description": "The maximum number of VPC connectors that you can create in this account in the current Region. You can use a single VPC connector in multiple services.",
+          "adjustable": true
         },
         {
-          "name": "Max memory (Fargate)",
-          "value": "120 GB"
+          "name": "VPC ingress connections",
+          "value": "1",
+          "description": "The maximum number of VPC Ingress Connections that you can create for a single Service.",
+          "adjustable": false
         },
         {
-          "name": "Max ephemeral storage (Fargate)",
-          "value": "200 GB"
+          "name": "Max vCPU per instance",
+          "value": "4"
         },
         {
-          "name": "Container image size",
-          "value": "No limit (pulled at runtime)"
+          "name": "Max memory per instance",
+          "value": "12 GB"
         },
         {
-          "name": "Max task definition size",
-          "value": "64 KB"
+          "name": "Max concurrency per instance",
+          "value": "200"
         },
         {
-          "name": "Max concurrent tasks (Fargate)",
-          "value": "500 (soft limit)"
+          "name": "Max instances per service",
+          "value": "25"
+        },
+        {
+          "name": "Request timeout",
+          "value": "120 seconds"
+        },
+        {
+          "name": "Max services per account per region",
+          "value": "25"
         }
       ],
-      "pricingDetails": [
+      "dataStatus": "partial"
+    },
+    {
+      "id": "opensearch-serverless",
+      "enabled": true,
+      "name": "Amazon OpenSearch Serverless",
+      "category": "Analytics",
+      "description": "Amazon OpenSearch Serverless is a serverless option for Amazon OpenSearch Service that makes it simple to run search and analytics workloads without managing clusters.",
+      "useCases": [
+        "Log analytics",
+        "Full-text search",
+        "Application monitoring",
+        "Security analytics"
+      ],
+      "pricing": "Pay per OCU (OpenSearch Compute Unit) per hour",
+      "pricingUrl": "https://aws.amazon.com/opensearch-service/pricing/",
+      "url": "https://aws.amazon.com/opensearch-service/features/serverless/",
+      "icon": "🔍",
+      "limits": [
         {
-          "label": "vCPU",
-          "price": "$0.04048",
-          "unit": "per vCPU/hour",
-          "description": "$0.04048 per vCPU per hour (Fargate)"
+          "name": "Max OCUs per account",
+          "value": "50"
         },
         {
-          "label": "Memory",
-          "price": "$0.004445",
-          "unit": "per GB/hour",
-          "description": "$0.004445 per GB per hour (Fargate)"
+          "name": "Max collections per account",
+          "value": "50"
         },
         {
-          "label": "Ephemeral Storage",
-          "price": "$0.000111",
-          "unit": "per GB/hour",
-          "description": "$0.000111 per GB per hour above 20GB (Fargate)"
+          "name": "Max indexes per collection",
+          "value": "20"
+        },
+        {
+          "name": "Max document size",
+          "value": "16 MB"
         }
-      ]
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "msk-serverless",
+      "enabled": true,
+      "name": "Amazon MSK Serverless",
+      "category": "Streaming",
+      "description": "Amazon MSK Serverless is a cluster type for Amazon MSK that makes it easy to run Apache Kafka without managing and scaling cluster capacity.",
+      "useCases": [
+        "Event streaming",
+        "Log aggregation",
+        "Data pipelines",
+        "Real-time analytics"
+      ],
+      "pricing": "Pay per cluster hour, partition hour, and data in/out",
+      "pricingUrl": "https://aws.amazon.com/msk/pricing/",
+      "url": "https://aws.amazon.com/msk/features/msk-serverless/",
+      "icon": "📡",
+      "limits": [
+        {
+          "name": "Number of brokers per cluster",
+          "value": "30",
+          "description": "The maximum number of brokers that a cluster can contain.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of revisions per configuration",
+          "value": "50",
+          "description": "The maximum number of revisions that can be made to a custom configuration.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of replicators per account",
+          "value": "15",
+          "description": "The maximum number of replicators that can be created per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of brokers per KRaft cluster",
+          "value": "60",
+          "description": "The maximum number of brokers that a KRaft cluster can contain.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of brokers per account",
+          "value": "90",
+          "description": "The maximum number of brokers that can be created per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of configurations per account",
+          "value": "100",
+          "description": "The maximum number of custom configurations that can be created per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max partitions per cluster",
+          "value": "120"
+        },
+        {
+          "name": "Max message size",
+          "value": "8 MB"
+        },
+        {
+          "name": "Max retention",
+          "value": "24 hours"
+        },
+        {
+          "name": "Max consumer groups",
+          "value": "500"
+        },
+        {
+          "name": "Max throughput per partition",
+          "value": "5 MB/s in, 10 MB/s out"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-11",
+          "title": "How to build a cross-Region resilience for Amazon OpenSearch Service with Amazon MSK",
+          "url": "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "Migrating TLS Clients managed by third-party Certificate Authorities from self-managed Apache Kafka to Amazon MSK",
+          "url": "https://aws.amazon.com/blogs/big-data/migrating-tls-clients-managed-by-third-party-certificate-authorities-from-self-managed-apache-kafka-to-amazon-msk/"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "Configure a custom domain name for your Amazon MSK cluster enabled with IAM authentication",
+          "url": "https://aws.amazon.com/blogs/big-data/configure-a-custom-domain-name-for-your-amazon-msk-cluster-enabled-with-iam-authentication/"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Migrate third-party and self-managed Apache Kafka clusters to Amazon MSK Express brokers with Amazon MSK Replicator",
+          "url": "https://aws.amazon.com/blogs/big-data/migrate-third-party-and-self-managed-apache-kafka-clusters-to-amazon-msk-express-brokers-with-amazon-msk-replicator/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "neptune-serverless",
+      "enabled": true,
+      "name": "Amazon Neptune Serverless",
+      "category": "Database",
+      "description": "Amazon Neptune Serverless lets you run graph database workloads without managing instance capacity, automatically scaling compute based on workload demands.",
+      "useCases": [
+        "Knowledge graphs",
+        "Fraud detection",
+        "Social networks",
+        "Recommendation engines"
+      ],
+      "pricing": "Pay per NCU (Neptune Capacity Unit) per hour",
+      "pricingUrl": "https://aws.amazon.com/neptune/pricing/",
+      "url": "https://aws.amazon.com/neptune/serverless/",
+      "icon": "🔵",
+      "limits": [
+        {
+          "name": "DB subnet groups",
+          "value": "50",
+          "description": "The maximum number of DB subnet groups.",
+          "adjustable": true
+        },
+        {
+          "name": "DB instances",
+          "value": "40",
+          "description": "The maximum number of DB instances.",
+          "adjustable": true
+        },
+        {
+          "name": "Event subscriptions",
+          "value": "20",
+          "description": "The maximum number of event subscriptions.",
+          "adjustable": true
+        },
+        {
+          "name": "Read replicas per cluster",
+          "value": "15",
+          "description": "The maximum number of read replicas per cluster.",
+          "adjustable": false
+        },
+        {
+          "name": "DB instance parameter groups",
+          "value": "50",
+          "description": "The maximum number of DB instance parameter groups.",
+          "adjustable": true
+        },
+        {
+          "name": "Tags per resource",
+          "value": "50",
+          "description": "The maximum number of tags per resource.",
+          "adjustable": true
+        },
+        {
+          "name": "Reserved DB instances",
+          "value": "40",
+          "description": "The maximum number of reserved DB instances.",
+          "adjustable": true
+        },
+        {
+          "name": "DB cluster Roles",
+          "value": "5",
+          "description": "The maximum number of DB cluster roles.",
+          "adjustable": true
+        },
+        {
+          "name": "DB cluster manuals snapshots",
+          "value": "100",
+          "description": "The maximum number of DB cluster manual snapshots.",
+          "adjustable": true
+        },
+        {
+          "name": "Cluster endpoints per DB cluster",
+          "value": "5",
+          "description": "The maximum number of cluster endpoints per DB cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Cross-region snapshot copy requests",
+          "value": "5",
+          "description": "The maximum number of cross-region snapshot copy requests.",
+          "adjustable": true
+        },
+        {
+          "name": "DB cluster parameter groups",
+          "value": "50",
+          "description": "The maximum number of DB cluster parameter groups.",
+          "adjustable": true
+        },
+        {
+          "name": "DB clusters",
+          "value": "40",
+          "description": "The maximum number of DB clusters.",
+          "adjustable": true
+        },
+        {
+          "name": "Min NCU",
+          "value": "1"
+        },
+        {
+          "name": "Max NCU",
+          "value": "128"
+        },
+        {
+          "name": "Max storage",
+          "value": "128 TiB"
+        },
+        {
+          "name": "Max vertices/edges per request",
+          "value": "Unlimited"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-06",
+          "title": "Amazon Neptune now supports 1-click connect with CloudShell",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Exploring type-safe .NET development for Amazon Neptune with Gremlinq",
+          "url": "https://aws.amazon.com/blogs/database/exploring-type-safe-net-development-for-amazon-neptune-with-gremlinq/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "redshift-serverless",
+      "enabled": true,
+      "name": "Amazon Redshift Serverless",
+      "category": "Analytics",
+      "description": "Amazon Redshift Serverless lets you run and scale analytics without provisioning and managing data warehouse clusters.",
+      "useCases": [
+        "Data warehousing",
+        "Business intelligence",
+        "Ad-hoc queries",
+        "Dashboards"
+      ],
+      "pricing": "Pay per RPU (Redshift Processing Unit) per hour",
+      "pricingUrl": "https://aws.amazon.com/redshift/pricing/",
+      "url": "https://aws.amazon.com/redshift/redshift-serverless/",
+      "icon": "📊",
+      "limits": [
+        {
+          "name": "Base RPU",
+          "value": "8 – 512"
+        },
+        {
+          "name": "Max query time",
+          "value": "86,400 seconds (24 hr)"
+        },
+        {
+          "name": "Max databases per workgroup",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max concurrent queries",
+          "value": "Varies by RPU"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-12",
+          "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Securely connecting on-premises data systems to Amazon Redshift with IAM Roles Anywhere",
+          "url": "https://aws.amazon.com/blogs/big-data/securely-connecting-on-premises-data-systems-to-amazon-redshift-with-iam-roles-anywhere/"
+        }
+      ],
+      "dataStatus": "partial"
     }
   ]
 }

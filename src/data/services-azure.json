@@ -570,7 +570,7 @@
       "limits": [
         {
           "name": "Max blob size (block blob)",
-          "value": "190.7 TiB (50K blocks x 4 GiB)"
+          "value": "190.7 TiB"
         },
         {
           "name": "Max block size",

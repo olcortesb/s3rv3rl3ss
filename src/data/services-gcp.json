@@ -832,7 +832,7 @@
       "limits": [
         {
           "name": "Max object size",
-          "value": "5 TiB (single object)"
+          "value": "5 TiB"
         },
         {
           "name": "Max buckets per project",

@@ -3,6 +3,36 @@
   "changes": [
     {
       "date": "2026-05-14",
+      "service": "app-runner",
+      "type": "service_added",
+      "detail": "AWS App Runner"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "opensearch-serverless",
+      "type": "service_added",
+      "detail": "Amazon OpenSearch Serverless"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "msk-serverless",
+      "type": "service_added",
+      "detail": "Amazon MSK Serverless"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "neptune-serverless",
+      "type": "service_added",
+      "detail": "Amazon Neptune Serverless"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "redshift-serverless",
+      "type": "service_added",
+      "detail": "Amazon Redshift Serverless"
+    },
+    {
+      "date": "2026-05-14",
       "service": "ecs",
       "type": "service_added",
       "detail": "Amazon ECS"

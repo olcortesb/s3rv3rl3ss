@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalServices": 17,
-    "totalQuotas": 1563,
-    "totalLimits": 132,
-    "totalNews": 63,
+    "totalServices": 22,
+    "totalQuotas": 1588,
+    "totalLimits": 155,
+    "totalNews": 72,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -32,11 +32,15 @@
     },
     {
       "category": "Compute",
-      "count": 4
+      "count": 5
     },
     {
       "category": "Database",
-      "count": 2
+      "count": 3
+    },
+    {
+      "category": "Analytics",
+      "count": 3
     },
     {
       "category": "Security",
@@ -47,11 +51,11 @@
       "count": 1
     },
     {
-      "category": "Analytics",
+      "category": "AI/ML",
       "count": 1
     },
     {
-      "category": "AI/ML",
+      "category": "Streaming",
       "count": 1
     }
   ],
