@@ -3380,6 +3380,439 @@
       ]
     },
     {
+      "id": "ecs",
+      "enabled": true,
+      "name": "Amazon ECS",
+      "category": "Compute",
+      "description": "Amazon Elastic Container Service is a fully managed container orchestration service that helps you deploy, manage, and scale containerized applications.",
+      "useCases": [
+        "Microservices",
+        "Batch processing",
+        "Web apps",
+        "ML inference"
+      ],
+      "pricing": "No additional charge for ECS; pay for Fargate or EC2 resources",
+      "pricingUrl": "https://aws.amazon.com/ecs/pricing/",
+      "url": "https://aws.amazon.com/ecs/",
+      "icon": "🐳",
+      "limits": [
+        {
+          "name": "Burst rate of cluster read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for cluster read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of task protection actions (or bucket maximum capacity)",
+          "value": "200",
+          "description": "The maximum burst number of requests per second for task protection write actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of task protection actions (or bucket refill rate)",
+          "value": "80",
+          "description": "The maximum sustained number of requests per second for task protection write actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of cluster resource modify actions (or bucket refill rate)",
+          "value": "40",
+          "description": "The maximum sustained number of requests per second for cluster resource modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Classic Load Balancers per service",
+          "value": "1",
+          "description": "The maximum number of Classic Load Balancers per service.",
+          "adjustable": false
+        },
+        {
+          "name": "Capacity providers per cluster",
+          "value": "20",
+          "description": "The maximum number of capacity providers that can be associated with a cluster.",
+          "adjustable": false
+        },
+        {
+          "name": "Sustained rate of service deployment read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for service deployment and revision read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of tag read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for tag read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of cluster modify actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for cluster modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Services per namespace",
+          "value": "300",
+          "description": "The maximum number of services that can be running within a namespace.",
+          "adjustable": false
+        },
+        {
+          "name": "Rate of tasks launched by a service on AWS Fargate",
+          "value": "500",
+          "description": "The maximum number of tasks that can be provisioned per service per minute on Fargate by the Amazon ECS service scheduler. Note: For Regions introduced after May 20, 2025, the maximum is 125",
+          "adjustable": false
+        },
+        {
+          "name": "Target groups per service",
+          "value": "5",
+          "description": "The maximum number of target groups per service, if using an Application Load Balancer or a Network Load Balancer.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of cluster modify actions (or bucket maximum capacity)",
+          "value": "20",
+          "description": "The maximum burst number of requests per second for cluster modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of service read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for service read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Task definition size",
+          "value": "64 KB",
+          "description": "The maximum size, in KiB, of a task definition.",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of setting modify actions (or bucket maximum capacity)",
+          "value": "10",
+          "description": "The maximum burst number of requests per second for setting modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of service deployment read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for service deployment and revision read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Tasks in PROVISIONING state per cluster",
+          "value": "500",
+          "description": "The maximum number of tasks waiting in the PROVISIONING state per cluster. This quota only applies to tasks launched using an EC2 Auto Scaling group capacity provider.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of service modify actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for service modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of task definition read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for task definition read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of capacity provider modify actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for capacity provider modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of cluster service resource read actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for cluster service resource read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of capacity provider modify actions (or bucket maximum capacity)",
+          "value": "10",
+          "description": "The maximum burst number of requests per second for capacity provider modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Services per cluster",
+          "value": "5000",
+          "description": "The maximum number of services per cluster",
+          "adjustable": false
+        },
+        {
+          "name": "Clusters per account",
+          "value": "10000",
+          "description": "Number of clusters per account",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of service read actions (or bucket maximum capacity)",
+          "value": "100",
+          "description": "The maximum burst number of requests per second for service read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of task definition read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for task definition read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Containers per task definition",
+          "value": "10",
+          "description": "The maximum number of containers definitions within a task definition.",
+          "adjustable": false
+        },
+        {
+          "name": "Sustained rate of service modify actions (or bucket refill rate)",
+          "value": "5",
+          "description": "The maximum sustained number of requests per second for service modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of cluster resource modify actions (or bucket maximum capacity)",
+          "value": "100",
+          "description": "The maximum burst number of requests per second for cluster resource modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of setting read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for setting read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Tags per resource",
+          "value": "50",
+          "description": "The maximum number of tags per resource. This applies to task definitions, clusters, tasks, and services.",
+          "adjustable": false
+        },
+        {
+          "name": "Revisions per task definition family",
+          "value": "1000000",
+          "description": "The maximum number of revisions per task definition family. Deregistering or deleting a task definition revision does not exclude it from being included in this limit.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of cluster resource read actions (or bucket maximum capacity)",
+          "value": "100",
+          "description": "The maximum burst number of requests per second for cluster resource read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of task definition deletion actions (or bucket maximum capacity)",
+          "value": "5",
+          "description": "The maximum burst number of requests per second for task definition deletion actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of task definition modify actions (or bucket maximum capacity)",
+          "value": "20",
+          "description": "The maximum burst number of requests per second for task definition modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of agent modify actions (or bucket refill rate)",
+          "value": "120",
+          "description": "The maximum sustained number of requests per second for agent modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Tasks per service",
+          "value": "5000",
+          "description": "The maximum number of tasks per service (the desired count).",
+          "adjustable": false
+        },
+        {
+          "name": "Sustained rate of task protection actions (or bucket refill rate)",
+          "value": "80",
+          "description": "The maximum sustained number of requests per second for task protection read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of setting read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for setting read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of cluster read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for cluster read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of task definition deletion actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for task definition deletion actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of tag modify actions (or bucket maximum capacity)",
+          "value": "20",
+          "description": "The maximum burst number of requests per second for tag modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Container instances per start-task",
+          "value": "10",
+          "description": "The maximum number of container instances specified in a StartTask API action.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of agent modify actions (or bucket maximum capacity)",
+          "value": "200",
+          "description": "The maximum burst number of requests per second for agent modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Subnets per awsvpcConfiguration",
+          "value": "16",
+          "description": "The maximum number of subnets specified within an awsvpcConfiguration.",
+          "adjustable": false
+        },
+        {
+          "name": "Sustained rate of task definition modify actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for task definition modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Tasks launched per run-task",
+          "value": "10",
+          "description": "The maximum number of tasks that can be launched per RunTask API action.",
+          "adjustable": false
+        },
+        {
+          "name": "Sustained rate of cluster resource read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for cluster resource read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of setting modify actions (or bucket refill rate)",
+          "value": "1",
+          "description": "The maximum sustained number of requests per second for setting modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Rate of tasks launched by a service on an Amazon EC2 or External instance",
+          "value": "500",
+          "description": "The maximum number of tasks that can be provisioned per service per minute on an Amazon EC2 or External instance by the Amazon ECS service scheduler.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of cluster service resource read actions (or bucket maximum capacity)",
+          "value": "10",
+          "description": "The maximum burst number of requests per second for cluster service resource read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "ECS Exec sessions",
+          "value": "1000",
+          "description": "The maximum number of ECS Exec sessions per container.",
+          "adjustable": false
+        },
+        {
+          "name": "Security groups per awsvpcConfiguration",
+          "value": "5",
+          "description": "The maximum number of security groups specified within an awsvpcConfiguration.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of tag read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for tag read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of task protection actions (or bucket maximum capacity)",
+          "value": "200",
+          "description": "The maximum burst number of requests per second for task protection read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst rate of capacity provider read actions (or bucket maximum capacity)",
+          "value": "50",
+          "description": "The maximum burst number of requests per second for capacity provider read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of tag modify actions (or bucket refill rate)",
+          "value": "10",
+          "description": "The maximum sustained number of requests per second for tag modify actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Sustained rate of capacity provider read actions (or bucket refill rate)",
+          "value": "20",
+          "description": "The maximum sustained number of requests per second for capacity provider read actions.",
+          "adjustable": true
+        },
+        {
+          "name": "Container instances per cluster",
+          "value": "5000",
+          "description": "Number of container instances per cluster",
+          "adjustable": false
+        },
+        {
+          "name": "Max containers per task",
+          "value": "10"
+        },
+        {
+          "name": "Max tasks per service",
+          "value": "5,000"
+        },
+        {
+          "name": "Max services per cluster",
+          "value": "5,000"
+        },
+        {
+          "name": "Max clusters per account",
+          "value": "10,000"
+        },
+        {
+          "name": "Max vCPU (Fargate)",
+          "value": "16"
+        },
+        {
+          "name": "Max memory (Fargate)",
+          "value": "120 GB"
+        },
+        {
+          "name": "Max ephemeral storage (Fargate)",
+          "value": "200 GB"
+        },
+        {
+          "name": "Container image size",
+          "value": "No limit (pulled at runtime)"
+        },
+        {
+          "name": "Max task definition size",
+          "value": "64 KB"
+        },
+        {
+          "name": "Max concurrent tasks (Fargate)",
+          "value": "500 (soft limit)"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-08",
+          "title": "Gradual deployments in Amazon ECS with linear and canary strategies",
+          "url": "https://aws.amazon.com/blogs/containers/gradual-deployments-in-amazon-ecs-with-linear-and-canary-strategies/"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Deploying Model Context Protocol (MCP) servers on Amazon ECS",
+          "url": "https://aws.amazon.com/blogs/containers/deploying-model-context-protocol-mcp-servers-on-amazon-ecs/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
       "id": "aurora-serverless",
       "enabled": true,
       "name": "Amazon Aurora Serverless",

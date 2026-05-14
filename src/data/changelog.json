@@ -3,6 +3,18 @@
   "changes": [
     {
       "date": "2026-05-14",
+      "service": "ecs",
+      "type": "service_added",
+      "detail": "Amazon ECS"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "eks",
+      "type": "quota_changed",
+      "detail": "Pods per node (max): 250 → 110"
+    },
+    {
+      "date": "2026-05-14",
       "service": "eks",
       "type": "service_added",
       "detail": "Amazon EKS"
