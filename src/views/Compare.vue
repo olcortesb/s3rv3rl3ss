@@ -108,7 +108,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import comparisons from '../data/comparisons.json'
 import { getProviderData } from '../data/index.js'
@@ -117,13 +117,26 @@ const PROVIDERS = ['aws', 'gcp', 'azure']
 const route = useRoute()
 const categories = comparisons.categories
 const selected = ref(route.params.category || categories[0].id)
+const servicesData = ref({ aws: null, gcp: null, azure: null })
 
 const comparison = computed(() => categories.find(c => c.id === selected.value))
+
+async function loadServices() {
+  for (const p of PROVIDERS) {
+    const sid = comparison.value?.services[p]
+    if (sid && !servicesData.value[p]) {
+      servicesData.value[p] = await getProviderData(p)
+    }
+  }
+}
+
+onMounted(loadServices)
+watch(selected, loadServices)
 
 function getService(provider) {
   const serviceId = comparison.value?.services[provider]
   if (!serviceId) return null
-  const data = getProviderData(provider)
+  const data = servicesData.value[provider]
   return data?.services.find(s => s.id === serviceId) || null
 }
 

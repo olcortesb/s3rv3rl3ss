@@ -199,15 +199,21 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import Fuse from 'fuse.js'
 import { getProviderData, getChangelog } from '../data/index.js'
 
 const props = defineProps({ provider: String, id: String })
-const providerData = getProviderData(props.provider)
-const service = computed(() => providerData?.services.find(s => s.id === props.id))
-const changelog = computed(() => getChangelog(props.id, props.provider))
+const providerData = ref(null)
+const service = ref(null)
+const changelog = ref([])
 const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
+
+onMounted(async () => {
+  providerData.value = await getProviderData(props.provider)
+  service.value = providerData.value?.services.find(s => s.id === props.id) || null
+  changelog.value = await getChangelog(props.id, props.provider)
+})
 
 const CALCULATORS = {
   aws: { url: 'https://calculator.aws', label: 'AWS Pricing Calculator' },

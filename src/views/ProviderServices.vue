@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import Fuse from 'fuse.js'
 import { getProviderData, getProvider, getStatistics } from '../data/index.js'
 import SearchBar from '../components/SearchBar.vue'
@@ -87,25 +87,31 @@ import CategoryFilter from '../components/CategoryFilter.vue'
 const props = defineProps({ provider: String })
 
 const providerInfo = getProvider(props.provider)
-const providerData = getProviderData(props.provider)
-const stats = getStatistics(props.provider)
+const providerData = ref(null)
+const stats = ref({})
 const showStats = ref(false)
-
 const search = ref('')
 const selectedCategory = ref('')
+const enabledServices = ref([])
+const categories = ref([])
+let fuse = null
 
-const enabledServices = providerData ? providerData.services.filter(s => s.enabled) : []
-const categories = [...new Set(enabledServices.map(s => s.category))].sort()
-
-const fuse = new Fuse(enabledServices, {
-  keys: ['name', 'description', 'category', 'useCases'],
-  threshold: 0.3,
+onMounted(async () => {
+  providerData.value = await getProviderData(props.provider)
+  stats.value = await getStatistics(props.provider)
+  enabledServices.value = providerData.value ? providerData.value.services.filter(s => s.enabled) : []
+  categories.value = [...new Set(enabledServices.value.map(s => s.category))].sort()
+  fuse = new Fuse(enabledServices.value, {
+    keys: ['name', 'description', 'category', 'useCases'],
+    threshold: 0.3,
+  })
 })
 
 const filtered = computed(() => {
-  let results = search.value
+  if (!enabledServices.value.length) return []
+  let results = search.value && fuse
     ? fuse.search(search.value).map(r => r.item)
-    : enabledServices
+    : enabledServices.value
 
   if (selectedCategory.value) {
     results = results.filter(s => s.category === selectedCategory.value)

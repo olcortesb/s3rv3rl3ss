@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { getChangelog } from '../data/index.js'
 
 const props = defineProps({ service: Object, provider: String })
@@ -33,16 +33,18 @@ const iconUrl = computed(() => {
   return `${base}.svg`
 })
 
+const changes = ref([])
+onMounted(async () => {
+  changes.value = await getChangelog(props.service.id, props.provider)
+})
+
 const badge = computed(() => {
-  const changes = getChangelog(props.service.id, props.provider)
-  if (changes.length) {
-    const latest = changes[0].date
-    if (latest) {
-      const days = Math.floor((new Date() - new Date(latest)) / (1000 * 60 * 60 * 24))
-      if (days <= 1) return 'New'
-      if (days <= 30) return 'Updated'
-    }
-  }
+  if (!changes.value.length) return null
+  const latest = changes.value[0].date
+  if (!latest) return null
+  const days = Math.floor((new Date() - new Date(latest)) / (1000 * 60 * 60 * 24))
+  if (days <= 1) return 'New'
+  if (days <= 30) return 'Updated'
   return null
 })
 

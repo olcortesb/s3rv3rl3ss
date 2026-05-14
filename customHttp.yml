@@ -1,0 +1,21 @@
+customHeaders:
+  - pattern: "/icons/**"
+    headers:
+      - key: Cache-Control
+        value: "public, max-age=31536000, immutable"
+  - pattern: "*.svg"
+    headers:
+      - key: Cache-Control
+        value: "public, max-age=31536000, immutable"
+  - pattern: "/data/*.json"
+    headers:
+      - key: Cache-Control
+        value: "public, max-age=3600"
+  - pattern: "*.js"
+    headers:
+      - key: Cache-Control
+        value: "public, max-age=31536000, immutable"
+  - pattern: "*.css"
+    headers:
+      - key: Cache-Control
+        value: "public, max-age=31536000, immutable"
