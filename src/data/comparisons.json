@@ -92,6 +92,26 @@
       ]
     },
     {
+      "id": "serverless-sql",
+      "name": "Serverless SQL",
+      "icon": "🗃️",
+      "services": { "aws": "aurora-serverless", "gcp": "cloud-spanner", "azure": "azure-sql-serverless" },
+      "limitsUrls": {
+        "aws": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html",
+        "gcp": "https://cloud.google.com/spanner/quotas",
+        "azure": "https://learn.microsoft.com/en-us/azure/azure-sql/database/serverless-tier-overview"
+      },
+      "limits": [
+        { "label": "Max storage", "aws": "Max storage", "gcp": "Max storage per node", "azure": "Max storage" },
+        { "label": "Max compute", "aws": "Max ACU", "gcp": null, "azure": "Max vCores" },
+        { "label": "Min compute", "aws": "Min ACU", "gcp": null, "azure": "Min vCores" }
+      ],
+      "pricing": [
+        { "label": "Compute", "aws": null, "gcp": "Processing units", "azure": "vCore (General Purpose)" },
+        { "label": "Storage", "aws": null, "gcp": "Storage", "azure": "Storage" }
+      ]
+    },
+    {
       "id": "object-storage",
       "name": "Object Storage",
       "icon": "📦",
@@ -213,6 +233,45 @@
       "pricing": [
         { "label": "Write/ingress", "aws": "On-Demand Write", "gcp": null, "azure": "Throughput unit (Standard)" },
         { "label": "Read", "aws": "On-Demand Read", "gcp": null, "azure": "Ingress events" }
+      ]
+    },
+    {
+      "id": "secrets",
+      "name": "Secrets Management",
+      "icon": "🔑",
+      "services": { "aws": "secrets-manager", "gcp": "secret-manager", "azure": "key-vault" },
+      "limitsUrls": {
+        "aws": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/reference_limits.html",
+        "gcp": "https://cloud.google.com/secret-manager/quotas",
+        "azure": "https://learn.microsoft.com/en-us/azure/key-vault/general/service-limits"
+      },
+      "limits": [
+        { "label": "Max secret size", "aws": "Secret value size", "gcp": "Max secret size", "azure": "Max secret size" },
+        { "label": "Max secrets per account", "aws": "Secrets per account", "gcp": "Max secrets per project", "azure": null },
+        { "label": "Max versions per secret", "aws": "Versions per secret", "gcp": "Max versions per secret", "azure": null }
+      ],
+      "pricing": [
+        { "label": "Storage", "aws": null, "gcp": "Active secret versions", "azure": "Secret operations" },
+        { "label": "Access operations", "aws": null, "gcp": "Access operations", "azure": "Key operations (software)" }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI / ML",
+      "icon": "🧠",
+      "services": { "aws": "bedrock", "gcp": "vertex-ai", "azure": "azure-ai-services" },
+      "limitsUrls": {
+        "aws": "https://docs.aws.amazon.com/bedrock/latest/userguide/quotas.html",
+        "gcp": "https://cloud.google.com/vertex-ai/docs/quotas",
+        "azure": "https://learn.microsoft.com/en-us/azure/ai-services/openai/quotas-limits"
+      },
+      "limits": [
+        { "label": "Max input tokens", "aws": "Max input tokens", "gcp": null, "azure": "Max tokens per request" },
+        { "label": "Max endpoints/models", "aws": "Knowledge bases per account", "gcp": "Max endpoints per project", "azure": "Max custom models per resource" }
+      ],
+      "pricing": [
+        { "label": "Input tokens", "aws": null, "gcp": "Gemini 1.5 Flash input", "azure": "GPT-4o input" },
+        { "label": "Output tokens", "aws": null, "gcp": "Gemini 1.5 Flash output", "azure": "GPT-4o output" }
       ]
     }
   ]
