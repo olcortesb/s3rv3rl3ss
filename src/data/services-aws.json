@@ -10625,6 +10625,170 @@
           "description": "$0.05 per 10,000 API calls"
         }
       ]
+    },
+    {
+      "id": "eks",
+      "enabled": true,
+      "name": "Amazon EKS",
+      "category": "Compute",
+      "description": "Amazon Elastic Kubernetes Service is a managed Kubernetes service that makes it easy to run Kubernetes on AWS without needing to install and operate your own control plane.",
+      "useCases": [
+        "Container orchestration",
+        "Microservices",
+        "Hybrid deployments",
+        "ML workloads"
+      ],
+      "pricing": "$0.10 per hour per cluster + compute costs",
+      "pricingUrl": "https://aws.amazon.com/eks/pricing/",
+      "url": "https://aws.amazon.com/eks/",
+      "icon": "☸️",
+      "limits": [
+        {
+          "name": "Control plane security groups per cluster",
+          "value": "4",
+          "description": "The maximum number of control plane security groups per cluster (these are specified when you create the cluster).",
+          "adjustable": false
+        },
+        {
+          "name": "Remote pod networks per cluster",
+          "value": "15",
+          "description": "The maximum number of remote pod networks per cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "EKS Anywhere Enterprise Subscriptions",
+          "value": "10",
+          "description": "The maximum number of EKS Anywhere Enterprise Subscriptions in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Registered clusters",
+          "value": "10",
+          "description": "The maximum number of registered clusters in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Nodes per managed node group",
+          "value": "450",
+          "description": "The maximum number of nodes per managed node group.",
+          "adjustable": true
+        },
+        {
+          "name": "Remote node networks per cluster",
+          "value": "15",
+          "description": "The maximum number of remote node networks per cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Fargate profiles per cluster",
+          "value": "10",
+          "description": "The maximum number of Fargate profiles per cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Label pairs per Fargate profile selector",
+          "value": "5",
+          "description": "The maximum number of label pairs per Fargate profile selector.",
+          "adjustable": true
+        },
+        {
+          "name": "Selectors per Fargate profile",
+          "value": "5",
+          "description": "The maximum number of selectors per Fargate profile.",
+          "adjustable": true
+        },
+        {
+          "name": "Managed node groups per cluster",
+          "value": "30",
+          "description": "The maximum number of managed node groups per cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Public endpoint access CIDR ranges per cluster",
+          "value": "40",
+          "description": "The maximum number of public endpoint access CIDR ranges per cluster (these are specified when you create or update the cluster).",
+          "adjustable": false
+        },
+        {
+          "name": "Clusters",
+          "value": "100",
+          "description": "The maximum number of EKS clusters in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Nodes per cluster",
+          "value": "5,000"
+        },
+        {
+          "name": "Pods per node (max)",
+          "value": "250"
+        },
+        {
+          "name": "Services per cluster",
+          "value": "5,000"
+        },
+        {
+          "name": "ConfigMaps per namespace",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Clusters per region",
+          "value": "100"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-13",
+          "title": "Maximizing value with Amazon EKS Auto Mode: Strategies for visibility, control, and optimization",
+          "url": "https://aws.amazon.com/blogs/containers/maximizing-value-with-amazon-eks-auto-mode-strategies-for-visibility-control-and-optimization/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Back up and restore your Amazon EKS cluster resources using Velero",
+          "url": "https://aws.amazon.com/blogs/containers/back-up-and-restore-your-amazon-eks-cluster-resources-using-velero/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Implement centralized observability for multi-account Amazon EKS",
+          "url": "https://aws.amazon.com/blogs/containers/implement-centralized-observability-for-multi-account-amazon-eks/"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "Cross-Region disaster recovery for Amazon EKS using AWS Backup",
+          "url": "https://aws.amazon.com/blogs/containers/cross-region-disaster-recovery-for-amazon-eks-using-aws-backup/"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "EC2 Instance Store CSI driver now generally available in EKS add-ons",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-csi-eks/"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "AWS Backup improves performance for Amazon EKS cluster backups",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-amazon-eks-performance-improvement/"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "Track inter-AZ and NAT gateway traffic with EKS Container Network Observability",
+          "url": "https://aws.amazon.com/blogs/containers/track-inter-az-and-nat-gateway-traffic-with-eks-container-network-observability/"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Simplify hybrid Kubernetes networking with Amazon EKS Hybrid Nodes gateway",
+          "url": "https://aws.amazon.com/blogs/containers/simplify-hybrid-kubernetes-networking-with-amazon-eks-hybrid-nodes-gateway/"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "Implement SPIFFE/SPIRE authorization on Amazon EKS",
+          "url": "https://aws.amazon.com/blogs/containers/implement-spiffe-spire-authorization-on-amazon-eks/"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Navigating enterprise networking challenges with Amazon EKS Auto Mode",
+          "url": "https://aws.amazon.com/blogs/containers/navigating-enterprise-networking-challenges-with-amazon-eks-auto-mode/"
+        }
+      ],
+      "dataStatus": "partial"
     }
   ]
 }

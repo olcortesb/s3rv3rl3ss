@@ -3,6 +3,12 @@
   "changes": [
     {
       "date": "2026-05-14",
+      "service": "eks",
+      "type": "service_added",
+      "detail": "Amazon EKS"
+    },
+    {
+      "date": "2026-05-14",
       "service": "lambda",
       "type": "quota_changed",
       "detail": "Function memory allocation: 128 MB to 10,240 MB, in 1-MB increments. Note: Lambda allocates CPU power in proportion to the amount of memory configured. You can increase or decrease the memory and CPU power allocated to your function using the Memory (MB) setting. At 1,769 MB, a function has the equivalent of one vCPU. → 128 MB to 10,240 MB, in 1-MB increments.<br />Note: Lambda allocates CPU power in proportion to the amount of memory configured. You can increase or decrease the memory and CPU power allocated to your function using the Memory (MB) setting. At 1,769 MB, a function has the equivalent of one vCPU."

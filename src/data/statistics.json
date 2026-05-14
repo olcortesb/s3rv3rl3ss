@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalServices": 15,
-    "totalQuotas": 1491,
-    "totalLimits": 117,
-    "totalNews": 51,
+    "totalServices": 16,
+    "totalQuotas": 1503,
+    "totalLimits": 122,
+    "totalNews": 61,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -32,7 +32,7 @@
     },
     {
       "category": "Compute",
-      "count": 2
+      "count": 3
     },
     {
       "category": "Database",
