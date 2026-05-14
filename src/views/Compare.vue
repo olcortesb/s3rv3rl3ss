@@ -30,7 +30,11 @@
           <div v-if="getService(provider)" class="mt-2">
             <img :src="`/icons/${provider}/${comparison.services[provider]}.svg`" class="w-8 h-8 mx-auto mb-1" @error="$event.target.style.display='none'" />
             <p class="text-sm font-semibold text-gray-900">{{ getService(provider).name }}</p>
-            <router-link :to="`/${provider}/${comparison.services[provider]}`" class="text-xs text-orange-500 hover:underline">details →</router-link>
+            <div class="flex justify-center gap-2 mt-1">
+              <router-link :to="`/${provider}/${comparison.services[provider]}`" class="text-xs text-orange-500 hover:underline">details →</router-link>
+              <a v-if="getService(provider).pricingUrl" :href="getService(provider).pricingUrl" target="_blank" class="text-xs text-orange-500 hover:underline">pricing ↗</a>
+              <a v-if="comparison.limitsUrls && comparison.limitsUrls[provider]" :href="comparison.limitsUrls[provider]" target="_blank" class="text-xs text-orange-500 hover:underline">limits ↗</a>
+            </div>
           </div>
           <p v-else class="mt-2 text-sm text-gray-400">N/A</p>
         </div>
