@@ -784,6 +784,69 @@
           "description": "$9.00 per app per month"
         }
       ]
+    },
+    {
+      "id": "aks",
+      "enabled": true,
+      "name": "Azure Kubernetes Service",
+      "category": "Compute",
+      "description": "Azure Kubernetes Service is a managed Kubernetes service for deploying, managing, and scaling containerized applications with integrated CI/CD and enterprise-grade security.",
+      "useCases": [
+        "Container orchestration",
+        "Microservices",
+        "DevOps",
+        "ML workloads"
+      ],
+      "pricing": "Free control plane + compute costs (Standard tier: $0.10/cluster/hour)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/kubernetes-service/",
+      "url": "https://azure.microsoft.com/en-us/products/kubernetes-service",
+      "icon": "☸️",
+      "limits": [
+        {
+          "name": "Nodes per cluster",
+          "value": "5,000"
+        },
+        {
+          "name": "Pods per node",
+          "value": "250"
+        },
+        {
+          "name": "Max clusters per subscription",
+          "value": "5,000"
+        },
+        {
+          "name": "Max node pools per cluster",
+          "value": "100"
+        },
+        {
+          "name": "Max pods per cluster",
+          "value": "200,000"
+        },
+        {
+          "name": "Services per cluster",
+          "value": "5,000"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Cluster management (Free tier)",
+          "price": "$0.00",
+          "unit": "free",
+          "description": "Free cluster management"
+        },
+        {
+          "label": "Cluster management (Standard)",
+          "price": "$0.10",
+          "unit": "per cluster/hour",
+          "description": "$0.10 per cluster per hour"
+        },
+        {
+          "label": "Cluster management (Premium)",
+          "price": "$0.60",
+          "unit": "per cluster/hour",
+          "description": "$0.60 per cluster per hour"
+        }
+      ]
     }
   ]
 }

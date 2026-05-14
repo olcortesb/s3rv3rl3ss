@@ -2,6 +2,12 @@
   "lastUpdated": "2026-05-14",
   "changes": [
     {
+      "date": "2026-05-14",
+      "service": "aks",
+      "type": "service_added",
+      "detail": "Azure Kubernetes Service"
+    },
+    {
       "date": "2026-05-12",
       "service": "azure-functions",
       "type": "service_added",
