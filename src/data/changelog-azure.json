@@ -3,6 +3,36 @@
   "changes": [
     {
       "date": "2026-05-14",
+      "service": "blob-storage",
+      "type": "quota_changed",
+      "detail": "Max blob size (block blob): 190.7 TiB → 190.7 TiB (50K blocks x 4 GiB)"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "azure-sql-serverless",
+      "type": "service_added",
+      "detail": "Azure SQL Serverless"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "azure-ai-services",
+      "type": "service_added",
+      "detail": "Azure AI Services"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "key-vault",
+      "type": "service_added",
+      "detail": "Azure Key Vault"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "notification-hubs",
+      "type": "service_added",
+      "detail": "Azure Notification Hubs"
+    },
+    {
+      "date": "2026-05-14",
       "service": "aks",
       "type": "service_added",
       "detail": "Azure Kubernetes Service"

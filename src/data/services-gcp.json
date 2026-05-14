@@ -832,7 +832,7 @@
       "limits": [
         {
           "name": "Max object size",
-          "value": "5 TiB"
+          "value": "5 TiB (single object)"
         },
         {
           "name": "Max buckets per project",
@@ -1134,6 +1134,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-13",
+          "title": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
+        },
+        {
           "date": "2026-05-06",
           "title": "Change\n(2026-R18) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_06_2026"
@@ -1177,11 +1182,6 @@
           "date": "2026-04-02",
           "title": "Change\n(2026-R13) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_02_2026"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "Change\n(2026-R12) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#March_25_2026"
         }
       ],
       "pricingDetails": [
@@ -1208,6 +1208,622 @@
           "price": "$0.0049",
           "unit": "per GB/hour",
           "description": "$0.0049 per GB per hour"
+        }
+      ]
+    },
+    {
+      "id": "cloud-spanner",
+      "enabled": true,
+      "name": "Cloud Spanner",
+      "category": "Database",
+      "description": "Cloud Spanner is a fully managed, mission-critical relational database service that offers transactional consistency at global scale, automatic sharding, and high availability.",
+      "useCases": [
+        "Global transactions",
+        "Financial systems",
+        "Inventory management",
+        "Gaming leaderboards"
+      ],
+      "pricing": "Pay per node-hour or processing unit-hour + storage",
+      "pricingUrl": "https://cloud.google.com/spanner/pricing",
+      "url": "https://cloud.google.com/spanner",
+      "icon": "🗄️",
+      "limits": [
+        {
+          "name": "Max row size",
+          "value": "10 MB"
+        },
+        {
+          "name": "Max columns per table",
+          "value": "1,024"
+        },
+        {
+          "name": "Max databases per instance",
+          "value": "100"
+        },
+        {
+          "name": "Max tables per database",
+          "value": "5,000"
+        },
+        {
+          "name": "Max indexes per database",
+          "value": "10,000"
+        },
+        {
+          "name": "Max storage per node",
+          "value": "4 TiB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-14",
+          "title": "Announcement\nThe Spanner change streams default retention period has been increased from 1 day to 7 days.\nThis change af",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "Feature\nSpanner full-text search supports\ncustom dictionaries\nto create custom synonym mappings. You can use custom dict",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_21_2026"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nThe Spanner remote MCP server\nis generally available (GA).\nThe Spanner remote MCP server lets you interact with\n",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_20_2026"
+        },
+        {
+          "date": "2026-04-17",
+          "title": "Feature\nRepeatable read isolation is generally available.\nYou can use it to reduce latency and transaction failure rates",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_17_2026"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Feature\nSpanner supports importing data from Cloud SQL for MySQL.\nThis feature lets you migrate the schema and perform a",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_13_2026"
+        },
+        {
+          "date": "2026-04-06",
+          "title": "Feature\nThe QueryData tool lets you to query the data in your database using\nconversational language and build data agen",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_06_2026"
+        },
+        {
+          "date": "2026-03-30",
+          "title": "Feature\nSpanner offers conversational analytics, which lets users query their\noperational data using natural language. T",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_30_2026"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Feature\nThe Spark Spanner connector supports writing a Spark Dataframe to a Spanner\ntable using the Spark data source AP",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_25_2026"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "Feature\nSpanner now offers AI functions,\nas a part of machine learning functions, that help you perform semantic\noperati",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_19_2026"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Processing units",
+          "price": "$0.90",
+          "unit": "per PU/hour",
+          "description": "$0.90 per processing unit per hour"
+        },
+        {
+          "label": "Storage",
+          "price": "$0.30",
+          "unit": "per GB/month",
+          "description": "$0.30 per GB per month"
+        }
+      ]
+    },
+    {
+      "id": "cloud-run-jobs",
+      "enabled": true,
+      "name": "Cloud Run Jobs",
+      "category": "Compute",
+      "description": "Cloud Run Jobs allows you to run containers to completion without serving requests, ideal for batch processing, data transformation, and scheduled tasks.",
+      "useCases": [
+        "Batch processing",
+        "Data migration",
+        "Scheduled tasks",
+        "ML training"
+      ],
+      "pricing": "Pay per vCPU and memory per second",
+      "pricingUrl": "https://cloud.google.com/run/pricing",
+      "url": "https://cloud.google.com/run/docs/create-jobs",
+      "icon": "⚙️",
+      "limits": [
+        {
+          "name": "Max task timeout",
+          "value": "86,400 seconds (24 hr)"
+        },
+        {
+          "name": "Max tasks per job",
+          "value": "10,000"
+        },
+        {
+          "name": "Max vCPU per task",
+          "value": "8"
+        },
+        {
+          "name": "Max memory per task",
+          "value": "32 GiB"
+        },
+        {
+          "name": "Max retries per task",
+          "value": "10"
+        },
+        {
+          "name": "Max parallelism",
+          "value": "100"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_03_2026"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.00002400",
+          "unit": "per vCPU-second",
+          "description": "$0.00002400 per vCPU-second"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.00000250",
+          "unit": "per GiB-second",
+          "description": "$0.00000250 per GiB-second"
+        }
+      ]
+    },
+    {
+      "id": "memorystore",
+      "enabled": true,
+      "name": "Memorystore",
+      "category": "Database",
+      "description": "Memorystore is a fully managed in-memory data store service for Redis and Memcached, providing sub-millisecond data access for caching and real-time analytics.",
+      "useCases": [
+        "Caching",
+        "Session management",
+        "Real-time analytics",
+        "Leaderboards"
+      ],
+      "pricing": "Pay per GB per hour (Redis) or per node per hour",
+      "pricingUrl": "https://cloud.google.com/memorystore/pricing",
+      "url": "https://cloud.google.com/memorystore",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Max instance size (Redis)",
+          "value": "300 GB"
+        },
+        {
+          "name": "Max connections (Redis)",
+          "value": "65,000"
+        },
+        {
+          "name": "Max instances per project",
+          "value": "Varies by region"
+        },
+        {
+          "name": "Max throughput per node",
+          "value": "12 Gbps"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-17",
+          "title": "Feature\nThe Memorystore for Redis remote MCP server is Generally Available.",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#April_17_2026"
+        },
+        {
+          "date": "2026-04-06",
+          "title": "Feature\nYou can use the Memorystore for Redis remote MCP server.\nThis server lets you connect to Memorystore for Redis i",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#April_06_2026"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "Feature\nYou can deploy instances in the asia-southeast3 (Bangkok)\nregion.",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#March_18_2026"
+        },
+        {
+          "date": "2025-10-22",
+          "title": "Feature\nWe have implemented a security fix for CVE-2025-49844.",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#October_22_2025"
+        },
+        {
+          "date": "2025-08-26",
+          "title": "Feature\nYou can now use Cloud Logging to query and view maintenance logs for a Memorystore for Redis instance. For more ",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#August_26_2025"
+        },
+        {
+          "date": "2025-04-09",
+          "title": "Feature\nRecommendations for Memorystore for Redis are now available at Database Center. With this release, Database Cent",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#April_09_2025"
+        },
+        {
+          "date": "2025-03-04",
+          "title": "Feature\nMemorystore is available in the europe-north2 (Stockholm) region. For more information, see Regions and zones.",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#March_04_2025"
+        },
+        {
+          "date": "2024-12-12",
+          "title": "Feature\nMemorystore for Redis is supported by Database Center. Database Center is an AI-assisted dashboard that gives yo",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#December_12_2024"
+        },
+        {
+          "date": "2024-10-29",
+          "title": "Feature\nAdded support for the databases configuration. For more details, see the entry for databases in Supported Redis ",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#October_29_2024"
+        },
+        {
+          "date": "2024-10-01",
+          "title": "Feature\nAdded support for custom constraints. For more details, see Manage Memorystore for Redis resources with custom c",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#October_01_2024"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Redis (Basic)",
+          "price": "$0.049",
+          "unit": "per GB/hour",
+          "description": "$0.049 per GB per hour"
+        },
+        {
+          "label": "Redis (Standard)",
+          "price": "$0.068",
+          "unit": "per GB/hour",
+          "description": "$0.068 per GB per hour"
+        }
+      ]
+    },
+    {
+      "id": "secret-manager",
+      "enabled": true,
+      "name": "Secret Manager",
+      "category": "Security",
+      "description": "Secret Manager is a secure and convenient storage system for API keys, passwords, certificates, and other sensitive data.",
+      "useCases": [
+        "API keys",
+        "Database credentials",
+        "Certificates",
+        "Configuration secrets"
+      ],
+      "pricing": "Pay per secret version per month + access operations",
+      "pricingUrl": "https://cloud.google.com/secret-manager/pricing",
+      "url": "https://cloud.google.com/secret-manager",
+      "icon": "🔑",
+      "limits": [
+        {
+          "name": "Max secret size",
+          "value": "64 KiB"
+        },
+        {
+          "name": "Max secrets per project",
+          "value": "90,000"
+        },
+        {
+          "name": "Max versions per secret",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max labels per secret",
+          "value": "64"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nIntegrated secret synchronization feature is now Generally Available (GA). You can\nautomatically synchronize sec",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Feature\nParameter Manager supports the latest identifier, which lets you fetch the\nmost recent parameter value without s",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_07_2026"
+        },
+        {
+          "date": "2026-02-06",
+          "title": "Feature\nParameter version comparison: You can compare two versions of a parameter to\nidentify changes in their payload. ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#February_06_2026"
+        },
+        {
+          "date": "2026-01-20",
+          "title": "Feature\nSecret Manager is available in the following region:\n\nasia-southeast3 (Bangkok)\n\nFor more information, see Secre",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#January_20_2026"
+        },
+        {
+          "date": "2025-10-13",
+          "title": "Feature\nPreview: Integrated secret synchronization feature is now available in preview. You can automatically synchroniz",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#October_13_2025"
+        },
+        {
+          "date": "2025-09-01",
+          "title": "Feature\nAutomatic secret rotation with the Secret Manager add-on for Google Kubernetes Engine (GKE):  You can configure ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#September_01_2025"
+        },
+        {
+          "date": "2025-07-09",
+          "title": "Feature\nEnhanced tagging capabilities for Secret Manager: You can now add tags directly at the time of secret creation. ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_09_2025"
+        },
+        {
+          "date": "2025-06-23",
+          "title": "Libraries\n\nGo1.15.0 (2025-06-17)\nFeatures\n\nsecretmanager: Update secret manager protos for tags (#12406) (feb078b)",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_23_2025"
+        },
+        {
+          "date": "2025-04-21",
+          "title": "Libraries\n\nGo1.14.7 (2025-04-15)\nBug Fixes\n\nsecretmanager: Update google.golang.org/api to 0.229.0 (3319672)",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_21_2025"
+        },
+        {
+          "date": "2025-04-04",
+          "title": "Feature\nThe Secret Manager add-on for Google Kubernetes Engine (GKE) now supports the automatic rotation of secrets. You",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_04_2025"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Active secret versions",
+          "price": "$0.06",
+          "unit": "per version/month",
+          "description": "$0.06 per active secret version per month"
+        },
+        {
+          "label": "Access operations",
+          "price": "$0.03",
+          "unit": "per 10K ops",
+          "description": "$0.03 per 10,000 access operations"
+        }
+      ]
+    },
+    {
+      "id": "cloud-build",
+      "enabled": true,
+      "name": "Cloud Build",
+      "category": "DevOps",
+      "description": "Cloud Build is a serverless CI/CD platform that lets you build, test, and deploy software quickly across all languages and frameworks.",
+      "useCases": [
+        "CI/CD pipelines",
+        "Container builds",
+        "Automated testing",
+        "Deployment automation"
+      ],
+      "pricing": "Pay per build-minute",
+      "pricingUrl": "https://cloud.google.com/build/pricing",
+      "url": "https://cloud.google.com/build",
+      "icon": "🛠️",
+      "limits": [
+        {
+          "name": "Max concurrent builds",
+          "value": "30"
+        },
+        {
+          "name": "Max build timeout",
+          "value": "86,400 seconds (24 hr)"
+        },
+        {
+          "name": "Max build steps",
+          "value": "100"
+        },
+        {
+          "name": "Max log size",
+          "value": "16 MB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03-30",
+          "title": "Feature\nCloud Build now supports uploading generic artifacts to generic\nrepositories, and also downloading generic repos",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_30_2026"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Feature\nCloud Build now supports uploading OCI images to Artifact Registry during\na build process. OCI artifacts for a b",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_16_2026"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Fixed\nThe authorization vulnerability CVE-2026-3136 was fixed.",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_03_2026"
+        },
+        {
+          "date": "2026-02-12",
+          "title": "Change\nCloud Build is now available in the asia-southeast3 region.\nFor more information, see Cloud Build locations.",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#February_12_2026"
+        },
+        {
+          "date": "2025-12-08",
+          "title": "Change\nIn build config files, the mavenArtifacts field now supports the\ndeployFolder field. You can use the deployFolder",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#December_08_2025"
+        },
+        {
+          "date": "2025-10-09",
+          "title": "Change\nThe Service Account User role has been removed from the Cloud Build Permissions page in the Google Cloud Console.",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#October_09_2025"
+        },
+        {
+          "date": "2025-09-29",
+          "title": "Feature\nDeveloper Connect build triggers are now generally available.\nYou can now create build triggers that build from ",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_29_2025"
+        },
+        {
+          "date": "2025-09-02",
+          "title": "Feature\nDark theme is now available for Cloud Build. To enable the dark theme, in the Google Cloud console, click Settin",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_02_2025"
+        },
+        {
+          "date": "2025-08-15",
+          "title": "Feature\nC3 and N2D machine families are now generally available in private pools. For a complete list of supported machi",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#August_15_2025"
+        },
+        {
+          "date": "2025-05-27",
+          "title": "Feature\nYou can now create build triggers that build from repositories connected to Developer Connect.",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#May_27_2025"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Build minutes (default)",
+          "price": "$0.003",
+          "unit": "per build-minute",
+          "description": "$0.003 per build-minute (first 120 min/day free)"
+        }
+      ]
+    },
+    {
+      "id": "vertex-ai",
+      "enabled": true,
+      "name": "Vertex AI",
+      "category": "AI/ML",
+      "description": "Vertex AI is a fully managed ML platform that helps you build, deploy, and scale ML models and AI applications with pre-trained and custom models.",
+      "useCases": [
+        "ML model training",
+        "Generative AI",
+        "Predictions",
+        "AutoML"
+      ],
+      "pricing": "Pay per prediction, training hour, or token (Gemini)",
+      "pricingUrl": "https://cloud.google.com/vertex-ai/pricing",
+      "url": "https://cloud.google.com/vertex-ai",
+      "icon": "🧠",
+      "limits": [
+        {
+          "name": "Max model size",
+          "value": "10 GB"
+        },
+        {
+          "name": "Max prediction request size",
+          "value": "1.5 MB"
+        },
+        {
+          "name": "Max concurrent predictions",
+          "value": "Varies by model"
+        },
+        {
+          "name": "Max endpoints per project",
+          "value": "1,000"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03-16",
+          "title": "Deprecated\nVertex Explainable AI is deprecated. For details, see Vertex AI deprecations.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_16_2026"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Announcement\nVector Search 2.0 is generally available (GA)\nVector Search 2.0 is generally available (GA).\nVector Search ",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "Deprecated\nVertex AI Feature Store Optimized online serving is deprecated. For details, see Vertex AI deprecations.\nDepr",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#February_17_2026"
+        },
+        {
+          "date": "2025-09-30",
+          "title": "Feature\nDeepSeek-V3.2-Exp is available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_30_2025"
+        },
+        {
+          "date": "2025-09-22",
+          "title": "Feature\nDeepSeek-V3.1-Terminus is available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_22_2025"
+        },
+        {
+          "date": "2025-09-15",
+          "title": "Feature\nVector Search indexes optimized for storage (Preview)\nStorage-optimized Vector Search offers a cost-effective so",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_15_2025"
+        },
+        {
+          "date": "2025-09-10",
+          "title": "Feature\nVertex AI Agent Engine\nAgent Engine now supports the following features:\n\nAgent Engine Code Execution, now in Pr",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_10_2025"
+        },
+        {
+          "date": "2025-09-09",
+          "title": "Feature\nAI Singapore's SEA-LION V4 models are available through Model Garden. They are open models for Southeast Asian l",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2025"
+        },
+        {
+          "date": "2025-08-21",
+          "title": "Feature\nVertex AI Agent Engine\nAgent Engine now supports the following enterprise security features:\n\nYou can now deploy",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_21_2025"
+        },
+        {
+          "date": "2025-08-14",
+          "title": "Feature\nGemma 3 270M, Wan 2.2 and Wan 2.1 models are available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_14_2025"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Gemini 1.5 Flash input",
+          "price": "$0.075",
+          "unit": "per 1M tokens",
+          "description": "$0.075 per million input tokens"
+        },
+        {
+          "label": "Gemini 1.5 Flash output",
+          "price": "$0.30",
+          "unit": "per 1M tokens",
+          "description": "$0.30 per million output tokens"
         }
       ]
     }

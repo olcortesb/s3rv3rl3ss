@@ -1,7 +1,7 @@
 {
   "summary": {
-    "totalServices": 12,
-    "totalNews": 80,
+    "totalServices": 18,
+    "totalNews": 140,
     "totalRuntimes": 17,
     "activeRuntimes": 17,
     "deprecatedRuntimes": 0
@@ -16,6 +16,10 @@
   "byCategory": [
     {
       "category": "Compute",
+      "count": 4
+    },
+    {
+      "category": "Database",
       "count": 3
     },
     {
@@ -27,10 +31,6 @@
       "count": 2
     },
     {
-      "category": "Database",
-      "count": 1
-    },
-    {
       "category": "Analytics",
       "count": 1
     },
@@ -40,6 +40,18 @@
     },
     {
       "category": "Networking",
+      "count": 1
+    },
+    {
+      "category": "Security",
+      "count": 1
+    },
+    {
+      "category": "DevOps",
+      "count": 1
+    },
+    {
+      "category": "AI/ML",
       "count": 1
     }
   ],

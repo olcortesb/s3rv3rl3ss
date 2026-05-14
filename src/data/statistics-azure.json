@@ -1,6 +1,6 @@
 {
   "summary": {
-    "totalServices": 13,
+    "totalServices": 17,
     "totalRuntimes": 12,
     "activeRuntimes": 11,
     "deprecatedRuntimes": 1
@@ -12,15 +12,15 @@
     },
     {
       "category": "Messaging",
+      "count": 3
+    },
+    {
+      "category": "Database",
       "count": 2
     },
     {
       "category": "Integration",
       "count": 2
-    },
-    {
-      "category": "Database",
-      "count": 1
     },
     {
       "category": "Streaming",
@@ -36,6 +36,14 @@
     },
     {
       "category": "Real-time",
+      "count": 1
+    },
+    {
+      "category": "AI/ML",
+      "count": 1
+    },
+    {
+      "category": "Security",
       "count": 1
     }
   ],

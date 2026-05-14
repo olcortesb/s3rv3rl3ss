@@ -570,7 +570,7 @@
       "limits": [
         {
           "name": "Max blob size (block blob)",
-          "value": "190.7 TiB"
+          "value": "190.7 TiB (50K blocks x 4 GiB)"
         },
         {
           "name": "Max block size",
@@ -845,6 +845,210 @@
           "price": "$0.60",
           "unit": "per cluster/hour",
           "description": "$0.60 per cluster per hour"
+        }
+      ]
+    },
+    {
+      "id": "azure-sql-serverless",
+      "enabled": true,
+      "name": "Azure SQL Serverless",
+      "category": "Database",
+      "description": "Azure SQL Database serverless is a compute tier that automatically scales compute based on workload demand and bills for compute used per second.",
+      "useCases": [
+        "Intermittent workloads",
+        "Dev/test",
+        "Variable usage apps",
+        "Multi-tenant SaaS"
+      ],
+      "pricing": "Pay per vCore-second + storage",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/",
+      "url": "https://azure.microsoft.com/en-us/products/azure-sql/database",
+      "icon": "🗄️",
+      "limits": [
+        {
+          "name": "Max vCores",
+          "value": "80"
+        },
+        {
+          "name": "Min vCores",
+          "value": "0.5"
+        },
+        {
+          "name": "Max storage",
+          "value": "4 TB"
+        },
+        {
+          "name": "Auto-pause delay",
+          "value": "1 hour minimum"
+        },
+        {
+          "name": "Max database size",
+          "value": "4 TB"
+        },
+        {
+          "name": "Max concurrent workers",
+          "value": "1,600 (at 80 vCores)"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "vCore (General Purpose)",
+          "price": "$0.000145",
+          "unit": "per vCore-second",
+          "description": "$0.000145 per vCore-second"
+        },
+        {
+          "label": "Storage",
+          "price": "$0.115",
+          "unit": "per GB/month",
+          "description": "$0.115 per GB per month"
+        }
+      ]
+    },
+    {
+      "id": "azure-ai-services",
+      "enabled": true,
+      "name": "Azure AI Services",
+      "category": "AI/ML",
+      "description": "Azure AI Services provides pre-built and customizable AI models and APIs for vision, speech, language, and decision-making capabilities.",
+      "useCases": [
+        "Text generation",
+        "Speech recognition",
+        "Computer vision",
+        "Language understanding"
+      ],
+      "pricing": "Pay per transaction or token",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/",
+      "url": "https://azure.microsoft.com/en-us/products/ai-services",
+      "icon": "🧠",
+      "limits": [
+        {
+          "name": "Max requests per minute (GPT-4o)",
+          "value": "Varies by deployment"
+        },
+        {
+          "name": "Max tokens per request",
+          "value": "128,000 (GPT-4o)"
+        },
+        {
+          "name": "Max concurrent requests",
+          "value": "Varies by tier"
+        },
+        {
+          "name": "Max custom models per resource",
+          "value": "50"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "GPT-4o input",
+          "price": "$2.50",
+          "unit": "per 1M tokens",
+          "description": "$2.50 per million input tokens"
+        },
+        {
+          "label": "GPT-4o output",
+          "price": "$10.00",
+          "unit": "per 1M tokens",
+          "description": "$10.00 per million output tokens"
+        }
+      ]
+    },
+    {
+      "id": "key-vault",
+      "enabled": true,
+      "name": "Azure Key Vault",
+      "category": "Security",
+      "description": "Azure Key Vault is a cloud service for securely storing and accessing secrets, keys, and certificates.",
+      "useCases": [
+        "Secret management",
+        "Key management",
+        "Certificate management",
+        "Encryption"
+      ],
+      "pricing": "Pay per operation and key/secret stored",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/key-vault/",
+      "url": "https://azure.microsoft.com/en-us/products/key-vault",
+      "icon": "🔑",
+      "limits": [
+        {
+          "name": "Max secret size",
+          "value": "25 KB"
+        },
+        {
+          "name": "Max transactions per 10 seconds",
+          "value": "4,000"
+        },
+        {
+          "name": "Max keys per vault",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max vaults per subscription per region",
+          "value": "400"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Secret operations",
+          "price": "$0.03",
+          "unit": "per 10K ops",
+          "description": "$0.03 per 10,000 operations"
+        },
+        {
+          "label": "Key operations (software)",
+          "price": "$0.03",
+          "unit": "per 10K ops",
+          "description": "$0.03 per 10,000 operations"
+        }
+      ]
+    },
+    {
+      "id": "notification-hubs",
+      "enabled": true,
+      "name": "Azure Notification Hubs",
+      "category": "Messaging",
+      "description": "Azure Notification Hubs is a massively scalable push notification engine for quickly sending millions of notifications to iOS, Android, Windows, or any backend.",
+      "useCases": [
+        "Push notifications",
+        "Breaking news",
+        "Marketing campaigns",
+        "Location-based alerts"
+      ],
+      "pricing": "Pay per namespace tier + pushes",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/notification-hubs/",
+      "url": "https://azure.microsoft.com/en-us/products/notification-hubs",
+      "icon": "🔔",
+      "limits": [
+        {
+          "name": "Max pushes per day (Free)",
+          "value": "1,000,000"
+        },
+        {
+          "name": "Max active devices (Basic)",
+          "value": "200,000"
+        },
+        {
+          "name": "Max active devices (Standard)",
+          "value": "10,000,000"
+        },
+        {
+          "name": "Max payload size",
+          "value": "64 KB"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Basic namespace",
+          "price": "$10.00",
+          "unit": "per month",
+          "description": "$10.00 per unit per month"
+        },
+        {
+          "label": "Standard namespace",
+          "price": "$200.00",
+          "unit": "per month",
+          "description": "$200.00 per unit per month"
         }
       ]
     }

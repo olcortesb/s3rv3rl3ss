@@ -3,6 +3,54 @@
   "changes": [
     {
       "date": "2026-05-14",
+      "service": "cloud-storage",
+      "type": "quota_changed",
+      "detail": "Max object size: 5 TiB → 5 TiB (single object)"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-spanner",
+      "type": "service_added",
+      "detail": "Cloud Spanner"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-run-jobs",
+      "type": "service_added",
+      "detail": "Cloud Run Jobs"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "memorystore",
+      "type": "service_added",
+      "detail": "Memorystore"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "secret-manager",
+      "type": "service_added",
+      "detail": "Secret Manager"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-build",
+      "type": "service_added",
+      "detail": "Cloud Build"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "vertex-ai",
+      "type": "service_added",
+      "detail": "Vertex AI"
+    },
+    {
+      "date": "2026-05-14",
       "service": "gke",
       "type": "service_added",
       "detail": "Google Kubernetes Engine"
