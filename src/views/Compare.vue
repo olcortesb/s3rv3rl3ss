@@ -140,6 +140,10 @@ function getLimitValue(provider, row) {
     const match = val.match(/^[\d,.]+\s*[A-Za-z/%]+/)
     if (match) val = match[0]
   }
+  // Append unit if value is just a number and row has a unit defined
+  if (row.unit && /^[\d,]+$/.test(val)) {
+    val = `${val} ${row.unit}`
+  }
   return val
 }
 

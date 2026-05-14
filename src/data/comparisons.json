@@ -20,7 +20,7 @@
       "icon": "⚡",
       "services": { "aws": "lambda", "gcp": "cloud-run-functions", "azure": "azure-functions" },
       "limits": [
-        { "label": "Max timeout", "aws": "Function timeout", "gcp": "Max function timeout (2nd gen)", "azure": "Max execution time (Consumption)" },
+        { "label": "Max timeout", "unit": "seconds", "aws": "Function timeout", "gcp": "Max function timeout (2nd gen)", "azure": "Max execution time (Consumption)" },
         { "label": "Max memory", "aws": "Function memory allocation", "gcp": "Max memory", "azure": "Max memory (Consumption)" },
         { "label": "Max payload/request size", "aws": "Synchronous payload", "gcp": "Max request size (HTTP)", "azure": "HTTP request size" },
         { "label": "Deployment size", "aws": "Deployment package (.zip file archive) size", "gcp": "Deployment size (compressed)", "azure": "Storage (Consumption)" },

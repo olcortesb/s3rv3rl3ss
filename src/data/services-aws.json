@@ -3810,7 +3810,27 @@
           "url": "https://aws.amazon.com/blogs/containers/deploying-model-context-protocol-mcp-servers-on-amazon-ecs/"
         }
       ],
-      "dataStatus": "partial"
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.04048",
+          "unit": "per vCPU/hour",
+          "description": "$0.04048 per vCPU per hour (Fargate)"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.004445",
+          "unit": "per GB/hour",
+          "description": "$0.004445 per GB per hour (Fargate)"
+        },
+        {
+          "label": "Ephemeral Storage",
+          "price": "$0.000111",
+          "unit": "per GB/hour",
+          "description": "$0.000111 per GB per hour above 20 GB (Fargate)"
+        }
+      ]
     },
     {
       "id": "aurora-serverless",
