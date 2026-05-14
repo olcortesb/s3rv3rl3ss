@@ -1,7 +1,7 @@
 {
   "summary": {
-    "totalServices": 11,
-    "totalNews": 70,
+    "totalServices": 12,
+    "totalNews": 80,
     "totalRuntimes": 17,
     "activeRuntimes": 17,
     "deprecatedRuntimes": 0
@@ -15,12 +15,12 @@
   },
   "byCategory": [
     {
-      "category": "Integration",
+      "category": "Compute",
       "count": 3
     },
     {
-      "category": "Compute",
-      "count": 2
+      "category": "Integration",
+      "count": 3
     },
     {
       "category": "Messaging",

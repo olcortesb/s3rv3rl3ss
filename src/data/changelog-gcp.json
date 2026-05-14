@@ -2,6 +2,12 @@
   "lastUpdated": "2026-05-14",
   "changes": [
     {
+      "date": "2026-05-14",
+      "service": "gke",
+      "type": "service_added",
+      "detail": "Google Kubernetes Engine"
+    },
+    {
       "date": "2026-05-13",
       "service": "bigquery",
       "type": "new_news",

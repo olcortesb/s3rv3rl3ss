@@ -1089,6 +1089,127 @@
           "description": "$3.00 per million API calls (first 2M free)"
         }
       ]
+    },
+    {
+      "id": "gke",
+      "enabled": true,
+      "name": "Google Kubernetes Engine",
+      "category": "Compute",
+      "description": "Google Kubernetes Engine is a managed Kubernetes service for deploying, managing, and scaling containerized applications on Google Cloud infrastructure.",
+      "useCases": [
+        "Container orchestration",
+        "Microservices",
+        "CI/CD",
+        "ML workloads"
+      ],
+      "pricing": "Free control plane (Autopilot) or $0.10/hr (Standard) + compute costs",
+      "pricingUrl": "https://cloud.google.com/kubernetes-engine/pricing",
+      "url": "https://cloud.google.com/kubernetes-engine",
+      "icon": "☸️",
+      "limits": [
+        {
+          "name": "Nodes per cluster",
+          "value": "15,000"
+        },
+        {
+          "name": "Pods per node",
+          "value": "256"
+        },
+        {
+          "name": "Pods per cluster",
+          "value": "200,000"
+        },
+        {
+          "name": "Services per cluster",
+          "value": "10,000"
+        },
+        {
+          "name": "Clusters per zone",
+          "value": "50"
+        },
+        {
+          "name": "Node pools per cluster",
+          "value": "100"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-06",
+          "title": "Change\n(2026-R18) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_06_2026"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Announcement\nKubernetes 1.36 is now available in the Rapid channel\nKubernetes 1.36 is now available in the Rapid channel",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_01_2026"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Change\n(2026-R17) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_29_2026"
+        },
+        {
+          "date": "2026-04-22",
+          "title": "Change\n(2026-R16) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_22_2026"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "Change\n(2026-R15) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_15_2026"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Change\nThe validation of the HealthCheckPolicy custom resource from the\nGKE Gateway API is more rigorous in GKE\nversion ",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_13_2026"
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Change\n(2026-R14) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_09_2026"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Change\n\nThe feature announced on November 7, 2025,\nproviding faster log processing, has been rolled back. The rollback i",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_08_2026"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Change\n(2026-R13) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_02_2026"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Change\n(2026-R12) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#March_25_2026"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Cluster management (Autopilot)",
+          "price": "$0.00",
+          "unit": "free",
+          "description": "No cluster management fee for Autopilot"
+        },
+        {
+          "label": "Cluster management (Standard)",
+          "price": "$0.10",
+          "unit": "per cluster/hour",
+          "description": "$0.10 per cluster per hour"
+        },
+        {
+          "label": "Autopilot vCPU",
+          "price": "$0.0445",
+          "unit": "per vCPU/hour",
+          "description": "$0.0445 per vCPU per hour"
+        },
+        {
+          "label": "Autopilot Memory",
+          "price": "$0.0049",
+          "unit": "per GB/hour",
+          "description": "$0.0049 per GB per hour"
+        }
+      ]
     }
   ]
 }
