@@ -659,6 +659,10 @@
           "value": "27",
           "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
           "adjustable": true
+        },
+        {
+          "name": "Item size",
+          "value": "400 KB"
         }
       ],
       "news": [
@@ -792,7 +796,7 @@
         },
         {
           "name": "Message Size",
-          "value": "1024 KB",
+          "value": "256 KB",
           "description": "The size of a message, in kilobytes.",
           "unit": "Kilobytes",
           "adjustable": false
@@ -1567,7 +1571,7 @@
         },
         {
           "name": "Object size",
-          "value": "48.828125 TB",
+          "value": "5 TB (single object)",
           "description": "The maximum size (in TB) of an Amazon S3 object",
           "unit": "Terabytes",
           "adjustable": false

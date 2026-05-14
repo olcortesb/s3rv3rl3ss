@@ -132,8 +132,8 @@ function getLimitValue(provider, row) {
   if (!limit) return null
   // Clean HTML and truncate long descriptions
   let val = limit.value.replace(/<[^>]+>/g, '').trim()
-  // Take only first sentence or up to first period/newline
-  const cut = val.search(/[.\n]/)
+  // Take only first sentence (period followed by space or end)
+  const cut = val.search(/\.\s|\n/)
   if (cut > 0 && cut < 60) val = val.substring(0, cut)
   // If still too long, take first number with unit
   if (val.length > 60) {
