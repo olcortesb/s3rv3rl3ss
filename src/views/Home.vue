@@ -16,6 +16,12 @@
         <h2 class="mt-2 font-semibold text-gray-900 text-lg">{{ p.name }}</h2>
       </router-link>
     </div>
+
+    <div class="flex justify-center mt-8">
+      <router-link to="/compare" class="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition font-medium">
+        ⚖️ Compare Services
+      </router-link>
+    </div>
   </div>
 </template>
 
