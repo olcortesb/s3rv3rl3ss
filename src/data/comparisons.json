@@ -12,9 +12,7 @@
         { "label": "Node pools per cluster", "aws": "Managed node groups per cluster", "gcp": "Node pools per cluster", "azure": "Max node pools per cluster" },
         { "label": "Clusters", "aws": "Clusters", "gcp": "Clusters per zone", "azure": "Max clusters per subscription" }
       ],
-      "pricing": [
-        { "label": "Control plane", "aws": null, "gcp": "Cluster management (Standard)", "azure": "Cluster management (Standard)" }
-      ]
+      "pricing": []
     },
     {
       "id": "functions",
@@ -27,7 +25,8 @@
         { "label": "Max payload/request size", "aws": "Synchronous payload", "gcp": "Max request size (HTTP)", "azure": "HTTP request size" },
         { "label": "Deployment size", "aws": "Deployment package (.zip file archive) size", "gcp": "Deployment size (compressed)", "azure": "Storage (Consumption)" },
         { "label": "Ephemeral storage", "aws": "/tmp directory storage", "gcp": null, "azure": null },
-        { "label": "Max instances", "aws": null, "gcp": "Max instances", "azure": "Max instances (Consumption)" }
+        { "label": "Max instances", "aws": null, "gcp": "Max instances", "azure": "Max instances (Consumption)" },
+        { "label": "Concurrent executions", "aws": "Concurrent executions", "gcp": "Max concurrent requests per instance", "azure": "Max concurrent HTTP requests" }
       ],
       "pricing": [
         { "label": "Invocations", "aws": "Requests", "gcp": "Invocations", "azure": "Executions" },
@@ -39,13 +38,15 @@
       "id": "containers",
       "name": "Containers",
       "icon": "🐳",
-      "services": { "aws": "fargate", "gcp": "cloud-run", "azure": "container-apps" },
+      "services": { "aws": "ecs", "gcp": "cloud-run", "azure": "container-apps" },
       "limits": [
-        { "label": "Max vCPU", "aws": null, "gcp": "Max vCPU per instance", "azure": "Max vCPU per container" },
-        { "label": "Max memory", "aws": null, "gcp": "Max memory per instance", "azure": "Max memory per container" },
+        { "label": "Max vCPU (Fargate)", "aws": "Max vCPU (Fargate)", "gcp": "Max vCPU per instance", "azure": "Max vCPU per container" },
+        { "label": "Max memory (Fargate)", "aws": "Max memory (Fargate)", "gcp": "Max memory per instance", "azure": "Max memory per container" },
+        { "label": "Max ephemeral storage", "aws": "Max ephemeral storage (Fargate)", "gcp": null, "azure": null },
+        { "label": "Container image size", "aws": "Container image size", "gcp": "Container image size", "azure": "Max container image size" },
+        { "label": "Max instances/replicas", "aws": "Max tasks per service", "gcp": "Max instances", "azure": "Max replicas" },
         { "label": "Max request timeout", "aws": null, "gcp": "Max request timeout", "azure": "Request timeout" },
-        { "label": "Container image size", "aws": null, "gcp": "Container image size", "azure": "Max container image size" },
-        { "label": "Max instances/replicas", "aws": null, "gcp": "Max instances", "azure": "Max replicas" }
+        { "label": "Max services per cluster", "aws": "Max services per cluster", "gcp": null, "azure": "Max apps per environment" }
       ],
       "pricing": [
         { "label": "vCPU", "aws": "vCPU", "gcp": "vCPU", "azure": "vCPU" },
@@ -60,7 +61,8 @@
       "services": { "aws": "dynamodb", "gcp": "firestore", "azure": "cosmos-db" },
       "limits": [
         { "label": "Max document/item size", "aws": null, "gcp": "Max document size", "azure": "Max document size" },
-        { "label": "Secondary indexes per table", "aws": "Global Secondary Indexes per table", "gcp": "Max indexes per database", "azure": null },
+        { "label": "Secondary indexes", "aws": "Global Secondary Indexes per table", "gcp": "Max indexes per database", "azure": null },
+        { "label": "Max tables", "aws": "Maximum number of tables", "gcp": null, "azure": null },
         { "label": "Max writes per second", "aws": null, "gcp": "Max writes per second per database", "azure": "Max throughput (serverless)" }
       ],
       "pricing": [
@@ -75,10 +77,11 @@
       "icon": "📦",
       "services": { "aws": "s3", "gcp": "cloud-storage", "azure": "blob-storage" },
       "limits": [
-        { "label": "Max object size", "aws": "Object size", "gcp": "Max object size", "azure": "Max blob size (block blob)" }
+        { "label": "Max object size", "aws": "Object size", "gcp": "Max object size", "azure": "Max blob size (block blob)" },
+        { "label": "Max buckets/containers", "aws": "General purpose buckets", "gcp": null, "azure": null }
       ],
       "pricing": [
-        { "label": "Standard storage", "aws": "Storage (Infrequent Access)", "gcp": "Standard storage", "azure": "Hot storage" },
+        { "label": "Storage", "aws": "Storage (Infrequent Access)", "gcp": "Standard storage", "azure": "Hot storage" },
         { "label": "Write operations", "aws": "PUT/COPY/POST/LIST (Express One Zone)", "gcp": "Class A operations", "azure": "Write operations (Hot)" },
         { "label": "Read operations", "aws": "GET Requests (Express One Zone)", "gcp": "Class B operations", "azure": "Read operations (Hot)" }
       ]
@@ -89,12 +92,15 @@
       "icon": "📨",
       "services": { "aws": "sqs", "gcp": "cloud-pubsub", "azure": "service-bus" },
       "limits": [
-        { "label": "Max message size", "aws": null, "gcp": "Max message size", "azure": "Max message size (Standard)" },
-        { "label": "Message retention", "aws": null, "gcp": "Message retention", "azure": "Message retention" },
+        { "label": "Max message size", "aws": "Message Size", "gcp": "Max message size", "azure": "Max message size (Standard)" },
+        { "label": "Message retention", "aws": "Message retention", "gcp": "Message retention", "azure": "Message retention" },
+        { "label": "Batch size", "aws": "Batch size", "gcp": null, "azure": null },
+        { "label": "In-flight messages", "aws": "In-flight (standard)", "gcp": null, "azure": "Max concurrent connections" },
         { "label": "Max subscriptions per topic", "aws": null, "gcp": "Max subscriptions per topic", "azure": "Max subscriptions per topic" }
       ],
       "pricing": [
-        { "label": "Operations", "aws": "Standard Queue", "gcp": "Message delivery", "azure": "Operations (Standard)" }
+        { "label": "Operations", "aws": "Standard Queue", "gcp": "Message delivery", "azure": "Operations (Standard)" },
+        { "label": "FIFO/ordered", "aws": "FIFO Queue", "gcp": null, "azure": null }
       ]
     },
     {
@@ -103,8 +109,10 @@
       "icon": "📡",
       "services": { "aws": "eventbridge", "gcp": "eventarc", "azure": "event-grid" },
       "limits": [
-        { "label": "Max event size", "aws": "Event pattern size", "gcp": "Max event size", "azure": "Max event size" },
-        { "label": "Max rules/triggers", "aws": "Number of rules", "gcp": "Max triggers per project per region", "azure": "Max event subscriptions per topic" }
+        { "label": "Max event size", "aws": "Event size", "gcp": "Max event size", "azure": "Max event size" },
+        { "label": "Max rules/triggers", "aws": "Rules per event bus", "gcp": "Max triggers per project per region", "azure": "Max event subscriptions per topic" },
+        { "label": "Targets per rule", "aws": "Targets per rule", "gcp": null, "azure": null },
+        { "label": "Event retention", "aws": null, "gcp": null, "azure": "Event retention" }
       ],
       "pricing": [
         { "label": "Events/operations", "aws": "Custom Events", "gcp": null, "azure": "Operations" }
@@ -116,12 +124,14 @@
       "icon": "🔗",
       "services": { "aws": "api-gateway", "gcp": "api-gateway", "azure": "api-management" },
       "limits": [
-        { "label": "Max request size", "aws": null, "gcp": "Max request size", "azure": "Max request size" },
-        { "label": "Max timeout", "aws": null, "gcp": "Max timeout", "azure": "Max request timeout" },
-        { "label": "Throttle rate", "aws": "Throttle rate", "gcp": null, "azure": null }
+        { "label": "Max payload size", "aws": "API Payload Size", "gcp": "Max request size", "azure": "Max request size" },
+        { "label": "Max timeout", "aws": "Maximum integration timeout in milliseconds", "gcp": "Max timeout", "azure": "Max request timeout" },
+        { "label": "Throttle rate", "aws": "Throttle rate", "gcp": null, "azure": null },
+        { "label": "Max APIs", "aws": "Regional APIs", "gcp": "Max APIs per project", "azure": "Max APIs" }
       ],
       "pricing": [
-        { "label": "API calls", "aws": "REST API Requests", "gcp": "API calls", "azure": "API calls (Consumption)" }
+        { "label": "API calls", "aws": "REST API Requests", "gcp": "API calls", "azure": "API calls (Consumption)" },
+        { "label": "WebSocket", "aws": "WebSocket Messages", "gcp": null, "azure": null }
       ]
     },
     {
@@ -130,12 +140,14 @@
       "icon": "🔀",
       "services": { "aws": "step-functions", "gcp": "workflows", "azure": "logic-apps" },
       "limits": [
-        { "label": "Max execution duration", "aws": null, "gcp": "Max execution duration", "azure": "Max workflow run duration" },
-        { "label": "Max payload/variable size", "aws": null, "gcp": "Max variable size", "azure": "Max message size" },
-        { "label": "Max concurrent executions", "aws": null, "gcp": "Max concurrent executions", "azure": "Max concurrent runs" }
+        { "label": "Max execution duration", "aws": "Max execution time (Standard)", "gcp": "Max execution duration", "azure": "Max workflow run duration" },
+        { "label": "Max payload size", "aws": "Max input/output size", "gcp": "Max variable size", "azure": "Max message size" },
+        { "label": "Max concurrent executions", "aws": null, "gcp": "Max concurrent executions", "azure": "Max concurrent runs" },
+        { "label": "Max history events", "aws": "Max execution history events", "gcp": null, "azure": null }
       ],
       "pricing": [
-        { "label": "Per step/transition", "aws": "Standard Workflows", "gcp": "Internal steps", "azure": "Actions (Consumption)" }
+        { "label": "Per step/transition", "aws": "Standard Workflows", "gcp": "Internal steps", "azure": "Actions (Consumption)" },
+        { "label": "Express/external", "aws": "Express Workflows", "gcp": "External steps (HTTP)", "azure": "Enterprise connectors" }
       ]
     },
     {
@@ -145,7 +157,9 @@
       "services": { "aws": "kinesis", "gcp": null, "azure": "event-hubs" },
       "limits": [
         { "label": "Max record/event size", "aws": "Record size", "gcp": null, "azure": "Max event size" },
-        { "label": "Max retention", "aws": "Data retention", "gcp": null, "azure": "Max retention (Standard)" }
+        { "label": "Max retention", "aws": "Data retention", "gcp": null, "azure": "Max retention (Standard)" },
+        { "label": "Write throughput", "aws": "Write throughput per shard", "gcp": null, "azure": null },
+        { "label": "Read throughput", "aws": "Read throughput per shard", "gcp": null, "azure": null }
       ],
       "pricing": [
         { "label": "Write/ingress", "aws": "On-Demand Write", "gcp": null, "azure": "Throughput unit (Standard)" },
