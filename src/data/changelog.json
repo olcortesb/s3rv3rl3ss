@@ -1,6 +1,72 @@
 {
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "changes": [
+    {
+      "date": "2026-05-14",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Function memory allocation: 128 MB to 10,240 MB, in 1-MB increments. Note: Lambda allocates CPU power in proportion to the amount of memory configured. You can increase or decrease the memory and CPU power allocated to your function using the Memory (MB) setting. At 1,769 MB, a function has the equivalent of one vCPU. → 128 MB to 10,240 MB, in 1-MB increments.<br />Note: Lambda allocates CPU power in proportion to the amount of memory configured. You can increase or decrease the memory and CPU power allocated to your function using the Memory (MB) setting. At 1,769 MB, a function has the equivalent of one vCPU."
+    },
+    {
+      "date": "2026-05-14",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Invocation payload (request and response): 6 MB each for request and response (synchronous) 200 MB for each streamed response (synchronous) 1 MB (asynchronous) 1 MB for the total combined size of request line and header values → 6 MB each for request and response (synchronous)<br />200 MB for each streamed response (synchronous)<br />1 MB (asynchronous)<br />1 MB for the total combined size of request line and header values"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Bandwidth for streamed responses: Uncapped for the first 6 MB of your function's response For responses larger than 6 MB, 2MBps for the remainder of the response → Uncapped for the first 6 MB of your function's response<br />For responses larger than 6 MB, 2MBps for the remainder of the response"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Deployment package (.zip file archive) size: 50 MB (zipped, when uploaded through the Lambda API or SDKs). Upload larger files with Amazon S3. 50 MB (when uploaded through the Lambda console) 250 MB The maximum size of the contents of a deployment package, including layers and custom runtimes. (unzipped) → 50 MB (zipped, when uploaded through the Lambda API or SDKs). Upload larger files with Amazon S3.<br />50 MB (when uploaded through the Lambda console)<br />250 MB The maximum size of the contents of a deployment package, including layers and custom runtimes. (unzipped)<br />"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail requests per second: 50 → 100"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Advanced Prompt Optimization) Inactive jobs per account: 5000"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second: 200 → 500"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Advanced Prompt Optimization) Active jobs per account: 20"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Word filter policy text units per second: 200 → 500"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build financial document processing with Pulse AI and Amazon Bedrock"
+    },
     {
       "date": "2026-05-13",
       "service": "lambda",
