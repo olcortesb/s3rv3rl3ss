@@ -21,62 +21,83 @@
       </button>
     </div>
 
-    <!-- Comparison table -->
-    <div v-if="comparison" class="grid grid-cols-3 gap-4">
-      <div v-for="provider in ['aws', 'gcp', 'azure']" :key="provider" class="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
-        <!-- Header -->
-        <div class="text-center mb-4 pb-3 border-b border-gray-100">
+    <div v-if="comparison">
+      <!-- Service headers -->
+      <div class="grid grid-cols-4 gap-2 mb-6">
+        <div></div>
+        <div v-for="provider in PROVIDERS" :key="provider" class="text-center">
           <span class="text-xs font-medium px-2 py-1 rounded-full" :class="providerBadge(provider)">{{ provider.toUpperCase() }}</span>
-          <div v-if="getService(provider)" class="mt-3">
-            <img :src="`/icons/${provider}/${comparison.services[provider]}.svg`" class="w-10 h-10 mx-auto mb-2" @error="$event.target.style.display='none'" />
-            <h3 class="font-semibold text-gray-900">{{ getService(provider).name }}</h3>
-            <p class="text-xs text-gray-500 mt-1 line-clamp-2">{{ getService(provider).description }}</p>
+          <div v-if="getService(provider)" class="mt-2">
+            <img :src="`/icons/${provider}/${comparison.services[provider]}.svg`" class="w-8 h-8 mx-auto mb-1" @error="$event.target.style.display='none'" />
+            <p class="text-sm font-semibold text-gray-900">{{ getService(provider).name }}</p>
+            <router-link :to="`/${provider}/${comparison.services[provider]}`" class="text-xs text-orange-500 hover:underline">details →</router-link>
           </div>
-          <div v-else class="mt-3 text-gray-400 text-sm">Not available</div>
+          <p v-else class="mt-2 text-sm text-gray-400">N/A</p>
         </div>
+      </div>
 
-        <template v-if="getService(provider)">
-          <!-- Pricing -->
-          <div class="mb-4">
-            <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Pricing</h4>
-            <p class="text-sm text-gray-700 mb-2">{{ getService(provider).pricing }}</p>
-            <div v-if="getService(provider).pricingDetails" class="space-y-1">
-              <div v-for="p in getService(provider).pricingDetails" :key="p.label" class="flex justify-between text-xs">
-                <span class="text-gray-600">{{ p.label }}</span>
-                <span class="font-mono text-gray-900">{{ p.price }}</span>
-              </div>
-            </div>
-          </div>
+      <!-- Limits comparison -->
+      <div v-if="comparison.limits && comparison.limits.length" class="mb-8">
+        <h2 class="font-semibold text-gray-900 mb-3">Limits</h2>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-200 bg-gray-50">
+                <th class="text-left py-2 px-3 text-gray-500 font-normal w-1/4"></th>
+                <th v-for="provider in PROVIDERS" :key="provider" class="text-center py-2 px-3 text-gray-500 font-normal w-1/4">{{ provider.toUpperCase() }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="row in comparison.limits" :key="row.label" class="border-b border-gray-100 last:border-0">
+                <td class="py-2 px-3 text-gray-700 font-medium">{{ row.label }}</td>
+                <td v-for="provider in PROVIDERS" :key="provider" class="py-2 px-3 text-center">
+                  <span v-if="getLimitValue(provider, row)" class="text-gray-900">{{ getLimitValue(provider, row) }}</span>
+                  <span v-else class="text-gray-300">—</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-          <!-- Limits -->
-          <div v-if="getService(provider).limits" class="mb-4">
-            <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Limits</h4>
-            <div class="space-y-1">
-              <div v-for="l in getService(provider).limits.slice(0, 8)" :key="l.name" class="flex justify-between text-xs">
-                <span class="text-gray-600">{{ l.name }}</span>
-                <span class="text-gray-900 font-medium">{{ l.value }}</span>
-              </div>
-              <p v-if="getService(provider).limits.length > 8" class="text-xs text-gray-400">+{{ getService(provider).limits.length - 8 }} more</p>
-            </div>
-          </div>
+      <!-- Pricing comparison -->
+      <div v-if="comparison.pricing && comparison.pricing.length" class="mb-8">
+        <h2 class="font-semibold text-gray-900 mb-3">Pricing</h2>
+        <div class="bg-white rounded-xl border border-gray-100 overflow-hidden">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-gray-200 bg-gray-50">
+                <th class="text-left py-2 px-3 text-gray-500 font-normal w-1/4"></th>
+                <th v-for="provider in PROVIDERS" :key="provider" class="text-center py-2 px-3 text-gray-500 font-normal w-1/4">{{ provider.toUpperCase() }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="row in comparison.pricing" :key="row.label" class="border-b border-gray-100 last:border-0">
+                <td class="py-2 px-3 text-gray-700 font-medium">{{ row.label }}</td>
+                <td v-for="provider in PROVIDERS" :key="provider" class="py-2 px-3 text-center">
+                  <span v-if="getPricingValue(provider, row)" class="font-mono text-gray-900">{{ getPricingValue(provider, row) }}</span>
+                  <span v-else class="text-gray-300">—</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
-          <!-- Runtimes -->
-          <div v-if="getService(provider).runtimes">
-            <h4 class="text-xs font-semibold text-gray-500 uppercase mb-2">Runtimes</h4>
-            <div class="flex flex-wrap gap-1">
+      <!-- Runtimes comparison (only for functions) -->
+      <div v-if="hasRuntimes" class="mb-8">
+        <h2 class="font-semibold text-gray-900 mb-3">Runtimes</h2>
+        <div class="grid grid-cols-4 gap-2">
+          <div></div>
+          <div v-for="provider in PROVIDERS" :key="provider">
+            <div v-if="getService(provider)?.runtimes" class="flex flex-wrap gap-1">
               <span v-for="rt in getService(provider).runtimes.filter(r => r.status === 'active')" :key="rt.name" class="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
                 {{ rt.name }}
               </span>
             </div>
+            <span v-else class="text-xs text-gray-300">—</span>
           </div>
-
-          <!-- Link -->
-          <div class="mt-4 pt-3 border-t border-gray-100">
-            <router-link :to="`/${provider}/${comparison.services[provider]}`" class="text-xs text-orange-500 hover:text-orange-600 underline">
-              View full details →
-            </router-link>
-          </div>
-        </template>
+        </div>
       </div>
     </div>
   </div>
@@ -88,6 +109,7 @@ import { useRoute } from 'vue-router'
 import comparisons from '../data/comparisons.json'
 import { getProviderData } from '../data/index.js'
 
+const PROVIDERS = ['aws', 'gcp', 'azure']
 const route = useRoute()
 const categories = comparisons.categories
 const selected = ref(route.params.category || categories[0].id)
@@ -101,12 +123,33 @@ function getService(provider) {
   return data?.services.find(s => s.id === serviceId) || null
 }
 
+function getLimitValue(provider, row) {
+  const fieldName = row[provider]
+  if (!fieldName) return null
+  const svc = getService(provider)
+  if (!svc?.limits) return null
+  const limit = svc.limits.find(l => l.name === fieldName)
+  return limit?.value || null
+}
+
+function getPricingValue(provider, row) {
+  const fieldName = row[provider]
+  if (!fieldName) return null
+  const svc = getService(provider)
+  if (!svc?.pricingDetails) return null
+  const item = svc.pricingDetails.find(p => p.label === fieldName)
+  return item ? `${item.price} ${item.unit}` : null
+}
+
+const hasRuntimes = computed(() =>
+  PROVIDERS.some(p => getService(p)?.runtimes?.length)
+)
+
 function providerBadge(provider) {
-  const map = {
+  return {
     aws: 'bg-orange-100 text-orange-700',
     gcp: 'bg-blue-100 text-blue-700',
     azure: 'bg-sky-100 text-sky-700',
-  }
-  return map[provider]
+  }[provider]
 }
 </script>
