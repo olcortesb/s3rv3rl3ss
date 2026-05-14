@@ -10721,7 +10721,7 @@
         },
         {
           "name": "Pods per node (max)",
-          "value": "250"
+          "value": "110"
         },
         {
           "name": "Services per cluster",

@@ -129,7 +129,18 @@ function getLimitValue(provider, row) {
   const svc = getService(provider)
   if (!svc?.limits) return null
   const limit = svc.limits.find(l => l.name === fieldName)
-  return limit?.value || null
+  if (!limit) return null
+  // Clean HTML and truncate long descriptions
+  let val = limit.value.replace(/<[^>]+>/g, '').trim()
+  // Take only first sentence or up to first period/newline
+  const cut = val.search(/[.\n]/)
+  if (cut > 0 && cut < 60) val = val.substring(0, cut)
+  // If still too long, take first number with unit
+  if (val.length > 60) {
+    const match = val.match(/^[\d,.]+\s*[A-Za-z/%]+/)
+    if (match) val = match[0]
+  }
+  return val
 }
 
 function getPricingValue(provider, row) {
