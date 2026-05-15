@@ -149,6 +149,12 @@ function getLimitValue(provider, row) {
   if (!limit) return null
   // Clean HTML and truncate long descriptions
   let val = limit.value.replace(/<[^>]+>/g, '').trim()
+  // Extract range max: "128 MB to 10,240 MB" → "10,240 MB"
+  const rangeMatch = val.match(/[\d,.]+\s*\S+\s+to\s+([\d,.]+\s*\S+)/i)
+  if (rangeMatch) return rangeMatch[1]
+  // "0.25 – 16" style ranges → "16"
+  const dashMatch = val.match(/[\d,.]+\s*\S*\s*[–\-]\s*([\d,.]+\s*\S*)/)
+  if (dashMatch && val.length < 40) return dashMatch[0]
   // Take only first sentence (period followed by space or end)
   const cut = val.search(/\.\s|\n/)
   if (cut > 0 && cut < 60) val = val.substring(0, cut)
