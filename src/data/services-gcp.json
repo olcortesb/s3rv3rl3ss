@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "services": [
     {
       "id": "cloud-run",
@@ -446,6 +446,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-14",
+          "title": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
+        },
+        {
           "date": "2026-05-12",
           "title": "Feature\nYou can now use the\nAI.COUNT_TOKENS function\nto estimate the token count of text input that you provide. For som",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026"
@@ -489,11 +494,6 @@
           "date": "2026-04-21",
           "title": "Feature\nYou can now visualize BigQuery graph query results and graph\nschemas directly in\nBigQuery Studio, without the ne",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Change\nStarting July 25, 2026, the BigQuery Data Transfer Service for Facebook Ads\nconnector will update the data type\nm",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
         }
       ],
       "pricingDetails": [
@@ -1134,6 +1134,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-14",
+          "title": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_14_2026"
+        },
+        {
           "date": "2026-05-13",
           "title": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
@@ -1177,11 +1182,6 @@
           "date": "2026-04-08",
           "title": "Change\n\nThe feature announced on November 7, 2025,\nproviding faster log processing, has been rolled back. The rollback i",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_08_2026"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Change\n(2026-R13) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_02_2026"
         }
       ],
       "pricingDetails": [

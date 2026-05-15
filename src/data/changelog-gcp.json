@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "changes": [
+    {
+      "date": "2026-05-15",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc"
+    },
     {
       "date": "2026-05-14",
       "service": "cloud-storage",
