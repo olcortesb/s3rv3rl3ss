@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "changes": [
+    {
+      "date": "2026-05-15",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL now supports change data capture (Preview)"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Getting started with Change Data Capture in Amazon Aurora DSQL"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool "
+    },
+    {
+      "date": "2026-05-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Optimize Amazon S3 Tables queries with Amazon Redshift"
+    },
     {
       "date": "2026-05-14",
       "service": "app-runner",

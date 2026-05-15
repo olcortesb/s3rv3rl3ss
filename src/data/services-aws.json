@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "services": [
     {
       "id": "lambda",
@@ -515,6 +515,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-14",
+          "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/"
+        },
         {
           "date": "2026-05-12",
           "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
@@ -2097,11 +2102,6 @@
           "date": "2026-05-12",
           "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Amazon EventBridge supports data plane logging to AWS CloudTrail",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-data-aws-cloudtrail/"
         },
         {
           "date": "2026-04-14",
@@ -4039,6 +4039,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-14",
+          "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "Getting started with Change Data Capture in Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/getting-started-with-change-data-capture-in-amazon-aurora-dsql/"
+        },
+        {
           "date": "2026-05-12",
           "title": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
           "url": "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/"
@@ -4067,11 +4077,6 @@
           "date": "2026-05-05",
           "title": "Amazon Aurora DSQL for global-scale financial transactions",
           "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-for-global-scale-financial-transactions/"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Amazon Aurora DSQL now supports the JSON data type with compression",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aurora-dsql-json-support/"
         }
       ],
       "dataStatus": "partial"
@@ -10856,6 +10861,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-14",
+          "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-05-13",
           "title": "Build financial document processing with Pulse AI and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/"
@@ -10894,16 +10909,6 @@
           "date": "2026-05-05",
           "title": "Amazon Bedrock AgentCore is now available in AWS GovCloud (US-West)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/bedrock-agentcore-launch-aws-govcloud-us/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable insights",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/"
         }
       ],
       "dataStatus": "partial",
@@ -11214,11 +11219,6 @@
           "date": "2026-05-05",
           "title": "EC2 Instance Store CSI driver now generally available in EKS add-ons",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ec2-csi-eks/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "AWS Backup improves performance for Amazon EKS cluster backups",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-backup-amazon-eks-performance-improvement/"
         },
         {
           "date": "2026-05-05",
@@ -11574,11 +11574,6 @@
           "date": "2026-05-06",
           "title": "Amazon Neptune now supports 1-click connect with CloudShell",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Exploring type-safe .NET development for Amazon Neptune with Gremlinq",
-          "url": "https://aws.amazon.com/blogs/database/exploring-type-safe-net-development-for-amazon-neptune-with-gremlinq/"
         }
       ],
       "dataStatus": "partial"
@@ -11619,6 +11614,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-14",
+          "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
+          "url": "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/"
+        },
+        {
           "date": "2026-05-12",
           "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton"
@@ -11627,11 +11627,6 @@
           "date": "2026-05-07",
           "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Securely connecting on-premises data systems to Amazon Redshift with IAM Roles Anywhere",
-          "url": "https://aws.amazon.com/blogs/big-data/securely-connecting-on-premises-data-systems-to-amazon-redshift-with-iam-roles-anywhere/"
         }
       ],
       "dataStatus": "partial"
