@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-16",
   "changes": [
+    {
+      "date": "2026-05-16",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis"
+    },
+    {
+      "date": "2026-05-16",
+      "service": "cloud-build",
+      "type": "new_news",
+      "detail": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and "
+    },
     {
       "date": "2026-05-15",
       "service": "bigquery",

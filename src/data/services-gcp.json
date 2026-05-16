@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-16",
   "services": [
     {
       "id": "cloud-run",
@@ -446,6 +446,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-15",
+          "title": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
+        },
+        {
           "date": "2026-05-14",
           "title": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
@@ -489,11 +494,6 @@
           "date": "2026-04-22",
           "title": "Feature\nYou can now use the visual graph modeler in\nBigQuery Studio to define BigQuery graph nodes and edges from your\nB",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "Feature\nYou can now visualize BigQuery graph query results and graph\nschemas directly in\nBigQuery Studio, without the ne",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026"
         }
       ],
       "pricingDetails": [
@@ -1667,6 +1667,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-15",
+          "title": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and ",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#May_15_2026"
+        },
+        {
           "date": "2026-03-30",
           "title": "Feature\nCloud Build now supports uploading generic artifacts to generic\nrepositories, and also downloading generic repos",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#March_30_2026"
@@ -1710,11 +1715,6 @@
           "date": "2025-08-15",
           "title": "Feature\nC3 and N2D machine families are now generally available in private pools. For a complete list of supported machi",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#August_15_2025"
-        },
-        {
-          "date": "2025-05-27",
-          "title": "Feature\nYou can now create build triggers that build from repositories connected to Developer Connect.",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#May_27_2025"
         }
       ],
       "pricingDetails": [
