@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-15",
+  "lastUpdated": "2026-05-16",
   "changes": [
+    {
+      "date": "2026-05-16",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Knowledge Bases) Ingestion job file size with text content: 50"
+    },
+    {
+      "date": "2026-05-16",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Knowledge Bases) Ingestion job file size removed"
+    },
     {
       "date": "2026-05-15",
       "service": "lambda",
