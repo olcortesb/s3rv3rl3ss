@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "changes": [
+    {
+      "date": "2026-05-19",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese"
+    },
+    {
+      "date": "2026-05-19",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec"
+    },
     {
       "date": "2026-05-16",
       "service": "bigquery",
