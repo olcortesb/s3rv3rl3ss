@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "changes": [
+    {
+      "date": "2026-05-19",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore"
+    },
+    {
+      "date": "2026-05-19",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build custom code-based evaluators in Amazon Bedrock AgentCore"
+    },
+    {
+      "date": "2026-05-19",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount"
+    },
     {
       "date": "2026-05-16",
       "service": "bedrock",

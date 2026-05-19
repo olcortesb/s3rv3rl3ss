@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "services": [
     {
       "id": "lambda",
@@ -529,11 +529,6 @@
           "date": "2026-05-12",
           "title": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "AWS SAM CLI adds BuildKit support for AWS Lambda functions packaged as container images",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-sam-cli-buildkit-aws-lambda/"
         },
         {
           "date": "2026-04-10",
@@ -3261,11 +3256,6 @@
           "date": "2026-03-22",
           "title": "Testing Step Functions workflows: a guide to the enhanced TestState API",
           "url": "https://aws.amazon.com/blogs/compute/testing-step-functions-workflows-a-guide-to-the-enhanced-teststate-api/"
-        },
-        {
-          "date": "2025-11-26",
-          "title": "Orchestrating large-scale document processing with AWS Step Functions and Amazon Bedrock batch inference",
-          "url": "https://aws.amazon.com/blogs/compute/orchestrating-large-scale-document-processing-with-aws-step-functions-and-amazon-bedrock-batch-inference/"
         }
       ],
       "dataStatus": "partial",
@@ -3796,11 +3786,6 @@
           "date": "2026-05-08",
           "title": "Gradual deployments in Amazon ECS with linear and canary strategies",
           "url": "https://aws.amazon.com/blogs/containers/gradual-deployments-in-amazon-ecs-with-linear-and-canary-strategies/"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Deploying Model Context Protocol (MCP) servers on Amazon ECS",
-          "url": "https://aws.amazon.com/blogs/containers/deploying-model-context-protocol-mcp-servers-on-amazon-ecs/"
         }
       ],
       "dataStatus": "partial",
@@ -4031,6 +4016,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-18",
+          "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/"
+        },
         {
           "date": "2026-05-14",
           "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
@@ -10854,6 +10844,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-18",
+          "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-05-14",
           "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
@@ -10872,11 +10867,6 @@
           "date": "2026-05-11",
           "title": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/"
-        },
-        {
-          "date": "2026-05-08",
-          "title": "Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/"
         },
         {
           "date": "2026-05-07",
@@ -11212,11 +11202,6 @@
           "date": "2026-04-27",
           "title": "Implement SPIFFE/SPIRE authorization on Amazon EKS",
           "url": "https://aws.amazon.com/blogs/containers/implement-spiffe-spire-authorization-on-amazon-eks/"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Navigating enterprise networking challenges with Amazon EKS Auto Mode",
-          "url": "https://aws.amazon.com/blogs/containers/navigating-enterprise-networking-challenges-with-amazon-eks-auto-mode/"
         }
       ],
       "dataStatus": "partial"
@@ -11426,11 +11411,6 @@
           "date": "2026-04-21",
           "title": "Configure a custom domain name for your Amazon MSK cluster enabled with IAM authentication",
           "url": "https://aws.amazon.com/blogs/big-data/configure-a-custom-domain-name-for-your-amazon-msk-cluster-enabled-with-iam-authentication/"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Migrate third-party and self-managed Apache Kafka clusters to Amazon MSK Express brokers with Amazon MSK Replicator",
-          "url": "https://aws.amazon.com/blogs/big-data/migrate-third-party-and-self-managed-apache-kafka-clusters-to-amazon-msk-express-brokers-with-amazon-msk-replicator/"
         }
       ],
       "dataStatus": "partial"
@@ -11591,6 +11571,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-18",
+          "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/"
+        },
         {
           "date": "2026-05-14",
           "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
