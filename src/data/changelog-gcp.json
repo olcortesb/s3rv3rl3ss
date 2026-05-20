@@ -1,6 +1,12 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "changes": [
+    {
+      "date": "2026-05-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl"
+    },
     {
       "date": "2026-05-19",
       "service": "bigquery",

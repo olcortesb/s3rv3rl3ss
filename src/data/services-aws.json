@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "services": [
     {
       "id": "lambda",
@@ -3782,6 +3782,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-19",
+          "title": "Amazon ECS introduces pause and continue controls for service deployments",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
+        },
         {
           "date": "2026-05-08",
           "title": "Gradual deployments in Amazon ECS with linear and canary strategies",
@@ -10844,6 +10849,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-19",
+          "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "Implementing programmatic tool calling on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
+        },
+        {
           "date": "2026-05-18",
           "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
@@ -10864,11 +10879,6 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/"
         },
         {
-          "date": "2026-05-11",
-          "title": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/"
-        },
-        {
           "date": "2026-05-07",
           "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
@@ -10877,11 +10887,6 @@
           "date": "2026-05-06",
           "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-longterm-memory-metadata"
         }
       ],
       "dataStatus": "partial",
@@ -11039,6 +11044,13 @@
         {
           "name": "Labels per version",
           "value": "20"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-18",
+          "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/"
         }
       ],
       "dataStatus": "partial",
@@ -11406,11 +11418,6 @@
           "date": "2026-05-06",
           "title": "Migrating TLS Clients managed by third-party Certificate Authorities from self-managed Apache Kafka to Amazon MSK",
           "url": "https://aws.amazon.com/blogs/big-data/migrating-tls-clients-managed-by-third-party-certificate-authorities-from-self-managed-apache-kafka-to-amazon-msk/"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "Configure a custom domain name for your Amazon MSK cluster enabled with IAM authentication",
-          "url": "https://aws.amazon.com/blogs/big-data/configure-a-custom-domain-name-for-your-amazon-msk-cluster-enabled-with-iam-authentication/"
         }
       ],
       "dataStatus": "partial"
@@ -11527,13 +11534,6 @@
           "value": "Unlimited"
         }
       ],
-      "news": [
-        {
-          "date": "2026-05-06",
-          "title": "Amazon Neptune now supports 1-click connect with CloudShell",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/"
-        }
-      ],
       "dataStatus": "partial"
     },
     {
@@ -11571,6 +11571,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-19",
+          "title": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
+          "url": "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/"
+        },
         {
           "date": "2026-05-18",
           "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",

@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "changes": [
+    {
+      "date": "2026-05-20",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS introduces pause and continue controls for service deployments"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Implementing programmatic tool calling on Amazon Bedrock"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3"
+    },
     {
       "date": "2026-05-19",
       "service": "aurora-serverless",
