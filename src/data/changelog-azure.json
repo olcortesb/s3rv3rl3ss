@@ -2,6 +2,18 @@
   "lastUpdated": "2026-05-20",
   "changes": [
     {
+      "date": "2026-05-20",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-management",
+      "type": "new_news",
+      "detail": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment"
+    },
+    {
       "date": "2026-05-14",
       "service": "blob-storage",
       "type": "quota_changed",

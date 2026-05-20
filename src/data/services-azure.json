@@ -107,16 +107,58 @@
       ],
       "pricingDetails": [
         {
-          "label": "Executions",
-          "price": "$0.20",
-          "unit": "per 1M executions",
-          "description": "$0.20 per million executions"
+          "label": "Always Ready Execution Time",
+          "price": "$0.00001600",
+          "unit": "per 1 GB Second",
+          "description": "$0.00001600 per 1 GB Second (Always Ready)"
         },
         {
-          "label": "Execution Time",
-          "price": "$0.000016",
-          "unit": "per GB-second",
-          "description": "$0.000016 per GB-second"
+          "label": "Premium Memory Duration",
+          "price": "$0.0123",
+          "unit": "per 1 GiB Hour",
+          "description": "$0.0123 per 1 GiB Hour (Premium)"
+        },
+        {
+          "label": "Always Ready Total Executions",
+          "price": "$0.00000400",
+          "unit": "per 10",
+          "description": "$0.00000400 per 10 (Always Ready)"
+        },
+        {
+          "label": "On Demand Total Executions",
+          "price": "$0.00",
+          "unit": "per 10",
+          "description": "$0.00 per 10 (On Demand)"
+        },
+        {
+          "label": "Standard Total Executions",
+          "price": "$0.00",
+          "unit": "per 10",
+          "description": "$0.00 per 10 (Standard)"
+        },
+        {
+          "label": "Always Ready Baseline",
+          "price": "$0.00000400",
+          "unit": "per 1 GB Second",
+          "description": "$0.00000400 per 1 GB Second (Always Ready)"
+        },
+        {
+          "label": "Standard Execution Time",
+          "price": "$0.00",
+          "unit": "per 1 GB Second",
+          "description": "$0.00 per 1 GB Second (Standard)"
+        },
+        {
+          "label": "On Demand Execution Time",
+          "price": "$0.00",
+          "unit": "per 1 GB Second",
+          "description": "$0.00 per 1 GB Second (On Demand)"
+        },
+        {
+          "label": "Premium vCPU Duration",
+          "price": "$0.1730",
+          "unit": "per 1 Hour",
+          "description": "$0.1730 per 1 Hour (Premium)"
         }
       ]
     },
@@ -168,22 +210,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "vCPU",
-          "price": "$0.000024",
-          "unit": "per vCPU-second",
-          "description": "$0.000024 per vCPU-second"
+          "label": "Dedicated Memory Usage",
+          "price": "$0.004978",
+          "unit": "per 1 Hour",
+          "description": "$0.004978 per 1 Hour (Dedicated)"
         },
         {
-          "label": "Memory",
-          "price": "$0.000003",
-          "unit": "per GiB-second",
-          "description": "$0.000003 per GiB-second"
+          "label": "Standard NC A100 v4 GPU Usage",
+          "price": "$0.000529",
+          "unit": "per 1 Second",
+          "description": "$0.000529 per 1 Second (Standard)"
         },
         {
-          "label": "Requests",
-          "price": "$0.40",
-          "unit": "per 1M requests",
-          "description": "$0.40 per million requests"
+          "label": "Dynamic Sessions",
+          "price": "$0.0300",
+          "unit": "per 1 Hour",
+          "description": "$0.0300 per 1 Hour (Dynamic Sessions)"
+        },
+        {
+          "label": "Standard vCPU Idle Usage",
+          "price": "$0.00000300",
+          "unit": "per 1 Second",
+          "description": "$0.00000300 per 1 Second (Standard)"
+        },
+        {
+          "label": "Dedicated Plan Management",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard Requests",
+          "price": "$0.4000",
+          "unit": "per 1M",
+          "description": "$0.4000 per 1M (Standard)"
+        },
+        {
+          "label": "Dedicated vCPU Usage",
+          "price": "$0.0571",
+          "unit": "per 1 Hour",
+          "description": "$0.0571 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard NC T4 v3 GPU Usage",
+          "price": "$0.00007300",
+          "unit": "per 1 Second",
+          "description": "$0.00007300 per 1 Second (Standard)"
+        },
+        {
+          "label": "Dedicated GPU Usage",
+          "price": "$4.41",
+          "unit": "per 1 Hour",
+          "description": "$4.41 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard Memory Idle Usage",
+          "price": "$0.00000300",
+          "unit": "per 1 GiB Second",
+          "description": "$0.00000300 per 1 GiB Second (Standard)"
         }
       ]
     },
@@ -233,18 +317,73 @@
           "value": "Unlimited"
         }
       ],
+      "news": [
+        {
+          "date": "2026-05-11",
+          "title": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026",
+          "url": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/"
+        }
+      ],
       "pricingDetails": [
         {
-          "label": "RU/s (serverless)",
-          "price": "$0.25",
-          "unit": "per 1M RUs",
-          "description": "$0.25 per million Request Units"
+          "label": "E64s",
+          "price": "$22.45",
+          "unit": "per 1 Hour",
+          "description": "$22.45 per 1 Hour (E64s)"
         },
         {
-          "label": "Storage",
-          "price": "$0.25",
-          "unit": "per GB/month",
-          "description": "$0.25 per GB per month"
+          "label": "Free 100 Multi-master RU/s",
+          "price": "$0.00",
+          "unit": "per 1/Hour",
+          "description": "$0.00 per 1/Hour (Free)"
+        },
+        {
+          "label": "Compute Optimized vCore",
+          "price": "$0.0959",
+          "unit": "per 1 Hour",
+          "description": "$0.0959 per 1 Hour (Compute Optimized)"
+        },
+        {
+          "label": "Premium SSD Managed Disk",
+          "price": "$0.000208",
+          "unit": "per 1/Hour",
+          "description": "$0.000208 per 1/Hour (Premium SSD Managed Disk)"
+        },
+        {
+          "label": "AP2 Entry Price",
+          "price": "$0.1600",
+          "unit": "per 1/Hour",
+          "description": "$0.1600 per 1/Hour (AP2)"
+        },
+        {
+          "label": "Cont 30D Bckp Continuous Backup",
+          "price": "$0.2000",
+          "unit": "per 1 GB",
+          "description": "$0.2000 per 1 GB (Backup)"
+        },
+        {
+          "label": "D16s",
+          "price": "$1.52",
+          "unit": "per 1 Hour",
+          "description": "$1.52 per 1 Hour (D16s)"
+        },
+        {
+          "label": "Standard Data Stored",
+          "price": "$0.0300",
+          "unit": "per 1 GB/Month",
+          "description": "$0.0300 per 1 GB/Month (Standard)"
+        },
+        {
+          "label": "Cont 30D Bckp Data Restore",
+          "price": "$0.1500",
+          "unit": "per 1 GB",
+          "description": "$0.1500 per 1 GB (Backup)"
+        },
+        {
+          "label": "MVBuilderD16s vCore",
+          "price": "$1.52",
+          "unit": "per 1 Hour",
+          "description": "$1.52 per 1 Hour (MVBuilderD16s)"
         }
       ]
     },
@@ -296,16 +435,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Operations (Standard)",
-          "price": "$0.05",
-          "unit": "per 1M operations",
-          "description": "$0.05 per million messaging operations"
+          "label": "Standard Base Unit",
+          "price": "$0.0134",
+          "unit": "per 1/Hour",
+          "description": "$0.0134 per 1/Hour (Standard)"
         },
         {
-          "label": "Base charge (Standard)",
-          "price": "$0.0135",
-          "unit": "per hour",
-          "description": "$0.0135 per hour (~$9.81/month)"
+          "label": "Geo Replication Zone 1 Data Transfer",
+          "price": "$0.0900",
+          "unit": "per 1 GB",
+          "description": "$0.0900 per 1 GB (Geo Replication Zone 1)"
+        },
+        {
+          "label": "WCF Relay",
+          "price": "$0.1000",
+          "unit": "per 100 Hours",
+          "description": "$0.1000 per 100 Hours (WCF Relay)"
+        },
+        {
+          "label": "WCF Relay Message",
+          "price": "$0.0100",
+          "unit": "per 10K",
+          "description": "$0.0100 per 10K (WCF Relay)"
+        },
+        {
+          "label": "Hybrid Connections Listener Unit",
+          "price": "$0.0134",
+          "unit": "per 1 Hour",
+          "description": "$0.0134 per 1 Hour (Hybrid Connections)"
+        },
+        {
+          "label": "Premium Messaging Unit",
+          "price": "$0.9275",
+          "unit": "per 1/Hour",
+          "description": "$0.9275 per 1/Hour (Premium)"
+        },
+        {
+          "label": "Basic Messaging Operations",
+          "price": "$0.0500",
+          "unit": "per 1M",
+          "description": "$0.0500 per 1M (Basic)"
+        },
+        {
+          "label": "Standard Messaging Operations",
+          "price": "$0.00",
+          "unit": "per 1M",
+          "description": "$0.00 per 1M (Standard)"
+        },
+        {
+          "label": "Hybrid Connections Data Transfer",
+          "price": "$0.00",
+          "unit": "per 1 GB",
+          "description": "$0.00 per 1 GB (Hybrid Connections)"
+        },
+        {
+          "label": "Standard Brokered Connection",
+          "price": "$0.00",
+          "unit": "per 1",
+          "description": "$0.00 per 1 (Standard)"
         }
       ]
     },
@@ -357,10 +544,28 @@
       ],
       "pricingDetails": [
         {
-          "label": "Operations",
-          "price": "$0.60",
-          "unit": "per 1M operations",
-          "description": "$0.60 per million operations"
+          "label": "Standard MQTT Operations",
+          "price": "$0.00",
+          "unit": "per 1M",
+          "description": "$0.00 per 1M (Standard)"
+        },
+        {
+          "label": "Standard Operations",
+          "price": "$0.00",
+          "unit": "per 100K",
+          "description": "$0.00 per 100K (Standard)"
+        },
+        {
+          "label": "Standard Event Operations",
+          "price": "$0.00",
+          "unit": "per 1M",
+          "description": "$0.00 per 1M (Standard)"
+        },
+        {
+          "label": "Standard Throughput Unit",
+          "price": "$0.0400",
+          "unit": "per 1 Hour",
+          "description": "$0.0400 per 1 Hour (Standard)"
         }
       ]
     },
@@ -416,16 +621,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Throughput unit (Standard)",
-          "price": "$0.015",
-          "unit": "per hour",
-          "description": "$0.015 per throughput unit per hour"
+          "label": "Standard Capture",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Standard)"
         },
         {
-          "label": "Ingress events",
-          "price": "$0.028",
-          "unit": "per 1M events",
-          "description": "$0.028 per million events"
+          "label": "Premium Extended Retention",
+          "price": "$0.1000",
+          "unit": "per 1 GB/Month",
+          "description": "$0.1000 per 1 GB/Month (Premium)"
+        },
+        {
+          "label": "Basic Ingress Events",
+          "price": "$0.0280",
+          "unit": "per 1M",
+          "description": "$0.0280 per 1M (Basic)"
+        },
+        {
+          "label": "Dedicated Capacity Unit",
+          "price": "$6.85",
+          "unit": "per 1 Hour",
+          "description": "$6.85 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Dedicated Extended Retention",
+          "price": "$0.1000",
+          "unit": "per 1 GB/Month",
+          "description": "$0.1000 per 1 GB/Month (Dedicated)"
+        },
+        {
+          "label": "Standard Ingress Events",
+          "price": "$0.0280",
+          "unit": "per 1M",
+          "description": "$0.0280 per 1M (Standard)"
+        },
+        {
+          "label": "Geo Replication Zone 1 Data Transfer",
+          "price": "$0.0900",
+          "unit": "per 1 GB",
+          "description": "$0.0900 per 1 GB (Geo Replication Zone 1)"
+        },
+        {
+          "label": "Premium Processing Unit",
+          "price": "$1.03",
+          "unit": "per 1 Hour",
+          "description": "$1.03 per 1 Hour (Premium)"
+        },
+        {
+          "label": "Standard Kafka Endpoint",
+          "price": "$0.0900",
+          "unit": "per 1 Hour",
+          "description": "$0.0900 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Standard Throughput Unit",
+          "price": "$0.0300",
+          "unit": "per 1 Hour",
+          "description": "$0.0300 per 1 Hour (Standard)"
         }
       ]
     },
@@ -477,22 +730,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Actions (Consumption)",
-          "price": "$0.000125",
-          "unit": "per action",
-          "description": "$0.000125 per action execution"
+          "label": "Standard Memory Duration",
+          "price": "$0.0143",
+          "unit": "per 1 GiB Hour",
+          "description": "$0.0143 per 1 GiB Hour (Standard)"
         },
         {
-          "label": "Standard connectors",
-          "price": "$0.000125",
-          "unit": "per call",
-          "description": "$0.000125 per connector call"
+          "label": "Base Unit",
+          "price": "$6.64",
+          "unit": "per 1 Hour",
+          "description": "$6.64 per 1 Hour (Base)"
         },
         {
-          "label": "Enterprise connectors",
-          "price": "$0.001",
-          "unit": "per call",
-          "description": "$0.001 per enterprise connector call"
+          "label": "Standard vCPU Duration",
+          "price": "$0.1997",
+          "unit": "per 1 Hour",
+          "description": "$0.1997 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Consumption Data Retention",
+          "price": "$0.1200",
+          "unit": "per 1 GB/Month",
+          "description": "$0.1200 per 1 GB/Month (Consumption)"
+        },
+        {
+          "label": "Consumption Built-in Actions",
+          "price": "$0.00",
+          "unit": "per 1",
+          "description": "$0.00 per 1 (Consumption)"
+        },
+        {
+          "label": "Scale Unit",
+          "price": "$3.32",
+          "unit": "per 1 Hour",
+          "description": "$3.32 per 1 Hour (Scale)"
+        },
+        {
+          "label": "Consumption Agent Loop Input Token",
+          "price": "$1.80",
+          "unit": "per 1M",
+          "description": "$1.80 per 1M (Consumption)"
+        },
+        {
+          "label": "Basic Unit",
+          "price": "$300.00",
+          "unit": "per 1/Month",
+          "description": "$300.00 per 1/Month (Basic)"
+        },
+        {
+          "label": "Consumption Standard Connector Actions",
+          "price": "$0.000125",
+          "unit": "per 1",
+          "description": "$0.000125 per 1 (Consumption)"
+        },
+        {
+          "label": "Hybrid vCPU Duration",
+          "price": "$0.1800",
+          "unit": "per 1 Hour",
+          "description": "$0.1800 per 1 Hour (Hybrid)"
         }
       ]
     },
@@ -542,12 +837,73 @@
           "value": "256 KB"
         }
       ],
+      "news": [
+        {
+          "date": "2026-04-28",
+          "title": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment",
+          "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-idc-marketscape-worldwide-api-management-2026-vendor-assessment/"
+        }
+      ],
       "pricingDetails": [
         {
-          "label": "API calls (Consumption)",
-          "price": "$3.50",
-          "unit": "per 1M calls",
-          "description": "$3.50 per million API calls"
+          "label": "Secondary Unit",
+          "price": "$1.91",
+          "unit": "per 1 Hour",
+          "description": "$1.91 per 1 Hour (Secondary)"
+        },
+        {
+          "label": "Isolated Unit",
+          "price": "$21.77",
+          "unit": "per 1 Hour",
+          "description": "$21.77 per 1 Hour (Isolated)"
+        },
+        {
+          "label": "Standard v2 Secondary Unit",
+          "price": "$0.6849",
+          "unit": "per 1 Hour",
+          "description": "$0.6849 per 1 Hour (Standard v2)"
+        },
+        {
+          "label": "Consumption Calls",
+          "price": "$0.00",
+          "unit": "per 10K",
+          "description": "$0.00 per 10K (Consumption)"
+        },
+        {
+          "label": "Gateway Unit",
+          "price": "$0.3425",
+          "unit": "per 1 Hour",
+          "description": "$0.3425 per 1 Hour (Gateway)"
+        },
+        {
+          "label": "Standard v2 Self-hosted Gateway",
+          "price": "$0.3425",
+          "unit": "per 1 Hour",
+          "description": "$0.3425 per 1 Hour (Standard v2)"
+        },
+        {
+          "label": "Basic v2 Secondary Unit",
+          "price": "$0.2055",
+          "unit": "per 1 Hour",
+          "description": "$0.2055 per 1 Hour (Basic v2)"
+        },
+        {
+          "label": "Developer Workspace Pack",
+          "price": "$0.00",
+          "unit": "per 1/Hour",
+          "description": "$0.00 per 1/Hour (Developer)"
+        },
+        {
+          "label": "Premium v2 Secondary Unit",
+          "price": "$1.92",
+          "unit": "per 1 Hour",
+          "description": "$1.92 per 1 Hour (Premium v2)"
+        },
+        {
+          "label": "Developer Unit",
+          "price": "$0.0658",
+          "unit": "per 1 Hour",
+          "description": "$0.0658 per 1 Hour (Developer)"
         }
       ]
     },
@@ -595,28 +951,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Hot storage",
-          "price": "$0.018",
-          "unit": "per GB/month",
-          "description": "$0.018 per GB per month"
+          "label": "Cool Data Retrieval",
+          "price": "$0.0100",
+          "unit": "per 1 GB",
+          "description": "$0.0100 per 1 GB (Cool RA-GRS)"
         },
         {
-          "label": "Cool storage",
-          "price": "$0.010",
-          "unit": "per GB/month",
-          "description": "$0.010 per GB per month"
+          "label": "Cool Read Operations",
+          "price": "$0.0100",
+          "unit": "per 10K",
+          "description": "$0.0100 per 10K (Cool LRS)"
         },
         {
-          "label": "Write operations (Hot)",
-          "price": "$0.055",
-          "unit": "per 10K ops",
-          "description": "$0.055 per 10,000 operations"
+          "label": "Cold LRS Data Stored",
+          "price": "$0.003600",
+          "unit": "per 1 GB/Month",
+          "description": "$0.003600 per 1 GB/Month (Cold LRS)"
         },
         {
-          "label": "Read operations (Hot)",
-          "price": "$0.0044",
-          "unit": "per 10K ops",
-          "description": "$0.0044 per 10,000 operations"
+          "label": "GRS Index Tags",
+          "price": "$0.0690",
+          "unit": "per 10K/Month",
+          "description": "$0.0690 per 10K/Month (Archive RA-GRS)"
+        },
+        {
+          "label": "Cold RA-GRS Data Write",
+          "price": "$0.00",
+          "unit": "per 1 GB",
+          "description": "$0.00 per 1 GB (Cold RA-GRS)"
+        },
+        {
+          "label": "Archive Data Retrieval",
+          "price": "$0.0200",
+          "unit": "per 1 GB",
+          "description": "$0.0200 per 1 GB (Archive GRS)"
+        },
+        {
+          "label": "Cold GRS Data Retrieval",
+          "price": "$0.0300",
+          "unit": "per 1 GB",
+          "description": "$0.0300 per 1 GB (Cold GRS)"
+        },
+        {
+          "label": "Archive GRS Write Operations",
+          "price": "$0.2100",
+          "unit": "per 10K",
+          "description": "$0.2100 per 10K (Archive GRS)"
+        },
+        {
+          "label": "Cold LRS Write Operations",
+          "price": "$0.1800",
+          "unit": "per 10K",
+          "description": "$0.1800 per 10K (Cold LRS)"
+        },
+        {
+          "label": "All Other Operations",
+          "price": "$0.004000",
+          "unit": "per 10K",
+          "description": "$0.004000 per 10K (Hot LRS)"
         }
       ]
     },
@@ -668,12 +1060,6 @@
           "price": "$0.004",
           "unit": "per 10K ops",
           "description": "$0.004 per 10,000 operations"
-        },
-        {
-          "label": "Storage",
-          "price": "$0.045",
-          "unit": "per GB/month",
-          "description": "$0.045 per GB per month (LRS)"
         }
       ]
     },
@@ -717,16 +1103,34 @@
       ],
       "pricingDetails": [
         {
-          "label": "Unit (Standard)",
-          "price": "$1.61",
-          "unit": "per unit/day",
-          "description": "$1.61 per unit per day (~$48.97/month)"
+          "label": "Premium Unit",
+          "price": "$2.00",
+          "unit": "per 1/Day",
+          "description": "$2.00 per 1/Day (Premium)"
         },
         {
-          "label": "Messages (Serverless)",
+          "label": "Standard Unit",
+          "price": "$1.61",
+          "unit": "per 1/Day",
+          "description": "$1.61 per 1/Day (Standard)"
+        },
+        {
+          "label": "Premium Message",
           "price": "$1.00",
-          "unit": "per 1M messages",
-          "description": "$1.00 per million messages"
+          "unit": "per 1M",
+          "description": "$1.00 per 1M (Premium)"
+        },
+        {
+          "label": "Standard Message",
+          "price": "$1.00",
+          "unit": "per 1M",
+          "description": "$1.00 per 1M (Standard)"
+        },
+        {
+          "label": "Standard Unit - Free",
+          "price": "$0.00",
+          "unit": "per 1/Day",
+          "description": "$0.00 per 1/Day (Standard)"
         }
       ]
     },
@@ -829,22 +1233,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Cluster management (Free tier)",
-          "price": "$0.00",
-          "unit": "free",
-          "description": "Free cluster management"
+          "label": "Standard Uptime SLA",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Standard)"
         },
         {
-          "label": "Cluster management (Standard)",
-          "price": "$0.10",
-          "unit": "per cluster/hour",
-          "description": "$0.10 per cluster per hour"
+          "label": "Automatic High Performance Compute",
+          "price": "$0.007312",
+          "unit": "per 1 Hour",
+          "description": "$0.007312 per 1 Hour (Automatic)"
         },
         {
-          "label": "Cluster management (Premium)",
-          "price": "$0.60",
-          "unit": "per cluster/hour",
-          "description": "$0.60 per cluster per hour"
+          "label": "Automatic General Purpose",
+          "price": "$0.007841",
+          "unit": "per 1 Hour",
+          "description": "$0.007841 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic GPU Accelerated",
+          "price": "$0.0360",
+          "unit": "per 1 Hour",
+          "description": "$0.0360 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Confidential Compute",
+          "price": "$0.0121",
+          "unit": "per 1 Hour",
+          "description": "$0.0121 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Memory Optimized",
+          "price": "$0.0124",
+          "unit": "per 1 Hour",
+          "description": "$0.0124 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Hosted Control Plane",
+          "price": "$0.1600",
+          "unit": "per 1 Hour",
+          "description": "$0.1600 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Standard Long Term Support",
+          "price": "$0.6000",
+          "unit": "per 1 Hour",
+          "description": "$0.6000 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Automatic Storage Optimized",
+          "price": "$0.0145",
+          "unit": "per 1 Hour",
+          "description": "$0.0145 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Compute Optimized",
+          "price": "$0.0122",
+          "unit": "per 1 Hour",
+          "description": "$0.0122 per 1 Hour (Automatic)"
         }
       ]
     },
@@ -896,12 +1342,6 @@
           "price": "$0.000145",
           "unit": "per vCore-second",
           "description": "$0.000145 per vCore-second"
-        },
-        {
-          "label": "Storage",
-          "price": "$0.115",
-          "unit": "per GB/month",
-          "description": "$0.115 per GB per month"
         }
       ]
     },
@@ -945,12 +1385,6 @@
           "price": "$2.50",
           "unit": "per 1M tokens",
           "description": "$2.50 per million input tokens"
-        },
-        {
-          "label": "GPT-4o output",
-          "price": "$10.00",
-          "unit": "per 1M tokens",
-          "description": "$10.00 per million output tokens"
         }
       ]
     },
@@ -990,16 +1424,58 @@
       ],
       "pricingDetails": [
         {
-          "label": "Secret operations",
-          "price": "$0.03",
-          "unit": "per 10K ops",
-          "description": "$0.03 per 10,000 operations"
+          "label": "Operations",
+          "price": "$0.0300",
+          "unit": "per 10K",
+          "description": "$0.0300 per 10K (Standard)"
         },
         {
-          "label": "Key operations (software)",
-          "price": "$0.03",
-          "unit": "per 10K ops",
-          "description": "$0.03 per 10,000 operations"
+          "label": "Secret Renewal",
+          "price": "$1.00",
+          "unit": "per 1",
+          "description": "$1.00 per 1 (Premium)"
+        },
+        {
+          "label": "Premium HSM-protected Advanced Key",
+          "price": "$5.00",
+          "unit": "per 1",
+          "description": "$5.00 per 1 (Premium)"
+        },
+        {
+          "label": "Advanced Key Operations",
+          "price": "$0.1500",
+          "unit": "per 10K",
+          "description": "$0.1500 per 10K (Premium)"
+        },
+        {
+          "label": "Automated Key Rotation",
+          "price": "$1.00",
+          "unit": "per 1 Rotation",
+          "description": "$1.00 per 1 Rotation (Standard)"
+        },
+        {
+          "label": "Standard B1 Instance",
+          "price": "$3.20",
+          "unit": "per 1 Hour",
+          "description": "$3.20 per 1 Hour (Standard B1)"
+        },
+        {
+          "label": "Premium HSM-protected RSA 2048-bit key",
+          "price": "$1.00",
+          "unit": "per 1",
+          "description": "$1.00 per 1 (Premium)"
+        },
+        {
+          "label": "Certificate Renewal Request",
+          "price": "$3.00",
+          "unit": "per 1",
+          "description": "$3.00 per 1 (Premium)"
+        },
+        {
+          "label": "Standard Instance",
+          "price": "$4.85",
+          "unit": "per 1 Hour",
+          "description": "$4.85 per 1 Hour (Standard)"
         }
       ]
     },
@@ -1039,16 +1515,52 @@
       ],
       "pricingDetails": [
         {
-          "label": "Basic namespace",
-          "price": "$10.00",
-          "unit": "per month",
-          "description": "$10.00 per unit per month"
+          "label": "Availability Zones Unit",
+          "price": "$350.00",
+          "unit": "per 1/Month",
+          "description": "$350.00 per 1/Month (Availability Zones SKU)"
         },
         {
-          "label": "Standard namespace",
+          "label": "Private Link Unit",
+          "price": "$35.00",
+          "unit": "per 1/Month",
+          "description": "$35.00 per 1/Month (Private Link)"
+        },
+        {
+          "label": "Standard Unit",
           "price": "$200.00",
-          "unit": "per month",
-          "description": "$200.00 per unit per month"
+          "unit": "per 1/Month",
+          "description": "$200.00 per 1/Month (Standard)"
+        },
+        {
+          "label": "Free Unit",
+          "price": "$0.00",
+          "unit": "per 1/Month",
+          "description": "$0.00 per 1/Month (Free)"
+        },
+        {
+          "label": "Basic Unit",
+          "price": "$10.00",
+          "unit": "per 1/Month",
+          "description": "$10.00 per 1/Month (Basic)"
+        },
+        {
+          "label": "1P Direct Send Pushes",
+          "price": "$0.3600",
+          "unit": "per 1M",
+          "description": "$0.3600 per 1M (1P Direct Send)"
+        },
+        {
+          "label": "Basic Pushes",
+          "price": "$0.00",
+          "unit": "per 1M",
+          "description": "$0.00 per 1M (Basic)"
+        },
+        {
+          "label": "Standard Pushes",
+          "price": "$0.00",
+          "unit": "per 1M",
+          "description": "$0.00 per 1M (Standard)"
         }
       ]
     }
