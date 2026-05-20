@@ -3,6 +3,246 @@
   "changes": [
     {
       "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nThe Firestore emulator now supports Enterprise edition.\nSee Start emulator in specific edition.\nFeature\nFirestor"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use the Usage Insights dashboard in the\nGoogle Cloud console to monitor and analyze your billable us"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nRegional and Multi-Regional endpoints for the Firestore API\nare now Generally Available (GA).\nYou can use a Regi"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nFirestore Enterprise edition now supports Native mode in\nall supported regions. For a list of supported regions,"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Change\nAfter March 17, 2026, when you enable Firestore, the Firestore\nMCP server is automatically enabled.\nDeprecated\nCo"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use the Firestore remote MCP server.\nThe Firestore remote MCP server lets you interact with document"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nAnnouncement\nFor tasks that have HTTP targets (as opposed to App Engine targets), the option to set routing for tasks"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nSupport for Customer Managed Encryption Keys (CMEK) is now available for Cloud Tasks. To learn more"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nCloud Asset Inventory support for Cloud Tasks is now in Preview. For details, see the Cloud Asset I"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2beta3\nFeature\nFor tasks that have HTTP targets (as opposed to App Engine targets), you can now set routing for tasks a"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nFeature\nSupport for resource location organization policies for Cloud Tasks is now at General Availability. To learn "
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nFeature\nSupport for VPC Service Controls is now at General Availability. To learn more, see Set up a service perimete"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nFeature\nSupport for internal ingress from Cloud Tasks to Cloud Run and Cloud Functions is now at General Availability"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nFeature\nSupport for VPC Service Controls is in Preview."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nChange\nYou can now create Cloud Tasks queues in multiple GCP Regions around the world. If you are using HTTP Targets,"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nVPC Service Controls support for Cloud Scheduler jobs has been extended to Google Cloud APIs that are VPC Service"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in GA:\n\nCloud Functions\nCloud Run\n\nFeat"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in Preview:\n\nCloud Functions\nCloud Run\n"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Feature\nSupport for using VPC Service Controls with Cloud Scheduler is now generally available (GA). To get started, che"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Feature\nCloud Scheduler jobs that are paused can now be edited. See Create and configure cron jobs."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nCloud Scheduler jobs for HTTP or Pub/Sub Targets can be deployed  in multiple GCP Regions around the world and no"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nCloud Scheduler is now available in  us-west1, asia-east1, and asia-southeast1."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Feature\nThe Cloud Scheduler Console UI now has support for three additional options:\n\nHeaders for HTTP and App Engine ta"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nChange\nConnect API Gateway to Apigee API hub instances that use VPC Service Controls\nAPI Gateway can now be connected"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nFeature\nCentralize API Gateway API management using Apigee API hub\nConnect API Gateway to Apigee API hub to enable se"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. "
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nFeature\nWith this release, the limit on the number of API gateways that can be created per region is increased to 50."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway "
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff"
+    },
+    {
+      "date": "2026-05-20",
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl"
