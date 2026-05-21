@@ -1,4 +1,137 @@
 {
   "lastUpdated": "2026-05-21",
-  "changes": []
+  "changes": [
+    {
+      "date": "2026-05-21",
+      "service": "lambda",
+      "type": "service_added",
+      "detail": "AWS Lambda"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "service_added",
+      "detail": "Amazon DynamoDB"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "sqs",
+      "type": "service_added",
+      "detail": "Amazon SQS"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "api-gateway",
+      "type": "service_added",
+      "detail": "Amazon API Gateway"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "s3",
+      "type": "service_added",
+      "detail": "Amazon S3"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "appsync",
+      "type": "service_added",
+      "detail": "AWS AppSync"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "eventbridge",
+      "type": "service_added",
+      "detail": "Amazon EventBridge"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "sns",
+      "type": "service_added",
+      "detail": "Amazon SNS"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "cognito",
+      "type": "service_added",
+      "detail": "Amazon Cognito"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "step-functions",
+      "type": "service_added",
+      "detail": "AWS Step Functions"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "fargate",
+      "type": "service_added",
+      "detail": "AWS Fargate"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "ecs",
+      "type": "service_added",
+      "detail": "Amazon ECS"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "aurora-serverless",
+      "type": "service_added",
+      "detail": "Amazon Aurora Serverless"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "kinesis",
+      "type": "service_added",
+      "detail": "Amazon Kinesis Data Streams"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "service_added",
+      "detail": "Amazon Bedrock"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "secrets-manager",
+      "type": "service_added",
+      "detail": "AWS Secrets Manager"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "eks",
+      "type": "service_added",
+      "detail": "Amazon EKS"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "app-runner",
+      "type": "service_added",
+      "detail": "AWS App Runner"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "opensearch-serverless",
+      "type": "service_added",
+      "detail": "Amazon OpenSearch Serverless"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "msk-serverless",
+      "type": "service_added",
+      "detail": "Amazon MSK Serverless"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "neptune-serverless",
+      "type": "service_added",
+      "detail": "Amazon Neptune Serverless"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "redshift-serverless",
+      "type": "service_added",
+      "detail": "Amazon Redshift Serverless"
+    }
+  ]
 }
