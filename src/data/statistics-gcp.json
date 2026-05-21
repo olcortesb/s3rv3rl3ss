@@ -1,12 +1,19 @@
 {
   "summary": {
     "totalServices": 18,
+    "totalLimits": 103,
     "totalNews": 180,
+    "totalPricing": 40,
     "totalRuntimes": 17,
     "activeRuntimes": 17,
     "deprecatedRuntimes": 0
   },
   "topServices": {
+    "mostLimits": {
+      "id": "cloud-run-functions",
+      "name": "Cloud Run Functions",
+      "count": 11
+    },
     "mostNews": {
       "id": "cloud-run",
       "name": "Cloud Run",
