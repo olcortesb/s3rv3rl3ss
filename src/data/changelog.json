@@ -3,6 +3,41 @@
   "changes": [
     {
       "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building multi-tenant agents with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-multi-tenant-agents-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Break the context window barrier with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build AI agents for business intelligence with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-agents-for-business-intelligence-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build an AI-powered recruitment assistant using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-recruitment-assistant-using-amazon-bedrock/"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-21",
       "service": "lambda",
       "type": "new_news",
       "detail": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
