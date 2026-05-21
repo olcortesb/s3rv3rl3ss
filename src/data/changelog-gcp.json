@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "changes": [
+    {
+      "date": "2026-05-21",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer"
+    },
     {
       "date": "2026-05-20",
       "service": "firestore",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-20",
+          "title": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
+        },
+        {
           "date": "2026-05-19",
           "title": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_19_2026"
@@ -541,11 +546,6 @@
           "date": "2026-04-29",
           "title": "Breaking\nStrict act-as mode\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service ac",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "Feature\nYou can now\ncreate materialized views over active change data capture (CDC) enabled tables.\nThis feature is gene",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
         }
       ],
       "pricingDetails": [
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-15",
+          "title": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_15_2026"
+        },
+        {
           "date": "2026-05-14",
           "title": "Announcement\nThe Spanner change streams default retention period has been increased from 1 day to 7 days.\nThis change af",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-03-25",
           "title": "Feature\nThe Spark Spanner connector supports writing a Spark Dataframe to a Spanner\ntable using the Spark data source AP",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_25_2026"
-        },
-        {
-          "date": "2026-03-19",
-          "title": "Feature\nSpanner now offers AI functions,\nas a part of machine learning functions, that help you perform semantic\noperati",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_19_2026"
         }
       ],
       "pricingDetails": [
