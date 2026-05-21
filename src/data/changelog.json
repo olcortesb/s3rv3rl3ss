@@ -68,43 +68,50 @@
       "date": "2026-05-21",
       "service": "eks",
       "type": "new_news",
-      "detail": "AI-powered event-driven Amazon EKS AMI updates with GitOps"
+      "detail": "AI-powered event-driven Amazon EKS AMI updates with GitOps",
+      "url": "https://aws.amazon.com/blogs/containers/ai-powered-event-driven-amazon-eks-ami-updates-with-gitops/"
     },
     {
       "date": "2026-05-21",
       "service": "ecs",
       "type": "new_news",
-      "detail": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions"
+      "detail": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
     },
     {
       "date": "2026-05-21",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 1: Operational readiness"
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 1: Operational readiness",
+      "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/"
     },
     {
       "date": "2026-05-21",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 3: Validating regional resilience with AWS Fault Injection Service"
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 3: Validating regional resilience with AWS Fault Injection Service",
+      "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/"
     },
     {
       "date": "2026-05-21",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter"
+      "detail": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/"
     },
     {
       "date": "2026-05-21",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 2: Failover strategies"
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 2: Failover strategies",
+      "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-2-failover-strategies/"
     },
     {
       "date": "2026-05-21",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Introducing ExtendDB: An open source DynamoDB-compatible adapter with pluggable storage backends"
+      "detail": "Introducing ExtendDB: An open source DynamoDB-compatible adapter with pluggable storage backends",
+      "url": "https://aws.amazon.com/blogs/database/introducing-extenddb-an-open-source-dynamodb-compatible-adapter-with-pluggable-storage-backends/"
     },
     {
       "date": "2026-05-21",
@@ -145,49 +152,57 @@
       "date": "2026-05-20",
       "service": "secrets-manager",
       "type": "new_news",
-      "detail": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent"
+      "detail": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/"
     },
     {
       "date": "2026-05-20",
       "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3"
+      "detail": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
+      "url": "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/"
     },
     {
       "date": "2026-05-20",
       "service": "ecs",
       "type": "new_news",
-      "detail": "Amazon ECS introduces pause and continue controls for service deployments"
+      "detail": "Amazon ECS introduces pause and continue controls for service deployments",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
     },
     {
       "date": "2026-05-20",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory"
+      "detail": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
     },
     {
       "date": "2026-05-20",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Implementing programmatic tool calling on Amazon Bedrock"
+      "detail": "Implementing programmatic tool calling on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
     },
     {
       "date": "2026-05-19",
       "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount"
+      "detail": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/"
     },
     {
       "date": "2026-05-19",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Build custom code-based evaluators in Amazon Bedrock AgentCore"
+      "detail": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-05-19",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore"
+      "detail": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-05-16",
@@ -205,19 +220,22 @@
       "date": "2026-05-15",
       "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Optimize Amazon S3 Tables queries with Amazon Redshift"
+      "detail": "Optimize Amazon S3 Tables queries with Amazon Redshift",
+      "url": "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/"
     },
     {
       "date": "2026-05-15",
       "service": "lambda",
       "type": "new_news",
-      "detail": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover"
+      "detail": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/"
     },
     {
       "date": "2026-05-15",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool "
+      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
     },
     {
       "date": "2026-05-15",
@@ -229,13 +247,15 @@
       "date": "2026-05-15",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon Aurora DSQL now supports change data capture (Preview)"
+      "detail": "Amazon Aurora DSQL now supports change data capture (Preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/"
     },
     {
       "date": "2026-05-15",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Getting started with Change Data Capture in Amazon Aurora DSQL"
+      "detail": "Getting started with Change Data Capture in Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/getting-started-with-change-data-capture-in-amazon-aurora-dsql/"
     },
     {
       "date": "2026-05-14",
@@ -307,7 +327,8 @@
       "date": "2026-05-14",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan"
+      "detail": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan",
+      "url": "https://aws.amazon.com/blogs/database/zero-downtime-dynamodb-construct-migration-from-table-to-tablev2-with-cdk-orphan/"
     },
     {
       "date": "2026-05-14",
@@ -355,25 +376,29 @@
       "date": "2026-05-13",
       "service": "lambda",
       "type": "new_news",
-      "detail": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances"
+      "detail": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
     },
     {
       "date": "2026-05-13",
       "service": "lambda",
       "type": "new_news",
-      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances"
+      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
     },
     {
       "date": "2026-05-13",
       "service": "eventbridge",
       "type": "new_news",
-      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances"
+      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
     },
     {
       "date": "2026-05-13",
       "service": "dynamodb",
       "type": "new_news",
-      "detail": "Filter, transform, and load your DynamoDB table exports using AWS Glue"
+      "detail": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
+      "url": "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/"
     },
     {
       "date": "2026-05-13",
@@ -385,13 +410,15 @@
       "date": "2026-05-13",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication"
+      "detail": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
+      "url": "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/"
     },
     {
       "date": "2026-05-12",
       "service": "s3",
       "type": "new_news",
-      "detail": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone"
+      "detail": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone",
+      "url": "https://aws.amazon.com/blogs/storage/scalable-cross-cloud-data-migration-to-amazon-s3-with-distributed-rclone/"
     },
     {
       "date": "2026-05-12",
@@ -457,13 +484,15 @@
       "date": "2026-05-12",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon Aurora DSQL is now available in five additional AWS Regions"
+      "detail": "Amazon Aurora DSQL is now available in five additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/"
     },
     {
       "date": "2026-05-12",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon Aurora DSQL connections: Drivers, strings, and best practices"
+      "detail": "Amazon Aurora DSQL connections: Drivers, strings, and best practices",
+      "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/"
     },
     {
       "date": "2026-05-09",
@@ -475,7 +504,8 @@
       "date": "2026-05-09",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL"
+      "detail": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/"
     },
     {
       "date": "2026-05-08",
@@ -499,13 +529,15 @@
       "date": "2026-05-08",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)"
+      "detail": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
     },
     {
       "date": "2026-05-08",
       "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL"
+      "detail": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/"
     },
     {
       "date": "2026-05-08",
@@ -517,7 +549,8 @@
       "date": "2026-05-07",
       "service": "s3",
       "type": "new_news",
-      "detail": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform"
+      "detail": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform",
+      "url": "https://aws.amazon.com/blogs/storage/implement-single-exchange-tokens-for-short-lived-amazon-s3-presigned-urls-with-terraform/"
     },
     {
       "date": "2026-05-07",
@@ -1819,7 +1852,8 @@
       "date": "2026-04-30",
       "service": "s3",
       "type": "new_news",
-      "detail": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases"
+      "detail": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases",
+      "url": "https://aws.amazon.com/blogs/storage/enabling-natural-language-access-to-structured-data-using-amazon-s3-tables-and-amazon-bedrock-knowledge-bases/"
     },
     {
       "date": "2026-04-30",
@@ -1903,7 +1937,8 @@
       "date": "2026-04-25",
       "service": "s3",
       "type": "new_news",
-      "detail": "Migrate to Amazon S3 account regional namespaces"
+      "detail": "Migrate to Amazon S3 account regional namespaces",
+      "url": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/"
     },
     {
       "date": "2026-04-25",
