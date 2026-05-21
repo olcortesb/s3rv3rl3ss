@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "services": [
     {
       "id": "lambda",
@@ -662,6 +662,31 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-20",
+          "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Best practices for Amazon DynamoDB Global Tables – Part 3: Validating regional resilience with AWS Fault Injection Service",
+          "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Best practices for Amazon DynamoDB Global Tables – Part 2: Failover strategies",
+          "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-2-failover-strategies/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Best practices for Amazon DynamoDB Global Tables – Part 1: Operational readiness",
+          "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-1-operational-readiness/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Introducing ExtendDB: An open source DynamoDB-compatible adapter with pluggable storage backends",
+          "url": "https://aws.amazon.com/blogs/database/introducing-extenddb-an-open-source-dynamodb-compatible-adapter-with-pluggable-storage-backends/"
+        },
         {
           "date": "2026-05-13",
           "title": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan",
@@ -1571,11 +1596,6 @@
           "date": "2026-05-11",
           "title": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone",
           "url": "https://aws.amazon.com/blogs/storage/scalable-cross-cloud-data-migration-to-amazon-s3-with-distributed-rclone/"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/"
         },
         {
           "date": "2026-05-06",
@@ -3783,6 +3803,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-20",
+          "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
+        },
+        {
           "date": "2026-05-19",
           "title": "Amazon ECS introduces pause and continue controls for service deployments",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
@@ -4060,11 +4085,6 @@
           "date": "2026-05-07",
           "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "Amazon Aurora DSQL for global-scale financial transactions",
-          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-for-global-scale-financial-transactions/"
         }
       ],
       "dataStatus": "partial"
@@ -10882,11 +10902,6 @@
           "date": "2026-05-07",
           "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Amazon Bedrock AgentCore Runtime now supports bring-your-own file system from Amazon S3 Files and Amazon EFS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-agentcore-runtime/"
         }
       ],
       "dataStatus": "partial",
@@ -11181,6 +11196,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-20",
+          "title": "AI-powered event-driven Amazon EKS AMI updates with GitOps",
+          "url": "https://aws.amazon.com/blogs/containers/ai-powered-event-driven-amazon-eks-ami-updates-with-gitops/"
+        },
+        {
           "date": "2026-05-13",
           "title": "Maximizing value with Amazon EKS Auto Mode: Strategies for visibility, control, and optimization",
           "url": "https://aws.amazon.com/blogs/containers/maximizing-value-with-amazon-eks-auto-mode-strategies-for-visibility-control-and-optimization/"
@@ -11209,11 +11229,6 @@
           "date": "2026-05-01",
           "title": "Simplify hybrid Kubernetes networking with Amazon EKS Hybrid Nodes gateway",
           "url": "https://aws.amazon.com/blogs/containers/simplify-hybrid-kubernetes-networking-with-amazon-eks-hybrid-nodes-gateway/"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Implement SPIFFE/SPIRE authorization on Amazon EKS",
-          "url": "https://aws.amazon.com/blogs/containers/implement-spiffe-spire-authorization-on-amazon-eks/"
         }
       ],
       "dataStatus": "partial"
@@ -11590,11 +11605,6 @@
           "date": "2026-05-12",
           "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton"
-        },
-        {
-          "date": "2026-05-07",
-          "title": "Amazon Redshift now scales data ingestion automatically with concurrency scaling for batch workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/concurrencyscaling-support-for-copy"
         }
       ],
       "dataStatus": "partial"

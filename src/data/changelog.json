@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "changes": [
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 3: Validating regional resilience with AWS Fault Injection Service"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 2: Failover strategies"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Best practices for Amazon DynamoDB Global Tables – Part 1: Operational readiness"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Introducing ExtendDB: An open source DynamoDB-compatible adapter with pluggable storage backends"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "AI-powered event-driven Amazon EKS AMI updates with GitOps"
+    },
     {
       "date": "2026-05-20",
       "service": "ecs",
