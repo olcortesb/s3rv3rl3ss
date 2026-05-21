@@ -63,15 +63,15 @@
           "label": "Invocations",
           "aws": "Requests",
           "gcp": "Invocations",
-          "azure_value": "$0.20 per 1M executions",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.20 per 1M executions"
         },
         {
           "label": "Compute",
           "aws": "Compute (x86)",
           "gcp": "Compute (GHz-second)",
-          "azure_value": "$0.000016 per GB-second",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.000016 per GB-second"
         }
       ]
     },
@@ -184,19 +184,19 @@
       "pricing": [
         {
           "label": "vCPU",
-          "aws_value": "$0.04048 per vCPU/hour",
           "aws": null,
+          "aws_value": "$0.04048 per vCPU/hour",
           "gcp": "vCPU",
-          "azure_value": "$0.000024 per vCPU-second",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.000024 per vCPU-second"
         },
         {
           "label": "Memory",
-          "aws_value": "$0.004445 per GB/hour",
           "aws": null,
+          "aws_value": "$0.004445 per GB/hour",
           "gcp": "Memory",
-          "azure_value": "$0.000003 per GiB-second",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.000003 per GiB-second"
         }
       ]
     },
@@ -246,22 +246,22 @@
           "label": "Writes",
           "aws": "Write Requests (on-demand)",
           "gcp": "Document writes",
-          "azure_value": "$0.25 per 1M RUs",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.25 per 1M RUs"
         },
         {
           "label": "Reads",
           "aws": "Read Requests (on-demand)",
           "gcp": "Document reads",
-          "azure_value": "$0.25 per 1M RUs",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.25 per 1M RUs"
         },
         {
           "label": "Storage",
           "aws": "Storage (Standard)",
           "gcp": "Storage",
-          "azure_value": "$0.25 per GB/month",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.25 per GB/month"
         }
       ]
     },
@@ -304,15 +304,15 @@
           "label": "Compute",
           "aws": null,
           "gcp": "Processing units",
-          "azure_value": "$0.000145 per vCore-second",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.000145 per vCore-second"
         },
         {
           "label": "Storage",
           "aws": null,
           "gcp": "Storage",
-          "azure_value": "$0.115 per GB/month",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.115 per GB/month"
         }
       ]
     },
@@ -341,27 +341,27 @@
       "pricing": [
         {
           "label": "Storage (standard)",
-          "aws_value": "$0.023 per GB/month",
           "aws": null,
+          "aws_value": "$0.023 per GB/month",
           "gcp": "Standard storage",
-          "azure_value": "$0.018 per GB/month",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.018 per GB/month"
         },
         {
           "label": "Write operations",
-          "aws_value": "$0.005 per 1K PUT",
           "aws": null,
+          "aws_value": "$0.005 per 1K PUT",
           "gcp": "Class A operations",
-          "azure_value": "$0.055 per 10K ops",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.055 per 10K ops"
         },
         {
           "label": "Read operations",
-          "aws_value": "$0.0004 per 1K GET",
           "aws": null,
+          "aws_value": "$0.0004 per 1K GET",
           "gcp": "Class B operations",
-          "azure_value": "$0.0044 per 10K ops",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.0044 per 10K ops"
         }
       ]
     },
@@ -416,8 +416,8 @@
           "label": "Operations",
           "aws": "Standard Queue",
           "gcp": "Message delivery",
-          "azure_value": "$0.05 per 1M operations",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.05 per 1M operations"
         }
       ]
     },
@@ -432,7 +432,7 @@
       },
       "limitsUrls": {
         "aws": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-quota.html",
-        "gcp": "https://cloud.google.com/eventarc/docs/quotas",
+        "gcp": "https://cloud.google.com/eventarc/quotas",
         "azure": "https://learn.microsoft.com/en-us/azure/event-grid/quotas-limits"
       },
       "limits": [
@@ -466,8 +466,8 @@
           "label": "Events/operations",
           "aws": "Custom Events",
           "gcp": null,
-          "azure_value": "$0.60 per 1M operations",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.60 per 1M operations"
         }
       ]
     },
@@ -482,7 +482,7 @@
       },
       "limitsUrls": {
         "aws": "https://docs.aws.amazon.com/apigateway/latest/developerguide/limits.html",
-        "gcp": "https://cloud.google.com/api-gateway/docs/quotas",
+        "gcp": "https://cloud.google.com/api-gateway/quotas",
         "azure": "https://learn.microsoft.com/en-us/azure/api-management/api-management-capacity"
       },
       "limits": [
@@ -516,8 +516,8 @@
           "label": "API calls",
           "aws": "REST API Requests",
           "gcp": "API calls",
-          "azure_value": "$3.50 per 1M calls (Consumption)",
-          "azure": null
+          "azure": null,
+          "azure_value": "$3.50 per 1M calls (Consumption)"
         }
       ]
     },
@@ -566,8 +566,8 @@
           "label": "Per step/transition",
           "aws": "Standard Workflows",
           "gcp": "Internal steps",
-          "azure_value": "$0.000125 per action",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.000125 per action"
         }
       ]
     },
@@ -616,15 +616,15 @@
           "label": "Write/ingress",
           "aws": "On-Demand Write",
           "gcp": null,
-          "azure_value": "$0.015 per TU/hour",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.015 per TU/hour"
         },
         {
           "label": "Events",
           "aws": null,
           "gcp": null,
-          "azure_value": "$0.028 per 1M events",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.028 per 1M events"
         }
       ]
     },
@@ -665,19 +665,19 @@
       "pricing": [
         {
           "label": "Storage/operations",
-          "aws_value": "$0.40 per secret/month",
           "aws": null,
+          "aws_value": "$0.40 per secret/month",
           "gcp": "Active secret versions",
-          "azure_value": "$0.03 per 10K operations",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.03 per 10K operations"
         },
         {
           "label": "Access operations",
-          "aws_value": "$0.05 per 10K API calls",
           "aws": null,
+          "aws_value": "$0.05 per 10K API calls",
           "gcp": "Access operations",
-          "azure_value": "$0.03 per 10K operations",
-          "azure": null
+          "azure": null,
+          "azure_value": "$0.03 per 10K operations"
         }
       ]
     },
@@ -712,19 +712,19 @@
       "pricing": [
         {
           "label": "Input tokens",
-          "aws_value": "$0.003 per 1K input tokens (Claude Haiku)",
           "aws": null,
+          "aws_value": "$0.003 per 1K tokens (Claude Haiku)",
           "gcp": "Gemini 1.5 Flash input",
-          "azure_value": "$2.50 per 1M tokens (GPT-4o)",
-          "azure": null
+          "azure": null,
+          "azure_value": "$2.50 per 1M tokens (GPT-4o)"
         },
         {
           "label": "Output tokens",
-          "aws_value": "$0.015 per 1K output tokens (Claude Haiku)",
           "aws": null,
+          "aws_value": "$0.015 per 1K tokens (Claude Haiku)",
           "gcp": "Gemini 1.5 Flash output",
-          "azure_value": "$10.00 per 1M tokens (GPT-4o)",
-          "azure": null
+          "azure": null,
+          "azure_value": "$10.00 per 1M tokens (GPT-4o)"
         }
       ]
     }
