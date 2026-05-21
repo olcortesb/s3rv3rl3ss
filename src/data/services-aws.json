@@ -10869,6 +10869,31 @@
       ],
       "news": [
         {
+          "date": "2026-05-21",
+          "title": "Building multi-tenant agents with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-multi-tenant-agents-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Break the context window barrier with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Build AI agents for business intelligence with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-agents-for-business-intelligence-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Build an AI-powered recruitment assistant using Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-recruitment-assistant-using-amazon-bedrock/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-05-19",
           "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
           "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
@@ -10887,16 +10912,6 @@
           "date": "2026-05-14",
           "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-13",
-          "title": "Build financial document processing with Pulse AI and Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/"
         },
         {
           "date": "2026-05-07",
