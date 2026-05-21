@@ -3,7 +3,7 @@
     "totalServices": 22,
     "totalQuotas": 1588,
     "totalLimits": 155,
-    "totalNews": 67,
+    "totalNews": 70,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -15,9 +15,9 @@
       "count": 1114
     },
     "mostNews": {
-      "id": "lambda",
-      "name": "AWS Lambda",
-      "count": 9
+      "id": "bedrock",
+      "name": "Amazon Bedrock",
+      "count": 10
     },
     "mostLimits": {
       "id": "api-gateway",
