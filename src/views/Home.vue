@@ -19,9 +19,12 @@
       </router-link>
     </div>
 
-    <div class="flex justify-center mt-10">
+    <div class="flex justify-center gap-4 mt-10">
       <router-link to="/compare" class="px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition font-medium text-sm">
         ⚖️ Compare Services
+      </router-link>
+      <router-link to="/metrics" class="px-6 py-3 bg-white text-gray-700 border border-gray-200 rounded-xl hover:border-gray-400 transition font-medium text-sm">
+        📊 Project Metrics
       </router-link>
     </div>
   </div>
