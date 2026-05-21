@@ -1,0 +1,120 @@
+{
+  "lastUpdated": "2026-05-21T16:52:01Z",
+  "today": {
+    "invocations": 94,
+    "totalDurationMs": 412913,
+    "errors": 18,
+    "functions": {
+      "ChangelogFunction": {
+        "invocations": 2,
+        "totalDurationMs": 2390,
+        "avgDurationMs": 1195,
+        "errors": 0
+      },
+      "GcpCollectorFunction": {
+        "invocations": 3,
+        "totalDurationMs": 28298,
+        "avgDurationMs": 9433,
+        "errors": 0
+      },
+      "AzureCollectorFunction": {
+        "invocations": 6,
+        "totalDurationMs": 21452,
+        "avgDurationMs": 3575,
+        "errors": 4
+      },
+      "CommitterFunction": {
+        "invocations": 73,
+        "totalDurationMs": 138680,
+        "avgDurationMs": 1900,
+        "errors": 13
+      },
+      "MetricsFunction": {
+        "invocations": 0,
+        "totalDurationMs": 0,
+        "avgDurationMs": 0,
+        "errors": 0
+      },
+      "CollectorFunction": {
+        "invocations": 9,
+        "totalDurationMs": 221321,
+        "avgDurationMs": 24591,
+        "errors": 1
+      },
+      "ComparisonsFunction": {
+        "invocations": 1,
+        "totalDurationMs": 772,
+        "avgDurationMs": 772,
+        "errors": 0
+      }
+    }
+  },
+  "month": {
+    "invocations": 541,
+    "totalDurationMs": 1967833,
+    "errors": 198,
+    "functions": {
+      "ChangelogFunction": {
+        "invocations": 2,
+        "totalDurationMs": 2390,
+        "avgDurationMs": 1195,
+        "errors": 0
+      },
+      "GcpCollectorFunction": {
+        "invocations": 31,
+        "totalDurationMs": 157962,
+        "avgDurationMs": 5096,
+        "errors": 0
+      },
+      "AzureCollectorFunction": {
+        "invocations": 31,
+        "totalDurationMs": 53441,
+        "avgDurationMs": 1724,
+        "errors": 4
+      },
+      "CommitterFunction": {
+        "invocations": 443,
+        "totalDurationMs": 929524,
+        "avgDurationMs": 2098,
+        "errors": 193
+      },
+      "MetricsFunction": {
+        "invocations": 0,
+        "totalDurationMs": 0,
+        "avgDurationMs": 0,
+        "errors": 0
+      },
+      "CollectorFunction": {
+        "invocations": 33,
+        "totalDurationMs": 823745,
+        "avgDurationMs": 24962,
+        "errors": 1
+      },
+      "ComparisonsFunction": {
+        "invocations": 1,
+        "totalDurationMs": 772,
+        "avgDurationMs": 772,
+        "errors": 0
+      }
+    }
+  },
+  "infrastructure": {
+    "lambdaFunctions": 7,
+    "architecture": "arm64",
+    "runtime": "python3.12",
+    "dynamodbItems": 0,
+    "dynamodbSizeKB": 0,
+    "s3Objects": 10
+  },
+  "cost": {
+    "monthly": {
+      "total": "$0.40",
+      "lambda": "$0.00 (free tier)",
+      "dynamodb": "$0.00 (free tier)",
+      "s3": "$0.00 (free tier)",
+      "secretsManager": "$0.40",
+      "eventbridge": "$0.00 (free tier)"
+    },
+    "note": "Only Secrets Manager has cost outside free tier"
+  }
+}
