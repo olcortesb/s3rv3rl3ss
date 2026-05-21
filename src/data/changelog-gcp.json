@@ -5,295 +5,344 @@
       "date": "2026-05-21",
       "service": "cloud-spanner",
       "type": "new_news",
-      "detail": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer"
+      "detail": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_15_2026"
     },
     {
       "date": "2026-05-21",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu"
+      "detail": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nThe Firestore emulator now supports Enterprise edition.\nSee Start emulator in specific edition.\nFeature\nFirestor"
+      "detail": "Feature\nThe Firestore emulator now supports Enterprise edition.\nSee Start emulator in specific edition.\nFeature\nFirestor",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#April_20_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe"
+      "detail": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#September_23_2025"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nRegional and Multi-Regional endpoints for the Firestore API\nare now Generally Available (GA).\nYou can use a Regi"
+      "detail": "Feature\nRegional and Multi-Regional endpoints for the Firestore API\nare now Generally Available (GA).\nYou can use a Regi",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#March_23_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level."
+      "detail": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level.",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#October_27_2025"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nYou can now use the Usage Insights dashboard in the\nGoogle Cloud console to monitor and analyze your billable us"
+      "detail": "Feature\nYou can now use the Usage Insights dashboard in the\nGoogle Cloud console to monitor and analyze your billable us",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#April_13_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nYou can now use the Firestore remote MCP server.\nThe Firestore remote MCP server lets you interact with document"
+      "detail": "Feature\nYou can now use the Firestore remote MCP server.\nThe Firestore remote MCP server lets you interact with document",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#February_10_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations"
+      "detail": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#January_15_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Change\nAfter March 17, 2026, when you enable Firestore, the Firestore\nMCP server is automatically enabled.\nDeprecated\nCo"
+      "detail": "Change\nAfter March 17, 2026, when you enable Firestore, the Firestore\nMCP server is automatically enabled.\nDeprecated\nCo",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#February_17_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include"
+      "detail": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#February_02_2026"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nFirestore Enterprise edition now supports Native mode in\nall supported regions. For a list of supported regions,"
+      "detail": "Feature\nFirestore Enterprise edition now supports Native mode in\nall supported regions. For a list of supported regions,",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#March_05_2026"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nFeature\nSupport for internal ingress from Cloud Tasks to Cloud Run and Cloud Functions is now at General Availability"
+      "detail": "v2\nFeature\nSupport for internal ingress from Cloud Tasks to Cloud Run and Cloud Functions is now at General Availability",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#November_14_2022"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nSupport for Customer Managed Encryption Keys (CMEK) is now available for Cloud Tasks. To learn more"
+      "detail": "v2 & v2beta3\nFeature\nSupport for Customer Managed Encryption Keys (CMEK) is now available for Cloud Tasks. To learn more",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#October_18_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p"
+      "detail": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#January_06_2025"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2beta3\nFeature\nFor tasks that have HTTP targets (as opposed to App Engine targets), you can now set routing for tasks a"
+      "detail": "v2beta3\nFeature\nFor tasks that have HTTP targets (as opposed to App Engine targets), you can now set routing for tasks a",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#April_18_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nCloud Asset Inventory support for Cloud Tasks is now in Preview. For details, see the Cloud Asset I"
+      "detail": "v2 & v2beta3\nFeature\nCloud Asset Inventory support for Cloud Tasks is now in Preview. For details, see the Cloud Asset I",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#June_15_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nFeature\nSupport for VPC Service Controls is in Preview."
+      "detail": "v2\nFeature\nSupport for VPC Service Controls is in Preview.",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#November_09_2022"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nAnnouncement\nFor tasks that have HTTP targets (as opposed to App Engine targets), the option to set routing for tasks"
+      "detail": "v2\nAnnouncement\nFor tasks that have HTTP targets (as opposed to App Engine targets), the option to set routing for tasks",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#March_18_2024"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nChange\nYou can now create Cloud Tasks queues in multiple GCP Regions around the world. If you are using HTTP Targets,"
+      "detail": "v2\nChange\nYou can now create Cloud Tasks queues in multiple GCP Regions around the world. If you are using HTTP Targets,",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#December_13_2021"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nFeature\nSupport for VPC Service Controls is now at General Availability. To learn more, see Set up a service perimete"
+      "detail": "v2\nFeature\nSupport for VPC Service Controls is now at General Availability. To learn more, see Set up a service perimete",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#January_09_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "v2\nFeature\nSupport for resource location organization policies for Cloud Tasks is now at General Availability. To learn "
+      "detail": "v2\nFeature\nSupport for resource location organization policies for Cloud Tasks is now at General Availability. To learn ",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#January_31_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Feature\nSupport for using VPC Service Controls with Cloud Scheduler is now generally available (GA). To get started, che"
+      "detail": "Feature\nSupport for using VPC Service Controls with Cloud Scheduler is now generally available (GA). To get started, che",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#August_26_2022"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler jobs for HTTP or Pub/Sub Targets can be deployed  in multiple GCP Regions around the world and no"
+      "detail": "Change\nCloud Scheduler jobs for HTTP or Pub/Sub Targets can be deployed  in multiple GCP Regions around the world and no",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#February_11_2022"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in GA:\n\nCloud Functions\nCloud Run\n\nFeat"
+      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in GA:\n\nCloud Functions\nCloud Run\n\nFeat",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#August_18_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in Preview:\n\nCloud Functions\nCloud Run\n"
+      "detail": "Change\nSupport for Cloud Scheduler to call the following resources internally is in Preview:\n\nCloud Functions\nCloud Run\n",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#April_14_2023"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nVPC Service Controls support for Cloud Scheduler jobs has been extended to Google Cloud APIs that are VPC Service"
+      "detail": "Change\nVPC Service Controls support for Cloud Scheduler jobs has been extended to Google Cloud APIs that are VPC Service",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#September_29_2025"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Feature\nCloud Scheduler jobs that are paused can now be edited. See Create and configure cron jobs."
+      "detail": "Feature\nCloud Scheduler jobs that are paused can now be edited. See Create and configure cron jobs.",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#June_09_2022"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler is now available in  us-west1, asia-east1, and asia-southeast1."
+      "detail": "Change\nCloud Scheduler is now available in  us-west1, asia-east1, and asia-southeast1.",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#June_16_2021"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead."
+      "detail": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead.",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#March_01_2021"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Feature\nThe Cloud Scheduler Console UI now has support for three additional options:\n\nHeaders for HTTP and App Engine ta"
+      "detail": "Feature\nThe Cloud Scheduler Console UI now has support for three additional options:\n\nHeaders for HTTP and App Engine ta",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#April_22_2021"
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha"
+      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#April_17_2026"
     },
     {
       "date": "2026-05-20",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl"
+      "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_19_2026"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da"
+      "detail": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_26_2025"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nChange\nConnect API Gateway to Apigee API hub instances that use VPC Service Controls\nAPI Gateway can now be connected"
+      "detail": "v1\nChange\nConnect API Gateway to Apigee API hub instances that use VPC Service Controls\nAPI Gateway can now be connected",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#February_02_2026"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nFeature\nCentralize API Gateway API management using Apigee API hub\nConnect API Gateway to Apigee API hub to enable se"
+      "detail": "v1\nFeature\nCentralize API Gateway API management using Apigee API hub\nConnect API Gateway to Apigee API hub to enable se",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#January_12_2026"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway "
+      "detail": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway ",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_02_2025"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff"
+      "detail": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#July_01_2024"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nFeature\nWith this release, the limit on the number of API gateways that can be created per region is increased to 50."
+      "detail": "v1\nFeature\nWith this release, the limit on the number of API gateways that can be created per region is increased to 50.",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_09_2025"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat"
+      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. "
+      "detail": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. ",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#July_23_2025"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf"
+      "detail": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_25_2025"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0"
+      "detail": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#November_12_2025"
     },
     {
       "date": "2026-05-19",
       "service": "secret-manager",
       "type": "new_news",
-      "detail": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec"
+      "detail": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_16_2026"
     },
     {
       "date": "2026-05-19",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese"
+      "detail": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
       "date": "2026-05-16",
       "service": "cloud-build",
       "type": "new_news",
-      "detail": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and "
+      "detail": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and ",
+      "url": "https://docs.cloud.google.com/build/docs/release-notes#May_15_2026"
     },
     {
       "date": "2026-05-16",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis"
+      "detail": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
     },
     {
       "date": "2026-05-15",
       "service": "gke",
       "type": "new_news",
-      "detail": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc"
+      "detail": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_14_2026"
     },
     {
       "date": "2026-05-15",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat"
+      "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
     },
     {
       "date": "2026-05-14",
@@ -323,7 +372,8 @@
       "date": "2026-05-14",
       "service": "gke",
       "type": "new_news",
-      "detail": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl"
+      "detail": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
     },
     {
       "date": "2026-05-14",
@@ -353,7 +403,8 @@
       "date": "2026-05-13",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Feature\nYou can now use the\nAI.COUNT_TOKENS function\nto estimate the token count of text input that you provide. For som"
+      "detail": "Feature\nYou can now use the\nAI.COUNT_TOKENS function\nto estimate the token count of text input that you provide. For som",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026"
     },
     {
       "date": "2026-05-12",
