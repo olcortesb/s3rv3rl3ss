@@ -1,24 +1,26 @@
 <template>
   <div>
-    <div class="mb-8 text-center">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2">s3rv3rl3ss</h1>
+    <div class="mb-10 text-center">
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">s3rv3rl3ss</h1>
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
-    <div class="flex justify-center gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
       <router-link
         v-for="p in providers"
         :key="p.id"
         :to="`/${p.id}`"
-        class="block bg-white rounded-xl shadow-sm hover:shadow-md transition p-6 border border-gray-100 text-center"
+        class="group block rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
+        :class="cardClass(p.id)"
       >
-        <span class="text-4xl">{{ p.icon }}</span>
-        <h2 class="mt-2 font-semibold text-gray-900 text-lg">{{ p.name }}</h2>
+        <span class="text-5xl block mb-4">{{ p.icon }}</span>
+        <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
+        <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
       </router-link>
     </div>
 
-    <div class="flex justify-center mt-8">
-      <router-link to="/compare" class="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition font-medium">
+    <div class="flex justify-center mt-10">
+      <router-link to="/compare" class="px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition font-medium text-sm">
         ⚖️ Compare Services
       </router-link>
     </div>
@@ -26,5 +28,27 @@
 </template>
 
 <script setup>
-import { providers } from '../data/index.js'
+import { ref, onMounted } from 'vue'
+import { providers, getProviderData } from '../data/index.js'
+
+const counts = ref({ aws: 0, gcp: 0, azure: 0 })
+
+onMounted(async () => {
+  for (const p of providers) {
+    const data = await getProviderData(p.id)
+    if (data) counts.value[p.id] = data.services.length
+  }
+})
+
+function serviceCount(id) {
+  return counts.value[id] || '—'
+}
+
+function cardClass(id) {
+  return {
+    aws: 'border-orange-200 bg-orange-50/50 hover:border-orange-400 hover:shadow-lg hover:shadow-orange-100',
+    gcp: 'border-blue-200 bg-blue-50/50 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-100',
+    azure: 'border-purple-200 bg-purple-50/50 hover:border-purple-400 hover:shadow-lg hover:shadow-purple-100',
+  }[id]
+}
 </script>

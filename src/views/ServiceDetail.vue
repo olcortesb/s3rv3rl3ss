@@ -184,7 +184,8 @@
             <li v-for="(c, i) in changelog" :key="i" class="flex gap-3 text-sm">
               <span class="text-gray-400 shrink-0">{{ c.date }}</span>
               <span class="shrink-0">{{ typeIcon(c.type) }}</span>
-              <span class="text-gray-700">{{ c.detail }}</span>
+              <a v-if="c.url" :href="c.url" target="_blank" class="text-orange-600 hover:underline">{{ c.detail }}</a>
+              <span v-else class="text-gray-700">{{ c.detail }}</span>
             </li>
           </ul>
         </div>
