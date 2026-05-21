@@ -3,15 +3,15 @@
   "changes": [
     {
       "date": "2026-05-21",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu"
-    },
-    {
-      "date": "2026-05-21",
       "service": "cloud-spanner",
       "type": "new_news",
       "detail": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer"
+    },
+    {
+      "date": "2026-05-21",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu"
     },
     {
       "date": "2026-05-20",
@@ -23,7 +23,7 @@
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nYou can now use the Usage Insights dashboard in the\nGoogle Cloud console to monitor and analyze your billable us"
+      "detail": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe"
     },
     {
       "date": "2026-05-20",
@@ -35,13 +35,13 @@
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nFirestore Enterprise edition now supports Native mode in\nall supported regions. For a list of supported regions,"
+      "detail": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level."
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Change\nAfter March 17, 2026, when you enable Firestore, the Firestore\nMCP server is automatically enabled.\nDeprecated\nCo"
+      "detail": "Feature\nYou can now use the Usage Insights dashboard in the\nGoogle Cloud console to monitor and analyze your billable us"
     },
     {
       "date": "2026-05-20",
@@ -53,67 +53,25 @@
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "firestore",
-      "type": "new_news",
       "detail": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level."
+      "detail": "Change\nAfter March 17, 2026, when you enable Firestore, the Firestore\nMCP server is automatically enabled.\nDeprecated\nCo"
     },
     {
       "date": "2026-05-20",
       "service": "firestore",
       "type": "new_news",
-      "detail": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe"
+      "detail": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include"
     },
     {
       "date": "2026-05-20",
-      "service": "cloud-tasks",
+      "service": "firestore",
       "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2\nAnnouncement\nFor tasks that have HTTP targets (as opposed to App Engine targets), the option to set routing for tasks"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nSupport for Customer Managed Encryption Keys (CMEK) is now available for Cloud Tasks. To learn more"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2 & v2beta3\nFeature\nCloud Asset Inventory support for Cloud Tasks is now in Preview. For details, see the Cloud Asset I"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2beta3\nFeature\nFor tasks that have HTTP targets (as opposed to App Engine targets), you can now set routing for tasks a"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2\nFeature\nSupport for resource location organization policies for Cloud Tasks is now at General Availability. To learn "
-    },
-    {
-      "date": "2026-05-20",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2\nFeature\nSupport for VPC Service Controls is now at General Availability. To learn more, see Set up a service perimete"
+      "detail": "Feature\nFirestore Enterprise edition now supports Native mode in\nall supported regions. For a list of supported regions,"
     },
     {
       "date": "2026-05-20",
@@ -125,7 +83,37 @@
       "date": "2026-05-20",
       "service": "cloud-tasks",
       "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nSupport for Customer Managed Encryption Keys (CMEK) is now available for Cloud Tasks. To learn more"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2beta3\nFeature\nFor tasks that have HTTP targets (as opposed to App Engine targets), you can now set routing for tasks a"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2 & v2beta3\nFeature\nCloud Asset Inventory support for Cloud Tasks is now in Preview. For details, see the Cloud Asset I"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
       "detail": "v2\nFeature\nSupport for VPC Service Controls is in Preview."
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nAnnouncement\nFor tasks that have HTTP targets (as opposed to App Engine targets), the option to set routing for tasks"
     },
     {
       "date": "2026-05-20",
@@ -135,15 +123,27 @@
     },
     {
       "date": "2026-05-20",
-      "service": "cloud-scheduler",
+      "service": "cloud-tasks",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha"
+      "detail": "v2\nFeature\nSupport for VPC Service Controls is now at General Availability. To learn more, see Set up a service perimete"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nFeature\nSupport for resource location organization policies for Cloud Tasks is now at General Availability. To learn "
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nVPC Service Controls support for Cloud Scheduler jobs has been extended to Google Cloud APIs that are VPC Service"
+      "detail": "Feature\nSupport for using VPC Service Controls with Cloud Scheduler is now generally available (GA). To get started, che"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nCloud Scheduler jobs for HTTP or Pub/Sub Targets can be deployed  in multiple GCP Regions around the world and no"
     },
     {
       "date": "2026-05-20",
@@ -161,7 +161,7 @@
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Feature\nSupport for using VPC Service Controls with Cloud Scheduler is now generally available (GA). To get started, che"
+      "detail": "Change\nVPC Service Controls support for Cloud Scheduler jobs has been extended to Google Cloud APIs that are VPC Service"
     },
     {
       "date": "2026-05-20",
@@ -173,13 +173,13 @@
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler jobs for HTTP or Pub/Sub Targets can be deployed  in multiple GCP Regions around the world and no"
+      "detail": "Change\nCloud Scheduler is now available in  us-west1, asia-east1, and asia-southeast1."
     },
     {
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nCloud Scheduler is now available in  us-west1, asia-east1, and asia-southeast1."
+      "detail": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead."
     },
     {
       "date": "2026-05-20",
@@ -191,13 +191,19 @@
       "date": "2026-05-20",
       "service": "cloud-scheduler",
       "type": "new_news",
-      "detail": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead."
+      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha"
+    },
+    {
+      "date": "2026-05-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat"
+      "detail": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da"
     },
     {
       "date": "2026-05-20",
@@ -215,13 +221,13 @@
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0"
+      "detail": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway "
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. "
+      "detail": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff"
     },
     {
       "date": "2026-05-20",
@@ -233,13 +239,13 @@
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway "
+      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat"
     },
     {
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da"
+      "detail": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. "
     },
     {
       "date": "2026-05-20",
@@ -251,19 +257,7 @@
       "date": "2026-05-20",
       "service": "api-gateway",
       "type": "new_news",
-      "detail": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff"
-    },
-    {
-      "date": "2026-05-20",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl"
-    },
-    {
-      "date": "2026-05-19",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese"
+      "detail": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0"
     },
     {
       "date": "2026-05-19",
@@ -272,10 +266,10 @@
       "detail": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec"
     },
     {
-      "date": "2026-05-16",
+      "date": "2026-05-19",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis"
+      "detail": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese"
     },
     {
       "date": "2026-05-16",
@@ -284,10 +278,10 @@
       "detail": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and "
     },
     {
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "service": "bigquery",
       "type": "new_news",
-      "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat"
+      "detail": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis"
     },
     {
       "date": "2026-05-15",
@@ -296,16 +290,46 @@
       "detail": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc"
     },
     {
+      "date": "2026-05-15",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat"
+    },
+    {
       "date": "2026-05-14",
-      "service": "cloud-storage",
-      "type": "quota_changed",
-      "detail": "Max object size: 5 TiB → 5 TiB (single object)"
+      "service": "vertex-ai",
+      "type": "service_added",
+      "detail": "Vertex AI"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "secret-manager",
+      "type": "service_added",
+      "detail": "Secret Manager"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "memorystore",
+      "type": "service_added",
+      "detail": "Memorystore"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "gke",
+      "type": "service_added",
+      "detail": "Google Kubernetes Engine"
     },
     {
       "date": "2026-05-14",
       "service": "gke",
       "type": "new_news",
       "detail": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-storage",
+      "type": "quota_changed",
+      "detail": "Max object size: 5 TiB → 5 TiB (single object)"
     },
     {
       "date": "2026-05-14",
@@ -321,33 +345,9 @@
     },
     {
       "date": "2026-05-14",
-      "service": "memorystore",
-      "type": "service_added",
-      "detail": "Memorystore"
-    },
-    {
-      "date": "2026-05-14",
-      "service": "secret-manager",
-      "type": "service_added",
-      "detail": "Secret Manager"
-    },
-    {
-      "date": "2026-05-14",
       "service": "cloud-build",
       "type": "service_added",
       "detail": "Cloud Build"
-    },
-    {
-      "date": "2026-05-14",
-      "service": "vertex-ai",
-      "type": "service_added",
-      "detail": "Vertex AI"
-    },
-    {
-      "date": "2026-05-14",
-      "service": "gke",
-      "type": "service_added",
-      "detail": "Google Kubernetes Engine"
     },
     {
       "date": "2026-05-13",
@@ -357,15 +357,9 @@
     },
     {
       "date": "2026-05-12",
-      "service": "cloud-run",
+      "service": "workflows",
       "type": "service_added",
-      "detail": "Cloud Run"
-    },
-    {
-      "date": "2026-05-12",
-      "service": "cloud-run-functions",
-      "type": "service_added",
-      "detail": "Cloud Run Functions"
+      "detail": "Workflows"
     },
     {
       "date": "2026-05-12",
@@ -375,15 +369,9 @@
     },
     {
       "date": "2026-05-12",
-      "service": "bigquery",
+      "service": "eventarc",
       "type": "service_added",
-      "detail": "BigQuery"
-    },
-    {
-      "date": "2026-05-12",
-      "service": "cloud-pubsub",
-      "type": "service_added",
-      "detail": "Cloud Pub/Sub"
+      "detail": "Eventarc"
     },
     {
       "date": "2026-05-12",
@@ -393,27 +381,39 @@
     },
     {
       "date": "2026-05-12",
-      "service": "cloud-scheduler",
-      "type": "service_added",
-      "detail": "Cloud Scheduler"
-    },
-    {
-      "date": "2026-05-12",
-      "service": "eventarc",
-      "type": "service_added",
-      "detail": "Eventarc"
-    },
-    {
-      "date": "2026-05-12",
       "service": "cloud-storage",
       "type": "service_added",
       "detail": "Cloud Storage"
     },
     {
       "date": "2026-05-12",
-      "service": "workflows",
+      "service": "cloud-scheduler",
       "type": "service_added",
-      "detail": "Workflows"
+      "detail": "Cloud Scheduler"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run-functions",
+      "type": "service_added",
+      "detail": "Cloud Run Functions"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run",
+      "type": "service_added",
+      "detail": "Cloud Run"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-pubsub",
+      "type": "service_added",
+      "detail": "Cloud Pub/Sub"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bigquery",
+      "type": "service_added",
+      "detail": "BigQuery"
     },
     {
       "date": "2026-05-12",
