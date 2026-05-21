@@ -141,6 +141,10 @@ function getService(provider) {
 }
 
 function getLimitValue(provider, row) {
+  // Check for static value first
+  const staticVal = row[`${provider}_value`]
+  if (staticVal) return staticVal
+
   const fieldName = row[provider]
   if (!fieldName) return null
   const svc = getService(provider)
@@ -171,6 +175,10 @@ function getLimitValue(provider, row) {
 }
 
 function getPricingValue(provider, row) {
+  // Check for static value first
+  const staticVal = row[`${provider}_value`]
+  if (staticVal) return staticVal
+
   const fieldName = row[provider]
   if (!fieldName) return null
   const svc = getService(provider)
