@@ -10,10 +10,29 @@
     },
     {
       "date": "2026-05-22",
-      "service": "aurora-serverless",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Opus 4.7: 0"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon Aurora MySQL 8.4  is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
+      "detail": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock expands support for request-level usage attribution",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 4.7: 0"
     },
     {
       "date": "2026-05-22",
@@ -31,29 +50,10 @@
     },
     {
       "date": "2026-05-22",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Opus 4.7: 0"
-    },
-    {
-      "date": "2026-05-22",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 4.7: 0"
-    },
-    {
-      "date": "2026-05-22",
-      "service": "bedrock",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
-      "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
-    },
-    {
-      "date": "2026-05-22",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock expands support for request-level usage attribution",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
+      "detail": "Amazon Aurora MySQL 8.4  is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
     },
     {
       "date": "2026-05-21",
