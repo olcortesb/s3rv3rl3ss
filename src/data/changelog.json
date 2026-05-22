@@ -3,6 +3,20 @@
   "changes": [
     {
       "date": "2026-05-22",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
+    },
+    {
+      "date": "2026-05-22",
       "service": "ecs",
       "type": "new_news",
       "detail": "Amazon ECS now integrates with Amazon EBS volumes in AWS GovCloud Regions",
