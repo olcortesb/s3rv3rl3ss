@@ -522,7 +522,7 @@
         },
         {
           "date": "2026-05-12",
-          "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+          "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
         },
         {
@@ -4048,13 +4048,8 @@
       "news": [
         {
           "date": "2026-05-21",
-          "title": "Amazon Aurora MySQL 8.4  is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
-        },
-        {
-          "date": "2026-05-21",
           "title": "Amazon Aurora MySQL 8.4 is now generally available",
-          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
         },
         {
           "date": "2026-05-21",
@@ -10937,7 +10932,7 @@
         },
         {
           "date": "2026-05-14",
-          "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
+          "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
         }
       ],
