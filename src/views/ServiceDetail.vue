@@ -172,22 +172,40 @@
         </div>
       </div>
 
-      <!-- Changelog -->
-      <div v-if="changelog.length" class="mb-6">
-        <button @click="showChangelog = !showChangelog" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
-          <span class="text-xs">{{ showChangelog ? '▼' : '▶' }}</span>
-          Changelog
-          <span class="text-xs font-normal text-gray-400">({{ changelog.length }})</span>
+      <!-- News History -->
+      <div v-if="newsHistory.length" class="mb-6">
+        <button @click="showNews = !showNews" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showNews ? '▼' : '▶' }}</span>
+          📰 News History
+          <span class="text-xs font-normal text-gray-400">({{ newsHistory.length }})</span>
         </button>
-        <div v-show="showChangelog">
+        <div v-show="showNews">
           <ul class="space-y-2">
-            <li v-for="(c, i) in changelog" :key="i" class="flex gap-3 text-sm">
+            <li v-for="(c, i) in newsHistory" :key="i" class="flex gap-3 text-sm">
               <span class="text-gray-400 shrink-0">{{ c.date }}</span>
-              <span class="shrink-0">{{ typeIcon(c.type) }}</span>
               <a v-if="c.url" :href="c.url" target="_blank" class="text-orange-600 hover:underline">{{ c.detail }}</a>
               <span v-else class="text-gray-700">{{ c.detail }}</span>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <!-- Quota Changes -->
+      <div v-if="quotaChanges.length" class="mb-6">
+        <button @click="showQuotaChanges = !showQuotaChanges" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+          <span class="text-xs">{{ showQuotaChanges ? '▼' : '▶' }}</span>
+          📊 Quota Changes
+          <span class="text-xs font-normal text-gray-400">({{ quotaChanges.length }})</span>
+        </button>
+        <div v-show="showQuotaChanges">
+          <ul class="space-y-2">
+            <li v-for="(c, i) in quotaChanges" :key="i" class="flex gap-3 text-sm">
+              <span class="text-gray-400 shrink-0">{{ c.date }}</span>
+              <span class="shrink-0">{{ typeIcon(c.type) }}</span>
+              <span class="text-gray-700">{{ c.detail }}</span>
+            </li>
+          </ul>
+          <a :href="quotasUrl" target="_blank" class="inline-block mt-3 text-xs text-orange-500 hover:underline">View quotas ↗</a>
         </div>
       </div>
 
@@ -242,9 +260,27 @@ function shareOnLinkedIn(news) {
 const showRuntimes = ref(false)
 const showQuotas = ref(false)
 const showLimits = ref(false)
-const showChangelog = ref(false)
+const showNews = ref(false)
+const showQuotaChanges = ref(false)
 const quotaSearch = ref('')
 const limitSearch = ref('')
+
+const newsHistory = computed(() =>
+  changelog.value.filter(c => c.type === 'new_news' || c.type === 'service_added')
+)
+
+const quotaChanges = computed(() =>
+  changelog.value.filter(c => c.type === 'quota_changed' || c.type === 'quota_added' || c.type === 'quota_removed' || c.type === 'new_runtime' || c.type === 'runtime_changed' || c.type === 'runtime_removed')
+)
+
+const quotasUrl = computed(() => {
+  const urls = {
+    aws: `https://us-east-1.console.aws.amazon.com/servicequotas/home/services/${service.value?.id || ''}/quotas`,
+    gcp: 'https://console.cloud.google.com/iam-admin/quotas',
+    azure: 'https://portal.azure.com/#view/Microsoft_Azure_Capacity/QuotaMenuBlade/~/overview',
+  }
+  return urls[props.provider] || '#'
+})
 
 const TYPE_ICONS = {
   quota_changed: '📊',
