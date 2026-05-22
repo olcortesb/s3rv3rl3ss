@@ -50,7 +50,7 @@
       <!-- Today -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">⚡ Today</h2>
+          <h2 class="font-semibold text-gray-900 mb-4">⚡ Today <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
               <div class="text-2xl font-bold text-gray-900">{{ metrics.today.invocations }}</div>
@@ -75,7 +75,7 @@
 
         <!-- Month -->
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">📅 This Month</h2>
+          <h2 class="font-semibold text-gray-900 mb-4">📅 This Month <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
               <div class="text-2xl font-bold text-gray-900">{{ metrics.month.invocations }}</div>

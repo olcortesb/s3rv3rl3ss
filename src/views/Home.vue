@@ -27,6 +27,22 @@
         📊 Project Metrics
       </router-link>
     </div>
+
+    <!-- Feedback -->
+    <div class="mt-12 text-center">
+      <p class="text-sm text-gray-400 mb-3">Have feedback, ideas or found a bug?</p>
+      <div class="flex justify-center gap-3">
+        <a href="https://github.com/olcortesb/s3rv3rl3ss/issues/new" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
+          🐛 Open an Issue
+        </a>
+        <a href="https://x.com/olcortesb" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
+          🐦 @olcortesb
+        </a>
+        <a href="https://www.linkedin.com/in/oscarcortesbracho/" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
+          💼 LinkedIn
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
