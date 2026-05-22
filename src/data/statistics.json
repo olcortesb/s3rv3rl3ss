@@ -3,7 +3,7 @@
     "totalServices": 22,
     "totalQuotas": 1590,
     "totalLimits": 155,
-    "totalNews": 72,
+    "totalNews": 71,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -15,8 +15,8 @@
       "count": 1116
     },
     "mostNews": {
-      "id": "aurora-serverless",
-      "name": "Amazon Aurora Serverless",
+      "id": "bedrock",
+      "name": "Amazon Bedrock",
       "count": 10
     },
     "mostLimits": {
