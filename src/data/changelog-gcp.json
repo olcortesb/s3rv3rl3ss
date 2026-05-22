@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "changes": [
+    {
+      "date": "2026-05-22",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now\ncreate materialized views over active change data capture (CDC) enabled tables.\nThis feature is gene",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
+    },
     {
       "date": "2026-05-21",
       "service": "cloud-spanner",
