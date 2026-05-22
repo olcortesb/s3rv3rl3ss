@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "changes": [
+    {
+      "date": "2026-05-22",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS now integrates with Amazon EBS volumes in AWS GovCloud Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora MySQL 8.4  is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora MySQL 8.4 is now generally available",
+      "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
+      "url": "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Opus 4.7: 0"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 4.7: 0"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock expands support for request-level usage attribution",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
+    },
     {
       "date": "2026-05-21",
       "service": "lambda",
