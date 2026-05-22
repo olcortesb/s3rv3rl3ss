@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "services": [
     {
       "id": "cloud-run",
@@ -503,11 +503,6 @@
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
         },
         {
-          "date": "2026-05-19",
-          "title": "Feature\nYou can use the\nAI.PARSE_DOCUMENT function\nto parse documents such as PDFs. This function uses the Document AI\nl",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_19_2026"
-        },
-        {
           "date": "2026-05-18",
           "title": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
@@ -546,6 +541,11 @@
           "date": "2026-04-29",
           "title": "Breaking\nStrict act-as mode\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service ac",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "Feature\nYou can now\ncreate materialized views over active change data capture (CDC) enabled tables.\nThis feature is gene",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
         }
       ],
       "pricingDetails": [
