@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21",
+  "lastUpdated": "2026-05-22",
   "services": [
     {
       "id": "lambda",
@@ -3803,14 +3803,14 @@
       ],
       "news": [
         {
-          "date": "2026-05-20",
-          "title": "ECS supports native integration with Amazon EBS volumes in GovCloud Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
-        },
-        {
           "date": "2026-05-19",
           "title": "Amazon ECS introduces pause and continue controls for service deployments",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "Amazon ECS now integrates with Amazon EBS volumes in AWS GovCloud Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
         },
         {
           "date": "2026-05-08",
@@ -4047,6 +4047,21 @@
       ],
       "news": [
         {
+          "date": "2026-05-21",
+          "title": "Amazon Aurora MySQL 8.4  is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Amazon Aurora MySQL 8.4 is now generally available",
+          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
+          "url": "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/"
+        },
+        {
           "date": "2026-05-18",
           "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/"
@@ -4080,11 +4095,6 @@
           "date": "2026-05-08",
           "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/"
-        },
-        {
-          "date": "2026-05-07",
-          "title": "Migrating data from an Amazon Aurora snapshot into Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/migrating-data-from-an-amazon-aurora-snapshot-into-amazon-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -9409,6 +9419,12 @@
           "adjustable": true
         },
         {
+          "name": "[bedrock-mantle endpoint] Output tokens per minute for Claude Opus 4.7",
+          "value": "0",
+          "description": "[bedrock-mantle endpoint] The maximum number of output tokens per minute Claude Opus 4.7 can generate for your account in this region. Shared across all APIs for this model.",
+          "adjustable": true
+        },
+        {
           "name": "(Guardrails) Topics per guardrail",
           "value": "30",
           "description": "The maximum number of topics that can be defined across guardrail topic policies",
@@ -9499,12 +9515,6 @@
           "adjustable": false
         },
         {
-          "name": "Cross-region model inference tokens per minute for Cohere Embed V4",
-          "value": "300000",
-          "description": "The maximum number of cross-region tokens that you can submit for model inference in one minute for Cohere Embed V4. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
-          "adjustable": true
-        },
-        {
           "name": "(Knowledge Bases) DeleteDataSource requests per second",
           "value": "2",
           "description": "The maximum number of DeleteDataSource API requests per second.",
@@ -9539,6 +9549,12 @@
           "value": "10",
           "description": "The maximum number of GetAgentAlias API requests per second.",
           "adjustable": false
+        },
+        {
+          "name": "Cross-region model inference tokens per minute for Cohere Embed V4",
+          "value": "300000",
+          "description": "The maximum number of cross-region tokens that you can submit for model inference in one minute for Cohere Embed V4. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
+          "adjustable": true
         },
         {
           "name": "On-demand model inference requests per minute for Gemma 3 12B",
@@ -9577,12 +9593,6 @@
           "adjustable": true
         },
         {
-          "name": "(Evaluation) Number of models in automated model evaluation job",
-          "value": "1",
-          "description": "The maximum number of models that you can specify in an automated model evaluation job.",
-          "adjustable": false
-        },
-        {
           "name": "On-demand model inference requests per minute for NVIDIA Nemotron Nano 2 VL",
           "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for NVIDIA Nemotron Nano 2 VL. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
@@ -9607,9 +9617,9 @@
           "adjustable": false
         },
         {
-          "name": "On-demand model inference tokens per minute for Mistral AI Mistral 7B Instruct",
-          "value": "300000",
-          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Mistral AI Mistral 7B Instruct.",
+          "name": "(Evaluation) Number of models in automated model evaluation job",
+          "value": "1",
+          "description": "The maximum number of models that you can specify in an automated model evaluation job.",
           "adjustable": false
         },
         {
@@ -9643,21 +9653,15 @@
           "adjustable": false
         },
         {
+          "name": "On-demand model inference tokens per minute for Mistral AI Mistral 7B Instruct",
+          "value": "300000",
+          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Mistral AI Mistral 7B Instruct.",
+          "adjustable": false
+        },
+        {
           "name": "On-demand model inference requests per minute for Amazon Nova Lite",
           "value": "200",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Nova Lite. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
-          "adjustable": false
-        },
-        {
-          "name": "On-demand model inference tokens per minute for Gemma 3 27B",
-          "value": "100000000",
-          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute for Gemma 3 27B. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
-          "adjustable": false
-        },
-        {
-          "name": "Model invocation max tokens per day for Anthropic Claude Sonnet 4.6 (doubled for cross-region calls)",
-          "value": "5400000",
-          "description": "Daily maximum tokens for model inference for Anthropic Claude Sonnet 4.6. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
           "adjustable": false
         },
         {
@@ -9677,6 +9681,12 @@
           "value": "1",
           "description": "The maximum size of a single file (in GB) submitted for batch inference for Ministral 3B.",
           "adjustable": false
+        },
+        {
+          "name": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 4.7",
+          "value": "0",
+          "description": "[bedrock-mantle endpoint] The maximum number of input tokens per minute your account can submit to Claude Opus 4.7 in this region. Shared across all APIs for this model.",
+          "adjustable": true
         },
         {
           "name": "Associated aliases per Agent",
@@ -9715,6 +9725,18 @@
           "adjustable": true
         },
         {
+          "name": "On-demand model inference tokens per minute for Gemma 3 27B",
+          "value": "100000000",
+          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute for Gemma 3 27B. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
+          "adjustable": false
+        },
+        {
+          "name": "Model invocation max tokens per day for Anthropic Claude Sonnet 4.6 (doubled for cross-region calls)",
+          "value": "5400000",
+          "description": "Daily maximum tokens for model inference for Anthropic Claude Sonnet 4.6. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
+          "adjustable": false
+        },
+        {
           "name": "On-demand model inference requests per minute for Stable Image Remove Background",
           "value": "1",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Remove Background. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
@@ -9736,12 +9758,6 @@
           "name": "On-demand model inference tokens per minute for Amazon Titan Text Embeddings V2",
           "value": "300000",
           "description": "The maximum number of tokens that you can provide through InvokeModel in one minute for Amazon Titan Text Embeddings V2.",
-          "adjustable": false
-        },
-        {
-          "name": "On-demand model inference requests per minute for Stable Image Erase Object",
-          "value": "1",
-          "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Erase Object. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
@@ -9778,6 +9794,12 @@
           "name": "(Flows) UpdateFlow requests per second",
           "value": "2",
           "description": "The maximum number of UpdateFlow requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "On-demand model inference requests per minute for Stable Image Erase Object",
+          "value": "1",
+          "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Stable Image Erase Object. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
         },
         {
@@ -9913,12 +9935,6 @@
           "adjustable": false
         },
         {
-          "name": "Model invocation max tokens per day for Cohere Embed V4 (doubled for cross-region calls)",
-          "value": "8100000",
-          "description": "Daily maximum tokens for model inference for Cohere Embed V4. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
-          "adjustable": false
-        },
-        {
           "name": "Sum of in-progress and submitted batch inference jobs using a base model for Llama 3.1 70B Instruct",
           "value": "100",
           "description": "The maximum number of in-progress and submitted batch inference jobs using a base model for Llama 3.1 70B Instruct.",
@@ -9935,6 +9951,12 @@
           "value": "0",
           "description": "The maximum number of model units that can be allotted to a provisioned model for Anthropic Claude 3 Sonnet 200K.",
           "adjustable": true
+        },
+        {
+          "name": "Model invocation max tokens per day for Cohere Embed V4 (doubled for cross-region calls)",
+          "value": "8100000",
+          "description": "Daily maximum tokens for model inference for Cohere Embed V4. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
+          "adjustable": false
         },
         {
           "name": "On-demand model inference tokens per minute for NVIDIA Nemotron Nano 2",
@@ -9985,12 +10007,6 @@
           "adjustable": true
         },
         {
-          "name": "Model units per provisioned model for Anthropic Claude Instant V1 100K",
-          "value": "0",
-          "description": "The maximum number of model units that can be allotted to a provisioned model for Anthropic Claude Instant V1 100K.",
-          "adjustable": true
-        },
-        {
           "name": "On-demand model inference requests per minute for Cohere Embed English",
           "value": "200",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Cohere Embed English.",
@@ -10001,6 +10017,12 @@
           "value": "80",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Meta Llama 3.2 1B Instruct. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
+        },
+        {
+          "name": "Model units per provisioned model for Anthropic Claude Instant V1 100K",
+          "value": "0",
+          "description": "The maximum number of model units that can be allotted to a provisioned model for Anthropic Claude Instant V1 100K.",
+          "adjustable": true
         },
         {
           "name": "Records per batch inference job for Mistral Small",
@@ -10117,12 +10139,6 @@
           "adjustable": true
         },
         {
-          "name": "Batch inference input file size (in GB) for NVIDIA Nemotron Nano 3 30B",
-          "value": "1",
-          "description": "The maximum size of a single file (in GB) submitted for batch inference for NVIDIA Nemotron Nano 3 30B.",
-          "adjustable": false
-        },
-        {
           "name": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 4.5",
           "value": "2000000",
           "description": "The maximum number of global cross-region tokens that you can submit for model inference in one minute for Anthropic Claude Opus 4.5. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
@@ -10132,6 +10148,12 @@
           "name": "On-demand model inference requests per minute for Mistral Large",
           "value": "40",
           "description": "The maximum number of times that you can call InvokeModel and InvokeModelWithResponseStream in one minute for Mistral mistral-large-2402-v1",
+          "adjustable": false
+        },
+        {
+          "name": "Batch inference input file size (in GB) for NVIDIA Nemotron Nano 3 30B",
+          "value": "1",
+          "description": "The maximum size of a single file (in GB) submitted for batch inference for NVIDIA Nemotron Nano 3 30B.",
           "adjustable": false
         },
         {
@@ -10177,12 +10199,6 @@
           "adjustable": false
         },
         {
-          "name": "Batch inference job size (in GB) for Voxtral Small 24B 2507",
-          "value": "5",
-          "description": "The maximum cumulative size of all input files (in GB) included in the batch inference job for Voxtral Small 24B 2507.",
-          "adjustable": false
-        },
-        {
           "name": "On-demand model inference requests per minute for Amazon Rerank 1.0",
           "value": "20",
           "description": "The maximum number of times that you can call InvokeModel in one minute for Amazon Rerank 1.0.",
@@ -10198,6 +10214,12 @@
           "name": "On-demand model inference tokens per minute for Gemma 3 4B",
           "value": "100000000",
           "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute for Gemma 3 4B. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
+          "adjustable": false
+        },
+        {
+          "name": "Batch inference job size (in GB) for Voxtral Small 24B 2507",
+          "value": "5",
+          "description": "The maximum cumulative size of all input files (in GB) included in the batch inference job for Voxtral Small 24B 2507.",
           "adjustable": false
         },
         {
@@ -10255,12 +10277,6 @@
           "adjustable": true
         },
         {
-          "name": "On-demand model inference requests per minute for TwelveLabs Marengo Embed 3.0",
-          "value": "50",
-          "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for TwelveLabs Marengo Embed 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
-          "adjustable": true
-        },
-        {
           "name": "Records per batch inference job for OpenAI GPT OSS 120b",
           "value": "100000",
           "description": "The maximum number of records across all input files in a batch inference job for OpenAI GPT OSS 120b.",
@@ -10291,15 +10307,21 @@
           "adjustable": true
         },
         {
-          "name": "Records per input file per batch inference job for GLM 4.7 Flash",
-          "value": "100000",
-          "description": "The maximum number of records in an input file in a batch inference job for GLM 4.7 Flash.",
+          "name": "On-demand model inference requests per minute for TwelveLabs Marengo Embed 3.0",
+          "value": "50",
+          "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for TwelveLabs Marengo Embed 3.0. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": true
         },
         {
           "name": "On-demand InvokeModel async concurrent requests for TwelveLabs Marengo Embed 3.0",
           "value": "1",
           "description": "The maximum number of async concurrent model inference requests that you can submit for TwelveLabs Marengo Embed 3.0. The quota considers the combined sum of Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream.",
+          "adjustable": true
+        },
+        {
+          "name": "Records per input file per batch inference job for GLM 4.7 Flash",
+          "value": "100000",
+          "description": "The maximum number of records in an input file in a batch inference job for GLM 4.7 Flash.",
           "adjustable": true
         },
         {
@@ -10333,16 +10355,16 @@
           "adjustable": false
         },
         {
-          "name": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Mini",
-          "value": "30000",
-          "description": "The maximum number of tokens that you can submit for model inference in one minute for AI21 Labs Jamba 1.5 Mini. The quota considers the combined sum of input and output tokens across all requests to Converse and InvokeModel.",
-          "adjustable": false
-        },
-        {
           "name": "Cross-Region model inference tokens per minute for Anthropic Claude 3.5 Haiku",
           "value": "4000000",
           "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3.5 Haiku.",
           "adjustable": true
+        },
+        {
+          "name": "On-demand model inference tokens per minute for AI21 Labs Jamba 1.5 Mini",
+          "value": "30000",
+          "description": "The maximum number of tokens that you can submit for model inference in one minute for AI21 Labs Jamba 1.5 Mini. The quota considers the combined sum of input and output tokens across all requests to Converse and InvokeModel.",
+          "adjustable": false
         },
         {
           "name": "Records per input file per batch inference job for NVIDIA Nemotron Nano 12B",
@@ -10411,12 +10433,6 @@
           "adjustable": false
         },
         {
-          "name": "Model units per provisioned model for the 300k context length variant for Amazon Nova Pro",
-          "value": "0",
-          "description": "The maximum number of model units that can be allotted to a provisioned model for the 300k context length variant for Amazon Nova Pro.",
-          "adjustable": true
-        },
-        {
           "name": "On-demand model inference requests per minute for Qwen3 Coder 30B a3b V1",
           "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Qwen3 Coder 30B a3b V1. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
@@ -10427,6 +10443,12 @@
           "value": "50",
           "description": "The maximum number of times that you can call model inference in one minute. The quota considers the combined sum of Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Haiku.",
           "adjustable": false
+        },
+        {
+          "name": "Model units per provisioned model for the 300k context length variant for Amazon Nova Pro",
+          "value": "0",
+          "description": "The maximum number of model units that can be allotted to a provisioned model for the 300k context length variant for Amazon Nova Pro.",
+          "adjustable": true
         },
         {
           "name": "Records per input file per batch inference job for MiniMax M2.5",
@@ -10453,12 +10475,6 @@
           "adjustable": true
         },
         {
-          "name": "(Data Automation) (Console) Maximum number of pages per document file",
-          "value": "20",
-          "description": "The maximum number of pages per document in console",
-          "adjustable": false
-        },
-        {
           "name": "Model invocation max tokens per day for Amazon Nova Micro (doubled for cross-region calls)",
           "value": "207360000",
           "description": "Daily maximum tokens for model inference for Amazon Nova Micro. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
@@ -10468,6 +10484,12 @@
           "name": "Model invocation max tokens per day for OpenAI GPT OSS 120B (doubled for cross-region calls)",
           "value": "5400000000",
           "description": "Daily maximum tokens for model inference for OpenAI GPT OSS 120B. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
+          "adjustable": false
+        },
+        {
+          "name": "(Data Automation) (Console) Maximum number of pages per document file",
+          "value": "20",
+          "description": "The maximum number of pages per document in console",
           "adjustable": false
         },
         {
@@ -10507,6 +10529,12 @@
           "adjustable": false
         },
         {
+          "name": "On-demand model inference tokens per minute for Anthropic Claude 3 Haiku",
+          "value": "2000000",
+          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Haiku.",
+          "adjustable": false
+        },
+        {
           "name": "Model units per provisioned model for AI21 Labs Jurassic-2 Mid",
           "value": "0",
           "description": "The maximum number of model units that can be allotted to a provisioned model for AI21 Labs Jurassic-2 Mid.",
@@ -10516,12 +10544,6 @@
           "name": "Batch inference input file size (in GB) for NVIDIA Nemotron Nano 9B",
           "value": "1",
           "description": "The maximum size of a single file (in GB) submitted for batch inference for NVIDIA Nemotron Nano 9B.",
-          "adjustable": false
-        },
-        {
-          "name": "On-demand model inference tokens per minute for Anthropic Claude 3 Haiku",
-          "value": "2000000",
-          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream for Anthropic Claude 3 Haiku.",
           "adjustable": false
         },
         {
@@ -10537,15 +10559,15 @@
           "adjustable": true
         },
         {
-          "name": "(Data Automation) Maximum Blueprints per Project (Images)",
-          "value": "1",
-          "description": "The maximum number of blueprints per projects for images",
-          "adjustable": false
-        },
-        {
           "name": "Global cross-region model inference tokens per day for Amazon Nova 2 Omni",
           "value": "432000000",
           "description": "The maximum number of global cross-region tokens that you can submit for model inference in one day for Amazon Nova 2 Omni. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
+          "adjustable": false
+        },
+        {
+          "name": "(Data Automation) Maximum Blueprints per Project (Images)",
+          "value": "1",
+          "description": "The maximum number of blueprints per projects for images",
           "adjustable": false
         },
         {
@@ -10597,12 +10619,6 @@
           "adjustable": false
         },
         {
-          "name": "Model units per provisioned model for Amazon Titan Multimodal Embeddings G1",
-          "value": "0",
-          "description": "The maximum number of model units that can be allotted to a provisioned model for Amazon Titan Multimodal Embeddings G1.",
-          "adjustable": true
-        },
-        {
           "name": "Model invocation max tokens per day for Mistral Pixtral Large 25.02 V1 (doubled for cross-region calls)",
           "value": "4320000",
           "description": "Daily maximum tokens for model inference for Mistral Pixtral Large 25.02 V1. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
@@ -10627,10 +10643,10 @@
           "adjustable": false
         },
         {
-          "name": "Model invocation max tokens per day for Anthropic Claude 3 Haiku (doubled for cross-region calls)",
-          "value": "63360001",
-          "description": "Daily maximum tokens for model inference for Anthropic Claude 3 Haiku. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
-          "adjustable": false
+          "name": "Model units per provisioned model for Amazon Titan Multimodal Embeddings G1",
+          "value": "0",
+          "description": "The maximum number of model units that can be allotted to a provisioned model for Amazon Titan Multimodal Embeddings G1.",
+          "adjustable": true
         },
         {
           "name": "(Flows) Total nodes per flow",
@@ -10663,10 +10679,10 @@
           "adjustable": false
         },
         {
-          "name": "Sum of in-progress and submitted batch inference jobs using a base model for Llama 3.2 90B Instruct",
-          "value": "100",
-          "description": "The maximum number of in-progress and submitted batch inference jobs using a base model for Llama 3.2 90B Instruct.",
-          "adjustable": true
+          "name": "Model invocation max tokens per day for Anthropic Claude 3 Haiku (doubled for cross-region calls)",
+          "value": "63360001",
+          "description": "Daily maximum tokens for model inference for Anthropic Claude 3 Haiku. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
+          "adjustable": false
         },
         {
           "name": "Model invocation max tokens per day for Kimi K2 Thinking (doubled for cross-region calls)",
@@ -10685,6 +10701,12 @@
           "value": "1000",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Mistral Devstral 2 123b. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
           "adjustable": false
+        },
+        {
+          "name": "Sum of in-progress and submitted batch inference jobs using a base model for Llama 3.2 90B Instruct",
+          "value": "100",
+          "description": "The maximum number of in-progress and submitted batch inference jobs using a base model for Llama 3.2 90B Instruct.",
+          "adjustable": true
         },
         {
           "name": "Model units per provisioned model for Amazon Nova Canvas",
@@ -10717,12 +10739,6 @@
           "adjustable": true
         },
         {
-          "name": "Batch inference input file size (in GB) for Kimi K2 Thinking",
-          "value": "1",
-          "description": "The maximum size of a single file (in GB) submitted for batch inference for Kimi K2 Thinking.",
-          "adjustable": false
-        },
-        {
           "name": "Model invocation max tokens per day for Anthropic Claude Sonnet 4 V1 (doubled for cross-region calls)",
           "value": "5400000",
           "description": "Daily maximum tokens for model inference for Anthropic Claude Sonnet 4 V1. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
@@ -10750,6 +10766,12 @@
           "name": "On-demand model inference requests per minute for Amazon Titan Image Generator G1 V2",
           "value": "6",
           "description": "The maximum number of on-demand requests that you can submit for model inference in one minute for Amazon Titan Image Generator G1 V2. This quota represents the total number of requests to the Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream actions.",
+          "adjustable": false
+        },
+        {
+          "name": "Batch inference input file size (in GB) for Kimi K2 Thinking",
+          "value": "1",
+          "description": "The maximum size of a single file (in GB) submitted for batch inference for Kimi K2 Thinking.",
           "adjustable": false
         },
         {
@@ -10807,12 +10829,6 @@
           "adjustable": true
         },
         {
-          "name": "On-demand model inference tokens per minute for Minimax M2",
-          "value": "100000000",
-          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute for Minimax M2. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
-          "adjustable": false
-        },
-        {
           "name": "Throttle rate limit for DeleteBlueprint",
           "value": "5",
           "description": "The maximum number of DeleteBlueprint requests you can make per second per account, in the current region",
@@ -10843,15 +10859,21 @@
           "adjustable": true
         },
         {
-          "name": "Batch inference input file size (in GB) for Llama 4 Maverick",
-          "value": "1",
-          "description": "The maximum size of a single file (in GB) submitted for batch inference for Llama 4 Maverick.",
+          "name": "On-demand model inference tokens per minute for Minimax M2",
+          "value": "100000000",
+          "description": "The maximum number of on-demand tokens that you can submit for model inference in one minute for Minimax M2. The quota considers the combined sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream.",
           "adjustable": false
         },
         {
           "name": "Model invocation max tokens per day for Writer Palmyra Vision 7B (doubled for cross-region calls)",
           "value": "5400000000",
           "description": "Daily maximum tokens for model inference for Writer Palmyra Vision 7B. Combines sum of input and output tokens across all requests to Converse, ConverseStream, InvokeModel and InvokeModelWithResponseStream. Doubled for cross-region calls; not applicable in case of approved TPM increase.",
+          "adjustable": false
+        },
+        {
+          "name": "Batch inference input file size (in GB) for Llama 4 Maverick",
+          "value": "1",
+          "description": "The maximum size of a single file (in GB) submitted for batch inference for Llama 4 Maverick.",
           "adjustable": false
         },
         {
@@ -10868,6 +10890,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-21",
+          "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+          "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
+        },
         {
           "date": "2026-05-21",
           "title": "Building multi-tenant agents with Amazon Bedrock AgentCore",
@@ -10894,6 +10921,11 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/"
         },
         {
+          "date": "2026-05-20",
+          "title": "Amazon Bedrock expands support for request-level usage attribution",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
+        },
+        {
           "date": "2026-05-19",
           "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
           "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
@@ -10904,19 +10936,9 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
         },
         {
-          "date": "2026-05-18",
-          "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
-        },
-        {
           "date": "2026-05-14",
           "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
-        },
-        {
-          "date": "2026-05-07",
-          "title": "Agents that transact: Amazon Bedrock AgentCore now includes Payments (preview)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview"
         }
       ],
       "dataStatus": "partial",
