@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-23",
   "changes": [
+    {
+      "date": "2026-05-23",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/"
+    },
     {
       "date": "2026-05-22",
       "service": "lambda",
