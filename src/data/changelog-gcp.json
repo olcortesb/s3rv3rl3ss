@@ -12,15 +12,15 @@
       "date": "2026-05-23",
       "service": "cloud-spanner",
       "type": "new_news",
-      "detail": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
-      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
+      "detail": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
     },
     {
       "date": "2026-05-23",
       "service": "cloud-spanner",
       "type": "new_news",
-      "detail": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
-      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
+      "detail": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
     },
     {
       "date": "2026-05-22",
