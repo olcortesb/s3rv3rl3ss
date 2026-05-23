@@ -17,13 +17,6 @@
     },
     {
       "date": "2026-05-22",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
-    },
-    {
-      "date": "2026-05-22",
       "service": "ecs",
       "type": "new_news",
       "detail": "Amazon ECS now integrates with Amazon EBS volumes in AWS GovCloud Regions",
@@ -54,6 +47,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 4.7: 0"
+    },
+    {
+      "date": "2026-05-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
     },
     {
       "date": "2026-05-22",
