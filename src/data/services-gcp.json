@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-23",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-21",
+          "title": "Change\n(2026-R20) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_21_2026"
+        },
+        {
           "date": "2026-05-14",
           "title": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_14_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-04-09",
           "title": "Change\n(2026-R14) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_09_2026"
-        },
-        {
-          "date": "2026-04-08",
-          "title": "Change\n\nThe feature announced on November 7, 2025,\nproviding faster log processing, has been rolled back. The rollback i",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_08_2026"
         }
       ],
       "pricingDetails": [
@@ -1463,13 +1463,18 @@
       ],
       "news": [
         {
+          "date": "2026-05-18",
+          "title": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
+        },
+        {
           "date": "2026-05-15",
           "title": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_15_2026"
         },
         {
           "date": "2026-05-14",
-          "title": "Announcement\nThe Spanner change streams default retention period has been increased from 1 day to 7 days.\nThis change af",
+          "title": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
         },
         {
@@ -1506,11 +1511,6 @@
           "date": "2026-03-30",
           "title": "Feature\nSpanner offers conversational analytics, which lets users query their\noperational data using natural language. T",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_30_2026"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "Feature\nThe Spark Spanner connector supports writing a Spark Dataframe to a Spanner\ntable using the Spark data source AP",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_25_2026"
         }
       ],
       "pricingDetails": [
