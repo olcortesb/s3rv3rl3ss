@@ -2,6 +2,55 @@
   "lastUpdated": "2026-05-24",
   "changes": [
     {
+      "date": "2026-05-24",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager",
+      "url": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "durable-functions",
+      "type": "service_added",
+      "detail": "Azure Durable Functions"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "stream-analytics",
+      "type": "service_added",
+      "detail": "Azure Stream Analytics"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "data-factory",
+      "type": "service_added",
+      "detail": "Azure Data Factory"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "synapse-serverless",
+      "type": "service_added",
+      "detail": "Azure Synapse Serverless SQL"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "communication-services",
+      "type": "service_added",
+      "detail": "Azure Communication Services"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "web-pubsub",
+      "type": "service_added",
+      "detail": "Azure Web PubSub"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "azure-cdn",
+      "type": "service_added",
+      "detail": "Azure CDN"
+    },
+    {
       "date": "2026-05-20",
       "service": "cosmos-db",
       "type": "new_news",
