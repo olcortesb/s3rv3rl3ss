@@ -1,7 +1,7 @@
 {
   "summary": {
-    "totalServices": 18,
-    "totalLimits": 103,
+    "totalServices": 25,
+    "totalLimits": 134,
     "totalNews": 180,
     "totalPricing": 40,
     "totalRuntimes": 17,
@@ -23,10 +23,14 @@
   "byCategory": [
     {
       "category": "Compute",
-      "count": 4
+      "count": 6
     },
     {
       "category": "Database",
+      "count": 3
+    },
+    {
+      "category": "Analytics",
       "count": 3
     },
     {
@@ -34,23 +38,19 @@
       "count": 3
     },
     {
+      "category": "Security",
+      "count": 3
+    },
+    {
       "category": "Messaging",
       "count": 2
     },
     {
-      "category": "Analytics",
-      "count": 1
+      "category": "Networking",
+      "count": 2
     },
     {
       "category": "Storage",
-      "count": 1
-    },
-    {
-      "category": "Networking",
-      "count": 1
-    },
-    {
-      "category": "Security",
       "count": 1
     },
     {
