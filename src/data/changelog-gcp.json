@@ -2,6 +2,48 @@
   "lastUpdated": "2026-05-24",
   "changes": [
     {
+      "date": "2026-05-24",
+      "service": "dataflow",
+      "type": "service_added",
+      "detail": "Dataflow"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "dataproc-serverless",
+      "type": "service_added",
+      "detail": "Dataproc Serverless"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "firebase-hosting",
+      "type": "service_added",
+      "detail": "Firebase Hosting"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-armor",
+      "type": "service_added",
+      "detail": "Cloud Armor"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-cdn",
+      "type": "service_added",
+      "detail": "Cloud CDN"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-identity-platform",
+      "type": "service_added",
+      "detail": "Identity Platform"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-functions-for-firebase",
+      "type": "service_added",
+      "detail": "Cloud Functions for Firebase"
+    },
+    {
       "date": "2026-05-23",
       "service": "gke",
       "type": "new_news",
