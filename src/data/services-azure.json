@@ -837,19 +837,66 @@
           "value": "256 KB"
         }
       ],
-      "news": [
-        {
-          "date": "2026-04-28",
-          "title": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment",
-          "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-idc-marketscape-worldwide-api-management-2026-vendor-assessment/"
-        }
-      ],
       "pricingDetails": [
         {
-          "label": "API calls (Consumption)",
-          "price": "$3.50",
-          "unit": "per 1M calls",
-          "description": "$3.50 per million API calls"
+          "label": "Secondary Unit",
+          "price": "$1.91",
+          "unit": "per 1 Hour",
+          "description": "$1.91 per 1 Hour (Secondary)"
+        },
+        {
+          "label": "Isolated Unit",
+          "price": "$21.77",
+          "unit": "per 1 Hour",
+          "description": "$21.77 per 1 Hour (Isolated)"
+        },
+        {
+          "label": "Standard v2 Secondary Unit",
+          "price": "$0.6849",
+          "unit": "per 1 Hour",
+          "description": "$0.6849 per 1 Hour (Standard v2)"
+        },
+        {
+          "label": "Consumption Calls",
+          "price": "$0.00",
+          "unit": "per 10K",
+          "description": "$0.00 per 10K (Consumption)"
+        },
+        {
+          "label": "Gateway Unit",
+          "price": "$0.3425",
+          "unit": "per 1 Hour",
+          "description": "$0.3425 per 1 Hour (Gateway)"
+        },
+        {
+          "label": "Standard v2 Self-hosted Gateway",
+          "price": "$0.3425",
+          "unit": "per 1 Hour",
+          "description": "$0.3425 per 1 Hour (Standard v2)"
+        },
+        {
+          "label": "Basic v2 Secondary Unit",
+          "price": "$0.2055",
+          "unit": "per 1 Hour",
+          "description": "$0.2055 per 1 Hour (Basic v2)"
+        },
+        {
+          "label": "Developer Workspace Pack",
+          "price": "$0.00",
+          "unit": "per 1/Hour",
+          "description": "$0.00 per 1/Hour (Developer)"
+        },
+        {
+          "label": "Premium v2 Secondary Unit",
+          "price": "$1.92",
+          "unit": "per 1 Hour",
+          "description": "$1.92 per 1 Hour (Premium v2)"
+        },
+        {
+          "label": "Developer Unit",
+          "price": "$0.0658",
+          "unit": "per 1 Hour",
+          "description": "$0.0658 per 1 Hour (Developer)"
         }
       ]
     },
@@ -1175,6 +1222,13 @@
         {
           "name": "Services per cluster",
           "value": "5,000"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-22",
+          "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager",
+          "url": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/"
         }
       ],
       "pricingDetails": [
@@ -1507,6 +1561,263 @@
           "price": "$0.00",
           "unit": "per 1M",
           "description": "$0.00 per 1M (Standard)"
+        }
+      ]
+    },
+    {
+      "id": "durable-functions",
+      "enabled": true,
+      "name": "Azure Durable Functions",
+      "category": "Compute",
+      "description": "Azure Durable Functions is an extension of Azure Functions that lets you write stateful functions in a serverless compute environment with support for long-running orchestrations.",
+      "useCases": [
+        "Workflow orchestration",
+        "Fan-out/fan-in",
+        "Human interaction",
+        "Async HTTP APIs"
+      ],
+      "pricing": "Same as Azure Functions (pay per execution)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/functions/",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview",
+      "icon": "🔄",
+      "limits": [
+        {
+          "name": "Max orchestration duration",
+          "value": "Unlimited (with ContinueAsNew)"
+        },
+        {
+          "name": "Max activity input/output",
+          "value": "Varies by storage"
+        },
+        {
+          "name": "Max concurrent orchestrations",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max entity operations per second",
+          "value": "Limited by storage"
+        }
+      ]
+    },
+    {
+      "id": "stream-analytics",
+      "enabled": true,
+      "name": "Azure Stream Analytics",
+      "category": "Analytics",
+      "description": "Azure Stream Analytics is a fully managed, real-time analytics service designed to process fast-moving streams of data with a simple SQL-based query language.",
+      "useCases": [
+        "Real-time dashboards",
+        "IoT analytics",
+        "Anomaly detection",
+        "Log processing"
+      ],
+      "pricing": "Pay per streaming unit per hour",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/stream-analytics/",
+      "url": "https://azure.microsoft.com/en-us/products/stream-analytics",
+      "icon": "🌊",
+      "limits": [
+        {
+          "name": "Max streaming units per job",
+          "value": "396"
+        },
+        {
+          "name": "Max inputs per job",
+          "value": "60"
+        },
+        {
+          "name": "Max outputs per job",
+          "value": "60"
+        },
+        {
+          "name": "Max query steps",
+          "value": "Unlimited"
+        },
+        {
+          "name": "Max event size",
+          "value": "1 MB"
+        }
+      ]
+    },
+    {
+      "id": "data-factory",
+      "enabled": true,
+      "name": "Azure Data Factory",
+      "category": "Analytics",
+      "description": "Azure Data Factory is a serverless data integration service for creating, scheduling, and orchestrating ETL/ELT workflows at scale.",
+      "useCases": [
+        "ETL pipelines",
+        "Data migration",
+        "Data orchestration",
+        "Hybrid data integration"
+      ],
+      "pricing": "Pay per activity run, pipeline orchestration, and data movement",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/data-factory/",
+      "url": "https://azure.microsoft.com/en-us/products/data-factory",
+      "icon": "🏭",
+      "limits": [
+        {
+          "name": "Max pipelines per factory",
+          "value": "5,000"
+        },
+        {
+          "name": "Max activities per pipeline",
+          "value": "40"
+        },
+        {
+          "name": "Max concurrent pipeline runs",
+          "value": "10,000"
+        },
+        {
+          "name": "Max parameters per pipeline",
+          "value": "50"
+        },
+        {
+          "name": "Max pipeline timeout",
+          "value": "7 days"
+        }
+      ]
+    },
+    {
+      "id": "synapse-serverless",
+      "enabled": true,
+      "name": "Azure Synapse Serverless SQL",
+      "category": "Analytics",
+      "description": "Azure Synapse Serverless SQL pool lets you query data in your data lake using T-SQL without provisioning dedicated resources.",
+      "useCases": [
+        "Data lake queries",
+        "Ad-hoc analytics",
+        "Data exploration",
+        "Logical data warehouse"
+      ],
+      "pricing": "Pay per TB of data processed ($5/TB)",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/",
+      "url": "https://azure.microsoft.com/en-us/products/synapse-analytics",
+      "icon": "📊",
+      "limits": [
+        {
+          "name": "Max query result size",
+          "value": "Unlimited (to storage)"
+        },
+        {
+          "name": "Max concurrent queries",
+          "value": "1,000"
+        },
+        {
+          "name": "Max query text size",
+          "value": "256 KB"
+        },
+        {
+          "name": "Max columns per query",
+          "value": "8,060"
+        }
+      ]
+    },
+    {
+      "id": "communication-services",
+      "enabled": true,
+      "name": "Azure Communication Services",
+      "category": "Integration",
+      "description": "Azure Communication Services provides rich communication APIs for SMS, email, voice, video, and chat to build engaging customer experiences.",
+      "useCases": [
+        "SMS notifications",
+        "Email delivery",
+        "Video calls",
+        "Chat applications"
+      ],
+      "pricing": "Pay per message, minute, or participant",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/communication-services/",
+      "url": "https://azure.microsoft.com/en-us/products/communication-services",
+      "icon": "💬",
+      "limits": [
+        {
+          "name": "Max SMS message size",
+          "value": "2,048 characters"
+        },
+        {
+          "name": "Max email size",
+          "value": "10 MB"
+        },
+        {
+          "name": "Max chat participants per thread",
+          "value": "250"
+        },
+        {
+          "name": "Max video call participants",
+          "value": "1,000"
+        }
+      ]
+    },
+    {
+      "id": "web-pubsub",
+      "enabled": true,
+      "name": "Azure Web PubSub",
+      "category": "Real-time",
+      "description": "Azure Web PubSub is a fully managed service for building real-time web applications using WebSockets and the publish-subscribe pattern.",
+      "useCases": [
+        "Live dashboards",
+        "Collaborative apps",
+        "Notifications",
+        "Gaming"
+      ],
+      "pricing": "Pay per unit and messages",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/web-pubsub/",
+      "url": "https://azure.microsoft.com/en-us/products/web-pubsub",
+      "icon": "🔌",
+      "limits": [
+        {
+          "name": "Max connections per unit",
+          "value": "1,000"
+        },
+        {
+          "name": "Max message size",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max messages per second per unit",
+          "value": "1,000"
+        },
+        {
+          "name": "Max units",
+          "value": "100"
+        },
+        {
+          "name": "Max groups per connection",
+          "value": "Unlimited"
+        }
+      ]
+    },
+    {
+      "id": "azure-cdn",
+      "enabled": true,
+      "name": "Azure CDN",
+      "category": "Networking",
+      "description": "Azure CDN is a global content delivery network for delivering high-bandwidth content with low latency from edge servers closest to users.",
+      "useCases": [
+        "Static content delivery",
+        "Media streaming",
+        "Web acceleration",
+        "API caching"
+      ],
+      "pricing": "Pay per GB transferred and requests",
+      "pricingUrl": "https://azure.microsoft.com/en-us/pricing/details/cdn/",
+      "url": "https://azure.microsoft.com/en-us/products/cdn",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "Max file size (general delivery)",
+          "value": "Unlimited (chunked)"
+        },
+        {
+          "name": "Max single file download",
+          "value": "5 GB (Standard)"
+        },
+        {
+          "name": "Max rules per endpoint",
+          "value": "25 (Standard)"
+        },
+        {
+          "name": "Max custom domains per endpoint",
+          "value": "25"
         }
       ]
     }
