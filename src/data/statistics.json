@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalServices": 22,
-    "totalQuotas": 1590,
-    "totalLimits": 155,
-    "totalNews": 72,
+    "totalServices": 31,
+    "totalQuotas": 1914,
+    "totalLimits": 196,
+    "totalNews": 106,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -15,8 +15,8 @@
       "count": 1116
     },
     "mostNews": {
-      "id": "bedrock",
-      "name": "Amazon Bedrock",
+      "id": "aurora-serverless",
+      "name": "Amazon Aurora Serverless",
       "count": 10
     },
     "mostLimits": {
@@ -27,20 +27,20 @@
   },
   "byCategory": [
     {
-      "category": "Integration",
-      "count": 6
+      "category": "Compute",
+      "count": 8
     },
     {
-      "category": "Compute",
-      "count": 5
+      "category": "Integration",
+      "count": 7
     },
     {
       "category": "Database",
-      "count": 3
+      "count": 5
     },
     {
       "category": "Analytics",
-      "count": 3
+      "count": 5
     },
     {
       "category": "Security",
@@ -56,6 +56,10 @@
     },
     {
       "category": "Streaming",
+      "count": 1
+    },
+    {
+      "category": "IoT",
       "count": 1
     }
   ],
