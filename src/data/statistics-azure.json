@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalServices": 17,
-    "totalLimits": 107,
+    "totalServices": 24,
+    "totalLimits": 138,
     "totalNews": 2,
-    "totalPricing": 110,
+    "totalPricing": 119,
     "totalRuntimes": 12,
     "activeRuntimes": 11,
     "deprecatedRuntimes": 1
@@ -23,10 +23,18 @@
   "byCategory": [
     {
       "category": "Compute",
-      "count": 4
+      "count": 5
     },
     {
       "category": "Messaging",
+      "count": 3
+    },
+    {
+      "category": "Integration",
+      "count": 3
+    },
+    {
+      "category": "Analytics",
       "count": 3
     },
     {
@@ -34,7 +42,11 @@
       "count": 2
     },
     {
-      "category": "Integration",
+      "category": "Networking",
+      "count": 2
+    },
+    {
+      "category": "Real-time",
       "count": 2
     },
     {
@@ -42,15 +54,7 @@
       "count": 1
     },
     {
-      "category": "Networking",
-      "count": 1
-    },
-    {
       "category": "Storage",
-      "count": 1
-    },
-    {
-      "category": "Real-time",
       "count": 1
     },
     {
