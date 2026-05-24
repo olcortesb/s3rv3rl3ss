@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-24",
   "services": [
     {
       "id": "azure-functions",
@@ -846,64 +846,10 @@
       ],
       "pricingDetails": [
         {
-          "label": "Secondary Unit",
-          "price": "$1.91",
-          "unit": "per 1 Hour",
-          "description": "$1.91 per 1 Hour (Secondary)"
-        },
-        {
-          "label": "Isolated Unit",
-          "price": "$21.77",
-          "unit": "per 1 Hour",
-          "description": "$21.77 per 1 Hour (Isolated)"
-        },
-        {
-          "label": "Standard v2 Secondary Unit",
-          "price": "$0.6849",
-          "unit": "per 1 Hour",
-          "description": "$0.6849 per 1 Hour (Standard v2)"
-        },
-        {
-          "label": "Consumption Calls",
-          "price": "$0.00",
-          "unit": "per 10K",
-          "description": "$0.00 per 10K (Consumption)"
-        },
-        {
-          "label": "Gateway Unit",
-          "price": "$0.3425",
-          "unit": "per 1 Hour",
-          "description": "$0.3425 per 1 Hour (Gateway)"
-        },
-        {
-          "label": "Standard v2 Self-hosted Gateway",
-          "price": "$0.3425",
-          "unit": "per 1 Hour",
-          "description": "$0.3425 per 1 Hour (Standard v2)"
-        },
-        {
-          "label": "Basic v2 Secondary Unit",
-          "price": "$0.2055",
-          "unit": "per 1 Hour",
-          "description": "$0.2055 per 1 Hour (Basic v2)"
-        },
-        {
-          "label": "Developer Workspace Pack",
-          "price": "$0.00",
-          "unit": "per 1/Hour",
-          "description": "$0.00 per 1/Hour (Developer)"
-        },
-        {
-          "label": "Premium v2 Secondary Unit",
-          "price": "$1.92",
-          "unit": "per 1 Hour",
-          "description": "$1.92 per 1 Hour (Premium v2)"
-        },
-        {
-          "label": "Developer Unit",
-          "price": "$0.0658",
-          "unit": "per 1 Hour",
-          "description": "$0.0658 per 1 Hour (Developer)"
+          "label": "API calls (Consumption)",
+          "price": "$3.50",
+          "unit": "per 1M calls",
+          "description": "$3.50 per million API calls"
         }
       ]
     },
