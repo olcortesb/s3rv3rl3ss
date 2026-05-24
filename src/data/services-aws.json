@@ -522,7 +522,7 @@
         },
         {
           "date": "2026-05-12",
-          "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+          "title": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
         },
         {
@@ -4048,8 +4048,13 @@
       "news": [
         {
           "date": "2026-05-21",
-          "title": "Amazon Aurora MySQL 8.4 is now generally available",
+          "title": "Amazon Aurora MySQL 8.4  is now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Amazon Aurora MySQL 8.4 is now generally available",
+          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
         },
         {
           "date": "2026-05-21",
@@ -10932,7 +10937,7 @@
         },
         {
           "date": "2026-05-14",
-          "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+          "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/"
         }
       ],
@@ -11642,6 +11647,2528 @@
           "date": "2026-05-12",
           "title": "Amazon Redshift launches RG instances powered by AWS Graviton",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-rg-instances-powered-by-graviton"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "cloudfront-functions",
+      "enabled": true,
+      "name": "CloudFront Functions",
+      "category": "Compute",
+      "description": "CloudFront Functions is a serverless edge compute feature that allows you to run lightweight JavaScript functions at 200+ CloudFront edge locations for latency-sensitive CDN customizations.",
+      "useCases": [
+        "URL rewrites",
+        "Header manipulation",
+        "Cache key normalization",
+        "Token validation"
+      ],
+      "pricing": "Pay per invocation ($0.10 per million)",
+      "pricingUrl": "https://aws.amazon.com/cloudfront/pricing/",
+      "url": "https://aws.amazon.com/cloudfront/features/",
+      "icon": "🌍",
+      "limits": [
+        {
+          "name": "Length of the content security policy value in a response headers policy",
+          "value": "1783",
+          "description": "The maximum length of the content security policy value in a response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with the same origin request policy",
+          "value": "100",
+          "description": "The maximum number of distributions associated with the same origin request policy.",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same response headers policy",
+          "value": "100",
+          "description": "The maximum number of distributions that you can associate with the same response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "File invalidation: maximum number of files allowed in active invalidation requests, excluding wildcard invalidations",
+          "value": "3000",
+          "description": "The maximum number of files allowed in active invalidation requests, excluding wildcard invalidations.",
+          "adjustable": false
+        },
+        {
+          "name": "Headers per origin request policy",
+          "value": "10",
+          "description": "The maximum number of headers per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with the same origin access control",
+          "value": "100",
+          "description": "The maximum number of distributions that you can associate with an origin access control.",
+          "adjustable": true
+        },
+        {
+          "name": "Origins per distribution",
+          "value": "100",
+          "description": "The maximum number of origins per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of aliases per distribution tenant",
+          "value": "100",
+          "description": "The maximum number of aliases that you can have for a distribution tenant.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of distribution tenants per AWS account",
+          "value": "10000",
+          "description": "The maximum number of distribution tenants that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum length of a field to encrypt",
+          "value": "16 KB",
+          "description": "The maximum length (in KB) of a field to encrypt.",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of fields in a request body when field-level encryption is configured",
+          "value": "10",
+          "description": "The maximum number of fields in a request body when field-level encryption is configured.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters in a field in a multi-tenant distribution",
+          "value": "2",
+          "description": "The maximum number of parameters that you can have in a field in a multi-tenant distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of distributions associated with the same trust store",
+          "value": "25",
+          "description": "The maximum number of distributions that can be associated with a single trust store.",
+          "adjustable": true
+        },
+        {
+          "name": "Public keys in a single key group",
+          "value": "5",
+          "description": "The maximum number of public keys in a single key group.",
+          "adjustable": true
+        },
+        {
+          "name": "VPC origins per AWS account",
+          "value": "25",
+          "description": "The maximum number of VPC origins per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions per AWS account that you can create triggers for",
+          "value": "500",
+          "description": "The maximum number of distributions per AWS account that you can create triggers for.",
+          "adjustable": true
+        },
+        {
+          "name": "Key groups per AWS account",
+          "value": "10",
+          "description": "The maximum number of key groups per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Function timeout for a viewer request and response event",
+          "value": "5 Seconds",
+          "description": "The maximum function timeout (in seconds). (Viewer request and response event)",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "CloudFront Functions: Maximum number of distributions associated with a single function",
+          "value": "100",
+          "description": "The maximum number of CloudFront distributions associated with a single CloudFront function.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of trust stores per AWS account",
+          "value": "20",
+          "description": "The maximum number of trust stores that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Connection attempts per origin",
+          "value": "3",
+          "description": "The number of connection attempts per origin (1-3).",
+          "adjustable": false
+        },
+        {
+          "name": "Cache behaviors per distribution",
+          "value": "75",
+          "description": "The maximum number of cache behaviors per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Cache policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of cache policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of fields to encrypt that can be specified in one profile",
+          "value": "10",
+          "description": "The maximum number of fields to encrypt that can be specified in one profile.",
+          "adjustable": false
+        },
+        {
+          "name": "Whitelisted headers per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted headers per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Response headers policies",
+          "value": "20",
+          "description": "The maximum number of response headers policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Cookies per cache policy",
+          "value": "10",
+          "description": "The maximum number of cookies per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "SSL certificates per AWS account when serving HTTPS requests using dedicated IP addresses",
+          "value": "2",
+          "description": "The maximum number of SSL certificates per AWS account when serving HTTPS requests using dedicated IP addresses (no quota when serving HTTPS requests using SNI).",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of certificates per trust store",
+          "value": "25",
+          "description": "The maximum number of certificates that you can have for a trust store.",
+          "adjustable": true
+        },
+        {
+          "name": "Custom headers: maximum length of all header values and names combined",
+          "value": "10240",
+          "description": "The maximum length of all header values and names combined.",
+          "adjustable": false
+        },
+        {
+          "name": "Origin request policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of origin request policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Connection timeout per origin",
+          "value": "10 Seconds",
+          "description": "The connection timeout per origin (1-10 seconds).",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum length of a header value",
+          "value": "1783",
+          "description": "The maximum length of a header value in characters.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of CloudFront distributions that can be associated with a field-level encryption configuration",
+          "value": "20",
+          "description": "The maximum number of CloudFront distributions that can be associated with a field-level encryption configuration.",
+          "adjustable": false
+        },
+        {
+          "name": "Continuous deployment policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of continuous deployment policies that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin groups per distribution",
+          "value": "10",
+          "description": "The maximum number of origin groups per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Whitelisted query strings per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted query strings per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Whitelisted cookies per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted cookies per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Custom headers per response headers policy",
+          "value": "10",
+          "description": "The maximum number of custom headers per response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of associations per web ACL",
+          "value": "100",
+          "description": "The maximum number of resources that can be associated with a single web ACL.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum length of a URL",
+          "value": "8192 Bytes",
+          "description": "The maximum length of a URL (in bytes).",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same VPC origin",
+          "value": "50",
+          "description": "The maximum number of distributions that can be associated with a single VPC origin.",
+          "adjustable": false
+        },
+        {
+          "name": "Size of a response that is generated by a Lambda function, including headers and body (Origin request and response event)",
+          "value": "1 MB",
+          "description": "The maximum size (in MB) of a response that is generated by a Lambda function, including headers and body. (Origin request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum number of custom headers that you can configure CloudFront to add to origin requests",
+          "value": "30",
+          "description": "The maximum number of custom headers that you can configure CloudFront to add to origin requests.",
+          "adjustable": true
+        },
+        {
+          "name": "Cookies per origin request policy",
+          "value": "10",
+          "description": "The maximum number of cookies per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of connection functions per AWS account",
+          "value": "0",
+          "description": "The maximum number of connection functions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of characters total for all whitelisted query strings in the same parameter",
+          "value": "512",
+          "description": "The maximum number of characters total for all whitelisted query strings in the same parameter.",
+          "adjustable": false
+        },
+        {
+          "name": "Range of file sizes that CloudFront compresses",
+          "value": "10000000 Bytes",
+          "description": "The range of file sizes (in bytes) that CloudFront compresses (1,000 to 10,000,000).",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Request body size for viewer requests when returning from a Lambda function (text encoding)",
+          "value": "40 KB",
+          "description": "The maximum request body size (in KB) for viewer requests when returning from a Lambda function. (text encoding)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of multi-tenant distributions per AWS account",
+          "value": "20",
+          "description": "The maximum number of multi-tenant distributions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Triggers per distribution",
+          "value": "100",
+          "description": "The maximum number of triggers per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum CA bundle size per trust store",
+          "value": "64 KB",
+          "description": "The maximum size (in KB) of a CA bundle that can be uploaded to a trust store.",
+          "unit": "Kilobytes",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for origin requests exposed to a Lambda@Edge function.",
+          "value": "1 MB",
+          "description": "The maximum request body size (in MB) for origin requests exposed to a Lambda@Edge function.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum length of a header name",
+          "value": "256",
+          "description": "The maximum length of a header name in characters.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters per multi-tenant distribution",
+          "value": "5",
+          "description": "The maximum number of parameters that you can have for a multi-tenant distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Web distributions per AWS account",
+          "value": "500",
+          "description": "The maximum number of web distributions per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for viewer requests exposed to a Lambda@Edge function.",
+          "value": "40 KB",
+          "description": "The maximum request body size (in KB) for viewer requests exposed to a Lambda@Edge function.",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum certificate size in trust store CA bundle",
+          "value": "16 KB",
+          "description": "The maximum size (in KB) of an individual certificate within a trust store's CA bundle.",
+          "unit": "Kilobytes",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of connection groups per AWS account",
+          "value": "100",
+          "description": "The maximum number of connection groups that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of public keys that can be added to one AWS account",
+          "value": "10",
+          "description": "The maximum number of public keys that can be added to one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "Size of a response that is generated by a Lambda function, including headers and body (Viewer request and response event)",
+          "value": "40 KB",
+          "description": "The maximum size (in KB) of a response that is generated by a Lambda function, including headers and body. (Viewer request and response event)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Query strings per cache policy",
+          "value": "10",
+          "description": "The maximum number of query strings per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Keep-alive timeout for a custom origin associated with distribution",
+          "value": "120 Seconds",
+          "description": "How long (in seconds) CloudFront tries to maintain a connection to your distribution's custom origin after it gets the last packet of a response.",
+          "unit": "Seconds",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of query argument profile mappings that can be included in a field-level encryption configuration",
+          "value": "5",
+          "description": "The maximum number of query argument profile mappings that can be included in a field-level encryption configuration.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of connection groups per Anycast static IP list",
+          "value": "5",
+          "description": "The maximum number of connection groups that can be associated with the same Anycast static IP list.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for origin requests when returning from a Lambda function (base64 encoding)",
+          "value": "1.33 MB",
+          "description": "The maximum request body size (in KB) for origin requests when returning from a Lambda function. (base64 encoding)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum length of a request, including headers and query strings, but not including the body content",
+          "value": "20480 Bytes",
+          "description": "The maximum length of a request (in bytes), including headers and query strings, but not including the body content.",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Alternate domain names (CNAMEs) per distribution",
+          "value": "100",
+          "description": "The maximum number of alternate domain names (CNAMEs) per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Response timeout per origin",
+          "value": "120 Seconds",
+          "description": "The response timeout per origin (1-120 seconds).",
+          "unit": "Seconds",
+          "adjustable": true
+        },
+        {
+          "name": "Requests per second per distribution",
+          "value": "250000",
+          "description": "The maximum number of requests per second per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin access identities per account",
+          "value": "100",
+          "description": "The maximum number of origin access identities per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Total length of the URI including query string in a Lambda@Edge function",
+          "value": "8192",
+          "description": "The maximum total length in characters of the URI including the query string in a Lambda@Edge function.",
+          "adjustable": false
+        },
+        {
+          "name": "Removing headers from a response headers policy",
+          "value": "10",
+          "description": "The maximum number of headers that you can remove in a response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Data transfer rate per distribution",
+          "value": "150",
+          "description": "The maximum data transfer rate (in Gbps) per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Key groups associated with a single distribution",
+          "value": "4",
+          "description": "The maximum number of key groups associated with a single distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin response timeout (idle timeout)",
+          "value": "10",
+          "description": "The maximum origin response timeout (idle timeout) in minutes. If CloudFront hasn’t detected any bytes sent from the origin to the client within the past 10 minutes, the connection is assumed to be idle and is closed.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum compressed size of a Lambda function and any included libraries. (Viewer request and response event)",
+          "value": "50 MB",
+          "description": "The maximum compressed size (in MB) of a Lambda function and any included libraries. (Viewer request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same cache policy",
+          "value": "100",
+          "description": "The maximum number of distributions associated with the same cache policy.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum file size for HTTP GET, POST, and PUT requests ",
+          "value": "50 GB",
+          "description": "The maximum file size (in GB) for HTTP GET, POST, and PUT requests.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "File invalidation: maximum number of active wildcard invalidations allowed",
+          "value": "15",
+          "description": "The maximum number of active wildcard invalidations allowed.",
+          "adjustable": false
+        },
+        {
+          "name": "Staging distributions per AWS account",
+          "value": "20",
+          "description": "The maximum number of staging distributions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with a single key group",
+          "value": "100",
+          "description": "The maximum number of distributions associated with a single key group.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum compressed size of a Lambda function and any included libraries. (Origin request and response event)",
+          "value": "50 MB",
+          "description": "The maximum compressed size (in MB) of a Lambda function and any included libraries. (Origin request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Total number of bytes in whitelisted cookie names (doesn’t apply if you configure CloudFront to forward all cookies to the origin)",
+          "value": "512 Bytes",
+          "description": "The total number of bytes in whitelisted cookie names (doesn’t apply if you configure CloudFront to forward all cookies to the origin). 512 minus the number of whitelisted cookies.",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of characters in a whitelisted query string",
+          "value": "128",
+          "description": "The maximum number of characters in a whitelisted query string.",
+          "adjustable": false
+        },
+        {
+          "name": "Query strings per origin request policy",
+          "value": "10",
+          "description": "The maximum number of query strings per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Tags that can be added to a distribution",
+          "value": "50",
+          "description": "The maximum number of tags that can be added to a distribution.",
+          "adjustable": false
+        },
+        {
+          "name": "Function timeout (Origin request and response event)",
+          "value": "30 Seconds",
+          "description": "The maximum function timeout (in seconds). (Origin request and response event)",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum length of a request body when field-level encryption is configured",
+          "value": "1 MB",
+          "description": "The maximum length (in MB) of a request body when field-level encryption is configured.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of field-level encryption profiles that can be associated with one AWS account",
+          "value": "10",
+          "description": "The maximum number of field-level encryption profiles that can be associated with one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "SSL certificates that can be associated with a CloudFront web distribution",
+          "value": "1",
+          "description": "The maximum number of SSL certificates that can be associated with a CloudFront web distribution.",
+          "adjustable": false
+        },
+        {
+          "name": "Request body size for origin requests when returning from a Lambda function (text encoding)",
+          "value": "1 MB",
+          "description": "The maximum request body size (in KB) for origin requests when returning from a Lambda function. (text encoding)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of field-level encryption configurations that can be associated with one AWS account",
+          "value": "10",
+          "description": "The maximum number of field-level encryption configurations that can be associated with one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "Function memory size (Viewer request and response event)",
+          "value": "128 MB",
+          "description": "The maximum function memory size (in MB). (Viewer request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters per distribution tenant",
+          "value": "5",
+          "description": "The maximum number of parameters that you can have for a distribution tenant.",
+          "adjustable": true
+        },
+        {
+          "name": "Headers per cache policy",
+          "value": "10",
+          "description": "The maximum number of headers per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Anycast static IP lists per AWS account",
+          "value": "0",
+          "description": "The maximum number of Anycast static IP lists per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for viewer requests when returning from a Lambda function (base64 encoding)",
+          "value": "53.2 KB",
+          "description": "The maximum request body size (in KB) for viewer requests when returning from a Lambda function. (base64 encoding)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Max function size",
+          "value": "10 KB"
+        },
+        {
+          "name": "Max execution time",
+          "value": "1 ms"
+        },
+        {
+          "name": "Max memory",
+          "value": "2 MB"
+        },
+        {
+          "name": "Max request body access",
+          "value": "No body access"
+        },
+        {
+          "name": "Runtime",
+          "value": "JavaScript (ES 5.1 compliant)"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-14",
+          "title": "Amazon CloudFront announces support for OCSP Revocation for Mutual TLS (Viewer)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-ocsp/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "Amazon CloudFront announces Passthrough Mode for mutual TLS (Viewer)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-cloudfront-mtls-passthrough/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Amazon CloudFront Premium flat-rate pricing plan now supports higher, configurable usage allowances",
+          "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/cloudfront-premium-flat-rate-plan-supports-configurable-usage-allowances/"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Tag-based invalidation in Amazon CloudFront",
+          "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/tag-based-invalidation-in-amazon-cloudfront/"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Manage caches with precision using Amazon CloudFront Invalidation by Cache Tag",
+          "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/manage-caches-with-precision-using-amazon-cloudfront-invalidation-by-cache-tag/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "lambda-at-edge",
+      "enabled": true,
+      "name": "Lambda@Edge",
+      "category": "Compute",
+      "description": "Lambda@Edge lets you run Lambda functions at AWS edge locations in response to CloudFront events, enabling you to customize content delivery with full Lambda capabilities.",
+      "useCases": [
+        "A/B testing",
+        "Bot mitigation",
+        "SEO optimization",
+        "Dynamic content generation"
+      ],
+      "pricing": "Pay per request and duration (at edge pricing)",
+      "pricingUrl": "https://aws.amazon.com/lambda/pricing/",
+      "url": "https://aws.amazon.com/lambda/edge/",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "Length of the content security policy value in a response headers policy",
+          "value": "1783",
+          "description": "The maximum length of the content security policy value in a response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with the same origin request policy",
+          "value": "100",
+          "description": "The maximum number of distributions associated with the same origin request policy.",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same response headers policy",
+          "value": "100",
+          "description": "The maximum number of distributions that you can associate with the same response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "File invalidation: maximum number of files allowed in active invalidation requests, excluding wildcard invalidations",
+          "value": "3000",
+          "description": "The maximum number of files allowed in active invalidation requests, excluding wildcard invalidations.",
+          "adjustable": false
+        },
+        {
+          "name": "Headers per origin request policy",
+          "value": "10",
+          "description": "The maximum number of headers per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with the same origin access control",
+          "value": "100",
+          "description": "The maximum number of distributions that you can associate with an origin access control.",
+          "adjustable": true
+        },
+        {
+          "name": "Origins per distribution",
+          "value": "100",
+          "description": "The maximum number of origins per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of aliases per distribution tenant",
+          "value": "100",
+          "description": "The maximum number of aliases that you can have for a distribution tenant.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of distribution tenants per AWS account",
+          "value": "10000",
+          "description": "The maximum number of distribution tenants that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum length of a field to encrypt",
+          "value": "16 KB",
+          "description": "The maximum length (in KB) of a field to encrypt.",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of fields in a request body when field-level encryption is configured",
+          "value": "10",
+          "description": "The maximum number of fields in a request body when field-level encryption is configured.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters in a field in a multi-tenant distribution",
+          "value": "2",
+          "description": "The maximum number of parameters that you can have in a field in a multi-tenant distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of distributions associated with the same trust store",
+          "value": "25",
+          "description": "The maximum number of distributions that can be associated with a single trust store.",
+          "adjustable": true
+        },
+        {
+          "name": "Public keys in a single key group",
+          "value": "5",
+          "description": "The maximum number of public keys in a single key group.",
+          "adjustable": true
+        },
+        {
+          "name": "VPC origins per AWS account",
+          "value": "25",
+          "description": "The maximum number of VPC origins per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions per AWS account that you can create triggers for",
+          "value": "500",
+          "description": "The maximum number of distributions per AWS account that you can create triggers for.",
+          "adjustable": true
+        },
+        {
+          "name": "Key groups per AWS account",
+          "value": "10",
+          "description": "The maximum number of key groups per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Function timeout for a viewer request and response event",
+          "value": "5 Seconds",
+          "description": "The maximum function timeout (in seconds). (Viewer request and response event)",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "CloudFront Functions: Maximum number of distributions associated with a single function",
+          "value": "100",
+          "description": "The maximum number of CloudFront distributions associated with a single CloudFront function.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of trust stores per AWS account",
+          "value": "20",
+          "description": "The maximum number of trust stores that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Connection attempts per origin",
+          "value": "3",
+          "description": "The number of connection attempts per origin (1-3).",
+          "adjustable": false
+        },
+        {
+          "name": "Cache behaviors per distribution",
+          "value": "75",
+          "description": "The maximum number of cache behaviors per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Cache policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of cache policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of fields to encrypt that can be specified in one profile",
+          "value": "10",
+          "description": "The maximum number of fields to encrypt that can be specified in one profile.",
+          "adjustable": false
+        },
+        {
+          "name": "Whitelisted headers per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted headers per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Response headers policies",
+          "value": "20",
+          "description": "The maximum number of response headers policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Cookies per cache policy",
+          "value": "10",
+          "description": "The maximum number of cookies per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "SSL certificates per AWS account when serving HTTPS requests using dedicated IP addresses",
+          "value": "2",
+          "description": "The maximum number of SSL certificates per AWS account when serving HTTPS requests using dedicated IP addresses (no quota when serving HTTPS requests using SNI).",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of certificates per trust store",
+          "value": "25",
+          "description": "The maximum number of certificates that you can have for a trust store.",
+          "adjustable": true
+        },
+        {
+          "name": "Custom headers: maximum length of all header values and names combined",
+          "value": "10240",
+          "description": "The maximum length of all header values and names combined.",
+          "adjustable": false
+        },
+        {
+          "name": "Origin request policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of origin request policies per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Connection timeout per origin",
+          "value": "10 Seconds",
+          "description": "The connection timeout per origin (1-10 seconds).",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum length of a header value",
+          "value": "1783",
+          "description": "The maximum length of a header value in characters.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of CloudFront distributions that can be associated with a field-level encryption configuration",
+          "value": "20",
+          "description": "The maximum number of CloudFront distributions that can be associated with a field-level encryption configuration.",
+          "adjustable": false
+        },
+        {
+          "name": "Continuous deployment policies per AWS account",
+          "value": "20",
+          "description": "The maximum number of continuous deployment policies that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin groups per distribution",
+          "value": "10",
+          "description": "The maximum number of origin groups per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Whitelisted query strings per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted query strings per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Whitelisted cookies per cache behavior",
+          "value": "10",
+          "description": "The maximum number of whitelisted cookies per cache behavior.",
+          "adjustable": true
+        },
+        {
+          "name": "Custom headers per response headers policy",
+          "value": "10",
+          "description": "The maximum number of custom headers per response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of associations per web ACL",
+          "value": "100",
+          "description": "The maximum number of resources that can be associated with a single web ACL.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum length of a URL",
+          "value": "8192 Bytes",
+          "description": "The maximum length of a URL (in bytes).",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same VPC origin",
+          "value": "50",
+          "description": "The maximum number of distributions that can be associated with a single VPC origin.",
+          "adjustable": false
+        },
+        {
+          "name": "Size of a response that is generated by a Lambda function, including headers and body (Origin request and response event)",
+          "value": "1 MB",
+          "description": "The maximum size (in MB) of a response that is generated by a Lambda function, including headers and body. (Origin request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum number of custom headers that you can configure CloudFront to add to origin requests",
+          "value": "30",
+          "description": "The maximum number of custom headers that you can configure CloudFront to add to origin requests.",
+          "adjustable": true
+        },
+        {
+          "name": "Cookies per origin request policy",
+          "value": "10",
+          "description": "The maximum number of cookies per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of connection functions per AWS account",
+          "value": "0",
+          "description": "The maximum number of connection functions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of characters total for all whitelisted query strings in the same parameter",
+          "value": "512",
+          "description": "The maximum number of characters total for all whitelisted query strings in the same parameter.",
+          "adjustable": false
+        },
+        {
+          "name": "Range of file sizes that CloudFront compresses",
+          "value": "10000000 Bytes",
+          "description": "The range of file sizes (in bytes) that CloudFront compresses (1,000 to 10,000,000).",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Request body size for viewer requests when returning from a Lambda function (text encoding)",
+          "value": "40 KB",
+          "description": "The maximum request body size (in KB) for viewer requests when returning from a Lambda function. (text encoding)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of multi-tenant distributions per AWS account",
+          "value": "20",
+          "description": "The maximum number of multi-tenant distributions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Triggers per distribution",
+          "value": "100",
+          "description": "The maximum number of triggers per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum CA bundle size per trust store",
+          "value": "64 KB",
+          "description": "The maximum size (in KB) of a CA bundle that can be uploaded to a trust store.",
+          "unit": "Kilobytes",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for origin requests exposed to a Lambda@Edge function.",
+          "value": "1 MB",
+          "description": "The maximum request body size (in MB) for origin requests exposed to a Lambda@Edge function.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Custom headers: maximum length of a header name",
+          "value": "256",
+          "description": "The maximum length of a header name in characters.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters per multi-tenant distribution",
+          "value": "5",
+          "description": "The maximum number of parameters that you can have for a multi-tenant distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Web distributions per AWS account",
+          "value": "500",
+          "description": "The maximum number of web distributions per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for viewer requests exposed to a Lambda@Edge function.",
+          "value": "40 KB",
+          "description": "The maximum request body size (in KB) for viewer requests exposed to a Lambda@Edge function.",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum certificate size in trust store CA bundle",
+          "value": "16 KB",
+          "description": "The maximum size (in KB) of an individual certificate within a trust store's CA bundle.",
+          "unit": "Kilobytes",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of connection groups per AWS account",
+          "value": "100",
+          "description": "The maximum number of connection groups that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of public keys that can be added to one AWS account",
+          "value": "10",
+          "description": "The maximum number of public keys that can be added to one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "Size of a response that is generated by a Lambda function, including headers and body (Viewer request and response event)",
+          "value": "40 KB",
+          "description": "The maximum size (in KB) of a response that is generated by a Lambda function, including headers and body. (Viewer request and response event)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Query strings per cache policy",
+          "value": "10",
+          "description": "The maximum number of query strings per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Keep-alive timeout for a custom origin associated with distribution",
+          "value": "120 Seconds",
+          "description": "How long (in seconds) CloudFront tries to maintain a connection to your distribution's custom origin after it gets the last packet of a response.",
+          "unit": "Seconds",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of query argument profile mappings that can be included in a field-level encryption configuration",
+          "value": "5",
+          "description": "The maximum number of query argument profile mappings that can be included in a field-level encryption configuration.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of connection groups per Anycast static IP list",
+          "value": "5",
+          "description": "The maximum number of connection groups that can be associated with the same Anycast static IP list.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for origin requests when returning from a Lambda function (base64 encoding)",
+          "value": "1.33 MB",
+          "description": "The maximum request body size (in KB) for origin requests when returning from a Lambda function. (base64 encoding)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum length of a request, including headers and query strings, but not including the body content",
+          "value": "20480 Bytes",
+          "description": "The maximum length of a request (in bytes), including headers and query strings, but not including the body content.",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Alternate domain names (CNAMEs) per distribution",
+          "value": "100",
+          "description": "The maximum number of alternate domain names (CNAMEs) per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Response timeout per origin",
+          "value": "120 Seconds",
+          "description": "The response timeout per origin (1-120 seconds).",
+          "unit": "Seconds",
+          "adjustable": true
+        },
+        {
+          "name": "Requests per second per distribution",
+          "value": "250000",
+          "description": "The maximum number of requests per second per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin access identities per account",
+          "value": "100",
+          "description": "The maximum number of origin access identities per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Total length of the URI including query string in a Lambda@Edge function",
+          "value": "8192",
+          "description": "The maximum total length in characters of the URI including the query string in a Lambda@Edge function.",
+          "adjustable": false
+        },
+        {
+          "name": "Removing headers from a response headers policy",
+          "value": "10",
+          "description": "The maximum number of headers that you can remove in a response headers policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Data transfer rate per distribution",
+          "value": "150",
+          "description": "The maximum data transfer rate (in Gbps) per distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Key groups associated with a single distribution",
+          "value": "4",
+          "description": "The maximum number of key groups associated with a single distribution.",
+          "adjustable": true
+        },
+        {
+          "name": "Origin response timeout (idle timeout)",
+          "value": "10",
+          "description": "The maximum origin response timeout (idle timeout) in minutes. If CloudFront hasn’t detected any bytes sent from the origin to the client within the past 10 minutes, the connection is assumed to be idle and is closed.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum compressed size of a Lambda function and any included libraries. (Viewer request and response event)",
+          "value": "50 MB",
+          "description": "The maximum compressed size (in MB) of a Lambda function and any included libraries. (Viewer request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Distributions associated with the same cache policy",
+          "value": "100",
+          "description": "The maximum number of distributions associated with the same cache policy.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum file size for HTTP GET, POST, and PUT requests ",
+          "value": "50 GB",
+          "description": "The maximum file size (in GB) for HTTP GET, POST, and PUT requests.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "File invalidation: maximum number of active wildcard invalidations allowed",
+          "value": "15",
+          "description": "The maximum number of active wildcard invalidations allowed.",
+          "adjustable": false
+        },
+        {
+          "name": "Staging distributions per AWS account",
+          "value": "20",
+          "description": "The maximum number of staging distributions that you can have for an AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Distributions associated with a single key group",
+          "value": "100",
+          "description": "The maximum number of distributions associated with a single key group.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum compressed size of a Lambda function and any included libraries. (Origin request and response event)",
+          "value": "50 MB",
+          "description": "The maximum compressed size (in MB) of a Lambda function and any included libraries. (Origin request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Total number of bytes in whitelisted cookie names (doesn’t apply if you configure CloudFront to forward all cookies to the origin)",
+          "value": "512 Bytes",
+          "description": "The total number of bytes in whitelisted cookie names (doesn’t apply if you configure CloudFront to forward all cookies to the origin). 512 minus the number of whitelisted cookies.",
+          "unit": "Bytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of characters in a whitelisted query string",
+          "value": "128",
+          "description": "The maximum number of characters in a whitelisted query string.",
+          "adjustable": false
+        },
+        {
+          "name": "Query strings per origin request policy",
+          "value": "10",
+          "description": "The maximum number of query strings per origin request policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Tags that can be added to a distribution",
+          "value": "50",
+          "description": "The maximum number of tags that can be added to a distribution.",
+          "adjustable": false
+        },
+        {
+          "name": "Function timeout (Origin request and response event)",
+          "value": "30 Seconds",
+          "description": "The maximum function timeout (in seconds). (Origin request and response event)",
+          "unit": "Seconds",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum length of a request body when field-level encryption is configured",
+          "value": "1 MB",
+          "description": "The maximum length (in MB) of a request body when field-level encryption is configured.",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of field-level encryption profiles that can be associated with one AWS account",
+          "value": "10",
+          "description": "The maximum number of field-level encryption profiles that can be associated with one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "SSL certificates that can be associated with a CloudFront web distribution",
+          "value": "1",
+          "description": "The maximum number of SSL certificates that can be associated with a CloudFront web distribution.",
+          "adjustable": false
+        },
+        {
+          "name": "Request body size for origin requests when returning from a Lambda function (text encoding)",
+          "value": "1 MB",
+          "description": "The maximum request body size (in KB) for origin requests when returning from a Lambda function. (text encoding)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of field-level encryption configurations that can be associated with one AWS account",
+          "value": "10",
+          "description": "The maximum number of field-level encryption configurations that can be associated with one AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "Function memory size (Viewer request and response event)",
+          "value": "128 MB",
+          "description": "The maximum function memory size (in MB). (Viewer request and response event)",
+          "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of parameters per distribution tenant",
+          "value": "5",
+          "description": "The maximum number of parameters that you can have for a distribution tenant.",
+          "adjustable": true
+        },
+        {
+          "name": "Headers per cache policy",
+          "value": "10",
+          "description": "The maximum number of headers per cache policy.",
+          "adjustable": true
+        },
+        {
+          "name": "Anycast static IP lists per AWS account",
+          "value": "0",
+          "description": "The maximum number of Anycast static IP lists per AWS account.",
+          "adjustable": true
+        },
+        {
+          "name": "Request body size for viewer requests when returning from a Lambda function (base64 encoding)",
+          "value": "53.2 KB",
+          "description": "The maximum request body size (in KB) for viewer requests when returning from a Lambda function. (base64 encoding)",
+          "unit": "Kilobytes",
+          "adjustable": false
+        },
+        {
+          "name": "Max function size (viewer)",
+          "value": "1 MB"
+        },
+        {
+          "name": "Max function size (origin)",
+          "value": "50 MB"
+        },
+        {
+          "name": "Max execution time (viewer)",
+          "value": "5 seconds"
+        },
+        {
+          "name": "Max execution time (origin)",
+          "value": "30 seconds"
+        },
+        {
+          "name": "Max memory (viewer)",
+          "value": "128 MB"
+        },
+        {
+          "name": "Max memory (origin)",
+          "value": "10,240 MB"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "ses",
+      "enabled": true,
+      "name": "Amazon SES",
+      "category": "Integration",
+      "description": "Amazon Simple Email Service is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.",
+      "useCases": [
+        "Transactional emails",
+        "Marketing campaigns",
+        "Notifications",
+        "Bulk email"
+      ],
+      "pricing": "Pay per email sent ($0.10 per 1,000)",
+      "pricingUrl": "https://aws.amazon.com/ses/pricing/",
+      "url": "https://aws.amazon.com/ses/",
+      "icon": "📧",
+      "limits": [
+        {
+          "name": "Tenant count",
+          "value": "10000",
+          "description": "The maximum number of tenants that can exist within the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Sending quota",
+          "value": "200",
+          "description": "The maximum number of emails that you can send in a 24-hour period for this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Sending rate",
+          "value": "1",
+          "description": "The maximum number of emails that Amazon SES can accept each second for this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Max message size",
+          "value": "40 MB"
+        },
+        {
+          "name": "Max recipients per message",
+          "value": "50"
+        },
+        {
+          "name": "Max sending rate (default)",
+          "value": "1 email/second"
+        },
+        {
+          "name": "Max daily sends (sandbox)",
+          "value": "200"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-22",
+          "title": "New agentic migration assessment capabilities now available with AWS Transform",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Amazon Connect Customer now supports embedding Cases and Customer Profiles in custom agent applications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-sdk-cases-customer-profiles/"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/building-a-scalable-messaging-api-with-aws-end-user-messaging-and-ses/"
+        },
+        {
+          "date": "2026-01-16",
+          "title": "How to improve email sender reputation with Amazon SES Email Validation",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-improve-email-sender-reputation-with-amazon-ses-email-validation/"
+        },
+        {
+          "date": "2025-12-30",
+          "title": "Enhance email security using VPC endpoints with Amazon SES Manager",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses-manager/"
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Implement Tenants in your Amazon SES environment, Part 3: Implementation guide",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-3-implementation-guide/"
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Implement Tenants in your Amazon SES environment, Part 2: Assessment and planning",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-2-assessment-and-planning/"
+        },
+        {
+          "date": "2025-11-25",
+          "title": "Learning email deliverability with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
+        },
+        {
+          "date": "2025-10-22",
+          "title": "Enhance email security using VPC endpoints with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "iot-core",
+      "enabled": true,
+      "name": "AWS IoT Core",
+      "category": "IoT",
+      "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices.",
+      "useCases": [
+        "Device connectivity",
+        "Telemetry ingestion",
+        "Device shadows",
+        "Rules engine"
+      ],
+      "pricing": "Pay per million messages and connectivity minutes",
+      "pricingUrl": "https://aws.amazon.com/iot-core/pricing/",
+      "url": "https://aws.amazon.com/iot-core/",
+      "icon": "📡",
+      "limits": [
+        {
+          "name": "Parameters per dynamic command",
+          "value": "5",
+          "description": "The maximum number of parameters supported per dynamic command in your account",
+          "adjustable": true
+        },
+        {
+          "name": "Leading Wildcard Query rate",
+          "value": "30",
+          "description": "The maximum number of Leading Wildcard Queries per second across all APIs.",
+          "adjustable": true
+        },
+        {
+          "name": "Max message size (MQTT)",
+          "value": "128 KB"
+        },
+        {
+          "name": "Max message size (HTTP)",
+          "value": "128 KB"
+        },
+        {
+          "name": "Max subscriptions per connection",
+          "value": "50"
+        },
+        {
+          "name": "Max inbound publish rate per account",
+          "value": "20,000/second"
+        },
+        {
+          "name": "Max thing name length",
+          "value": "128 characters"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-12-23",
+          "title": "Streamlining Amazon Sidewalk Device Fleet Management with AWS IoT Core’s New Bulk Operations",
+          "url": "https://aws.amazon.com/blogs/iot/streamlining-amazon-sidewalk-device-fleet-management-with-aws-iot-cores-new-bulk-operations/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "timestream",
+      "enabled": true,
+      "name": "Amazon Timestream",
+      "category": "Database",
+      "description": "Amazon Timestream is a fast, scalable, and serverless time-series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day.",
+      "useCases": [
+        "IoT telemetry",
+        "DevOps monitoring",
+        "Application metrics",
+        "Real-time analytics"
+      ],
+      "pricing": "Pay per write, storage, and query data scanned",
+      "pricingUrl": "https://aws.amazon.com/timestream/pricing/",
+      "url": "https://aws.amazon.com/timestream/",
+      "icon": "⏱️",
+      "limits": [
+        {
+          "name": "ListBatchLoadTasks request rate",
+          "value": "5",
+          "description": "Maximum number of ListBatchLoadTasks requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "CreateScheduledQuery request rate",
+          "value": "1",
+          "description": "Maximum number of CreateScheduledQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "CreateBatchLoadTask request rate",
+          "value": "1",
+          "description": "Maximum number of CreateBatchLoadTask requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Dimensions per table",
+          "value": "128",
+          "description": "The maximum number of dimensions per table.",
+          "adjustable": false
+        },
+        {
+          "name": "Tables per account",
+          "value": "50000",
+          "description": "The maximum number of tables you can create per AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "Measures per table",
+          "value": "8192",
+          "description": "The maximum number of measures per table.",
+          "adjustable": false
+        },
+        {
+          "name": "ExecuteScheduledQuery request rate",
+          "value": "5",
+          "description": "Maximum number of ExecuteScheduledQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "UpdateAccountSettings request rate",
+          "value": "1",
+          "description": "Maximum number of UpdateAccountSettings requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "ListTables request rate",
+          "value": "5",
+          "description": "Maximum number of ListTables requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "ListScheduledQueries request rate",
+          "value": "5",
+          "description": "Maximum number of ListScheduledQueries requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "CreateTable request rate",
+          "value": "1",
+          "description": "Maximum number of CreateTable requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeBatchLoadTask request rate",
+          "value": "5",
+          "description": "Maximum number of DescribeBatchLoadTask requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "CreateDatabase request rate",
+          "value": "1",
+          "description": "Maximum number of CreateDatabase requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeDatabase request rate",
+          "value": "5",
+          "description": "Maximum number of DescribeDatabase requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeScheduledQuery request rate",
+          "value": "5",
+          "description": "Maximum number of DescribeScheduledQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DeleteTable request rate",
+          "value": "1",
+          "description": "Maximum number of DeleteTable requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Unique measures across multi-measure records per table",
+          "value": "1024",
+          "description": "The unique measures in all the multi-measure records defined in a single table. A single multi-measure record can have 'MaximumMeasureAttributesPerRecord' unique measures, and a table can have 'MaximumMeasureAttributesPerTable' unique measures defined across multi-measure records.",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum count of active magnetic store partitions per database",
+          "value": "250",
+          "description": "Maximum number of active magnetic store partitions per database. A partition may remain active for up to 6 hours after receiving ingestion.",
+          "adjustable": false
+        },
+        {
+          "name": "Scheduled queries per account",
+          "value": "10000",
+          "description": "The maximum number of scheduled queries you can create per AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "UpdateTable request rate",
+          "value": "1",
+          "description": "Maximum number of UpdateTable requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "ListDatabases request rate",
+          "value": "5",
+          "description": "Maximum number of ListDatabases requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "UpdateDatabase request rate",
+          "value": "1",
+          "description": "Maximum number of UpdateDatabase requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "PrepareQuery request rate",
+          "value": "5",
+          "description": "Maximum number of PrepareQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "ResumeBatchLoadTask request rate",
+          "value": "1",
+          "description": "Maximum number of ResumeBatchLoadTask requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeTable request rate",
+          "value": "5",
+          "description": "Maximum number of DescribeTable requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DeleteScheduledQuery request rate",
+          "value": "1",
+          "description": "Maximum number of DeleteScheduledQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Max allowed MaxQueryTCU",
+          "value": "1000",
+          "description": "The maximum allowed MaxQueryTCU in your account",
+          "adjustable": false
+        },
+        {
+          "name": "UpdateScheduledQuery request rate",
+          "value": "1",
+          "description": "Maximum number of UpdateScheduledQuery requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Databases per account",
+          "value": "500",
+          "description": "The maximum number of databases you can create per AWS account.",
+          "adjustable": false
+        },
+        {
+          "name": "DeleteDatabase request rate",
+          "value": "1",
+          "description": "Maximum number of DeleteDatabase requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "DescribeAccountSettings request rate",
+          "value": "1",
+          "description": "Maximum number of DescribeAccountSettings requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Max dimensions per record",
+          "value": "128"
+        },
+        {
+          "name": "Max measure values per multi-measure record",
+          "value": "256"
+        },
+        {
+          "name": "Max record size",
+          "value": "2 KB"
+        },
+        {
+          "name": "Max query result size",
+          "value": "5 GB"
+        },
+        {
+          "name": "Max databases per account per region",
+          "value": "500"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "glue",
+      "enabled": true,
+      "name": "AWS Glue",
+      "category": "Analytics",
+      "description": "AWS Glue is a serverless data integration service that makes it easy to discover, prepare, move, and integrate data from multiple sources for analytics, ML, and application development.",
+      "useCases": [
+        "ETL jobs",
+        "Data cataloging",
+        "Data preparation",
+        "Streaming ETL"
+      ],
+      "pricing": "Pay per DPU-hour consumed",
+      "pricingUrl": "https://aws.amazon.com/glue/pricing/",
+      "url": "https://aws.amazon.com/glue/",
+      "icon": "🔧",
+      "limits": [
+        {
+          "name": "Maximum number of in-flight completion requests allowed per account",
+          "value": "10",
+          "description": "The maximum number of in-flight completion requests allowed per account",
+          "adjustable": true
+        },
+        {
+          "name": "Max task DPUs per account",
+          "value": "1000",
+          "description": "The maximum compute capacity in data processing units (DPUs) you can use concurrently in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "The maximum number of concurrent materialized view refresh task runs.",
+          "value": "50",
+          "description": "The maximum number of concurrent materialized view refresh task runs.",
+          "adjustable": true
+        },
+        {
+          "name": "Max databases per account",
+          "value": "10000",
+          "description": "The maximum number of databases in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Concurrent compute capacity for Ray worker instances in M-DPUs per account.",
+          "value": "50",
+          "description": "The maximum number of data processing units that can be concurrently used by Ray jobs or interactive sessions in this account. The capacity provided by a Ray worker instance type is measured in memory optimized data processing units (M-DPUs).",
+          "adjustable": false
+        },
+        {
+          "name": "Max tables per database",
+          "value": "200000",
+          "description": "The maximum number of tables per database.",
+          "adjustable": true
+        },
+        {
+          "name": "Max triggers per account",
+          "value": "1000",
+          "description": "The maximum number of triggers in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of column statistics tasks running concurrently per account",
+          "value": "50",
+          "description": "The maximum number of column statistics tasks running concurrently in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max jobs per account",
+          "value": "2000",
+          "description": "The maximum number of jobs in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max tables per account",
+          "value": "1000000",
+          "description": "The maximum number of tables in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max jobs per trigger",
+          "value": "50",
+          "description": "The maximum number of jobs that a trigger can start.",
+          "adjustable": true
+        },
+        {
+          "name": "Max concurrent job runs per account",
+          "value": "2000",
+          "description": "The maximum number of concurrent job runs in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max partitions per account",
+          "value": "20000000",
+          "description": "The maximum number of partitions in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max DPUs per dev endpoint",
+          "value": "50",
+          "description": "The maximum number of DPUs in your development endpoint.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of integrations",
+          "value": "40",
+          "description": "The maximum number of integrations per AWS Region for this account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max data quality rulesets per account",
+          "value": "1000000",
+          "description": "The maximum number of data quality rulesets per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Maximum number of queued job runs",
+          "value": "1000",
+          "description": "Orchestration: maximum number of queued job runs",
+          "adjustable": true
+        },
+        {
+          "name": "Number of connection types",
+          "value": "1000",
+          "description": "The maximum number of connection types per AWS Region for this account.",
+          "adjustable": true
+        },
+        {
+          "name": "Concurrent machine learning task runs per transform",
+          "value": "3",
+          "description": "The maximum number of concurrent task runs per machine learning transform for this account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max concurrent data quality ruleset evaluation runs per account",
+          "value": "50",
+          "description": "The maximum number of concurrent data quality ruleset evaluation runs in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max connection per account",
+          "value": "1000",
+          "description": "The maximum number of connections in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max partitions per table",
+          "value": "10000000",
+          "description": "The maximum number of partitions per table.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of crawlers per account",
+          "value": "1000",
+          "description": "The maximum number of crawlers in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Label file size",
+          "value": "10 MB",
+          "description": "The maximum file size of an individual label file that can be imported.",
+          "unit": "Megabytes",
+          "adjustable": true
+        },
+        {
+          "name": "Number of crawlers running concurrently per account",
+          "value": "150",
+          "description": "The maximum number of crawlers running concurrently in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max concurrent data quality ruleset recommendation runs per account",
+          "value": "25",
+          "description": "The maximum number of concurrent data quality ruleset recommendation runs in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max concurrent job runs per job",
+          "value": "4000",
+          "description": "The maximum number of concurrent job runs for a job.",
+          "adjustable": true
+        },
+        {
+          "name": "Total concurrent machine learning task runs for transforms per account",
+          "value": "30",
+          "description": "The total number of concurrent machine learning transform task runs for machine learning transforms for this account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max table versions per table",
+          "value": "100000",
+          "description": "The maximum number of table versions per table.",
+          "adjustable": true
+        },
+        {
+          "name": "Max functions per account",
+          "value": "100",
+          "description": "The maximum number of functions in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max development endpoint per account",
+          "value": "25",
+          "description": "The maximum number of development endpoints in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max security configurations per account",
+          "value": "250",
+          "description": "The maximum number of security configurations in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of workflows",
+          "value": "1000",
+          "description": "The maximum number of workflows in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max functions per database",
+          "value": "100",
+          "description": "The maximum number of functions per database.",
+          "adjustable": true
+        },
+        {
+          "name": "Max spare compute capacity consumed in data processing units (DPUs) per account.",
+          "value": "4000",
+          "description": "The maximum spare compute capacity in data processing units (DPUs) you can use concurrently in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max table versions per account",
+          "value": "1000000",
+          "description": "The maximum number of table versions in your account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max concurrent observations generation runs per account",
+          "value": "10",
+          "description": "The maximum number of concurrent observations generation runs",
+          "adjustable": true
+        },
+        {
+          "name": "Max databases per catalog",
+          "value": "10000",
+          "description": "The maximum number of databases per catalog.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of machine learning transforms",
+          "value": "100",
+          "description": "The maximum number of machine learning transforms for this account.",
+          "adjustable": true
+        },
+        {
+          "name": "Max DPUs per job",
+          "value": "100 (Spark), 1 (Python shell)"
+        },
+        {
+          "name": "Max job timeout",
+          "value": "2,880 minutes (48 hr)"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-18",
+          "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls",
+          "url": "https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "athena",
+      "enabled": true,
+      "name": "Amazon Athena",
+      "category": "Analytics",
+      "description": "Amazon Athena is a serverless, interactive analytics service that makes it simple to analyze data in Amazon S3 using standard SQL.",
+      "useCases": [
+        "Ad-hoc queries",
+        "Log analysis",
+        "Data lake analytics",
+        "BI reporting"
+      ],
+      "pricing": "Pay per TB of data scanned ($5/TB)",
+      "pricingUrl": "https://aws.amazon.com/athena/pricing/",
+      "url": "https://aws.amazon.com/athena/",
+      "icon": "🔎",
+      "limits": [
+        {
+          "name": "Burst multiplier quota for ListQueryExecutions API",
+          "value": "2",
+          "description": "Multiplier factor to scale burst capacity for ListQueryExecutions API based on the rate quota (Burst = Rate * BurstMultiplierQuota). ListQueryExecutions Burst is the maximum number of ListQueryExecutions API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Replenishment rate of GetQueryResults API calls",
+          "value": "100",
+          "description": "Maximum call rate per second for GetQueryResults API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Burst multiplier quota for CreateNamedQuery API",
+          "value": "4",
+          "description": "Multiplier factor to scale burst capacity for CreateNamedQuery API based on the rate quota (Burst = Rate * BurstMultiplierQuota). CreateNamedQuery Burst is the maximum number of CreateNamedQuery API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Burst multiplier quota for GetQueryResults API",
+          "value": "5",
+          "description": "Multiplier factor to scale burst capacity for GetQueryResults API based on the rate quota (Burst = Rate * BurstMultiplierQuota). GetQueryResults Burst is the maximum number of GetQueryResults API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Burst multiplier quota for DeleteNamedQuery API",
+          "value": "4",
+          "description": "Multiplier factor to scale burst capacity for DeleteNamedQuery API based on the rate quota (Burst = Rate * BurstMultiplierQuota). DeleteNamedQuery Burst is the maximum number of DeleteNamedQuery API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Burst multiplier quota for GetNamedQuery API",
+          "value": "4",
+          "description": "Multiplier factor to scale burst capacity for GetNamedQuery API based on the rate quota (Burst = Rate * BurstMultiplierQuota). GetNamedQuery Burst is the maximum number of GetNamedQuery API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum number of workgroups per account",
+          "value": "1000",
+          "description": "The maximum number of workgroups that can be created in an account.",
+          "adjustable": false
+        },
+        {
+          "name": "Replenishment rate of ListNamedQueries API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for ListNamedQueries API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of CreateNamedQuery API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for CreateNamedQuery API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Active DML queries",
+          "value": "200",
+          "description": "The number of active DML queries. DML queries include SELECT, CREATE TABLE AS (CTAS), and INSERT INTO queries. The specific quotas vary by AWS Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Active DDL queries",
+          "value": "20",
+          "description": "The number of active DDL queries. DDL queries include CREATE TABLE and ALTER TABLE ADD PARTITION queries.",
+          "adjustable": true
+        },
+        {
+          "name": "Burst multiplier quota for BatchGetNamedQuery API",
+          "value": "2",
+          "description": "Multiplier factor to scale burst capacity for BatchGetNamedQuery API based on the rate quota (Burst = Rate * BurstMultiplierQuota). BatchGetNamedQuery Burst is the maximum number of BatchGetNamedQuery API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Replenishment rate of StartQueryExecution API calls",
+          "value": "100",
+          "description": "Maximum call rate per second for StartQueryExecution API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "On-demand DPUs per account",
+          "value": "4",
+          "description": "The maximum number of DPUs (Data Processing Units) that can be active across all Spark workloads in this account. This limit applies only to Athena Spark Version 3.5 and does not affect Athena Engine Version 3.",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of DeleteNamedQuery API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for DeleteNamedQuery API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Burst multiplier quota for GetQueryExecution API",
+          "value": "1",
+          "description": "Multiplier factor to scale burst capacity for GetQueryExecution API based on the rate quota (Burst = Rate * BurstMultiplierQuota). GetQueryExecution Burst is the maximum number of GetQueryExecution API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Burst multiplier quota for ListNamedQueries API",
+          "value": "2",
+          "description": "Multiplier factor to scale burst capacity for ListNamedQueries API based on the rate quota (Burst = Rate * BurstMultiplierQuota). ListNamedQueries Burst is the maximum number of ListNamedQueries API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Replenishment rate of BatchGetNamedQuery API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for BatchGetNamedQuery API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of StopQueryExecution API calls",
+          "value": "50",
+          "description": "Maximum call rate per second for StopQueryExecution API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of GetNamedQuery API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for GetNamedQuery API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Burst multiplier quota for StartQueryExecution API",
+          "value": "5",
+          "description": "Multiplier factor to scale burst capacity for StartQueryExecution API based on the rate quota (Burst = Rate * BurstMultiplierQuota). StartQueryExecution Burst is the maximum number of StartQueryExecution API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Apache Spark DPU concurrency",
+          "value": "160",
+          "description": "The maximum number of DPUs you can consume concurrently for Apache Spark calculations.",
+          "adjustable": false
+        },
+        {
+          "name": "Replenishment rate of BatchGetQueryExecution API calls",
+          "value": "10",
+          "description": "Maximum call rate per second for BatchGetQueryExecution API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Burst multiplier quota for StopQueryExecution API",
+          "value": "4",
+          "description": "Multiplier factor to scale burst capacity for StopQueryExecution API based on the rate quota (Burst = Rate * BurstMultiplierQuota). StopQueryExecution Burst is the maximum number of StopQueryExecution API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "DML query timeout",
+          "value": "30",
+          "description": "The maximum amount of time in minutes a DML query can run before it gets cancelled. DML queries include SELECT, CTAS and INSERT queries.",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of GetQueryExecution API calls",
+          "value": "500",
+          "description": "Maximum call rate per second for GetQueryExecution API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "Replenishment rate of ListQueryExecutions API calls",
+          "value": "5",
+          "description": "Maximum call rate per second for ListQueryExecutions API in this account in the current Region. For this API, the service adds tokens to your account at a fixed rate. One token allows you to make one API call. You accumulate tokens for an API up to a maximum of (Replenishment rate quota of the API * Burst multiplier quota of the API)",
+          "adjustable": true
+        },
+        {
+          "name": "DDL query timeout",
+          "value": "600",
+          "description": "The maximum amount of time in minutes a DDL query can run before it gets cancelled. DDL queries include CREATE TABLE and CREATE TABLE ADD PARTITION queries.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst multiplier quota for BatchGetQueryExecution API",
+          "value": "2",
+          "description": "Multiplier factor to scale burst capacity for BatchGetQueryExecution API based on the rate quota (Burst = Rate * BurstMultiplierQuota). BatchGetQueryExecution Burst is the maximum number of BatchGetQueryExecution API tokens you can accumulate in the account in the region",
+          "adjustable": false
+        },
+        {
+          "name": "Provisioned DPU",
+          "value": "1000",
+          "description": "Maximum number of DPUs provisioned for the account.",
+          "adjustable": false
+        },
+        {
+          "name": "Max query string length",
+          "value": "262,144 bytes"
+        },
+        {
+          "name": "Max query result size",
+          "value": "Unlimited (to S3)"
+        },
+        {
+          "name": "Max concurrent queries",
+          "value": "25 (soft limit)"
+        },
+        {
+          "name": "Max databases per catalog",
+          "value": "10,000"
+        },
+        {
+          "name": "Max query timeout",
+          "value": "30 minutes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-08",
+          "title": "Amazon Quick now supports cross-account access for Amazon Athena data sources ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-athena/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "elasticache-serverless",
+      "enabled": true,
+      "name": "Amazon ElastiCache Serverless",
+      "category": "Database",
+      "description": "Amazon ElastiCache Serverless allows you to create a cache in under a minute and instantly scale capacity based on application traffic patterns without managing infrastructure.",
+      "useCases": [
+        "Caching",
+        "Session stores",
+        "Real-time leaderboards",
+        "Rate limiting"
+      ],
+      "pricing": "Pay per ECPU (ElastiCache Processing Unit) and data stored per GB-hr",
+      "pricingUrl": "https://aws.amazon.com/elasticache/pricing/",
+      "url": "https://aws.amazon.com/elasticache/serverless/",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Nodes per cluster (cluster mode enabled)",
+          "value": "90",
+          "description": "The maximum number of nodes in an individual Redis or Valkey cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Serverless snapshots per day per cache",
+          "value": "24",
+          "description": "The maximum number of snapshots that can be taken per day per serverless cache.",
+          "adjustable": true
+        },
+        {
+          "name": "Users per User Group",
+          "value": "100",
+          "description": "The maximum number of users you can define for a user group.",
+          "adjustable": true
+        },
+        {
+          "name": "Users per Region",
+          "value": "2000",
+          "description": "The maximum number of users you can create in a Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Nodes per Region",
+          "value": "300",
+          "description": "The maximum number of nodes across all clusters in a Region. This quota applies to both your reserved and non-reserved nodes within the given Region. You can have up to 300 reserved nodes and 300 non-reserved nodes in the same Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Subnet groups per Region",
+          "value": "300",
+          "description": "The maximum number of subnet groups you can create in a Region.",
+          "adjustable": true
+        },
+        {
+          "name": "User Groups per Region",
+          "value": "200",
+          "description": "The maximum number of user groups you can create in a Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Subnets per subnet group",
+          "value": "20",
+          "description": "The maximum number of subnets you can define for a subnet group.",
+          "adjustable": true
+        },
+        {
+          "name": "Nodes per cluster (Memcached)",
+          "value": "60",
+          "description": "The maximum number of nodes in an individual Memcached cluster.",
+          "adjustable": true
+        },
+        {
+          "name": "Parameter groups per Region",
+          "value": "300",
+          "description": "The maximum number of parameters groups you can create in a Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Serverless Caches per Region",
+          "value": "40",
+          "description": "The maximum number of serverless caches in a Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Max data stored",
+          "value": "5 TiB"
+        },
+        {
+          "name": "Max ECPUs per second",
+          "value": "15,000,000"
+        },
+        {
+          "name": "Max connections",
+          "value": "65,000"
+        },
+        {
+          "name": "Max item size (Redis)",
+          "value": "512 MB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-19",
+          "title": "Nine Entertainment’s journey: Achieving 98% cost savings with Amazon ElastiCache Serverless for Valkey",
+          "url": "https://aws.amazon.com/blogs/database/nine-entertainments-journey-achieving-98-cost-savings-with-amazon-elasticache-serverless-for-valkey/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "How HotelTrader cut inter-AZ cost 95% and latency by 49% with Valkey GLIDE on Amazon ElastiCache",
+          "url": "https://aws.amazon.com/blogs/database/how-hoteltrader-cut-inter-az-cost-95-and-latency-by-49-with-valkey-glide-on-amazon-elasticache/"
+        }
+      ],
+      "dataStatus": "partial"
+    },
+    {
+      "id": "amplify",
+      "enabled": true,
+      "name": "AWS Amplify Hosting",
+      "category": "Compute",
+      "description": "AWS Amplify Hosting provides a fully managed CI/CD and hosting service for fast, secure, and reliable static and server-side rendered apps.",
+      "useCases": [
+        "Static sites",
+        "SPAs",
+        "SSR apps",
+        "Full-stack web apps"
+      ],
+      "pricing": "Pay per build minute and GB served/stored",
+      "pricingUrl": "https://aws.amazon.com/amplify/pricing/",
+      "url": "https://aws.amazon.com/amplify/",
+      "icon": "🚀",
+      "limits": [
+        {
+          "name": "Build artifact size",
+          "value": "5 GB",
+          "description": "The maximum size (in GB) of an app build artifact. A build artifact is deployed by AWS Amplify Console after a build.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Cache artifact size",
+          "value": "5 GB",
+          "description": "The maximum size (in GB) of a cache artifact.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Apps",
+          "value": "25",
+          "description": "The maximum number of apps that you can create in AWS Amplify Console in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Webhooks per app",
+          "value": "50",
+          "description": "The maximum number of webhooks per app that you can create in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Environment cache artifact size",
+          "value": "5 GB",
+          "description": "The maximum size (in GB) of the environment cache artifact.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Manual deploy ZIP file size",
+          "value": "5 GB",
+          "description": "The maximum size (in GB) of a manual deploy ZIP file.",
+          "unit": "Gigabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Maximum app creations per hour",
+          "value": "25",
+          "description": "The maximum number of apps that you can create in AWS Amplify Console per hour in this account in the current Region.",
+          "adjustable": false
+        },
+        {
+          "name": "Branches per app",
+          "value": "50",
+          "description": "The maximum number of branches per app that you can create in this account in the current Region.",
+          "adjustable": false
+        },
+        {
+          "name": "Concurrent jobs",
+          "value": "5",
+          "description": "The maximum number of concurrent jobs that you can create in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Subdomains per domain",
+          "value": "50",
+          "description": "The maximum number of subdomains per domain that you can create in this account in the current Region.",
+          "adjustable": false
+        },
+        {
+          "name": "Request tokens per second",
+          "value": "20000",
+          "description": "The maximum number of request tokens per second for an app. Amplify Hosting allocates tokens to requests based on the amount of resources (processing time and data transfer) that they consume.",
+          "adjustable": true
+        },
+        {
+          "name": "Domains per app",
+          "value": "5",
+          "description": "The maximum number of domains per app that you can create in this account in the current Region.",
+          "adjustable": true
+        },
+        {
+          "name": "Max apps per account",
+          "value": "25"
+        },
+        {
+          "name": "Max branches per app",
+          "value": "50"
+        },
+        {
+          "name": "Max build artifact size",
+          "value": "5 GB"
+        },
+        {
+          "name": "Max build timeout",
+          "value": "120 minutes"
+        },
+        {
+          "name": "Max custom domains per app",
+          "value": "5"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-06-19",
+          "title": "Offline caching with AWS Amplify, Tanstack, AppSync and MongoDB Atlas",
+          "url": "https://aws.amazon.com/blogs/mobile/offline-caching-with-aws-amplify-tanstack-appsync-and-mongodb-atlas/"
+        },
+        {
+          "date": "2025-05-29",
+          "title": "Introducing Upgraded Build Instances on Amplify Hosting",
+          "url": "https://aws.amazon.com/blogs/mobile/introducing-upgraded-build-instances-on-amplify-hosting/"
+        },
+        {
+          "date": "2025-05-06",
+          "title": "From Build to Embed: Creating and Embedding GenAI Apps with AWS Amplify, CDK, and Amazon Q Business",
+          "url": "https://aws.amazon.com/blogs/mobile/from-build-to-embed-creating-and-embedding-genai-apps-with-aws-amplify-cdk-and-amazon-q-business/"
+        },
+        {
+          "date": "2025-03-13",
+          "title": "Amplify Hosting Announces Skew Protection Support",
+          "url": "https://aws.amazon.com/blogs/mobile/amplify-hosting-announces-skew-protection/"
+        },
+        {
+          "date": "2025-03-10",
+          "title": "Simplifying Multi-App Management in AWS Amplify Hosting",
+          "url": "https://aws.amazon.com/blogs/mobile/simplifying-multi-app-management-in-aws-amplify-hosting/"
+        },
+        {
+          "date": "2025-02-18",
+          "title": "IAM Compute Roles for Server-Side Rendering with AWS Amplify Hosting",
+          "url": "https://aws.amazon.com/blogs/mobile/iam-compute-roles-for-server-side-rendering-with-aws-amplify-hosting/"
+        },
+        {
+          "date": "2025-01-31",
+          "title": "Build a Scalable Search Solution with AWS Amplify and OpenSearch Serverless",
+          "url": "https://aws.amazon.com/blogs/mobile/build-a-scalable-search-solution-with-aws-amplify-and-opensearch-serverless/"
+        },
+        {
+          "date": "2025-01-16",
+          "title": "Building a Gen AI-Powered Manufacturing Search Engine with AWS Amplify Gen 2",
+          "url": "https://aws.amazon.com/blogs/mobile/building-a-gen-ai-powered-manufacturing-search-engine-with-aws-amplify-gen-2/"
+        },
+        {
+          "date": "2024-12-24",
+          "title": "AWS Amplify Hosting Adds Web Application Firewall Protection – Public Preview",
+          "url": "https://aws.amazon.com/blogs/mobile/aws-amplify-hosting-adds-web-application-firewall-protection-public-preview/"
+        },
+        {
+          "date": "2024-11-22",
+          "title": "Building RAG-based applications with AWS Amplify AI Kit and Neon Postgres",
+          "url": "https://aws.amazon.com/blogs/mobile/building-rag-based-applications-with-aws-amplify-ai-kit-and-neon-postgres/"
         }
       ],
       "dataStatus": "partial"
