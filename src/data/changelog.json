@@ -3,6 +3,24 @@
   "changes": [
     {
       "date": "2026-05-24",
+      "service": "timestream",
+      "type": "service_added",
+      "detail": "Amazon Timestream"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "ses",
+      "type": "service_added",
+      "detail": "Amazon SES"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "lambda-at-edge",
+      "type": "service_added",
+      "detail": "Lambda@Edge"
+    },
+    {
+      "date": "2026-05-24",
       "service": "lambda",
       "type": "new_news",
       "detail": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
@@ -10,10 +28,27 @@
     },
     {
       "date": "2026-05-24",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Amazon Aurora MySQL 8.4  is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
+      "service": "iot-core",
+      "type": "service_added",
+      "detail": "AWS IoT Core"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "glue",
+      "type": "service_added",
+      "detail": "AWS Glue"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "elasticache-serverless",
+      "type": "service_added",
+      "detail": "Amazon ElastiCache Serverless"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloudfront-functions",
+      "type": "service_added",
+      "detail": "CloudFront Functions"
     },
     {
       "date": "2026-05-24",
@@ -24,51 +59,16 @@
     },
     {
       "date": "2026-05-24",
-      "service": "cloudfront-functions",
-      "type": "service_added",
-      "detail": "CloudFront Functions"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "lambda-at-edge",
-      "type": "service_added",
-      "detail": "Lambda@Edge"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "ses",
-      "type": "service_added",
-      "detail": "Amazon SES"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "iot-core",
-      "type": "service_added",
-      "detail": "AWS IoT Core"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "timestream",
-      "type": "service_added",
-      "detail": "Amazon Timestream"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "glue",
-      "type": "service_added",
-      "detail": "AWS Glue"
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora MySQL 8.4  is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
     },
     {
       "date": "2026-05-24",
       "service": "athena",
       "type": "service_added",
       "detail": "Amazon Athena"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "elasticache-serverless",
-      "type": "service_added",
-      "detail": "Amazon ElastiCache Serverless"
     },
     {
       "date": "2026-05-24",
