@@ -3,9 +3,9 @@
   "changes": [
     {
       "date": "2026-05-24",
-      "service": "dataflow",
+      "service": "firebase-hosting",
       "type": "service_added",
-      "detail": "Dataflow"
+      "detail": "Firebase Hosting"
     },
     {
       "date": "2026-05-24",
@@ -15,21 +15,9 @@
     },
     {
       "date": "2026-05-24",
-      "service": "firebase-hosting",
+      "service": "dataflow",
       "type": "service_added",
-      "detail": "Firebase Hosting"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "cloud-armor",
-      "type": "service_added",
-      "detail": "Cloud Armor"
-    },
-    {
-      "date": "2026-05-24",
-      "service": "cloud-cdn",
-      "type": "service_added",
-      "detail": "Cloud CDN"
+      "detail": "Dataflow"
     },
     {
       "date": "2026-05-24",
@@ -42,6 +30,18 @@
       "service": "cloud-functions-for-firebase",
       "type": "service_added",
       "detail": "Cloud Functions for Firebase"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-cdn",
+      "type": "service_added",
+      "detail": "Cloud CDN"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "cloud-armor",
+      "type": "service_added",
+      "detail": "Cloud Armor"
     },
     {
       "date": "2026-05-23",
