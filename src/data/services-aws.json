@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "services": [
     {
       "id": "lambda",
@@ -1592,6 +1592,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-26",
+          "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/"
+        },
         {
           "date": "2026-05-11",
           "title": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone",
@@ -4090,11 +4095,6 @@
           "date": "2026-05-11",
           "title": "Amazon Aurora DSQL connections: Drivers, strings, and best practices",
           "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/"
-        },
-        {
-          "date": "2026-05-08",
-          "title": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
-          "url": "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/"
         }
       ],
       "dataStatus": "partial"
@@ -10891,6 +10891,16 @@
       ],
       "news": [
         {
+          "date": "2026-05-26",
+          "title": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-26",
+          "title": "Build high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-05-21",
           "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
           "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
@@ -10924,16 +10934,6 @@
           "date": "2026-05-20",
           "title": "Amazon Bedrock expands support for request-level usage attribution",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
-          "url": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "Implementing programmatic tool calling on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
         },
         {
           "date": "2026-05-14",
@@ -13052,6 +13052,11 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform"
         },
         {
+          "date": "2026-05-22",
+          "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
+        },
+        {
           "date": "2026-05-15",
           "title": "Amazon Connect Cases now lets you edit related items and delete cases from the agent workspace",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-cases-related-item/"
@@ -13090,11 +13095,6 @@
           "date": "2025-11-25",
           "title": "Learning email deliverability with Amazon SES",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
-        },
-        {
-          "date": "2025-10-22",
-          "title": "Enhance email security using VPC endpoints with Amazon SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses/"
         }
       ],
       "dataStatus": "partial"
@@ -13647,6 +13647,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-26",
+          "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
+          "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
+        },
+        {
           "date": "2026-05-18",
           "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region"
@@ -13880,13 +13885,6 @@
         {
           "name": "Max query timeout",
           "value": "30 minutes"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-05-08",
-          "title": "Amazon Quick now supports cross-account access for Amazon Athena data sources ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-athena/"
         }
       ],
       "dataStatus": "partial"
