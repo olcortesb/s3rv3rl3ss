@@ -3,6 +3,13 @@
   "changes": [
     {
       "date": "2026-05-27",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming ",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
+    },
+    {
+      "date": "2026-05-27",
       "service": "s3",
       "type": "new_news",
       "detail": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
@@ -10,10 +17,10 @@
     },
     {
       "date": "2026-05-27",
-      "service": "bedrock",
+      "service": "glue",
       "type": "new_news",
-      "detail": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/"
+      "detail": "Automate data discovery and centralized management with AWS Glue Data Catalog",
+      "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
     },
     {
       "date": "2026-05-27",
@@ -24,17 +31,10 @@
     },
     {
       "date": "2026-05-27",
-      "service": "ses",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming ",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
-    },
-    {
-      "date": "2026-05-27",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "Automate data discovery and centralized management with AWS Glue Data Catalog",
-      "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
+      "detail": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-05-24",
