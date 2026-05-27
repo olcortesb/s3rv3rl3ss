@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "changes": [
+    {
+      "date": "2026-05-27",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
+    },
     {
       "date": "2026-05-24",
       "service": "firebase-hosting",
