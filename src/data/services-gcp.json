@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-26",
+          "title": "Feature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
+        },
+        {
           "date": "2026-05-20",
           "title": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
@@ -541,11 +546,6 @@
           "date": "2026-04-29",
           "title": "Breaking\nStrict act-as mode\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service ac",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
-        },
-        {
-          "date": "2026-04-28",
-          "title": "Feature\nYou can now\ncreate materialized views over active change data capture (CDC) enabled tables.\nThis feature is gene",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
         }
       ],
       "pricingDetails": [
