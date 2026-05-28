@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
+        },
+        {
           "date": "2026-05-26",
           "title": "Feature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
@@ -541,11 +546,6 @@
           "date": "2026-04-30",
           "title": "Breaking\nStarting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Tr",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Breaking\nStrict act-as mode\nis enforced globally for all Dataform repositories, requiring the use of a\ncustom service ac",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
         }
       ],
       "pricingDetails": [
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Feature\nSpanner Graph supports a suite of\ngraph algorithms covering\nuse cases such as fraud detection, entity resolution",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_27_2026"
+        },
+        {
           "date": "2026-05-18",
           "title": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-04-06",
           "title": "Feature\nThe QueryData tool lets you to query the data in your database using\nconversational language and build data agen",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_06_2026"
-        },
-        {
-          "date": "2026-03-30",
-          "title": "Feature\nSpanner offers conversational analytics, which lets users query their\noperational data using natural language. T",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#March_30_2026"
         }
       ],
       "pricingDetails": [
