@@ -1,6 +1,129 @@
 {
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "changes": [
+    {
+      "date": "2026-05-28",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 audit logging, Part 3: Analyzing S3 Metadata journal tables for object lifecycle tracking",
+      "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-3-analyzing-s3-metadata-journal-tables-for-object-lifecycle-tracking/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 audit logging, Part 2: Centralized logging and analysis of S3 data events in AWS CloudTrail for security and compliance",
+      "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-2-centralized-logging-and-analysis-of-s3-data-events-in-aws-cloudtrail-for-security-and-compliance/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights",
+      "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Guide your Amazon Aurora MySQL migration with Kiro powers",
+      "url": "https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Optimize costs in Amazon Aurora",
+      "url": "https://aws.amazon.com/blogs/database/optimize-costs-in-amazon-aurora/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock expands support for Service Quotas",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Process financial documents using Amazon Bedrock Data Automation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building AI agents for business support using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How AWS SMGS uses an AI-powered conversational assistant to transform business management with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-aws-smgs-uses-an-ai-powered-conversational-assistant-to-transform-business-management-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Powering agentic AI sales strategy with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "How Buildkite Operates Test Analytics at Massive Scale with Amazon MSK and Amazon Managed Service for Apache Flink",
+      "url": "https://aws.amazon.com/blogs/big-data/how-buildkite-operates-test-analytics-at-massive-scale-with-amazon-msk-and-amazon-managed-service-for-apache-flink/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "redshift-serverless",
+      "type": "quota_added",
+      "detail": "Serverless Namespaces: 25"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "redshift-serverless",
+      "type": "quota_added",
+      "detail": "Redshift Processing Units (RPUs): 3200"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "redshift-serverless",
+      "type": "quota_added",
+      "detail": "Serverless Workgroups: 25"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
+      "url": "https://aws.amazon.com/blogs/big-data/how-zynga-scaled-multi-warehouse-data-governance-with-amazon-redshift-federated-permissions/"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions ",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain"
+    },
     {
       "date": "2026-05-27",
       "service": "ses",
