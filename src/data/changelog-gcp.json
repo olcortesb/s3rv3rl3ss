@@ -3,17 +3,17 @@
   "changes": [
     {
       "date": "2026-05-28",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
-    },
-    {
-      "date": "2026-05-28",
       "service": "cloud-spanner",
       "type": "new_news",
       "detail": "Feature\nSpanner Graph supports a suite of\ngraph algorithms covering\nuse cases such as fraud detection, entity resolution",
       "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_27_2026"
+    },
+    {
+      "date": "2026-05-28",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
     },
     {
       "date": "2026-05-27",
