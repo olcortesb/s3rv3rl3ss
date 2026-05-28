@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "services": [
     {
       "id": "lambda",
@@ -554,11 +554,6 @@
           "date": "2026-02-06",
           "title": "Building fault-tolerant applications with AWS Lambda durable functions",
           "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions/"
-        },
-        {
-          "date": "2026-01-08",
-          "title": ".NET 10 runtime now available in AWS Lambda",
-          "url": "https://aws.amazon.com/blogs/compute/net-10-runtime-now-available-in-aws-lambda/"
         }
       ],
       "dataStatus": "ok",
@@ -686,16 +681,6 @@
           "date": "2026-05-20",
           "title": "Introducing ExtendDB: An open source DynamoDB-compatible adapter with pluggable storage backends",
           "url": "https://aws.amazon.com/blogs/database/introducing-extenddb-an-open-source-dynamodb-compatible-adapter-with-pluggable-storage-backends/"
-        },
-        {
-          "date": "2026-05-13",
-          "title": "Zero-downtime DynamoDB construct migration: from Table to TableV2 with cdk orphan",
-          "url": "https://aws.amazon.com/blogs/database/zero-downtime-dynamodb-construct-migration-from-table-to-tablev2-with-cdk-orphan/"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
-          "url": "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/"
         }
       ],
       "dataStatus": "ok",
@@ -1593,6 +1578,21 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Amazon S3 audit logging, Part 3: Analyzing S3 Metadata journal tables for object lifecycle tracking",
+          "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-3-analyzing-s3-metadata-journal-tables-for-object-lifecycle-tracking/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Amazon S3 audit logging, Part 2: Centralized logging and analysis of S3 data events in AWS CloudTrail for security and compliance",
+          "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-2-centralized-logging-and-analysis-of-s3-data-events-in-aws-cloudtrail-for-security-and-compliance/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights",
+          "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
+        },
+        {
           "date": "2026-05-26",
           "title": "Amazon GuardDuty Malware Protection for AWS Backup supports Amazon S3 continuous backups",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-guardduty-aws-backup-s3-continuous/"
@@ -1626,21 +1626,6 @@
           "date": "2026-04-20",
           "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
           "url": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/"
-        },
-        {
-          "date": "2026-04-09",
-          "title": "Building automated AWS Regional availability checks with Amazon S3",
-          "url": "https://aws.amazon.com/blogs/storage/building-automated-aws-regional-availability-checks-with-amazon-s3/"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "How Tavily reduced AI search caching costs by 95% with Amazon S3 Express One Zone",
-          "url": "https://aws.amazon.com/blogs/storage/how-tavily-reduced-ai-search-caching-costs-by-95-with-amazon-s3-express-one-zone/"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
-          "url": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/"
         }
       ],
       "dataStatus": "ok",
@@ -4052,6 +4037,21 @@
       ],
       "news": [
         {
+          "date": "2026-05-28",
+          "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
+          "url": "https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Optimize costs in Amazon Aurora",
+          "url": "https://aws.amazon.com/blogs/database/optimize-costs-in-amazon-aurora/"
+        },
+        {
           "date": "2026-05-21",
           "title": "Amazon Aurora MySQL 8.4  is now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
@@ -4080,21 +4080,6 @@
           "date": "2026-05-14",
           "title": "Getting started with Change Data Capture in Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/getting-started-with-change-data-capture-in-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
-          "url": "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/"
-        },
-        {
-          "date": "2026-05-11",
-          "title": "Amazon Aurora DSQL is now available in five additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-five-additional-aws-regions/"
-        },
-        {
-          "date": "2026-05-11",
-          "title": "Amazon Aurora DSQL connections: Drivers, strings, and best practices",
-          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/"
         }
       ],
       "dataStatus": "partial"
@@ -10891,6 +10876,31 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Amazon Bedrock expands support for Service Quotas",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Process financial documents using Amazon Bedrock Data Automation",
+          "url": "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Building AI agents for business support using Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "How AWS SMGS uses an AI-powered conversational assistant to transform business management with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-aws-smgs-uses-an-ai-powered-conversational-assistant-to-transform-business-management-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Powering agentic AI sales strategy with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-05-26",
           "title": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/"
@@ -10904,31 +10914,6 @@
           "date": "2026-05-21",
           "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
           "url": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Building multi-tenant agents with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-multi-tenant-agents-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Break the context window barrier with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Build AI agents for business intelligence with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-agents-for-business-intelligence-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Build an AI-powered recruitment assistant using Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-recruitment-assistant-using-amazon-bedrock/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/"
         },
         {
           "date": "2026-05-20",
@@ -11467,14 +11452,14 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "How Buildkite Operates Test Analytics at Massive Scale with Amazon MSK and Amazon Managed Service for Apache Flink",
+          "url": "https://aws.amazon.com/blogs/big-data/how-buildkite-operates-test-analytics-at-massive-scale-with-amazon-msk-and-amazon-managed-service-for-apache-flink/"
+        },
+        {
           "date": "2026-05-11",
           "title": "How to build a cross-Region resilience for Amazon OpenSearch Service with Amazon MSK",
           "url": "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Migrating TLS Clients managed by third-party Certificate Authorities from self-managed Apache Kafka to Amazon MSK",
-          "url": "https://aws.amazon.com/blogs/big-data/migrating-tls-clients-managed-by-third-party-certificate-authorities-from-self-managed-apache-kafka-to-amazon-msk/"
         }
       ],
       "dataStatus": "partial"
@@ -11611,6 +11596,27 @@
       "icon": "📊",
       "limits": [
         {
+          "name": "Serverless Namespaces",
+          "value": "25",
+          "description": "The default number of Redshift Serverless Namespaces that are allowed in an account.",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
+          "name": "Redshift Processing Units (RPUs)",
+          "value": "3200",
+          "description": "The default number of Redshift Processing Units (RPUs) that are allocated for an account.",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
+          "name": "Serverless Workgroups",
+          "value": "25",
+          "description": "The default number of Redshift Serverless Workgroups that are allowed in an account.",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
           "name": "Base RPU",
           "value": "8 – 512"
         },
@@ -11628,6 +11634,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-27",
+          "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
+          "url": "https://aws.amazon.com/blogs/big-data/how-zynga-scaled-multi-warehouse-data-governance-with-amazon-redshift-federated-permissions/"
+        },
         {
           "date": "2026-05-19",
           "title": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
@@ -13047,6 +13058,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
+        },
+        {
           "date": "2026-05-22",
           "title": "New agentic migration assessment capabilities now available with AWS Transform",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform"
@@ -13090,11 +13106,6 @@
           "date": "2025-11-26",
           "title": "Implement Tenants in your Amazon SES environment, Part 2: Assessment and planning",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-2-assessment-and-planning/"
-        },
-        {
-          "date": "2025-11-25",
-          "title": "Learning email deliverability with Amazon SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
         }
       ],
       "dataStatus": "partial"
@@ -13646,6 +13657,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-27",
+          "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain"
+        },
         {
           "date": "2026-05-26",
           "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
