@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-27",
+          "title": "Change\n(2026-R21) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_27_2026"
+        },
+        {
           "date": "2026-05-21",
           "title": "Change\n(2026-R20) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_21_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-04-13",
           "title": "Change\nThe validation of the HealthCheckPolicy custom resource from the\nGKE Gateway API is more rigorous in GKE\nversion ",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_13_2026"
-        },
-        {
-          "date": "2026-04-09",
-          "title": "Change\n(2026-R14) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_09_2026"
         }
       ],
       "pricingDetails": [
