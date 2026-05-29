@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "changes": [
+    {
+      "date": "2026-05-29",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R21) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_27_2026"
+    },
     {
       "date": "2026-05-28",
       "service": "cloud-spanner",
