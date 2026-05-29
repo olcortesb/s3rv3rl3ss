@@ -3,6 +3,41 @@
   "changes": [
     {
       "date": "2026-05-29",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Learning email deliverability with Amazon SES",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
+    },
+    {
+      "date": "2026-05-29",
+      "service": "opensearch-serverless",
+      "type": "new_news",
+      "detail": "The next generation of Amazon OpenSearch Serverless: Built from the ground up for agents",
+      "url": "https://aws.amazon.com/blogs/big-data/the-next-generation-of-amazon-opensearch-serverless-built-from-the-ground-up-for-agents/"
+    },
+    {
+      "date": "2026-05-29",
+      "service": "opensearch-serverless",
+      "type": "new_news",
+      "detail": "The next generation of Amazon OpenSearch Serverless is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/"
+    },
+    {
+      "date": "2026-05-29",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "AWS IoT Core now supports direct messaging for point-to-point communication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/"
+    },
+    {
+      "date": "2026-05-29",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "AWS IoT Core adds APIs for MQTT connection management",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/"
+    },
+    {
+      "date": "2026-05-29",
       "service": "dynamodb",
       "type": "new_news",
       "detail": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
@@ -12,7 +47,7 @@
       "date": "2026-05-29",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 4.8: 0"
+      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Opus 4.8: 0"
     },
     {
       "date": "2026-05-29",
@@ -24,13 +59,7 @@
       "date": "2026-05-29",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Opus 4.8: 0"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Opus 4.8: 0"
+      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 4.8: 0"
     },
     {
       "date": "2026-05-29",
@@ -41,38 +70,9 @@
     },
     {
       "date": "2026-05-29",
-      "service": "opensearch-serverless",
-      "type": "new_news",
-      "detail": "The next generation of Amazon OpenSearch Serverless is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "opensearch-serverless",
-      "type": "new_news",
-      "detail": "The next generation of Amazon OpenSearch Serverless: Built from the ground up for agents",
-      "url": "https://aws.amazon.com/blogs/big-data/the-next-generation-of-amazon-opensearch-serverless-built-from-the-ground-up-for-agents/"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Learning email deliverability with Amazon SES",
-      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "iot-core",
-      "type": "new_news",
-      "detail": "AWS IoT Core adds APIs for MQTT connection management",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "iot-core",
-      "type": "new_news",
-      "detail": "AWS IoT Core now supports direct messaging for point-to-point communication",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-direct-messaging/"
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Opus 4.8: 0"
     },
     {
       "date": "2026-05-28",
