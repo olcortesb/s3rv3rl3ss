@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "changes": [
+    {
+      "date": "2026-05-30",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
+    },
+    {
+      "date": "2026-05-30",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Issue\nIn GKE version 1.35 and later, workloads that use Workload Identity to\nauthenticate to Google Cloud\nAPIs might exp",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
+    },
+    {
+      "date": "2026-05-30",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
+    },
     {
       "date": "2026-05-29",
       "service": "gke",
