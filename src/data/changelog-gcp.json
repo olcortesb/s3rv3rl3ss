@@ -3,10 +3,10 @@
   "changes": [
     {
       "date": "2026-05-30",
-      "service": "cloud-storage",
+      "service": "secret-manager",
       "type": "new_news",
-      "detail": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
-      "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
+      "detail": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
     },
     {
       "date": "2026-05-30",
@@ -17,10 +17,10 @@
     },
     {
       "date": "2026-05-30",
-      "service": "secret-manager",
+      "service": "cloud-storage",
       "type": "new_news",
-      "detail": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
-      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
+      "detail": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
     },
     {
       "date": "2026-05-29",
