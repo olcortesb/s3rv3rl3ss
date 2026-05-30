@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "changes": [
+    {
+      "date": "2026-05-30",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Tables are now available in two additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/"
+    },
+    {
+      "date": "2026-05-30",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
+      "url": "https://aws.amazon.com/blogs/containers/scaling-apache-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
+    },
+    {
+      "date": "2026-05-30",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
+    },
+    {
+      "date": "2026-05-30",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/"
+    },
     {
       "date": "2026-05-29",
       "service": "ses",
