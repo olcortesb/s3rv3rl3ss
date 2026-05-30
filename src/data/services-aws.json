@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "services": [
     {
       "id": "lambda",
@@ -515,11 +515,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-05-14",
-          "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/"
-        },
         {
           "date": "2026-04-10",
           "title": "Building Memory-Intensive Apps with AWS Lambda Managed Instances",
@@ -1573,6 +1568,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-29",
+          "title": "Amazon S3 Tables are now available in two additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/"
+        },
+        {
           "date": "2026-05-27",
           "title": "Amazon S3 audit logging, Part 3: Analyzing S3 Metadata journal tables for object lifecycle tracking",
           "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-3-analyzing-s3-metadata-journal-tables-for-object-lifecycle-tracking/"
@@ -1616,11 +1616,6 @@
           "date": "2026-04-20",
           "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
           "url": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
-          "url": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/"
         }
       ],
       "dataStatus": "ok",
@@ -4060,11 +4055,6 @@
           "date": "2026-05-18",
           "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/"
         },
         {
           "date": "2026-05-14",
@@ -11237,6 +11227,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-29",
+          "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
+          "url": "https://aws.amazon.com/blogs/containers/scaling-apache-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
+        },
+        {
           "date": "2026-05-20",
           "title": "AI-powered event-driven Amazon EKS AMI updates with GitOps",
           "url": "https://aws.amazon.com/blogs/containers/ai-powered-event-driven-amazon-eks-ami-updates-with-gitops/"
@@ -11265,11 +11260,6 @@
           "date": "2026-05-05",
           "title": "Track inter-AZ and NAT gateway traffic with EKS Container Network Observability",
           "url": "https://aws.amazon.com/blogs/containers/track-inter-az-and-nat-gateway-traffic-with-eks-container-network-observability/"
-        },
-        {
-          "date": "2026-05-01",
-          "title": "Simplify hybrid Kubernetes networking with Amazon EKS Hybrid Nodes gateway",
-          "url": "https://aws.amazon.com/blogs/containers/simplify-hybrid-kubernetes-networking-with-amazon-eks-hybrid-nodes-gateway/"
         }
       ],
       "dataStatus": "partial"
@@ -11660,6 +11650,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-05-29",
+          "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
+        },
         {
           "date": "2026-05-27",
           "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
@@ -13074,6 +13069,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-29",
+          "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/"
+        },
+        {
           "date": "2026-05-27",
           "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions ",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
@@ -13117,11 +13117,6 @@
           "date": "2025-11-26",
           "title": "Implement Tenants in your Amazon SES environment, Part 2: Assessment and planning",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-2-assessment-and-planning/"
-        },
-        {
-          "date": "2025-11-25",
-          "title": "Learning email deliverability with Amazon SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
         }
       ],
       "dataStatus": "partial"
