@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "services": [
     {
       "id": "cloud-run",
@@ -1013,6 +1013,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-28",
+          "title": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
+        },
+        {
           "date": "2026-04-29",
           "title": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
@@ -1056,11 +1061,6 @@
           "date": "2026-03-12",
           "title": "Change\nObject uploads that use customer-managed encryption keys (CMEK) now fail if the\nCloud Storage service agent lacks",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_12_2026"
-        },
-        {
-          "date": "2026-03-10",
-          "title": "Feature\nRapid Bucket is now generally available.\nRapid Bucket lets you store objects in the Rapid storage class by defin",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_10_2026"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-29",
+          "title": "Issue\nIn GKE version 1.35 and later, workloads that use Workload Identity to\nauthenticate to Google Cloud\nAPIs might exp",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
+        },
+        {
           "date": "2026-05-27",
           "title": "Change\n(2026-R21) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_27_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-04-15",
           "title": "Change\n(2026-R15) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_15_2026"
-        },
-        {
-          "date": "2026-04-13",
-          "title": "Change\nThe validation of the HealthCheckPolicy custom resource from the\nGKE Gateway API is more rigorous in GKE\nversion ",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_13_2026"
         }
       ],
       "pricingDetails": [
@@ -1774,6 +1774,11 @@
       ],
       "news": [
         {
+          "date": "2026-05-20",
+          "title": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
+        },
+        {
           "date": "2026-04-16",
           "title": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_16_2026"
@@ -1817,11 +1822,6 @@
           "date": "2025-04-21",
           "title": "Libraries\n\nGo1.14.7 (2025-04-15)\nBug Fixes\n\nsecretmanager: Update google.golang.org/api to 0.229.0 (3319672)",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_21_2025"
-        },
-        {
-          "date": "2025-04-04",
-          "title": "Feature\nThe Secret Manager add-on for Google Kubernetes Engine (GKE) now supports the automatic rotation of secrets. You",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_04_2025"
         }
       ],
       "pricingDetails": [
