@@ -75,7 +75,7 @@
         "Docker"
       ],
       "license": "MIT",
-      "price": "$0 forever",
+      "price": "Free",
       "performance": {
         "startupTime": "~2s",
         "memoryIdle": "~30MB",
@@ -130,13 +130,13 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.21",
-      "stars": 13385,
+      "stars": 13389,
       "technology": [
         "Java",
         "Docker"
       ],
       "license": "MIT",
-      "price": "$0 forever",
+      "price": "Free",
       "performance": {
         "startupTime": "~24ms",
         "memoryIdle": "~13MB",
@@ -200,7 +200,7 @@
       "id": "robotocore",
       "name": "RobotoCore",
       "description": "AWS service emulator with focus on high-fidelity API compatibility",
-      "url": "https://robotocore.dev/",
+      "url": "https://github.com/robotocore/robotocore",
       "repoUrl": "https://github.com/robotocore/robotocore",
       "version": "2026.5.14",
       "stars": 323,
