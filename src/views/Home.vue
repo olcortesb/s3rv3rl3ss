@@ -5,6 +5,17 @@
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
+    <!-- Local Dev Tools -->
+    <div class="mt-10 mb-6 text-center">
+      <router-link to="/tools" class="group inline-flex items-center gap-3 px-6 py-4 rounded-2xl border-2 border-gray-200 bg-gray-50/50 hover:border-gray-400 hover:shadow-lg transition-all duration-200 hover:-translate-y-1">
+        <span class="text-3xl">🛠️</span>
+        <div class="text-left">
+          <h2 class="text-lg font-bold text-gray-900">AWS Local Dev Tools</h2>
+          <p class="text-xs text-gray-400">Compare AWS service emulators</p>
+        </div>
+      </router-link>
+    </div>
+
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
       <router-link
         v-for="p in providers"
