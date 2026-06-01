@@ -13,7 +13,7 @@
       <div v-for="tool in tools.tools" :key="tool.id" class="bg-white rounded-2xl border border-gray-100 p-6">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-3">
-            <img :src="`/icons/tools/${tool.id}.${tool.id === 'floci' ? 'jpeg' : 'png'}`" :alt="tool.name" class="w-10 h-10 rounded-lg" @error="$event.target.style.display='none'" />
+            <img :src="`/icons/tools/${tool.id}.png`" :alt="tool.name" class="w-10 h-10 rounded-lg" @error="$event.target.style.display='none'" />
             <div>
               <h2 class="text-lg font-bold text-gray-900">{{ tool.name }}</h2>
               <p class="text-sm text-gray-500 mt-1">{{ tool.description }}</p>
