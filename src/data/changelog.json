@@ -1,6 +1,104 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "changes": [
+    {
+      "date": "2026-06-02",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53",
+      "url": "https://aws.amazon.com/blogs/compute/multi-region-event-driven-failover-architecture-with-amazon-eventbridge-and-route-53/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Accelerating developer productivity in the agentic AI era with Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/accelerating-developer-productivity-in-the-agentic-ai-era-with-amazon-aurora-postgresql/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "GPT-5.5, GPT-5.4, and Codex from OpenAI are now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "OpenAI models and Codex on Amazon Bedrock are now generally available",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon SES now supports tenant-level suppression lists",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
+    },
     {
       "date": "2026-05-30",
       "service": "ses",
