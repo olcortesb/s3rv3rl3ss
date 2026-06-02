@@ -93,7 +93,11 @@
           </tr>
           <tr>
             <td class="py-2 px-3 text-gray-700 font-medium">Services (free)</td>
-            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.services.length }}</td>
+            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">
+              <span v-if="tool.services.length === 0 && tool.paidServices && tool.paidServices.length > 0">0 <span class="text-xs text-orange-500">({{ tool.paidServices.length }} paid)</span></span>
+              <span v-else-if="tool.serviceMeta && tool.serviceMeta.native">{{ tool.services.length }} <span class="text-xs text-gray-500">({{ tool.serviceMeta.native.length }} native + {{ tool.serviceMeta.moto.length }} moto)</span></span>
+              <span v-else>{{ tool.services.length }}</span>
+            </td>
           </tr>
         </tbody>
       </table>
