@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "9896ms",
-        "memoryIdle": "329MiB",
+        "startupTime": "10446ms",
+        "memoryIdle": "328.9MiB",
         "imageSize": "1.19GB"
       },
       "services": [],
@@ -153,8 +153,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2033ms",
-        "memoryIdle": "36.15MiB",
+        "startupTime": "2038ms",
+        "memoryIdle": "36MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -231,7 +231,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.21",
-      "stars": 13477,
+      "stars": 13479,
       "technology": [
         "Java",
         "Docker"
@@ -239,8 +239,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "519ms",
-        "memoryIdle": "11.52MiB",
+        "startupTime": "518ms",
+        "memoryIdle": "11.71MiB",
         "imageSize": "426MB"
       },
       "services": [
@@ -317,8 +317,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3073ms",
-        "memoryIdle": "77.73MiB",
+        "startupTime": "3074ms",
+        "memoryIdle": "78.17MiB",
         "imageSize": "486MB"
       },
       "services": [
