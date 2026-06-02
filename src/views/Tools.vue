@@ -74,15 +74,15 @@
         <tbody>
           <tr class="border-b border-gray-100">
             <td class="py-2 px-3 text-gray-700 font-medium">Startup time</td>
-            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance.startupTime }}</td>
+            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance?.startupTime || '—' }}</td>
           </tr>
           <tr class="border-b border-gray-100">
             <td class="py-2 px-3 text-gray-700 font-medium">Memory (idle)</td>
-            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance.memoryIdle }}</td>
+            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance?.memoryIdle || '—' }}</td>
           </tr>
           <tr class="border-b border-gray-100">
             <td class="py-2 px-3 text-gray-700 font-medium">Docker image</td>
-            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance.imageSize }}</td>
+            <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">{{ tool.performance?.imageSize || '—' }}</td>
           </tr>
         </tbody>
       </table>
