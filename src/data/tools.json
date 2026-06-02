@@ -161,7 +161,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.3.55",
-      "stars": 3070,
+      "stars": 3071,
       "technology": [
         "Python",
         "Docker"
@@ -247,7 +247,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.21",
-      "stars": 13449,
+      "stars": 13460,
       "technology": [
         "Java",
         "Docker"
