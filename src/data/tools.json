@@ -16,7 +16,7 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "45936ms",
+        "startupTime": "45914ms",
         "memoryIdle": "0B",
         "imageSize": "1.19GB"
       },
@@ -161,7 +161,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.3.55",
-      "stars": 3072,
+      "stars": 3073,
       "technology": [
         "Python",
         "Docker"
@@ -169,8 +169,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2037ms",
-        "memoryIdle": "36.17MiB",
+        "startupTime": "2035ms",
+        "memoryIdle": "36.14MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -260,8 +260,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "520ms",
-        "memoryIdle": "11.68MiB",
+        "startupTime": "521ms",
+        "memoryIdle": "11.48MiB",
         "imageSize": "426MB"
       },
       "services": [
@@ -335,7 +335,11 @@
       ],
       "license": "Apache 2.0",
       "price": "Free",
-      "performance": {},
+      "performance": {
+        "startupTime": "0ms",
+        "memoryIdle": "",
+        "imageSize": ""
+      },
       "services": [
         "ACM",
         "API Gateway (v1)",
