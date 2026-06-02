@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-01",
+          "title": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
+        },
+        {
           "date": "2026-05-27",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-06",
           "title": "Feature\nYou can configure BigQuery sharing listings for multiple regions, which\nallows you to share datasets and linked ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
-        },
-        {
-          "date": "2026-04-30",
-          "title": "Breaking\nStarting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Tr",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
         }
       ],
       "pricingDetails": [
