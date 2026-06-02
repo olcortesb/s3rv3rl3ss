@@ -36,34 +36,10 @@
       </div>
     </div>
 
-    <!-- Services comparison table -->
-    <div class="bg-white rounded-2xl border border-gray-100 p-6">
-      <h2 class="font-semibold text-gray-900 mb-4">Services Supported</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm">
-          <thead>
-            <tr class="border-b border-gray-200 bg-gray-50">
-              <th class="text-left py-2 px-3 text-gray-500 font-normal">Service</th>
-              <th v-for="tool in tools.tools" :key="tool.id" class="text-center py-2 px-3 text-gray-500 font-normal">{{ tool.name }}</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="service in allServices" :key="service" class="border-b border-gray-100 last:border-0">
-              <td class="py-2 px-3 text-gray-700 font-medium">{{ service }}</td>
-              <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center">
-                <span v-if="tool.services.includes(service)" class="text-green-600">✓</span>
-                <span v-else-if="tool.paidServices && tool.paidServices.includes(service)" class="text-orange-500" title="Paid">💰</span>
-                <span v-else class="text-gray-300">—</span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
     <!-- Performance comparison -->
-    <div class="bg-white rounded-2xl border border-gray-100 p-6 mt-6">
-      <h2 class="font-semibold text-gray-900 mb-4">Performance</h2>
+    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
+      <h2 class="font-semibold text-gray-900 mb-1">Performance</h2>
+      <p class="text-xs text-gray-400 mb-4">Measured with fresh containers (docker pull + cold start), no cache, no preloaded data. Updated daily via CodeBuild.</p>
       <table class="w-full text-sm">
         <thead>
           <tr class="border-b border-gray-200 bg-gray-50">
@@ -89,7 +65,7 @@
     </div>
 
     <!-- Technology comparison -->
-    <div class="bg-white rounded-2xl border border-gray-100 p-6 mt-6">
+    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
       <h2 class="font-semibold text-gray-900 mb-4">Technology</h2>
       <table class="w-full text-sm">
         <thead>
@@ -121,6 +97,31 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!-- Services comparison table -->
+    <div class="bg-white rounded-2xl border border-gray-100 p-6">
+      <h2 class="font-semibold text-gray-900 mb-4">Services Supported</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-gray-200 bg-gray-50">
+              <th class="text-left py-2 px-3 text-gray-500 font-normal">Service</th>
+              <th v-for="tool in tools.tools" :key="tool.id" class="text-center py-2 px-3 text-gray-500 font-normal">{{ tool.name }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="service in allServices" :key="service" class="border-b border-gray-100 last:border-0">
+              <td class="py-2 px-3 text-gray-700 font-medium">{{ service }}</td>
+              <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center">
+                <span v-if="tool.services.includes(service)" class="text-green-600">✓</span>
+                <span v-else-if="tool.paidServices && tool.paidServices.includes(service)" class="text-orange-500" title="Paid">💰</span>
+                <span v-else class="text-gray-300">—</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
