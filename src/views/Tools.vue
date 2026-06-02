@@ -147,5 +147,5 @@ const allServices = computed(() => {
 
 const displayName = (service) => {
   return tools.serviceDisplayNames?.[service] || service
-}})
+}
 </script>
