@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-02T12:03:33Z",
+  "lastUpdated": "2026-06-02T14:59:26Z",
   "today": {
-    "invocations": 32,
-    "totalDurationMs": 123054,
+    "invocations": 63,
+    "totalDurationMs": 198249,
     "errors": 0,
     "functions": {
       "ChangelogFunction": {
@@ -24,15 +24,15 @@
         "errors": 0
       },
       "CommitterFunction": {
-        "invocations": 21,
-        "totalDurationMs": 51110,
-        "avgDurationMs": 2434,
+        "invocations": 41,
+        "totalDurationMs": 91882,
+        "avgDurationMs": 2241,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 1,
-        "totalDurationMs": 11213,
-        "avgDurationMs": 11213,
+        "invocations": 2,
+        "totalDurationMs": 21596,
+        "avgDurationMs": 10798,
         "errors": 0
       },
       "CollectorFunction": {
@@ -48,16 +48,16 @@
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 5,
-        "totalDurationMs": 10262,
-        "avgDurationMs": 2052,
+        "invocations": 15,
+        "totalDurationMs": 34302,
+        "avgDurationMs": 2287,
         "errors": 0
       }
     }
   },
   "month": {
-    "invocations": 56,
-    "totalDurationMs": 218029,
+    "invocations": 87,
+    "totalDurationMs": 293224,
     "errors": 0,
     "functions": {
       "ChangelogFunction": {
@@ -79,15 +79,15 @@
         "errors": 0
       },
       "CommitterFunction": {
-        "invocations": 37,
-        "totalDurationMs": 89140,
-        "avgDurationMs": 2409,
+        "invocations": 57,
+        "totalDurationMs": 129912,
+        "avgDurationMs": 2279,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 2,
-        "totalDurationMs": 18000,
-        "avgDurationMs": 9000,
+        "invocations": 3,
+        "totalDurationMs": 28383,
+        "avgDurationMs": 9461,
         "errors": 0
       },
       "CollectorFunction": {
@@ -103,9 +103,9 @@
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 7,
-        "totalDurationMs": 13405,
-        "avgDurationMs": 1915,
+        "invocations": 17,
+        "totalDurationMs": 37445,
+        "avgDurationMs": 2203,
         "errors": 0
       }
     }
@@ -120,14 +120,14 @@
   },
   "cost": {
     "monthly": {
-      "total": "$0.70",
+      "total": "$1.50",
       "lambda": "$0.00 (free tier)",
       "dynamodb": "$0.00 (free tier)",
       "s3": "$0.00 (free tier)",
-      "secretsManager": "$0.40",
+      "secretsManager": "$1.20",
       "eventbridge": "$0.00 (free tier)",
       "codebuild": "~$0.30"
     },
-    "note": "Secrets Manager + CodeBuild outside free tier"
+    "note": "Secrets Manager (3 secrets) + CodeBuild outside free tier"
   }
 }
