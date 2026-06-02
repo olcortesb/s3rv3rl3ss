@@ -27,7 +27,7 @@
           <span class="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">{{ tool.license }}</span>
         </div>
 
-        <p class="text-xs text-gray-400 mb-2">{{ tool.services.length }} services supported</p>
+        <p class="text-xs text-gray-400 mb-2">{{ tool.serviceCount || tool.services.length }} services supported</p>
 
         <div class="flex gap-3">
           <a :href="tool.url" target="_blank" class="text-xs text-orange-500 hover:underline">Website ↗</a>
@@ -94,9 +94,9 @@
           <tr>
             <td class="py-2 px-3 text-gray-700 font-medium">Services (free)</td>
             <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-gray-900">
-              <span v-if="tool.services.length === 0 && tool.paidServices && tool.paidServices.length > 0">0 <span class="text-xs text-orange-500">({{ tool.paidServices.length }} paid)</span></span>
-              <span v-else-if="tool.serviceMeta && tool.serviceMeta.native">{{ tool.services.length }} <span class="text-xs text-gray-500">({{ tool.serviceMeta.native.length }} native + {{ tool.serviceMeta.moto.length }} moto)</span></span>
-              <span v-else>{{ tool.services.length }}</span>
+              <span v-if="tool.serviceCount === 0 && tool.paidServiceCount > 0">0 <span class="text-xs text-orange-500">({{ tool.paidServiceCount }} paid)</span></span>
+              <span v-else-if="tool.serviceMeta && tool.serviceMeta.native">{{ tool.serviceCount || tool.services.length }} <span class="text-xs text-gray-500">({{ tool.serviceMeta.native.length }} native + {{ tool.serviceMeta.moto.length }} moto)</span></span>
+              <span v-else>{{ tool.serviceCount || tool.services.length }}</span>
             </td>
           </tr>
         </tbody>
@@ -116,7 +116,7 @@
           </thead>
           <tbody>
             <tr v-for="service in allServices" :key="service" class="border-b border-gray-100 last:border-0">
-              <td class="py-2 px-3 text-gray-700 font-medium">{{ service }}</td>
+              <td class="py-2 px-3 text-gray-700 font-medium">{{ displayName(service) }}</td>
               <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center">
                 <span v-if="tool.services.includes(service)" class="text-green-600">✓</span>
                 <span v-else-if="tool.paidServices && tool.paidServices.includes(service)" class="text-orange-500" title="Paid">💰</span>
@@ -142,6 +142,10 @@ const allServices = computed(() => {
       for (const s of tool.paidServices) set.add(s)
     }
   }
-  return [...set].sort()
+  return [...set].sort((a, b) => displayName(a).localeCompare(displayName(b)))
 })
+
+const displayName = (service) => {
+  return tools.serviceDisplayNames?.[service] || service
+}})
 </script>
