@@ -1,0 +1,227 @@
+[
+=== localstack: pulling localstack/localstack:latest ===
+latest: Pulling from localstack/localstack
+1e0f4b2b52c7: Pulling fs layer
+26c3bafd3643: Pulling fs layer
+3f90841210ab: Pulling fs layer
+1516348d483d: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+338c578d56c1: Pulling fs layer
+2341bac6372d: Pulling fs layer
+a9d21c637a29: Pulling fs layer
+8647d1b3a4aa: Pulling fs layer
+2e895d769eb8: Pulling fs layer
+aa3dc26a7bc8: Pulling fs layer
+bdaffcf209c1: Pulling fs layer
+2fb17ba0a53d: Pulling fs layer
+7fc8ebc4adff: Pulling fs layer
+439914743025: Pulling fs layer
+ed542cb37955: Pulling fs layer
+dd4f96a2f2e0: Pulling fs layer
+97b6d1da4009: Pulling fs layer
+62204382f06b: Pulling fs layer
+78d1417be9f7: Pulling fs layer
+1516348d483d: Waiting
+4f4fb700ef54: Waiting
+338c578d56c1: Waiting
+2341bac6372d: Waiting
+a9d21c637a29: Waiting
+8647d1b3a4aa: Waiting
+ed542cb37955: Waiting
+78d1417be9f7: Waiting
+dd4f96a2f2e0: Waiting
+2fb17ba0a53d: Waiting
+7fc8ebc4adff: Waiting
+97b6d1da4009: Waiting
+aa3dc26a7bc8: Waiting
+62204382f06b: Waiting
+439914743025: Waiting
+1e0f4b2b52c7: Download complete
+1516348d483d: Verifying Checksum
+1516348d483d: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+338c578d56c1: Verifying Checksum
+338c578d56c1: Download complete
+2341bac6372d: Verifying Checksum
+2341bac6372d: Download complete
+a9d21c637a29: Verifying Checksum
+a9d21c637a29: Download complete
+3f90841210ab: Verifying Checksum
+3f90841210ab: Download complete
+26c3bafd3643: Verifying Checksum
+26c3bafd3643: Download complete
+8647d1b3a4aa: Verifying Checksum
+8647d1b3a4aa: Download complete
+2e895d769eb8: Verifying Checksum
+2e895d769eb8: Download complete
+2fb17ba0a53d: Verifying Checksum
+2fb17ba0a53d: Download complete
+bdaffcf209c1: Verifying Checksum
+bdaffcf209c1: Download complete
+7fc8ebc4adff: Verifying Checksum
+7fc8ebc4adff: Download complete
+439914743025: Verifying Checksum
+439914743025: Download complete
+ed542cb37955: Verifying Checksum
+ed542cb37955: Download complete
+dd4f96a2f2e0: Verifying Checksum
+dd4f96a2f2e0: Download complete
+97b6d1da4009: Verifying Checksum
+97b6d1da4009: Download complete
+78d1417be9f7: Verifying Checksum
+78d1417be9f7: Download complete
+1e0f4b2b52c7: Pull complete
+aa3dc26a7bc8: Verifying Checksum
+aa3dc26a7bc8: Download complete
+62204382f06b: Verifying Checksum
+62204382f06b: Download complete
+26c3bafd3643: Pull complete
+3f90841210ab: Pull complete
+1516348d483d: Pull complete
+4f4fb700ef54: Pull complete
+338c578d56c1: Pull complete
+2341bac6372d: Pull complete
+a9d21c637a29: Pull complete
+8647d1b3a4aa: Pull complete
+2e895d769eb8: Pull complete
+aa3dc26a7bc8: Pull complete
+bdaffcf209c1: Pull complete
+2fb17ba0a53d: Pull complete
+7fc8ebc4adff: Pull complete
+439914743025: Pull complete
+ed542cb37955: Pull complete
+dd4f96a2f2e0: Pull complete
+97b6d1da4009: Pull complete
+62204382f06b: Pull complete
+78d1417be9f7: Pull complete
+Digest: sha256:235ba7feb837a14fc3478c9dae8305d9b2dfa7813c94150a6dd407d557f74cee
+Status: Downloaded newer image for localstack/localstack:latest
+docker.io/localstack/localstack:latest
+{"id":"localstack","imageSize":"1.19GB","startupMs":30645,"memoryIdle":"0B"}
+,
+=== ministack: pulling ministackorg/ministack:latest ===
+latest: Pulling from ministackorg/ministack
+6a0ac1617861: Pulling fs layer
+254ac41e2afd: Pulling fs layer
+fd21a26fb55d: Pulling fs layer
+3a4f2e6e1560: Pulling fs layer
+bb6b1bc3be7c: Pulling fs layer
+f0a43761f67e: Pulling fs layer
+f74109701f8b: Pulling fs layer
+be86225e5b36: Pulling fs layer
+d049678ef16c: Pulling fs layer
+fd5b097b3aa0: Pulling fs layer
+5000994567ad: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+dd8927d364d9: Pulling fs layer
+bb14cf07b315: Pulling fs layer
+d2f2fd470e36: Pulling fs layer
+5d276db69994: Pulling fs layer
+f0a43761f67e: Waiting
+f74109701f8b: Waiting
+be86225e5b36: Waiting
+d049678ef16c: Waiting
+fd5b097b3aa0: Waiting
+5000994567ad: Waiting
+4f4fb700ef54: Waiting
+dd8927d364d9: Waiting
+bb14cf07b315: Waiting
+d2f2fd470e36: Waiting
+5d276db69994: Waiting
+3a4f2e6e1560: Waiting
+bb6b1bc3be7c: Waiting
+254ac41e2afd: Download complete
+6a0ac1617861: Verifying Checksum
+6a0ac1617861: Download complete
+3a4f2e6e1560: Download complete
+fd21a26fb55d: Verifying Checksum
+fd21a26fb55d: Download complete
+f0a43761f67e: Verifying Checksum
+f0a43761f67e: Download complete
+6a0ac1617861: Pull complete
+be86225e5b36: Verifying Checksum
+be86225e5b36: Download complete
+d049678ef16c: Download complete
+fd5b097b3aa0: Verifying Checksum
+fd5b097b3aa0: Download complete
+254ac41e2afd: Pull complete
+5000994567ad: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+dd8927d364d9: Verifying Checksum
+dd8927d364d9: Download complete
+bb6b1bc3be7c: Download complete
+bb14cf07b315: Verifying Checksum
+bb14cf07b315: Download complete
+d2f2fd470e36: Verifying Checksum
+d2f2fd470e36: Download complete
+5d276db69994: Verifying Checksum
+5d276db69994: Download complete
+f74109701f8b: Verifying Checksum
+f74109701f8b: Download complete
+fd21a26fb55d: Pull complete
+3a4f2e6e1560: Pull complete
+bb6b1bc3be7c: Pull complete
+f0a43761f67e: Pull complete
+f74109701f8b: Pull complete
+be86225e5b36: Pull complete
+d049678ef16c: Pull complete
+fd5b097b3aa0: Pull complete
+5000994567ad: Pull complete
+4f4fb700ef54: Pull complete
+dd8927d364d9: Pull complete
+bb14cf07b315: Pull complete
+d2f2fd470e36: Pull complete
+5d276db69994: Pull complete
+Digest: sha256:35aa3390899968f330579385db1f6b7ca0b135d06c465795f78fa0853ea452e6
+Status: Downloaded newer image for ministackorg/ministack:latest
+docker.io/ministackorg/ministack:latest
+{"id":"ministack","imageSize":"175MB","startupMs":2033,"memoryIdle":"35.94MiB"}
+,
+=== floci: pulling floci/floci:latest ===
+latest: Pulling from floci/floci
+2a9a84f53fe6: Pulling fs layer
+7fb2191152f5: Pulling fs layer
+a624043580ff: Pulling fs layer
+b019b077d08f: Pulling fs layer
+ebfa1da94d2f: Pulling fs layer
+8015b1f7bd58: Pulling fs layer
+dfac0b3500eb: Pulling fs layer
+935d3a930245: Pulling fs layer
+ebfa1da94d2f: Waiting
+8015b1f7bd58: Waiting
+dfac0b3500eb: Waiting
+935d3a930245: Waiting
+b019b077d08f: Waiting
+a624043580ff: Verifying Checksum
+a624043580ff: Download complete
+b019b077d08f: Verifying Checksum
+b019b077d08f: Download complete
+7fb2191152f5: Download complete
+2a9a84f53fe6: Verifying Checksum
+2a9a84f53fe6: Download complete
+dfac0b3500eb: Verifying Checksum
+dfac0b3500eb: Download complete
+935d3a930245: Verifying Checksum
+935d3a930245: Download complete
+8015b1f7bd58: Verifying Checksum
+8015b1f7bd58: Download complete
+ebfa1da94d2f: Verifying Checksum
+ebfa1da94d2f: Download complete
+2a9a84f53fe6: Pull complete
+7fb2191152f5: Pull complete
+a624043580ff: Pull complete
+b019b077d08f: Pull complete
+ebfa1da94d2f: Pull complete
+8015b1f7bd58: Pull complete
+dfac0b3500eb: Pull complete
+935d3a930245: Pull complete
+Digest: sha256:4060e0f8ded3cf0f53bde641ce6b8d2ec8a6355d936cc856ac806cc88dda1a49
+Status: Downloaded newer image for floci/floci:latest
+docker.io/floci/floci:latest
+{"id":"floci","imageSize":"426MB","startupMs":518,"memoryIdle":"11.54MiB"}
+,
+=== robotocore: pulling robotocore/robotocore:latest ===
+{"id":"robotocore","imageSize":"","startupMs":30349,"memoryIdle":""}
+]
