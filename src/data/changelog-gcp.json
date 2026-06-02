@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "changes": [
+    {
+      "date": "2026-06-02",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
+    },
     {
       "date": "2026-05-30",
       "service": "secret-manager",
