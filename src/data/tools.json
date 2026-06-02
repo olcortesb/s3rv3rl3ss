@@ -16,11 +16,12 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "9705ms",
-        "memoryIdle": "328.9MiB",
+        "startupTime": "9896ms",
+        "memoryIdle": "329MiB",
         "imageSize": "1.19GB"
       },
       "services": [],
+      "serviceCount": 0,
       "paidServices": [
         "account",
         "acm",
@@ -134,7 +135,8 @@
         "verifiedpermissions",
         "wafv2",
         "xray"
-      ]
+      ],
+      "paidServiceCount": 114
     },
     {
       "id": "ministack",
@@ -151,8 +153,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2030ms",
-        "memoryIdle": "36.19MiB",
+        "startupTime": "2033ms",
+        "memoryIdle": "36.15MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -218,7 +220,9 @@
         "transfer",
         "wafv2"
       ],
-      "paidServices": []
+      "serviceCount": 68,
+      "paidServices": [],
+      "paidServiceCount": 0
     },
     {
       "id": "floci",
@@ -227,7 +231,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.21",
-      "stars": 13475,
+      "stars": 13477,
       "technology": [
         "Java",
         "Docker"
@@ -235,8 +239,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "518ms",
-        "memoryIdle": "11.68MiB",
+        "startupTime": "519ms",
+        "memoryIdle": "11.52MiB",
         "imageSize": "426MB"
       },
       "services": [
@@ -294,7 +298,9 @@
         "transcribe",
         "transfer"
       ],
-      "paidServices": []
+      "serviceCount": 53,
+      "paidServices": [],
+      "paidServiceCount": 0
     },
     {
       "id": "robotocore",
@@ -311,8 +317,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3068ms",
-        "memoryIdle": "77.72MiB",
+        "startupTime": "3073ms",
+        "memoryIdle": "77.73MiB",
         "imageSize": "486MB"
       },
       "services": [
@@ -474,7 +480,9 @@
         "workspacesweb",
         "xray"
       ],
+      "serviceCount": 157,
       "paidServices": [],
+      "paidServiceCount": 0,
       "serviceMeta": {
         "native": [
           "acm",
