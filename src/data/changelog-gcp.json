@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "changes": [
+    {
+      "date": "2026-06-03",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nRemote functions now\nsupport a custom path in the endpoint URL. You can reuse a single Cloud Run\nservice for mul",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026"
+    },
     {
       "date": "2026-06-02",
       "service": "bigquery",
