@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-02",
+          "title": "Feature\nRemote functions now\nsupport a custom path in the endpoint URL. You can reuse a single Cloud Run\nservice for mul",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026"
+        },
+        {
           "date": "2026-06-01",
           "title": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-08",
           "title": "Announcement\nStarting August 11, 2026, the billing label for the BigQuery Data Transfer\nService SKU will be updated from",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Feature\nYou can configure BigQuery sharing listings for multiple regions, which\nallows you to share datasets and linked ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
         }
       ],
       "pricingDetails": [
