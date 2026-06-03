@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "services": [
     {
       "id": "lambda",
@@ -3786,11 +3786,6 @@
           "date": "2026-05-19",
           "title": "Amazon ECS introduces pause and continue controls for service deployments",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Amazon ECS now integrates with Amazon EBS volumes in AWS GovCloud Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/ecs-amazon-ebs-govcloud/"
         },
         {
           "date": "2026-05-08",
@@ -10885,6 +10880,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-02",
+          "title": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-06-01",
           "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/"
@@ -10918,11 +10918,6 @@
           "date": "2026-06-01",
           "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
           "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments",
-          "url": "https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/"
         },
         {
           "date": "2026-05-27",
@@ -11102,11 +11097,6 @@
           "date": "2026-05-22",
           "title": "AWS Secrets Manager adds managed external secrets support for Datadog vended keys and Snowflake Programmatic Access Tokens",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Introducing pre-fetching and IAM role assumption for AWS Secrets Manager Agent",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/secrets-manager-agent-prefetch-and-role-assumption/"
         }
       ],
       "dataStatus": "partial",
@@ -11236,6 +11226,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-02",
+          "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
+        },
         {
           "date": "2026-05-29",
           "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
@@ -11661,6 +11656,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-02",
+          "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
+        },
+        {
           "date": "2026-05-29",
           "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
@@ -11674,11 +11674,6 @@
           "date": "2026-05-19",
           "title": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
           "url": "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/"
         },
         {
           "date": "2026-05-14",
@@ -13689,16 +13684,6 @@
           "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
         },
         {
-          "date": "2026-05-18",
-          "title": "AWS Glue zero-ETL is now available in Asia Pacific (Mumbai) region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-zero-etl-mumbai-region"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Amazon Redshift adds ALTER TABLE for Iceberg tables and writes via the AWS Glue Data Catalog mount",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-alter-table-iceberg/"
-        },
-        {
           "date": "2026-05-11",
           "title": "Improve DynamoDB analytics with AWS Glue zero-ETL schema and partition controls",
           "url": "https://aws.amazon.com/blogs/big-data/improve-dynamodb-analytics-with-aws-glue-zero-etl-schema-and-partition-controls/"
@@ -13924,6 +13909,13 @@
           "value": "30 minutes"
         }
       ],
+      "news": [
+        {
+          "date": "2026-06-02",
+          "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
+        }
+      ],
       "dataStatus": "partial"
     },
     {
@@ -14027,6 +14019,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-02",
+          "title": "Amazon ElastiCache for Valkey now supports durability",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache"
+        },
+        {
+          "date": "2026-06-02",
+          "title": "Announcing durability for Amazon ElastiCache for Valkey",
+          "url": "https://aws.amazon.com/blogs/database/announcing-durability-for-amazon-elasticache/"
+        },
         {
           "date": "2026-05-19",
           "title": "Nine Entertainment’s journey: Achieving 98% cost savings with Amazon ElastiCache Serverless for Valkey",
