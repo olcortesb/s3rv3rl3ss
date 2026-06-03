@@ -3,20 +3,6 @@
   "changes": [
     {
       "date": "2026-06-03",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-06-03",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
-    },
-    {
-      "date": "2026-06-03",
       "service": "redshift-serverless",
       "type": "new_news",
       "detail": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
@@ -24,10 +10,10 @@
     },
     {
       "date": "2026-06-03",
-      "service": "athena",
+      "service": "elasticache-serverless",
       "type": "new_news",
-      "detail": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
+      "detail": "Announcing durability for Amazon ElastiCache for Valkey",
+      "url": "https://aws.amazon.com/blogs/database/announcing-durability-for-amazon-elasticache/"
     },
     {
       "date": "2026-06-03",
@@ -38,10 +24,24 @@
     },
     {
       "date": "2026-06-03",
-      "service": "elasticache-serverless",
+      "service": "eks",
       "type": "new_news",
-      "detail": "Announcing durability for Amazon ElastiCache for Valkey",
-      "url": "https://aws.amazon.com/blogs/database/announcing-durability-for-amazon-elasticache/"
+      "detail": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
+    },
+    {
+      "date": "2026-06-03",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-06-03",
+      "service": "athena",
+      "type": "new_news",
+      "detail": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
     },
     {
       "date": "2026-06-02",
