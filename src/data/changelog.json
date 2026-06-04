@@ -1,6 +1,118 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "changes": [
+    {
+      "date": "2026-06-04",
+      "service": "step-functions",
+      "type": "new_news",
+      "detail": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
+      "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (SP-GiST, Btree_Gin and Btree_Gist)",
+      "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-sp-gist-btree_gin-and-btree_gist/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrating data from Oracle to Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/migrating-data-from-oracle-to-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How to build self-driving AI operations on Amazon Bedrock at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-mi-extended-retention-region-expansion"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "neptune-serverless",
+      "type": "new_news",
+      "detail": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "AWS IoT Device Management adds MQTT session data to connectivity status API",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Using Amazon Mail Manager SMTP to send email via Amazon Simple Email Service",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/using-amazon-mail-manager-smtp-to-send-email-using-amazon-simple-email-service/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Data Catalog Client for Apache Hive Metastore now supports Hive 3 and discovery of multiple catalogs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-data-catalog-apache-hive3/"
+    },
     {
       "date": "2026-06-03",
       "service": "redshift-serverless",
