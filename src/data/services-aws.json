@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "services": [
     {
       "id": "lambda",
@@ -646,11 +646,6 @@
           "date": "2026-05-28",
           "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "AWS announces ExtendDB, an open source DynamoDB-compatible adapter",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-extenddb-dynamodb/"
         },
         {
           "date": "2026-05-20",
@@ -3253,6 +3248,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-03",
+          "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/"
+        },
+        {
           "date": "2026-03-22",
           "title": "Testing Step Functions workflows: a guide to the enhanced TestState API",
           "url": "https://aws.amazon.com/blogs/compute/testing-step-functions-workflows-a-guide-to-the-enhanced-teststate-api/"
@@ -3783,9 +3783,14 @@
       ],
       "news": [
         {
-          "date": "2026-05-19",
-          "title": "Amazon ECS introduces pause and continue controls for service deployments",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ecs-pause-continue-deployments/"
+          "date": "2026-06-03",
+          "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron"
         },
         {
           "date": "2026-05-08",
@@ -4022,6 +4027,31 @@
       ],
       "news": [
         {
+          "date": "2026-06-03",
+          "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
+          "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (SP-GiST, Btree_Gin and Btree_Gist)",
+          "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-sp-gist-btree_gin-and-btree_gist/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Migrating data from Oracle to Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/migrating-data-from-oracle-to-amazon-aurora-dsql/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/"
+        },
+        {
           "date": "2026-06-01",
           "title": "Accelerating developer productivity in the agentic AI era with Amazon Aurora PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/accelerating-developer-productivity-in-the-agentic-ai-era-with-amazon-aurora-postgresql/"
@@ -4044,22 +4074,7 @@
         {
           "date": "2026-05-21",
           "title": "Amazon Aurora MySQL 8.4 is now generally available",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql/8-4/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
-          "url": "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Building an AI-powered grid investigation agent with Aurora DSQL and Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/database/building-an-ai-powered-grid-investigation-agent-with-aurora-dsql-and-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Getting started with Change Data Capture in Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/getting-started-with-change-data-capture-in-amazon-aurora-dsql/"
+          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
         }
       ],
       "dataStatus": "partial"
@@ -10880,6 +10895,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-03",
+          "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "How to build self-driving AI operations on Amazon Bedrock at scale",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/"
+        },
+        {
           "date": "2026-06-02",
           "title": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
@@ -10915,19 +10940,9 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/"
         },
         {
-          "date": "2026-06-01",
-          "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
-          "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
-        },
-        {
           "date": "2026-05-27",
           "title": "Amazon Bedrock expands support for Service Quotas",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "Amazon Bedrock expands support for request-level usage attribution",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-request-level-usage-attribution/"
         }
       ],
       "dataStatus": "partial",
@@ -11233,8 +11248,13 @@
         },
         {
           "date": "2026-05-29",
+          "title": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-mi-extended-retention-region-expansion"
+        },
+        {
+          "date": "2026-05-29",
           "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
-          "url": "https://aws.amazon.com/blogs/containers/scaling-apache-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
+          "url": "https://aws.amazon.com/blogs/containers/scaling-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
         },
         {
           "date": "2026-05-20",
@@ -11476,11 +11496,6 @@
           "date": "2026-05-27",
           "title": "How Buildkite Operates Test Analytics at Massive Scale with Amazon MSK and Amazon Managed Service for Apache Flink",
           "url": "https://aws.amazon.com/blogs/big-data/how-buildkite-operates-test-analytics-at-massive-scale-with-amazon-msk-and-amazon-managed-service-for-apache-flink/"
-        },
-        {
-          "date": "2026-05-11",
-          "title": "How to build a cross-Region resilience for Amazon OpenSearch Service with Amazon MSK",
-          "url": "https://aws.amazon.com/blogs/big-data/how-to-build-a-cross-region-resilience-for-amazon-opensearch-service-with-amazon-msk/"
         }
       ],
       "dataStatus": "partial"
@@ -11595,6 +11610,13 @@
         {
           "name": "Max vertices/edges per request",
           "value": "Unlimited"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-06-03",
+          "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
         }
       ],
       "dataStatus": "partial"
@@ -13064,6 +13086,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-03",
+          "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Using Amazon Mail Manager SMTP to send email via Amazon Simple Email Service",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/using-amazon-mail-manager-smtp-to-send-email-using-amazon-simple-email-service/"
+        },
+        {
           "date": "2026-06-01",
           "title": "Amazon SES now supports tenant-level suppression lists",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/"
@@ -13102,16 +13134,6 @@
           "date": "2025-12-30",
           "title": "Enhance email security using VPC endpoints with Amazon SES Manager",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses-manager/"
-        },
-        {
-          "date": "2025-11-26",
-          "title": "Implement Tenants in your Amazon SES environment, Part 3: Implementation guide",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-3-implementation-guide/"
-        },
-        {
-          "date": "2025-11-26",
-          "title": "Implement Tenants in your Amazon SES environment, Part 2: Assessment and planning",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-2-assessment-and-planning/"
         }
       ],
       "dataStatus": "partial"
@@ -13167,6 +13189,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-03",
+          "title": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/"
+        },
         {
           "date": "2026-05-28",
           "title": "AWS IoT Core adds APIs for MQTT connection management",
@@ -13682,6 +13709,11 @@
           "date": "2026-05-26",
           "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
           "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
+        },
+        {
+          "date": "2026-05-23",
+          "title": "AWS Glue Data Catalog Client for Apache Hive Metastore now supports Hive 3 and discovery of multiple catalogs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-data-catalog-apache-hive3/"
         },
         {
           "date": "2026-05-11",
