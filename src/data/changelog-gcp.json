@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "changes": [
+    {
+      "date": "2026-06-04",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nBigQuery fluid scaling, which provides\nper-second billing with no minimum duration for autoscaling reservations,",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026"
+    },
     {
       "date": "2026-06-03",
       "service": "bigquery",
