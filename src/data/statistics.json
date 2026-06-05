@@ -3,7 +3,7 @@
     "totalServices": 31,
     "totalQuotas": 1923,
     "totalLimits": 196,
-    "totalNews": 178,
+    "totalNews": 152,
     "totalRuntimes": 20,
     "activeRuntimes": 20,
     "deprecatedRuntimes": 0
@@ -15,8 +15,8 @@
       "count": 1122
     },
     "mostNews": {
-      "id": "lambda",
-      "name": "AWS Lambda",
+      "id": "ses",
+      "name": "Amazon SES",
       "count": 20
     },
     "mostLimits": {
