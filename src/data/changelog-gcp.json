@@ -3,6 +3,90 @@
   "changes": [
     {
       "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.73\n2.2.73\n2.3.26",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_03_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.112-debian11, 2.1.112-rocky8, 2.1.112-ubuntu20",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_24_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.75\n2.2.75\n2.3.28\n3.0.11",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_13_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.110-debian11, 2.1.110-rocky8, 2.1.110-ubuntu20",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_08_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nDataproc on Compute Engine: The following subminor image versions announced on March 08, 2026 have been rol",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_11_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.74\n2.2.74\n2.3.27\n3.0.10\n\nAnnouncement\nServerless for",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_06_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.111-debian11, 2.1.111-rocky8, 2.1.111-ubuntu20",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_18_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.77\n2.2.77\n2.3.30\n3.0.13",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_27_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.76\n2.2.76\n2.3.29\n3.0.12",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_20_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataproc-serverless",
+      "type": "new_news",
+      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.72\n2.2.72\n2.3.25\n3.0.9",
+      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#February_27_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataflow",
+      "type": "new_news",
+      "detail": "Feature\nDataflow Managed I/O now supports rolling upgrades for streaming jobs. With this\nfeature, Dataflow upgrades your",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_02_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataflow",
+      "type": "new_news",
+      "detail": "Feature\nFor jobs that use GPUs, Dataflow now supports the flex-start provisioning model. This flex-start provisioning mo",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_24_2025"
+    },
+    {
+      "date": "2026-06-04",
       "service": "dataflow",
       "type": "new_news",
       "detail": "Feature\nDataflow job builder now supports external Iceberg REST Catalogs as a\nsource. You can now ingest data from exter",
@@ -19,22 +103,8 @@
       "date": "2026-06-04",
       "service": "dataflow",
       "type": "new_news",
-      "detail": "Feature\nDataflow support for the C4A machine\nseries of Arm processors is\nnow generally available. Arm-based VMs are opti",
-      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_27_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataflow",
-      "type": "new_news",
-      "detail": "Feature\nDataflow Managed I/O now supports rolling upgrades for streaming jobs. With this\nfeature, Dataflow upgrades your",
-      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_02_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataflow",
-      "type": "new_news",
-      "detail": "Feature\nDataflow is available in the Bangkok (asia-southeast3) region. Learn more\nabout Google Cloud locations.",
-      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#January_20_2026"
+      "detail": "Feature\nDataflow now supports speculative execution for batch pipelines. This feature mitigates the impact of slow-runni",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#November_21_2025"
     },
     {
       "date": "2026-06-04",
@@ -47,22 +117,15 @@
       "date": "2026-06-04",
       "service": "dataflow",
       "type": "new_news",
-      "detail": "Feature\nDataflow now supports speculative execution for batch pipelines. This feature mitigates the impact of slow-runni",
-      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#November_21_2025"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataflow",
-      "type": "new_news",
-      "detail": "Feature\nFor jobs that use GPUs, Dataflow now supports the flex-start provisioning model. This flex-start provisioning mo",
-      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_24_2025"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataflow",
-      "type": "new_news",
       "detail": "Feature\nDataflow now supports using secure tags to set firewall rules on worker VMs. For more information, see Use secur",
       "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_08_2025"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "dataflow",
+      "type": "new_news",
+      "detail": "Feature\nDataflow is available in the Bangkok (asia-southeast3) region. Learn more\nabout Google Cloud locations.",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#January_20_2026"
     },
     {
       "date": "2026-06-04",
@@ -73,143 +136,10 @@
     },
     {
       "date": "2026-06-04",
-      "service": "dataproc-serverless",
+      "service": "dataflow",
       "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.77\n2.2.77\n2.3.30\n3.0.13",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_27_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.112-debian11, 2.1.112-rocky8, 2.1.112-ubuntu20",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_24_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.76\n2.2.76\n2.3.29\n3.0.12",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_20_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.111-debian11, 2.1.111-rocky8, 2.1.111-ubuntu20",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_18_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.75\n2.2.75\n2.3.28\n3.0.11",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_13_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nDataproc on Compute Engine: The following subminor image versions announced on March 08, 2026 have been rol",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_11_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Dataproc on Compute Engine subminor image versions:\n\n2.1.110-debian11, 2.1.110-rocky8, 2.1.110-ubuntu20",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_08_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.74\n2.2.74\n2.3.27\n3.0.10\n\nAnnouncement\nServerless for",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_06_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.73\n2.2.73\n2.3.26",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#March_03_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "dataproc-serverless",
-      "type": "new_news",
-      "detail": "Announcement\nNew Serverless for Apache Spark runtime versions:\n\n1.2.72\n2.2.72\n2.3.25\n3.0.9",
-      "url": "https://docs.cloud.google.com/dataproc/docs/release-notes#February_27_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "Access Approval\nFeature\nDNS Armor is generally available (GA).\nAccess Transparency\nFeature\nDNS Armor is generally availa",
-      "url": "https://docs.cloud.google.com/release-notes#May_22_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
-      "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
-      "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
+      "detail": "Feature\nDataflow support for the C4A machine\nseries of Arm processors is\nnow generally available. Arm-based VMs are opti",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_27_2026"
     },
     {
       "date": "2026-06-04",
@@ -217,6 +147,13 @@
       "type": "new_news",
       "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
       "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
+      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
     },
     {
       "date": "2026-06-04",
@@ -236,29 +173,15 @@
       "date": "2026-06-04",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
-      "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
+      "detail": "Apigee API hub\nFeature\nMCP tools support for Agentic AI workflows (Preview)\nAPI hub now exposes read-only APIs as Model ",
+      "url": "https://docs.cloud.google.com/release-notes#May_12_2026"
     },
     {
       "date": "2026-06-04",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.85 is now available for all regions.",
-      "url": "https://docs.cloud.google.com/release-notes#May_23_2026"
+      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
+      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
     },
     {
       "date": "2026-06-04",
@@ -285,6 +208,13 @@
       "date": "2026-06-04",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
+      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
       "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.84 is now available for all regions.",
       "url": "https://docs.cloud.google.com/release-notes#May_16_2026"
     },
@@ -292,15 +222,85 @@
       "date": "2026-06-04",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
+      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
+      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
     },
     {
       "date": "2026-06-04",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "Apigee API hub\nFeature\nMCP tools support for Agentic AI workflows (Preview)\nAPI hub now exposes read-only APIs as Model ",
-      "url": "https://docs.cloud.google.com/release-notes#May_12_2026"
+      "detail": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
+      "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.85 is now available for all regions.",
+      "url": "https://docs.cloud.google.com/release-notes#May_23_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
+      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
+      "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
+      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
+      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Access Approval\nFeature\nDNS Armor is generally available (GA).\nAccess Transparency\nFeature\nDNS Armor is generally availa",
+      "url": "https://docs.cloud.google.com/release-notes#May_22_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
+      "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
+      "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
+      "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
+    },
+    {
+      "date": "2026-06-04",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
+      "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
     },
     {
       "date": "2026-06-04",
