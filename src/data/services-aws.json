@@ -516,36 +516,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-04",
-          "title": "AWS Databases on Vercel now available in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/"
-        },
-        {
           "date": "2026-05-29",
           "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
@@ -554,21 +524,6 @@
           "date": "2026-05-28",
           "title": "The next generation of Amazon OpenSearch Serverless is now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-opensearch-serverless-next-generation-generally-available/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Amazon EMR now supports Apache Spark 4.0.2 in general availability",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-apache-spark/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Amazon Aurora MySQL now supports integration with Kiro Powers",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-mysql-kiro-powers/"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "Amazon Keyspaces (for Apache Cassandra) expands to Asia Pacific (Malaysia) and Asia Pacific (Thailand) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/"
         },
         {
           "date": "2026-04-30",
@@ -717,11 +672,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-06-04",
-          "title": "AWS Databases on Vercel now available in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/"
-        },
         {
           "date": "2026-05-28",
           "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
@@ -1655,21 +1605,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-04",
-          "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "AWS Shield Advanced introduces DDoS attack flow logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-shield-ddos/"
-        },
-        {
           "date": "2026-05-29",
           "title": "Amazon S3 Tables are now available in two additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/"
@@ -2205,18 +2140,8 @@
       "news": [
         {
           "date": "2026-06-01",
-          "title": "Amazon Connect Customer now provides schedule update notifications",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-scheduling-notifications/"
-        },
-        {
-          "date": "2026-06-01",
           "title": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53",
           "url": "https://aws.amazon.com/blogs/compute/multi-region-event-driven-failover-architecture-with-amazon-eventbridge-and-route-53/"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "AWS Organizations emits CloudTrail events for account membership changes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/"
         },
         {
           "date": "2026-04-14",
@@ -3494,18 +3419,6 @@
           "value": "20 GB – 200 GB"
         }
       ],
-      "news": [
-        {
-          "date": "2026-06-03",
-          "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon Quick now supports VPC connectivity for MCP connections",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/"
-        }
-      ],
       "dataStatus": "partial",
       "pricingDetails": [
         {
@@ -4194,11 +4107,6 @@
       "news": [
         {
           "date": "2026-06-04",
-          "title": "AWS Databases on Vercel now available in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/"
-        },
-        {
-          "date": "2026-06-04",
           "title": "Understanding how backups work in Amazon Aurora",
           "url": "https://aws.amazon.com/blogs/database/understanding-how-backups-work-in-amazon-aurora/"
         },
@@ -4298,13 +4206,6 @@
         {
           "name": "Read throughput per shard",
           "value": "2 MB/s"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-06-04",
-          "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging"
         }
       ],
       "dataStatus": "partial",
@@ -11101,48 +11002,33 @@
         },
         {
           "date": "2026-06-03",
-          "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/"
-        },
-        {
-          "date": "2026-06-03",
           "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
         },
         {
           "date": "2026-06-03",
-          "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "AWS Config now supports 9 new resource types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types"
+          "title": "How to build self-driving AI operations on Amazon Bedrock at scale",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/"
         },
         {
           "date": "2026-06-02",
-          "title": "Amazon SageMaker Studio now sets up in seconds with model customization ready from the start",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/quick-setup-model-customization-sagemaker-studio/"
+          "title": "Object detection with Amazon Nova 2 Lite",
+          "url": "https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/"
         },
         {
-          "date": "2026-06-01",
-          "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/"
+          "date": "2026-06-02",
+          "title": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-06-02",
+          "title": "Building a secure auth code flow setup using AgentCore Gateway with MCP clients",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/"
         },
         {
           "date": "2026-06-01",
           "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/"
         },
         {
           "date": "2026-06-01",
@@ -11155,9 +11041,34 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/"
         },
         {
-          "date": "2026-05-28",
-          "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/"
+          "date": "2026-06-01",
+          "title": "Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/"
+        },
+        {
+          "date": "2026-06-01",
+          "title": "OpenAI models and Codex on Amazon Bedrock are now generally available",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/"
+        },
+        {
+          "date": "2026-06-01",
+          "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/"
+        },
+        {
+          "date": "2026-06-01",
+          "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
+          "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
+        },
+        {
+          "date": "2026-06-01",
+          "title": "Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/"
+        },
+        {
+          "date": "2026-06-01",
+          "title": "AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/"
         },
         {
           "date": "2026-05-28",
@@ -11166,18 +11077,8 @@
         },
         {
           "date": "2026-05-28",
-          "title": "Claude Opus 4.8 is now available on AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/claude-opus-4.8-aws/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Announcing Region Expansion of P6-B200 instances on SageMaker Notebook Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/p6-b200-region-expansion-sagemaker-notebook-instances/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Announcing Region Expansion of P5.48xl instances on SageMaker Notebook Instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/p5-48xl-region-expansion-sagemaker-notebook-instances/"
+          "title": "Training Azerbaijani language models on Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/training-azerbaijani-language-models-on-amazon-sagemaker-ai/"
         },
         {
           "date": "2026-05-27",
@@ -11186,13 +11087,8 @@
         },
         {
           "date": "2026-05-27",
-          "title": "SageMaker Notebook Instances now support P5en.48xl instance types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/p5en-new-instance-launch-sagemaker-notebook-instances/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "SageMaker Notebook Instances now support P5.4xl instance types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/p5-4xl-new-instance-launch-sagemaker-notebook-instances/"
+          "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
         }
       ],
       "dataStatus": "partial",
@@ -11492,24 +11388,9 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging"
         },
         {
-          "date": "2026-06-03",
-          "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/multi-turn-reinforcement-learning-on-sagemaker-ai/"
-        },
-        {
           "date": "2026-06-02",
           "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon Connect Customer now optimizes placement of ad-hoc activities in agent schedules",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer-activity-optimization/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon SageMaker HyperPod now offers troubleshooting skills for AI coding assistants",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/"
         },
         {
           "date": "2026-05-29",
@@ -11520,11 +11401,6 @@
           "date": "2026-05-29",
           "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
           "url": "https://aws.amazon.com/blogs/containers/scaling-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
-        },
-        {
-          "date": "2026-05-26",
-          "title": "AWS Neuron 2.30.0 now available with NKI 0.4.0 and 22 new NKI Library kernels",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announce-neuron-2-30-0"
         },
         {
           "date": "2026-05-20",
@@ -13372,8 +13248,8 @@
         },
         {
           "date": "2026-06-04",
-          "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/"
+          "title": "Getting started with Amazon SES Agent Skills for AI-assisted email development",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/getting-started-with-amazon-ses-agent-skills-for-ai-assisted-email-development/"
         },
         {
           "date": "2026-06-03",
@@ -13382,73 +13258,8 @@
         },
         {
           "date": "2026-06-03",
-          "title": "Amazon SageMaker Data Agent now supports conversation history",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "AWS Config now supports 9 new resource types",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-config-new-resource-types"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "AWS Config now supports internal service linked rules",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-supports-internal-service-linked-rules"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Amazon ElastiCache for Valkey now supports durability",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Amazon Location Service announces public transit and intermodal routing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-location-service/amazon-location-new-public-transit-intermodal-routing"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Amazon RDS for SQL Server supports Bring Your Own Media",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-supports-bring-your-own-media/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "AWS PCS now provides a production-ready Deep Learning AMI",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon EC2 M8i and M8i-flex instances are now available in Asia Pacific (New Zealand) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon Bedrock AgentCore Identity now allows you to bring your own secrets with AWS Secrets Manager",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon SageMaker HyperPod now supports EFA-only network interfaces",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Amazon Bedrock adds Amazon CloudWatch metrics for OpenAI- and Anthropic-compatible APIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-supports-cloudwatch-metrics-bedrock-mantle-endpoint/"
+          "title": "Using Amazon Mail Manager SMTP to send email via Amazon Simple Email Service",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/using-amazon-mail-manager-smtp-to-send-email-using-amazon-simple-email-service/"
         },
         {
           "date": "2026-06-01",
@@ -13461,9 +13272,74 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/"
         },
         {
-          "date": "2026-05-29",
-          "title": "AWS End User Messaging RCS for Business now available in 20 additional countries",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-rcs-countries/"
+          "date": "2026-05-27",
+          "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "New agentic migration assessment capabilities now available with AWS Transform",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/building-a-scalable-messaging-api-with-aws-end-user-messaging-and-ses/"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Adding a voice layer to WhatsApp conversations with AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/adding-a-voice-layer-to-whatsapp-conversations-with-aws-end-user-messaging/"
+        },
+        {
+          "date": "2026-01-16",
+          "title": "How to improve email sender reputation with Amazon SES Email Validation",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-improve-email-sender-reputation-with-amazon-ses-email-validation/"
+        },
+        {
+          "date": "2026-01-07",
+          "title": "Automate sender ID registration in AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/automate-sender-id-registration-in-aws-end-user-messaging/"
+        },
+        {
+          "date": "2025-12-30",
+          "title": "Enhance email security using VPC endpoints with Amazon SES Manager",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses-manager/"
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Implement Tenants in your Amazon SES environment, Part 3: Implementation guide",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-3-implementation-guide/"
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Implement Tenants in your Amazon SES environment, Part 2: Assessment and planning",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-2-assessment-and-planning/"
+        },
+        {
+          "date": "2025-11-25",
+          "title": "Learning email deliverability with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
+        },
+        {
+          "date": "2025-11-19",
+          "title": "How to register for a US toll-free number with AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-register-for-a-us-toll-free-number-with-aws-end-user-messaging/"
+        },
+        {
+          "date": "2025-11-06",
+          "title": "Cómo Enviar SMS Internacionales con Números Gratuitos de EE.UU. Usando AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/como-enviar-sms-internacionales-con-numeros-gratuitos-de-ee-uu-usando-aws-end-user-messaging/"
+        },
+        {
+          "date": "2025-11-05",
+          "title": "A Guide to Sending International SMS with US Toll-Free Numbers and AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/a-guide-to-sending-international-sms-with-us-toll-free-numbers-and-aws-end-user-messaging/"
         }
       ],
       "dataStatus": "partial"
@@ -13519,11 +13395,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-06-03",
-          "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/"
-        },
         {
           "date": "2026-06-03",
           "title": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
@@ -14064,11 +13935,6 @@
           "date": "2026-05-23",
           "title": "AWS Glue Data Catalog Client for Apache Hive Metastore now supports Hive 3 and discovery of multiple catalogs",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-data-catalog-apache-hive3/"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "Amazon SageMaker adds business metadata and governance in IAM-based domains",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/"
         }
       ],
       "dataStatus": "partial"
