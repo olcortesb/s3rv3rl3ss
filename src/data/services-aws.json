@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "services": [
     {
       "id": "lambda",
@@ -1605,6 +1605,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/"
+        },
+        {
           "date": "2026-05-29",
           "title": "Amazon S3 Tables are now available in two additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/"
@@ -2636,6 +2641,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+          "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
+        },
+        {
           "date": "2026-06-04",
           "title": "Amazon Cognito now supports multi-Region replication",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-multi-region/"
@@ -3419,6 +3429,13 @@
           "value": "20 GB – 200 GB"
         }
       ],
+      "news": [
+        {
+          "date": "2026-06-05",
+          "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu"
+        }
+      ],
       "dataStatus": "partial",
       "pricingDetails": [
         {
@@ -3861,6 +3878,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-05",
+          "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu"
+        },
         {
           "date": "2026-06-03",
           "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
@@ -10996,6 +11018,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
+        },
+        {
           "date": "2026-06-04",
           "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/"
@@ -13242,6 +13269,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Adding LINE Messenger to your AWS omnichannel fallback solution",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/adding-line-messenger-to-your-aws-omnichannel-fallback-solution/"
+        },
+        {
           "date": "2026-06-04",
           "title": "AWS Databases on Vercel now available in additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-databases-vercel-aws-regions/"
@@ -13275,16 +13312,6 @@
           "date": "2026-05-27",
           "title": "Amazon Connect Customer now uses generative AI to automatically evaluate self-service interactions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-customer-gen-AI-evaluations-self-service"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "New agentic migration assessment capabilities now available with AWS Transform",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/assessment-capabilities-transform"
-        },
-        {
-          "date": "2026-05-22",
-          "title": "Amazon GameLift Streams launches Generation 6e stream classes for high-fidelity game streaming",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-gamelift-streams-g6e-stream-class/"
         },
         {
           "date": "2026-03-24",
