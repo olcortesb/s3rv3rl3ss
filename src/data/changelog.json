@@ -3,17 +3,24 @@
   "changes": [
     {
       "date": "2026-06-05",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
+    },
+    {
+      "date": "2026-06-05",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Adding LINE Messenger to your AWS omnichannel fallback solution",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/adding-line-messenger-to-your-aws-omnichannel-fallback-solution/"
+    },
+    {
+      "date": "2026-06-05",
       "service": "s3",
       "type": "new_news",
       "detail": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/"
-    },
-    {
-      "date": "2026-06-05",
-      "service": "cognito",
-      "type": "new_news",
-      "detail": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
-      "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
     },
     {
       "date": "2026-06-05",
@@ -31,24 +38,17 @@
     },
     {
       "date": "2026-06-05",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+      "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
+    },
+    {
+      "date": "2026-06-05",
       "service": "bedrock",
       "type": "new_news",
       "detail": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
-    },
-    {
-      "date": "2026-06-05",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
-    },
-    {
-      "date": "2026-06-05",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Adding LINE Messenger to your AWS omnichannel fallback solution",
-      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/adding-line-messenger-to-your-aws-omnichannel-fallback-solution/"
     },
     {
       "date": "2026-06-05",
