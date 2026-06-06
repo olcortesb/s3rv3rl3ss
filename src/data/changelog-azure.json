@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "changes": [
+    {
+      "date": "2026-06-02",
+      "service": "azure-functions",
+      "type": "new_news",
+      "detail": "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval",
+      "url": "https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq/"
+    },
     {
       "date": "2026-05-24",
       "service": "web-pubsub",
