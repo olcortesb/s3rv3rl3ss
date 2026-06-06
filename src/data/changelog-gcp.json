@@ -2,22 +2,15 @@
   "lastUpdated": "2026-06-06",
   "changes": [
     {
-      "date": "2026-06-01",
-      "service": "firestore",
+      "date": "2026-06-05",
+      "service": "cloud-identity-platform",
       "type": "new_news",
-      "detail": "Feature\nSupport for searching for and managing your Firestore resources\nusing Knowledge Catalog, which is a platform for",
-      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#June_01_2026"
-    },
-    {
-      "date": "2026-06-04",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
+      "detail": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
+      "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
     },
     {
       "date": "2026-06-05",
-      "service": "cloud-armor",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
       "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
@@ -31,17 +24,17 @@
     },
     {
       "date": "2026-06-05",
-      "service": "cloud-identity-platform",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
       "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
     },
     {
-      "date": "2026-06-05",
-      "service": "cloud-functions-for-firebase",
+      "date": "2026-06-04",
+      "service": "gke",
       "type": "new_news",
-      "detail": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
-      "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+      "detail": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
     },
     {
       "date": "2026-06-04",
@@ -364,6 +357,13 @@
       "type": "new_news",
       "detail": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
+    },
+    {
+      "date": "2026-06-01",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nSupport for searching for and managing your Firestore resources\nusing Knowledge Catalog, which is a platform for",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#June_01_2026"
     },
     {
       "date": "2026-05-30",
