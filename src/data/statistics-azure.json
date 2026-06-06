@@ -15,8 +15,8 @@
       "count": 9
     },
     "mostNews": {
-      "id": "cosmos-db",
-      "name": "Azure Cosmos DB",
+      "id": "azure-functions",
+      "name": "Azure Functions",
       "count": 1
     }
   },
@@ -66,5 +66,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-06-05"
+  "lastUpdated": "2026-06-06"
 }
