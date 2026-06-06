@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "services": [
     {
       "id": "azure-functions",
@@ -103,6 +103,13 @@
         {
           "name": "TypeScript",
           "status": "active"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-06-02",
+          "title": "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval",
+          "url": "https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq/"
         }
       ],
       "pricingDetails": [
@@ -315,13 +322,6 @@
         {
           "name": "Max regions",
           "value": "Unlimited"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-05-11",
-          "title": "Build AI apps with Azure Cosmos DB: Key trends from Cosmos Conf 2026",
-          "url": "https://azure.microsoft.com/en-us/blog/build-ai-apps-with-azure-cosmos-db-key-trends-from-cosmos-conf-2026/"
         }
       ],
       "pricingDetails": [
