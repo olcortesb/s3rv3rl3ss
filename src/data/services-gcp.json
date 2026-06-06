@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-06",
   "services": [
     {
       "id": "cloud-run",
@@ -373,6 +373,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-01",
+          "title": "Feature\nSupport for searching for and managing your Firestore resources\nusing Knowledge Catalog, which is a platform for",
+          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#June_01_2026"
+        },
+        {
           "date": "2026-04-20",
           "title": "Feature\nThe Firestore emulator now supports Enterprise edition.\nSee Start emulator in specific edition.\nFeature\nFirestor",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#April_20_2026"
@@ -416,11 +421,6 @@
           "date": "2025-10-27",
           "title": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level.",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#October_27_2025"
-        },
-        {
-          "date": "2025-09-23",
-          "title": "Feature\nYou can now query your databases and update data using the dedicated Gemini CLI extension for Firestore. This fe",
-          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#September_23_2025"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-04",
+          "title": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
+        },
+        {
           "date": "2026-05-29",
           "title": "Issue\nIn GKE version 1.35 and later, workloads that use Workload Identity to\nauthenticate to Google Cloud\nAPIs might exp",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-04-22",
           "title": "Change\n(2026-R16) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_22_2026"
-        },
-        {
-          "date": "2026-04-15",
-          "title": "Change\n(2026-R15) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_15_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
+          "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+        },
+        {
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
           "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
@@ -2350,6 +2355,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
+          "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+        },
+        {
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
           "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
@@ -2406,6 +2416,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-05",
+          "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
+          "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+        },
         {
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
@@ -2468,6 +2483,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-05",
+          "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
+          "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+        },
+        {
           "date": "2026-06-02",
           "title": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
           "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
@@ -2511,11 +2531,6 @@
           "date": "2026-05-15",
           "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
           "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Apigee API hub\nFeature\nMCP tools support for Agentic AI workflows (Preview)\nAPI hub now exposes read-only APIs as Model ",
-          "url": "https://docs.cloud.google.com/release-notes#May_12_2026"
         }
       ]
     }
