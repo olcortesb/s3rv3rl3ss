@@ -3,7 +3,14 @@
   "changes": [
     {
       "date": "2026-06-06",
-      "service": "cloud-armor",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
+      "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
+    },
+    {
+      "date": "2026-06-06",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
       "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
@@ -17,14 +24,7 @@
     },
     {
       "date": "2026-06-06",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
-      "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
-    },
-    {
-      "date": "2026-06-06",
-      "service": "cloud-functions-for-firebase",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
       "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
