@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "changes": [
+    {
+      "date": "2026-06-08",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can analyze data lineage with Gemini Cloud Assist in\nBigQuery. This feature is in Preview.\nFeature\nYou can n",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
+    },
+    {
+      "date": "2026-06-08",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "App Hub\nFeature\nApp Hub support for resources from Memorystore is now generally available (GA).\nBigQuery\nFeature\nYou can",
+      "url": "https://docs.cloud.google.com/release-notes#June_08_2026"
+    },
     {
       "date": "2026-06-06",
       "service": "cloud-identity-platform",
