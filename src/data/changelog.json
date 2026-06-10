@@ -3,10 +3,10 @@
   "changes": [
     {
       "date": "2026-06-09",
-      "service": "lambda",
+      "service": "s3",
       "type": "new_news",
-      "detail": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/"
+      "detail": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region"
     },
     {
       "date": "2026-06-09",
@@ -17,31 +17,22 @@
     },
     {
       "date": "2026-06-09",
-      "service": "s3",
+      "service": "lambda",
       "type": "new_news",
-      "detail": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region"
+      "detail": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/"
     },
     {
       "date": "2026-06-09",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
-      "url": "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/"
+      "service": "iot-core",
+      "type": "quota_added",
+      "detail": "GetStream API (MQTT) TPS: 1000"
     },
     {
       "date": "2026-06-09",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Pagination patterns in Amazon Aurora DSQL",
-      "url": "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/"
-    },
-    {
-      "date": "2026-06-09",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Hands-free first notice of loss: Using Strands Agents and Amazon Bedrock AgentCore Browser Tool for intelligent claims intake",
-      "url": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
+      "service": "iot-core",
+      "type": "quota_added",
+      "detail": "DescribeStream API (MQTT) TPS: 1000"
     },
     {
       "date": "2026-06-09",
@@ -56,18 +47,6 @@
       "type": "new_news",
       "detail": "Better Together: Amazon EKS Auto Mode and Istio Ambient Mesh",
       "url": "https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/"
-    },
-    {
-      "date": "2026-06-09",
-      "service": "iot-core",
-      "type": "quota_added",
-      "detail": "GetStream API (MQTT) TPS: 1000"
-    },
-    {
-      "date": "2026-06-09",
-      "service": "iot-core",
-      "type": "quota_added",
-      "detail": "DescribeStream API (MQTT) TPS: 1000"
     },
     {
       "date": "2026-06-09",
@@ -86,6 +65,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "Throttle rate limit for InvokeDataAutomationLibraryIngestionJob: 5"
+    },
+    {
+      "date": "2026-06-09",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Hands-free first notice of loss: Using Strands Agents and Amazon Bedrock AgentCore Browser Tool for intelligent claims intake",
+      "url": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
     },
     {
       "date": "2026-06-09",
@@ -128,6 +114,20 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "Throttle rate limit for GetDataAutomationLibraryIngestionJob: 5"
+    },
+    {
+      "date": "2026-06-09",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Pagination patterns in Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-06-09",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/"
     },
     {
       "date": "2026-06-08",
