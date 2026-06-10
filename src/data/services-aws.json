@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "services": [
     {
       "id": "lambda",
@@ -516,6 +516,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect"
+        },
+        {
           "date": "2026-06-08",
           "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/"
@@ -691,11 +701,6 @@
           "date": "2026-05-28",
           "title": "DynamoDB Streams now supports AWS PrivateLink for FIPS endpoints in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-dynamodb-streams-privatelink-fips-govcloud/"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "Best practices for Amazon DynamoDB Global Tables – Part 3: Validating regional resilience with AWS Fault Injection Service",
-          "url": "https://aws.amazon.com/blogs/database/best-practices-for-amazon-dynamodb-global-tables-part-3-validating-regional-resilience-with-aws-fault-injection-service/"
         }
       ],
       "dataStatus": "ok",
@@ -1604,6 +1609,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-09",
+          "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region"
+        },
         {
           "date": "2026-06-08",
           "title": "Building persistent memory for multi-agent AI systems with Amazon S3 Vectors",
@@ -4123,6 +4133,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Pagination patterns in Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/"
+        },
+        {
           "date": "2026-06-08",
           "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/"
@@ -4186,11 +4206,6 @@
           "date": "2026-05-21",
           "title": "Amazon Aurora MySQL 8.4 is now generally available",
           "url": "https://aws.amazon.com/blogs/database/amazon-aurora-mysql-8-4-is-now-generally-available/"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "Knowing when new open source database engine versions release on Amazon Aurora and Amazon RDS",
-          "url": "https://aws.amazon.com/blogs/database/knowing-when-new-open-source-database-engine-versions-release-on-amazon-aurora-and-amazon-rds/"
         }
       ],
       "dataStatus": "partial"
@@ -11083,6 +11098,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Hands-free first notice of loss: Using Strands Agents and Amazon Bedrock AgentCore Browser Tool for intelligent claims intake",
+          "url": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
+        },
+        {
           "date": "2026-06-08",
           "title": "Unlocking AI flexibility in Europe: A guide to cross-region inference for EU data processing and model access",
           "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/"
@@ -11148,29 +11168,9 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/"
         },
         {
-          "date": "2026-06-01",
-          "title": "OpenAI models and Codex on Amazon Bedrock are now generally available",
-          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
-          "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
-          "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/"
-        },
-        {
           "date": "2026-05-28",
           "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Amazon Bedrock expands support for Service Quotas",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/5/amazon-bedrock-service-quotas/"
         }
       ],
       "dataStatus": "partial",
@@ -11465,6 +11465,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Better Together: Amazon EKS Auto Mode and Istio Ambient Mesh",
+          "url": "https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/"
+        },
+        {
           "date": "2026-06-04",
           "title": "Amazon EKS Capabilities now supports Amazon CloudWatch Vended Logs",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging"
@@ -11513,11 +11523,6 @@
           "date": "2026-05-06",
           "title": "Cross-Region disaster recovery for Amazon EKS using AWS Backup",
           "url": "https://aws.amazon.com/blogs/containers/cross-region-disaster-recovery-for-amazon-eks-using-aws-backup/"
-        },
-        {
-          "date": "2026-05-05",
-          "title": "Track inter-AZ and NAT gateway traffic with EKS Container Network Observability",
-          "url": "https://aws.amazon.com/blogs/containers/track-inter-az-and-nat-gateway-traffic-with-eks-container-network-observability/"
         }
       ],
       "dataStatus": "partial"
@@ -11944,16 +11949,6 @@
           "date": "2026-05-27",
           "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
           "url": "https://aws.amazon.com/blogs/big-data/how-zynga-scaled-multi-warehouse-data-governance-with-amazon-redshift-federated-permissions/"
-        },
-        {
-          "date": "2026-05-19",
-          "title": "Meet Amazon Redshift RG – AWS Graviton-based instances with an integrated data lake query engine delivering up to 2.4x better performance at 30% lower price than RA3",
-          "url": "https://aws.amazon.com/blogs/big-data/meet-amazon-redshift-rg-aws-graviton-based-instances-with-an-integrated-data-lake-query-engine-delivering-up-to-2-4x-better-performance-at-30-lower-price-than-ra3/"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Optimize Amazon S3 Tables queries with Amazon Redshift",
-          "url": "https://aws.amazon.com/blogs/big-data/optimize-amazon-s3-tables-queries-with-amazon-redshift/"
         }
       ],
       "dataStatus": "partial"
@@ -14030,11 +14025,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-05-27",
-          "title": "AWS Glue large and memory optimized workers now available in Europe (Spain) Region",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-glue-larger-memory-intensive-workers-spain"
-        },
         {
           "date": "2026-05-26",
           "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
