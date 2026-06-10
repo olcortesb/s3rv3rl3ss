@@ -3,7 +3,14 @@
   "changes": [
     {
       "date": "2026-06-09",
-      "service": "cloud-armor",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+      "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
+    },
+    {
+      "date": "2026-06-09",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
       "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
@@ -17,14 +24,7 @@
     },
     {
       "date": "2026-06-09",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
-      "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
-    },
-    {
-      "date": "2026-06-09",
-      "service": "cloud-functions-for-firebase",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
       "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
