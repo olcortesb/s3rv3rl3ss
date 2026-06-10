@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "services": [
     {
       "id": "cloud-run",
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
+        },
+        {
           "date": "2026-06-06",
           "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
           "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
@@ -2316,11 +2321,6 @@
           "date": "2026-05-15",
           "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
           "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-10",
-          "title": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
-          "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
         }
       ]
     },
@@ -2360,6 +2360,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
+        },
+        {
           "date": "2026-06-06",
           "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
           "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
@@ -2383,11 +2388,6 @@
           "date": "2026-05-15",
           "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
           "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-10",
-          "title": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
-          "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
         }
       ]
     },
@@ -2427,6 +2427,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-09",
+          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
+        },
+        {
           "date": "2026-06-06",
           "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
           "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
@@ -2450,11 +2455,6 @@
           "date": "2026-05-15",
           "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
           "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-10",
-          "title": "Cloud Workstations\nAnnouncement\nThe base VM was upgraded to use Container-Optimized OS\n125 LTS.",
-          "url": "https://docs.cloud.google.com/release-notes#May_10_2026"
         }
       ]
     },
@@ -2498,9 +2498,9 @@
       ],
       "news": [
         {
-          "date": "2026-06-08",
-          "title": "App Hub\nFeature\nApp Hub support for resources from Memorystore is now generally available (GA).\nBigQuery\nFeature\nYou can",
-          "url": "https://docs.cloud.google.com/release-notes#June_08_2026"
+          "date": "2026-06-09",
+          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         },
         {
           "date": "2026-06-06",
