@@ -2,11 +2,85 @@
   "lastUpdated": "2026-06-11",
   "changes": [
     {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.5: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Fable 5: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.5: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Data Automation) CreateDataAutomationLibrary - Max number of data automation libraries per account: 10"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.4: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Fable 5: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.4: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Data Automation) Max number of vocabulary phrases per library: 500"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Anthropic Claude Fable 5 (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Fable 5: 0"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
+    },
+    {
       "date": "2026-06-10",
       "service": "ecs",
       "type": "new_news",
       "detail": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/"
+    },
+    {
+      "date": "2026-06-10",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-equipment-repair-assistant-using-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-06-10",
@@ -21,80 +95,6 @@
       "type": "new_news",
       "detail": "How to migrate from Oracle to Amazon Aurora PostgreSQL using AWS CloudFormation (Part 1)",
       "url": "https://aws.amazon.com/blogs/database/how-to-migrate-from-oracle-to-amazon-aurora-postgresql-using-aws-cloudformation-part-1/"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.4: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.5: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Fable 5: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.5: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.4: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Fable 5: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Fable 5: 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Model invocation max tokens per day for Anthropic Claude Fable 5 (doubled for cross-region calls): 0"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "(Data Automation) Max number of vocabulary phrases per library: 500"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "(Data Automation) CreateDataAutomationLibrary - Max number of data automation libraries per account: 10"
-    },
-    {
-      "date": "2026-06-11",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
-    },
-    {
-      "date": "2026-06-10",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-equipment-repair-assistant-using-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-06-09",
