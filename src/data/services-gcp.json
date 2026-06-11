@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-10",
+          "title": "Feature\nBigQuery continuous queries now support the following aggregation functions:\n\nARRAY_AGG\nSTRING_AGG\n\nSupport for ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
+        },
+        {
           "date": "2026-06-08",
           "title": "Feature\nYou can analyze data lineage with Gemini Cloud Assist in\nBigQuery. This feature is in Preview.\nFeature\nYou can n",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-15",
           "title": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-10",
+          "title": "Deprecated\nThe configuration option to not enroll your cluster in a release channel (known\nas No channel, formerly as St",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_10_2026"
+        },
+        {
           "date": "2026-06-04",
           "title": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-04-29",
           "title": "Change\n(2026-R17) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_29_2026"
-        },
-        {
-          "date": "2026-04-22",
-          "title": "Change\n(2026-R16) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_22_2026"
         }
       ],
       "pricingDetails": [
@@ -2289,7 +2289,7 @@
       "news": [
         {
           "date": "2026-06-09",
-          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         },
         {
@@ -2361,7 +2361,7 @@
       "news": [
         {
           "date": "2026-06-09",
-          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         },
         {
@@ -2428,7 +2428,7 @@
       "news": [
         {
           "date": "2026-06-09",
-          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         },
         {
@@ -2499,7 +2499,7 @@
       "news": [
         {
           "date": "2026-06-09",
-          "title": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 wit",
+          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         },
         {
