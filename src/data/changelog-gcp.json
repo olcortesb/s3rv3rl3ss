@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "changes": [
+    {
+      "date": "2026-06-11",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.\nThis fea",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+      "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+      "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+      "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+      "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+    },
     {
       "date": "2026-06-10",
       "service": "gke",
