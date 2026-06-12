@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "services": [
     {
       "id": "lambda",
@@ -516,6 +516,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
+        },
+        {
           "date": "2026-06-09",
           "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/"
@@ -574,21 +579,6 @@
           "date": "2026-02-25",
           "title": "Optimizing Compute-Intensive Serverless Workloads with Multi-threaded Rust on AWS Lambda",
           "url": "https://aws.amazon.com/blogs/compute/optimizing-compute-intensive-serverless-workloads-with-multi-threaded-rust-on-aws-lambda/"
-        },
-        {
-          "date": "2026-02-06",
-          "title": "Building fault-tolerant applications with AWS Lambda durable functions",
-          "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-long-running-application-with-aws-lambda-durable-functions/"
-        },
-        {
-          "date": "2026-01-30",
-          "title": "Serverless ICYMI Q4 2025",
-          "url": "https://aws.amazon.com/blogs/compute/serverless-icymi-q4-2025/"
-        },
-        {
-          "date": "2026-01-29",
-          "title": "More room to build: serverless services now support payloads up to 1 MB",
-          "url": "https://aws.amazon.com/blogs/compute/more-room-to-build-serverless-services-now-support-payloads-up-to-1-mb/"
         }
       ],
       "dataStatus": "ok",
@@ -897,11 +887,6 @@
           "date": "2026-03-24",
           "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/building-a-scalable-messaging-api-with-aws-end-user-messaging-and-ses/"
-        },
-        {
-          "date": "2026-01-29",
-          "title": "More room to build: serverless services now support payloads up to 1 MB",
-          "url": "https://aws.amazon.com/blogs/compute/more-room-to-build-serverless-services-now-support-payloads-up-to-1-mb/"
         }
       ],
       "dataStatus": "partial",
@@ -1613,11 +1598,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/"
         },
         {
-          "date": "2026-05-29",
-          "title": "Amazon S3 Tables are now available in two additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-s3-tables-aws-regions/"
-        },
-        {
           "date": "2026-05-27",
           "title": "Amazon S3 audit logging, Part 3: Analyzing S3 Metadata journal tables for object lifecycle tracking",
           "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-3-analyzing-s3-metadata-journal-tables-for-object-lifecycle-tracking/"
@@ -2137,6 +2117,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
+        },
+        {
           "date": "2026-06-01",
           "title": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53",
           "url": "https://aws.amazon.com/blogs/compute/multi-region-event-driven-failover-architecture-with-amazon-eventbridge-and-route-53/"
@@ -2145,11 +2130,6 @@
           "date": "2026-04-14",
           "title": "AWS Outposts monitoring and reporting: A comprehensive Amazon EventBridge solution",
           "url": "https://aws.amazon.com/blogs/compute/aws-outposts-monitoring-and-reporting-a-comprehensive-amazon-eventbridge-solution/"
-        },
-        {
-          "date": "2026-01-29",
-          "title": "More room to build: serverless services now support payloads up to 1 MB",
-          "url": "https://aws.amazon.com/blogs/compute/more-room-to-build-serverless-services-now-support-payloads-up-to-1-mb/"
         }
       ],
       "dataStatus": "partial",
@@ -4125,6 +4105,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-11",
+          "title": "Amazon Aurora now supports PostgreSQL major version 18",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/"
+        },
         {
           "date": "2026-06-10",
           "title": "Automate Amazon Aurora PostgreSQL major or minor version upgrade using AWS Systems Manager and Amazon EC2",
@@ -11156,6 +11141,26 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
         },
         {
+          "date": "2026-06-11",
+          "title": "Extract Data with On-demand and Batch Pipelines Dynamically",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "Evaluate AI agents systematically with Agent-EvalKit",
+          "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-blueprint-extraction-accuracy-in-amazon-bedrock-data-automation/"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "Gemma 4 models now available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/"
+        },
+        {
           "date": "2026-06-10",
           "title": "Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-equipment-repair-assistant-using-amazon-bedrock-agentcore/"
@@ -11192,18 +11197,8 @@
         },
         {
           "date": "2026-06-03",
-          "title": "How to build self-driving AI operations on Amazon Bedrock at scale",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "Object detection with Amazon Nova 2 Lite",
-          "url": "https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
+          "title": "Automate model quota request and operational issue triage on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-model-quota-request-and-operational-issue-triage-on-amazon-bedrock/"
         },
         {
           "date": "2026-06-01",
@@ -11219,11 +11214,6 @@
           "date": "2026-06-01",
           "title": "GPT-5.5, GPT-5.4, and Codex from OpenAI are now generally available on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-openai-models-codex-generally-available/"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Amazon Connect Customer expands generative AI-powered post-contact summaries to eight new languages",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-connect-summary-languages/"
         }
       ],
       "dataStatus": "partial",
@@ -11536,11 +11526,6 @@
           "date": "2026-06-02",
           "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-mi-extended-retention-region-expansion"
         },
         {
           "date": "2026-05-29",
@@ -13553,11 +13538,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/"
         },
         {
-          "date": "2026-05-28",
-          "title": "AWS IoT Core adds APIs for MQTT connection management",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-core-apis-mqtt/"
-        },
-        {
           "date": "2025-12-23",
           "title": "Streamlining Amazon Sidewalk Device Fleet Management with AWS IoT Core’s New Bulk Operations",
           "url": "https://aws.amazon.com/blogs/iot/streamlining-amazon-sidewalk-device-fleet-management-with-aws-iot-cores-new-bulk-operations/"
@@ -14413,11 +14393,6 @@
           "date": "2026-06-02",
           "title": "Announcing durability for Amazon ElastiCache for Valkey",
           "url": "https://aws.amazon.com/blogs/database/announcing-durability-for-amazon-elasticache/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Real-time personalized recommendations with Amazon SageMaker and Valkey",
-          "url": "https://aws.amazon.com/blogs/database/real-time-personalized-recommendations-with-amazon-sagemaker-and-amazon-managed-valkey/"
         }
       ],
       "dataStatus": "partial"
