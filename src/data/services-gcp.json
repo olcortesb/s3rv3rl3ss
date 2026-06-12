@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "Feature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.\nThis fea",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
+        },
+        {
           "date": "2026-06-10",
           "title": "Feature\nBigQuery continuous queries now support the following aggregation functions:\n\nARRAY_AGG\nSTRING_AGG\n\nSupport for ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-18",
           "title": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Feature\nThe\nAI.DETECT_ANOMALIES function\nsupports calling the function with a single input table that holds both the\nhis",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+        },
+        {
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
@@ -2360,6 +2365,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+        },
+        {
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
@@ -2426,6 +2436,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-11",
+          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+        },
         {
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
@@ -2498,6 +2513,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-11",
+          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
+          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
+        },
+        {
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
@@ -2541,11 +2561,6 @@
           "date": "2026-05-20",
           "title": "Apigee X\nSecurity\nOn May 20, 2026, we published a security bulletin for Apigee.\nA vulnerability was found in Apigee\n(CVE",
           "url": "https://docs.cloud.google.com/release-notes#May_20_2026"
-        },
-        {
-          "date": "2026-05-17",
-          "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Agent Designer defaults to Gemini 3.1 Pro for US\nand Global regions\nNew age",
-          "url": "https://docs.cloud.google.com/release-notes#May_17_2026"
         }
       ]
     }
