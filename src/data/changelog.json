@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "changes": [
+    {
+      "date": "2026-06-11",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora now supports PostgreSQL major version 18",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Extract Data with On-demand and Batch Pipelines Dynamically",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Evaluate AI agents systematically with Agent-EvalKit",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/"
+    },
+    {
+      "date": "2026-06-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimize-blueprint-extraction-accuracy-in-amazon-bedrock-data-automation/"
+    },
+    {
+      "date": "2026-06-10",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Gemma 4 models now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-03",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Automate model quota request and operational issue triage on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-model-quota-request-and-operational-issue-triage-on-amazon-bedrock/"
+    },
     {
       "date": "2026-06-11",
       "service": "bedrock",
