@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-12",
+          "title": "Feature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_URL functio",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
+        },
+        {
           "date": "2026-06-11",
           "title": "Feature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.\nThis fea",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-20",
           "title": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Feature\nYou can\ngroup reservations\ntogether to prioritize idle slot sharing within the group. Reservations within a\nrese",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
         }
       ],
       "pricingDetails": [
@@ -2513,6 +2513,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-12",
+          "title": "BigQuery\nFeature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_UR",
+          "url": "https://docs.cloud.google.com/release-notes#June_12_2026"
+        },
+        {
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
@@ -2556,11 +2561,6 @@
           "date": "2026-05-21",
           "title": "AlloyDB for PostgreSQL\nFixed\nChatGPT users are now able to list and use the AlloyDB toolset provided by the\nAlloyDB remo",
           "url": "https://docs.cloud.google.com/release-notes#May_21_2026"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "Apigee X\nSecurity\nOn May 20, 2026, we published a security bulletin for Apigee.\nA vulnerability was found in Apigee\n(CVE",
-          "url": "https://docs.cloud.google.com/release-notes#May_20_2026"
         }
       ]
     }
