@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "changes": [
+    {
+      "date": "2026-06-12",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_URL functio",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
+    },
+    {
+      "date": "2026-06-12",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_UR",
+      "url": "https://docs.cloud.google.com/release-notes#June_12_2026"
+    },
     {
       "date": "2026-06-11",
       "service": "cloud-identity-platform",
