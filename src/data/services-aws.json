@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "services": [
     {
       "id": "lambda",
@@ -516,6 +516,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-12",
+          "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/"
+        },
+        {
           "date": "2026-06-11",
           "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
@@ -544,11 +549,6 @@
           "date": "2026-06-08",
           "title": "Integrating Event Source Mappings with AWS Lambda tenant isolation mode",
           "url": "https://aws.amazon.com/blogs/compute/integrating-event-source-mappings-with-aws-lambda-tenant-isolation-mode/"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
         },
         {
           "date": "2026-04-30",
@@ -1582,6 +1582,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-12",
+          "title": "Achieving sub-10ms latency and 94% cost savings with Diskless Kafka using AutoMQ and Amazon FSx for NetApp ONTAP",
+          "url": "https://aws.amazon.com/blogs/storage/achieving-sub-10ms-latency-and-94-cost-savings-with-diskless-kafka-using-automq-and-amazon-fsx-for-netapp-ontap/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3"
+        },
         {
           "date": "2026-06-09",
           "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
@@ -11136,6 +11146,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-12",
+          "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/"
+        },
+        {
+          "date": "2026-06-12",
+          "title": "From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-pdfs-to-insights-architecting-an-intelligent-document-processing-pipeline-with-aws-generative-ai-services/"
+        },
+        {
           "date": "2026-06-11",
           "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
@@ -11194,11 +11214,6 @@
           "date": "2026-06-03",
           "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Automate model quota request and operational issue triage on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-model-quota-request-and-operational-issue-triage-on-amazon-bedrock/"
         },
         {
           "date": "2026-06-01",
@@ -11507,6 +11522,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-11",
+          "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/"
+        },
         {
           "date": "2026-06-09",
           "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
@@ -11972,11 +11992,6 @@
           "date": "2026-06-02",
           "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Amazon Redshift Serverless now offers 4-RPU Minimum Capacity in 7 additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-redshift-serverless-4-rpu-seven-regions/"
         },
         {
           "date": "2026-05-27",
@@ -13407,11 +13422,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ses-tenant-level-suppression-lists/"
         },
         {
-          "date": "2026-05-29",
-          "title": "Amazon SES now offers inbox placement metrics and blocklist monitoring",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-ses-global-deliverability/"
-        },
-        {
           "date": "2026-03-24",
           "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/building-a-scalable-messaging-api-with-aws-end-user-messaging-and-ses/"
@@ -13465,6 +13475,11 @@
           "date": "2025-11-05",
           "title": "A Guide to Sending International SMS with US Toll-Free Numbers and AWS End User Messaging",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/a-guide-to-sending-international-sms-with-us-toll-free-numbers-and-aws-end-user-messaging/"
+        },
+        {
+          "date": "2025-10-22",
+          "title": "Enhance email security using VPC endpoints with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses/"
         }
       ],
       "dataStatus": "partial"
@@ -14045,13 +14060,6 @@
         {
           "name": "Max job timeout",
           "value": "2,880 minutes (48 hr)"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-05-26",
-          "title": "Automate data discovery and centralized management with AWS Glue Data Catalog",
-          "url": "https://aws.amazon.com/blogs/big-data/automate-data-discovery-and-centralized-management-with-aws-glue-data-catalog/"
         }
       ],
       "dataStatus": "partial"
