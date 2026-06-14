@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-14",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-12",
+          "title": "Change\n(2026-R23) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_12_2026"
+        },
+        {
           "date": "2026-06-10",
           "title": "Deprecated\nThe configuration option to not enroll your cluster in a release channel (known\nas No channel, formerly as St",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_10_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-05-01",
           "title": "Announcement\nKubernetes 1.36 is now available in the Rapid channel\nKubernetes 1.36 is now available in the Rapid channel",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_01_2026"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Change\n(2026-R17) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#April_29_2026"
         }
       ],
       "pricingDetails": [
