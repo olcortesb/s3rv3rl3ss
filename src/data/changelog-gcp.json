@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-14",
   "changes": [
+    {
+      "date": "2026-06-12",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R23) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_12_2026"
+    },
     {
       "date": "2026-06-12",
       "service": "cloud-functions-for-firebase",
