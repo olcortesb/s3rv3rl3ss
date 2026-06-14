@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-14",
   "services": [
     {
       "id": "azure-functions",
@@ -1096,34 +1096,10 @@
       ],
       "pricingDetails": [
         {
-          "label": "Premium Unit",
-          "price": "$2.00",
-          "unit": "per 1/Day",
-          "description": "$2.00 per 1/Day (Premium)"
-        },
-        {
-          "label": "Standard Unit",
+          "label": "Unit (Standard)",
           "price": "$1.61",
-          "unit": "per 1/Day",
-          "description": "$1.61 per 1/Day (Standard)"
-        },
-        {
-          "label": "Premium Message",
-          "price": "$1.00",
-          "unit": "per 1M",
-          "description": "$1.00 per 1M (Premium)"
-        },
-        {
-          "label": "Standard Message",
-          "price": "$1.00",
-          "unit": "per 1M",
-          "description": "$1.00 per 1M (Standard)"
-        },
-        {
-          "label": "Standard Unit - Free",
-          "price": "$0.00",
-          "unit": "per 1/Day",
-          "description": "$0.00 per 1/Day (Standard)"
+          "unit": "per unit/day",
+          "description": "$1.61 per unit per day"
         }
       ]
     },
