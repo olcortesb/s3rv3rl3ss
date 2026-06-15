@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-06-15",
   "services": [
     {
       "id": "cloud-run",
@@ -2321,11 +2321,6 @@
           "date": "2026-05-22",
           "title": "Access Approval\nFeature\nDNS Armor is generally available (GA).\nAccess Transparency\nFeature\nDNS Armor is generally availa",
           "url": "https://docs.cloud.google.com/release-notes#May_22_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-          "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
         }
       ]
     },
@@ -2393,11 +2388,6 @@
           "date": "2026-05-26",
           "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
           "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-          "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
         }
       ]
     },
@@ -2465,11 +2455,6 @@
           "date": "2026-05-26",
           "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
           "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Assured Workloads\nFeature\nThe Indonesia Data Boundary\nsupports the following products:\n\nCloud Scheduler\nSecure Web Proxy",
-          "url": "https://docs.cloud.google.com/release-notes#May_15_2026"
         }
       ]
     },
