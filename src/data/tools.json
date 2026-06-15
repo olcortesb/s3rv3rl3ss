@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14",
+  "lastUpdated": "2026-06-15",
   "tools": [
     {
       "id": "localstack",
@@ -7,8 +7,8 @@
       "description": "Cloud service emulator that runs in a single container on your laptop or in your CI environment",
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
-      "version": "4.14.0",
-      "stars": 65045,
+      "version": "unknown",
+      "stars": 65050,
       "technology": [
         "Python",
         "Docker"
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "9550ms",
-        "memoryIdle": "327.9MiB",
+        "startupTime": "10670ms",
+        "memoryIdle": "328MiB",
         "imageSize": "1.19GB"
       },
       "services": [],
@@ -144,8 +144,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.3.63",
-      "stars": 3227,
+      "version": "unknown",
+      "stars": 3234,
       "technology": [
         "Python",
         "Docker"
@@ -153,8 +153,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2042ms",
-        "memoryIdle": "35.9MiB",
+        "startupTime": "2035ms",
+        "memoryIdle": "36.08MiB",
         "imageSize": "182MB"
       },
       "services": [
@@ -231,8 +231,8 @@
       "description": "Free, open-source local AWS emulator. 52+ services, real Docker for Lambda/RDS/ECS/EC2. Drop-in LocalStack replacement",
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
-      "version": "1.5.24",
-      "stars": 14054,
+      "version": "1.5.25",
+      "stars": 14113,
       "technology": [
         "Java",
         "Docker"
@@ -240,8 +240,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "519ms",
-        "memoryIdle": "10.91MiB",
+        "startupTime": "522ms",
+        "memoryIdle": "11.13MiB",
         "imageSize": "444MB"
       },
       "services": [
@@ -312,7 +312,7 @@
       "description": "AWS service emulator with focus on high-fidelity API compatibility",
       "url": "https://github.com/robotocore/robotocore",
       "repoUrl": "https://github.com/robotocore/robotocore",
-      "version": "2026.5.14",
+      "version": "unknown",
       "stars": 326,
       "technology": [
         "Go",
@@ -321,8 +321,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3084ms",
-        "memoryIdle": "77.64MiB",
+        "startupTime": "3594ms",
+        "memoryIdle": "77.43MiB",
         "imageSize": "486MB"
       },
       "services": [
