@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-16",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-15",
+          "title": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
+        },
+        {
           "date": "2026-06-12",
           "title": "Feature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_URL functio",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-26",
           "title": "Feature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "Announcement\nBigQuery can re-execute instructions (queries) to try to proactively detect performance, correctness, or fu",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
         }
       ],
       "pricingDetails": [
@@ -2071,6 +2071,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-15",
+          "title": "Feature\nDataflow has updated and expanded its pipeline update features for\nstreaming jobs:\n\nAutomated stop-and-replace u",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_15_2026"
+        },
+        {
           "date": "2026-04-22",
           "title": "Feature\nDataflow job builder now supports external Iceberg REST Catalogs as a\nsource. You can now ingest data from exter",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#April_22_2026"
@@ -2114,11 +2119,6 @@
           "date": "2025-09-08",
           "title": "Feature\nDataflow now supports using secure tags to set firewall rules on worker VMs. For more information, see Use secur",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_08_2025"
-        },
-        {
-          "date": "2025-08-27",
-          "title": "Feature\nDataflow supports TPUs, Google's custom-designed AI accelerators that are optimized for large-scale AI/ML worklo",
-          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#August_27_2025"
         }
       ]
     },
@@ -2498,6 +2498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-15",
+          "title": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime,",
+          "url": "https://docs.cloud.google.com/release-notes#June_15_2026"
+        },
+        {
           "date": "2026-06-12",
           "title": "BigQuery\nFeature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_UR",
           "url": "https://docs.cloud.google.com/release-notes#June_12_2026"
@@ -2541,11 +2546,6 @@
           "date": "2026-05-23",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.85 is now available for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#May_23_2026"
-        },
-        {
-          "date": "2026-05-21",
-          "title": "AlloyDB for PostgreSQL\nFixed\nChatGPT users are now able to list and use the AlloyDB toolset provided by the\nAlloyDB remo",
-          "url": "https://docs.cloud.google.com/release-notes#May_21_2026"
         }
       ]
     }
