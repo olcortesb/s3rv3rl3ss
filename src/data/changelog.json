@@ -19,15 +19,15 @@
       "date": "2026-06-15",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata"
+      "detail": "Introducing Gemma 4 models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/"
     },
     {
       "date": "2026-06-15",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Introducing Gemma 4 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/"
+      "detail": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata"
     },
     {
       "date": "2026-06-15",
