@@ -3,13 +3,6 @@
   "changes": [
     {
       "date": "2026-06-15",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
-    },
-    {
-      "date": "2026-06-15",
       "service": "dataflow",
       "type": "new_news",
       "detail": "Feature\nDataflow has updated and expanded its pipeline update features for\nstreaming jobs:\n\nAutomated stop-and-replace u",
@@ -21,6 +14,13 @@
       "type": "new_news",
       "detail": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime,",
       "url": "https://docs.cloud.google.com/release-notes#June_15_2026"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
       "date": "2026-06-12",
