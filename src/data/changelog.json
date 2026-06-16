@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-16",
   "changes": [
+    {
+      "date": "2026-06-15",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Gemma 4 models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/"
+    },
     {
       "date": "2026-06-12",
       "service": "s3",
