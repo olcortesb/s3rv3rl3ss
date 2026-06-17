@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
+        },
+        {
           "date": "2026-06-15",
           "title": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
@@ -541,11 +546,6 @@
           "date": "2026-05-27",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
-        },
-        {
-          "date": "2026-05-26",
-          "title": "Feature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
         }
       ],
       "pricingDetails": [
@@ -2071,6 +2071,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "Feature\nDataflow now supports NVIDIA RTX Pro 6000 GPUs. You can use this\nGPU model to run your Apache Beam pipelines on ",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_16_2026"
+        },
+        {
           "date": "2026-06-15",
           "title": "Feature\nDataflow has updated and expanded its pipeline update features for\nstreaming jobs:\n\nAutomated stop-and-replace u",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_15_2026"
@@ -2114,11 +2119,6 @@
           "date": "2025-09-24",
           "title": "Feature\nFor jobs that use GPUs, Dataflow now supports the flex-start provisioning model. This flex-start provisioning mo",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_24_2025"
-        },
-        {
-          "date": "2025-09-08",
-          "title": "Feature\nDataflow now supports using secure tags to set firewall rules on worker VMs. For more information, see Use secur",
-          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_08_2025"
         }
       ]
     },
