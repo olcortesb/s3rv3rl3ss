@@ -1,6 +1,104 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "changes": [
+    {
+      "date": "2026-06-16",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Similarweb’s migration from HBase to Amazon DynamoDB",
+      "url": "https://aws.amazon.com/blogs/database/similarwebs-migration-from-hbase-to-amazon-dynamodb/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Improve query performance with EXPLAIN plans in Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/improve-query-performance-with-explain-plans-in-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
+      "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/"
+    },
+    {
+      "date": "2026-06-15",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Grok 4.3 from xAI now available in Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Modernize Amazon Redshift: RA3 to RG Migration best practices",
+      "url": "https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments"
+    },
     {
       "date": "2026-06-15",
       "service": "lambda",
