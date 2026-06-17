@@ -3,17 +3,17 @@
   "changes": [
     {
       "date": "2026-06-16",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
-    },
-    {
-      "date": "2026-06-16",
       "service": "dataflow",
       "type": "new_news",
       "detail": "Feature\nDataflow now supports NVIDIA RTX Pro 6000 GPUs. You can use this\nGPU model to run your Apache Beam pipelines on ",
       "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_16_2026"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
     },
     {
       "date": "2026-06-15",
