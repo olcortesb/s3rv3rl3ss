@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "services": [
     {
       "id": "lambda",
@@ -684,6 +684,13 @@
           "value": "27",
           "description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html",
           "adjustable": true
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-06-16",
+          "title": "Similarweb’s migration from HBase to Amazon DynamoDB",
+          "url": "https://aws.amazon.com/blogs/database/similarwebs-migration-from-hbase-to-amazon-dynamodb/"
         }
       ],
       "dataStatus": "ok",
@@ -1587,6 +1594,21 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-16",
+          "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context"
+        },
         {
           "date": "2026-06-12",
           "title": "Achieving sub-10ms latency and 94% cost savings with Diskless Kafka using AutoMQ and Amazon FSx for NetApp ONTAP",
@@ -3325,11 +3347,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-03",
-          "title": "AWS Step Functions adds AgentCore-powered agentic reasoning step",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-agentcore/"
-        },
-        {
           "date": "2026-03-22",
           "title": "Testing Step Functions workflows: a guide to the enhanced TestState API",
           "url": "https://aws.amazon.com/blogs/compute/testing-step-functions-workflows-a-guide-to-the-enhanced-teststate-api/"
@@ -3882,16 +3899,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu"
         },
         {
-          "date": "2026-06-03",
-          "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Amazon ECS Managed Instances now supports AWS Trainium and AWS Inferentia",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-managed-instances-neuron"
-        },
-        {
           "date": "2026-05-08",
           "title": "Gradual deployments in Amazon ECS with linear and canary strategies",
           "url": "https://aws.amazon.com/blogs/containers/gradual-deployments-in-amazon-ecs-with-linear-and-canary-strategies/"
@@ -4126,6 +4133,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "Improve query performance with EXPLAIN plans in Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/improve-query-performance-with-explain-plans-in-amazon-aurora-dsql/"
+        },
+        {
           "date": "2026-06-11",
           "title": "Amazon Aurora now supports PostgreSQL major version 18",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/"
@@ -4172,11 +4184,6 @@
         },
         {
           "date": "2026-06-03",
-          "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
-        },
-        {
-          "date": "2026-06-03",
           "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
           "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/"
         },
@@ -4194,16 +4201,6 @@
           "date": "2026-06-03",
           "title": "Implementing real-time change data capture with Debezium for Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/implementing-real-time-change-data-capture-with-debezium-for-amazon-aurora-postgresql-and-amazon-rds-for-postgresql/"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Accelerating developer productivity in the agentic AI era with Amazon Aurora PostgreSQL",
-          "url": "https://aws.amazon.com/blogs/database/accelerating-developer-productivity-in-the-agentic-ai-era-with-amazon-aurora-postgresql/"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Guide your Amazon Aurora MySQL migration with Kiro powers",
-          "url": "https://aws.amazon.com/blogs/database/guide-your-amazon-aurora-mysql-migration-with-kiro-powers/"
         }
       ],
       "dataStatus": "partial"
@@ -11156,6 +11153,36 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "Amazon Bedrock Guardrails announces a new API targeting agentic AI workflows",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-api-ai/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
+          "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/"
+        },
+        {
           "date": "2026-06-15",
           "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata"
@@ -11216,29 +11243,9 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
         },
         {
-          "date": "2026-06-08",
-          "title": "Unlocking AI flexibility in Europe: A guide to cross-region inference for EU data processing and model access",
-          "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/"
-        },
-        {
-          "date": "2026-06-08",
-          "title": "It’s safe to close your laptop now: Hosting coding agents on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/"
-        },
-        {
           "date": "2026-06-05",
           "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Amazon Bedrock launches a redesigned console optimized for OpenAI- and Anthropic-compatible APIs",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-redesigned-console-optimized-openai-anthropic-compatible-apis/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/"
         }
       ],
       "dataStatus": "partial",
@@ -11546,11 +11553,6 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-capabilities-logging"
         },
         {
-          "date": "2026-06-02",
-          "title": "Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.36",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36"
-        },
-        {
           "date": "2026-05-29",
           "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
           "url": "https://aws.amazon.com/blogs/containers/scaling-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
@@ -11790,11 +11792,6 @@
           "date": "2026-06-08",
           "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "How Buildkite Operates Test Analytics at Massive Scale with Amazon MSK and Amazon Managed Service for Apache Flink",
-          "url": "https://aws.amazon.com/blogs/big-data/how-buildkite-operates-test-analytics-at-massive-scale-with-amazon-msk-and-amazon-managed-service-for-apache-flink/"
         }
       ],
       "dataStatus": "partial"
@@ -11911,13 +11908,6 @@
           "value": "Unlimited"
         }
       ],
-      "news": [
-        {
-          "date": "2026-06-03",
-          "title": "ARC Region switch adds Amazon Aurora scaling and Amazon Neptune global database failover",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/region-switch-aurora-scaling-neptune-failover/"
-        }
-      ],
       "dataStatus": "partial"
     },
     {
@@ -11977,6 +11967,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Modernize Amazon Redshift: RA3 to RG Migration best practices",
+          "url": "https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/"
+        },
+        {
           "date": "2026-06-08",
           "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/"
@@ -11990,16 +11990,6 @@
           "date": "2026-06-04",
           "title": "Query Amazon Redshift using natural language with Kiro",
           "url": "https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/"
-        },
-        {
-          "date": "2026-06-02",
-          "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "How Zynga scaled multi-warehouse data governance with Amazon Redshift federated permissions",
-          "url": "https://aws.amazon.com/blogs/big-data/how-zynga-scaled-multi-warehouse-data-governance-with-amazon-redshift-federated-permissions/"
         }
       ],
       "dataStatus": "partial"
@@ -13385,6 +13375,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "AWS Transform now supports model-to-model migration assessment for generative AI workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-model-to-model-assessments"
+        },
+        {
           "date": "2026-06-08",
           "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/"
@@ -13408,11 +13403,6 @@
           "date": "2026-06-04",
           "title": "Getting started with Amazon SES Agent Skills for AI-assisted email development",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/getting-started-with-amazon-ses-agent-skills-for-ai-assisted-email-development/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/"
         },
         {
           "date": "2026-06-03",
@@ -13545,11 +13535,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-06-03",
-          "title": "AWS IoT Core adds new logs to troubleshoot connectivity and authentication",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-iot-core-ping-auth-logs/"
-        },
         {
           "date": "2025-12-23",
           "title": "Streamlining Amazon Sidewalk Device Fleet Management with AWS IoT Core’s New Bulk Operations",
@@ -14280,13 +14265,6 @@
           "value": "30 minutes"
         }
       ],
-      "news": [
-        {
-          "date": "2026-06-02",
-          "title": "AWS Cost and Usage Report 2.0 now supports Athena and Redshift integration",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cur2.0-athena-redshift/"
-        }
-      ],
       "dataStatus": "partial"
     },
     {
@@ -14390,11 +14368,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-06-02",
-          "title": "Amazon ElastiCache for Valkey now supports durability",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/durability-amazon-elasticache"
-        },
         {
           "date": "2026-06-02",
           "title": "Announcing durability for Amazon ElastiCache for Valkey",
