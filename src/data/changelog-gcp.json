@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "changes": [
+    {
+      "date": "2026-06-17",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "memorystore",
+      "type": "new_news",
+      "detail": "Feature\nMemorystore for Redis supports the General Availability\nof the following health issues:\n\nExpensive commands:\nres",
+      "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#June_17_2026"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
+      "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
+    },
     {
       "date": "2026-06-16",
       "service": "dataflow",
