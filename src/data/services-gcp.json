@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-17",
+          "title": "Feature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
+        },
+        {
           "date": "2026-06-16",
           "title": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-01",
           "title": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
         }
       ],
       "pricingDetails": [
@@ -1673,6 +1673,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-17",
+          "title": "Feature\nMemorystore for Redis supports the General Availability\nof the following health issues:\n\nExpensive commands:\nres",
+          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#June_17_2026"
+        },
+        {
           "date": "2026-04-17",
           "title": "Feature\nThe Memorystore for Redis remote MCP server is Generally Available.",
           "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#April_17_2026"
@@ -1716,11 +1721,6 @@
           "date": "2024-10-29",
           "title": "Feature\nAdded support for the databases configuration. For more details, see the entry for databases in Supported Redis ",
           "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#October_29_2024"
-        },
-        {
-          "date": "2024-10-01",
-          "title": "Feature\nAdded support for custom constraints. For more details, see Manage Memorystore for Redis resources with custom c",
-          "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#October_01_2024"
         }
       ],
       "pricingDetails": [
@@ -2498,6 +2498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-16",
+          "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
+          "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
+        },
+        {
           "date": "2026-06-15",
           "title": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime,",
           "url": "https://docs.cloud.google.com/release-notes#June_15_2026"
@@ -2541,11 +2546,6 @@
           "date": "2026-05-26",
           "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
           "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
-        },
-        {
-          "date": "2026-05-23",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.85 is now available for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#May_23_2026"
         }
       ]
     }
