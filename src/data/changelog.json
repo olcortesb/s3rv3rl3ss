@@ -1,6 +1,231 @@
 {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "changes": [
+    {
+      "date": "2026-06-17",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Performance enhancements",
+      "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-performance-enhancements/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Security, monitoring, and developer enhancements",
+      "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-security-monitoring-and-developer-enhancements/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Deep dive into Amazon Aurora PostgreSQL lock analysis with CloudWatch Database Insights",
+      "url": "https://aws.amazon.com/blogs/database/deep-dive-into-amazon-aurora-postgresql-lock-analysis-with-cloudwatch-database-insights/"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Files to ingest per IngestKnowledgeBaseDocuments request: 10"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) GetDocumentContent requests per second per account: 100"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) GetDocumentContent requests per second per knowledge base: 5"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream requests per second per account: 1"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) DeleteResourcePolicy requests per second: 5"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Retrieve user query size: 10000"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand InvokeGuardrailChecks requests per minute: 1500"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Concurrent ingestion jobs per knowledge base: 50"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream user query size: 10000"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) DeleteKnowledgeBaseDocuments requests per second: 10"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) PutResourcePolicy requests per second: 5"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Retrieve requests per second per account: 100"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) ListKnowledgeBaseDocuments requests per second: 10"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (GB): 10"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Data sources per knowledge base: 200"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) GetResourcePolicy requests per second: 5"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Knowledge bases per account: 1000"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) IngestKnowledgeBaseDocuments requests per second: 20"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Individual file extracted text size (MB): 30"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Retrieve requests per second per knowledge base: 5"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Managed Knowledge Base is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock Guardrails adds automated reasoning checks in Sydney",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-sydney/"
+    },
+    {
+      "date": "2026-06-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Announcing Web Search on Amazon Bedrock AgentCore for Agentic Web Retrieval",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-web-search/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/"
+    },
     {
       "date": "2026-06-16",
       "service": "ses",
