@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65059,
+      "stars": 65065,
       "technology": [
         "Python",
         "Docker"
@@ -16,9 +16,9 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "8845ms",
-        "memoryIdle": "328MiB",
-        "imageSize": "1.19GB"
+        "startupTime": "10731ms",
+        "memoryIdle": "328.1MiB",
+        "imageSize": "1.2GB"
       },
       "services": [],
       "serviceCount": 0,
@@ -144,8 +144,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.3.64",
-      "stars": 3274,
+      "version": "1.3.65",
+      "stars": 3282,
       "technology": [
         "Python",
         "Docker"
@@ -153,8 +153,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2038ms",
-        "memoryIdle": "36.03MiB",
+        "startupTime": "2033ms",
+        "memoryIdle": "35.87MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -231,8 +231,8 @@
       "description": "Free, open-source local AWS emulator. 52+ services, real Docker for Lambda/RDS/ECS/EC2. Drop-in LocalStack replacement",
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
-      "version": "1.5.25",
-      "stars": 14231,
+      "version": "1.5.26",
+      "stars": 14269,
       "technology": [
         "Java",
         "Docker"
@@ -240,8 +240,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "519ms",
-        "memoryIdle": "10.91MiB",
+        "startupTime": "521ms",
+        "memoryIdle": "11MiB",
         "imageSize": "447MB"
       },
       "services": [
@@ -325,8 +325,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3081ms",
-        "memoryIdle": "78.43MiB",
+        "startupTime": "3072ms",
+        "memoryIdle": "78.38MiB",
         "imageSize": "486MB"
       },
       "services": [
