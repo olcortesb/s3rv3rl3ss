@@ -2,13 +2,6 @@
   "lastUpdated": "2026-06-19",
   "changes": [
     {
-      "date": "2026-06-17",
-      "service": "cloud-storage",
-      "type": "new_news",
-      "detail": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
-      "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
-    },
-    {
       "date": "2026-06-18",
       "service": "api-gateway",
       "type": "new_news",
@@ -21,6 +14,13 @@
       "type": "new_news",
       "detail": "Feature\nMemorystore for Redis supports the General Availability\nof the following health issues:\n\nExpensive commands:\nres",
       "url": "https://docs.cloud.google.com/memorystore/docs/redis/release-notes#June_17_2026"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
     },
     {
       "date": "2026-06-17",
