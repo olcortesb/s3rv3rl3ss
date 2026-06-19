@@ -10,31 +10,10 @@
     },
     {
       "date": "2026-06-18",
-      "service": "ecs",
+      "service": "ses",
       "type": "new_news",
-      "detail": "Amazon ECS announces faster service auto scaling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/"
-    },
-    {
-      "date": "2026-06-18",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-      "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/"
-    },
-    {
-      "date": "2026-06-18",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/"
-    },
-    {
-      "date": "2026-06-18",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS now supports customer-routed control plane egress",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress"
+      "detail": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/"
     },
     {
       "date": "2026-06-18",
@@ -45,10 +24,17 @@
     },
     {
       "date": "2026-06-18",
-      "service": "ses",
+      "service": "eks",
       "type": "new_news",
-      "detail": "Amazon RDS for SQL Server increases the maximum size and provisioned performance of General Purpose (gp3) volumes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-sqlserver-increases-gp3-limits/"
+      "detail": "Amazon EKS now supports customer-routed control plane egress",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS announces faster service auto scaling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-faster-autoscaling/"
     },
     {
       "date": "2026-06-18",
@@ -77,6 +63,13 @@
     {
       "date": "2026-06-18",
       "service": "bedrock",
+      "type": "new_news",
+      "detail": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+      "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
       "type": "quota_added",
       "detail": "(Managed Knowledge Bases) Retrieve requests per second per account: 100"
     },
@@ -85,6 +78,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "(Managed Knowledge Bases) DeleteResourcePolicy requests per second: 5"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/"
     },
     {
       "date": "2026-06-18",
