@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "services": [
     {
       "id": "azure-functions",
@@ -621,16 +621,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "Throughput unit (Standard)",
-          "price": "$0.015",
-          "unit": "per hour",
-          "description": "$0.015 per throughput unit per hour"
+          "label": "Standard Capture",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Standard)"
         },
         {
-          "label": "Ingress events",
-          "price": "$0.028",
-          "unit": "per 1M events",
-          "description": "$0.028 per million events"
+          "label": "Premium Extended Retention",
+          "price": "$0.1000",
+          "unit": "per 1 GB/Month",
+          "description": "$0.1000 per 1 GB/Month (Premium)"
+        },
+        {
+          "label": "Basic Ingress Events",
+          "price": "$0.0280",
+          "unit": "per 1M",
+          "description": "$0.0280 per 1M (Basic)"
+        },
+        {
+          "label": "Dedicated Capacity Unit",
+          "price": "$6.85",
+          "unit": "per 1 Hour",
+          "description": "$6.85 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Dedicated Extended Retention",
+          "price": "$0.1000",
+          "unit": "per 1 GB/Month",
+          "description": "$0.1000 per 1 GB/Month (Dedicated)"
+        },
+        {
+          "label": "Standard Ingress Events",
+          "price": "$0.0280",
+          "unit": "per 1M",
+          "description": "$0.0280 per 1M (Standard)"
+        },
+        {
+          "label": "Geo Replication Zone 1 Data Transfer",
+          "price": "$0.0900",
+          "unit": "per 1 GB",
+          "description": "$0.0900 per 1 GB (Geo Replication Zone 1)"
+        },
+        {
+          "label": "Premium Processing Unit",
+          "price": "$1.03",
+          "unit": "per 1 Hour",
+          "description": "$1.03 per 1 Hour (Premium)"
+        },
+        {
+          "label": "Standard Kafka Endpoint",
+          "price": "$0.0900",
+          "unit": "per 1 Hour",
+          "description": "$0.0900 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Standard Throughput Unit",
+          "price": "$0.0300",
+          "unit": "per 1 Hour",
+          "description": "$0.0300 per 1 Hour (Standard)"
         }
       ]
     },
