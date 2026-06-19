@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "services": [
     {
       "id": "cloud-run",
@@ -1013,6 +1013,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-17",
+          "title": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
+        },
+        {
           "date": "2026-05-28",
           "title": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
@@ -1056,11 +1061,6 @@
           "date": "2026-03-24",
           "title": "Announcement\nAnywhere Cache has been renamed to Rapid Cache.",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_24_2026"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "Change\nObject uploads that use customer-managed encryption keys (CMEK) now fail if the\nCloud Storage service agent lacks",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_12_2026"
         }
       ],
       "pricingDetails": [
@@ -1239,6 +1239,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-18",
+          "title": "v1\nChange\nUpdate to the API Gateway runtime architecture\nThe API Gateway runtime architecture is being updated to improv",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_18_2026"
+        },
+        {
           "date": "2026-04-27",
           "title": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
           "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
@@ -1282,11 +1287,6 @@
           "date": "2025-03-25",
           "title": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf",
           "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_25_2025"
-        },
-        {
-          "date": "2024-07-01",
-          "title": "v1\nAnnouncement\nAs of July 1, 2024, API gateways located in asia-east1 are decommissioned and will no longer serve traff",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#July_01_2024"
         }
       ],
       "pricingDetails": [
