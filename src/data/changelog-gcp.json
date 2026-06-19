@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "changes": [
+    {
+      "date": "2026-06-17",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nChange\nUpdate to the API Gateway runtime architecture\nThe API Gateway runtime architecture is being updated to improv",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_18_2026"
+    },
     {
       "date": "2026-06-17",
       "service": "memorystore",
