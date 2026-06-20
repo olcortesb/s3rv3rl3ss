@@ -4,14 +4,14 @@
     {
       "date": "2026-06-20",
       "service": "bedrock",
-      "type": "quota_added",
-      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (TB): 10"
+      "type": "quota_removed",
+      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (GB) removed"
     },
     {
       "date": "2026-06-20",
       "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (GB) removed"
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (TB): 10"
     },
     {
       "date": "2026-06-19",
