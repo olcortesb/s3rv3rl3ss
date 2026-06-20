@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "changes": [
+    {
+      "date": "2026-06-19",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and co",
+      "url": "https://docs.cloud.google.com/release-notes#June_19_2026"
+    },
     {
       "date": "2026-06-18",
       "service": "api-gateway",
