@@ -1,6 +1,25 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "changes": [
+    {
+      "date": "2026-06-20",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (TB): 10"
+    },
+    {
+      "date": "2026-06-20",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Managed Knowledge Bases) Total storage size per knowledge base (GB) removed"
+    },
+    {
+      "date": "2026-06-19",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Web Search on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
+    },
     {
       "date": "2026-06-18",
       "service": "sns",
