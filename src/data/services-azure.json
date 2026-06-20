@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "services": [
     {
       "id": "azure-functions",
@@ -942,6 +942,13 @@
           "value": "50 Gbps"
         }
       ],
+      "news": [
+        {
+          "date": "2026-06-16",
+          "title": "Modernize your data with Azure Storage: Plan and migrate with confidence",
+          "url": "https://azure.microsoft.com/en-us/blog/modernize-your-data-with-azure-storage-plan-and-migrate-with-confidence/"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Cool Data Retrieval",
@@ -1222,13 +1229,6 @@
         {
           "name": "Services per cluster",
           "value": "5,000"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-05-22",
-          "title": "Powering multi-cluster workloads with seamless cross‑cluster networking for Azure Kubernetes Fleet Manager",
-          "url": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/"
         }
       ],
       "pricingDetails": [
