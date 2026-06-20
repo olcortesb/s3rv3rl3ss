@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "changes": [
+    {
+      "date": "2026-06-16",
+      "service": "blob-storage",
+      "type": "new_news",
+      "detail": "Modernize your data with Azure Storage: Plan and migrate with confidence",
+      "url": "https://azure.microsoft.com/en-us/blog/modernize-your-data-with-azure-storage-plan-and-migrate-with-confidence/"
+    },
     {
       "date": "2026-06-02",
       "service": "azure-functions",
