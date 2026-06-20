@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-20",
   "services": [
     {
       "id": "lambda",
@@ -8293,9 +8293,9 @@
           "adjustable": true
         },
         {
-          "name": "(Managed Knowledge Bases) Total storage size per knowledge base (GB)",
+          "name": "(Managed Knowledge Bases) Total storage size per knowledge base (TB)",
           "value": "10",
-          "description": "The maximum total storage size (in GB) per Managed KB.",
+          "description": "The maximum total storage size (in TB) per Managed KB.",
           "adjustable": false
         },
         {
@@ -11253,6 +11253,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-19",
+          "title": "Introducing Web Search on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-06-18",
           "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
           "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/"
@@ -11346,11 +11351,6 @@
           "date": "2026-06-11",
           "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
-        },
-        {
-          "date": "2026-06-10",
-          "title": "Gemma 4 models now available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",
@@ -11809,13 +11809,6 @@
         {
           "name": "Max document size",
           "value": "16 MB"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-05-28",
-          "title": "The next generation of Amazon OpenSearch Serverless: Built from the ground up for agents",
-          "url": "https://aws.amazon.com/blogs/big-data/the-next-generation-of-amazon-opensearch-serverless-built-from-the-ground-up-for-agents/"
         }
       ],
       "dataStatus": "partial"
