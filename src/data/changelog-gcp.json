@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "changes": [
+    {
+      "date": "2026-06-20",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
+      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+    },
     {
       "date": "2026-06-19",
       "service": "cloud-functions-for-firebase",
