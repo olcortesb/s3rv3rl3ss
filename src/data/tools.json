@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65068,
+      "stars": 65067,
       "technology": [
         "Python",
         "Docker"
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10738ms",
-        "memoryIdle": "328.2MiB",
+        "startupTime": "10167ms",
+        "memoryIdle": "328.3MiB",
         "imageSize": "1.2GB"
       },
       "services": [],
@@ -145,7 +145,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.3.65",
-      "stars": 3292,
+      "stars": 3313,
       "technology": [
         "Python",
         "Docker"
@@ -153,8 +153,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2045ms",
-        "memoryIdle": "35.8MiB",
+        "startupTime": "2037ms",
+        "memoryIdle": "35.87MiB",
         "imageSize": "176MB"
       },
       "services": [
@@ -232,7 +232,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.26",
-      "stars": 14299,
+      "stars": 14321,
       "technology": [
         "Java",
         "Docker"
@@ -240,8 +240,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "522ms",
-        "memoryIdle": "11.53MiB",
+        "startupTime": "520ms",
+        "memoryIdle": "11.84MiB",
         "imageSize": "488MB"
       },
       "services": [
@@ -326,8 +326,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3594ms",
-        "memoryIdle": "78.33MiB",
+        "startupTime": "3086ms",
+        "memoryIdle": "77.77MiB",
         "imageSize": "486MB"
       },
       "services": [
