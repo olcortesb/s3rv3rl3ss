@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "changes": [
+    {
+      "date": "2026-06-20",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Upgrading Lambda function runtimes at scale with AWS Transform custom",
+      "url": "https://aws.amazon.com/blogs/compute/upgrading-lambda-function-runtimes-at-scale-with-aws-transform-custom/"
+    },
     {
       "date": "2026-06-20",
       "service": "bedrock",
