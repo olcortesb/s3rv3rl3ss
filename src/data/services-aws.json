@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "services": [
     {
       "id": "lambda",
@@ -516,6 +516,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-20",
+          "title": "Upgrading Lambda function runtimes at scale with AWS Transform custom",
+          "url": "https://aws.amazon.com/blogs/compute/upgrading-lambda-function-runtimes-at-scale-with-aws-transform-custom/"
+        },
+        {
           "date": "2026-06-17",
           "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/"
@@ -564,11 +569,6 @@
           "date": "2026-03-23",
           "title": "Best practices for Lambda durable functions using a fraud detection example",
           "url": "https://aws.amazon.com/blogs/compute/best-practices-for-lambda-durable-functions-using-a-fraud-detection-example/"
-        },
-        {
-          "date": "2026-02-25",
-          "title": "Optimizing Compute-Intensive Serverless Workloads with Multi-threaded Rust on AWS Lambda",
-          "url": "https://aws.amazon.com/blogs/compute/optimizing-compute-intensive-serverless-workloads-with-multi-threaded-rust-on-aws-lambda/"
         }
       ],
       "dataStatus": "ok",
