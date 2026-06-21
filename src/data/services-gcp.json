@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "services": [
     {
       "id": "cloud-run",
@@ -2498,6 +2498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-20",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+        },
+        {
           "date": "2026-06-19",
           "title": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and co",
           "url": "https://docs.cloud.google.com/release-notes#June_19_2026"
@@ -2541,11 +2546,6 @@
           "date": "2026-06-02",
           "title": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
           "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-          "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
         }
       ]
     }
