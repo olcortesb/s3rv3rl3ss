@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-22",
   "changes": [
+    {
+      "date": "2026-06-21",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
+      "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+    },
+    {
+      "date": "2026-06-21",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
+      "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+    },
+    {
+      "date": "2026-06-21",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
+      "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+    },
+    {
+      "date": "2026-06-21",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
+      "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+    },
     {
       "date": "2026-06-20",
       "service": "cloud-functions-for-firebase",
