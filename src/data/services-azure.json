@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-22",
   "services": [
     {
       "id": "azure-functions",
@@ -217,22 +217,64 @@
       ],
       "pricingDetails": [
         {
-          "label": "vCPU",
-          "price": "$0.000024",
-          "unit": "per vCPU-second",
-          "description": "$0.000024 per vCPU-second"
+          "label": "Dedicated Memory Usage",
+          "price": "$0.004978",
+          "unit": "per 1 Hour",
+          "description": "$0.004978 per 1 Hour (Dedicated)"
         },
         {
-          "label": "Memory",
-          "price": "$0.000003",
-          "unit": "per GiB-second",
-          "description": "$0.000003 per GiB-second"
+          "label": "Standard NC A100 v4 GPU Usage",
+          "price": "$0.000529",
+          "unit": "per 1 Second",
+          "description": "$0.000529 per 1 Second (Standard)"
         },
         {
-          "label": "Requests",
-          "price": "$0.40",
-          "unit": "per 1M requests",
-          "description": "$0.40 per million requests"
+          "label": "Dynamic Sessions",
+          "price": "$0.0300",
+          "unit": "per 1 Hour",
+          "description": "$0.0300 per 1 Hour (Dynamic Sessions)"
+        },
+        {
+          "label": "Standard vCPU Idle Usage",
+          "price": "$0.00000300",
+          "unit": "per 1 Second",
+          "description": "$0.00000300 per 1 Second (Standard)"
+        },
+        {
+          "label": "Dedicated Plan Management",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard Requests",
+          "price": "$0.4000",
+          "unit": "per 1M",
+          "description": "$0.4000 per 1M (Standard)"
+        },
+        {
+          "label": "Dedicated vCPU Usage",
+          "price": "$0.0571",
+          "unit": "per 1 Hour",
+          "description": "$0.0571 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard NC T4 v3 GPU Usage",
+          "price": "$0.00007300",
+          "unit": "per 1 Second",
+          "description": "$0.00007300 per 1 Second (Standard)"
+        },
+        {
+          "label": "Dedicated GPU Usage",
+          "price": "$4.41",
+          "unit": "per 1 Hour",
+          "description": "$4.41 per 1 Hour (Dedicated)"
+        },
+        {
+          "label": "Standard Memory Idle Usage",
+          "price": "$0.00000300",
+          "unit": "per 1 GiB Second",
+          "description": "$0.00000300 per 1 GiB Second (Standard)"
         }
       ]
     },
