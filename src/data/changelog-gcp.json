@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "changes": [
+    {
+      "date": "2026-06-22",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "dataflow",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use Hyperdisk Balanced\ndisks for Dataflow worker VMs. With Hyperdisk Balanced disks, you can provisi",
+      "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_22_2026"
+    },
+    {
+      "date": "2026-06-20",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+    },
+    {
+      "date": "2026-06-20",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+    },
+    {
+      "date": "2026-06-20",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+    },
+    {
+      "date": "2026-06-20",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+    },
+    {
+      "date": "2026-06-02",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
+      "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
+    },
     {
       "date": "2026-06-21",
       "service": "cloud-identity-platform",
