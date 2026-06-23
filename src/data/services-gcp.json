@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-22",
+          "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
+        },
+        {
           "date": "2026-06-17",
           "title": "Feature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-02",
           "title": "Feature\nRemote functions now\nsupport a custom path in the endpoint URL. You can reuse a single Cloud Run\nservice for mul",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026"
-        },
-        {
-          "date": "2026-06-01",
-          "title": "Change\nThe Facebook Ads connector for the BigQuery Data Transfer Service now supports\ndata transfers from the following ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
         }
       ],
       "pricingDetails": [
@@ -2071,6 +2071,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-22",
+          "title": "Feature\nYou can now use Hyperdisk Balanced\ndisks for Dataflow worker VMs. With Hyperdisk Balanced disks, you can provisi",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_22_2026"
+        },
+        {
           "date": "2026-06-16",
           "title": "Feature\nDataflow now supports NVIDIA RTX Pro 6000 GPUs. You can use this\nGPU model to run your Apache Beam pipelines on ",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_16_2026"
@@ -2114,11 +2119,6 @@
           "date": "2025-11-21",
           "title": "Feature\nDataflow now supports speculative execution for batch pipelines. This feature mitigates the impact of slow-runni",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#November_21_2025"
-        },
-        {
-          "date": "2025-09-24",
-          "title": "Feature\nFor jobs that use GPUs, Dataflow now supports the flex-start provisioning model. This flex-start provisioning mo",
-          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#September_24_2025"
         }
       ]
     },
@@ -2293,6 +2293,11 @@
           "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
         },
         {
+          "date": "2026-06-20",
+          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+        },
+        {
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
@@ -2365,6 +2370,11 @@
           "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
         },
         {
+          "date": "2026-06-20",
+          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+        },
+        {
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
@@ -2435,6 +2445,11 @@
           "date": "2026-06-21",
           "title": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
           "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+        },
+        {
+          "date": "2026-06-20",
+          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
         },
         {
           "date": "2026-06-11",
@@ -2514,13 +2529,8 @@
         },
         {
           "date": "2026-06-20",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is now available for all regions.",
+          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        },
-        {
-          "date": "2026-06-19",
-          "title": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and co",
-          "url": "https://docs.cloud.google.com/release-notes#June_19_2026"
         },
         {
           "date": "2026-06-16",
@@ -2556,6 +2566,11 @@
           "date": "2026-06-05",
           "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
           "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
+        },
+        {
+          "date": "2026-06-02",
+          "title": "AlloyDB for PostgreSQL\nFeature\nYou can now configure a cooldown period to determine when autoscaling occurs\nfor your rea",
+          "url": "https://docs.cloud.google.com/release-notes#June_02_2026"
         }
       ]
     }
