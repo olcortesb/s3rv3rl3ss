@@ -5,103 +5,7 @@
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
-      "detail": "Number of concurrent MicroVM image builds: 10"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Max Execution Duration of a MicroVM (in Hours): 8"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of ResumeMicrovm API requests: 5"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Rate of RunMicrovm API requests: 1"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "RPS per 16 vCPU MicroVm: 160"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Max allocated memory: 8 GB"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Rate of TerminateMicrovm API requests: 10"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "RPS per 4 vCPU MicroVm: 40"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Rate of ResumeMicrovm API requests: 5"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of SuspendMicrovm API requests: 2"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of TerminateMicrovm API requests: 10"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of CreateMicrovmShellAuthToken API requests: 5"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Concurrent connections per 16 vCPU MicroVM: 128"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of RunMicrovm API requests: 1"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Rate of CreateMicrovmShellAuthToken API requests: 5"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Burst rate of CreateMicrovmAuthToken API requests: 50"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Disk space per vCPU: 4 GB"
+      "detail": "Concurrent connections per 8 vCPU MicroVM: 64"
     },
     {
       "date": "2026-06-23",
@@ -119,37 +23,13 @@
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
-      "detail": "Concurrent connections per 1 vCPU MicroVM: 8"
+      "detail": "Rate of CreateMicrovmShellAuthToken API requests: 5"
     },
     {
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
-      "detail": "Rate of CreateMicrovmAuthToken API requests: 50"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Number of MicroVM images: 100"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Concurrent connections per 4 vCPU MicroVM: 32"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Concurrent connections per 8 vCPU MicroVM: 64"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "lambda",
-      "type": "quota_added",
-      "detail": "Rate of GetMicrovm API requests: 100"
+      "detail": "Burst rate of CreateMicrovmAuthToken API requests: 50"
     },
     {
       "date": "2026-06-23",
@@ -161,7 +41,31 @@
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
-      "detail": "Burst rate of GetMicrovm API requests: 100"
+      "detail": "Number of MicroVM images: 100"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Concurrent image builds (per account, per Region): 5<br />10 in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Max allocated memory: 8 GB"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Rate of CreateMicrovmAuthToken API requests: 50"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Burst rate of ResumeMicrovm API requests: 5"
     },
     {
       "date": "2026-06-23",
@@ -173,7 +77,73 @@
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
+      "detail": "Burst rate of CreateMicrovmShellAuthToken API requests: 5"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "RPS per 4 vCPU MicroVm: 40"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
       "detail": "Maximum execution duration per MicroVM: 8 hours (28,800 seconds)"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Max Execution Duration of a MicroVM (in Hours): 8"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Burst rate of RunMicrovm API requests: 1"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Rate of ResumeMicrovm API requests: 5"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Number of concurrent MicroVM image builds: 10"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Rate of RunMicrovm API requests: 1"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Rate of GetMicrovm API requests: 100"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Burst rate of TerminateMicrovm API requests: 10"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Burst rate of GetMicrovm API requests: 100"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Disk space per vCPU: 4 GB"
     },
     {
       "date": "2026-06-23",
@@ -185,35 +155,44 @@
       "date": "2026-06-23",
       "service": "lambda",
       "type": "quota_added",
-      "detail": "Concurrent image builds (per account, per Region): 5<br />10 in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)"
+      "detail": "Rate of TerminateMicrovm API requests: 10"
     },
     {
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/"
+      "type": "quota_added",
+      "detail": "Concurrent connections per 1 vCPU MicroVM: 8"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "RPS per 16 vCPU MicroVm: 160"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Concurrent connections per 16 vCPU MicroVM: 128"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Concurrent connections per 4 vCPU MicroVM: 32"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "lambda",
+      "type": "quota_added",
+      "detail": "Burst rate of SuspendMicrovm API requests: 2"
     },
     {
       "date": "2026-06-22",
-      "service": "bedrock",
+      "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/"
-    },
-    {
-      "date": "2026-06-22",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
-      "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/"
-    },
-    {
-      "date": "2026-06-22",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS now supports control plane egress through your VPC",
-      "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/"
+      "detail": "Why tombola chose Graviton-powered RG instances for Amazon Redshift",
+      "url": "https://aws.amazon.com/blogs/big-data/why-tombola-chose-graviton-powered-rg-instances-for-amazon-redshift/"
     },
     {
       "date": "2026-06-22",
@@ -224,10 +203,31 @@
     },
     {
       "date": "2026-06-22",
-      "service": "redshift-serverless",
+      "service": "lambda",
       "type": "new_news",
-      "detail": "Why tombola chose Graviton-powered RG instances for Amazon Redshift",
-      "url": "https://aws.amazon.com/blogs/big-data/why-tombola-chose-graviton-powered-rg-instances-for-amazon-redshift/"
+      "detail": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports control plane egress through your VPC",
+      "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/"
     },
     {
       "date": "2026-06-20",
