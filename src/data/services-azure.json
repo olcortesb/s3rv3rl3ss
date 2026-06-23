@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "services": [
     {
       "id": "azure-functions",
@@ -1233,64 +1233,10 @@
       ],
       "pricingDetails": [
         {
-          "label": "Standard Uptime SLA",
-          "price": "$0.1000",
-          "unit": "per 1 Hour",
-          "description": "$0.1000 per 1 Hour (Standard)"
-        },
-        {
-          "label": "Automatic High Performance Compute",
-          "price": "$0.007312",
-          "unit": "per 1 Hour",
-          "description": "$0.007312 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic General Purpose",
-          "price": "$0.007841",
-          "unit": "per 1 Hour",
-          "description": "$0.007841 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic GPU Accelerated",
-          "price": "$0.0360",
-          "unit": "per 1 Hour",
-          "description": "$0.0360 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic Confidential Compute",
-          "price": "$0.0121",
-          "unit": "per 1 Hour",
-          "description": "$0.0121 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic Memory Optimized",
-          "price": "$0.0124",
-          "unit": "per 1 Hour",
-          "description": "$0.0124 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic Hosted Control Plane",
-          "price": "$0.1600",
-          "unit": "per 1 Hour",
-          "description": "$0.1600 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Standard Long Term Support",
-          "price": "$0.6000",
-          "unit": "per 1 Hour",
-          "description": "$0.6000 per 1 Hour (Standard)"
-        },
-        {
-          "label": "Automatic Storage Optimized",
-          "price": "$0.0145",
-          "unit": "per 1 Hour",
-          "description": "$0.0145 per 1 Hour (Automatic)"
-        },
-        {
-          "label": "Automatic Compute Optimized",
-          "price": "$0.0122",
-          "unit": "per 1 Hour",
-          "description": "$0.0122 per 1 Hour (Automatic)"
+          "label": "Cluster management (Standard)",
+          "price": "$0.10",
+          "unit": "per cluster/hour",
+          "description": "$0.10 per cluster per hour"
         }
       ]
     },
