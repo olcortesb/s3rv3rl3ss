@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "services": [
     {
       "id": "lambda",
@@ -19,6 +19,13 @@
       "icon": "⚡",
       "limits": [
         {
+          "name": "Number of concurrent MicroVM image builds",
+          "value": "10",
+          "description": "Number of concurrent MicroVM image builds per account per region",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
           "name": "Rate of capacity provider write API requests",
           "value": "1",
           "description": "The maximum combined rate (requests per second) for all capacity provider write APIs.",
@@ -31,10 +38,35 @@
           "adjustable": true
         },
         {
+          "name": "Max Execution Duration of a MicroVM (in Hours)",
+          "value": "8",
+          "description": "The maximum execution duration of a MicroVM (in Hours).",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of ResumeMicrovm API requests",
+          "value": "5",
+          "description": "The maximum number of ResumeMicrovm API requests that can be sent in one burst.",
+          "adjustable": false
+        },
+        {
           "name": "Rate of GetDurableExecutionHistory API requests",
           "value": "15",
           "description": "The maximum number of GetDurableExecutionHistory API requests per second.",
           "adjustable": true
+        },
+        {
+          "name": "Rate of RunMicrovm API requests",
+          "value": "1",
+          "description": "The maximum number of RunMicrovm API requests per second",
+          "adjustable": false
+        },
+        {
+          "name": "RPS per 16 vCPU MicroVm",
+          "value": "160",
+          "description": "Maximum number of requests per second per MicroVM with 16 vCPUs / 32 GB.",
+          "unit": "Count",
+          "adjustable": false
         },
         {
           "name": "Function and layer storage",
@@ -42,6 +74,26 @@
           "description": "The amount of storage that's available for deployment packages and layer archives in the current Region.",
           "unit": "Gigabytes",
           "adjustable": true
+        },
+        {
+          "name": "Max allocated memory",
+          "value": "8 GB",
+          "description": "The maximum amount of memory that can be allocated across all MicroVMs per account per region. Customers can burst up to 4x this limit.",
+          "unit": "Gigabytes",
+          "adjustable": true
+        },
+        {
+          "name": "Rate of TerminateMicrovm API requests",
+          "value": "10",
+          "description": "The maximum number of TerminateMicrovm API requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "RPS per 4 vCPU MicroVm",
+          "value": "40",
+          "description": "Maximum number of requests per second per MicroVM with 4 vCPUs / 8 GB.",
+          "unit": "Count",
+          "adjustable": false
         },
         {
           "name": "Function timeout",
@@ -63,6 +115,24 @@
           "adjustable": true
         },
         {
+          "name": "Rate of ResumeMicrovm API requests",
+          "value": "5",
+          "description": "The maximum number of ResumeMicrovm API requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of SuspendMicrovm API requests",
+          "value": "2",
+          "description": "The maximum number of SuspendMicrovm API requests that can be sent in one burst.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of TerminateMicrovm API requests",
+          "value": "10",
+          "description": "The maximum number of TerminateMicrovm API requests that can be sent in one burst.",
+          "adjustable": false
+        },
+        {
           "name": "Rate of control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
           "value": "15",
           "description": "The maximum number of API requests per second (excluding invocation, GetFunction, and GetPolicy requests).",
@@ -74,6 +144,25 @@
           "description": "The maximum number of events that functions can process simultaneously in the current Region.",
           "unit": "Count",
           "adjustable": true
+        },
+        {
+          "name": "Burst rate of CreateMicrovmShellAuthToken API requests",
+          "value": "5",
+          "description": "The maximum number of CreateMicrovmShellAuthToken API requests that can be sent in one burst.",
+          "adjustable": false
+        },
+        {
+          "name": "Concurrent connections per 16 vCPU MicroVM",
+          "value": "128",
+          "description": "Maximum number of concurrent connections per MicroVM with 16 vCPUs.",
+          "unit": "Count",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of RunMicrovm API requests",
+          "value": "1",
+          "description": "The maximum number of RunMicrovm API requests that can be sent in one burst.",
+          "adjustable": false
         },
         {
           "name": "SQS Event Source Mapping throughput in default mode on Lambda Managed Instances",
@@ -96,10 +185,22 @@
           "adjustable": true
         },
         {
+          "name": "Rate of CreateMicrovmShellAuthToken API requests",
+          "value": "5",
+          "description": "The maximum number of CreateMicrovmShellAuthToken API requests per second in this account in the current Region.",
+          "adjustable": false
+        },
+        {
           "name": "Deployment package size (direct upload)",
           "value": "50 MB",
           "description": "The maximum size of a deployment package or layer archive when you upload it directly to Lambda. Upload larger files with Amazon S3.",
           "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of CreateMicrovmAuthToken API requests",
+          "value": "50",
+          "description": "The maximum number of CreateMicrovmAuthToken API requests that can be sent in one burst.",
           "adjustable": false
         },
         {
@@ -120,6 +221,13 @@
           "description": "The maximum data throughput (MB/s) per Kinesis event source mapping on Lambda Managed Instances.",
           "unit": "Megabytes/Second",
           "adjustable": true
+        },
+        {
+          "name": "Disk space per vCPU",
+          "value": "4 GB",
+          "description": "4 GB of disk space is allocated per vCPU for each MicroVM.",
+          "unit": "Gigabytes",
+          "adjustable": false
         },
         {
           "name": "Rate of SendDurableExecutionCallbackHeartbeat API requests",
@@ -147,6 +255,12 @@
           "adjustable": true
         },
         {
+          "name": "Rate of SuspendMicrovm API requests",
+          "value": "2",
+          "description": "The maximum number of SuspendMicrovm API requests per second.",
+          "adjustable": false
+        },
+        {
           "name": "Function versions per capacity provider",
           "value": "100",
           "description": "The maximum number of function versions per capacity provider.",
@@ -171,6 +285,20 @@
           "adjustable": true
         },
         {
+          "name": "Concurrent connections per 2 vCPU MicroVM",
+          "value": "16",
+          "description": "Maximum number of concurrent connections per MicroVM with 2 vCPUs.",
+          "unit": "Count",
+          "adjustable": false
+        },
+        {
+          "name": "Concurrent connections per 1 vCPU MicroVM",
+          "value": "8",
+          "description": "Maximum number of concurrent connections per MicroVM with 1 vCPUs.",
+          "unit": "Count",
+          "adjustable": false
+        },
+        {
           "name": "Rate of GetDurableExecutionState API requests",
           "value": "1000",
           "description": "The maximum number of GetDurableExecutionState API requests per second.",
@@ -183,9 +311,29 @@
           "adjustable": false
         },
         {
+          "name": "Rate of CreateMicrovmAuthToken API requests",
+          "value": "50",
+          "description": "The maximum number of CreateMicrovmAuthToken API requests per second.",
+          "adjustable": false
+        },
+        {
+          "name": "Number of MicroVM images",
+          "value": "100",
+          "description": "Number of MicroVM images per account per region",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
           "name": "Processes and threads",
           "value": "1024",
           "description": "The maximum combined number of processes and threads that a function can have open.",
+          "adjustable": false
+        },
+        {
+          "name": "Concurrent connections per 4 vCPU MicroVM",
+          "value": "32",
+          "description": "Maximum number of concurrent connections per MicroVM with 4 vCPUs.",
+          "unit": "Count",
           "adjustable": false
         },
         {
@@ -227,6 +375,13 @@
           "adjustable": false
         },
         {
+          "name": "Concurrent connections per 8 vCPU MicroVM",
+          "value": "64",
+          "description": "Maximum number of concurrent connections per MicroVM with 8 vCPUs.",
+          "unit": "Count",
+          "adjustable": false
+        },
+        {
           "name": "DynamoDB Event Source Mapping throughput on Lambda Managed Instances",
           "value": "10 MB/s",
           "description": "The maximum data throughput (MB/s) per DynamoDB event source mapping on Lambda Managed Instances.",
@@ -238,6 +393,12 @@
           "value": "100 MB",
           "description": "The maximum cumulative amount of data persisted per durable execution, including input and output payloads, checkpoints and error data, measured in megabytes.",
           "unit": "Megabytes",
+          "adjustable": false
+        },
+        {
+          "name": "Rate of GetMicrovm API requests",
+          "value": "100",
+          "description": "The maximum number of GetMicrovm API requests per second.",
           "adjustable": false
         },
         {
@@ -262,9 +423,22 @@
           "adjustable": false
         },
         {
+          "name": "Versions per MicroVM Image",
+          "value": "50",
+          "description": "The maximum number of versions per MicroVM image per account per region.",
+          "unit": "Count",
+          "adjustable": true
+        },
+        {
           "name": "Test events (console editor)",
           "value": "10",
           "description": "The maximum amount of test events for a function through the console editor.",
+          "adjustable": false
+        },
+        {
+          "name": "Burst rate of GetMicrovm API requests",
+          "value": "100",
+          "description": "The maximum number of GetMicrovm API requests that can be sent in one burst.",
           "adjustable": false
         },
         {
@@ -390,6 +564,22 @@
         {
           "name": "Remainder of the control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
           "value": "15 requests per second across all APIs (not 15 requests per second per API). Cannot be increased."
+        },
+        {
+          "name": "Memory allocated across all MicroVMs (per account, per Region)",
+          "value": "400 GB<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)<br />Burstable up to four times this quota."
+        },
+        {
+          "name": "Maximum execution duration per MicroVM",
+          "value": "8 hours (28,800 seconds)"
+        },
+        {
+          "name": "MicroVM images per account per Region",
+          "value": "100"
+        },
+        {
+          "name": "Concurrent image builds (per account, per Region)",
+          "value": "5<br />10 in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)"
         }
       ],
       "runtimes": [
@@ -515,6 +705,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-22",
+          "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/"
+        },
         {
           "date": "2026-06-20",
           "title": "Upgrading Lambda function runtimes at scale with AWS Transform custom",
@@ -1598,11 +1793,6 @@
           "date": "2026-06-12",
           "title": "Achieving sub-10ms latency and 94% cost savings with Diskless Kafka using AutoMQ and Amazon FSx for NetApp ONTAP",
           "url": "https://aws.amazon.com/blogs/storage/achieving-sub-10ms-latency-and-94-cost-savings-with-diskless-kafka-using-automq-and-amazon-fsx-for-netapp-ontap/"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3"
         },
         {
           "date": "2026-06-08",
@@ -3862,11 +4052,6 @@
           "date": "2026-06-15",
           "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/"
-        },
-        {
-          "date": "2026-06-10",
-          "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/"
         },
         {
           "date": "2026-05-08",
@@ -11253,6 +11438,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-22",
+          "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+          "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/"
+        },
+        {
           "date": "2026-06-19",
           "title": "Introducing Web Search on Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
@@ -11341,16 +11536,6 @@
           "date": "2026-06-15",
           "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-06-12",
-          "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/"
         }
       ],
       "dataStatus": "partial",
@@ -11645,6 +11830,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-22",
+          "title": "Amazon EKS now supports control plane egress through your VPC",
+          "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/"
+        },
+        {
           "date": "2026-06-18",
           "title": "Amazon EKS now supports customer-routed control plane egress",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress"
@@ -11688,11 +11878,6 @@
           "date": "2026-05-12",
           "title": "Implement centralized observability for multi-account Amazon EKS",
           "url": "https://aws.amazon.com/blogs/containers/implement-centralized-observability-for-multi-account-amazon-eks/"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Cross-Region disaster recovery for Amazon EKS using AWS Backup",
-          "url": "https://aws.amazon.com/blogs/containers/cross-region-disaster-recovery-for-amazon-eks-using-aws-backup/"
         }
       ],
       "dataStatus": "partial"
@@ -11889,6 +12074,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-22",
+          "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills"
+        },
+        {
           "date": "2026-06-18",
           "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/"
@@ -12066,6 +12256,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-22",
+          "title": "Why tombola chose Graviton-powered RG instances for Amazon Redshift",
+          "url": "https://aws.amazon.com/blogs/big-data/why-tombola-chose-graviton-powered-rg-instances-for-amazon-redshift/"
+        },
         {
           "date": "2026-06-16",
           "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
