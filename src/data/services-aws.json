@@ -1,5 +1,6 @@
 {
   "lastUpdated": "2026-06-24",
+  "region": "us-east-1",
   "services": [
     {
       "id": "lambda",
