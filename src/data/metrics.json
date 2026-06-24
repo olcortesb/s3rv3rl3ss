@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-06-23T06:55:21Z",
+  "lastUpdated": "2026-06-24T06:55:20Z",
   "today": {
-    "invocations": 18,
-    "totalDurationMs": 115026,
-    "errors": 0,
+    "invocations": 21,
+    "totalDurationMs": 110135,
+    "errors": 3,
     "functions": {
       "ChangelogFunction": {
         "invocations": 1,
-        "totalDurationMs": 1360,
-        "avgDurationMs": 1360,
+        "totalDurationMs": 1372,
+        "avgDurationMs": 1372,
         "errors": 0
       },
       "GcpCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 22259,
-        "avgDurationMs": 22259,
+        "totalDurationMs": 12879,
+        "avgDurationMs": 12879,
         "errors": 0
       },
       "AzureCollectorFunction": {
-        "invocations": 1,
-        "totalDurationMs": 23167,
-        "avgDurationMs": 23167,
-        "errors": 0
+        "invocations": 3,
+        "totalDurationMs": 703,
+        "avgDurationMs": 234,
+        "errors": 3
       },
       "CommitterFunction": {
         "invocations": 13,
-        "totalDurationMs": 37021,
-        "avgDurationMs": 2848,
+        "totalDurationMs": 29721,
+        "avgDurationMs": 2286,
         "errors": 0
       },
       "MetricsFunction": {
@@ -36,15 +36,15 @@
         "errors": 0
       },
       "CollectorFunction": {
-        "invocations": 1,
-        "totalDurationMs": 30493,
-        "avgDurationMs": 30493,
+        "invocations": 2,
+        "totalDurationMs": 64639,
+        "avgDurationMs": 32319,
         "errors": 0
       },
       "ComparisonsFunction": {
         "invocations": 1,
-        "totalDurationMs": 725,
-        "avgDurationMs": 725,
+        "totalDurationMs": 821,
+        "avgDurationMs": 821,
         "errors": 0
       },
       "ToolsCollectorFunction": {
@@ -56,56 +56,56 @@
     }
   },
   "month": {
-    "invocations": 603,
-    "totalDurationMs": 2926790,
-    "errors": 0,
+    "invocations": 629,
+    "totalDurationMs": 3059698,
+    "errors": 3,
     "functions": {
       "ChangelogFunction": {
-        "invocations": 24,
-        "totalDurationMs": 31653,
-        "avgDurationMs": 1319,
+        "invocations": 25,
+        "totalDurationMs": 33026,
+        "avgDurationMs": 1321,
         "errors": 0
       },
       "GcpCollectorFunction": {
-        "invocations": 25,
-        "totalDurationMs": 308913,
-        "avgDurationMs": 12357,
+        "invocations": 26,
+        "totalDurationMs": 321792,
+        "avgDurationMs": 12377,
         "errors": 0
       },
       "AzureCollectorFunction": {
-        "invocations": 25,
-        "totalDurationMs": 293329,
-        "avgDurationMs": 11733,
-        "errors": 0
+        "invocations": 28,
+        "totalDurationMs": 294032,
+        "avgDurationMs": 10501,
+        "errors": 3
       },
       "CommitterFunction": {
-        "invocations": 418,
-        "totalDurationMs": 1022352,
-        "avgDurationMs": 2446,
+        "invocations": 434,
+        "totalDurationMs": 1056366,
+        "avgDurationMs": 2434,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 24,
-        "totalDurationMs": 277813,
-        "avgDurationMs": 11576,
+        "invocations": 25,
+        "totalDurationMs": 294409,
+        "avgDurationMs": 11776,
         "errors": 0
       },
       "CollectorFunction": {
-        "invocations": 27,
-        "totalDurationMs": 860215,
-        "avgDurationMs": 31860,
+        "invocations": 29,
+        "totalDurationMs": 924854,
+        "avgDurationMs": 31892,
         "errors": 0
       },
       "ComparisonsFunction": {
-        "invocations": 23,
-        "totalDurationMs": 18587,
-        "avgDurationMs": 808,
+        "invocations": 24,
+        "totalDurationMs": 19409,
+        "avgDurationMs": 809,
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 37,
-        "totalDurationMs": 113926,
-        "avgDurationMs": 3079,
+        "invocations": 38,
+        "totalDurationMs": 115810,
+        "avgDurationMs": 3048,
         "errors": 0
       }
     }
