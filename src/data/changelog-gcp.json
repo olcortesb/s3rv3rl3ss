@@ -3,24 +3,10 @@
   "changes": [
     {
       "date": "2026-06-23",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nYou can now configure your BigQuery pipelines to automatically trigger\nexecutions based on updates to specific B",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
-    },
-    {
-      "date": "2026-06-23",
       "service": "gke",
       "type": "new_news",
       "detail": "Issue\nFor GKE cluster version 1.34.1-gke.3899001 (sidecar mounter image version\n1.21.9) and later affected versions, Clo",
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_23_2026"
-    },
-    {
-      "date": "2026-05-29",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Issue\n\nImportant: This note has been clarified. For the corrected note, see the entry\nfor June 23, 2026.\nIn GKE version ",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
     },
     {
       "date": "2026-06-23",
@@ -28,20 +14,6 @@
       "type": "new_news",
       "detail": "Feature\nSpanner supports\ndirect connectivity.\nWhen enabled, your application traffic is routed directly to\nSpanner serve",
       "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_23_2026"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-      "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-      "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
     },
     {
       "date": "2026-06-23",
@@ -58,11 +30,25 @@
       "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
     },
     {
-      "date": "2026-06-22",
-      "service": "cloud-functions-for-firebase",
+      "date": "2026-06-23",
+      "service": "cloud-cdn",
       "type": "new_news",
-      "detail": "AI Hypercomputer\nFeature\nPreview: RoCE VPC networks for VM instances support assigning alias IP\nranges to MRDMA vNICs. F",
-      "url": "https://docs.cloud.google.com/release-notes#June_22_2026"
+      "detail": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+      "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+      "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now configure your BigQuery pipelines to automatically trigger\nexecutions based on updates to specific B",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
     },
     {
       "date": "2026-06-22",
@@ -70,6 +56,13 @@
       "type": "new_news",
       "detail": "Feature\nYou can now use Hyperdisk Balanced\ndisks for Dataflow worker VMs. With Hyperdisk Balanced disks, you can provisi",
       "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_22_2026"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AI Hypercomputer\nFeature\nPreview: RoCE VPC networks for VM instances support assigning alias IP\nranges to MRDMA vNICs. F",
+      "url": "https://docs.cloud.google.com/release-notes#June_22_2026"
     },
     {
       "date": "2026-06-22",
@@ -777,6 +770,13 @@
       "type": "new_news",
       "detail": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
       "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
+    },
+    {
+      "date": "2026-05-29",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Issue\n\nImportant: This note has been clarified. For the corrected note, see the entry\nfor June 23, 2026.\nIn GKE version ",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
     },
     {
       "date": "2026-05-29",
