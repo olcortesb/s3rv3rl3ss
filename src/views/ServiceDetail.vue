@@ -126,12 +126,12 @@
         </div>
       </div>
 
-      <div v-if="service.news" class="mb-6">
+      <div v-if="mergedNews.length" class="mb-6">
         <h2 class="font-semibold text-gray-900 mb-2">News
           <span class="text-xs font-normal text-gray-400 ml-1">via AWS What's New</span>
         </h2>
         <ul class="space-y-2">
-          <li v-for="n in service.news" :key="n.title" class="flex gap-3 text-sm items-start">
+          <li v-for="n in mergedNews" :key="n.title" class="flex gap-3 text-sm items-start">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
             <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }} ↗</a>
             <span v-else class="text-gray-700">{{ n.title }}</span>
@@ -269,6 +269,22 @@ const limitSearch = ref('')
 const newsHistory = computed(() =>
   changelog.value.filter(c => c.type === 'new_news' || c.type === 'service_added')
 )
+
+const mergedNews = computed(() => {
+  const fromService = (service.value?.news || []).map(n => ({ date: n.date, title: n.title, url: n.url }))
+  const fromChangelog = newsHistory.value.map(c => ({ date: c.date, title: c.detail, url: c.url || '' }))
+  const seen = new Set()
+  const merged = []
+  for (const n of [...fromService, ...fromChangelog]) {
+    const key = n.title.trim()
+    if (!seen.has(key)) {
+      seen.add(key)
+      merged.push(n)
+    }
+  }
+  merged.sort((a, b) => b.date.localeCompare(a.date))
+  return merged
+})
 
 const quotaChanges = computed(() =>
   changelog.value.filter(c => c.type === 'quota_changed' || c.type === 'quota_added' || c.type === 'quota_removed' || c.type === 'new_runtime' || c.type === 'runtime_changed' || c.type === 'runtime_removed')
