@@ -4,7 +4,10 @@
 
     <div class="mb-8 text-center">
       <h1 class="text-3xl font-bold text-gray-900 mb-2">{{ providerInfo.icon }} {{ providerInfo.name }} s3rv3rl3ss</h1>
-      <p class="text-gray-500 mb-3">Runtimes, limits, quotas & news — updated daily</p>
+      <p class="text-gray-500 mb-3">
+        Runtimes, limits, quotas & news — updated daily
+        <span v-if="props.provider === 'aws' && providerData?.region" class="inline-block ml-2 px-2 py-0.5 text-xs font-medium bg-orange-100 text-orange-700 rounded-full">📍 {{ providerData.region }}</span>
+      </p>
       <div class="flex flex-wrap justify-center gap-3 text-xs text-gray-400">
         <template v-if="props.provider === 'aws'">
           <span>📊 Quotas via <a href="https://docs.aws.amazon.com/servicequotas/2019-06-24/apireference/API_ListServiceQuotas.html" target="_blank" class="underline hover:text-orange-500">Service Quotas API</a></span>
