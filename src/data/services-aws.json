@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "services": [
     {
       "id": "lambda",
@@ -724,16 +724,6 @@
           "date": "2026-06-15",
           "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/"
-        },
-        {
-          "date": "2026-06-12",
-          "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
         },
         {
           "date": "2026-06-08",
@@ -2319,11 +2309,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-11",
-          "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/"
-        },
-        {
           "date": "2026-06-01",
           "title": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53",
           "url": "https://aws.amazon.com/blogs/compute/multi-region-event-driven-failover-architecture-with-amazon-eventbridge-and-route-53/"
@@ -2822,6 +2807,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-23",
+          "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key"
+        },
         {
           "date": "2026-06-05",
           "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
@@ -4052,11 +4042,6 @@
           "date": "2026-06-15",
           "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/"
-        },
-        {
-          "date": "2026-05-08",
-          "title": "Gradual deployments in Amazon ECS with linear and canary strategies",
-          "url": "https://aws.amazon.com/blogs/containers/gradual-deployments-in-amazon-ecs-with-linear-and-canary-strategies/"
         }
       ],
       "dataStatus": "partial",
@@ -4311,11 +4296,6 @@
           "date": "2026-06-16",
           "title": "Improve query performance with EXPLAIN plans in Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/improve-query-performance-with-explain-plans-in-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "Amazon Aurora now supports PostgreSQL major version 18",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/"
         },
         {
           "date": "2026-06-10",
@@ -11438,6 +11418,26 @@
       ],
       "news": [
         {
+          "date": "2026-06-23",
+          "title": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Shared infrastructure, isolated tenants: Pool model multi-tenancy with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/shared-infrastructure-isolated-tenants-pool-model-multi-tenancy-with-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-06-22",
           "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
           "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/"
@@ -11508,16 +11508,6 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/"
         },
         {
-          "date": "2026-06-16",
-          "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/"
-        },
-        {
           "date": "2026-06-15",
           "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/"
@@ -11526,16 +11516,6 @@
           "date": "2026-06-15",
           "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "Introducing Gemma 4 models on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/"
         }
       ],
       "dataStatus": "partial",
@@ -11830,6 +11810,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-23",
+          "title": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Faster nodes, smarter scaling: What’s new inside Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode",
+          "url": "https://aws.amazon.com/blogs/containers/faster-nodes-smarter-scaling-whats-new-inside-amazon-elastic-kubernetes-service-amazon-eks-auto-mode/"
+        },
+        {
           "date": "2026-06-22",
           "title": "Amazon EKS now supports control plane egress through your VPC",
           "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/"
@@ -11838,11 +11828,6 @@
           "date": "2026-06-18",
           "title": "Amazon EKS now supports customer-routed control plane egress",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-customer-routed-control-plane-egress"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/"
         },
         {
           "date": "2026-06-09",
@@ -12077,6 +12062,11 @@
           "date": "2026-06-22",
           "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "MSK Replicator now supports mutual TLS (mTLS) authentication for replication from external Apache Kafka clusters to MSK Express brokers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-replicator-mtls-support"
         },
         {
           "date": "2026-06-18",
@@ -13748,11 +13738,6 @@
           "date": "2025-11-05",
           "title": "A Guide to Sending International SMS with US Toll-Free Numbers and AWS End User Messaging",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/a-guide-to-sending-international-sms-with-us-toll-free-numbers-and-aws-end-user-messaging/"
-        },
-        {
-          "date": "2025-10-22",
-          "title": "Enhance email security using VPC endpoints with Amazon SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses/"
         }
       ],
       "dataStatus": "partial"
@@ -13821,6 +13806,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-24",
+          "title": "Introducing AWS IoT Core’s Direct Messaging: Lower-cost server-to-device communication with better observability",
+          "url": "https://aws.amazon.com/blogs/iot/introducing-aws-iot-cores-direct-messaging-lower-cost-server-to-device-communication-with-better-observability/"
+        },
+        {
           "date": "2025-12-23",
           "title": "Streamlining Amazon Sidewalk Device Fleet Management with AWS IoT Core’s New Bulk Operations",
           "url": "https://aws.amazon.com/blogs/iot/streamlining-amazon-sidewalk-device-fleet-management-with-aws-iot-cores-new-bulk-operations/"
@@ -13834,11 +13824,6 @@
           "date": "2025-04-15",
           "title": "Seamless migration: Securely transitioning large IoT fleets to AWS",
           "url": "https://aws.amazon.com/blogs/iot/seamless-migration-securely-transitioning-large-iot-fleets-to-aws/"
-        },
-        {
-          "date": "2025-02-13",
-          "title": "Transforming Kitchens: CHEF iQ’s AWS Powered IoT Journey",
-          "url": "https://aws.amazon.com/blogs/iot/transforming-kitchens-chef-iqs-aws-powered-iot-journey/"
         }
       ],
       "dataStatus": "partial"
