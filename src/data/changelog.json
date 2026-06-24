@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "changes": [
+    {
+      "date": "2026-06-23",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "Amazon Cognito now supports customer managed key for encryption at rest",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Memory now supports cross-account access",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/agentcore-memory-cross-account-access"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Automated Reasoning checks in Amazon Bedrock Guardrails add new policy refinement workflows",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build a protein research copilot with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Shared infrastructure, isolated tenants: Pool model multi-tenancy with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/shared-infrastructure-isolated-tenants-pool-model-multi-tenancy-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon CloudWatch launches OTel Container Insights for Amazon EKS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-amazon-eks/"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Faster nodes, smarter scaling: What’s new inside Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode",
+      "url": "https://aws.amazon.com/blogs/containers/faster-nodes-smarter-scaling-whats-new-inside-amazon-elastic-kubernetes-service-amazon-eks-auto-mode/"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "MSK Replicator now supports mutual TLS (mTLS) authentication for replication from external Apache Kafka clusters to MSK Express brokers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-replicator-mtls-support"
+    },
+    {
+      "date": "2026-06-24",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "Introducing AWS IoT Core’s Direct Messaging: Lower-cost server-to-device communication with better observability",
+      "url": "https://aws.amazon.com/blogs/iot/introducing-aws-iot-cores-direct-messaging-lower-cost-server-to-device-communication-with-better-observability/"
+    },
     {
       "date": "2026-06-23",
       "service": "lambda",
