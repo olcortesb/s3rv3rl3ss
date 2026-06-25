@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-25",
   "services": [
     {
       "id": "cloud-run",
@@ -1875,6 +1875,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-24",
+          "title": "Security\nFor GitLab Enterprise and Bitbucket Data Center connections, Cloud Build now\nchecks permissions on the calling ",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#June_24_2026"
+        },
+        {
           "date": "2026-05-15",
           "title": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and ",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#May_15_2026"
@@ -1918,11 +1923,6 @@
           "date": "2025-09-02",
           "title": "Feature\nDark theme is now available for Cloud Build. To enable the dark theme, in the Google Cloud console, click Settin",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#September_02_2025"
-        },
-        {
-          "date": "2025-08-15",
-          "title": "Feature\nC3 and N2D machine families are now generally available in private pools. For a complete list of supported machi",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#August_15_2025"
         }
       ],
       "pricingDetails": [
