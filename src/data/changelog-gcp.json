@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-25",
   "changes": [
+    {
+      "date": "2026-06-24",
+      "service": "cloud-build",
+      "type": "new_news",
+      "detail": "Security\nFor GitLab Enterprise and Bitbucket Data Center connections, Cloud Build now\nchecks permissions on the calling ",
+      "url": "https://docs.cloud.google.com/build/docs/release-notes#June_24_2026"
+    },
     {
       "date": "2026-06-23",
       "service": "gke",
