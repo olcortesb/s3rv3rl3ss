@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "changes": [
+    {
+      "date": "2026-06-26",
+      "service": "lambda",
+      "type": "quota_removed",
+      "detail": "Disk space per vCPU removed"
+    },
+    {
+      "date": "2026-06-26",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Build reliable voice analytics workflows with AWS Lambda durable functions and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/compute/build-reliable-voice-analytics-workflows-with-aws-lambda-durable-functions-and-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "AWS Backup enhances Amazon S3 backup copy performance",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Running pgvector in production on Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/running-pgvector-in-production-on-amazon-aurora-postgresql/"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Build an AI-powered real estate assistant on WhatsApp using Strands Agents SDK and AWS End User Messaging",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-ai-powered-real-estate-assistant-on-whatsapp-using-strands-agents-sdk-and-aws-end-user-messaging/"
+    },
     {
       "date": "2026-06-24",
       "service": "sns",
