@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "changes": [
+    {
+      "date": "2026-06-25",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now use the VECTOR_SEA",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Application Integration\nSecurity\nSecurity bulletins page\nSee the new security bulletins page for Application Integration",
+      "url": "https://docs.cloud.google.com/release-notes#June_25_2026"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Assist\nFeature\nAgent Assist offers the following UI module integrations with Agent Assist for Salesforce:\n\nChat\nVo",
+      "url": "https://docs.cloud.google.com/release-notes#June_17_2026"
+    },
     {
       "date": "2026-06-24",
       "service": "cloud-build",
