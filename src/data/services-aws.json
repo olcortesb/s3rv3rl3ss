@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "region": "us-east-1",
   "services": [
     {
@@ -48,7 +48,7 @@
           "name": "Burst rate of ResumeMicrovm API requests",
           "value": "5",
           "description": "The maximum number of ResumeMicrovm API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Rate of GetDurableExecutionHistory API requests",
@@ -60,7 +60,7 @@
           "name": "Rate of RunMicrovm API requests",
           "value": "1",
           "description": "The maximum number of RunMicrovm API requests per second",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "RPS per 16 vCPU MicroVm",
@@ -87,7 +87,7 @@
           "name": "Rate of TerminateMicrovm API requests",
           "value": "10",
           "description": "The maximum number of TerminateMicrovm API requests per second.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "RPS per 4 vCPU MicroVm",
@@ -119,19 +119,19 @@
           "name": "Rate of ResumeMicrovm API requests",
           "value": "5",
           "description": "The maximum number of ResumeMicrovm API requests per second.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Burst rate of SuspendMicrovm API requests",
           "value": "2",
           "description": "The maximum number of SuspendMicrovm API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Burst rate of TerminateMicrovm API requests",
           "value": "10",
           "description": "The maximum number of TerminateMicrovm API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Rate of control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
@@ -150,7 +150,7 @@
           "name": "Burst rate of CreateMicrovmShellAuthToken API requests",
           "value": "5",
           "description": "The maximum number of CreateMicrovmShellAuthToken API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Concurrent connections per 16 vCPU MicroVM",
@@ -163,7 +163,7 @@
           "name": "Burst rate of RunMicrovm API requests",
           "value": "1",
           "description": "The maximum number of RunMicrovm API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "SQS Event Source Mapping throughput in default mode on Lambda Managed Instances",
@@ -189,7 +189,7 @@
           "name": "Rate of CreateMicrovmShellAuthToken API requests",
           "value": "5",
           "description": "The maximum number of CreateMicrovmShellAuthToken API requests per second in this account in the current Region.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Deployment package size (direct upload)",
@@ -202,7 +202,7 @@
           "name": "Burst rate of CreateMicrovmAuthToken API requests",
           "value": "50",
           "description": "The maximum number of CreateMicrovmAuthToken API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Capacity providers",
@@ -222,13 +222,6 @@
           "description": "The maximum data throughput (MB/s) per Kinesis event source mapping on Lambda Managed Instances.",
           "unit": "Megabytes/Second",
           "adjustable": true
-        },
-        {
-          "name": "Disk space per vCPU",
-          "value": "4 GB",
-          "description": "4 GB of disk space is allocated per vCPU for each MicroVM.",
-          "unit": "Gigabytes",
-          "adjustable": false
         },
         {
           "name": "Rate of SendDurableExecutionCallbackHeartbeat API requests",
@@ -259,7 +252,7 @@
           "name": "Rate of SuspendMicrovm API requests",
           "value": "2",
           "description": "The maximum number of SuspendMicrovm API requests per second.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Function versions per capacity provider",
@@ -315,7 +308,7 @@
           "name": "Rate of CreateMicrovmAuthToken API requests",
           "value": "50",
           "description": "The maximum number of CreateMicrovmAuthToken API requests per second.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Number of MicroVM images",
@@ -400,7 +393,7 @@
           "name": "Rate of GetMicrovm API requests",
           "value": "100",
           "description": "The maximum number of GetMicrovm API requests per second.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Asynchronous payload",
@@ -440,7 +433,7 @@
           "name": "Burst rate of GetMicrovm API requests",
           "value": "100",
           "description": "The maximum number of GetMicrovm API requests that can be sent in one burst.",
-          "adjustable": false
+          "adjustable": true
         },
         {
           "name": "Concurrency scaling rate",
@@ -706,6 +699,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-26",
+          "title": "Build reliable voice analytics workflows with AWS Lambda durable functions and Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/compute/build-reliable-voice-analytics-workflows-with-aws-lambda-durable-functions-and-amazon-bedrock/"
+        },
         {
           "date": "2026-06-24",
           "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
@@ -1775,6 +1773,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-25",
+          "title": "AWS Backup enhances Amazon S3 backup copy performance",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/"
+        },
         {
           "date": "2026-06-16",
           "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
@@ -4288,6 +4291,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-25",
+          "title": "Running pgvector in production on Amazon Aurora PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/running-pgvector-in-production-on-amazon-aurora-postgresql/"
+        },
         {
           "date": "2026-06-24",
           "title": "Build a Spring Boot REST API with Amazon Aurora DSQL",
@@ -11439,6 +11447,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-25",
+          "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/"
+        },
+        {
           "date": "2026-06-24",
           "title": "Build a healthcare appointment agent with Amazon Nova 2 Sonic",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-a-healthcare-appointment-agent-with-amazon-nova-2-sonic/"
@@ -11527,16 +11545,6 @@
           "date": "2026-06-16",
           "title": "Announcing Web Search on Amazon Bedrock AgentCore for Agentic Web Retrieval",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-web-search/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
-          "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",
@@ -12281,6 +12289,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-25",
+          "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances"
+        },
         {
           "date": "2026-06-24",
           "title": "Multi-Region identity-based access to Amazon Redshift and S3 Tables",
@@ -13694,6 +13707,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-25",
+          "title": "Build an AI-powered real estate assistant on WhatsApp using Strands Agents SDK and AWS End User Messaging",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-ai-powered-real-estate-assistant-on-whatsapp-using-strands-agents-sdk-and-aws-end-user-messaging/"
+        },
         {
           "date": "2026-06-24",
           "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
