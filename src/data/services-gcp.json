@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25",
+  "lastUpdated": "2026-06-26",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-25",
+          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now use the VECTOR_SEA",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "Feature\nYou can now configure your BigQuery pipelines to automatically trigger\nexecutions based on updates to specific B",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-08",
           "title": "Feature\nYou can analyze data lineage with Gemini Cloud Assist in\nBigQuery. This feature is in Preview.\nFeature\nYou can n",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Feature\nBigQuery fluid scaling, which provides\nper-second billing with no minimum duration for autoscaling reservations,",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026"
         }
       ],
       "pricingDetails": [
@@ -2326,11 +2326,6 @@
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
           "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-        },
-        {
-          "date": "2026-05-26",
-          "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-          "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
         }
       ]
     },
@@ -2408,11 +2403,6 @@
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
           "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-        },
-        {
-          "date": "2026-05-26",
-          "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-          "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
         }
       ]
     },
@@ -2490,11 +2480,6 @@
           "date": "2026-05-28",
           "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
           "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
-        },
-        {
-          "date": "2026-05-26",
-          "title": "BigQuery\nFeature\nThe Data Science Agent (DSA) for\nColab Enterprise and BigQuery is now generally\navailable (GA).\nCloud C",
-          "url": "https://docs.cloud.google.com/release-notes#May_26_2026"
         }
       ]
     },
@@ -2538,6 +2523,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-25",
+          "title": "Application Integration\nSecurity\nSecurity bulletins page\nSee the new security bulletins page for Application Integration",
+          "url": "https://docs.cloud.google.com/release-notes#June_25_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2558,6 +2548,11 @@
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
         },
         {
+          "date": "2026-06-17",
+          "title": "Agent Assist\nFeature\nAgent Assist offers the following UI module integrations with Agent Assist for Salesforce:\n\nChat\nVo",
+          "url": "https://docs.cloud.google.com/release-notes#June_17_2026"
+        },
+        {
           "date": "2026-06-16",
           "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
           "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
@@ -2576,16 +2571,6 @@
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
-        },
-        {
-          "date": "2026-06-09",
-          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
-          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
-        },
-        {
-          "date": "2026-06-06",
-          "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
-          "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
         }
       ]
     }
