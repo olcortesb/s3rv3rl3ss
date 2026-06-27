@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-27",
   "changes": [
+    {
+      "date": "2026-06-26",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Gain workload-specific storage insights with Amazon S3 Storage Lens groups",
+      "url": "https://aws.amazon.com/blogs/storage/create-custom-storage-groupings-with-amazon-s3-storage-lens-groups/"
+    },
     {
       "date": "2026-06-26",
       "service": "lambda",
