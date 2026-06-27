@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-27",
   "region": "us-east-1",
   "services": [
     {
@@ -1773,6 +1773,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-26",
+          "title": "Gain workload-specific storage insights with Amazon S3 Storage Lens groups",
+          "url": "https://aws.amazon.com/blogs/storage/create-custom-storage-groupings-with-amazon-s3-storage-lens-groups/"
+        },
         {
           "date": "2026-06-25",
           "title": "AWS Backup enhances Amazon S3 backup copy performance",
