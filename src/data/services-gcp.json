@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27",
+  "lastUpdated": "2026-06-28",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-26",
+          "title": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "Issue\nFor GKE cluster version 1.34.1-gke.3899001 (sidecar mounter image version\n1.21.9) and later affected versions, Clo",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_23_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-05-13",
           "title": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Change\n(2026-R18) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_06_2026"
         }
       ],
       "pricingDetails": [
@@ -2321,11 +2321,6 @@
           "date": "2026-06-05",
           "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
           "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-          "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
         }
       ]
     },
@@ -2398,11 +2393,6 @@
           "date": "2026-06-05",
           "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
           "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-          "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
         }
       ]
     },
@@ -2475,11 +2465,6 @@
           "date": "2026-06-05",
           "title": "Cloud Data Fusion\nFeature\nCloud Data Fusion version 6.11.1.3 is\ngenerally available (GA).\nFixed\nFixed in Cloud Data Fusi",
           "url": "https://docs.cloud.google.com/release-notes#June_05_2026"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Backup and DR\nFeature\nYou can now view the Google Cloud Backup and DR Service protection summary at\nthe organization and",
-          "url": "https://docs.cloud.google.com/release-notes#May_28_2026"
         }
       ]
     },
@@ -2522,6 +2507,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-27",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
+        },
         {
           "date": "2026-06-25",
           "title": "Application Integration\nSecurity\nSecurity bulletins page\nSee the new security bulletins page for Application Integration",
@@ -2566,11 +2556,6 @@
           "date": "2026-06-12",
           "title": "BigQuery\nFeature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_UR",
           "url": "https://docs.cloud.google.com/release-notes#June_12_2026"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
-          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
         }
       ]
     }
