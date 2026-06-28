@@ -2,18 +2,18 @@
   "lastUpdated": "2026-06-28",
   "changes": [
     {
-      "date": "2026-06-26",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
-    },
-    {
       "date": "2026-06-27",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
       "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
+    },
+    {
+      "date": "2026-06-26",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
     },
     {
       "date": "2026-06-25",
