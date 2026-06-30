@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "Change\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Ser",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-06-25",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now use the VECTOR_SEA",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-10",
           "title": "Feature\nBigQuery continuous queries now support the following aggregation functions:\n\nARRAY_AGG\nSTRING_AGG\n\nSupport for ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
-        },
-        {
-          "date": "2026-06-08",
-          "title": "Feature\nYou can analyze data lineage with Gemini Cloud Assist in\nBigQuery. This feature is in Preview.\nFeature\nYou can n",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
         }
       ],
       "pricingDetails": [
@@ -1774,6 +1774,16 @@
       ],
       "news": [
         {
+          "date": "2026-06-19",
+          "title": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "Feature\nSecret Manager is available in the following multi-regions:\n\nUnited States (us)\nEuropean Union (eu)\nCanada (ca)\n",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_18_2026"
+        },
+        {
           "date": "2026-05-20",
           "title": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
@@ -1812,16 +1822,6 @@
           "date": "2025-07-09",
           "title": "Feature\nEnhanced tagging capabilities for Secret Manager: You can now add tags directly at the time of secret creation. ",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_09_2025"
-        },
-        {
-          "date": "2025-06-23",
-          "title": "Libraries\n\nGo1.15.0 (2025-06-17)\nFeatures\n\nsecretmanager: Update secret manager protos for tags (#12406) (feb078b)",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_23_2025"
-        },
-        {
-          "date": "2025-04-21",
-          "title": "Libraries\n\nGo1.14.7 (2025-04-15)\nBug Fixes\n\nsecretmanager: Update google.golang.org/api to 0.229.0 (3319672)",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_21_2025"
         }
       ],
       "pricingDetails": [
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2360,6 +2365,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2431,6 +2441,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-06-29",
+          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
         {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
@@ -2508,6 +2523,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-06-27",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
@@ -2551,11 +2571,6 @@
           "date": "2026-06-15",
           "title": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime,",
           "url": "https://docs.cloud.google.com/release-notes#June_15_2026"
-        },
-        {
-          "date": "2026-06-12",
-          "title": "BigQuery\nFeature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_UR",
-          "url": "https://docs.cloud.google.com/release-notes#June_12_2026"
         }
       ]
     }
