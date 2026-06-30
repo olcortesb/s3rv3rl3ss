@@ -3,28 +3,14 @@
   "changes": [
     {
       "date": "2026-06-29",
-      "service": "bigquery",
+      "service": "cloud-identity-platform",
       "type": "new_news",
-      "detail": "Change\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Ser",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
-    },
-    {
-      "date": "2026-06-19",
-      "service": "secret-manager",
-      "type": "new_news",
-      "detail": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
-      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
-    },
-    {
-      "date": "2026-06-18",
-      "service": "secret-manager",
-      "type": "new_news",
-      "detail": "Feature\nSecret Manager is available in the following multi-regions:\n\nUnited States (us)\nEuropean Union (eu)\nCanada (ca)\n",
-      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_18_2026"
+      "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
     },
     {
       "date": "2026-06-29",
-      "service": "cloud-armor",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
       "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
@@ -38,17 +24,17 @@
     },
     {
       "date": "2026-06-29",
-      "service": "cloud-identity-platform",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
       "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
     },
     {
       "date": "2026-06-29",
-      "service": "cloud-functions-for-firebase",
+      "service": "bigquery",
       "type": "new_news",
-      "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
-      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+      "detail": "Change\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Ser",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
     },
     {
       "date": "2026-06-27",
@@ -220,10 +206,24 @@
     },
     {
       "date": "2026-06-19",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
+    },
+    {
+      "date": "2026-06-19",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Bigtable\nFeature\nYou can use the Bigtable Studio explorer to search for all resources except for\nauthorized views and co",
       "url": "https://docs.cloud.google.com/release-notes#June_19_2026"
+    },
+    {
+      "date": "2026-06-18",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nSecret Manager is available in the following multi-regions:\n\nUnited States (us)\nEuropean Union (eu)\nCanada (ca)\n",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_18_2026"
     },
     {
       "date": "2026-06-18",
