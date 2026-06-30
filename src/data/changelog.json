@@ -3,17 +3,10 @@
   "changes": [
     {
       "date": "2026-06-29",
-      "service": "lambda",
+      "service": "s3",
       "type": "new_news",
-      "detail": "Amazon MWAA Serverless now supports shared VPC configurations",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions",
-      "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
+      "detail": "Simplify workforce data access with AWS Transfer Family web apps and Terraform",
+      "url": "https://aws.amazon.com/blogs/storage/simplify-workforce-data-access-with-aws-transfer-family-web-apps-and-terraform/"
     },
     {
       "date": "2026-06-29",
@@ -31,52 +24,10 @@
     },
     {
       "date": "2026-06-29",
-      "service": "s3",
+      "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Simplify workforce data access with AWS Transfer Family web apps and Terraform",
-      "url": "https://aws.amazon.com/blogs/storage/simplify-workforce-data-access-with-aws-transfer-family-web-apps-and-terraform/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Pair Nova 2 Lite with Claude for cost-optimized document processing",
-      "url": "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-ai-healthcare-claims-pipeline-with-amazon-bedrock-and-aws-healthlake/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Debugging production agents with Amazon Bedrock AgentCore Observability",
-      "url": "https://aws.amazon.com/blogs/machine-learning/debugging-production-agents-with-amazon-bedrock-agentcore-observability/"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "neptune-serverless",
-      "type": "new_news",
-      "detail": "Building Financial Hierarchies with Amazon Neptune for Treasury Operations",
-      "url": "https://aws.amazon.com/blogs/database/building-financial-hierarchies-with-amazon-neptune-for-treasury-operations/"
+      "detail": "Optimize your Tableau integration with Amazon Redshift Serverless",
+      "url": "https://aws.amazon.com/blogs/big-data/optimize-your-tableau-integration-with-amazon-redshift-serverless/"
     },
     {
       "date": "2026-06-29",
@@ -94,10 +45,31 @@
     },
     {
       "date": "2026-06-29",
-      "service": "redshift-serverless",
+      "service": "neptune-serverless",
       "type": "new_news",
-      "detail": "Optimize your Tableau integration with Amazon Redshift Serverless",
-      "url": "https://aws.amazon.com/blogs/big-data/optimize-your-tableau-integration-with-amazon-redshift-serverless/"
+      "detail": "Building Financial Hierarchies with Amazon Neptune for Treasury Operations",
+      "url": "https://aws.amazon.com/blogs/database/building-financial-hierarchies-with-amazon-neptune-for-treasury-operations/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon MWAA Serverless now supports shared VPC configurations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions",
+      "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "elasticache-serverless",
+      "type": "new_news",
+      "detail": "How Securonix reduced cache costs by 20% with Amazon ElastiCache for Valkey",
+      "url": "https://aws.amazon.com/blogs/database/how-securonix-reduced-cache-costs-by-20-with-amazon-elasticache-for-valkey/"
     },
     {
       "date": "2026-06-29",
@@ -108,17 +80,38 @@
     },
     {
       "date": "2026-06-29",
-      "service": "elasticache-serverless",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "How Securonix reduced cache costs by 20% with Amazon ElastiCache for Valkey",
-      "url": "https://aws.amazon.com/blogs/database/how-securonix-reduced-cache-costs-by-20-with-amazon-elasticache-for-valkey/"
+      "detail": "Debugging production agents with Amazon Bedrock AgentCore Observability",
+      "url": "https://aws.amazon.com/blogs/machine-learning/debugging-production-agents-with-amazon-bedrock-agentcore-observability/"
     },
     {
-      "date": "2026-06-23",
-      "service": "elasticache-serverless",
+      "date": "2026-06-29",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon ElastiCache now supports Valkey 9.1",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-valkey-9-1/"
+      "detail": "Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-ai-healthcare-claims-pipeline-with-amazon-bedrock-and-aws-healthlake/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "AWS WAF adds support for Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Pair Nova 2 Lite with Claude for cost-optimized document processing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/"
     },
     {
       "date": "2026-06-26",
@@ -437,6 +430,13 @@
       "service": "lambda",
       "type": "quota_added",
       "detail": "Burst rate of SuspendMicrovm API requests: 2"
+    },
+    {
+      "date": "2026-06-23",
+      "service": "elasticache-serverless",
+      "type": "new_news",
+      "detail": "Amazon ElastiCache now supports Valkey 9.1",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-valkey-9-1/"
     },
     {
       "date": "2026-06-23",
