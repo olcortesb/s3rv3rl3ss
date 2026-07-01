@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-07-01",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-04-20",
           "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
@@ -96,11 +101,6 @@
           "date": "2026-03-12",
           "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
-        },
-        {
-          "date": "2026-03-03",
-          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_03_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-30",
+          "title": "Feature\nYou can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
+        },
+        {
           "date": "2026-06-29",
           "title": "Change\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Ser",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-11",
           "title": "Feature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.\nThis fea",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
-        },
-        {
-          "date": "2026-06-10",
-          "title": "Feature\nBigQuery continuous queries now support the following aggregation functions:\n\nARRAY_AGG\nSTRING_AGG\n\nSupport for ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-06-26",
           "title": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-05-14",
           "title": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_14_2026"
-        },
-        {
-          "date": "2026-05-13",
-          "title": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-29",
+          "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
+        },
+        {
           "date": "2026-04-20",
           "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-03-12",
           "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
-        },
-        {
-          "date": "2026-03-03",
-          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_03_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,11 +2288,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-29",
-          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
-        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2365,11 +2360,6 @@
       ],
       "news": [
         {
-          "date": "2026-06-29",
-          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
-        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2441,11 +2431,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-06-29",
-          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
         {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
@@ -2524,7 +2509,7 @@
       "news": [
         {
           "date": "2026-06-29",
-          "title": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+          "title": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
           "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         },
         {
