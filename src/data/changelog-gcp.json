@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-07-01",
   "changes": [
+    {
+      "date": "2026-06-29",
+      "service": "cloud-run",
+      "type": "new_news",
+      "detail": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "cloud-run-jobs",
+      "type": "new_news",
+      "detail": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
+      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+    },
     {
       "date": "2026-06-29",
       "service": "cloud-identity-platform",
