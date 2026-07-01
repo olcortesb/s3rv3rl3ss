@@ -2,13 +2,6 @@
   "lastUpdated": "2026-07-01",
   "changes": [
     {
-      "date": "2026-06-29",
-      "service": "cloud-run",
-      "type": "new_news",
-      "detail": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
-      "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
-    },
-    {
       "date": "2026-06-30",
       "service": "bigquery",
       "type": "new_news",
@@ -31,16 +24,23 @@
     },
     {
       "date": "2026-06-29",
-      "service": "cloud-functions-for-firebase",
+      "service": "cloud-run",
       "type": "new_news",
-      "detail": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
-      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+      "detail": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
     },
     {
       "date": "2026-06-29",
       "service": "cloud-identity-platform",
       "type": "new_news",
       "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
       "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
     },
     {
