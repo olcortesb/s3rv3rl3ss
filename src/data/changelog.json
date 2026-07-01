@@ -3,9 +3,9 @@
   "changes": [
     {
       "date": "2026-07-01",
-      "service": "lambda",
+      "service": "ses",
       "type": "quota_added",
-      "detail": "Network connectors: 1000"
+      "detail": "Configuration set count: 10000"
     },
     {
       "date": "2026-07-01",
@@ -22,373 +22,32 @@
     {
       "date": "2026-07-01",
       "service": "lambda",
-      "type": "quota_changed",
-      "detail": "Memory allocated across all MicroVMs (per account, per Region): 400 GB<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)<br />Burstable up to four times this quota. → 400 GB (i.e. 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (i.e. 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota."
-    },
-    {
-      "date": "2026-07-01",
-      "service": "lambda",
       "type": "quota_removed",
       "detail": "Storage for uploaded functions (.zip file archives) and layers removed"
     },
     {
-      "date": "2026-06-30",
+      "date": "2026-07-01",
       "service": "lambda",
-      "type": "new_news",
-      "detail": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 models",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Replicate Amazon S3 bucket configurations across AWS Regions with AWS Step Functions",
-      "url": "https://aws.amazon.com/blogs/storage/replicate-amazon-s3-bucket-configurations-across-aws-regions-with-aws-step-functions/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of task protection actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of task protection actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of cluster resource modify actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Classic Load Balancers per service removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Capacity providers per cluster removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of tag read actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Services per namespace removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Rate of tasks launched by a service on AWS Fargate removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Target groups per service removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of service read actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Task definition size removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of setting modify actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Tasks in PROVISIONING state per cluster removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of service modify actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Services per cluster removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Clusters per account removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of service read actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Containers per task definition removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of service modify actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of cluster resource modify actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of setting read actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Tags per resource removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Revisions per task definition family removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of cluster resource read actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of agent modify actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Tasks per service removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of setting read actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of tag modify actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Container instances per start-task removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of agent modify actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Subnets per awsvpcConfiguration removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Tasks launched per run-task removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of cluster resource read actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of setting modify actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Rate of tasks launched by a service on an Amazon EC2 or External instance removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "ECS Exec sessions removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Security groups per awsvpcConfiguration removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Burst rate of tag read actions (or bucket maximum capacity) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Sustained rate of tag modify actions (or bucket refill rate) removed"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "quota_removed",
-      "detail": "Container instances per cluster removed"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "User authentication and session management with Amazon Aurora DSQL",
-      "url": "https://aws.amazon.com/blogs/database/user-authentication-and-session-management-with-amazon-aurora-dsql/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Sonnet 5: 0"
+      "detail": "Network connectors: 1000"
     },
     {
       "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Sonnet 5: 0"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Model invocation max tokens per day for Anthropic Claude Sonnet 5 (doubled for cross-region calls): 0"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Sonnet 5: 0"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Safely Releasing Frontier Models to Customers",
-      "url": "https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-generative-ui-for-ai-agents-on-amazon-bedrock-agentcore-with-the-ag-ui-protocol/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Simplify multi-account access to Amazon Bedrock models with managed entitlements",
-      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-multi-account-access-to-amazon-bedrock-models-with-managed-entitlements/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
-      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Building bilingual NER for cargo logistics with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-bilingual-ner-for-cargo-logistics-with-amazon-bedrock/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "neptune-serverless",
-      "type": "new_news",
-      "detail": "Amazon Neptune announces dual stack support with IPv6",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ses",
-      "type": "quota_added",
-      "detail": "Configuration set count: 10000"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "glue",
-      "type": "quota_added",
-      "detail": "Global maximum paths: 30000"
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Memory allocated across all MicroVMs (per account, per Region): 400 GB<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo)<br />Burstable up to four times this quota. → 400 GB (i.e. 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (i.e. 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota."
     },
     {
       "date": "2026-07-01",
       "service": "glue",
       "type": "quota_added",
       "detail": "Global s3 path max length: 2000"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "glue",
+      "type": "quota_added",
+      "detail": "Global maximum administrators: 100"
     },
     {
       "date": "2026-07-01",
@@ -406,7 +65,299 @@
       "date": "2026-07-01",
       "service": "glue",
       "type": "quota_added",
-      "detail": "Global maximum administrators: 100"
+      "detail": "Global maximum paths: 30000"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Tags per resource removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Container instances per start-task removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Services per namespace removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of service modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Target groups per service removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of agent modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of service modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of cluster resource read actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Clusters per account removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Security groups per awsvpcConfiguration removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Services per cluster removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Revisions per task definition family removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Tasks launched per run-task removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of service read actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of setting modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Rate of tasks launched by a service on AWS Fargate removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of tag read actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of agent modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of tag modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of setting modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Tasks in PROVISIONING state per cluster removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of task protection actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of tag modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Rate of tasks launched by a service on an Amazon EC2 or External instance removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Capacity providers per cluster removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of cluster resource read actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Tasks per service removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of service read actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of task protection actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Container instances per cluster removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of cluster resource modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Sustained rate of setting read actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Task definition size removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of tag read actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of cluster resource modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Classic Load Balancers per service removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Subnets per awsvpcConfiguration removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "ECS Exec sessions removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Containers per task definition removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "quota_removed",
+      "detail": "Burst rate of setting read actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Safely Releasing Frontier Models to Customers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Anthropic Claude Sonnet 5 (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Sonnet 5: 0"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Sonnet 5: 0"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Sonnet 5: 0"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Replicate Amazon S3 bucket configurations across AWS Regions with AWS Step Functions",
+      "url": "https://aws.amazon.com/blogs/storage/replicate-amazon-s3-bucket-configurations-across-aws-regions-with-aws-step-functions/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "neptune-serverless",
+      "type": "new_news",
+      "detail": "Amazon Neptune announces dual stack support with IPv6",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-ipv6/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 models",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/"
     },
     {
       "date": "2026-06-30",
@@ -414,6 +365,55 @@
       "type": "new_news",
       "detail": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Simplify multi-account access to Amazon Bedrock models with managed entitlements",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-multi-account-access-to-amazon-bedrock-models-with-managed-entitlements/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building bilingual NER for cargo logistics with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-bilingual-ner-for-cargo-logistics-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-generative-ui-for-ai-agents-on-amazon-bedrock-agentcore-with-the-ag-ui-protocol/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "User authentication and session management with Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/user-authentication-and-session-management-with-amazon-aurora-dsql/"
     },
     {
       "date": "2026-06-29",
