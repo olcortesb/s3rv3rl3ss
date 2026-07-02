@@ -3,132 +3,6 @@
   "changes": [
     {
       "date": "2026-07-01",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Zero-downtime Amazon S3 Versioning: Architectural patterns for mission-critical workloads",
-      "url": "https://aws.amazon.com/blogs/storage/zero-downtime-amazon-s3-versioning-architectural-patterns-for-mission-critical-workloads/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "ECS Service Connect now supports Zone-Aware routing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Amazon ECS now supports configurable deployment circuit breaker settings",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Amazon ECS Express Mode now supports custom task definitions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Announcing zone-aware routing in Amazon ECS Service Connect",
-      "url": "https://aws.amazon.com/blogs/containers/announcing-zone-aware-routing-in-amazon-ecs-service-connect/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Cross-account and cross-Region monitoring for Amazon RDS and Aurora with Database Insights",
-      "url": "https://aws.amazon.com/blogs/database/cross-account-and-cross-region-monitoring-for-amazon-rds-and-aurora-with-database-insights/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore increases default runtime quota limits",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
-      "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "How Inscribe uses Amazon Bedrock to stop document fraud in seconds",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
-      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS now supports Kubernetes version rollback",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Announcing Amazon EKS Rollback for safe and reliable management of cluster upgrades",
-      "url": "https://aws.amazon.com/blogs/containers/announcing-amazon-eks-rollback-for-safe-and-reliable-management-of-cluster-upgrades/"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
-    },
-    {
-      "date": "2026-07-01",
-      "service": "redshift-serverless",
-      "type": "new_news",
-      "detail": "AI-powered performance recommendations for Amazon Redshift",
-      "url": "https://aws.amazon.com/blogs/big-data/ai-powered-performance-recommendations-for-amazon-redshift/"
-    },
-    {
-      "date": "2026-07-01",
       "service": "ses",
       "type": "new_news",
       "detail": "Amazon Bedrock AgentCore increases default runtime quota limits",
@@ -139,6 +13,20 @@
       "service": "ses",
       "type": "quota_added",
       "detail": "Configuration set count: 10000"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Zero-downtime Amazon S3 Versioning: Architectural patterns for mission-critical workloads",
+      "url": "https://aws.amazon.com/blogs/storage/zero-downtime-amazon-s3-versioning-architectural-patterns-for-mission-critical-workloads/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "AI-powered performance recommendations for Amazon Redshift",
+      "url": "https://aws.amazon.com/blogs/big-data/ai-powered-performance-recommendations-for-amazon-redshift/"
     },
     {
       "date": "2026-07-01",
@@ -199,6 +87,20 @@
       "service": "glue",
       "type": "quota_added",
       "detail": "Global maximum paths: 30000"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Announcing Amazon EKS Rollback for safe and reliable management of cluster upgrades",
+      "url": "https://aws.amazon.com/blogs/containers/announcing-amazon-eks-rollback-for-safe-and-reliable-management-of-cluster-upgrades/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports Kubernetes version rollback",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback"
     },
     {
       "date": "2026-07-01",
@@ -311,8 +213,22 @@
     {
       "date": "2026-07-01",
       "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS now supports configurable deployment circuit breaker settings",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-circuit-breaker-settings/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
       "type": "quota_removed",
       "detail": "Sustained rate of tag modify actions (or bucket refill rate) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/"
     },
     {
       "date": "2026-07-01",
@@ -371,6 +287,13 @@
     {
       "date": "2026-07-01",
       "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS Express Mode now supports custom task definitions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
       "type": "quota_removed",
       "detail": "Burst rate of task protection actions (or bucket maximum capacity) removed"
     },
@@ -401,6 +324,13 @@
     {
       "date": "2026-07-01",
       "service": "ecs",
+      "type": "new_news",
+      "detail": "ECS Service Connect now supports Zone-Aware routing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
       "type": "quota_removed",
       "detail": "Burst rate of tag read actions (or bucket maximum capacity) removed"
     },
@@ -409,6 +339,13 @@
       "service": "ecs",
       "type": "quota_removed",
       "detail": "Burst rate of cluster resource modify actions (or bucket maximum capacity) removed"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Announcing zone-aware routing in Amazon ECS Service Connect",
+      "url": "https://aws.amazon.com/blogs/containers/announcing-zone-aware-routing-in-amazon-ecs-service-connect/"
     },
     {
       "date": "2026-07-01",
@@ -450,14 +387,56 @@
     {
       "date": "2026-07-01",
       "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
       "type": "quota_added",
       "detail": "Model invocation max tokens per day for Anthropic Claude Sonnet 5 (doubled for cross-region calls): 0"
     },
     {
       "date": "2026-07-01",
       "service": "bedrock",
+      "type": "new_news",
+      "detail": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
+      "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
       "type": "quota_added",
       "detail": "Global cross-region model inference tokens per day for Anthropic Claude Sonnet 5: 0"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore increases default runtime quota limits",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Inscribe uses Amazon Bedrock to stop document fraud in seconds",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/"
     },
     {
       "date": "2026-07-01",
@@ -470,6 +449,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Sonnet 5: 0"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Cross-account and cross-Region monitoring for Amazon RDS and Aurora with Database Insights",
+      "url": "https://aws.amazon.com/blogs/database/cross-account-and-cross-region-monitoring-for-amazon-rds-and-aurora-with-database-insights/"
     },
     {
       "date": "2026-06-30",
@@ -498,6 +484,20 @@
       "type": "new_news",
       "detail": "Amazon ElastiCache T4g nodes now available in additional AWS Regions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-elasticache-t4g-additional-aws-regions/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
     },
     {
       "date": "2026-06-30",
