@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "changes": [
+    {
+      "date": "2026-07-01",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\nConnected Sheets.\nThese models let you c",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+      "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+      "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+    },
     {
       "date": "2026-06-30",
       "service": "bigquery",
