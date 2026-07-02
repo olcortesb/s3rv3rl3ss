@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-01",
+          "title": "Feature\nYou can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\nConnected Sheets.\nThese models let you c",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
+        },
+        {
           "date": "2026-06-30",
           "title": "Feature\nYou can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-12",
           "title": "Feature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_URL functio",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "Feature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.\nThis fea",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
         }
       ],
       "pricingDetails": [
@@ -2432,6 +2432,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-30",
+          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
           "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
@@ -2508,6 +2513,11 @@
       ],
       "news": [
         {
+          "date": "2026-06-30",
+          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
           "date": "2026-06-29",
           "title": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
           "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
@@ -2551,11 +2561,6 @@
           "date": "2026-06-16",
           "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
           "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime,",
-          "url": "https://docs.cloud.google.com/release-notes#June_15_2026"
         }
       ]
     }
