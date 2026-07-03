@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-02",
+  "lastUpdated": "2026-07-03",
   "changes": [
+    {
+      "date": "2026-07-02",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Amazon Bedrock catches AI-generated phishing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/"
+    },
+    {
+      "date": "2026-07-02",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Diagnose Kubernetes Control Plane Performance Issues with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/containers/diagnose-kubernetes-control-plane-performance-issues-with-aws-devops-agent/"
+    },
+    {
+      "date": "2026-07-02",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift RG: Faster and lower cost, Graviton-powered",
+      "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-rg-faster-and-lower-cost-graviton-powered/"
+    },
+    {
+      "date": "2026-07-02",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Accelerating log analytics at scale with AWS Glue and Apache Iceberg materialized views",
+      "url": "https://aws.amazon.com/blogs/big-data/accelerating-log-analytics-at-scale-with-aws-glue-and-apache-iceberg-materialized-views/"
+    },
+    {
+      "date": "2026-07-02",
+      "service": "athena",
+      "type": "new_news",
+      "detail": "Serverless analytics pipelines using the Apache Spark engine in Amazon Athena",
+      "url": "https://aws.amazon.com/blogs/big-data/serverless-analytics-pipelines-using-the-apache-spark-engine-in-amazon-athena/"
+    },
     {
       "date": "2026-07-01",
       "service": "ses",
