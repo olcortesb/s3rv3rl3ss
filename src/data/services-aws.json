@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02",
+  "lastUpdated": "2026-07-03",
   "region": "us-east-1",
   "services": [
     {
@@ -3842,11 +3842,6 @@
       "news": [
         {
           "date": "2026-07-01",
-          "title": "ECS Service Connect now supports Zone-Aware routing",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
-        },
-        {
-          "date": "2026-07-01",
           "title": "Amazon ECS now provides real-time deployment observability in the AWS Management Console",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-aws-management-console/"
         },
@@ -3859,6 +3854,11 @@
           "date": "2026-07-01",
           "title": "Amazon ECS Express Mode now supports custom task definitions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-express-mode-custom-task-def/"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "ECS Service Connect now supports Zone-Aware routing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
         },
         {
           "date": "2026-07-01",
@@ -11299,6 +11299,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-02",
+          "title": "How Amazon Bedrock catches AI-generated phishing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/"
+        },
+        {
           "date": "2026-07-01",
           "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
@@ -11392,11 +11397,6 @@
           "date": "2026-06-25",
           "title": "OpenAI GPT, OpenAI GPT OSS, and NVIDIA Nemotron models on Amazon Bedrock receive FedRAMP High and DoD IL-4/5 approval in AWS GovCloud (US)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/addl-bedrock-model-fedramp-il-5-govcloud"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",
@@ -11690,6 +11690,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-02",
+          "title": "Diagnose Kubernetes Control Plane Performance Issues with AWS DevOps Agent",
+          "url": "https://aws.amazon.com/blogs/containers/diagnose-kubernetes-control-plane-performance-issues-with-aws-devops-agent/"
+        },
         {
           "date": "2026-07-01",
           "title": "Amazon EKS now supports Kubernetes version rollback",
@@ -12166,6 +12171,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-02",
+          "title": "Amazon Redshift RG: Faster and lower cost, Graviton-powered",
+          "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-rg-faster-and-lower-cost-graviton-powered/"
+        },
         {
           "date": "2026-07-01",
           "title": "AI-powered performance recommendations for Amazon Redshift",
@@ -14316,8 +14326,12 @@
           "value": "2,880 minutes (48 hr)"
         }
       ],
-      "dataStatus": "partial",
       "news": [
+        {
+          "date": "2026-07-02",
+          "title": "Accelerating log analytics at scale with AWS Glue and Apache Iceberg materialized views",
+          "url": "https://aws.amazon.com/blogs/big-data/accelerating-log-analytics-at-scale-with-aws-glue-and-apache-iceberg-materialized-views/"
+        },
         {
           "date": "2026-06-17",
           "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
@@ -14328,7 +14342,8 @@
           "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/"
         }
-      ]
+      ],
+      "dataStatus": "partial"
     },
     {
       "id": "athena",
@@ -14546,6 +14561,13 @@
         {
           "name": "Max query timeout",
           "value": "30 minutes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-02",
+          "title": "Serverless analytics pipelines using the Apache Spark engine in Amazon Athena",
+          "url": "https://aws.amazon.com/blogs/big-data/serverless-analytics-pipelines-using-the-apache-spark-engine-in-amazon-athena/"
         }
       ],
       "dataStatus": "partial"
