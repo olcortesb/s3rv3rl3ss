@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-07-03T06:55:20Z",
+  "lastUpdated": "2026-07-04T06:55:20Z",
   "today": {
     "invocations": 17,
-    "totalDurationMs": 77064,
+    "totalDurationMs": 63401,
     "errors": 3,
     "functions": {
       "ChangelogFunction": {
         "invocations": 1,
-        "totalDurationMs": 1690,
-        "avgDurationMs": 1690,
+        "totalDurationMs": 1499,
+        "avgDurationMs": 1499,
         "errors": 0
       },
       "GcpCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 12082,
-        "avgDurationMs": 12082,
+        "totalDurationMs": 11823,
+        "avgDurationMs": 11823,
         "errors": 0
       },
       "AzureCollectorFunction": {
         "invocations": 3,
-        "totalDurationMs": 653,
-        "avgDurationMs": 218,
+        "totalDurationMs": 651,
+        "avgDurationMs": 217,
         "errors": 3
       },
       "CommitterFunction": {
         "invocations": 10,
-        "totalDurationMs": 29577,
-        "avgDurationMs": 2958,
+        "totalDurationMs": 17442,
+        "avgDurationMs": 1744,
         "errors": 0
       },
       "MetricsFunction": {
@@ -37,14 +37,14 @@
       },
       "CollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 32189,
-        "avgDurationMs": 32189,
+        "totalDurationMs": 31263,
+        "avgDurationMs": 31263,
         "errors": 0
       },
       "ComparisonsFunction": {
         "invocations": 1,
-        "totalDurationMs": 873,
-        "avgDurationMs": 873,
+        "totalDurationMs": 722,
+        "avgDurationMs": 722,
         "errors": 0
       },
       "ToolsCollectorFunction": {
@@ -56,56 +56,56 @@
     }
   },
   "month": {
-    "invocations": 61,
-    "totalDurationMs": 259753,
-    "errors": 9,
+    "invocations": 83,
+    "totalDurationMs": 339972,
+    "errors": 12,
     "functions": {
       "ChangelogFunction": {
-        "invocations": 3,
-        "totalDurationMs": 4833,
-        "avgDurationMs": 1611,
+        "invocations": 4,
+        "totalDurationMs": 6332,
+        "avgDurationMs": 1583,
         "errors": 0
       },
       "GcpCollectorFunction": {
-        "invocations": 3,
-        "totalDurationMs": 36443,
-        "avgDurationMs": 12148,
+        "invocations": 4,
+        "totalDurationMs": 48266,
+        "avgDurationMs": 12066,
         "errors": 0
       },
       "AzureCollectorFunction": {
-        "invocations": 9,
-        "totalDurationMs": 2188,
-        "avgDurationMs": 243,
-        "errors": 9
+        "invocations": 12,
+        "totalDurationMs": 2840,
+        "avgDurationMs": 237,
+        "errors": 12
       },
       "CommitterFunction": {
-        "invocations": 36,
-        "totalDurationMs": 95767,
-        "avgDurationMs": 2660,
+        "invocations": 49,
+        "totalDurationMs": 117220,
+        "avgDurationMs": 2392,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 2,
-        "totalDurationMs": 19354,
-        "avgDurationMs": 9677,
+        "invocations": 3,
+        "totalDurationMs": 30190,
+        "avgDurationMs": 10063,
         "errors": 0
       },
       "CollectorFunction": {
-        "invocations": 3,
-        "totalDurationMs": 94840,
-        "avgDurationMs": 31613,
+        "invocations": 4,
+        "totalDurationMs": 126103,
+        "avgDurationMs": 31526,
         "errors": 0
       },
       "ComparisonsFunction": {
-        "invocations": 3,
-        "totalDurationMs": 2453,
-        "avgDurationMs": 818,
+        "invocations": 4,
+        "totalDurationMs": 3175,
+        "avgDurationMs": 794,
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 2,
-        "totalDurationMs": 3874,
-        "avgDurationMs": 1937,
+        "invocations": 3,
+        "totalDurationMs": 5845,
+        "avgDurationMs": 1948,
         "errors": 0
       }
     }
@@ -114,8 +114,8 @@
     "lambdaFunctions": 8,
     "architecture": "arm64",
     "runtime": "python3.12",
-    "dynamodbItems": 4694,
-    "dynamodbSizeKB": 1022,
+    "dynamodbItems": 4704,
+    "dynamodbSizeKB": 1025,
     "s3Objects": 13
   },
   "cost": {
