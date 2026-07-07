@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-06",
+          "title": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
+        },
+        {
           "date": "2026-07-01",
           "title": "Feature\nYou can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\nConnected Sheets.\nThese models let you c",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-15",
           "title": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
-        },
-        {
-          "date": "2026-06-12",
-          "title": "Feature\nBigQuery AI functions can use\nObjectRef values directly as input,\nwithout calling the OBJ.GET_ACCESS_URL functio",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
         }
       ],
       "pricingDetails": [
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-06",
+          "title": "Feature\nYou can use Gemini in Spanner Studio to fix errors in your SQL\nqueries. When you run a query that contains an er",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_06_2026"
+        },
+        {
           "date": "2026-06-23",
           "title": "Feature\nSpanner supports\ndirect connectivity.\nWhen enabled, your application traffic is routed directly to\nSpanner serve",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_23_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-04-17",
           "title": "Feature\nRepeatable read isolation is generally available.\nYou can use it to reduce latency and transaction failure rates",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_17_2026"
-        },
-        {
-          "date": "2026-04-13",
-          "title": "Feature\nSpanner supports importing data from Cloud SQL for MySQL.\nThis feature lets you migrate the schema and perform a",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_13_2026"
         }
       ],
       "pricingDetails": [
@@ -2311,11 +2311,6 @@
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
-        },
-        {
-          "date": "2026-06-06",
-          "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
-          "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
         }
       ]
     },
@@ -2378,11 +2373,6 @@
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
-        },
-        {
-          "date": "2026-06-06",
-          "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
-          "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
         }
       ]
     },
@@ -2450,11 +2440,6 @@
           "date": "2026-06-09",
           "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
           "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
-        },
-        {
-          "date": "2026-06-06",
-          "title": "Cloud Location Finder\nAnnouncement\nCloud Location Finder is generally available (GA).\nGoogle SecOps SOAR\nAnnouncement\nRe",
-          "url": "https://docs.cloud.google.com/release-notes#June_06_2026"
         }
       ]
     },
@@ -2498,6 +2483,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-06",
+          "title": "BigQuery\nChange\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
           "date": "2026-07-04",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now available for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
@@ -2516,11 +2506,6 @@
           "date": "2026-06-27",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Application Integration\nSecurity\nSecurity bulletins page\nSee the new security bulletins page for Application Integration",
-          "url": "https://docs.cloud.google.com/release-notes#June_25_2026"
         },
         {
           "date": "2026-06-23",
