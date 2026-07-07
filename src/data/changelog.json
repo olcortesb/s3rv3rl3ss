@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "changes": [
+    {
+      "date": "2026-07-06",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "Amazon Cognito now supports self-service provisioned API rate limits",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Dynata’s journey to lower TCO and faster modernization with AWS Database Savings Plans",
+      "url": "https://aws.amazon.com/blogs/database/dynatas-journey-to-lower-tco-and-faster-modernization-with-aws-database-savings-plans/"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Run MiniMax models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/"
+    },
     {
       "date": "2026-07-02",
       "service": "redshift-serverless",
