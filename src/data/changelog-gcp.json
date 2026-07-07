@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "changes": [
+    {
+      "date": "2026-07-06",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nYou can use Gemini in Spanner Studio to fix errors in your SQL\nqueries. When you run a query that contains an er",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_06_2026"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "BigQuery\nChange\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled",
+      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+    },
     {
       "date": "2026-07-04",
       "service": "cloud-functions-for-firebase",
