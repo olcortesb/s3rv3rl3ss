@@ -1,6 +1,248 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "changes": [
+    {
+      "date": "2026-07-07",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Express One Zone is now available in the AWS Europe (Frankfurt) Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-express-one-zone-europe-frankfurt/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-managed-instances-gpu-price/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Logical replication improvements in Amazon RDS for PostgreSQL 18",
+      "url": "https://aws.amazon.com/blogs/database/logical-replication-improvements-in-amazon-rds-for-postgresql-18/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail contextual grounding policy text units burst rate: 106"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Content policy maximum input size in text units (Standard tier - Recommended): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Contextual grounding policy maximum input size in text units: 106"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand InvokeGuardrailChecks requests burst rate: 1500"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Content policy maximum input size in text units (Classic tier): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units per second (Classic tier): 200"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Word filter policy text units burst rate: 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units per second (Standard tier - Recommended): 200"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Word policy maximum input size in text units: 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units burst rate: 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units burst rate (Standard tier - Recommended): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units burst rate (Standard tier - Recommended): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail requests burst rate: 100"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units per second (Classic tier): 50"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units burst rate (Classic tier): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Topic policy maximum input size in text units (Classic tier): 200"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Sensitive information policy maximum input size in text units: 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) Topic policy maximum input size in text units (Standard tier - Recommended): 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units burst rate (Classic tier): 200"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units per second (Standard tier - Recommended): 200"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units per second removed"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units per second (standard) removed"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Denied topic policy text units per second removed"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Content filter policy text units per second (standard) removed"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build a serverless image editing agent with Amazon Bedrock AgentCore harness",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-image-editing-agent-with-amazon-bedrock-agentcore-harness/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build an AI-powered AWS support companion with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Full request and response compliance logging on Amazon EKS",
+      "url": "https://aws.amazon.com/blogs/containers/full-request-and-response-compliance-logging-on-amazon-eks/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift RG instances now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-instances-aws-govcloud"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "lambda-at-edge",
+      "type": "new_news",
+      "detail": "Intelligent failover using AWS Lambda@Edge and Amazon DynamoDB",
+      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/intelligent-failover-using-aws-lambdaedge-and-amazon-dynamodb/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Isolate email suppression per tenant with Amazon SES",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/isolate-email-suppression-per-tenant-with-amazon-ses/"
+    },
+    {
+      "date": "2026-07-07",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Introducing Apache Spark Connect support in AWS Glue interactive sessions",
+      "url": "https://aws.amazon.com/blogs/big-data/introducing-apache-spark-connect-support-in-aws-glue-interactive-sessions/"
+    },
     {
       "date": "2026-07-06",
       "service": "secrets-manager",
