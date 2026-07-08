@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-07",
+          "title": "Change\nFor GKE Standard clusters, the maximum number of nodes that you can upgrade\nsimultaneously by using surge upgrade",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_07_2026"
+        },
+        {
           "date": "2026-06-29",
           "title": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-05-21",
           "title": "Change\n(2026-R20) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_21_2026"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Change\nContainer-Optimized OS (COS) milestone 129 and higher no longer include the\nkubectl binary in the /usr/bin/ direc",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_14_2026"
         }
       ],
       "pricingDetails": [
@@ -2483,13 +2483,8 @@
       ],
       "news": [
         {
-          "date": "2026-07-06",
-          "title": "BigQuery\nChange\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled",
-          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-        },
-        {
           "date": "2026-07-04",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now available for all regions.",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
         },
         {
@@ -2531,6 +2526,11 @@
           "date": "2026-06-17",
           "title": "Agent Assist\nFeature\nAgent Assist offers the following UI module integrations with Agent Assist for Salesforce:\n\nChat\nVo",
           "url": "https://docs.cloud.google.com/release-notes#June_17_2026"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
+          "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
         }
       ]
     }
