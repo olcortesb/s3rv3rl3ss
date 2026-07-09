@@ -1,6 +1,62 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "changes": [
+    {
+      "date": "2026-07-08",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Claude apps gateway for AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
+      "url": "https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Automatically sort and prioritize your mailboxes by using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automatically-sort-and-prioritize-your-mailboxes-by-using-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building and connecting a production-ready ecommerce MCP server using Amazon Bedrock AgentCore and Mistral AI Studio",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Securing Amazon Bedrock AgentCore Runtime with AWS WAF",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agentcore-runtime-with-aws-waf/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift RG instances now available on the trailing track",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track"
+    },
     {
       "date": "2026-07-08",
       "service": "bedrock",
