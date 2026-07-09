@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "changes": [
+    {
+      "date": "2026-07-08",
+      "service": "cloud-run",
+      "type": "new_news",
+      "detail": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "cloud-run-jobs",
+      "type": "new_news",
+      "detail": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
+      "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
+    },
     {
       "date": "2026-07-07",
       "service": "gke",
