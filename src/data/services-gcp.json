@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-08",
+          "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
+        },
+        {
           "date": "2026-06-29",
           "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
@@ -96,11 +101,6 @@
           "date": "2026-03-13",
           "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-08",
+          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
+        },
+        {
           "date": "2026-07-06",
           "title": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-16",
           "title": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "Feature\nUse Gemini Cloud Assist to analyze your SQL queries and receive\nrecommendations to optimize query performance in",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-08",
+          "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
+        },
+        {
           "date": "2026-06-29",
           "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-03-13",
           "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
-        },
-        {
-          "date": "2026-03-12",
-          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_12_2026"
         }
       ],
       "pricingDetails": [
@@ -2483,6 +2483,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-08",
+          "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
+          "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
+        },
+        {
           "date": "2026-07-04",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
@@ -2526,11 +2531,6 @@
           "date": "2026-06-17",
           "title": "Agent Assist\nFeature\nAgent Assist offers the following UI module integrations with Agent Assist for Salesforce:\n\nChat\nVo",
           "url": "https://docs.cloud.google.com/release-notes#June_17_2026"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB integration with Knowledge Catalog is now generally available (GA).\nThis integrat",
-          "url": "https://docs.cloud.google.com/release-notes#June_16_2026"
         }
       ]
     }
