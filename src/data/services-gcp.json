@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-09",
+          "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
+        },
+        {
           "date": "2026-07-08",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-17",
           "title": "Feature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Announcement\nTable Explorer behavior is moving to the Reference panel. This transition\nwill occur in July 2026 or later.",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
         }
       ],
       "pricingDetails": [
@@ -1473,6 +1473,11 @@
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_23_2026"
         },
         {
+          "date": "2026-06-15",
+          "title": "Feature\nYou can publish a Spanner conversational analytics agent in\nGemini Enterprise.\nThis feature is in\nPreview.",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_15_2026"
+        },
+        {
           "date": "2026-05-27",
           "title": "Feature\nSpanner Graph supports a suite of\ngraph algorithms covering\nuse cases such as fraud detection, entity resolution",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_27_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-04-20",
           "title": "Feature\nThe Spanner remote MCP server\nis generally available (GA).\nThe Spanner remote MCP server lets you interact with\n",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_20_2026"
-        },
-        {
-          "date": "2026-04-17",
-          "title": "Feature\nRepeatable read isolation is generally available.\nYou can use it to reduce latency and transaction failure rates",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_17_2026"
         }
       ],
       "pricingDetails": [
@@ -2306,11 +2306,6 @@
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
-        },
-        {
-          "date": "2026-06-09",
-          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
-          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         }
       ]
     },
@@ -2368,11 +2363,6 @@
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
-        },
-        {
-          "date": "2026-06-09",
-          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
-          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         }
       ]
     },
@@ -2435,11 +2425,6 @@
           "date": "2026-06-11",
           "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
           "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
-        },
-        {
-          "date": "2026-06-09",
-          "title": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more",
-          "url": "https://docs.cloud.google.com/release-notes#June_09_2026"
         }
       ]
     },
