@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65109,
+      "stars": 65115,
       "technology": [
         "Python",
         "Docker"
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10859ms",
-        "memoryIdle": "333.6MiB",
+        "startupTime": "9339ms",
+        "memoryIdle": "333.8MiB",
         "imageSize": "1.25GB"
       },
       "services": [],
@@ -145,8 +145,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.4.0",
-      "stars": 3486,
+      "version": "1.4.1",
+      "stars": 3514,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2039ms",
-        "memoryIdle": "36.07MiB",
+        "startupTime": "2034ms",
+        "memoryIdle": "36.42MiB",
         "imageSize": "176MB"
       },
       "services": [
@@ -169,6 +169,10 @@
         "autoscaling",
         "backup",
         "batch",
+        "bedrock",
+        "bedrock-agent",
+        "bedrock-agent-runtime",
+        "bedrock-runtime",
         "cloudformation",
         "cloudfront",
         "cloudtrail",
@@ -194,6 +198,7 @@
         "inspector2",
         "iot",
         "iotdata",
+        "kafka",
         "kinesis",
         "kms",
         "lambda",
@@ -222,7 +227,7 @@
         "transfer",
         "wafv2"
       ],
-      "serviceCount": 69,
+      "serviceCount": 74,
       "paidServices": [],
       "paidServiceCount": 0
     },
@@ -233,7 +238,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.31",
-      "stars": 15840,
+      "stars": 16048,
       "technology": [
         "Java",
         "Docker"
@@ -241,8 +246,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "522ms",
-        "memoryIdle": "12.04MiB",
+        "startupTime": "525ms",
+        "memoryIdle": "11.85MiB",
         "imageSize": "524MB"
       },
       "services": [
@@ -327,7 +332,7 @@
       "url": "https://github.com/robotocore/robotocore",
       "repoUrl": "https://github.com/robotocore/robotocore",
       "version": "2026.5.14",
-      "stars": 326,
+      "stars": 327,
       "technology": [
         "Go",
         "Docker"
@@ -335,8 +340,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3071ms",
-        "memoryIdle": "77.27MiB",
+        "startupTime": "3067ms",
+        "memoryIdle": "77.22MiB",
         "imageSize": "486MB"
       },
       "services": [
@@ -686,6 +691,8 @@
     "batch": "Batch",
     "bcm-data-exports": "BCM Data Exports",
     "bedrock": "Bedrock",
+    "bedrock-agent": "bedrock-agent",
+    "bedrock-agent-runtime": "bedrock-agent-runtime",
     "bedrock-runtime": "Bedrock Runtime",
     "bedrockagent": "Bedrock Agent",
     "budgets": "Budgets",
