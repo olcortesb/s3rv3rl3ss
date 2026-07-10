@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "changes": [
+    {
+      "date": "2026-06-15",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nYou can publish a Spanner conversational analytics agent in\nGemini Enterprise.\nThis feature is in\nPreview.",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_15_2026"
+    },
     {
       "date": "2026-07-08",
       "service": "cloud-run-jobs",
