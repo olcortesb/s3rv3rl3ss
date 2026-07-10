@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "changes": [
+    {
+      "date": "2026-07-09",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
+      "url": "https://aws.amazon.com/blogs/containers/migrate-amazon-ec2-to-eks-auto-mode-using-kiro-cli-and-mcp-servers/"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "How Stratasys built an IoT platform for industrial 3D printers with AWS IoT",
+      "url": "https://aws.amazon.com/blogs/iot/how-stratasys-built-an-iot-platform-for-industrial-3d-printers-with-aws-iot/"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "timestream",
+      "type": "new_news",
+      "detail": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
+    },
     {
       "date": "2026-07-08",
       "service": "redshift-serverless",
