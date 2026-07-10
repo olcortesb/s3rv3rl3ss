@@ -3,24 +3,10 @@
   "changes": [
     {
       "date": "2026-07-09",
-      "service": "eventbridge",
+      "service": "timestream",
       "type": "new_news",
       "detail": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
-    },
-    {
-      "date": "2026-07-08",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
-    },
-    {
-      "date": "2026-07-09",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
-      "url": "https://aws.amazon.com/blogs/containers/migrate-amazon-ec2-to-eks-auto-mode-using-kiro-cli-and-mcp-servers/"
     },
     {
       "date": "2026-07-09",
@@ -38,10 +24,17 @@
     },
     {
       "date": "2026-07-09",
-      "service": "timestream",
+      "service": "eventbridge",
       "type": "new_news",
       "detail": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
+      "url": "https://aws.amazon.com/blogs/containers/migrate-amazon-ec2-to-eks-auto-mode-using-kiro-cli-and-mcp-servers/"
     },
     {
       "date": "2026-07-08",
@@ -135,6 +128,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units burst rate: 1000"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
     },
     {
       "date": "2026-07-08",
