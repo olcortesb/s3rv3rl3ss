@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "region": "us-east-1",
   "services": [
     {
@@ -732,13 +732,13 @@
         },
         {
           "date": "2026-06-24",
-          "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/"
+          "title": "Modernizing Lambda + S3 workloads with Amazon S3 Files",
+          "url": "https://aws.amazon.com/blogs/compute/modernizing-lambda-s3-workloads-with-amazon-s3-files/"
         },
         {
           "date": "2026-06-24",
-          "title": "Modernizing Lambda + S3 workloads with Amazon S3 Files",
-          "url": "https://aws.amazon.com/blogs/compute/modernizing-lambda-s3-workloads-with-amazon-s3-files/"
+          "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/"
         },
         {
           "date": "2026-06-22",
@@ -2368,6 +2368,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-09",
+          "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
+        },
         {
           "date": "2026-06-01",
           "title": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53",
@@ -11416,6 +11421,11 @@
       "news": [
         {
           "date": "2026-07-08",
+          "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
+        },
+        {
+          "date": "2026-07-08",
           "title": "Introducing Claude apps gateway for AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"
         },
@@ -11508,11 +11518,6 @@
           "date": "2026-06-30",
           "title": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-generative-ui-for-ai-agents-on-amazon-bedrock-agentcore-with-the-ag-ui-protocol/"
         }
       ],
       "dataStatus": "partial",
@@ -11812,6 +11817,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-09",
+          "title": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
+          "url": "https://aws.amazon.com/blogs/containers/migrate-amazon-ec2-to-eks-auto-mode-using-kiro-cli-and-mcp-servers/"
+        },
+        {
           "date": "2026-07-07",
           "title": "Amazon EKS Auto Mode reduces GPU management fees by up to 60%",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-auto-mode-gpu-price"
@@ -12096,8 +12106,12 @@
           "value": "5 MB/s in, 10 MB/s out"
         }
       ],
-      "dataStatus": "partial",
       "news": [
+        {
+          "date": "2026-07-09",
+          "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-msk-replicator-external-kafka-standard-broker-support"
+        },
         {
           "date": "2026-06-22",
           "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
@@ -12113,7 +12127,8 @@
           "title": "Amazon MSK Express brokers now support Intelligent Rebalancing on existing clusters",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-express-intelligent/"
         }
-      ]
+      ],
+      "dataStatus": "partial"
     },
     {
       "id": "neptune-serverless",
@@ -13935,6 +13950,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-09",
+          "title": "How Stratasys built an IoT platform for industrial 3D printers with AWS IoT",
+          "url": "https://aws.amazon.com/blogs/iot/how-stratasys-built-an-iot-platform-for-industrial-3d-printers-with-aws-iot/"
+        },
+        {
           "date": "2026-06-24",
           "title": "Introducing AWS IoT Core’s Direct Messaging: Lower-cost server-to-device communication with better observability",
           "url": "https://aws.amazon.com/blogs/iot/introducing-aws-iot-cores-direct-messaging-lower-cost-server-to-device-communication-with-better-observability/"
@@ -14179,6 +14199,13 @@
         {
           "name": "Max databases per account per region",
           "value": "500"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-09",
+          "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-eventbridge/"
         }
       ],
       "dataStatus": "partial"
