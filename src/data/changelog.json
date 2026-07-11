@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "changes": [
+    {
+      "date": "2026-07-10",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Announcing Lambda MicroVMs: serverless compute environments with VM-level isolation and near-instant startup",
+      "url": "https://aws.amazon.com/blogs/compute/announcing-lambda-microvms-serverless-compute-environments-with-vm-level-isolation-and-near-instant-startup/"
+    },
+    {
+      "date": "2026-07-10",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Secure code execution for AI agents with AWS Lambda MicroVMs",
+      "url": "https://aws.amazon.com/blogs/compute/secure-code-execution-for-ai-agents-with-aws-lambda-microvms/"
+    },
+    {
+      "date": "2026-07-10",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-07-10",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-07-10",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/"
+    },
     {
       "date": "2026-07-09",
       "service": "timestream",
