@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "region": "us-east-1",
   "services": [
     {
@@ -706,6 +706,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-10",
+          "title": "Announcing Lambda MicroVMs: serverless compute environments with VM-level isolation and near-instant startup",
+          "url": "https://aws.amazon.com/blogs/compute/announcing-lambda-microvms-serverless-compute-environments-with-vm-level-isolation-and-near-instant-startup/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Secure code execution for AI agents with AWS Lambda MicroVMs",
+          "url": "https://aws.amazon.com/blogs/compute/secure-code-execution-for-ai-agents-with-aws-lambda-microvms/"
+        },
+        {
           "date": "2026-07-07",
           "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/"
@@ -717,13 +727,13 @@
         },
         {
           "date": "2026-06-29",
-          "title": "Amazon MWAA Serverless now supports shared VPC configurations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
+          "title": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions",
+          "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
         },
         {
           "date": "2026-06-29",
-          "title": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions",
-          "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
+          "title": "Amazon MWAA Serverless now supports shared VPC configurations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
         },
         {
           "date": "2026-06-26",
@@ -1821,11 +1831,6 @@
         },
         {
           "date": "2026-06-29",
-          "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/"
-        },
-        {
-          "date": "2026-06-29",
           "title": "Query Amazon S3 access logs instantly with CloudWatch and S3 Tables",
           "url": "https://aws.amazon.com/blogs/storage/query-amazon-s3-access-logs-instantly-with-cloudwatch-and-s3-tables/"
         },
@@ -1833,6 +1838,11 @@
           "date": "2026-06-29",
           "title": "Simplify workforce data access with AWS Transfer Family web apps and Terraform",
           "url": "https://aws.amazon.com/blogs/storage/simplify-workforce-data-access-with-aws-transfer-family-web-apps-and-terraform/"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Amazon S3 server access logs now deliver to Amazon CloudWatch Logs and Amazon S3 Tables",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-cloudwatch-logs-tables/"
         },
         {
           "date": "2026-06-26",
@@ -11420,6 +11430,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-10",
+          "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-07-08",
           "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
@@ -11508,16 +11528,6 @@
           "date": "2026-07-01",
           "title": "Safely Releasing Frontier Models to Customers",
           "url": "https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Amazon SageMaker AI cuts generative AI inference scale-out time by up to half with automatic container image caching",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/sagemakerai-inf-scale-out-time"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/"
         }
       ],
       "dataStatus": "partial",
@@ -11816,6 +11826,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-10",
+          "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/"
+        },
         {
           "date": "2026-07-09",
           "title": "Migrate Amazon EC2 to EKS Auto Mode using Kiro CLI and MCP servers",
