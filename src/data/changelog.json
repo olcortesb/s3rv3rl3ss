@@ -17,10 +17,10 @@
     },
     {
       "date": "2026-07-10",
-      "service": "bedrock",
+      "service": "eks",
       "type": "new_news",
-      "detail": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
+      "detail": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/"
     },
     {
       "date": "2026-07-10",
@@ -31,10 +31,10 @@
     },
     {
       "date": "2026-07-10",
-      "service": "eks",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/"
+      "detail": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-07-09",
