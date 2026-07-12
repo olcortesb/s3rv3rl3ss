@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11",
+  "lastUpdated": "2026-07-12",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-10",
+          "title": "Change\n(2026-R29) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_10_2026"
+        },
+        {
           "date": "2026-07-09",
           "title": "Change\n(2026-R28) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_09_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-05-29",
           "title": "Issue\n\nImportant: This note has been clarified. For the corrected note, see the entry\nfor June 23, 2026.\nIn GKE version ",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Change\n(2026-R21) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_27_2026"
         }
       ],
       "pricingDetails": [
@@ -2001,7 +2001,7 @@
         },
         {
           "date": "2025-09-10",
-          "title": "Feature\nVertex AI Agent Engine\nAgent Engine now supports the following features:\n\nAgent Engine Code Execution, now in Pr",
+          "title": "Breaking\nVertex AI Agent Engine\nIn version v1.112.0 of the Vertex AI SDK for Python, the agent_engines module has been r",
           "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_10_2025"
         },
         {
@@ -2301,11 +2301,6 @@
           "date": "2026-06-20",
           "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
-          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
         }
       ]
     },
@@ -2358,11 +2353,6 @@
           "date": "2026-06-20",
           "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
-          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
         }
       ]
     },
@@ -2420,11 +2410,6 @@
           "date": "2026-06-20",
           "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        },
-        {
-          "date": "2026-06-11",
-          "title": "BigQuery\nFeature\nYou can monitor performance, analyze capacity, and optimize costs with Gemini Cloud Assist in BigQuery.",
-          "url": "https://docs.cloud.google.com/release-notes#June_11_2026"
         }
       ]
     },
@@ -2467,6 +2452,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-11",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#July_11_2026"
+        },
         {
           "date": "2026-07-08",
           "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
@@ -2511,11 +2501,6 @@
           "date": "2026-06-20",
           "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
           "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "Agent Assist\nFeature\nAgent Assist offers the following UI module integrations with Agent Assist for Salesforce:\n\nChat\nVo",
-          "url": "https://docs.cloud.google.com/release-notes#June_17_2026"
         }
       ]
     }
