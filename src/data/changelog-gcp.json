@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-13",
   "changes": [
+    {
+      "date": "2026-07-12",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
+      "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
+    },
     {
       "date": "2026-07-11",
       "service": "cloud-functions-for-firebase",
