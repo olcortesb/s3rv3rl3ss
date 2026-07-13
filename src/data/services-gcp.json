@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12",
+  "lastUpdated": "2026-07-13",
   "services": [
     {
       "id": "cloud-run",
@@ -2453,6 +2453,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-12",
+          "title": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
+          "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
+        },
+        {
           "date": "2026-07-11",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_11_2026"
@@ -2496,11 +2501,6 @@
           "date": "2026-06-21",
           "title": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
           "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
-        },
-        {
-          "date": "2026-06-20",
-          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
-          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
         }
       ]
     }
