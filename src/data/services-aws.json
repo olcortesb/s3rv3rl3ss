@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "region": "us-east-1",
   "services": [
     {
@@ -705,6 +705,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-13",
+          "title": "Eliminating Java cold starts with AWS Lambda Managed Instances",
+          "url": "https://aws.amazon.com/blogs/compute/eliminating-java-cold-starts-with-aws-lambda-managed-instances/"
+        },
         {
           "date": "2026-07-10",
           "title": "Announcing Lambda MicroVMs: serverless compute environments with VM-level isolation and near-instant startup",
@@ -4140,6 +4145,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Rebuild large indexes on Aurora PostgreSQL with Blue/Green Deployments",
+          "url": "https://aws.amazon.com/blogs/database/rebuild-large-indexes-on-aurora-postgresql-with-blue-green-deployments/"
+        },
+        {
           "date": "2026-07-08",
           "title": "Amazon Aurora DSQL change data capture (CDC) Is now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-cdc-ga/"
@@ -4233,11 +4243,6 @@
           "date": "2026-06-04",
           "title": "Understanding how backups work in Amazon Aurora",
           "url": "https://aws.amazon.com/blogs/database/understanding-how-backups-work-in-amazon-aurora/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Index types supported in Amazon Aurora PostgreSQL and Amazon RDS for PostgreSQL using extensions (Bloom, pg_trgm, and pg_bigm)",
-          "url": "https://aws.amazon.com/blogs/database/index-types-supported-in-amazon-aurora-postgresql-and-amazon-rds-for-postgresql-using-extensions-bloom-pg_trgm-and-pg_bigm/"
         }
       ],
       "dataStatus": "partial"
@@ -8849,7 +8854,7 @@
         },
         {
           "name": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second",
-          "value": "500",
+          "value": "1000",
           "description": "The maximum number of text units per second that can be processed for sensitive information filters.",
           "adjustable": true
         },
@@ -11430,6 +11435,31 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/"
+        },
+        {
           "date": "2026-07-10",
           "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
@@ -11503,31 +11533,6 @@
           "date": "2026-07-01",
           "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
-          "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "How Inscribe uses Amazon Bedrock to stop document fraud in seconds",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-inscribe-uses-amazon-bedrock-to-stop-document-fraud-in-seconds/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
-          "url": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Safely Releasing Frontier Models to Customers",
-          "url": "https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/"
         }
       ],
       "dataStatus": "partial",
@@ -11827,9 +11832,19 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Accessing private Git repositories from Amazon EKS capability for Argo CD",
+          "url": "https://aws.amazon.com/blogs/containers/accessing-private-git-repositories-from-amazon-eks-capability-for-argo-cd/"
+        },
+        {
           "date": "2026-07-10",
           "title": "Amazon EMR on EKS now supports Apache Spark troubleshooting agent",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-eks-spark-troubleshooting/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift"
         },
         {
           "date": "2026-07-09",
@@ -11915,11 +11930,6 @@
           "date": "2026-05-12",
           "title": "Back up and restore your Amazon EKS cluster resources using Velero",
           "url": "https://aws.amazon.com/blogs/containers/back-up-and-restore-your-amazon-eks-cluster-resources-using-velero/"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Implement centralized observability for multi-account Amazon EKS",
-          "url": "https://aws.amazon.com/blogs/containers/implement-centralized-observability-for-multi-account-amazon-eks/"
         }
       ],
       "dataStatus": "partial"
@@ -12122,6 +12132,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-13",
+          "title": "How Razorpay Built Real-Time Anomaly Detection with Amazon MSK",
+          "url": "https://aws.amazon.com/blogs/big-data/how-razorpay-built-real-time-anomaly-detection-with-amazon-msk/"
+        },
         {
           "date": "2026-07-09",
           "title": "Amazon MSK Replicator now supports replication from external Apache Kafka clusters to MSK Standard brokers",
@@ -13799,6 +13814,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Build an autonomous ecommerce assistant with AWS End User Messaging, Amazon Bedrock AgentCore, and OpenClaw",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-autonomous-ecommerce-assistant-with-aws-end-user-messaging-amazon-bedrock-agentcore-and-openclaw/"
+        },
+        {
           "date": "2026-07-07",
           "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/"
@@ -13892,11 +13912,6 @@
           "date": "2025-11-25",
           "title": "Learning email deliverability with Amazon SES",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/learning-email-deliverability-with-amazon-ses/"
-        },
-        {
-          "date": "2025-11-19",
-          "title": "How to register for a US toll-free number with AWS End User Messaging",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-register-for-a-us-toll-free-number-with-aws-end-user-messaging/"
         }
       ],
       "dataStatus": "partial"
