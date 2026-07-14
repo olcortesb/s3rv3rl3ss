@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+        },
+        {
           "date": "2026-07-09",
           "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-22",
           "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "Feature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
         }
       ],
       "pricingDetails": [
@@ -2006,7 +2006,7 @@
         },
         {
           "date": "2025-09-09",
-          "title": "Feature\nAI Singapore's SEA-LION V4 models are available through Model Garden. They are open models for Southeast Asian l",
+          "title": "Feature\nEmbeddingGemma and DeepSeek-V3.1 models are available through Model Garden.\nFeature\nAI Singapore's SEA-LION V4 m",
           "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2025"
         },
         {
