@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "changes": [
+    {
+      "date": "2026-07-13",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+    },
     {
       "date": "2026-07-12",
       "service": "cloud-functions-for-firebase",
