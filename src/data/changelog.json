@@ -2,6 +2,26 @@
   "lastUpdated": "2026-07-14",
   "changes": [
     {
+      "date": "2026-07-14",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second: 500 → 1000"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Build an autonomous ecommerce assistant with AWS End User Messaging, Amazon Bedrock AgentCore, and OpenClaw",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-autonomous-ecommerce-assistant-with-aws-end-user-messaging-amazon-bedrock-agentcore-and-openclaw/"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "How Razorpay Built Real-Time Anomaly Detection with Amazon MSK",
+      "url": "https://aws.amazon.com/blogs/big-data/how-razorpay-built-real-time-anomaly-detection-with-amazon-msk/"
+    },
+    {
       "date": "2026-07-13",
       "service": "lambda",
       "type": "new_news",
@@ -10,30 +30,10 @@
     },
     {
       "date": "2026-07-13",
-      "service": "aurora-serverless",
+      "service": "eks",
       "type": "new_news",
-      "detail": "Rebuild large indexes on Aurora PostgreSQL with Blue/Green Deployments",
-      "url": "https://aws.amazon.com/blogs/database/rebuild-large-indexes-on-aurora-postgresql-with-blue-green-deployments/"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "bedrock",
-      "type": "quota_changed",
-      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second: 500 → 1000"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
+      "detail": "Accessing private Git repositories from Amazon EKS capability for Argo CD",
+      "url": "https://aws.amazon.com/blogs/containers/accessing-private-git-repositories-from-amazon-eks-capability-for-argo-cd/"
     },
     {
       "date": "2026-07-13",
@@ -53,36 +53,29 @@
       "date": "2026-07-13",
       "service": "bedrock",
       "type": "new_news",
+      "detail": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "bedrock",
+      "type": "new_news",
       "detail": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
       "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/"
     },
     {
       "date": "2026-07-13",
-      "service": "eks",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Accessing private Git repositories from Amazon EKS capability for Argo CD",
-      "url": "https://aws.amazon.com/blogs/containers/accessing-private-git-repositories-from-amazon-eks-capability-for-argo-cd/"
-    },
-    {
-      "date": "2026-07-10",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift"
+      "detail": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
     },
     {
       "date": "2026-07-13",
-      "service": "msk-serverless",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "How Razorpay Built Real-Time Anomaly Detection with Amazon MSK",
-      "url": "https://aws.amazon.com/blogs/big-data/how-razorpay-built-real-time-anomaly-detection-with-amazon-msk/"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Build an autonomous ecommerce assistant with AWS End User Messaging, Amazon Bedrock AgentCore, and OpenClaw",
-      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-autonomous-ecommerce-assistant-with-aws-end-user-messaging-amazon-bedrock-agentcore-and-openclaw/"
+      "detail": "Rebuild large indexes on Aurora PostgreSQL with Blue/Green Deployments",
+      "url": "https://aws.amazon.com/blogs/database/rebuild-large-indexes-on-aurora-postgresql-with-blue-green-deployments/"
     },
     {
       "date": "2026-07-10",
@@ -97,6 +90,13 @@
       "type": "new_news",
       "detail": "Secure code execution for AI agents with AWS Lambda MicroVMs",
       "url": "https://aws.amazon.com/blogs/compute/secure-code-execution-for-ai-agents-with-aws-lambda-microvms/"
+    },
+    {
+      "date": "2026-07-10",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS Auto Mode now supports Application Recovery Controller zonal shift",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/eks-auto-mode-arc-zonal-shift"
     },
     {
       "date": "2026-07-10",
