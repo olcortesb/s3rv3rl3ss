@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
+        },
+        {
           "date": "2026-07-08",
           "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
@@ -96,11 +101,6 @@
           "date": "2026-03-17",
           "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
-        },
-        {
-          "date": "2026-03-13",
-          "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
+        },
+        {
           "date": "2026-07-13",
           "title": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-23",
           "title": "Feature\nYou can now configure your BigQuery pipelines to automatically trigger\nexecutions based on updates to specific B",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
-        },
-        {
-          "date": "2026-06-22",
-          "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
         }
       ],
       "pricingDetails": [
@@ -732,6 +732,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "v2\nChange\nCloud Tasks is available in the following locations:\n\nme-central1 (Doha, Qatar)\nme-central2 (Dammam, Saudi Ara",
+          "url": "https://docs.cloud.google.com/tasks/docs/release-notes#July_14_2026"
+        },
+        {
           "date": "2025-01-06",
           "title": "v2 & v2beta3\nFeature\nTo help ensure CMEK usage across an organization, Cloud Tasks is integrated with two organization p",
           "url": "https://docs.cloud.google.com/tasks/docs/release-notes#January_06_2025"
@@ -775,11 +780,6 @@
           "date": "2022-11-09",
           "title": "v2\nFeature\nSupport for VPC Service Controls is in Preview.",
           "url": "https://docs.cloud.google.com/tasks/docs/release-notes#November_09_2022"
-        },
-        {
-          "date": "2021-12-13",
-          "title": "v2\nChange\nYou can now create Cloud Tasks queues in multiple GCP Regions around the world. If you are using HTTP Targets,",
-          "url": "https://docs.cloud.google.com/tasks/docs/release-notes#December_13_2021"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Change\nGKE Dataplane V2 clusters running version 1.35.1-gke.1516000 or later now use\nCNI version 1.1.0 in the CNI config",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_14_2026"
+        },
+        {
           "date": "2026-07-10",
           "title": "Change\n(2026-R29) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_10_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-06-04",
           "title": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Issue\n\nImportant: This note has been clarified. For the corrected note, see the entry\nfor June 23, 2026.\nIn GKE version ",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_29_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
+        },
+        {
           "date": "2026-07-08",
           "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-03-17",
           "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
-        },
-        {
-          "date": "2026-03-13",
-          "title": "Feature\nConfiguring Identity-Aware Proxy (IAP) directly on Cloud Run\nto secure your services without the need for load b",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_13_2026"
         }
       ],
       "pricingDetails": [
