@@ -3,38 +3,31 @@
   "changes": [
     {
       "date": "2026-07-14",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS Lambda console provides a one-click setup prompt for coding agents",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
-    },
-    {
-      "date": "2026-07-14",
       "service": "s3",
       "type": "new_news",
       "detail": "How Vanderbilt University scales digital archive discovery with Amazon S3 Metadata",
       "url": "https://aws.amazon.com/blogs/storage/how-vanderbilt-university-scales-digital-archive-discovery-with-s3-metadata/"
     },
     {
-      "date": "2026-07-13",
-      "service": "s3",
+      "date": "2026-07-14",
+      "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+      "detail": "Patch perfect: Automating Amazon Redshift patch testing",
+      "url": "https://aws.amazon.com/blogs/big-data/patch-perfect-automating-amazon-redshift-patch-testing/"
     },
     {
       "date": "2026-07-14",
-      "service": "aurora-serverless",
+      "service": "lambda",
       "type": "new_news",
-      "detail": "Amazon Aurora DSQL is now available in Europe (Spain)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/"
+      "detail": "AWS Lambda console provides a one-click setup prompt for coding agents",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/"
+    },
+    {
+      "date": "2026-07-14",
+      "service": "cloudfront-functions",
+      "type": "new_news",
+      "detail": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/"
     },
     {
       "date": "2026-07-14",
@@ -42,6 +35,12 @@
       "type": "new_news",
       "detail": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-14",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second: 500 → 1000"
     },
     {
       "date": "2026-07-14",
@@ -66,30 +65,10 @@
     },
     {
       "date": "2026-07-14",
-      "service": "redshift-serverless",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Patch perfect: Automating Amazon Redshift patch testing",
-      "url": "https://aws.amazon.com/blogs/big-data/patch-perfect-automating-amazon-redshift-patch-testing/"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "redshift-serverless",
-      "type": "new_news",
-      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "cloudfront-functions",
-      "type": "new_news",
-      "detail": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "bedrock",
-      "type": "quota_changed",
-      "detail": "(Guardrails) On-demand ApplyGuardrail Sensitive information filter policy text units per second: 500 → 1000"
+      "detail": "Amazon Aurora DSQL is now available in Europe (Spain)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/"
     },
     {
       "date": "2026-07-13",
@@ -100,10 +79,31 @@
     },
     {
       "date": "2026-07-13",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+    },
+    {
+      "date": "2026-07-13",
       "service": "msk-serverless",
       "type": "new_news",
       "detail": "How Razorpay Built Real-Time Anomaly Detection with Amazon MSK",
       "url": "https://aws.amazon.com/blogs/big-data/how-razorpay-built-real-time-anomaly-detection-with-amazon-msk/"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
     },
     {
       "date": "2026-07-13",
