@@ -3,6 +3,27 @@
   "changes": [
     {
       "date": "2026-07-14",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\nGKE Dataplane V2 clusters running version 1.35.1-gke.1516000 or later now use\nCNI version 1.1.0 in the CNI config",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_14_2026"
+    },
+    {
+      "date": "2026-07-14",
+      "service": "cloud-tasks",
+      "type": "new_news",
+      "detail": "v2\nChange\nCloud Tasks is available in the following locations:\n\nme-central1 (Doha, Qatar)\nme-central2 (Dammam, Saudi Ara",
+      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#July_14_2026"
+    },
+    {
+      "date": "2026-07-14",
+      "service": "cloud-run-jobs",
+      "type": "new_news",
+      "detail": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
+    },
+    {
+      "date": "2026-07-14",
       "service": "cloud-run",
       "type": "new_news",
       "detail": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
@@ -14,27 +35,6 @@
       "type": "new_news",
       "detail": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "cloud-tasks",
-      "type": "new_news",
-      "detail": "v2\nChange\nCloud Tasks is available in the following locations:\n\nme-central1 (Doha, Qatar)\nme-central2 (Dammam, Saudi Ara",
-      "url": "https://docs.cloud.google.com/tasks/docs/release-notes#July_14_2026"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Change\nGKE Dataplane V2 clusters running version 1.35.1-gke.1516000 or later now use\nCNI version 1.1.0 in the CNI config",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_14_2026"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "cloud-run-jobs",
-      "type": "new_news",
-      "detail": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
-      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
     },
     {
       "date": "2026-07-13",
