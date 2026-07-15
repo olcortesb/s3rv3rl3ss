@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "region": "us-east-1",
   "services": [
     {
@@ -706,6 +706,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "AWS Lambda console provides a one-click setup prompt for coding agents",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-prompt-coding-agents/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+        },
+        {
           "date": "2026-07-13",
           "title": "Eliminating Java cold starts with AWS Lambda Managed Instances",
           "url": "https://aws.amazon.com/blogs/compute/eliminating-java-cold-starts-with-aws-lambda-managed-instances/"
@@ -794,16 +804,6 @@
           "date": "2026-04-10",
           "title": "Building Memory-Intensive Apps with AWS Lambda Managed Instances",
           "url": "https://aws.amazon.com/blogs/compute/building-memory-intensive-apps-with-aws-lambda-managed-instances/"
-        },
-        {
-          "date": "2026-03-30",
-          "title": "Build high-performance apps with AWS Lambda Managed Instances",
-          "url": "https://aws.amazon.com/blogs/compute/build-high-performance-apps-with-aws-lambda-managed-instances/"
-        },
-        {
-          "date": "2026-03-23",
-          "title": "Best practices for Lambda durable functions using a fraud detection example",
-          "url": "https://aws.amazon.com/blogs/compute/best-practices-for-lambda-durable-functions-using-a-fraud-detection-example/"
         }
       ],
       "dataStatus": "ok",
@@ -1815,6 +1815,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "How Vanderbilt University scales digital archive discovery with Amazon S3 Metadata",
+          "url": "https://aws.amazon.com/blogs/storage/how-vanderbilt-university-scales-digital-archive-discovery-with-s3-metadata/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+        },
+        {
           "date": "2026-07-07",
           "title": "Amazon S3 Vectors is now available in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-vectors-available-aws-govcloud-regions/"
@@ -1903,16 +1913,6 @@
           "date": "2026-05-11",
           "title": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone",
           "url": "https://aws.amazon.com/blogs/storage/scalable-cross-cloud-data-migration-to-amazon-s3-with-distributed-rclone/"
-        },
-        {
-          "date": "2026-05-06",
-          "title": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform",
-          "url": "https://aws.amazon.com/blogs/storage/implement-single-exchange-tokens-for-short-lived-amazon-s3-presigned-urls-with-terraform/"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases",
-          "url": "https://aws.amazon.com/blogs/storage/enabling-natural-language-access-to-structured-data-using-amazon-s3-tables-and-amazon-bedrock-knowledge-bases/"
         }
       ],
       "dataStatus": "ok",
@@ -4145,6 +4145,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/"
+        },
+        {
           "date": "2026-07-13",
           "title": "Rebuild large indexes on Aurora PostgreSQL with Blue/Green Deployments",
           "url": "https://aws.amazon.com/blogs/database/rebuild-large-indexes-on-aurora-postgresql-with-blue-green-deployments/"
@@ -4238,11 +4243,6 @@
           "date": "2026-06-08",
           "title": "Building Python applications with SQLAlchemy and Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/building-python-applications-with-sqlalchemy-and-aurora-dsql/"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Understanding how backups work in Amazon Aurora",
-          "url": "https://aws.amazon.com/blogs/database/understanding-how-backups-work-in-amazon-aurora/"
         }
       ],
       "dataStatus": "partial"
@@ -11435,6 +11435,26 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-ux-testing-with-amazon-nova-act-a-new-approach-to-user-flow-analysis/"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Scaling medical content review at Flo Health with Amazon Bedrock – Part 2",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2/"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "ScienceSoft’s HIPAA-compliant AI voice scheduler built on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sciencesofts-hipaa-compliant-ai-voice-scheduler-built-on-aws/"
+        },
+        {
           "date": "2026-07-13",
           "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/"
@@ -11513,26 +11533,6 @@
           "date": "2026-07-07",
           "title": "Build an AI-powered AWS support companion with Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Run MiniMax models on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-02",
-          "title": "How Amazon Bedrock catches AI-generated phishing",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Amazon Bedrock AgentCore now available in four additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-four-additional-regions/"
         }
       ],
       "dataStatus": "partial",
@@ -12348,6 +12348,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-14",
+          "title": "Patch perfect: Automating Amazon Redshift patch testing",
+          "url": "https://aws.amazon.com/blogs/big-data/patch-perfect-automating-amazon-redshift-patch-testing/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+        },
+        {
           "date": "2026-07-08",
           "title": "Amazon Redshift RG instances now available on the trailing track",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-graviton-rg-instances-trailing-track"
@@ -13072,6 +13082,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-14",
+          "title": "Amazon CloudFront Functions now supports logging to CloudFront access logs",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cloudfront-functions-access-logs/"
+        },
         {
           "date": "2026-05-12",
           "title": "Amazon CloudFront Premium flat-rate pricing plan now supports higher, configurable usage allowances",
