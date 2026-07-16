@@ -9,62 +9,6 @@
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026"
     },
     {
-      "date": "2026-07-13",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-    },
-    {
-      "date": "2026-07-06",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-    },
-    {
-      "date": "2026-06-24",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-    },
-    {
-      "date": "2026-07-06",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-    },
-    {
-      "date": "2026-06-24",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
-    },
-    {
       "date": "2026-07-14",
       "service": "gke",
       "type": "new_news",
@@ -98,6 +42,20 @@
       "type": "new_news",
       "detail": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
     },
     {
       "date": "2026-07-13",
@@ -178,9 +136,23 @@
     },
     {
       "date": "2026-07-06",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+    },
+    {
+      "date": "2026-07-06",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "BigQuery\nChange\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled",
+      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
       "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
     },
     {
@@ -262,6 +234,13 @@
     },
     {
       "date": "2026-06-29",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-29",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
@@ -272,6 +251,13 @@
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "BigQuery\nChange\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migr",
+      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
       "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
     },
     {
@@ -322,6 +308,20 @@
       "type": "new_news",
       "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now use the VECTOR_SEA",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
+    },
+    {
+      "date": "2026-06-24",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
+    },
+    {
+      "date": "2026-06-24",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
     },
     {
       "date": "2026-06-24",
