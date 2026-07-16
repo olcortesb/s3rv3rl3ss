@@ -3,10 +3,31 @@
   "changes": [
     {
       "date": "2026-07-15",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/"
+    },
+    {
+      "date": "2026-07-15",
       "service": "lambda",
       "type": "new_news",
       "detail": "AWS Lambda announces self-managed code storage",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambda-self-managed-code-storage/"
+    },
+    {
+      "date": "2026-07-15",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Zero Copy access to Apache Iceberg tables in Amazon S3 from Salesforce Data 360 using the Iceberg REST endpoint from AWS Glue Data Catalog",
+      "url": "https://aws.amazon.com/blogs/big-data/zero-copy-access-to-apache-iceberg-tables-in-amazon-s3-from-salesforce-data-360-using-the-iceberg-rest-endpoint-from-aws-glue-data-catalog/"
+    },
+    {
+      "date": "2026-07-15",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud"
     },
     {
       "date": "2026-07-15",
@@ -24,24 +45,10 @@
     },
     {
       "date": "2026-07-15",
-      "service": "aurora-serverless",
+      "service": "cloudfront-functions",
       "type": "new_news",
-      "detail": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
-    },
-    {
-      "date": "2026-07-15",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
-    },
-    {
-      "date": "2026-07-15",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance",
-      "url": "https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/"
+      "detail": "Private AI agent with WebSocket streaming over CloudFront VPC Origins and the next generation of OpenSearch Serverless for knowledge retrieval",
+      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/private-ai-agent-with-websocket-streaming-over-cloudfront-vpc-origins-and-the-next-generation-of-opensearch-serverless-for-knowledge-retrieval/"
     },
     {
       "date": "2026-07-15",
@@ -52,31 +59,24 @@
     },
     {
       "date": "2026-07-15",
-      "service": "msk-serverless",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/"
+      "detail": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance",
+      "url": "https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/"
     },
     {
       "date": "2026-07-15",
-      "service": "cloudfront-functions",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Private AI agent with WebSocket streaming over CloudFront VPC Origins and the next generation of OpenSearch Serverless for knowledge retrieval",
-      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/private-ai-agent-with-websocket-streaming-over-cloudfront-vpc-origins-and-the-next-generation-of-opensearch-serverless-for-knowledge-retrieval/"
+      "detail": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
     },
     {
       "date": "2026-07-15",
-      "service": "glue",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud"
-    },
-    {
-      "date": "2026-07-15",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "Zero Copy access to Apache Iceberg tables in Amazon S3 from Salesforce Data 360 using the Iceberg REST endpoint from AWS Glue Data Catalog",
-      "url": "https://aws.amazon.com/blogs/big-data/zero-copy-access-to-apache-iceberg-tables-in-amazon-s3-from-salesforce-data-360-using-the-iceberg-rest-endpoint-from-aws-glue-data-catalog/"
+      "detail": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
     },
     {
       "date": "2026-07-14",
