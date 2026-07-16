@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-15",
+          "title": "Feature\nBigQuery supports data governance tags,\nwhich let you enforce column-level security and data masking. Data gover",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026"
+        },
+        {
           "date": "2026-07-14",
           "title": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-25",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now use the VECTOR_SEA",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "Feature\nYou can now configure your BigQuery pipelines to automatically trigger\nexecutions based on updates to specific B",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
         }
       ],
       "pricingDetails": [
@@ -2392,9 +2392,29 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
           "date": "2026-06-30",
           "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
           "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
         },
         {
           "date": "2026-06-23",
@@ -2453,6 +2473,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+        },
+        {
           "date": "2026-07-12",
           "title": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
           "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
@@ -2468,6 +2493,11 @@
           "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
         },
         {
+          "date": "2026-07-06",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
           "date": "2026-07-04",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
@@ -2479,7 +2509,7 @@
         },
         {
           "date": "2026-06-29",
-          "title": "App Engine flexible environment .NET\nFeature\nSupport for deploying your existing apps in the flexible environment to Clo",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         },
         {
@@ -2488,19 +2518,9 @@
           "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
         },
         {
-          "date": "2026-06-23",
-          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
-        },
-        {
-          "date": "2026-06-22",
-          "title": "AI Hypercomputer\nFeature\nPreview: RoCE VPC networks for VM instances support assigning alias IP\nranges to MRDMA vNICs. F",
-          "url": "https://docs.cloud.google.com/release-notes#June_22_2026"
-        },
-        {
-          "date": "2026-06-21",
-          "title": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
-          "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+          "date": "2026-06-24",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
         }
       ]
     }
