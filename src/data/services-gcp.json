@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Change\nStarting on June 30, 2026, the Filestore API\n(file.googleapis.com) is enabled by default when you enable the Kube",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
+        },
+        {
           "date": "2026-07-14",
           "title": "Change\nGKE Dataplane V2 clusters running version 1.35.1-gke.1516000 or later now use\nCNI version 1.1.0 in the CNI config",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_14_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-06-10",
           "title": "Deprecated\nThe configuration option to not enroll your cluster in a release channel (known\nas No channel, formerly as St",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_10_2026"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Change\n(2026-R22) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_04_2026"
         }
       ],
       "pricingDetails": [
@@ -1774,6 +1774,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-12",
+          "title": "Feature\nParameter templates are available in\nPreview. This feature\nlets you define standardized configuration blueprints",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_12_2026"
+        },
+        {
           "date": "2026-06-19",
           "title": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
@@ -1817,11 +1822,6 @@
           "date": "2025-09-01",
           "title": "Feature\nAutomatic secret rotation with the Secret Manager add-on for Google Kubernetes Engine (GKE):  You can configure ",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#September_01_2025"
-        },
-        {
-          "date": "2025-07-09",
-          "title": "Feature\nEnhanced tagging capabilities for Secret Manager: You can now add tags directly at the time of secret creation. ",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_09_2025"
         }
       ],
       "pricingDetails": [
@@ -2473,6 +2473,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
+          "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
+        },
+        {
           "date": "2026-07-13",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
@@ -2516,11 +2521,6 @@
           "date": "2026-06-27",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
         }
       ]
     }
