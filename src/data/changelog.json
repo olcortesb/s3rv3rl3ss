@@ -1,6 +1,68 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "changes": [
+    {
+      "date": "2026-07-16",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Event Notifications now include system-generated tags",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/"
+    },
+    {
+      "date": "2026-07-17",
+      "service": "bedrock",
+      "type": "quota_changed",
+      "detail": "(Managed Knowledge Bases) Knowledge bases per account: 1000 → 10000"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Grok on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "opensearch-serverless",
+      "type": "new_news",
+      "detail": "Migrate from Apache Solr to Amazon OpenSearch Serverless",
+      "url": "https://aws.amazon.com/blogs/big-data/migrate-from-apache-solr-to-amazon-opensearch-serverless/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes"
+    },
     {
       "date": "2026-07-15",
       "service": "msk-serverless",
