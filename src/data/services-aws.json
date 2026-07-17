@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "region": "us-east-1",
   "services": [
     {
@@ -1820,6 +1820,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Amazon S3 Event Notifications now include system-generated tags",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia"
+        },
+        {
           "date": "2026-07-14",
           "title": "How Vanderbilt University scales digital archive discovery with Amazon S3 Metadata",
           "url": "https://aws.amazon.com/blogs/storage/how-vanderbilt-university-scales-digital-archive-discovery-with-s3-metadata/"
@@ -1908,16 +1918,6 @@
           "date": "2026-05-27",
           "title": "Amazon S3 audit logging, Part 2: Centralized logging and analysis of S3 data events in AWS CloudTrail for security and compliance",
           "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-2-centralized-logging-and-analysis-of-s3-data-events-in-aws-cloudtrail-for-security-and-compliance/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Amazon S3 audit logging, Part 1: Analyzing server access logs with Amazon Athena for performance insights",
-          "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-1-analyzing-server-access-logs-with-amazon-athena-for-performance-insights/"
-        },
-        {
-          "date": "2026-05-11",
-          "title": "Scalable cross-cloud data migration to Amazon S3 with distributed rclone",
-          "url": "https://aws.amazon.com/blogs/storage/scalable-cross-cloud-data-migration-to-amazon-s3-with-distributed-rclone/"
         }
       ],
       "dataStatus": "ok",
@@ -4155,6 +4155,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/"
+        },
+        {
           "date": "2026-07-15",
           "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
@@ -4248,11 +4253,6 @@
           "date": "2026-06-09",
           "title": "Building type-safe applications with Drizzle ORM in Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/building-type-safe-applications-with-drizzle-orm-in-aurora-dsql/"
-        },
-        {
-          "date": "2026-06-09",
-          "title": "Pagination patterns in Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/pagination-patterns-in-amazon-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -9518,7 +9518,7 @@
         },
         {
           "name": "(Managed Knowledge Bases) Knowledge bases per account",
-          "value": "1000",
+          "value": "10000",
           "description": "The maximum number of Managed KBs per account.",
           "adjustable": false
         },
@@ -11445,6 +11445,21 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Introducing Grok on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/"
+        },
+        {
           "date": "2026-07-15",
           "title": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance",
           "url": "https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/"
@@ -11528,21 +11543,6 @@
           "date": "2026-07-08",
           "title": "Automatically sort and prioritize your mailboxes by using Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/automatically-sort-and-prioritize-your-mailboxes-by-using-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Building and connecting a production-ready ecommerce MCP server using Amazon Bedrock AgentCore and Mistral AI Studio",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-and-connecting-a-production-ready-ecommerce-mcp-server-using-amazon-bedrock-agentcore-and-mistral-ai-studio/"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Securing Amazon Bedrock AgentCore Runtime with AWS WAF",
-          "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agentcore-runtime-with-aws-waf/"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",
@@ -11702,18 +11702,6 @@
           "value": "20"
         }
       ],
-      "news": [
-        {
-          "date": "2026-07-06",
-          "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
-        }
-      ],
       "dataStatus": "partial",
       "pricingDetails": [
         {
@@ -11727,6 +11715,18 @@
           "price": "$0.05",
           "unit": "per 10K calls",
           "description": "$0.05 per 10,000 API calls"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-06",
+          "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
         }
       ]
     },
@@ -12060,6 +12060,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-16",
+          "title": "Migrate from Apache Solr to Amazon OpenSearch Serverless",
+          "url": "https://aws.amazon.com/blogs/big-data/migrate-from-apache-solr-to-amazon-opensearch-serverless/"
+        },
+        {
           "date": "2026-06-24",
           "title": "Implement multi-tenant search with Amazon OpenSearch Serverless next generation",
           "url": "https://aws.amazon.com/blogs/big-data/implement-multi-tenant-search-with-amazon-opensearch-serverless-next-generation/"
@@ -12362,6 +12367,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-16",
+          "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-adds-rg-large-12xlarge-instance-sizes"
+        },
         {
           "date": "2026-07-14",
           "title": "Patch perfect: Automating Amazon Redshift patch testing",
