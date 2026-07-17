@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "changes": [
+    {
+      "date": "2026-07-16",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\nStarting on June 30, 2026, the Filestore API\n(file.googleapis.com) is enabled by default when you enable the Kube",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
+    },
+    {
+      "date": "2026-07-12",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nParameter templates are available in\nPreview. This feature\nlets you define standardized configuration blueprints",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_12_2026"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
+      "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
+    },
     {
       "date": "2026-07-15",
       "service": "bigquery",
