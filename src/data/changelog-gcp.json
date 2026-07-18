@@ -5,14 +5,14 @@
       "date": "2026-07-16",
       "service": "gke",
       "type": "new_news",
-      "detail": "Change\n(2026-R30) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "detail": "Change\nStarting on June 30, 2026, the Filestore API\n(file.googleapis.com) is enabled by default when you enable the Kube",
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
     },
     {
       "date": "2026-07-16",
       "service": "gke",
       "type": "new_news",
-      "detail": "Change\nStarting on June 30, 2026, the Filestore API\n(file.googleapis.com) is enabled by default when you enable the Kube",
+      "detail": "Change\n(2026-R30) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
     },
     {
