@@ -2,23 +2,10 @@
   "lastUpdated": "2026-07-18",
   "changes": [
     {
-      "date": "2026-07-17",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Introducing self-managed Amazon S3 buckets for AWS Lambda function code",
-      "url": "https://aws.amazon.com/blogs/compute/introducing-self-managed-amazon-s3-buckets-for-aws-lambda-function-code/"
-    },
-    {
       "date": "2026-07-18",
       "service": "bedrock",
       "type": "quota_added",
       "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Fable 5: 0"
-    },
-    {
-      "date": "2026-07-18",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Fable 5: 0"
     },
     {
       "date": "2026-07-18",
@@ -33,11 +20,24 @@
       "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Sonnet 5: 0"
     },
     {
+      "date": "2026-07-18",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Fable 5: 0"
+    },
+    {
       "date": "2026-07-17",
       "service": "ses",
       "type": "new_news",
       "detail": "Amazon GameLift Streams now supports IAM role credentials for stream sessions",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-iam/"
+    },
+    {
+      "date": "2026-07-17",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Introducing self-managed Amazon S3 buckets for AWS Lambda function code",
+      "url": "https://aws.amazon.com/blogs/compute/introducing-self-managed-amazon-s3-buckets-for-aws-lambda-function-code/"
     },
     {
       "date": "2026-07-17",
