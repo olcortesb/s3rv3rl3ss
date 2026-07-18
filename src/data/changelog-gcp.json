@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-17",
+  "lastUpdated": "2026-07-18",
   "changes": [
+    {
+      "date": "2026-07-16",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R30) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
+    },
     {
       "date": "2026-07-16",
       "service": "gke",
