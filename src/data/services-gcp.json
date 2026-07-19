@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18",
+  "lastUpdated": "2026-07-19",
   "services": [
     {
       "id": "cloud-run",
@@ -254,6 +254,58 @@
         {
           "name": "PHP 8.2",
           "status": "active"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03-17",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_17_2026"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "Feature\nSupport for Go 1.26 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_12_2026"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#March_03_2026"
+        },
+        {
+          "date": "2026-02-27",
+          "title": "Feature\nSupport for PHP 8.5 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_27_2026"
+        },
+        {
+          "date": "2026-02-24",
+          "title": "Feature\nSupport for the ability to configure Direct VPC egress for 2nd gen functions is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_24_2026"
+        },
+        {
+          "date": "2026-02-19",
+          "title": "Feature\nSupport for Go 1.26 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_19_2026"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "Feature\nSupport for .NET 10 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_18_2026"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "Feature\nSupport for PHP 8.5 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_02_2026"
+        },
+        {
+          "date": "2026-01-27",
+          "title": "Feature\nSupport for .NET 10 runtime is in Preview.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#January_27_2026"
+        },
+        {
+          "date": "2026-01-06",
+          "title": "Feature\nYou can now configure Direct VPC egress for 2nd gen functions. This support is at the Preview release level.",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#January_06_2026"
         }
       ],
       "pricingDetails": [
@@ -1916,6 +1968,58 @@
           "value": "1,000"
         }
       ],
+      "news": [
+        {
+          "date": "2026-03-16",
+          "title": "Deprecated\nVertex Explainable AI is deprecated. For details, see Vertex AI deprecations.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_16_2026"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Announcement\nVector Search 2.0 is generally available (GA)\nVector Search 2.0 is generally available (GA).\nVector Search ",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "Deprecated\nVertex AI Feature Store Optimized online serving is deprecated. For details, see Vertex AI deprecations.\nDepr",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#February_17_2026"
+        },
+        {
+          "date": "2025-09-30",
+          "title": "Feature\nDeepSeek-V3.2-Exp is available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_30_2025"
+        },
+        {
+          "date": "2025-09-22",
+          "title": "Feature\nDeepSeek-V3.1-Terminus is available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_22_2025"
+        },
+        {
+          "date": "2025-09-15",
+          "title": "Feature\nVector Search indexes optimized for storage (Preview)\nStorage-optimized Vector Search offers a cost-effective so",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_15_2025"
+        },
+        {
+          "date": "2025-09-10",
+          "title": "Breaking\nVertex AI Agent Engine\nIn version v1.112.0 of the Vertex AI SDK for Python, the agent_engines module has been r",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_10_2025"
+        },
+        {
+          "date": "2025-09-09",
+          "title": "Feature\nEmbeddingGemma and DeepSeek-V3.1 models are available through Model Garden.\nFeature\nAI Singapore's SEA-LION V4 m",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2025"
+        },
+        {
+          "date": "2025-08-21",
+          "title": "Feature\nVertex AI Agent Engine\nAgent Engine now supports the following enterprise security features:\n\nYou can now deploy",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_21_2025"
+        },
+        {
+          "date": "2025-08-14",
+          "title": "Feature\nGemma 3 270M, Wan 2.2 and Wan 2.1 models are available through Model Garden.",
+          "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_14_2025"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Gemini 1.5 Flash input",
@@ -2285,48 +2389,6 @@
           "name": "Max accounts per project",
           "value": "Unlimited"
         }
-      ],
-      "news": [
-        {
-          "date": "2026-07-13",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
-          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
-        },
-        {
-          "date": "2026-06-21",
-          "title": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
-          "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
-        },
-        {
-          "date": "2026-06-20",
-          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
-          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-        }
       ]
     },
     {
@@ -2368,6 +2430,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-18",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
+        },
         {
           "date": "2026-07-16",
           "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
@@ -2412,11 +2479,6 @@
           "date": "2026-06-29",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
-        {
-          "date": "2026-06-27",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.90 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#June_27_2026"
         }
       ]
     }
