@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18",
+  "lastUpdated": "2026-07-19",
   "region": "us-east-1",
   "services": [
     {
@@ -4161,13 +4161,13 @@
         },
         {
           "date": "2026-07-15",
-          "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
+          "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
         },
         {
           "date": "2026-07-15",
-          "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
+          "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
         },
         {
           "date": "2026-07-14",
