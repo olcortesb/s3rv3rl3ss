@@ -2,62 +2,6 @@
   "lastUpdated": "2026-07-20",
   "changes": [
     {
-      "date": "2026-07-13",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-    },
-    {
-      "date": "2026-07-06",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-    },
-    {
-      "date": "2026-06-30",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
-      "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
-    },
-    {
-      "date": "2026-06-29",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-    },
-    {
-      "date": "2026-06-24",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
-    },
-    {
-      "date": "2026-06-23",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-      "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
-    },
-    {
-      "date": "2026-06-21",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
-      "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
-    },
-    {
-      "date": "2026-06-20",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
-      "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
-    },
-    {
       "date": "2026-07-18",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
