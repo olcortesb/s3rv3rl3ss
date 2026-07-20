@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19",
+  "lastUpdated": "2026-07-20",
   "services": [
     {
       "id": "cloud-run",
@@ -915,58 +915,6 @@
           "name": "Max event size",
           "value": "512 KB"
         }
-      ],
-      "news": [
-        {
-          "date": "2026-04-22",
-          "title": "Feature\nEventarc support for\ncreating triggers\nfor direct events from Gemini Cloud Assist\nis available in Preview.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#April_22_2026"
-        },
-        {
-          "date": "2026-02-02",
-          "title": "Change\nEventarc Standard is available in the asia-southeast3 (Bangkok, Thailand)\nregion.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#February_02_2026"
-        },
-        {
-          "date": "2025-11-11",
-          "title": "Feature\nEventarc Advanced support for\nusing access policies to control access\nwhen publishing event messages to an Event",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#November_11_2025"
-        },
-        {
-          "date": "2025-09-24",
-          "title": "Feature\nEventarc Advanced support for publishing events from multiple projects is available in Preview.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#September_24_2025"
-        },
-        {
-          "date": "2025-08-01",
-          "title": "Change\nThere is a limit of one MessageBus resource per project per region, and a limit of one GoogleApiSource resource p",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#August_01_2025"
-        },
-        {
-          "date": "2025-05-15",
-          "title": "Feature\nSupport for creating custom organization policy constraints in Eventarc Advanced and in Eventarc Standard is gen",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#May_15_2025"
-        },
-        {
-          "date": "2025-04-11",
-          "title": "Fixed\nFor applicable events, if a context attribute value size limit is exceeded, you are notified through a publishing ",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#April_11_2025"
-        },
-        {
-          "date": "2025-03-17",
-          "title": "Change\nEventarc Standard is available in the europe-north2 (Stockholm, Sweden) region.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#March_17_2025"
-        },
-        {
-          "date": "2025-01-29",
-          "title": "Feature\nTo help ensure CMEK usage across an organization, Eventarc Advanced and Eventarc Standard are integrated with tw",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#January_29_2025"
-        },
-        {
-          "date": "2024-11-08",
-          "title": "Change\nEventarc Standard is available in the northamerica-south1 (Mexico, North America) region.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#November_08_2024"
-        }
       ]
     },
     {
@@ -1009,58 +957,6 @@
         {
           "name": "Object name max length",
           "value": "1,024 bytes"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-06-17",
-          "title": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
-        },
-        {
-          "date": "2026-05-28",
-          "title": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Feature\nCloud Storage now offers support for AI zones. To learn more, see\nAI zones.",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_27_2026"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Feature\nCloud Storage Model Context Protocol (MCP) server is generally\navailable. You can\nconnect to Cloud Storage from ",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_20_2026"
-        },
-        {
-          "date": "2026-04-08",
-          "title": "Feature\nYou can delete up to 1,000 objects in a single request by using the\nCloud Storage multi-object delete XML API. I",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_08_2026"
-        },
-        {
-          "date": "2026-04-06",
-          "title": "Feature\nYou can now use Storage batch operations\nto update object contexts for multiple objects\nin a single job. You can",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_06_2026"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Feature\nYou can configure which encryption types are allowed or prohibited for\ncreating new objects in a bucket. For mor",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_02_2026"
-        },
-        {
-          "date": "2026-03-31",
-          "title": "Feature\nYou can now use Storage Insights datasets to help manage your data security and compliance. The ability to ident",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_31_2026"
-        },
-        {
-          "date": "2026-03-24",
-          "title": "Announcement\nAnywhere Cache has been renamed to Rapid Cache.",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_24_2026"
         }
       ],
       "pricingDetails": [
@@ -1237,58 +1133,6 @@
           "value": "3"
         }
       ],
-      "news": [
-        {
-          "date": "2026-06-18",
-          "title": "v1\nChange\nUpdate to the API Gateway runtime architecture\nThe API Gateway runtime architecture is being updated to improv",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_18_2026"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
-        },
-        {
-          "date": "2026-02-02",
-          "title": "v1\nChange\nConnect API Gateway to Apigee API hub instances that use VPC Service Controls\nAPI Gateway can now be connected",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#February_02_2026"
-        },
-        {
-          "date": "2026-01-12",
-          "title": "v1\nFeature\nCentralize API Gateway API management using Apigee API hub\nConnect API Gateway to Apigee API hub to enable se",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#January_12_2026"
-        },
-        {
-          "date": "2025-11-12",
-          "title": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#November_12_2025"
-        },
-        {
-          "date": "2025-07-23",
-          "title": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. ",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#July_23_2025"
-        },
-        {
-          "date": "2025-06-09",
-          "title": "v1\nFeature\nWith this release, the limit on the number of API gateways that can be created per region is increased to 50.",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_09_2025"
-        },
-        {
-          "date": "2025-04-02",
-          "title": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway ",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_02_2025"
-        },
-        {
-          "date": "2025-03-26",
-          "title": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_26_2025"
-        },
-        {
-          "date": "2025-03-25",
-          "title": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_25_2025"
-        }
-      ],
       "pricingDetails": [
         {
           "label": "API calls",
@@ -1461,58 +1305,6 @@
           "value": "4 TiB"
         }
       ],
-      "news": [
-        {
-          "date": "2026-07-06",
-          "title": "Feature\nYou can use Gemini in Spanner Studio to fix errors in your SQL\nqueries. When you run a query that contains an er",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_06_2026"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "Feature\nSpanner supports\ndirect connectivity.\nWhen enabled, your application traffic is routed directly to\nSpanner serve",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_23_2026"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "Feature\nYou can publish a Spanner conversational analytics agent in\nGemini Enterprise.\nThis feature is in\nPreview.",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_15_2026"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Feature\nSpanner Graph supports a suite of\ngraph algorithms covering\nuse cases such as fraud detection, entity resolution",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_27_2026"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-05-14",
-          "title": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "Feature\nSpanner full-text search supports\ncustom dictionaries\nto create custom synonym mappings. You can use custom dict",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_21_2026"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Feature\nThe Spanner remote MCP server\nis generally available (GA).\nThe Spanner remote MCP server lets you interact with\n",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_20_2026"
-        }
-      ],
       "pricingDetails": [
         {
           "label": "Processing units",
@@ -1568,58 +1360,6 @@
         {
           "name": "Max parallelism",
           "value": "100"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-14",
-          "title": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
-        },
-        {
-          "date": "2026-04-16",
-          "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
-        },
-        {
-          "date": "2026-04-15",
-          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
-        },
-        {
-          "date": "2026-04-13",
-          "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
-        },
-        {
-          "date": "2026-03-17",
-          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
         }
       ],
       "pricingDetails": [
@@ -1871,58 +1611,6 @@
         {
           "name": "Max log size",
           "value": "16 MB"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-06-24",
-          "title": "Security\nFor GitLab Enterprise and Bitbucket Data Center connections, Cloud Build now\nchecks permissions on the calling ",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#June_24_2026"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and ",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#May_15_2026"
-        },
-        {
-          "date": "2026-03-30",
-          "title": "Feature\nCloud Build now supports uploading generic artifacts to generic\nrepositories, and also downloading generic repos",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_30_2026"
-        },
-        {
-          "date": "2026-03-16",
-          "title": "Feature\nCloud Build now supports uploading OCI images to Artifact Registry during\na build process. OCI artifacts for a b",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_16_2026"
-        },
-        {
-          "date": "2026-03-03",
-          "title": "Fixed\nThe authorization vulnerability CVE-2026-3136 was fixed.",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#March_03_2026"
-        },
-        {
-          "date": "2026-02-12",
-          "title": "Change\nCloud Build is now available in the asia-southeast3 region.\nFor more information, see Cloud Build locations.",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#February_12_2026"
-        },
-        {
-          "date": "2025-12-08",
-          "title": "Change\nIn build config files, the mavenArtifacts field now supports the\ndeployFolder field. You can use the deployFolder",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#December_08_2025"
-        },
-        {
-          "date": "2025-10-09",
-          "title": "Change\nThe Service Account User role has been removed from the Cloud Build Permissions page in the Google Cloud Console.",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#October_09_2025"
-        },
-        {
-          "date": "2025-09-29",
-          "title": "Feature\nDeveloper Connect build triggers are now generally available.\nYou can now create build triggers that build from ",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_29_2025"
-        },
-        {
-          "date": "2025-09-02",
-          "title": "Feature\nDark theme is now available for Cloud Build. To enable the dark theme, in the Google Cloud console, click Settin",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_02_2025"
         }
       ],
       "pricingDetails": [
@@ -2389,6 +2077,48 @@
           "name": "Max accounts per project",
           "value": "Unlimited"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
+        },
+        {
+          "date": "2026-06-21",
+          "title": "Google SecOps\nAnnouncement\nScheduled Maintenance \nCloudSQL will undergo a scheduled minor upgrade this Sunday, June 21, ",
+          "url": "https://docs.cloud.google.com/release-notes#June_21_2026"
+        },
+        {
+          "date": "2026-06-20",
+          "title": "Cloud Shell\nChange\nCloud Shell no longer includes the Terraform CLI by default. Users can\ncustomize their environment\nto",
+          "url": "https://docs.cloud.google.com/release-notes#June_20_2026"
+        }
       ]
     },
     {
@@ -2427,58 +2157,6 @@
         {
           "name": "Free invocations/month",
           "value": "2,000,000"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-18",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
-          "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-        },
-        {
-          "date": "2026-07-12",
-          "title": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
-          "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
-        },
-        {
-          "date": "2026-07-11",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#July_11_2026"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
-          "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
-        },
-        {
-          "date": "2026-07-04",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
-          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         }
       ]
     }
