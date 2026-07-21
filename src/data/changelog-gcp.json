@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "changes": [
+    {
+      "date": "2026-07-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
+    },
+    {
+      "date": "2026-04-22",
+      "service": "eventarc",
+      "type": "new_news",
+      "detail": "Feature\nEventarc support for\ncreating triggers\nfor direct events from Gemini Cloud Assist\nis available in Preview.",
+      "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#April_22_2026"
+    },
+    {
+      "date": "2026-06-24",
+      "service": "cloud-build",
+      "type": "new_news",
+      "detail": "Security\nFor GitLab Enterprise and Bitbucket Data Center connections, Cloud Build now\nchecks permissions on the calling ",
+      "url": "https://docs.cloud.google.com/build/docs/release-notes#June_24_2026"
+    },
+    {
+      "date": "2026-05-15",
+      "service": "cloud-build",
+      "type": "new_news",
+      "detail": "Feature\nYou can now configure the results field in build config files. This\nfield allows a build step to store data and ",
+      "url": "https://docs.cloud.google.com/build/docs/release-notes#May_15_2026"
+    },
     {
       "date": "2026-07-18",
       "service": "cloud-functions-for-firebase",
