@@ -1,6 +1,97 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "changes": [
+    {
+      "date": "2026-07-20",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Serverless ICYMI Q2 2026",
+      "url": "https://aws.amazon.com/blogs/compute/serverless-icymi-q2-2026/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Unlocking data residency use cases with Amazon S3 in AWS Local Zones",
+      "url": "https://aws.amazon.com/blogs/storage/unlocking-data-residency-use-cases-with-amazon-s3-in-aws-local-zones/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "cognito",
+      "type": "quota_added",
+      "detail": "Rate of LimitManagement requests: 1"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Connection pooling strategies in Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/connection-pooling-strategies-in-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.6 Sol: 10000000"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.6 Terra: 20000000"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.6 Luna: 2000000"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.6 Terra: 2000000"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for GPT-5.6 Luna: 20000000"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for GPT-5.6 Sol: 1000000"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Govern Amazon Redshift Data Warehouses Data Across Accounts using Amazon SageMaker Unified Studio",
+      "url": "https://aws.amazon.com/blogs/big-data/govern-amazon-redshift-data-across-accounts-with-sagemaker-unified-studio/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/"
+    },
     {
       "date": "2026-07-18",
       "service": "bedrock",
