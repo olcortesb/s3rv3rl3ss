@@ -2,7 +2,7 @@
   "summary": {
     "totalServices": 25,
     "totalLimits": 134,
-    "totalNews": 154,
+    "totalNews": 110,
     "totalPricing": 40,
     "totalRuntimes": 17,
     "activeRuntimes": 17,
@@ -62,5 +62,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-07-20"
+  "lastUpdated": "2026-07-21"
 }
