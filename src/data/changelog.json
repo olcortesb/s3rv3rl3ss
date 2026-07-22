@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "changes": [
+    {
+      "date": "2026-07-21",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Building a multi-Region API with Prisma ORM and Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/building-a-multi-region-api-with-prisma-orm-and-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "AI-powered incident analysis for Amazon RDS using automated forensic artifacts",
+      "url": "https://aws.amazon.com/blogs/database/ai-powered-incident-analysis-for-amazon-rds-using-automated-forensic-artifacts/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrating mission-critical payments at Nubank to Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon SES introduces pricing plans",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/"
+    },
+    {
+      "date": "2026-07-21",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Introducing Amazon Simple Email Service (SES) pricing plans",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/introducing-amazon-simple-email-service-ses-pricing-plans/"
+    },
     {
       "date": "2026-07-21",
       "service": "cognito",
