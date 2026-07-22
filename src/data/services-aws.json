@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "region": "us-east-1",
   "services": [
     {
@@ -3885,28 +3885,17 @@
           "value": "500 (soft limit)"
         }
       ],
-      "dataStatus": "partial",
-      "pricingDetails": [
-        {
-          "label": "vCPU",
-          "price": "$0.04048",
-          "unit": "per vCPU/hour",
-          "description": "$0.04048 per vCPU per hour (Fargate)"
-        },
-        {
-          "label": "Memory",
-          "price": "$0.004445",
-          "unit": "per GB/hour",
-          "description": "$0.004445 per GB per hour (Fargate)"
-        },
-        {
-          "label": "Ephemeral Storage",
-          "price": "$0.000111",
-          "unit": "per GB/hour",
-          "description": "$0.000111 per GB per hour above 20 GB (Fargate)"
-        }
-      ],
       "news": [
+        {
+          "date": "2026-07-21",
+          "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Amazon ECS now provides Action Logs for deployment and orchestration visibility",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ecs-action-logs/"
+        },
         {
           "date": "2026-07-07",
           "title": "Amazon ECS Managed Instances reduces GPU management fees by up to 60%",
@@ -3951,6 +3940,27 @@
           "date": "2026-06-15",
           "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/"
+        }
+      ],
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "vCPU",
+          "price": "$0.04048",
+          "unit": "per vCPU/hour",
+          "description": "$0.04048 per vCPU per hour (Fargate)"
+        },
+        {
+          "label": "Memory",
+          "price": "$0.004445",
+          "unit": "per GB/hour",
+          "description": "$0.004445 per GB per hour (Fargate)"
+        },
+        {
+          "label": "Ephemeral Storage",
+          "price": "$0.000111",
+          "unit": "per GB/hour",
+          "description": "$0.000111 per GB per hour above 20 GB (Fargate)"
         }
       ]
     },
@@ -4161,6 +4171,21 @@
       ],
       "news": [
         {
+          "date": "2026-07-21",
+          "title": "Building a multi-Region API with Prisma ORM and Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/building-a-multi-region-api-with-prisma-orm-and-amazon-aurora-dsql/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "AI-powered incident analysis for Amazon RDS using automated forensic artifacts",
+          "url": "https://aws.amazon.com/blogs/database/ai-powered-incident-analysis-for-amazon-rds-using-automated-forensic-artifacts/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Migrating mission-critical payments at Nubank to Amazon Aurora PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/"
+        },
+        {
           "date": "2026-07-20",
           "title": "Connection pooling strategies in Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/connection-pooling-strategies-in-amazon-aurora-dsql/"
@@ -4172,13 +4197,13 @@
         },
         {
           "date": "2026-07-15",
-          "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
+          "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
         },
         {
           "date": "2026-07-15",
-          "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
+          "title": "Amazon RDS and Aurora expand R8gd and M8gd to additional Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-rds-aurora-r8gd-m8gd-regions/"
         },
         {
           "date": "2026-07-14",
@@ -4244,21 +4269,6 @@
           "date": "2026-06-17",
           "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Improve query performance with EXPLAIN plans in Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/improve-query-performance-with-explain-plans-in-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-06-10",
-          "title": "Automate Amazon Aurora PostgreSQL major or minor version upgrade using AWS Systems Manager and Amazon EC2",
-          "url": "https://aws.amazon.com/blogs/database/automate-amazon-aurora-postgresql-major-or-minor-version-upgrade-using-aws-systems-manager-and-amazon-ec2/"
-        },
-        {
-          "date": "2026-06-10",
-          "title": "How to migrate from Oracle to Amazon Aurora PostgreSQL using AWS CloudFormation (Part 1)",
-          "url": "https://aws.amazon.com/blogs/database/how-to-migrate-from-oracle-to-amazon-aurora-postgresql-using-aws-cloudformation-part-1/"
         }
       ],
       "dataStatus": "partial"
@@ -13930,6 +13940,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-21",
+          "title": "Amazon SES introduces pricing plans",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Introducing Amazon Simple Email Service (SES) pricing plans",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/introducing-amazon-simple-email-service-ses-pricing-plans/"
+        },
+        {
           "date": "2026-07-20",
           "title": "Amazon WorkSpaces Applications now supports Microsoft OneDrive and Google Drive on Multi-Session fleets",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/storage-multi-session-fleets/"
@@ -13946,13 +13966,13 @@
         },
         {
           "date": "2026-07-07",
-          "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/"
+          "title": "Isolate email suppression per tenant with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/isolate-email-suppression-per-tenant-with-amazon-ses/"
         },
         {
           "date": "2026-07-07",
-          "title": "Isolate email suppression per tenant with Amazon SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/isolate-email-suppression-per-tenant-with-amazon-ses/"
+          "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/"
         },
         {
           "date": "2026-07-01",
@@ -14018,16 +14038,6 @@
           "date": "2026-01-07",
           "title": "Automate sender ID registration in AWS End User Messaging",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/automate-sender-id-registration-in-aws-end-user-messaging/"
-        },
-        {
-          "date": "2025-12-30",
-          "title": "Enhance email security using VPC endpoints with Amazon SES Manager",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/enhance-email-security-using-vpc-endpoints-with-amazon-ses-manager/"
-        },
-        {
-          "date": "2025-11-26",
-          "title": "Implement Tenants in your Amazon SES environment, Part 3: Implementation guide",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/implement-tenants-in-your-amazon-ses-environment-part-3-implementation-guide/"
         }
       ],
       "dataStatus": "partial"
