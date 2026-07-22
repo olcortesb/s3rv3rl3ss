@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21",
+  "lastUpdated": "2026-07-22",
   "services": [
     {
       "id": "cloud-run",
@@ -621,6 +621,58 @@
           "value": "31 days"
         }
       ],
+      "news": [
+        {
+          "date": "2026-04-17",
+          "title": "Feature\nThe Pub/Sub remote MCP server is\ngenerally available\n(GA).",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#April_17_2026"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nYou can stream messages from Pub/Sub directly to a\nBigtable table using\nBigtable subscriptions. This feature let",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-06",
+          "title": "Feature\nPub/Sub now offers the AI Inference Single Method Transform (SMT). This SMT lets\nyou get inferences on Pub/Sub m",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#April_06_2026"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Feature\nYou can now use the Pub/Sub remote MCP server to\nmanage Pub/Sub resources. You can create, list, get, update, an",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#March_13_2026"
+        },
+        {
+          "date": "2026-01-20",
+          "title": "Feature\nPub/Sub is now available in the Bangkok region (asia-southeast3). For more\ninformation, see Cloud locations.",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#January_20_2026"
+        },
+        {
+          "date": "2025-12-29",
+          "title": "Libraries\n\nJava1.144.1 (2025-12-22)\nBug Fixes\n\nLower the Subscriber protocol version to disable the streaming pull keepa",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#December_29_2025"
+        },
+        {
+          "date": "2025-12-22",
+          "title": "Libraries\n\nPython2.34.0 (2025-12-16)\nFeatures\n\nsupport mTLS certificates when available (#1566) (24761a2f)\n\nJava1.145.0-",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#December_22_2025"
+        },
+        {
+          "date": "2025-12-15",
+          "title": "Libraries\n\nJava1.144.0 (2025-12-11)\nFeatures\n\nAdd keepalive feature to tear down streams in their absence (#2605) (99aca",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#December_15_2025"
+        },
+        {
+          "date": "2025-11-17",
+          "title": "Libraries\n\nJava1.143.1 (2025-11-13)\nBug Fixes\n\nDeflake WaiterTest (#2600) (298c8db)\ndeps: Update the Java code generator",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#November_17_2025"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "Libraries\n\nPython2.32.0 (2025-10-28)\nFeatures\n\nAdds Python 3.14 support (#1512) (95a2690)\nDebug logs (#1460) (b5d4a45)\nS",
+          "url": "https://docs.cloud.google.com/pubsub/docs/release-notes#November_03_2025"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Message delivery",
@@ -680,6 +732,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-21",
+          "title": "v2beta3\nFeature\nCloud Tasks support for the following is available in\nPreview:\n\nSet retry parameters when creating a tas",
+          "url": "https://docs.cloud.google.com/tasks/docs/release-notes#July_21_2026"
+        },
+        {
           "date": "2026-07-14",
           "title": "v2\nChange\nCloud Tasks is available in the following locations:\n\nme-central1 (Doha, Qatar)\nme-central2 (Dammam, Saudi Ara",
           "url": "https://docs.cloud.google.com/tasks/docs/release-notes#July_14_2026"
@@ -723,11 +780,6 @@
           "date": "2022-11-14",
           "title": "v2\nFeature\nSupport for internal ingress from Cloud Tasks to Cloud Run and Cloud Functions is now at General Availability",
           "url": "https://docs.cloud.google.com/tasks/docs/release-notes#November_14_2022"
-        },
-        {
-          "date": "2022-11-09",
-          "title": "v2\nFeature\nSupport for VPC Service Controls is in Preview.",
-          "url": "https://docs.cloud.google.com/tasks/docs/release-notes#November_09_2022"
         }
       ],
       "pricingDetails": [
@@ -959,6 +1011,58 @@
           "value": "1,024 bytes"
         }
       ],
+      "news": [
+        {
+          "date": "2026-07-20",
+          "title": "Feature\nObject Lifecycle Management conditions for\nsizeAboveBytes and sizeBelowBytes\nlet you define a minimum and maximu",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#July_20_2026"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "Feature\nWhen you create composite objects, you can\ndelete the temporary source objects as part of the composition proces",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#June_17_2026"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "Breaking\nAs of August 26, 2026, in buckets with hierarchical namespace enabled,\nthe Object Lifecycle Management Delete a",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#May_28_2026"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "Feature\nCloud Storage now offers support for AI zones. To learn more, see\nAI zones.",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_27_2026"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nCloud Storage Model Context Protocol (MCP) server is generally\navailable. You can\nconnect to Cloud Storage from ",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_20_2026"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Feature\nYou can delete up to 1,000 objects in a single request by using the\nCloud Storage multi-object delete XML API. I",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_08_2026"
+        },
+        {
+          "date": "2026-04-06",
+          "title": "Feature\nYou can now use Storage batch operations\nto update object contexts for multiple objects\nin a single job. You can",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_06_2026"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "Feature\nYou can configure which encryption types are allowed or prohibited for\ncreating new objects in a bucket. For mor",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_02_2026"
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Feature\nYou can now use Storage Insights datasets to help manage your data security and compliance. The ability to ident",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_31_2026"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Standard storage",
@@ -1028,6 +1132,58 @@
           "value": "20"
         }
       ],
+      "news": [
+        {
+          "date": "2026-02-17",
+          "title": "v1\nChange\nWorkflows is available in the following additional region: asia-southeast3 (Bangkok, Thailand).",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#February_17_2026"
+        },
+        {
+          "date": "2025-03-28",
+          "title": "v1\nFeature\nSupport for a Kubernetes API connector is generally available (GA). The connector allows you to interact with",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#March_28_2025"
+        },
+        {
+          "date": "2025-02-28",
+          "title": "v1\nFeature\nSupport to create and manage tags is available.  You can use tags to group workflows and other resources for ",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#February_28_2025"
+        },
+        {
+          "date": "2025-02-19",
+          "title": "v1\nChange\nWorkflows is available in the following additional region: europe-north2 (Stockholm, Sweden).",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#February_19_2025"
+        },
+        {
+          "date": "2025-02-07",
+          "title": "v1\nChange\nSupport for retrieving the detailed history of a workflow execution  (expected iterations, in-scope variables)",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#February_07_2025"
+        },
+        {
+          "date": "2025-02-06",
+          "title": "v1\nFeature\nSupport for creating custom organization policy constraints is available.",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#February_06_2025"
+        },
+        {
+          "date": "2025-01-28",
+          "title": "v1\nBreaking\nWorkflows doesn't support HTTP requests to the IP-based endpoints of Google Kubernetes Engine cluster contro",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#January_28_2025"
+        },
+        {
+          "date": "2024-10-28",
+          "title": "v1\nFeature\nTwo standard library functions to support common hashing algorithms have been added: compute_checksum and com",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#October_28_2024"
+        },
+        {
+          "date": "2024-09-30",
+          "title": "v1\nFeature\nA math.floor function has been added to return the largest integer less than or equal to a given number.",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#September_30_2024"
+        },
+        {
+          "date": "2024-09-13",
+          "title": "v1\nChange\nThe maximum number of concurrent workflow executions has increased from 7,500 to 10,000.",
+          "url": "https://docs.cloud.google.com/workflows/docs/release-notes#September_13_2024"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Internal steps",
@@ -1081,6 +1237,58 @@
           "value": "3"
         }
       ],
+      "news": [
+        {
+          "date": "2026-06-18",
+          "title": "v1\nChange\nUpdate to the API Gateway runtime architecture\nThe API Gateway runtime architecture is being updated to improv",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_18_2026"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "v1\nChange\nConnect API Gateway to Apigee API hub instances that use VPC Service Controls\nAPI Gateway can now be connected",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#February_02_2026"
+        },
+        {
+          "date": "2026-01-12",
+          "title": "v1\nFeature\nCentralize API Gateway API management using Apigee API hub\nConnect API Gateway to Apigee API hub to enable se",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#January_12_2026"
+        },
+        {
+          "date": "2025-11-12",
+          "title": "v1\nFeature\nAPI Gateway now supports OpenAPI version 3.0.\nWith this release, API Gateway now supports OpenAPI version 3.0",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#November_12_2025"
+        },
+        {
+          "date": "2025-07-23",
+          "title": "v1\nDeprecated\nDeprecation of Transport Layer Security (TLS) v1.0 and v1.1 protocols\nAPI Gateway now enforces TLS v1.2+. ",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#July_23_2025"
+        },
+        {
+          "date": "2025-06-09",
+          "title": "v1\nFeature\nWith this release, the limit on the number of API gateways that can be created per region is increased to 50.",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_09_2025"
+        },
+        {
+          "date": "2025-04-02",
+          "title": "v1\nAnnouncement\nOn April 2, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, API Gateway ",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_02_2025"
+        },
+        {
+          "date": "2025-03-26",
+          "title": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_26_2025"
+        },
+        {
+          "date": "2025-03-25",
+          "title": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_25_2025"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "API calls",
@@ -1130,6 +1338,58 @@
         {
           "name": "Node pools per cluster",
           "value": "100"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-20",
+          "title": "Deprecated\nTo improve security, Ubuntu node images in GKE version 1.37 and later don't \npre-install the vulkan-tools pac",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_20_2026"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Change\n(2026-R30) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_16_2026"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Change\nGKE Dataplane V2 clusters running version 1.35.1-gke.1516000 or later now use\nCNI version 1.1.0 in the CNI config",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_14_2026"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Change\n(2026-R29) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_10_2026"
+        },
+        {
+          "date": "2026-07-09",
+          "title": "Change\n(2026-R28) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_09_2026"
+        },
+        {
+          "date": "2026-07-07",
+          "title": "Change\nFor GKE Standard clusters, the maximum number of nodes that you can upgrade\nsimultaneously by using surge upgrade",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_07_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Issue\nFor GKE cluster version 1.34.1-gke.3899001 (sidecar mounter image version\n1.21.9) and later affected versions, Clo",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_23_2026"
+        },
+        {
+          "date": "2026-06-12",
+          "title": "Change\n(2026-R23) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_12_2026"
         }
       ],
       "pricingDetails": [
@@ -1201,6 +1461,58 @@
           "value": "4 TiB"
         }
       ],
+      "news": [
+        {
+          "date": "2026-07-06",
+          "title": "Feature\nYou can use Gemini in Spanner Studio to fix errors in your SQL\nqueries. When you run a query that contains an er",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_06_2026"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Feature\nSpanner supports\ndirect connectivity.\nWhen enabled, your application traffic is routed directly to\nSpanner serve",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_23_2026"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "Feature\nYou can publish a Spanner conversational analytics agent in\nGemini Enterprise.\nThis feature is in\nPreview.",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#June_15_2026"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Feature\nSpanner Graph supports a suite of\ngraph algorithms covering\nuse cases such as fraud detection, entity resolution",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_27_2026"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "Feature\nYou can optimize Spanner Graph query performance by using factorized\nexecution. If a graph pattern traversal gen",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_18_2026"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "Feature\nSpanner Studio supports query parameters, which let you bind\nliteral values to a templated SQL statement at quer",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_15_2026"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "Feature\nSpanner full-text search supports\ncustom dictionaries\nto create custom synonym mappings. You can use custom dict",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_21_2026"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nThe Spanner remote MCP server\nis generally available (GA).\nThe Spanner remote MCP server lets you interact with\n",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_20_2026"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Processing units",
@@ -1256,6 +1568,58 @@
         {
           "name": "Max parallelism",
           "value": "100"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-14",
+          "title": "Feature\nCloud Run support for importing public container images from GitHub Container Registry is in General Availabilit",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_14_2026"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Feature\nCloud Run sandboxes provide a fast and secure isolated environment to execute untrusted code, such as code gener",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#July_08_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Feature\nDeploy a highly available, multi-region Cloud Run service with automated failover and failback for internal and ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#June_29_2026"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Feature\nCloud Run ephemeral disk, which allows you to mount a volume that persists only for the duration of your service",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_20_2026"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Feature\nSupport for Ruby 4.0 runtime is in General Availability.",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_17_2026"
         }
       ],
       "pricingDetails": [
@@ -1406,6 +1770,58 @@
         {
           "name": "Max labels per secret",
           "value": "64"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-12",
+          "title": "Feature\nParameter templates are available in\nPreview. This feature\nlets you define standardized configuration blueprints",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_12_2026"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "Feature\nSecret Manager is available in the following multi-regions:\n\nUnited States (us)\nEuropean Union (eu)\nCanada (ca)\n",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_18_2026"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Feature\nSecret Manager and Parameter Manager integrate with the Agent\nDevelopment Kit (ADK) to retrieve secrets and para",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#May_20_2026"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Feature\nThe integrated secret synchronization feature is generally available\n(GA). You\ncan automatically synchronize sec",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_16_2026"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Feature\nParameter Manager supports the latest identifier, which lets you fetch the\nmost recent parameter value without s",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#April_07_2026"
+        },
+        {
+          "date": "2026-02-06",
+          "title": "Feature\nParameter version comparison: You can compare two versions of a parameter to\nidentify changes in their payload. ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#February_06_2026"
+        },
+        {
+          "date": "2026-01-20",
+          "title": "Feature\nSecret Manager is available in the following region:\n\nasia-southeast3 (Bangkok)\n\nFor more information, see Secre",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#January_20_2026"
+        },
+        {
+          "date": "2025-10-13",
+          "title": "Feature\nPreview: Integrated secret synchronization feature is now available in preview. You can automatically synchroniz",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#October_13_2025"
+        },
+        {
+          "date": "2025-09-01",
+          "title": "Feature\nAutomatic secret rotation with the Secret Manager add-on for Google Kubernetes Engine (GKE):  You can configure ",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#September_01_2025"
         }
       ],
       "pricingDetails": [
@@ -1652,6 +2068,58 @@
           "name": "Max element size",
           "value": "2 GB"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-06-22",
+          "title": "Feature\nYou can now use Hyperdisk Balanced\ndisks for Dataflow worker VMs. With Hyperdisk Balanced disks, you can provisi",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_22_2026"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Feature\nDataflow now supports NVIDIA RTX Pro 6000 GPUs. You can use this\nGPU model to run your Apache Beam pipelines on ",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_16_2026"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "Feature\nDataflow has updated and expanded its pipeline update features for\nstreaming jobs:\n\nAutomated stop-and-replace u",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_15_2026"
+        },
+        {
+          "date": "2026-04-22",
+          "title": "Feature\nDataflow job builder now supports external Iceberg REST Catalogs as a\nsource. You can now ingest data from exter",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#April_22_2026"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Feature\nWhen you use min_ram or cpu_count resource hints for pipeline steps that\ndon't require accelerators, Auto VM Sel",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#April_07_2026"
+        },
+        {
+          "date": "2026-02-27",
+          "title": "Feature\nDataflow support for the C4A machine\nseries of Arm processors is\nnow generally available. Arm-based VMs are opti",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_27_2026"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "Feature\nDataflow Managed I/O now supports rolling upgrades for streaming jobs. With this\nfeature, Dataflow upgrades your",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#February_02_2026"
+        },
+        {
+          "date": "2026-01-20",
+          "title": "Feature\nDataflow is available in the Bangkok (asia-southeast3) region. Learn more\nabout Google Cloud locations.",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#January_20_2026"
+        },
+        {
+          "date": "2026-01-13",
+          "title": "Feature\nDataflow now serves a notice for when the Dataflow\nRunner v2 container image of a streaming pipeline\nwill be upg",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#January_13_2026"
+        },
+        {
+          "date": "2025-11-21",
+          "title": "Feature\nDataflow now supports speculative execution for batch pipelines. This feature mitigates the impact of slow-runni",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#November_21_2025"
+        }
       ]
     },
     {
@@ -1817,6 +2285,13 @@
           "name": "Max rate limit requests",
           "value": "10,000/min per key"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-06-23",
+          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
+        }
       ]
     },
     {
@@ -1852,6 +2327,13 @@
           "name": "Max custom headers",
           "value": "16"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-06-23",
+          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
+        }
       ]
     },
     {
@@ -1886,6 +2368,38 @@
         {
           "name": "Max accounts per project",
           "value": "Unlimited"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
+          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
         }
       ]
     },
@@ -1925,6 +2439,58 @@
         {
           "name": "Free invocations/month",
           "value": "2,000,000"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-18",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
+          "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+        },
+        {
+          "date": "2026-07-12",
+          "title": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
+          "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
+        },
+        {
+          "date": "2026-07-11",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#July_11_2026"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
+          "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
+        },
+        {
+          "date": "2026-07-04",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
+          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         }
       ]
     }
