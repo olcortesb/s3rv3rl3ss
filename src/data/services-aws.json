@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "region": "us-east-1",
   "services": [
     {
@@ -706,6 +706,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-22",
+          "title": "AWS Lambda durable functions now supports customer managed key encryption",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/"
+        },
+        {
           "date": "2026-07-20",
           "title": "Serverless ICYMI Q2 2026",
           "url": "https://aws.amazon.com/blogs/compute/serverless-icymi-q2-2026/"
@@ -799,11 +804,6 @@
           "date": "2026-06-15",
           "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/"
-        },
-        {
-          "date": "2026-06-08",
-          "title": "Integrating Event Source Mappings with AWS Lambda tenant isolation mode",
-          "url": "https://aws.amazon.com/blogs/compute/integrating-event-source-mappings-with-aws-lambda-tenant-isolation-mode/"
         }
       ],
       "dataStatus": "ok",
@@ -2388,6 +2388,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-22",
+          "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications"
+        },
         {
           "date": "2026-07-09",
           "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
@@ -11521,6 +11526,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-22",
+          "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
+        },
+        {
           "date": "2026-07-20",
           "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/"
@@ -11614,11 +11624,6 @@
           "date": "2026-07-08",
           "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Introducing Claude apps gateway for AWS",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"
         }
       ],
       "dataStatus": "partial",
@@ -11778,6 +11783,23 @@
           "value": "20"
         }
       ],
+      "news": [
+        {
+          "date": "2026-07-22",
+          "title": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
+        }
+      ],
       "dataStatus": "partial",
       "pricingDetails": [
         {
@@ -11791,18 +11813,6 @@
           "price": "$0.05",
           "unit": "per 10K calls",
           "description": "$0.05 per 10,000 API calls"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-06",
-          "title": "AWS Secrets Manager adds managed external secrets support for Paddle and GitLab",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
         }
       ]
     },
@@ -11918,6 +11928,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-22",
+          "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/"
+        },
+        {
           "date": "2026-07-13",
           "title": "Accessing private Git repositories from Amazon EKS capability for Argo CD",
           "url": "https://aws.amazon.com/blogs/containers/accessing-private-git-repositories-from-amazon-eks-capability-for-argo-cd/"
@@ -12011,11 +12026,6 @@
           "date": "2026-05-13",
           "title": "Maximizing value with Amazon EKS Auto Mode: Strategies for visibility, control, and optimization",
           "url": "https://aws.amazon.com/blogs/containers/maximizing-value-with-amazon-eks-auto-mode-strategies-for-visibility-control-and-optimization/"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Back up and restore your Amazon EKS cluster resources using Velero",
-          "url": "https://aws.amazon.com/blogs/containers/back-up-and-restore-your-amazon-eks-cluster-resources-using-velero/"
         }
       ],
       "dataStatus": "partial"
@@ -13940,6 +13950,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-22",
+          "title": "AWS Organizations increases RCP quota to 2,000 per organization",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000"
+        },
+        {
           "date": "2026-07-21",
           "title": "Amazon SES introduces pricing plans",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/"
@@ -14033,11 +14048,6 @@
           "date": "2026-01-16",
           "title": "How to improve email sender reputation with Amazon SES Email Validation",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-improve-email-sender-reputation-with-amazon-ses-email-validation/"
-        },
-        {
-          "date": "2026-01-07",
-          "title": "Automate sender ID registration in AWS End User Messaging",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/automate-sender-id-registration-in-aws-end-user-messaging/"
         }
       ],
       "dataStatus": "partial"
@@ -14358,6 +14368,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-22",
+          "title": "Scale smart, not just big: a practical guide to multi-node Amazon Timestream for InfluxDB 3 Enterprise",
+          "url": "https://aws.amazon.com/blogs/database/scaling-amazon-timestream-for-influxdb-3-enterprise-right-sizing-for-stability-and-cost/"
+        },
         {
           "date": "2026-07-09",
           "title": "Amazon Timestream for InfluxDB now publishes database state change events to Amazon EventBridge",
