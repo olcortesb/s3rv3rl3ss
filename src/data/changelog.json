@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "changes": [
+    {
+      "date": "2026-07-22",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda durable functions now supports customer managed key encryption",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "eventbridge",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager now publishes secret update notifications to Amazon EventBridge",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-update-notifications"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "AWS Organizations increases RCP quota to 2,000 per organization",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-organizations-resource-control-policy-limit-increase-2000"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "timestream",
+      "type": "new_news",
+      "detail": "Scale smart, not just big: a practical guide to multi-node Amazon Timestream for InfluxDB 3 Enterprise",
+      "url": "https://aws.amazon.com/blogs/database/scaling-amazon-timestream-for-influxdb-3-enterprise-right-sizing-for-stability-and-cost/"
+    },
     {
       "date": "2026-07-21",
       "service": "ses",
@@ -6479,12 +6528,6 @@
       "service": "api-gateway",
       "type": "quota_changed",
       "detail": "Portal products per account: 2000 → 500"
-    },
-    {
-      "date": "2026-04-23",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS Lambda durable functions are now available in 16 additional AWS Regions"
     }
   ]
 }
