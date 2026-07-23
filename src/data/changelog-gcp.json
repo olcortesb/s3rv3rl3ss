@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "changes": [
+    {
+      "date": "2026-07-22",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen se",
+      "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
+    },
     {
       "date": "2026-07-21",
       "service": "cloud-tasks",
