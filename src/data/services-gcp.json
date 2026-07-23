@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "services": [
     {
       "id": "cloud-run",
@@ -2443,6 +2443,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-22",
+          "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen se",
+          "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
+        },
+        {
           "date": "2026-07-18",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
@@ -2486,11 +2491,6 @@
           "date": "2026-06-30",
           "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
           "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         }
       ]
     }
