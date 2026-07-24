@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65147,
+      "stars": 65152,
       "technology": [
         "Python",
         "Docker"
@@ -16,9 +16,9 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10521ms",
-        "memoryIdle": "332.6MiB",
-        "imageSize": "1.25GB"
+        "startupTime": "10781ms",
+        "memoryIdle": "337.7MiB",
+        "imageSize": "1.26GB"
       },
       "services": [],
       "serviceCount": 0,
@@ -145,8 +145,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.4.5",
-      "stars": 3855,
+      "version": "1.4.6",
+      "stars": 3863,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2038ms",
-        "memoryIdle": "37.74MiB",
+        "startupTime": "2051ms",
+        "memoryIdle": "37.57MiB",
         "imageSize": "174MB"
       },
       "services": [
@@ -238,7 +238,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.33",
-      "stars": 16997,
+      "stars": 17012,
       "technology": [
         "Java",
         "Docker"
@@ -246,8 +246,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "526ms",
-        "memoryIdle": "11.93MiB",
+        "startupTime": "520ms",
+        "memoryIdle": "12.29MiB",
         "imageSize": "525MB"
       },
       "services": [
@@ -341,8 +341,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3058ms",
-        "memoryIdle": "75.88MiB",
+        "startupTime": "3564ms",
+        "memoryIdle": "75.26MiB",
         "imageSize": "488MB"
       },
       "services": [
