@@ -9,17 +9,17 @@
     },
     {
       "date": "2026-07-23",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS Lambda durable execution SDK for .NET is now generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/"
-    },
-    {
-      "date": "2026-07-23",
       "service": "s3",
       "type": "new_news",
       "detail": "How Turso built a transactional database using Amazon S3 Express One Zone",
       "url": "https://aws.amazon.com/blogs/storage/how-turso-built-a-transactional-database-using-amazon-s3-express-one-zone/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda durable execution SDK for .NET is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/"
     },
     {
       "date": "2026-07-23",
@@ -39,13 +39,6 @@
       "date": "2026-07-23",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/"
-    },
-    {
-      "date": "2026-07-23",
-      "service": "bedrock",
-      "type": "new_news",
       "detail": "Best practices for applying Amazon Bedrock Guardrails to code generation workflows",
       "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/"
     },
@@ -53,36 +46,8 @@
       "date": "2026-07-23",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Evaluating AI Agents: A production blueprint with Strands and AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/"
-    },
-    {
-      "date": "2026-07-23",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/"
-    },
-    {
-      "date": "2026-07-23",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Detecting silent agent failures with Amazon Bedrock AgentCore optimization",
-      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/"
-    },
-    {
-      "date": "2026-07-23",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/"
-    },
-    {
-      "date": "2026-07-23",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "ARC zonal shift support for EKS Auto Mode and Karpenter",
-      "url": "https://aws.amazon.com/blogs/containers/arc-zonal-shift-support-for-eks-auto-mode-and-karpenter/"
+      "detail": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/"
     },
     {
       "date": "2026-07-22",
