@@ -1,6 +1,89 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "changes": [
+    {
+      "date": "2026-07-24",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Memory allocated across all MicroVMs (per account, per Region): 400 GB (i.e. 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (i.e. 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota. → 400 GB (that is, 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (that is, 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota."
+    },
+    {
+      "date": "2026-07-23",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda durable execution SDK for .NET is now generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "How Turso built a transactional database using Amazon S3 Express One Zone",
+      "url": "https://aws.amazon.com/blogs/storage/how-turso-built-a-transactional-database-using-amazon-s3-express-one-zone/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Amazon ECS Service Connect now supports Zone-Aware routing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Best practices for applying Amazon Bedrock Guardrails to code generation workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Evaluating AI Agents: A production blueprint with Strands and AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Detecting silent agent failures with Amazon Bedrock AgentCore optimization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "ARC zonal shift support for EKS Auto Mode and Karpenter",
+      "url": "https://aws.amazon.com/blogs/containers/arc-zonal-shift-support-for-eks-auto-mode-and-karpenter/"
+    },
     {
       "date": "2026-07-22",
       "service": "ses",
@@ -6491,36 +6574,6 @@
       "service": "api-gateway",
       "type": "quota_removed",
       "detail": "Resources per API removed"
-    },
-    {
-      "date": "2026-04-24",
-      "service": "step-functions",
-      "type": "service_added",
-      "detail": "AWS Step Functions"
-    },
-    {
-      "date": "2026-04-24",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Amazon S3 now supports five additional checksum algorithms"
-    },
-    {
-      "date": "2026-04-24",
-      "service": "fargate",
-      "type": "service_added",
-      "detail": "AWS Fargate"
-    },
-    {
-      "date": "2026-04-24",
-      "service": "aurora-serverless",
-      "type": "service_added",
-      "detail": "Amazon Aurora Serverless"
-    },
-    {
-      "date": "2026-04-24",
-      "service": "api-gateway",
-      "type": "quota_changed",
-      "detail": "Portal products per account: 2000 → 500"
     }
   ]
 }
