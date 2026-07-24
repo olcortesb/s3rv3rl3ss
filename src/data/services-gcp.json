@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026"
+        },
+        {
           "date": "2026-07-20",
           "title": "Feature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
@@ -541,11 +546,6 @@
           "date": "2026-06-30",
           "title": "Feature\nYou can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Change\nEffective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Ser",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
         }
       ],
       "pricingDetails": [
@@ -2285,13 +2285,6 @@
           "name": "Max rate limit requests",
           "value": "10,000/min per key"
         }
-      ],
-      "news": [
-        {
-          "date": "2026-06-23",
-          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
-        }
       ]
     },
     {
@@ -2326,13 +2319,6 @@
         {
           "name": "Max custom headers",
           "value": "16"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-06-23",
-          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
         }
       ]
     },
@@ -2395,11 +2381,6 @@
           "date": "2026-06-24",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate ",
-          "url": "https://docs.cloud.google.com/release-notes#June_23_2026"
         }
       ]
     },
@@ -2442,6 +2423,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-23",
+          "title": "AlloyDB for PostgreSQL\nFeature\nTransparent query forwarding is now available in\nPreview for clusters compatible with Pos",
+          "url": "https://docs.cloud.google.com/release-notes#July_23_2026"
+        },
         {
           "date": "2026-07-22",
           "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen se",
@@ -2486,11 +2472,6 @@
           "date": "2026-07-04",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.91 is now \navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_04_2026"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
-          "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
         }
       ]
     }
