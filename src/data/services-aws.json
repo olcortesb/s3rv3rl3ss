@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "region": "us-east-1",
   "services": [
     {
@@ -567,7 +567,7 @@
         },
         {
           "name": "Memory allocated across all MicroVMs (per account, per Region)",
-          "value": "400 GB (i.e. 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (i.e. 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota."
+          "value": "400 GB (that is, 200 MicroVMs at 2 GB configured memory each or 400 MicroVMs at 1 GB configured memory each).<br />1,024 GB in US East (N. Virginia), US West (Oregon), US East (Ohio), and Asia Pacific (Tokyo) (that is, 512 MicroVMs at 2 GB configured memory each or 1,024 MicroVMs at 1 GB configured memory each).<br />Burstable up to four times this quota."
         },
         {
           "name": "Maximum execution duration per MicroVM",
@@ -706,6 +706,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "AWS Lambda durable execution SDK for .NET is now generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/"
+        },
+        {
           "date": "2026-07-22",
           "title": "AWS Lambda durable functions now supports customer managed key encryption",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/durablefunctions-cmk/"
@@ -732,13 +737,13 @@
         },
         {
           "date": "2026-07-13",
-          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
+          "title": "Eliminating Java cold starts with AWS Lambda Managed Instances",
+          "url": "https://aws.amazon.com/blogs/compute/eliminating-java-cold-starts-with-aws-lambda-managed-instances/"
         },
         {
           "date": "2026-07-13",
-          "title": "Eliminating Java cold starts with AWS Lambda Managed Instances",
-          "url": "https://aws.amazon.com/blogs/compute/eliminating-java-cold-starts-with-aws-lambda-managed-instances/"
+          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
         },
         {
           "date": "2026-07-10",
@@ -799,11 +804,6 @@
           "date": "2026-06-17",
           "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/"
-        },
-        {
-          "date": "2026-06-15",
-          "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/"
         }
       ],
       "dataStatus": "ok",
@@ -1820,6 +1820,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "How Turso built a transactional database using Amazon S3 Express One Zone",
+          "url": "https://aws.amazon.com/blogs/storage/how-turso-built-a-transactional-database-using-amazon-s3-express-one-zone/"
+        },
+        {
           "date": "2026-07-20",
           "title": "Unlocking data residency use cases with Amazon S3 in AWS Local Zones",
           "url": "https://aws.amazon.com/blogs/storage/unlocking-data-residency-use-cases-with-amazon-s3-in-aws-local-zones/"
@@ -1913,11 +1918,6 @@
           "date": "2026-06-08",
           "title": "Building persistent memory for multi-agent AI systems with Amazon S3 Vectors",
           "url": "https://aws.amazon.com/blogs/storage/building-persistent-memory-for-multi-agent-ai-systems-with-amazon-s3-vectors/"
-        },
-        {
-          "date": "2026-05-27",
-          "title": "Amazon S3 audit logging, Part 3: Analyzing S3 Metadata journal tables for object lifecycle tracking",
-          "url": "https://aws.amazon.com/blogs/storage/amazon-s3-audit-logging-part-3-analyzing-s3-metadata-journal-tables-for-object-lifecycle-tracking/"
         }
       ],
       "dataStatus": "ok",
@@ -3892,6 +3892,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Announcing zone-aware routing in Amazon ECS Service Connect",
+          "url": "https://aws.amazon.com/blogs/containers/announcing-zone-aware-routing-in-amazon-ecs-service-connect/"
+        },
+        {
           "date": "2026-07-21",
           "title": "Amazon ECS advanced deployment strategies now available in AWS European Sovereign Cloud",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-adv-deployments-eu-sovereign-cloud/"
@@ -3925,11 +3935,6 @@
           "date": "2026-07-01",
           "title": "ECS Service Connect now supports Zone-Aware routing",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Announcing zone-aware routing in Amazon ECS Service Connect",
-          "url": "https://aws.amazon.com/blogs/containers/announcing-zone-aware-routing-in-amazon-ecs-service-connect/"
         },
         {
           "date": "2026-06-30",
@@ -11526,6 +11531,41 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "Amazon Bedrock AgentCore now delivers unified observability with traces and logs in a single log group",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-unified-observability-single-log-group/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Claude Sonnet 5 is now available on Amazon Bedrock in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/claude-sonnet-5-govcloud/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Best practices for applying Amazon Bedrock Guardrails to code generation workflows",
+          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Evaluating AI Agents: A production blueprint with Strands and AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Detecting silent agent failures with Amazon Bedrock AgentCore optimization",
+          "url": "https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/"
+        },
+        {
           "date": "2026-07-22",
           "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
@@ -11589,41 +11629,6 @@
           "date": "2026-07-13",
           "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now generally available on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/"
-        },
-        {
-          "date": "2026-07-10",
-          "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-07-10",
-          "title": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Amazon SageMaker Unified Studio Workflows now supports operators for Amazon Bedrock, S3 Tables, S3 Vectors, and Glue Catalog",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/apache-airflow-operators-amazon-sagemaker-unified-studio-workflows/"
         }
       ],
       "dataStatus": "partial",
@@ -11928,6 +11933,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-23",
+          "title": "ARC zonal shift support for EKS Auto Mode and Karpenter",
+          "url": "https://aws.amazon.com/blogs/containers/arc-zonal-shift-support-for-eks-auto-mode-and-karpenter/"
+        },
+        {
           "date": "2026-07-22",
           "title": "Amazon EKS now supports EFA and placement groups on Amazon EKS Auto Mode and Karpenter",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/"
@@ -12021,11 +12031,6 @@
           "date": "2026-05-18",
           "title": "Simplify AI infrastructure for AWS Trainium and Elastic Fabric Adapter with Kubernetes Dynamic Resource Allocation",
           "url": "https://aws.amazon.com/blogs/containers/simplify-ai-infrastructure-for-aws-trainium-and-elastic-fabric-adapter-with-kubernetes-dynamic-resource-allocation/"
-        },
-        {
-          "date": "2026-05-13",
-          "title": "Maximizing value with Amazon EKS Auto Mode: Strategies for visibility, control, and optimization",
-          "url": "https://aws.amazon.com/blogs/containers/maximizing-value-with-amazon-eks-auto-mode-strategies-for-visibility-control-and-optimization/"
         }
       ],
       "dataStatus": "partial"
