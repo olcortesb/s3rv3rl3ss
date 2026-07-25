@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "changes": [
+    {
+      "date": "2026-07-20",
+      "service": "firestore",
+      "type": "new_news",
+      "detail": "Feature\nYou can now view, manage, and deploy Firestore Security Rules directly in the\nGoogle Cloud console for Firestore",
+      "url": "https://docs.cloud.google.com/firestore/docs/release-notes#July_20_2026"
+    },
     {
       "date": "2026-07-23",
       "service": "cloud-functions-for-firebase",
