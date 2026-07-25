@@ -1,6 +1,141 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "changes": [
+    {
+      "date": "2026-07-24",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "kinesis",
+      "type": "new_news",
+      "detail": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude Opus 5: 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Batch inference job size (in GB) for Claude Opus 5: 5"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Records per batch inference job for Claude Opus 5: 100000"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Records per input file per batch inference job for Claude Opus 5: 100000"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Input tokens per minute for Claude Opus 5: 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per minute for Anthropic Claude Opus 5: 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Batch inference input file size (in GB) for Claude Opus 5: 1"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "[bedrock-mantle endpoint] Output tokens per minute for Claude Opus 5: 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Model invocation max tokens per day for Anthropic Claude Opus 5 (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per day for Anthropic Claude Opus 5: 0"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Minimum number of records per batch inference job for Claude Opus 5: 100"
+    },
+    {
+      "date": "2026-07-25",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Data Automation) InvokeDataAutomation(Sync) - Image - Max number of requests removed"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "cloudfront-functions",
+      "type": "new_news",
+      "detail": "How Amazon CloudFront delivered traffic for the FIFA World Cup 2026",
+      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/how-amazon-cloudfront-delivered-traffic-for-the-fifa-world-cup-2026/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon SES simplifies sending emails over SMTP using Mail Manager",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-simplified-smtp-mail-manager"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Automate creating AWS Glue Data Catalog views with AWS SDK for data mesh use case",
+      "url": "https://aws.amazon.com/blogs/big-data/automate-creating-aws-glue-data-catalog-views-with-aws-sdk-for-data-mesh-use-case/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "athena",
+      "type": "new_news",
+      "detail": "Automate creating AWS Glue Data Catalog views with AWS SDK for data mesh use case",
+      "url": "https://aws.amazon.com/blogs/big-data/automate-creating-aws-glue-data-catalog-views-with-aws-sdk-for-data-mesh-use-case/"
+    },
     {
       "date": "2026-07-24",
       "service": "lambda",
@@ -6112,433 +6247,6 @@
       "service": "aurora-serverless",
       "type": "new_news",
       "detail": "DSQL SQL Dialect: How Amazon Aurora DSQL differs from single-instance PostgreSQL"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "secrets-manager",
-      "type": "service_added",
-      "detail": "AWS Secrets Manager"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Migrate to Amazon S3 account regional namespaces",
-      "url": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS Lambda Provisioned Mode for Kafka event source mappings (ESMs) now available in AWS Asia Pacific (Taipei) and AWS GovCloud (US) Regions "
-    },
-    {
-      "date": "2026-04-25",
-      "service": "kinesis",
-      "type": "service_added",
-      "detail": "Amazon Kinesis Data Streams"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "bedrock",
-      "type": "service_added",
-      "detail": "Amazon Bedrock"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Public custom domain names per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Documentation page size per product REST endpoint page removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Integration timeout for Regional APIs removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Custom domains per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Audiences per authorizer removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Response size from JSON Web Key Set endpoint removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Model size per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the value in a stage variable removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Number of iterations in a \\$1foreach .. removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the URL for a private API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Routes per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Authorizers per portal removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Method-level throttling settings for a stage in a usage plan removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Regional APIs per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Concurrent connections removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "API caching TTL removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "New connections per second per account (across all WebSocket APIs) per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Integrations per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Authorizers per API (AWS Lambda and Amazon Cognito) removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the URL for an edge-optimized API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Edge-optimized APIs per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Maximum mapping template size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Timeout for OpenID Connect discovery endpoint removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Idle connection timeout removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Amazon CloudWatch Logs log entry removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "API keys per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Total combined size of request line and header values removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Documentation parts per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Routing rules per domain removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Message payload size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Integration timeout for private APIs removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Maximum API definition file size when using restapi:import or restapi:put removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Custom page size for product pages removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Product pages per portal product removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "AWS Lambda authorizers per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Domain name access associations per account removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the URL for a WebSocket API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Multi-level API mappings per domain removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Scopes per route removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Product REST endpoint pages per portal product removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Access log template size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the URL for a Regional API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Total combined size of all header values for a private API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Integration timeout removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Client certificates per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Logo size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Portal products per account removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Custom domain names per portal removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Private APIs per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Integration timeout for edge-optimized APIs removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Usage plans per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Authorizers per API removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Payload size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Number of certificates in a truststore removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Portal products per portal removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Private custom domain names per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of API Gateway resource policy removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Maximum integration timeout removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Total combined size of all header values, including header names, values, any line terminators, and whitespaces removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Timeout for Lambda authorizer response removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "VPC links per account per Region removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Length, in characters, of the key in a stage variable removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Cached response size removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Timeout for JSON Web Key Set endpoint removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Subnets per VPC link removed"
-    },
-    {
-      "date": "2026-04-25",
-      "service": "api-gateway",
-      "type": "quota_removed",
-      "detail": "Resources per API removed"
     }
   ]
 }
