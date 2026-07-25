@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "services": [
     {
       "id": "cloud-run",
@@ -373,6 +373,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-20",
+          "title": "Feature\nYou can now view, manage, and deploy Firestore Security Rules directly in the\nGoogle Cloud console for Firestore",
+          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#July_20_2026"
+        },
+        {
           "date": "2026-06-01",
           "title": "Feature\nSupport for searching for and managing your Firestore resources\nusing Knowledge Catalog, which is a platform for",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#June_01_2026"
@@ -416,11 +421,6 @@
           "date": "2026-01-15",
           "title": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#January_15_2026"
-        },
-        {
-          "date": "2025-10-27",
-          "title": "Feature\nThe database clone feature is now\nsupported at the General Availability (GA) level.",
-          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#October_27_2025"
         }
       ],
       "pricingDetails": [
@@ -2376,11 +2376,6 @@
           "date": "2026-06-29",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_24_2026"
         }
       ]
     },
