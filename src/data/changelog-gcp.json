@@ -2,13 +2,6 @@
   "lastUpdated": "2026-07-27",
   "changes": [
     {
-      "date": "2026-07-26",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are avai",
-      "url": "https://docs.cloud.google.com/release-notes#July_26_2026"
-    },
-    {
       "date": "2026-07-25",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
