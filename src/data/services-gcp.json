@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "services": [
     {
       "id": "cloud-run",
@@ -2419,6 +2419,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-26",
+          "title": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are avai",
+          "url": "https://docs.cloud.google.com/release-notes#July_26_2026"
+        },
+        {
           "date": "2026-07-25",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_25_2026"
@@ -2462,11 +2467,6 @@
           "date": "2026-07-08",
           "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
           "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
         }
       ]
     }
