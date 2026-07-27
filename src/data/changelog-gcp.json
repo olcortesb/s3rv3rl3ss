@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-07-26",
+  "lastUpdated": "2026-07-27",
   "changes": [
+    {
+      "date": "2026-07-26",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are avai",
+      "url": "https://docs.cloud.google.com/release-notes#July_26_2026"
+    },
     {
       "date": "2026-07-25",
       "service": "cloud-functions-for-firebase",
@@ -1871,20 +1878,6 @@
       "type": "new_news",
       "detail": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
       "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
-    },
-    {
-      "date": "2026-04-27",
-      "service": "cloud-storage",
-      "type": "new_news",
-      "detail": "Feature\nCloud Storage now offers support for AI zones. To learn more, see\nAI zones.",
-      "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_27_2026"
-    },
-    {
-      "date": "2026-04-27",
-      "service": "api-gateway",
-      "type": "new_news",
-      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
-      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
     }
   ]
 }
