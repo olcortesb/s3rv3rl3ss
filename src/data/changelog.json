@@ -3,10 +3,10 @@
   "changes": [
     {
       "date": "2026-07-27",
-      "service": "aurora-serverless",
+      "service": "neptune-serverless",
       "type": "new_news",
-      "detail": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
-      "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
+      "detail": "Amazon Neptune now supports tag-based access control for IAM",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/"
     },
     {
       "date": "2026-07-27",
@@ -17,31 +17,10 @@
     },
     {
       "date": "2026-07-27",
-      "service": "neptune-serverless",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon Neptune now supports tag-based access control for IAM",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/"
-    },
-    {
-      "date": "2026-07-27",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/"
-    },
-    {
-      "date": "2026-07-27",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results"
-    },
-    {
-      "date": "2026-07-27",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue Data Quality now supports distribution statistics for data profiling",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling"
+      "detail": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
+      "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
     },
     {
       "date": "2026-07-24",
