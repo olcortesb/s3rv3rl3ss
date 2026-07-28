@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "region": "us-east-1",
   "services": [
     {
@@ -4181,6 +4181,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-27",
+          "title": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
+          "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
+        },
+        {
           "date": "2026-07-21",
           "title": "Building a multi-Region API with Prisma ORM and Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/building-a-multi-region-api-with-prisma-orm-and-amazon-aurora-dsql/"
@@ -4274,11 +4279,6 @@
           "date": "2026-06-17",
           "title": "Deep dive into Amazon Aurora PostgreSQL lock analysis with CloudWatch Database Insights",
           "url": "https://aws.amazon.com/blogs/database/deep-dive-into-amazon-aurora-postgresql-lock-analysis-with-cloudwatch-database-insights/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/"
         }
       ],
       "dataStatus": "partial"
@@ -11598,6 +11598,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-27",
+          "title": "How Guardoc transforms medical document processing with Amazon Nova models",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models/"
+        },
+        {
           "date": "2026-07-24",
           "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/"
@@ -11691,11 +11696,6 @@
           "date": "2026-07-14",
           "title": "Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis",
           "url": "https://aws.amazon.com/blogs/machine-learning/scaling-ux-testing-with-amazon-nova-act-a-new-approach-to-user-flow-analysis/"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Scaling medical content review at Flo Health with Amazon Bedrock – Part 2",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2/"
         }
       ],
       "dataStatus": "partial",
@@ -12450,8 +12450,12 @@
           "value": "Unlimited"
         }
       ],
-      "dataStatus": "partial",
       "news": [
+        {
+          "date": "2026-07-27",
+          "title": "Amazon Neptune now supports tag-based access control for IAM",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/"
+        },
         {
           "date": "2026-06-30",
           "title": "Amazon Neptune announces dual stack support with IPv6",
@@ -12467,7 +12471,8 @@
           "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/"
         }
-      ]
+      ],
+      "dataStatus": "partial"
     },
     {
       "id": "redshift-serverless",
@@ -14027,6 +14032,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-27",
+          "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/"
+        },
+        {
           "date": "2026-07-24",
           "title": "Amazon EC2 Dedicated Hosts now support host resource groups without self-managed licenses",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-dedicated-hosts-hrg/"
@@ -14120,11 +14130,6 @@
           "date": "2026-06-03",
           "title": "Using Amazon Mail Manager SMTP to send email via Amazon Simple Email Service",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/using-amazon-mail-manager-smtp-to-send-email-using-amazon-simple-email-service/"
-        },
-        {
-          "date": "2026-03-24",
-          "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/building-a-scalable-messaging-api-with-aws-end-user-messaging-and-ses/"
         }
       ],
       "dataStatus": "partial"
@@ -14750,6 +14755,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-27",
+          "title": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling"
+        },
         {
           "date": "2026-07-24",
           "title": "Automate creating AWS Glue Data Catalog views with AWS SDK for data mesh use case",
