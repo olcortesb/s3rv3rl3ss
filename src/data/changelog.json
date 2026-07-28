@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "changes": [
+    {
+      "date": "2026-07-27",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
+      "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Guardoc transforms medical document processing with Amazon Nova models",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models/"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "neptune-serverless",
+      "type": "new_news",
+      "detail": "Amazon Neptune now supports tag-based access control for IAM",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-neptune-tbac/"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Data Quality now supports anomaly detection and writing results to the AWS Glue Data Catalog",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-catalog-anomaly-detection-write-results"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Data Quality now supports distribution statistics for data profiling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-data-quality-distribution-profiling"
+    },
     {
       "date": "2026-07-24",
       "service": "lambda",
@@ -6094,24 +6136,6 @@
       "service": "bedrock",
       "type": "new_news",
       "detail": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)"
-    },
-    {
-      "date": "2026-04-28",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Build and deploy an automatic sync solution for Amazon Bedrock Knowledge Bases"
-    },
-    {
-      "date": "2026-04-28",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "How Kajabi optimized costs with Amazon Aurora upgrades"
-    },
-    {
-      "date": "2026-04-28",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "DSQL SQL Dialect: How Amazon Aurora DSQL differs from single-instance PostgreSQL"
     }
   ]
 }
