@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65154,
+      "stars": 65155,
       "technology": [
         "Python",
         "Docker"
@@ -16,7 +16,7 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "11050ms",
+        "startupTime": "11440ms",
         "memoryIdle": "337.7MiB",
         "imageSize": "1.26GB"
       },
@@ -146,7 +146,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.4.7",
-      "stars": 3878,
+      "stars": 3884,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2037ms",
-        "memoryIdle": "37.58MiB",
+        "startupTime": "2562ms",
+        "memoryIdle": "37.13MiB",
         "imageSize": "174MB"
       },
       "services": [
@@ -172,6 +172,7 @@
         "bedrock",
         "bedrock-agent",
         "bedrock-agent-runtime",
+        "bedrock-agentcore",
         "bedrock-runtime",
         "cloudformation",
         "cloudfront",
@@ -227,7 +228,7 @@
         "transfer",
         "wafv2"
       ],
-      "serviceCount": 74,
+      "serviceCount": 75,
       "paidServices": [],
       "paidServiceCount": 0
     },
@@ -238,7 +239,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.33",
-      "stars": 17814,
+      "stars": 17935,
       "technology": [
         "Java",
         "Docker"
@@ -246,8 +247,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "524ms",
-        "memoryIdle": "12.02MiB",
+        "startupTime": "519ms",
+        "memoryIdle": "12.12MiB",
         "imageSize": "525MB"
       },
       "services": [
@@ -333,7 +334,7 @@
       "url": "https://github.com/robotocore/robotocore",
       "repoUrl": "https://github.com/robotocore/robotocore",
       "version": "2026.7.12.5",
-      "stars": 327,
+      "stars": 328,
       "technology": [
         "Go",
         "Docker"
@@ -341,8 +342,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3051ms",
-        "memoryIdle": "75.87MiB",
+        "startupTime": "3062ms",
+        "memoryIdle": "75.79MiB",
         "imageSize": "488MB"
       },
       "services": [
@@ -694,6 +695,7 @@
     "bedrock": "Bedrock",
     "bedrock-agent": "bedrock-agent",
     "bedrock-agent-runtime": "bedrock-agent-runtime",
+    "bedrock-agentcore": "bedrock-agentcore",
     "bedrock-runtime": "Bedrock Runtime",
     "bedrockagent": "Bedrock Agent",
     "budgets": "Budgets",
