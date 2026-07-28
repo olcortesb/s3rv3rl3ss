@@ -1,6 +1,55 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "changes": [
+    {
+      "date": "2026-07-27",
+      "service": "cloud-run",
+      "type": "new_news",
+      "detail": "Feature\nSupport for the Node.js 26 runtime is in Preview.\nFeature\nSupport for Budget spend caps to pause your Cloud Run ",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "cloud-run-functions",
+      "type": "new_news",
+      "detail": "Feature\nSupport for the Node.js 26 runtime is in Preview.",
+      "url": "https://docs.cloud.google.com/functions/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. F",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Security\nThe general availability (GA) stage of mixed-protocol Services of type\nLoadBalancer fixes errors in traffic rou",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Deprecated\nTo improve security, Ubuntu node images in GKE version 1.37 and later don't\npre-install the vulkan-tools pack",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_20_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "cloud-run-jobs",
+      "type": "new_news",
+      "detail": "Feature\nSupport for the Node.js 26 runtime is in Preview.\nFeature\nSupport for Budget spend caps to pause your Cloud Run ",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nAlloyDB write endpoints are now available in\nPreview.\nWrite endpoints simplify database c",
+      "url": "https://docs.cloud.google.com/release-notes#July_27_2026"
+    },
     {
       "date": "2026-07-25",
       "service": "cloud-functions-for-firebase",
