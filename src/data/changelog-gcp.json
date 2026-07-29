@@ -1,6 +1,34 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "changes": [
+    {
+      "date": "2026-07-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Issue\nLakehouse for Apache Iceberg: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and wil",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nSpanner supports creating tables without defining primary keys.\nWhen you create a table without a primary key, S",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_28_2026"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Feature\nAutomatic rotation of regional Cloud SQL database credentials in Secret Manager\nis available in\nPreview. This fe",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_27_2026"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enabl",
+      "url": "https://docs.cloud.google.com/release-notes#July_28_2026"
+    },
     {
       "date": "2026-07-27",
       "service": "gke",
@@ -1913,13 +1941,6 @@
       "type": "new_news",
       "detail": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
       "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
-    },
-    {
-      "date": "2026-04-29",
-      "service": "cloud-storage",
-      "type": "new_news",
-      "detail": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
-      "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
     }
   ]
 }
