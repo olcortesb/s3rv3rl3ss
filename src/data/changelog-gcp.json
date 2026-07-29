@@ -2,13 +2,6 @@
   "lastUpdated": "2026-07-29",
   "changes": [
     {
-      "date": "2026-07-20",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Issue\nLakehouse for Apache Iceberg: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and wil",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
-    },
-    {
       "date": "2026-07-28",
       "service": "cloud-spanner",
       "type": "new_news",
@@ -21,13 +14,6 @@
       "type": "new_news",
       "detail": "Feature\nAutomatic rotation of regional Cloud SQL database credentials in Secret Manager\nis available in\nPreview. This fe",
       "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_27_2026"
-    },
-    {
-      "date": "2026-07-28",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enabl",
-      "url": "https://docs.cloud.google.com/release-notes#July_28_2026"
     },
     {
       "date": "2026-07-27",
@@ -146,6 +132,13 @@
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Issue\nLakehouse for Apache Iceberg: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and wil",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
     },
     {
