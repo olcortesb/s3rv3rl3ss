@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "region": "us-east-1",
   "services": [
     {
@@ -711,6 +711,11 @@
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-managed-instances-logs/"
         },
         {
+          "date": "2026-07-24",
+          "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/"
+        },
+        {
           "date": "2026-07-23",
           "title": "AWS Lambda durable execution SDK for .NET is now generally available",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/lambdadf-dotnet/"
@@ -799,11 +804,6 @@
           "date": "2026-06-22",
           "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/"
-        },
-        {
-          "date": "2026-06-20",
-          "title": "Upgrading Lambda function runtimes at scale with AWS Transform custom",
-          "url": "https://aws.amazon.com/blogs/compute/upgrading-lambda-function-runtimes-at-scale-with-aws-transform-custom/"
         }
       ],
       "dataStatus": "ok",
@@ -1820,6 +1820,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/"
+        },
+        {
           "date": "2026-07-23",
           "title": "How Turso built a transactional database using Amazon S3 Express One Zone",
           "url": "https://aws.amazon.com/blogs/storage/how-turso-built-a-transactional-database-using-amazon-s3-express-one-zone/"
@@ -1913,11 +1918,6 @@
           "date": "2026-06-12",
           "title": "Achieving sub-10ms latency and 94% cost savings with Diskless Kafka using AutoMQ and Amazon FSx for NetApp ONTAP",
           "url": "https://aws.amazon.com/blogs/storage/achieving-sub-10ms-latency-and-94-cost-savings-with-diskless-kafka-using-automq-and-amazon-fsx-for-netapp-ontap/"
-        },
-        {
-          "date": "2026-06-08",
-          "title": "Building persistent memory for multi-agent AI systems with Amazon S3 Vectors",
-          "url": "https://aws.amazon.com/blogs/storage/building-persistent-memory-for-multi-agent-ai-systems-with-amazon-s3-vectors/"
         }
       ],
       "dataStatus": "ok",
@@ -4181,6 +4181,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "Building scalable applications on Amazon Aurora DSQL",
+          "url": "https://aws.amazon.com/blogs/database/building-scalable-applications-on-amazon-aurora-dsql/"
+        },
+        {
           "date": "2026-07-27",
           "title": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
           "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
@@ -4274,11 +4279,6 @@
           "date": "2026-06-17",
           "title": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Security, monitoring, and developer enhancements",
           "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-security-monitoring-and-developer-enhancements/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "Deep dive into Amazon Aurora PostgreSQL lock analysis with CloudWatch Database Insights",
-          "url": "https://aws.amazon.com/blogs/database/deep-dive-into-amazon-aurora-postgresql-lock-analysis-with-cloudwatch-database-insights/"
         }
       ],
       "dataStatus": "partial"
@@ -11598,6 +11598,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "How AgentCore Gateway supports the MCP 2026-07-28 spec",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Market surveillance agent with LangGraph and Strands on AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/"
+        },
+        {
           "date": "2026-07-27",
           "title": "How Guardoc transforms medical document processing with Amazon Nova models",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models/"
@@ -11686,16 +11696,6 @@
           "date": "2026-07-15",
           "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers",
           "url": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-ux-testing-with-amazon-nova-act-a-new-approach-to-user-flow-analysis/"
         }
       ],
       "dataStatus": "partial",
@@ -12000,6 +12000,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Amazon EKS now supports AWS PrivateLink for the cluster OIDC endpoint",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-oidc-endpoint-privatelink"
+        },
+        {
           "date": "2026-07-23",
           "title": "ARC zonal shift support for EKS Auto Mode and Karpenter",
           "url": "https://aws.amazon.com/blogs/containers/arc-zonal-shift-support-for-eks-auto-mode-and-karpenter/"
@@ -12088,16 +12098,6 @@
           "date": "2026-05-29",
           "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
           "url": "https://aws.amazon.com/blogs/containers/scaling-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
-        },
-        {
-          "date": "2026-05-20",
-          "title": "AI-powered event-driven Amazon EKS AMI updates with GitOps",
-          "url": "https://aws.amazon.com/blogs/containers/ai-powered-event-driven-amazon-eks-ami-updates-with-gitops/"
-        },
-        {
-          "date": "2026-05-18",
-          "title": "Simplify AI infrastructure for AWS Trainium and Elastic Fabric Adapter with Kubernetes Dynamic Resource Allocation",
-          "url": "https://aws.amazon.com/blogs/containers/simplify-ai-infrastructure-for-aws-trainium-and-elastic-fabric-adapter-with-kubernetes-dynamic-resource-allocation/"
         }
       ],
       "dataStatus": "partial"
@@ -12530,6 +12530,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-24",
+          "title": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/"
+        },
         {
           "date": "2026-07-20",
           "title": "Govern Amazon Redshift Data Warehouses Data Across Accounts using Amazon SageMaker Unified Studio",
@@ -14032,6 +14037,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "How Fanatics Commerce built a scalable email platform on Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-fanatics-commerce-built-a-scalable-email-platform-on-amazon-ses/"
+        },
+        {
           "date": "2026-07-27",
           "title": "Amazon RDS for SQL Server now supports restoring TDE databases on Mult-AZ instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/rds-sql-server-supports-tde-for-maz/"
@@ -14125,11 +14135,6 @@
           "date": "2026-06-04",
           "title": "Getting started with Amazon SES Agent Skills for AI-assisted email development",
           "url": "https://aws.amazon.com/blogs/messaging-and-targeting/getting-started-with-amazon-ses-agent-skills-for-ai-assisted-email-development/"
-        },
-        {
-          "date": "2026-06-03",
-          "title": "Using Amazon Mail Manager SMTP to send email via Amazon Simple Email Service",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/using-amazon-mail-manager-smtp-to-send-email-using-amazon-simple-email-service/"
         }
       ],
       "dataStatus": "partial"
@@ -14772,13 +14777,13 @@
         },
         {
           "date": "2026-07-15",
-          "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud"
+          "title": "Zero Copy access to Apache Iceberg tables in Amazon S3 from Salesforce Data 360 using the Iceberg REST endpoint from AWS Glue Data Catalog",
+          "url": "https://aws.amazon.com/blogs/big-data/zero-copy-access-to-apache-iceberg-tables-in-amazon-s3-from-salesforce-data-360-using-the-iceberg-rest-endpoint-from-aws-glue-data-catalog/"
         },
         {
           "date": "2026-07-15",
-          "title": "Zero Copy access to Apache Iceberg tables in Amazon S3 from Salesforce Data 360 using the Iceberg REST endpoint from AWS Glue Data Catalog",
-          "url": "https://aws.amazon.com/blogs/big-data/zero-copy-access-to-apache-iceberg-tables-in-amazon-s3-from-salesforce-data-360-using-the-iceberg-rest-endpoint-from-aws-glue-data-catalog/"
+          "title": "AWS Glue SAP OData connector and zero-ETL integrations are now available in AWS GovCloud (US) regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-glue-sap-zero-etl-govcloud"
         },
         {
           "date": "2026-07-07",
