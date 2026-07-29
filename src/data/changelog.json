@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "changes": [
+    {
+      "date": "2026-07-24",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Building scalable applications on Amazon Aurora DSQL",
+      "url": "https://aws.amazon.com/blogs/database/building-scalable-applications-on-amazon-aurora-dsql/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How AgentCore Gateway supports the MCP 2026-07-28 spec",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Market surveillance agent with LangGraph and Strands on AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/"
+    },
+    {
+      "date": "2026-07-27",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports AWS PrivateLink for the cluster OIDC endpoint",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-oidc-endpoint-privatelink"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift Serverless now offers All Upfront pricing for 3-year Serverless Reservations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-three-year-auri/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "How Fanatics Commerce built a scalable email platform on Amazon SES",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-fanatics-commerce-built-a-scalable-email-platform-on-amazon-ses/"
+    },
     {
       "date": "2026-07-27",
       "service": "neptune-serverless",
@@ -6109,12 +6172,6 @@
       "service": "aurora-serverless",
       "type": "new_news",
       "detail": "Aurora serverless: Faster performance, enhanced scaling, and still scales down to zero"
-    },
-    {
-      "date": "2026-04-29",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock now offers OpenAI models, Codex, and Managed Agents (Limited Preview)"
     }
   ]
 }
