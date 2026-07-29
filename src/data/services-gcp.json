@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "services": [
     {
       "id": "cloud-run",
@@ -509,7 +509,7 @@
         },
         {
           "date": "2026-07-20",
-          "title": "Feature\nLakehouse for Apache Iceberg: Cross-cloud\nLakehouse now supports integration with SAP Business Data Cloud\n(BDC) ",
+          "title": "Issue\nLakehouse for Apache Iceberg: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and wil",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
         },
         {
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "Feature\nSpanner supports creating tables without defining primary keys.\nWhen you create a table without a primary key, S",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_28_2026"
+        },
+        {
           "date": "2026-07-06",
           "title": "Feature\nYou can use Gemini in Spanner Studio to fix errors in your SQL\nqueries. When you run a query that contains an er",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_06_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-04-21",
           "title": "Feature\nSpanner full-text search supports\ncustom dictionaries\nto create custom synonym mappings. You can use custom dict",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_21_2026"
-        },
-        {
-          "date": "2026-04-20",
-          "title": "Feature\nThe Spanner remote MCP server\nis generally available (GA).\nThe Spanner remote MCP server lets you interact with\n",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_20_2026"
         }
       ],
       "pricingDetails": [
@@ -1774,6 +1774,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-27",
+          "title": "Feature\nAutomatic rotation of regional Cloud SQL database credentials in Secret Manager\nis available in\nPreview. This fe",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_27_2026"
+        },
+        {
           "date": "2026-07-12",
           "title": "Feature\nParameter templates are available in\nPreview. This feature\nlets you define standardized configuration blueprints",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_12_2026"
@@ -1817,11 +1822,6 @@
           "date": "2025-10-13",
           "title": "Feature\nPreview: Integrated secret synchronization feature is now available in preview. You can automatically synchroniz",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#October_13_2025"
-        },
-        {
-          "date": "2025-09-01",
-          "title": "Feature\nAutomatic secret rotation with the Secret Manager add-on for Google Kubernetes Engine (GKE):  You can configure ",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#September_01_2025"
         }
       ],
       "pricingDetails": [
@@ -2419,6 +2419,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-28",
+          "title": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enabl",
+          "url": "https://docs.cloud.google.com/release-notes#July_28_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB write endpoints are now available in\nPreview.\nWrite endpoints simplify database c",
           "url": "https://docs.cloud.google.com/release-notes#July_27_2026"
@@ -2432,11 +2437,6 @@
           "date": "2026-07-25",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_25_2026"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Support for unauthenticated Custom MCP Server data stores (Preview)\nWhen se",
-          "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
         },
         {
           "date": "2026-07-18",
