@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "changes": [
+    {
+      "date": "2026-07-29",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo t",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
+    },
+    {
+      "date": "2026-07-29",
+      "service": "cloud-scheduler",
+      "type": "new_news",
+      "detail": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west8 (Milan, Italy)\neurope-west9 (Paris, France",
+      "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#July_29_2026"
+    },
+    {
+      "date": "2026-07-29",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine",
+      "url": "https://docs.cloud.google.com/release-notes#July_29_2026"
+    },
     {
       "date": "2026-07-28",
       "service": "cloud-spanner",
