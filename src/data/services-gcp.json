@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-29",
+          "title": "Feature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo t",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Feature\nYou can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. F",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-06",
           "title": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Feature\nYou can now use pre-trained TimesFM models in BigQuery ML\ndirectly from\nConnected Sheets.\nThese models let you c",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
         }
       ],
       "pricingDetails": [
@@ -827,6 +827,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-29",
+          "title": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west8 (Milan, Italy)\neurope-west9 (Paris, France",
+          "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#July_29_2026"
+        },
+        {
           "date": "2026-04-17",
           "title": "Change\nCloud Scheduler is available in the following locations:\n\neurope-west4 (Eemshaven, Netherlands)\nme-central1 (Doha",
           "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#April_17_2026"
@@ -870,11 +875,6 @@
           "date": "2021-04-22",
           "title": "Feature\nThe Cloud Scheduler Console UI now has support for three additional options:\n\nHeaders for HTTP and App Engine ta",
           "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#April_22_2021"
-        },
-        {
-          "date": "2021-03-01",
-          "title": "Change\nThe maximum job size (payload) is now 1 MB total, including ~1KB request overhead.",
-          "url": "https://docs.cloud.google.com/scheduler/docs/release-notes#March_01_2021"
         }
       ],
       "pricingDetails": [
@@ -2371,11 +2371,6 @@
           "date": "2026-06-30",
           "title": "Agent Platform Workbench\nFeature\nPython 3.12 base containers for Agent Platform Workbench custom containers\nYou can buil",
           "url": "https://docs.cloud.google.com/release-notes#June_30_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#June_29_2026"
         }
       ]
     },
@@ -2418,6 +2413,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-29",
+          "title": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine",
+          "url": "https://docs.cloud.google.com/release-notes#July_29_2026"
+        },
         {
           "date": "2026-07-28",
           "title": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enabl",
@@ -2462,11 +2462,6 @@
           "date": "2026-07-11",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_11_2026"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports Apache Solr in Preview.\nYou can use the externa",
-          "url": "https://docs.cloud.google.com/release-notes#July_08_2026"
         }
       ]
     }
