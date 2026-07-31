@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "changes": [
+    {
+      "date": "2026-07-30",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
+    },
+    {
+      "date": "2026-07-30",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For mor",
+      "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
+    },
     {
       "date": "2026-07-29",
       "service": "cloud-scheduler",
