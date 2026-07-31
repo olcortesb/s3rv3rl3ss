@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-07-31",
   "region": "us-east-1",
   "services": [
     {
@@ -1820,6 +1820,16 @@
       ],
       "news": [
         {
+          "date": "2026-07-30",
+          "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Simplify compliance-driven Amazon S3 data movement with multi-criteria filtering",
+          "url": "https://aws.amazon.com/blogs/storage/simplify-compliance-driven-amazon-s3-data-movement-with-multi-criteria-filtering/"
+        },
+        {
           "date": "2026-07-28",
           "title": "Amazon S3 Tables now support the Variant data type for Apache Iceberg V3",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-tables-variant-iceberg-v3/"
@@ -1908,16 +1918,6 @@
           "date": "2026-06-16",
           "title": "Amazon S3 Vectors reduces query charges by up to 80% for large vector indexes",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-reduces-query-charges-80-percent-large-indexes/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Amazon S3 adds annotations to provide AI agents and analytics tools with context for data discovery",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context"
-        },
-        {
-          "date": "2026-06-12",
-          "title": "Achieving sub-10ms latency and 94% cost savings with Diskless Kafka using AutoMQ and Amazon FSx for NetApp ONTAP",
-          "url": "https://aws.amazon.com/blogs/storage/achieving-sub-10ms-latency-and-94-cost-savings-with-diskless-kafka-using-automq-and-amazon-fsx-for-netapp-ontap/"
         }
       ],
       "dataStatus": "ok",
@@ -11598,6 +11598,36 @@
       ],
       "news": [
         {
+          "date": "2026-07-30",
+          "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Grok 4.3 from xAI is now available on Amazon Bedrock in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/grok-4-3-bedrock-govcloud/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Gemma 4 models are now available on Amazon Bedrock in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/gemma-4-bedrock-govcloud/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "How Yahoo enhances search retargeting using Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Migrate your prompts to new models and optimize them on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/"
+        },
+        {
           "date": "2026-07-29",
           "title": "Authenticate with Private Key JWT using Amazon Bedrock AgentCore Identity",
           "url": "https://aws.amazon.com/blogs/machine-learning/authenticate-with-private-key-jwt-using-amazon-bedrock-agentcore-identity/"
@@ -11666,36 +11696,6 @@
           "date": "2026-07-23",
           "title": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
           "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "AWS Data Exports now provides standardized Amazon Bedrock product metadata",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-data-exports-amazon-bedrock-product-metadata/"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Introducing Grok on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/"
         }
       ],
       "dataStatus": "partial",
@@ -12306,6 +12306,21 @@
       ],
       "news": [
         {
+          "date": "2026-07-30",
+          "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Amazon MSK Express brokers now deliver data to streaming tables for Apache Iceberg",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-streaming-tables-for-apache-iceberg"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Deliver Apache Kafka data to streaming tables for Apache Iceberg with Amazon MSK Express brokers",
+          "url": "https://aws.amazon.com/blogs/big-data/deliver-apache-kafka-data-to-streaming-tables-for-apache-iceberg-with-amazon-msk-express-brokers/"
+        },
+        {
           "date": "2026-07-15",
           "title": "Amazon MSK Express Brokers adds support for Apache Kafka version 4.2",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-version-42/"
@@ -12531,6 +12546,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-30",
+          "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track"
+        },
+        {
           "date": "2026-07-29",
           "title": "Amazon Redshift Data API announces long polling, session management, and flexible batch execution",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-data-api-longpolling-listsession-flexiblebatchexecute/"
@@ -12624,11 +12644,6 @@
           "date": "2026-06-08",
           "title": "Unlock cost savings with incremental snapshot billing for Amazon Redshift Serverless and Amazon Redshift RG",
           "url": "https://aws.amazon.com/blogs/big-data/unlock-cost-savings-with-incremental-snapshot-billing-for-amazon-redshift-serverless-and-amazon-redshift-rg/"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Query Amazon Redshift using natural language with Kiro",
-          "url": "https://aws.amazon.com/blogs/big-data/query-amazon-redshift-using-natural-language-with-kiro/"
         }
       ],
       "dataStatus": "partial"
@@ -14765,6 +14780,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-07-30",
+          "title": "Lowering AWS KMS decrypt API costs in EMR Spark jobs",
+          "url": "https://aws.amazon.com/blogs/big-data/lowering-aws-kms-decrypt-api-costs-in-emr-spark-jobs/"
+        },
         {
           "date": "2026-07-29",
           "title": "AWS Glue announces VPC support, filter pushdown, and partition support for the REST API connector",
