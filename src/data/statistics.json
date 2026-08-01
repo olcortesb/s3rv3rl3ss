@@ -1,11 +1,11 @@
 {
   "summary": {
     "totalServices": 31,
-    "totalQuotas": 1997,
+    "totalQuotas": 1998,
     "totalLimits": 200,
     "totalNews": 238,
-    "totalRuntimes": 20,
-    "activeRuntimes": 20,
+    "totalRuntimes": 22,
+    "activeRuntimes": 22,
     "deprecatedRuntimes": 0
   },
   "topServices": {
@@ -63,5 +63,5 @@
       "count": 1
     }
   ],
-  "lastUpdated": "2026-07-31"
+  "lastUpdated": "2026-08-01"
 }
