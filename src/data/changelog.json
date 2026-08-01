@@ -9,26 +9,6 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/"
     },
     {
-      "date": "2026-07-31",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/"
-    },
-    {
-      "date": "2026-07-31",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
-    },
-    {
-      "date": "2026-08-01",
-      "service": "msk-serverless",
-      "type": "quota_added",
-      "detail": "Number of data channels per cluster: 50"
-    },
-    {
       "date": "2026-07-30",
       "service": "s3",
       "type": "new_news",
