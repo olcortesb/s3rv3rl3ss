@@ -1,6 +1,33 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-01",
   "changes": [
+    {
+      "date": "2026-07-31",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/"
+    },
+    {
+      "date": "2026-07-31",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/"
+    },
+    {
+      "date": "2026-07-31",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "msk-serverless",
+      "type": "quota_added",
+      "detail": "Number of data channels per cluster: 50"
+    },
     {
       "date": "2026-07-30",
       "service": "s3",
@@ -6066,24 +6093,6 @@
       "service": "bedrock",
       "type": "quota_changed",
       "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet: 50 → 3"
-    },
-    {
-      "date": "2026-05-02",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx"
-    },
-    {
-      "date": "2026-05-02",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "General availability of AWS for SAP MCP Server in Amazon Bedrock AgentCore"
-    },
-    {
-      "date": "2026-05-02",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore is now available in the South America (São Paulo) Region"
     }
   ]
 }
