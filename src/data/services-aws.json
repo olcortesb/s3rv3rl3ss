@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-01",
   "region": "us-east-1",
   "services": [
     {
@@ -639,6 +639,21 @@
         },
         {
           "name": "Java 17",
+          "identifier": "java17.al2023",
+          "status": "active"
+        },
+        {
+          "name": "Java 11",
+          "identifier": "java11.al2023",
+          "status": "active"
+        },
+        {
+          "name": "Java 8",
+          "identifier": "java8.al2023",
+          "status": "active"
+        },
+        {
+          "name": "Java 17",
           "identifier": "java17",
           "status": "active",
           "eol": "2027-06-30"
@@ -696,15 +711,14 @@
           "identifier": "provided.al2023",
           "status": "active",
           "eol": "2029-06-30"
-        },
-        {
-          "name": "OS-only Runtime",
-          "identifier": "provided.al2",
-          "status": "active",
-          "eol": "2026-07-31"
         }
       ],
       "news": [
+        {
+          "date": "2026-07-31",
+          "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/"
+        },
         {
           "date": "2026-07-24",
           "title": "AWS Lambda now publishes logs for Lambda Managed Instances capacity providers",
@@ -799,11 +813,6 @@
           "date": "2026-06-24",
           "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/"
-        },
-        {
-          "date": "2026-06-22",
-          "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/"
         }
       ],
       "dataStatus": "ok",
@@ -4181,6 +4190,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-31",
+          "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/"
+        },
+        {
           "date": "2026-07-28",
           "title": "Building scalable applications on Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/building-scalable-applications-on-amazon-aurora-dsql/"
@@ -4274,11 +4288,6 @@
           "date": "2026-06-17",
           "title": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Performance enhancements",
           "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-performance-enhancements/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Security, monitoring, and developer enhancements",
-          "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-security-monitoring-and-developer-enhancements/"
         }
       ],
       "dataStatus": "partial"
@@ -11598,6 +11607,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-31",
+          "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
+        },
+        {
           "date": "2026-07-30",
           "title": "Amazon Bedrock announces up to 80% lower prices for OpenAI GPT‑5.6 models",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-terra-luna-pricing-bedrock/"
@@ -11691,11 +11705,6 @@
           "date": "2026-07-23",
           "title": "Detecting silent agent failures with Amazon Bedrock AgentCore optimization",
           "url": "https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/"
         }
       ],
       "dataStatus": "partial",
@@ -12263,6 +12272,12 @@
           "name": "Number of replicators per account",
           "value": "15",
           "description": "The maximum number of replicators that can be created per account.",
+          "adjustable": true
+        },
+        {
+          "name": "Number of data channels per cluster",
+          "value": "50",
+          "description": "The maximum number of data channels that can be created per cluster.",
           "adjustable": true
         },
         {
