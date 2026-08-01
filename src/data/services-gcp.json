@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-01",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-30",
+          "title": "Change\n(2026-R32) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_30_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Security\nThe general availability (GA) stage of mixed-protocol Services of type\nLoadBalancer fixes errors in traffic rou",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_27_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-06-29",
           "title": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
-        },
-        {
-          "date": "2026-06-26",
-          "title": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
         }
       ],
       "pricingDetails": [
@@ -2071,6 +2071,11 @@
       ],
       "news": [
         {
+          "date": "2026-07-31",
+          "title": "Feature\nYou can now pause a Dataflow batch job using the pause_on_failure\nservice option. This feature lets you preserve",
+          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#July_31_2026"
+        },
+        {
           "date": "2026-06-22",
           "title": "Feature\nYou can now use Hyperdisk Balanced\ndisks for Dataflow worker VMs. With Hyperdisk Balanced disks, you can provisi",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#June_22_2026"
@@ -2114,11 +2119,6 @@
           "date": "2026-01-13",
           "title": "Feature\nDataflow now serves a notice for when the Dataflow\nRunner v2 container image of a streaming pipeline\nwill be upg",
           "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#January_13_2026"
-        },
-        {
-          "date": "2025-11-21",
-          "title": "Feature\nDataflow now supports speculative execution for batch pipelines. This feature mitigates the impact of slow-runni",
-          "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#November_21_2025"
         }
       ]
     },
