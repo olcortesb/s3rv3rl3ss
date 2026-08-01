@@ -2,18 +2,18 @@
   "lastUpdated": "2026-08-01",
   "changes": [
     {
-      "date": "2026-07-30",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Change\n(2026-R32) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_30_2026"
-    },
-    {
       "date": "2026-07-31",
       "service": "dataflow",
       "type": "new_news",
       "detail": "Feature\nYou can now pause a Dataflow batch job using the pause_on_failure\nservice option. This feature lets you preserve",
       "url": "https://docs.cloud.google.com/dataflow/docs/release-notes#July_31_2026"
+    },
+    {
+      "date": "2026-07-30",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R32) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_30_2026"
     },
     {
       "date": "2026-07-30",
