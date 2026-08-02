@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "services": [
     {
       "id": "cloud-run",
@@ -2409,6 +2409,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-01",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+        },
+        {
           "date": "2026-07-30",
           "title": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For mor",
           "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
@@ -2452,11 +2457,6 @@
           "date": "2026-07-13",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-        },
-        {
-          "date": "2026-07-12",
-          "title": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis",
-          "url": "https://docs.cloud.google.com/release-notes#July_12_2026"
         }
       ]
     }
