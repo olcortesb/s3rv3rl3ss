@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65148,
+      "stars": 65144,
       "technology": [
         "Python",
         "Docker"
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "9851ms",
-        "memoryIdle": "339MiB",
+        "startupTime": "10468ms",
+        "memoryIdle": "338.8MiB",
         "imageSize": "1.25GB"
       },
       "services": [],
@@ -146,7 +146,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.4.9",
-      "stars": 3914,
+      "stars": 3921,
       "technology": [
         "Python",
         "Docker"
@@ -154,9 +154,9 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2037ms",
-        "memoryIdle": "37.42MiB",
-        "imageSize": "174MB"
+        "startupTime": "2036ms",
+        "memoryIdle": "37.12MiB",
+        "imageSize": "175MB"
       },
       "services": [
         "account",
@@ -203,6 +203,7 @@
         "kinesis",
         "kms",
         "lambda",
+        "lambda-microvms",
         "logs",
         "mediaconnect",
         "mq",
@@ -228,7 +229,7 @@
         "transfer",
         "wafv2"
       ],
-      "serviceCount": 75,
+      "serviceCount": 76,
       "paidServices": [],
       "paidServiceCount": 0
     },
@@ -239,7 +240,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.34",
-      "stars": 18084,
+      "stars": 18104,
       "technology": [
         "Java",
         "Docker"
@@ -247,8 +248,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "518ms",
-        "memoryIdle": "12.36MiB",
+        "startupTime": "517ms",
+        "memoryIdle": "12.25MiB",
         "imageSize": "527MB"
       },
       "services": [
@@ -342,8 +343,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3053ms",
-        "memoryIdle": "75.78MiB",
+        "startupTime": "3047ms",
+        "memoryIdle": "75.34MiB",
         "imageSize": "488MB"
       },
       "services": [
@@ -770,6 +771,7 @@
     "kms": "KMS",
     "lakeformation": "Lake Formation",
     "lambda": "Lambda",
+    "lambda-microvms": "lambda-microvms",
     "lexv2models": "Lex v2",
     "lightsail": "lightsail",
     "logs": "CloudWatch Logs",
