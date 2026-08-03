@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "changes": [
     {
       "date": "2026-08-01",
@@ -1983,13 +1983,6 @@
       "service": "api-gateway",
       "type": "service_added",
       "detail": "API Gateway"
-    },
-    {
-      "date": "2026-05-04",
-      "service": "cloud-spanner",
-      "type": "new_news",
-      "detail": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
-      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
     }
   ]
 }
