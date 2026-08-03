@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65144,
+      "stars": 65146,
       "technology": [
         "Python",
         "Docker"
@@ -16,7 +16,7 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10468ms",
+        "startupTime": "10834ms",
         "memoryIdle": "338.8MiB",
         "imageSize": "1.25GB"
       },
@@ -146,7 +146,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.4.9",
-      "stars": 3921,
+      "stars": 3927,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2036ms",
-        "memoryIdle": "37.12MiB",
+        "startupTime": "2039ms",
+        "memoryIdle": "37.2MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -240,7 +240,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.5.34",
-      "stars": 18104,
+      "stars": 18120,
       "technology": [
         "Java",
         "Docker"
@@ -248,8 +248,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "517ms",
-        "memoryIdle": "12.25MiB",
+        "startupTime": "521ms",
+        "memoryIdle": "12.33MiB",
         "imageSize": "527MB"
       },
       "services": [
@@ -343,8 +343,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3047ms",
-        "memoryIdle": "75.34MiB",
+        "startupTime": "3062ms",
+        "memoryIdle": "75.94MiB",
         "imageSize": "488MB"
       },
       "services": [
