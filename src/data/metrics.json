@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-08-03T06:55:20Z",
+  "lastUpdated": "2026-08-04T06:55:20Z",
   "today": {
     "invocations": 17,
-    "totalDurationMs": 79586,
+    "totalDurationMs": 82585,
     "errors": 3,
     "functions": {
       "ChangelogFunction": {
         "invocations": 1,
-        "totalDurationMs": 1442,
-        "avgDurationMs": 1442,
+        "totalDurationMs": 1511,
+        "avgDurationMs": 1511,
         "errors": 0
       },
       "GcpCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 14087,
-        "avgDurationMs": 14087,
+        "totalDurationMs": 12585,
+        "avgDurationMs": 12585,
         "errors": 0
       },
       "AzureCollectorFunction": {
         "invocations": 3,
-        "totalDurationMs": 914,
-        "avgDurationMs": 305,
+        "totalDurationMs": 884,
+        "avgDurationMs": 295,
         "errors": 3
       },
       "CommitterFunction": {
         "invocations": 10,
-        "totalDurationMs": 29562,
-        "avgDurationMs": 2956,
+        "totalDurationMs": 33461,
+        "avgDurationMs": 3346,
         "errors": 0
       },
       "MetricsFunction": {
@@ -37,14 +37,14 @@
       },
       "CollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 32892,
-        "avgDurationMs": 32892,
+        "totalDurationMs": 33396,
+        "avgDurationMs": 33396,
         "errors": 0
       },
       "ComparisonsFunction": {
         "invocations": 1,
-        "totalDurationMs": 689,
-        "avgDurationMs": 689,
+        "totalDurationMs": 748,
+        "avgDurationMs": 748,
         "errors": 0
       },
       "ToolsCollectorFunction": {
@@ -56,56 +56,56 @@
     }
   },
   "month": {
-    "invocations": 61,
-    "totalDurationMs": 262454,
-    "errors": 9,
+    "invocations": 83,
+    "totalDurationMs": 360383,
+    "errors": 12,
     "functions": {
       "ChangelogFunction": {
-        "invocations": 3,
-        "totalDurationMs": 5088,
-        "avgDurationMs": 1696,
+        "invocations": 4,
+        "totalDurationMs": 6599,
+        "avgDurationMs": 1650,
         "errors": 0
       },
       "GcpCollectorFunction": {
-        "invocations": 3,
-        "totalDurationMs": 42198,
-        "avgDurationMs": 14066,
+        "invocations": 4,
+        "totalDurationMs": 54784,
+        "avgDurationMs": 13696,
         "errors": 0
       },
       "AzureCollectorFunction": {
-        "invocations": 9,
-        "totalDurationMs": 2657,
+        "invocations": 12,
+        "totalDurationMs": 3541,
         "avgDurationMs": 295,
-        "errors": 9
+        "errors": 12
       },
       "CommitterFunction": {
-        "invocations": 36,
-        "totalDurationMs": 92762,
-        "avgDurationMs": 2577,
+        "invocations": 49,
+        "totalDurationMs": 130634,
+        "avgDurationMs": 2666,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 2,
-        "totalDurationMs": 15426,
-        "avgDurationMs": 7713,
+        "invocations": 3,
+        "totalDurationMs": 24589,
+        "avgDurationMs": 8196,
         "errors": 0
       },
       "CollectorFunction": {
-        "invocations": 3,
-        "totalDurationMs": 98469,
-        "avgDurationMs": 32823,
+        "invocations": 4,
+        "totalDurationMs": 131865,
+        "avgDurationMs": 32966,
         "errors": 0
       },
       "ComparisonsFunction": {
-        "invocations": 3,
-        "totalDurationMs": 2123,
-        "avgDurationMs": 708,
+        "invocations": 4,
+        "totalDurationMs": 2871,
+        "avgDurationMs": 718,
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 2,
-        "totalDurationMs": 3731,
-        "avgDurationMs": 1865,
+        "invocations": 3,
+        "totalDurationMs": 5500,
+        "avgDurationMs": 1833,
         "errors": 0
       }
     }
