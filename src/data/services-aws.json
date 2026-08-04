@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "region": "us-east-1",
   "services": [
     {
@@ -51,6 +51,13 @@
           "adjustable": true
         },
         {
+          "name": "Network bandwidth per execution environment",
+          "value": "625 Megabits/Second",
+          "description": "The maximum sustained network bandwidth, in megabits per second, for a Lambda function's execution environment that is not attached to a VPC.",
+          "unit": "Megabits/Second",
+          "adjustable": true
+        },
+        {
           "name": "Rate of GetDurableExecutionHistory API requests",
           "value": "15",
           "description": "The maximum number of GetDurableExecutionHistory API requests per second.",
@@ -83,9 +90,9 @@
           "adjustable": true
         },
         {
-          "name": "Max allocated memory",
+          "name": "Max allocated MicroVM memory",
           "value": "8 GB",
-          "description": "The maximum amount of memory that can be allocated across all MicroVMs per account per region. Customers can burst up to 4x this limit.",
+          "description": "The maximum total configured baseline memory across all concurrently running MicroVMs per account per region. Individual MicroVMs can burst up to 4x their configured baseline memory.",
           "unit": "Gigabytes",
           "adjustable": true
         },
@@ -715,6 +722,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Amazon SageMaker AI serverless model customization now supports full fine-tuning",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-fft"
+        },
+        {
           "date": "2026-07-31",
           "title": "AWS Lambda now supports Java 8, 11, and 17 on Amazon Linux 2023",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-lambda-java-amazon-linux/"
@@ -803,16 +820,6 @@
           "date": "2026-06-26",
           "title": "Build reliable voice analytics workflows with AWS Lambda durable functions and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/compute/build-reliable-voice-analytics-workflows-with-aws-lambda-durable-functions-and-amazon-bedrock/"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Modernizing Lambda + S3 workloads with Amazon S3 Files",
-          "url": "https://aws.amazon.com/blogs/compute/modernizing-lambda-s3-workloads-with-amazon-s3-files/"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Amazon EMR Serverless now supports live configuration updates without application restarts",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/"
         }
       ],
       "dataStatus": "ok",
@@ -1129,6 +1136,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-03",
+          "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/"
+        },
         {
           "date": "2026-03-24",
           "title": "Building a Scalable Messaging API with AWS End User Messaging and SES",
@@ -3901,6 +3913,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "Run GPU batch inference on Amazon ECS Managed Instances with scale to zero",
+          "url": "https://aws.amazon.com/blogs/containers/run-gpu-batch-inference-on-amazon-ecs-managed-instances-with-scale-to-zero/"
+        },
+        {
           "date": "2026-07-23",
           "title": "Amazon ECS Service Connect now supports Zone-Aware routing",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/ecs-service-connect-zone-aware/"
@@ -4190,6 +4207,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora"
+        },
+        {
           "date": "2026-07-31",
           "title": "Amazon Aurora DSQL adds multi-Region cluster support in four more Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-adds-multi-region-clusters-four-more-regions/"
@@ -4283,11 +4305,6 @@
           "date": "2026-06-24",
           "title": "Build a Spring Boot REST API with Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/build-a-spring-boot-rest-api-with-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "PostgreSQL 18 on Amazon Aurora and Amazon RDS: Performance enhancements",
-          "url": "https://aws.amazon.com/blogs/database/postgresql-18-on-amazon-aurora-and-amazon-rds-performance-enhancements/"
         }
       ],
       "dataStatus": "partial"
@@ -11607,6 +11624,21 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Automated Reasoning policy refinement in Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/"
+        },
+        {
           "date": "2026-07-31",
           "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
           "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
@@ -11690,21 +11722,6 @@
           "date": "2026-07-23",
           "title": "Best practices for applying Amazon Bedrock Guardrails to code generation workflows",
           "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Evaluating AI Agents: A production blueprint with Strands and AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Detecting silent agent failures with Amazon Bedrock AgentCore optimization",
-          "url": "https://aws.amazon.com/blogs/machine-learning/detecting-silent-agent-failures-with-amazon-bedrock-agentcore-optimization/"
         }
       ],
       "dataStatus": "partial",
@@ -12321,6 +12338,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "Streamline Apache Kafka cluster operations and migrations with Agent Skills for Amazon MSK",
+          "url": "https://aws.amazon.com/blogs/big-data/streamline-apache-kafka-cluster-operations-and-migrations-with-agent-skills-for-amazon-msk/"
+        },
+        {
           "date": "2026-07-30",
           "title": "Amazon MSK Express brokers now delivers Apache Kafka data to Amazon S3",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-msk-express-brokers-delivers-to-amazon-s3"
@@ -12561,6 +12583,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "Amazon Redshift multi-Region disaster recovery",
+          "url": "https://aws.amazon.com/blogs/big-data/amazon-redshift-multi-region-disaster-recovery/"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "Upgrade Amazon Redshift DC2 clusters to the new Amazon Redshift RG",
+          "url": "https://aws.amazon.com/blogs/big-data/upgrade-amazon-redshift-dc2-clusters-to-the-new-amazon-redshift-rg/"
+        },
+        {
           "date": "2026-07-30",
           "title": "Amazon Redshift RG large and 12xlarge instances now available on the trailing track",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-redshift-rg-large-12xlarge-trailing-track"
@@ -12649,16 +12681,6 @@
           "date": "2026-06-16",
           "title": "Modernize Amazon Redshift: RA3 to RG Migration best practices",
           "url": "https://aws.amazon.com/blogs/big-data/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Amazon Redshift RG instances powered by AWS Graviton now available in additional regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-rg-instances-3-additional-regions/"
-        },
-        {
-          "date": "2026-06-08",
-          "title": "Unlock cost savings with incremental snapshot billing for Amazon Redshift Serverless and Amazon Redshift RG",
-          "url": "https://aws.amazon.com/blogs/big-data/unlock-cost-savings-with-incremental-snapshot-billing-for-amazon-redshift-serverless-and-amazon-redshift-rg/"
         }
       ],
       "dataStatus": "partial"
@@ -14103,13 +14125,13 @@
         },
         {
           "date": "2026-07-21",
-          "title": "Amazon SES introduces pricing plans",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/"
+          "title": "Introducing Amazon Simple Email Service (SES) pricing plans",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/introducing-amazon-simple-email-service-ses-pricing-plans/"
         },
         {
           "date": "2026-07-21",
-          "title": "Introducing Amazon Simple Email Service (SES) pricing plans",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/introducing-amazon-simple-email-service-ses-pricing-plans/"
+          "title": "Amazon SES introduces pricing plans",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-ses-pricing-plans/"
         },
         {
           "date": "2026-07-20",
