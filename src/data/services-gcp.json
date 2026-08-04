@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
+        },
+        {
           "date": "2026-07-30",
           "title": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-09",
           "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
-        },
-        {
-          "date": "2026-07-08",
-          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
         }
       ],
       "pricingDetails": [
@@ -1239,6 +1239,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "v1\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic manag",
+          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#August_03_2026"
+        },
+        {
           "date": "2026-06-18",
           "title": "v1\nChange\nUpdate to the API Gateway runtime architecture\nThe API Gateway runtime architecture is being updated to improv",
           "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#June_18_2026"
@@ -1282,11 +1287,6 @@
           "date": "2025-03-26",
           "title": "v1\nAnnouncement\nOn March 26, 2025, we released an updated version of API Gateway.\nFeature\nWith this release, customer da",
           "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_26_2025"
-        },
-        {
-          "date": "2025-03-25",
-          "title": "v1\nAnnouncement\nOn March 25, 2025, we released an updated version of API Gateway.\nFeature\nAPI Gateway now supports Workf",
-          "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#March_25_2025"
         }
       ],
       "pricingDetails": [
@@ -2285,6 +2285,18 @@
           "name": "Max rate limit requests",
           "value": "10,000/min per key"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-08-03",
+          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+        }
       ]
     },
     {
@@ -2319,6 +2331,18 @@
         {
           "name": "Max custom headers",
           "value": "16"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-03",
+          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
         }
       ]
     },
@@ -2357,6 +2381,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-03",
+          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+        },
+        {
+          "date": "2026-08-01",
+          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+        },
         {
           "date": "2026-07-13",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
@@ -2409,8 +2443,13 @@
       ],
       "news": [
         {
+          "date": "2026-08-03",
+          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+        },
+        {
           "date": "2026-08-01",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.95 is now\navailable for all regions.",
+          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
         },
         {
@@ -2452,11 +2491,6 @@
           "date": "2026-07-16",
           "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
           "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
         }
       ]
     }
