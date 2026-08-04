@@ -1,6 +1,76 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "changes": [
+    {
+      "date": "2026-08-03",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic manag",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+      "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+      "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+      "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
+      "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+    },
     {
       "date": "2026-08-01",
       "service": "cloud-functions-for-firebase",
