@@ -9,41 +9,6 @@
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/"
     },
     {
-      "date": "2026-08-04",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Extending Amazon ECS Express Mode to Build an Optimal Container Environment",
-      "url": "https://aws.amazon.com/blogs/containers/extending-amazon-ecs-express-mode-to-build-an-optimal-container-environment/"
-    },
-    {
-      "date": "2026-08-04",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock launches Web Search for OpenAI GPT models",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/"
-    },
-    {
-      "date": "2026-08-04",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/"
-    },
-    {
-      "date": "2026-08-04",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Automated web insight extraction with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-04",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Amazon Connect Customer now lets you export cases to CSV from the agent workspace",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-export-cases/"
-    },
-    {
       "date": "2026-07-31",
       "service": "lambda",
       "type": "new_news",
