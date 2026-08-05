@@ -9,13 +9,6 @@
       "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
     },
     {
-      "date": "2026-07-13",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-    },
-    {
       "date": "2026-08-03",
       "service": "cloud-identity-platform",
       "type": "new_news",
