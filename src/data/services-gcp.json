@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "services": [
     {
       "id": "cloud-run",
@@ -2288,11 +2288,6 @@
       ],
       "news": [
         {
-          "date": "2026-08-03",
-          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
-          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
-        },
-        {
           "date": "2026-08-01",
           "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
@@ -2335,11 +2330,6 @@
       ],
       "news": [
         {
-          "date": "2026-08-03",
-          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
-          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
-        },
-        {
           "date": "2026-08-01",
           "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
@@ -2381,11 +2371,6 @@
         }
       ],
       "news": [
-        {
-          "date": "2026-08-03",
-          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
-          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
-        },
         {
           "date": "2026-08-01",
           "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
@@ -2443,9 +2428,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-03",
-          "title": "Backup and DR\nFeature\nYou can now change the backup plan associated with a Cloud SQL instance. This allows you to switch",
-          "url": "https://docs.cloud.google.com/release-notes#August_03_2026"
+          "date": "2026-08-04",
+          "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou",
+          "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
         },
         {
           "date": "2026-08-01",
@@ -2488,9 +2473,9 @@
           "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
         },
         {
-          "date": "2026-07-16",
-          "title": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance wi",
-          "url": "https://docs.cloud.google.com/release-notes#July_16_2026"
+          "date": "2026-07-13",
+          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
         }
       ]
     }
