@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "changes": [
+    {
+      "date": "2026-08-04",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou",
+      "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
+    },
+    {
+      "date": "2026-07-13",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
+      "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
+    },
     {
       "date": "2026-08-03",
       "service": "cloud-identity-platform",
