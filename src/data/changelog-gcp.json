@@ -3,13 +3,6 @@
   "changes": [
     {
       "date": "2026-08-05",
-      "service": "cloud-run",
-      "type": "new_news",
-      "detail": "Feature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).",
-      "url": "https://docs.cloud.google.com/run/docs/release-notes#August_05_2026"
-    },
-    {
-      "date": "2026-08-05",
       "service": "cloud-run-jobs",
       "type": "new_news",
       "detail": "Feature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).",
@@ -17,17 +10,10 @@
     },
     {
       "date": "2026-08-05",
-      "service": "cloud-armor",
+      "service": "cloud-run",
       "type": "new_news",
-      "detail": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
-      "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
-    },
-    {
-      "date": "2026-08-05",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
-      "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
+      "detail": "Feature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#August_05_2026"
     },
     {
       "date": "2026-08-05",
@@ -44,11 +30,18 @@
       "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
     },
     {
-      "date": "2026-08-01",
-      "service": "cloud-functions-for-firebase",
+      "date": "2026-08-05",
+      "service": "cloud-cdn",
       "type": "new_news",
-      "detail": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
-      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+      "detail": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+      "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+      "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
     },
     {
       "date": "2026-08-04",
@@ -118,6 +111,13 @@
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+      "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+    },
+    {
+      "date": "2026-08-01",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
       "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
     },
     {
