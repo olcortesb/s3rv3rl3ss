@@ -1,6 +1,104 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "changes": [
+    {
+      "date": "2026-08-05",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Amazon DynamoDB now supports real-time vector search",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Build semantic search with native vector support in Amazon DynamoDB",
+      "url": "https://aws.amazon.com/blogs/database/build-semantic-search-with-native-vector-support-in-amazon-dynamodb/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Analyze Amazon S3 annotations at scale with materialized views",
+      "url": "https://aws.amazon.com/blogs/storage/analyze-amazon-s3-annotations-at-scale-with-materialized-views/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Accelerate Amazon S3 Replication with automated S3 Batch Operations parallelization",
+      "url": "https://aws.amazon.com/blogs/storage/accelerate-amazon-s3-replication-with-automated-s3-batch-operations-parallelization/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
+      "url": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Run production AI agents in n8n with Amazon Bedrock AgentCore harness",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Under the hood: how Amazon EKS Auto Mode detects, repairs, and diagnoses node failures",
+      "url": "https://aws.amazon.com/blogs/containers/under-the-hood-how-amazon-eks-auto-mode-detects-repairs-and-diagnoses-node-failures/"
+    },
+    {
+      "date": "2026-08-05",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free"
+    },
     {
       "date": "2026-08-04",
       "service": "s3",
@@ -4849,31 +4947,6 @@
       "service": "api-gateway",
       "type": "quota_changed",
       "detail": "Throttle quota per account, per Region across HTTP APIs, REST APIs, WebSocket APIs, and WebSocket callback APIs: 10,000 requests per second (RPS) with an additional burst capacity provided by the token bucket algorithm, using a maximum bucket capacity of 5,000 requests. \\$1 The burst quota is determined by the API Gateway service team based on the overall RPS quota for the account in the Region. It is not a quota that a customer can control or request changes to. → 10,000 requests per second (RPS) with an additional burst capacity provided by the token bucket algorithm, using a maximum bucket capacity of 5,000 requests. \\* The burst quota is determined by the API Gateway service team based on the overall RPS quota for the account in the Region. It is not a quota that a customer can control or request changes to."
-    },
-    {
-      "date": "2026-05-07",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Implement single-exchange tokens for short-lived Amazon S3 presigned URLs with Terraform",
-      "url": "https://aws.amazon.com/blogs/storage/implement-single-exchange-tokens-for-short-lived-amazon-s3-presigned-urls-with-terraform/"
-    },
-    {
-      "date": "2026-05-07",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "(Advanced Prompt Optimization) Active jobs per account removed"
-    },
-    {
-      "date": "2026-05-07",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "(Advanced Prompt Optimization) Inactive jobs per account removed"
-    },
-    {
-      "date": "2026-05-07",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore Memory announces metadata for long-term memory"
     }
   ]
 }
