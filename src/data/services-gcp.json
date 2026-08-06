@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Feature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_05_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Feature\nSupport for the Node.js 26 runtime is in Preview.\nFeature\nSupport for Budget spend caps to pause your Cloud Run ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#July_27_2026"
@@ -96,11 +101,6 @@
           "date": "2026-04-13",
           "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Feature\nCloud Run supports sandboxes for all resources, including jobs and worker pools (Preview).",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_05_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Feature\nSupport for the Node.js 26 runtime is in Preview.\nFeature\nSupport for Budget spend caps to pause your Cloud Run ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#July_27_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-04-13",
           "title": "Feature\nSupport for NVIDIA RTX PRO 6000 Blackwell GPU is in General Availability.\nFor more information, see GPU support ",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_13_2026"
-        },
-        {
-          "date": "2026-03-25",
-          "title": "Feature\nDeploying services using a Compose file\nis in General Availability.",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#March_25_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,9 +2288,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-01",
-          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
-          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+          "date": "2026-08-05",
+          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         }
       ]
     },
@@ -2330,9 +2330,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-01",
-          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
-          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+          "date": "2026-08-05",
+          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         }
       ]
     },
@@ -2372,19 +2372,14 @@
       ],
       "news": [
         {
-          "date": "2026-08-01",
-          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
-          "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+          "date": "2026-08-05",
+          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         },
         {
           "date": "2026-07-13",
           "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
           "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_06_2026"
         }
       ]
     },
@@ -2428,13 +2423,18 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
+        },
+        {
           "date": "2026-08-04",
           "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou",
           "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
         },
         {
           "date": "2026-08-01",
-          "title": "Google Cloud VMware Engine\nFeature\nPreview: Google Cloud VMware Engine capacity allocations are available in preview. A ",
+          "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
         },
         {
@@ -2471,11 +2471,6 @@
           "date": "2026-07-18",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
         }
       ]
     }
