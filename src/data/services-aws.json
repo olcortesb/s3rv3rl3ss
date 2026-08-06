@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "region": "us-east-1",
   "services": [
     {
@@ -722,6 +722,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "AWS Lambda announces scalable network bandwidth up to 3,000 Mbps for functions outside a VPC",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-network-bandwidth/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling"
+        },
+        {
           "date": "2026-08-03",
           "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-Lambda-provisioned-sqs-esm-max-pollers/"
@@ -810,16 +820,6 @@
           "date": "2026-06-29",
           "title": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions",
           "url": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Amazon MWAA Serverless now supports shared VPC configurations",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
-        },
-        {
-          "date": "2026-06-26",
-          "title": "Build reliable voice analytics workflows with AWS Lambda durable functions and Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/compute/build-reliable-voice-analytics-workflows-with-aws-lambda-durable-functions-and-amazon-bedrock/"
         }
       ],
       "dataStatus": "ok",
@@ -923,6 +923,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-05",
+          "title": "Amazon DynamoDB now supports real-time vector search",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-vector-search"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Build semantic search with native vector support in Amazon DynamoDB",
+          "url": "https://aws.amazon.com/blogs/database/build-semantic-search-with-native-vector-support-in-amazon-dynamodb/"
+        },
         {
           "date": "2026-07-15",
           "title": "Introducing open source Bulk Executor for Amazon DynamoDB",
@@ -1841,6 +1851,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Analyze Amazon S3 annotations at scale with materialized views",
+          "url": "https://aws.amazon.com/blogs/storage/analyze-amazon-s3-annotations-at-scale-with-materialized-views/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Accelerate Amazon S3 Replication with automated S3 Batch Operations parallelization",
+          "url": "https://aws.amazon.com/blogs/storage/accelerate-amazon-s3-replication-with-automated-s3-batch-operations-parallelization/"
+        },
+        {
           "date": "2026-08-04",
           "title": "Amazon S3 Vectors is now available in the AWS European Sovereign Cloud (Germany) Region",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-vectors-european-sovereign-cloud-germany/"
@@ -1929,16 +1949,6 @@
           "date": "2026-06-26",
           "title": "Gain workload-specific storage insights with Amazon S3 Storage Lens groups",
           "url": "https://aws.amazon.com/blogs/storage/create-custom-storage-groupings-with-amazon-s3-storage-lens-groups/"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "AWS Backup enhances Amazon S3 backup copy performance",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-s3-copy-enhancement/"
-        },
-        {
-          "date": "2026-06-16",
-          "title": "Amazon S3 Vectors now supports up to 10,000 similarity search results per query",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/s3-vectors-supports-10000-search-results-per-query"
         }
       ],
       "dataStatus": "ok",
@@ -2928,6 +2938,43 @@
           "value": "10,000"
         }
       ],
+      "news": [
+        {
+          "date": "2026-08-05",
+          "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
+          "url": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "Amazon Cognito now supports importing users with password hashes",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Amazon Cognito now supports self-service provisioned API rate limits",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "Amazon Cognito now supports customer managed key for encryption at rest",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+          "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
+        },
+        {
+          "date": "2026-06-04",
+          "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure",
+          "url": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/"
+        },
+        {
+          "date": "2026-06-04",
+          "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
+          "url": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/"
+        }
+      ],
       "dataStatus": "partial",
       "integrations": [
         {
@@ -2973,38 +3020,6 @@
           "price": "$0.00225",
           "unit": "per token",
           "description": "USD 0.00225 per client credential flow (M2M) token request in tier 1  in US East (N. Virginia)"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-15",
-          "title": "Amazon Cognito now supports importing users with password hashes",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-cognito-password-hash-import/"
-        },
-        {
-          "date": "2026-07-06",
-          "title": "Amazon Cognito now supports self-service provisioned API rate limits",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/cognito-provisioned-limits"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "Amazon Cognito now supports customer managed key for encryption at rest",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cognito-customer-managed-key"
-        },
-        {
-          "date": "2026-06-05",
-          "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
-          "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure",
-          "url": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/"
-        },
-        {
-          "date": "2026-06-04",
-          "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
-          "url": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/"
         }
       ]
     },
@@ -4212,6 +4227,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Amazon Aurora serverless now scales faster to support agentic AI and other bursty workloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-12-acu-scaling"
+        },
+        {
           "date": "2026-08-03",
           "title": "AWS Transform for full-stack Windows modernization now supports offline schema transformation to Aurora PostgreSQL",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/aws-transform-windows-sql-schema-aurora"
@@ -4305,11 +4325,6 @@
           "date": "2026-06-25",
           "title": "Running pgvector in production on Amazon Aurora PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/running-pgvector-in-production-on-amazon-aurora-postgresql/"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Build a Spring Boot REST API with Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/build-a-spring-boot-rest-api-with-amazon-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -11629,6 +11644,26 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Run production AI agents in n8n with Amazon Bedrock AgentCore harness",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"
+        },
+        {
           "date": "2026-08-04",
           "title": "Amazon Bedrock launches Web Search for OpenAI GPT models",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web/"
@@ -11707,26 +11742,6 @@
           "date": "2026-07-28",
           "title": "How AgentCore Gateway supports the MCP 2026-07-28 spec",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/"
-        },
-        {
-          "date": "2026-07-28",
-          "title": "Market surveillance agent with LangGraph and Strands on AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "How Guardoc transforms medical document processing with Amazon Nova models",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models/"
-        },
-        {
-          "date": "2026-07-24",
-          "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/"
-        },
-        {
-          "date": "2026-07-24",
-          "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/"
         }
       ],
       "dataStatus": "partial",
@@ -12031,6 +12046,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-05",
+          "title": "Under the hood: how Amazon EKS Auto Mode detects, repairs, and diagnoses node failures",
+          "url": "https://aws.amazon.com/blogs/containers/under-the-hood-how-amazon-eks-auto-mode-detects-repairs-and-diagnoses-node-failures/"
+        },
+        {
           "date": "2026-07-28",
           "title": "Amazon EKS Provisioned Control Plane now delivers faster pod autoscaling",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-provisioned-control/"
@@ -12124,11 +12144,6 @@
           "date": "2026-06-09",
           "title": "Better Together: Amazon EKS Auto Mode and Istio Ambient Mesh",
           "url": "https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/"
-        },
-        {
-          "date": "2026-05-29",
-          "title": "Scaling StarRocks on Amazon EKS with KEDA and Karpenter for enterprise OLAP workloads",
-          "url": "https://aws.amazon.com/blogs/containers/scaling-starrocks-on-amazon-eks-with-keda-and-karpenter-for-enterprise-olap-workloads/"
         }
       ],
       "dataStatus": "partial"
@@ -14822,6 +14837,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-05",
+          "title": "AWS Glue Data Quality makes ETL anomaly detection free and improves anomaly predictions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-quality-anomaly-detection-free"
+        },
         {
           "date": "2026-07-30",
           "title": "Lowering AWS KMS decrypt API costs in EMR Spark jobs",
