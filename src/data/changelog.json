@@ -3,17 +3,17 @@
   "changes": [
     {
       "date": "2026-08-06",
-      "service": "lambda",
+      "service": "s3",
       "type": "new_news",
-      "detail": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/"
+      "detail": "AWS Backup for Amazon S3 now supports direct access to backup data",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-s3-direct-access/"
     },
     {
       "date": "2026-08-06",
       "service": "s3",
       "type": "new_news",
-      "detail": "AWS Backup for Amazon S3 now supports direct access to backup data",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-s3-direct-access/"
+      "detail": "Track healthcare data lineage in real time with Amazon S3 annotations",
+      "url": "https://aws.amazon.com/blogs/storage/track-healthcare-data-lineage-in-real-time-with-amazon-s3-annotations/"
     },
     {
       "date": "2026-08-06",
@@ -24,10 +24,10 @@
     },
     {
       "date": "2026-08-06",
-      "service": "s3",
+      "service": "lambda",
       "type": "new_news",
-      "detail": "Track healthcare data lineage in real time with Amazon S3 annotations",
-      "url": "https://aws.amazon.com/blogs/storage/track-healthcare-data-lineage-in-real-time-with-amazon-s3-annotations/"
+      "detail": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/"
     },
     {
       "date": "2026-08-06",
@@ -45,10 +45,10 @@
     },
     {
       "date": "2026-08-06",
-      "service": "aurora-serverless",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "MCP tools for Amazon Aurora DSQL: Query execution and schema management",
-      "url": "https://aws.amazon.com/blogs/database/mcp-tools-for-amazon-aurora-dsql-query-execution-and-schema-management/"
+      "detail": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/"
     },
     {
       "date": "2026-08-06",
@@ -61,15 +61,8 @@
       "date": "2026-08-06",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Configure rate limits for AI traffic on AgentCore gateway",
-      "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/"
+      "detail": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/"
     },
     {
       "date": "2026-08-06",
@@ -82,6 +75,13 @@
       "date": "2026-08-06",
       "service": "bedrock",
       "type": "new_news",
+      "detail": "LLM optimization integration for Amazon SageMaker Python SDK",
+      "url": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/"
+    },
+    {
+      "date": "2026-08-06",
+      "service": "bedrock",
+      "type": "new_news",
       "detail": "Build visibility for Codex on Amazon Bedrock with OpenTelemetry and Amazon CloudWatch",
       "url": "https://aws.amazon.com/blogs/machine-learning/build-visibility-for-codex-on-amazon-bedrock-with-opentelemetry-and-amazon-cloudwatch/"
     },
@@ -89,15 +89,8 @@
       "date": "2026-08-06",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/"
+      "detail": "Configure rate limits for AI traffic on AgentCore gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/"
     },
     {
       "date": "2026-08-06",
@@ -110,50 +103,15 @@
       "date": "2026-08-06",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "LLM optimization integration for Amazon SageMaker Python SDK",
-      "url": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/"
+      "detail": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-08-06",
-      "service": "msk-serverless",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon MSK now delivers Kafka Authorizer Logs to customers",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-kafka-authorizer-logs/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "neptune-serverless",
-      "type": "new_news",
-      "detail": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-logically-air-gapped-vault-neptune-regions/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Amazon SES now helps identify automated open and click events in event notifications",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue Schema Registry is now available in ten more AWS regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-gsr-10-more-regions"
-    },
-    {
-      "date": "2026-08-05",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue Data Catalog now supports metadata exports to S3 Tables (Preview)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-data-catalog-s3-tables/"
-    },
-    {
-      "date": "2026-08-06",
-      "service": "elasticache-serverless",
-      "type": "new_news",
-      "detail": "Amazon ElastiCache now supports Graviton4-based M8g, R8g, and C8gn nodes",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-elasticache-graviton4-m8g-r8g-c8gn/"
+      "detail": "MCP tools for Amazon Aurora DSQL: Query execution and schema management",
+      "url": "https://aws.amazon.com/blogs/database/mcp-tools-for-amazon-aurora-dsql-query-execution-and-schema-management/"
     },
     {
       "date": "2026-08-05",
