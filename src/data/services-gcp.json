@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "services": [
     {
       "id": "cloud-run",
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-06",
+          "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+          "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+        },
+        {
           "date": "2026-08-05",
           "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
@@ -2329,6 +2334,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-06",
+          "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+          "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+        },
         {
           "date": "2026-08-05",
           "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
@@ -2372,9 +2382,19 @@
       ],
       "news": [
         {
+          "date": "2026-08-06",
+          "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+          "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+        },
+        {
           "date": "2026-08-05",
           "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Access Approval\nFeature\nAgent Identity is available in\nPreview for Access\nApproval.\nFeature\nPrivileged Access Manager is",
+          "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
         },
         {
           "date": "2026-07-13",
@@ -2423,6 +2443,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-06",
+          "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+          "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+        },
+        {
           "date": "2026-08-05",
           "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
@@ -2466,11 +2491,6 @@
           "date": "2026-07-25",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#July_25_2026"
-        },
-        {
-          "date": "2026-07-18",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#July_18_2026"
         }
       ]
     }
