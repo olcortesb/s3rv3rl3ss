@@ -1,6 +1,41 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "changes": [
+    {
+      "date": "2026-08-06",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+      "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+    },
+    {
+      "date": "2026-08-06",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+      "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+    },
+    {
+      "date": "2026-08-06",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+      "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+    },
+    {
+      "date": "2026-07-22",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Access Approval\nFeature\nAgent Identity is available in\nPreview for Access\nApproval.\nFeature\nPrivileged Access Manager is",
+      "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
+    },
+    {
+      "date": "2026-08-06",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
+      "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
+    },
     {
       "date": "2026-08-05",
       "service": "cloud-run-jobs",
