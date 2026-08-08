@@ -12,6 +12,13 @@
       "date": "2026-08-07",
       "service": "bedrock",
       "type": "new_news",
+      "detail": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "bedrock",
+      "type": "new_news",
       "detail": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/"
     },
@@ -21,27 +28,6 @@
       "type": "new_news",
       "detail": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-07",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "How TReNDS automates root-cause analysis with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
-    },
-    {
-      "date": "2026-08-07",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Determining playoff clinching scenarios in the NHL using constraint programming",
-      "url": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/"
-    },
-    {
-      "date": "2026-08-07",
-      "service": "timestream",
-      "type": "new_news",
-      "detail": "Amazon Timestream for InfluxDB now supports backup and restore",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/"
     },
     {
       "date": "2026-08-06",
