@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "region": "us-east-1",
   "services": [
     {
@@ -2939,6 +2939,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-07",
+          "title": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/"
+        },
         {
           "date": "2026-08-05",
           "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
@@ -11654,6 +11659,26 @@
       ],
       "news": [
         {
+          "date": "2026-08-07",
+          "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/"
+        },
+        {
+          "date": "2026-08-07",
+          "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-08-07",
+          "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
+        },
+        {
+          "date": "2026-08-07",
+          "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
+          "url": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/"
+        },
+        {
           "date": "2026-08-06",
           "title": "Announcing temporal policies and rate limiting in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/temporal-policies-agentcore/"
@@ -11680,11 +11705,6 @@
         },
         {
           "date": "2026-08-06",
-          "title": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-06",
           "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/"
         },
@@ -11697,6 +11717,11 @@
           "date": "2026-08-06",
           "title": "LLM optimization integration for Amazon SageMaker Python SDK",
           "url": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/"
+        },
+        {
+          "date": "2026-08-06",
+          "title": "Enforcing data residency with single-Region Claude Code on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enforcing-data-residency-with-single-region-claude-code-on-amazon-bedrock/"
         },
         {
           "date": "2026-08-05",
@@ -11732,26 +11757,6 @@
           "date": "2026-08-04",
           "title": "Automated web insight extraction with Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "OpenAI GPT-5.6 Sol, Terra, and Luna now support 1 million token context windows on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/gpt-sol-terra-luna-long-context-bedrock"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations",
-          "url": "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "Automated Reasoning policy refinement in Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/"
-        },
-        {
-          "date": "2026-07-31",
-          "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
-          "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
         }
       ],
       "dataStatus": "partial",
@@ -14134,7 +14139,7 @@
       ],
       "news": [
         {
-          "date": "2026-08-06",
+          "date": "2026-08-07",
           "title": "Amazon SES now helps identify automated open and click events in event notifications",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-automated-email-interactions/"
         },
@@ -14552,6 +14557,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-07",
+          "title": "Amazon Timestream for InfluxDB now supports backup and restore",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/"
+        },
         {
           "date": "2026-07-22",
           "title": "Scale smart, not just big: a practical guide to multi-node Amazon Timestream for InfluxDB 3 Enterprise",
