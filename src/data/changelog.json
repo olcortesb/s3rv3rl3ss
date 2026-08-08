@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "changes": [
+    {
+      "date": "2026-08-07",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "Amazon Cognito now available as a skill in the Agent Toolkit for AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-auth-agent-skill/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Determining playoff clinching scenarios in the NHL using constraint programming",
+      "url": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "timestream",
+      "type": "new_news",
+      "detail": "Amazon Timestream for InfluxDB now supports backup and restore",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/timestream-influxdb-backup-restore/"
+    },
     {
       "date": "2026-08-06",
       "service": "s3",
@@ -4980,19 +5022,6 @@
       "type": "new_news",
       "detail": "Amazon Aurora DSQL connections: Drivers, strings, and best practices",
       "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/"
-    },
-    {
-      "date": "2026-05-09",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI"
-    },
-    {
-      "date": "2026-05-09",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Query billion-scale vectors with SQL: Integrating Amazon S3 Vectors and Aurora PostgreSQL",
-      "url": "https://aws.amazon.com/blogs/database/query-billion-scale-vectors-with-sql-integrating-amazon-s3-vectors-and-aurora-postgresql/"
     }
   ]
 }
