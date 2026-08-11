@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Feature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-08-03",
           "title": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-13",
           "title": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
-        },
-        {
-          "date": "2026-07-09",
-          "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
         }
       ],
       "pricingDetails": [
@@ -918,6 +918,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Change\nWhen configuring Eventarc triggers for Cloud Run destinations (including Cloud\nRun functions), you can specify a ",
+          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-04-22",
           "title": "Feature\nEventarc support for\ncreating triggers\nfor direct events from Gemini Cloud Assist\nis available in Preview.",
           "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#April_22_2026"
@@ -961,11 +966,6 @@
           "date": "2025-01-29",
           "title": "Feature\nTo help ensure CMEK usage across an organization, Eventarc Advanced and Eventarc Standard are integrated with tw",
           "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#January_29_2025"
-        },
-        {
-          "date": "2024-11-08",
-          "title": "Change\nEventarc Standard is available in the northamerica-south1 (Mexico, North America) region.",
-          "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#November_08_2024"
         }
       ]
     },
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Feature\nDynamic channel pooling (DCP) for gRPC channels in the Spanner Go and Java client\nlibraries is\ngenerally availab",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-07-28",
           "title": "Feature\nSpanner supports creating tables without defining primary keys.\nWhen you create a table without a primary key, S",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#July_28_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-05-04",
           "title": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
-        },
-        {
-          "date": "2026-04-21",
-          "title": "Feature\nSpanner full-text search supports\ncustom dictionaries\nto create custom synonym mappings. You can use custom dict",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#April_21_2026"
         }
       ],
       "pricingDetails": [
@@ -2299,7 +2299,7 @@
         },
         {
           "date": "2026-08-05",
-          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "title": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         }
       ]
@@ -2351,7 +2351,7 @@
         },
         {
           "date": "2026-08-05",
-          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "title": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         }
       ]
@@ -2403,8 +2403,18 @@
         },
         {
           "date": "2026-08-05",
-          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "title": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
+        },
+        {
+          "date": "2026-08-02",
+          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nChange\nInstalled latest packa",
+          "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
+          "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
         },
         {
           "date": "2026-07-22",
@@ -2458,6 +2468,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
+          "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-08-09",
           "title": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
@@ -2479,7 +2494,7 @@
         },
         {
           "date": "2026-08-05",
-          "title": "Cloud Monitoring\nAnnouncement\nThe Telemetry API for metric ingestion is\ngenerally available (GA).\nYou can ingest OTLP me",
+          "title": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from",
           "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
         },
         {
@@ -2488,24 +2503,19 @@
           "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
         },
         {
+          "date": "2026-08-02",
+          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nChange\nInstalled latest packa",
+          "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
+        },
+        {
           "date": "2026-08-01",
           "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
         },
         {
           "date": "2026-07-30",
-          "title": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For mor",
+          "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
           "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine",
-          "url": "https://docs.cloud.google.com/release-notes#July_29_2026"
-        },
-        {
-          "date": "2026-07-28",
-          "title": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enabl",
-          "url": "https://docs.cloud.google.com/release-notes#July_28_2026"
         }
       ]
     }
