@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "region": "us-east-1",
   "services": [
     {
@@ -722,6 +722,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
+          "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
+        },
+        {
           "date": "2026-08-06",
           "title": "AWS Lambda console extends console-to-IDE integration to Kiro and Cursor",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-ide-kiro-cursor/"
@@ -810,16 +820,6 @@
           "date": "2026-07-10",
           "title": "Secure code execution for AI agents with AWS Lambda MicroVMs",
           "url": "https://aws.amazon.com/blogs/compute/secure-code-execution-for-ai-agents-with-aws-lambda-microvms/"
-        },
-        {
-          "date": "2026-07-07",
-          "title": "Amazon EMR Serverless now supports larger worker sizes to run more compute and memory intensive workloads",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-emr-serverless/"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Amazon SageMaker AI now supports serverless model customization for Gemma 4 models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-ai-gemma-4/"
         }
       ],
       "dataStatus": "ok",
@@ -923,6 +923,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-10",
+          "title": "Recover from accidental DynamoDB changes using Bulk Executor",
+          "url": "https://aws.amazon.com/blogs/database/recover-from-accidental-dynamodb-changes-using-bulk-executor/"
+        },
         {
           "date": "2026-08-05",
           "title": "Amazon DynamoDB now supports real-time vector search",
@@ -1146,6 +1151,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-10",
+          "title": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
+          "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
+        },
         {
           "date": "2026-08-03",
           "title": "AWS Lambda Provisioned Mode for Amazon SQS event source mappings now supports up to 10,000 event pollers",
@@ -4242,6 +4252,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Configure AWS Advanced JDBC Wrapper connection pooling with the assistant",
+          "url": "https://aws.amazon.com/blogs/database/configure-aws-advanced-jdbc-wrapper-connection-pooling-with-the-assistant/"
+        },
+        {
           "date": "2026-08-06",
           "title": "MCP tools for Amazon Aurora DSQL: Query execution and schema management",
           "url": "https://aws.amazon.com/blogs/database/mcp-tools-for-amazon-aurora-dsql-query-execution-and-schema-management/"
@@ -4335,11 +4350,6 @@
           "date": "2026-07-01",
           "title": "Cross-account and cross-Region monitoring for Amazon RDS and Aurora with Database Insights",
           "url": "https://aws.amazon.com/blogs/database/cross-account-and-cross-region-monitoring-for-amazon-rds-and-aurora-with-database-insights/"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "User authentication and session management with Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/user-authentication-and-session-management-with-amazon-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -4384,6 +4394,18 @@
           "value": "2 MB/s"
         }
       ],
+      "news": [
+        {
+          "date": "2026-08-10",
+          "title": "AI-powered cost optimization agent for Amazon Kinesis Data Streams",
+          "url": "https://aws.amazon.com/blogs/big-data/ai-powered-cost-optimization-agent-for-amazon-kinesis-data-streams/"
+        },
+        {
+          "date": "2026-07-24",
+          "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down"
+        }
+      ],
       "dataStatus": "partial",
       "pricingDetails": [
         {
@@ -4403,13 +4425,6 @@
           "price": "$0.015",
           "unit": "per shard/hour",
           "description": "$0.015 per shard hour"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-24",
-          "title": "Amazon Kinesis Data Streams now supports scaling down ingest capacity with warm throughput",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/kinesis/on-demand-scale-down"
         }
       ]
     },
@@ -11659,6 +11674,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-08-07",
           "title": "Amazon Bedrock AgentCore adds memory, policy, and harness in AWS GovCloud (US-West)",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-policy-harness-govcloud/"
@@ -11752,11 +11772,6 @@
           "date": "2026-08-04",
           "title": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/"
-        },
-        {
-          "date": "2026-08-04",
-          "title": "Automated web insight extraction with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/"
         }
       ],
       "dataStatus": "partial",
@@ -12279,6 +12294,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
+        },
+        {
           "date": "2026-07-16",
           "title": "Migrate from Apache Solr to Amazon OpenSearch Serverless",
           "url": "https://aws.amazon.com/blogs/big-data/migrate-from-apache-solr-to-amazon-opensearch-serverless/"
@@ -12543,6 +12563,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-10",
+          "title": "Build zero-downtime write architectures for Amazon Neptune",
+          "url": "https://aws.amazon.com/blogs/database/build-zero-downtime-write-architectures-for-amazon-neptune/"
+        },
         {
           "date": "2026-08-06",
           "title": "AWS Backup extends logically air-gapped vault support for Amazon Neptune to three additional AWS Regions",
