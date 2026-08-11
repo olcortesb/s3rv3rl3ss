@@ -2,69 +2,6 @@
   "lastUpdated": "2026-08-11",
   "changes": [
     {
-      "date": "2026-08-10",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
-      "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "dynamodb",
-      "type": "new_news",
-      "detail": "Recover from accidental DynamoDB changes using Bulk Executor",
-      "url": "https://aws.amazon.com/blogs/database/recover-from-accidental-dynamodb-changes-using-bulk-executor/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "sqs",
-      "type": "new_news",
-      "detail": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
-      "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Configure AWS Advanced JDBC Wrapper connection pooling with the assistant",
-      "url": "https://aws.amazon.com/blogs/database/configure-aws-advanced-jdbc-wrapper-connection-pooling-with-the-assistant/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "kinesis",
-      "type": "new_news",
-      "detail": "AI-powered cost optimization agent for Amazon Kinesis Data Streams",
-      "url": "https://aws.amazon.com/blogs/big-data/ai-powered-cost-optimization-agent-for-amazon-kinesis-data-streams/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "opensearch-serverless",
-      "type": "new_news",
-      "detail": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "neptune-serverless",
-      "type": "new_news",
-      "detail": "Build zero-downtime write architectures for Amazon Neptune",
-      "url": "https://aws.amazon.com/blogs/database/build-zero-downtime-write-architectures-for-amazon-neptune/"
-    },
-    {
       "date": "2026-08-07",
       "service": "cognito",
       "type": "new_news",
