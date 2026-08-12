@@ -17,7 +17,7 @@
                 : 'text-gray-400 hover:text-white'
             ]"
           >
-            {{ p.icon }} {{ p.name }}
+            <img :src="p.icon" :alt="p.name" class="w-4 h-4 inline-block brightness-0 invert" /> {{ p.name }}
           </router-link>
         </nav>
       </div>
@@ -26,7 +26,7 @@
       <router-view :key="$route.fullPath" />
     </main>
     <footer class="border-t border-gray-200">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-400">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-500">
         <span>Built by
           <a href="https://linkedin.com/in/olcortesb" target="_blank" class="hover:text-orange-400 transition">olcortesb</a>
         </span>
@@ -34,6 +34,9 @@
           🔄 Updated daily · Last: {{ lastUpdated }}
         </span>
         <a href="https://github.com/olcortesb/s3rv3rl3ss" target="_blank" class="hover:text-orange-400 transition">GitHub</a>
+      </div>
+      <div class="max-w-6xl mx-auto px-4 pb-3 text-center text-xs text-gray-400">
+        This site does not collect personal data or use cookies.
       </div>
     </footer>
   </div>

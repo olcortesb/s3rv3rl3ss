@@ -12,6 +12,7 @@ async function loadData(provider) {
   const modules = {
     aws: () => import('../data/services-aws.json'),
     gcp: () => import('../data/services-gcp.json'),
+    azure: () => import('../data/services-azure.json'),
     stackit: () => import('../data/services-stackit.json'),
   }
   const mod = await modules[provider]()
@@ -24,6 +25,7 @@ async function loadStats(provider) {
   const modules = {
     aws: () => import('../data/statistics.json'),
     gcp: () => import('../data/statistics-gcp.json'),
+    azure: () => import('../data/statistics-azure.json'),
     stackit: () => import('../data/statistics-stackit.json'),
   }
   const mod = await modules[provider]()
@@ -36,6 +38,7 @@ async function loadChangelog(provider) {
   const modules = {
     aws: () => import('../data/changelog.json'),
     gcp: () => import('../data/changelog-gcp.json'),
+    azure: () => import('../data/changelog-azure.json'),
     stackit: () => import('../data/changelog-stackit.json'),
   }
   const mod = await modules[provider]()
