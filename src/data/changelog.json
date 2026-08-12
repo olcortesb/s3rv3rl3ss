@@ -1,6 +1,83 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "changes": [
+    {
+      "date": "2026-08-11",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Enforcing TLS and managing certificate rotation for RDS and Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/enforcing-tls-and-managing-certificate-rotation-for-rds-and-amazon-aurora-postgresql/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrate RDS and Aurora logs to CloudWatch Infrequent Access",
+      "url": "https://aws.amazon.com/blogs/database/migrate-rds-and-aurora-logs-to-cloudwatch-infrequent-access/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock expands IAM principal cost allocation to the bedrock-mantle endpoint",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-expands-iam-principal-cost-allocation-bedrock-mantle/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Deploying Anthropic Claude apps gateway for AWS for enterprise workloads",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "opensearch-serverless",
+      "type": "new_news",
+      "detail": "How GPU acceleration builds billion-scale vector indexes on Amazon OpenSearch Service",
+      "url": "https://aws.amazon.com/blogs/big-data/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon Connect Customer launches performance dashboard for Cases",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access"
+    },
     {
       "date": "2026-08-07",
       "service": "cognito",
@@ -4886,47 +4963,6 @@
       "service": "app-runner",
       "type": "service_added",
       "detail": "AWS App Runner"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": " AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "eventbridge",
-      "type": "new_news",
-      "detail": "Amazon EventBridge Scheduler adds 619 new SDK API actions, including Lambda Managed Instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-eventbridge-sdk-integrations/"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "dynamodb",
-      "type": "new_news",
-      "detail": "Filter, transform, and load your DynamoDB table exports using AWS Glue",
-      "url": "https://aws.amazon.com/blogs/database/filter-transform-and-load-your-dynamodb-table-exports-using-aws-glue/"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Introducing OS Level Actions in Amazon Bedrock AgentCore Browser"
-    },
-    {
-      "date": "2026-05-13",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Migrating Amazon RDS for PostgreSQL to Amazon Aurora using seeded logical replication",
-      "url": "https://aws.amazon.com/blogs/database/migrating-amazon-rds-for-postgresql-to-amazon-aurora-using-seeded-logical-replication/"
     }
   ]
 }
