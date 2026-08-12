@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "totalServices": 23,
+    "totalLimits": 59,
+    "totalNews": 115,
+    "totalPricing": 86,
+    "totalRuntimes": 8,
+    "activeRuntimes": 5,
+    "deprecatedRuntimes": 3
+  },
+  "topServices": {
+    "mostLimits": {
+      "id": "server",
+      "name": "STACKIT Server",
+      "count": 4
+    },
+    "mostNews": {
+      "id": "kubernetes-engine",
+      "name": "STACKIT Kubernetes Engine",
+      "count": 10
+    }
+  },
+  "byCategory": [
+    {
+      "category": "Database",
+      "count": 6
+    },
+    {
+      "category": "Networking",
+      "count": 4
+    },
+    {
+      "category": "Containers",
+      "count": 2
+    },
+    {
+      "category": "Security",
+      "count": 2
+    },
+    {
+      "category": "Observability",
+      "count": 2
+    },
+    {
+      "category": "Compute",
+      "count": 2
+    },
+    {
+      "category": "DevOps",
+      "count": 2
+    },
+    {
+      "category": "Storage",
+      "count": 1
+    },
+    {
+      "category": "Integration",
+      "count": 1
+    },
+    {
+      "category": "AI/ML",
+      "count": 1
+    }
+  ],
+  "lastUpdated": "2026-08-12"
+}
