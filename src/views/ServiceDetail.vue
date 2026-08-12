@@ -289,7 +289,7 @@ const newsHistory = computed(() =>
 
 const mergedNews = computed(() => {
   const fromService = (service.value?.news || []).map(n => ({ date: n.date, title: n.title, url: n.url }))
-  const fromChangelog = newsHistory.value.map(c => ({ date: c.date, title: c.detail, url: c.url || '' }))
+  const fromChangelog = newsHistory.value.filter(c => c.type === 'new_news').map(c => ({ date: c.date, title: c.detail, url: c.url || '' }))
   const seen = new Set()
   const merged = []
   for (const n of [...fromService, ...fromChangelog]) {
