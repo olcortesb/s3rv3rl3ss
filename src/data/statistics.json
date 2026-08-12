@@ -1,8 +1,8 @@
 {
   "summary": {
-    "totalServices": 31,
-    "totalQuotas": 1999,
-    "totalLimits": 200,
+    "totalServices": 32,
+    "totalQuotas": 2095,
+    "totalLimits": 208,
     "totalNews": 263,
     "totalRuntimes": 22,
     "activeRuntimes": 22,
@@ -47,11 +47,11 @@
       "count": 2
     },
     {
-      "category": "Storage",
-      "count": 1
+      "category": "AI/ML",
+      "count": 2
     },
     {
-      "category": "AI/ML",
+      "category": "Storage",
       "count": 1
     },
     {
