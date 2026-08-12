@@ -2,7 +2,9 @@
   <div>
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
-    <h1 class="text-2xl font-bold text-gray-900 mb-6">Compare Services</h1>
+    <h1 class="text-2xl font-bold text-gray-900 mb-1">Compare Services</h1>
+    <p v-if="comparisons.lastUpdated" class="text-xs text-gray-400 mb-6">Last updated: {{ comparisons.lastUpdated }}</p>
+    <p v-else class="mb-6"></p>
 
     <!-- Category selector -->
     <div class="flex flex-wrap gap-3 mb-8">
