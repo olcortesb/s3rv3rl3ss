@@ -24,7 +24,7 @@
         <template v-else-if="props.provider === 'azure'">
           <span>📊 Limits via static data (docs)</span>
           <span>💰 Pricing via <a href="https://prices.azure.com/api/retail/prices" target="_blank" class="underline hover:text-orange-500">Azure Retail Prices API</a></span>
-          <span>📰 News via <a href="https://azure.microsoft.com/en-us/blog/feed/" target="_blank" class="underline hover:text-orange-500">Azure Blog RSS</a></span>
+          <span>📰 News via <a href="https://azure.microsoft.com/en-us/blog/feed/" target="_blank" class="underline hover:text-orange-500">Azure Blog</a>, <a href="https://azureweekly.info/rss.xml" target="_blank" class="underline hover:text-orange-500">Azure Weekly</a>, <a href="https://devblogs.microsoft.com/cosmosdb/feed/" target="_blank" class="underline hover:text-orange-500">CosmosDB Blog</a>, <a href="https://devblogs.microsoft.com/azure-sql/feed/" target="_blank" class="underline hover:text-orange-500">Azure SQL Blog</a></span>
           <span>⚙️ Runtimes via static data (docs)</span>
         </template>
       </div>
