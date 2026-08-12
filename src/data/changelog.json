@@ -9,17 +9,10 @@
     },
     {
       "date": "2026-08-11",
-      "service": "aurora-serverless",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Enforcing TLS and managing certificate rotation for RDS and Amazon Aurora PostgreSQL",
-      "url": "https://aws.amazon.com/blogs/database/enforcing-tls-and-managing-certificate-rotation-for-rds-and-amazon-aurora-postgresql/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Migrate RDS and Aurora logs to CloudWatch Infrequent Access",
-      "url": "https://aws.amazon.com/blogs/database/migrate-rds-and-aurora-logs-to-cloudwatch-infrequent-access/"
+      "detail": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/"
     },
     {
       "date": "2026-08-11",
@@ -32,57 +25,22 @@
       "date": "2026-08-11",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "bedrock",
-      "type": "new_news",
       "detail": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/"
     },
     {
       "date": "2026-08-11",
-      "service": "bedrock",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/"
+      "detail": "Enforcing TLS and managing certificate rotation for RDS and Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/enforcing-tls-and-managing-certificate-rotation-for-rds-and-amazon-aurora-postgresql/"
     },
     {
       "date": "2026-08-11",
-      "service": "bedrock",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Deploying Anthropic Claude apps gateway for AWS for enterprise workloads",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "secrets-manager",
-      "type": "new_news",
-      "detail": "AWS Secrets Manager adds managed external secrets support for Jenkins and SonarQube",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-integration-jenkins-sonarqube/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "opensearch-serverless",
-      "type": "new_news",
-      "detail": "How GPU acceleration builds billion-scale vector indexes on Amazon OpenSearch Service",
-      "url": "https://aws.amazon.com/blogs/big-data/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "Amazon Connect Customer launches performance dashboard for Cases",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-dashboard/"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/smus-glue-access"
+      "detail": "Migrate RDS and Aurora logs to CloudWatch Infrequent Access",
+      "url": "https://aws.amazon.com/blogs/database/migrate-rds-and-aurora-logs-to-cloudwatch-infrequent-access/"
     },
     {
       "date": "2026-08-07",
