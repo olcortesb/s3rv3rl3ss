@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-08-12",
   "services": [
     {
       "id": "azure-functions",
@@ -107,9 +107,54 @@
       ],
       "news": [
         {
-          "date": "2026-06-02",
-          "title": "Foundry IQ: Build smarter agents faster with unified knowledge and serverless retrieval",
-          "url": "https://devblogs.microsoft.com/foundry/build-smarter-agents-faster-with-foundry-iq/"
+          "date": "2026-06-07",
+          "title": "Azure Functions at Build 2026 Update",
+          "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/azure-functions-at-build-2026-update/4524075"
+        },
+        {
+          "date": "2026-05-31",
+          "title": "Azure Functions MCP extension now supports MCP Prompts",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-mcp-extension-now-supports-mcp-prompts/ba-p/4516359"
+        },
+        {
+          "date": "2026-04-19",
+          "title": "Integration Testing Azure Functions with Reqnroll and C#, Part 1 - Introduction",
+          "url": "https://endjin.com/blog/integration-testing-azure-functions-with-reqnroll-and-csharp-part-1-introduction"
+        },
+        {
+          "date": "2026-04-19",
+          "title": "Azure Static Web Apps: dynamic redirects with Azure Functions",
+          "url": "https://johnnyreilly.com/azure-static-web-apps-dynamic-redirects-azure-functions"
+        },
+        {
+          "date": "2026-03-01",
+          "title": "Rethinking Background Workloads with Azure Functions on Azure Container Apps",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/rethinking-background-workloads-with-azure-functions-on-azure/ba-p/4496861"
+        },
+        {
+          "date": "2026-03-01",
+          "title": "Host Declarative Markdown-Based Agents on Azure Functions",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/host-declarative-markdown-based-agents-on-azure-functions/ba-p/4496038"
+        },
+        {
+          "date": "2026-02-08",
+          "title": "Serverless workspaces in Azure Databricks (GA)",
+          "url": "https://azure.microsoft.com/updates?id=550845"
+        },
+        {
+          "date": "2025-12-07",
+          "title": "Serverless Workspaces are live in Azure Databricks",
+          "url": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/serverless-workspaces-are-live-in-azure-databricks/ba-p/4474712"
+        },
+        {
+          "date": "2025-11-09",
+          "title": "Build and Host an Expense Tracking MCP Server with Azure Functions",
+          "url": "https://achrafbenalaya.com/2025/11/02/build-and-host-an-expense-tracking-mcp-server-with-azure-functions/"
+        },
+        {
+          "date": "2025-11-02",
+          "title": "Public Preview: Azure Functions zero-downtime deployments with rolling updates in Flex Consumption",
+          "url": "https://azure.microsoft.com/updates?id=520822"
         }
       ],
       "pricingDetails": [
@@ -213,6 +258,53 @@
         {
           "name": "Request timeout",
           "value": "240 seconds"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-02",
+          "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
+          "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/bring-your-own-orchestrator-to-azure-container-apps-jobs/4541275"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "What's new in Azure Container Apps at Build'26",
+          "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/whats-new-in-azure-container-apps-at-build26/4524184"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "Introducing Azure Container Apps Express",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150"
+        },
+        {
+          "date": "2026-04-12",
+          "title": "Azure Container Apps Blue-Green Terraform Deployment",
+          "url": "https://azureway.cloud/azure-container-apps-blue-green-terraform-deployment/"
+        },
+        {
+          "date": "2026-03-08",
+          "title": "Even Simpler to Safely Execute AI-generated Code with Azure Container Apps Dynamic Sessions",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/even-simpler-to-safely-execute-ai-generated-code-with-azure/ba-p/4499795"
+        },
+        {
+          "date": "2026-03-01",
+          "title": "Rethinking Background Workloads with Azure Functions on Azure Container Apps",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/rethinking-background-workloads-with-azure-functions-on-azure/ba-p/4496861"
+        },
+        {
+          "date": "2025-10-26",
+          "title": ".NET Aspire 6: Deployment Using Azure Container Apps",
+          "url": "https://www.daveabrock.com/2025/10/21/net-aspire-6-deployment-using-azure-container-apps/"
+        },
+        {
+          "date": "2025-10-12",
+          "title": "Choosing the Right Azure Containerisation Strategy: AKS, App Service, or Container Apps",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/choosing-the-right-azure-containerisation-strategy-aks-app/ba-p/4456645"
+        },
+        {
+          "date": "2025-09-14",
+          "title": "Building Agentic Workflows with n8n and Azure Container Apps",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-agentic-workflows-with-n8n-and-azure-container-apps/ba-p/4452362"
         }
       ],
       "pricingDetails": [
@@ -322,6 +414,58 @@
         {
           "name": "Max regions",
           "value": "Unlimited"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-10",
+          "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+          "url": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/"
+        },
+        {
+          "date": "2026-07-24",
+          "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+          "url": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
+          "url": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
+          "url": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "See our new Azure Cosmos DB Design Patterns",
+          "url": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+          "url": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
+          "url": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Which Azure Cosmos DB Role Does My App Need?",
+          "url": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need/"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+          "url": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
+          "url": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/"
         }
       ],
       "pricingDetails": [
@@ -728,6 +872,13 @@
           "value": "1,000"
         }
       ],
+      "news": [
+        {
+          "date": "2025-11-23",
+          "title": "Public Preview of Agent Loop in Azure Logic Apps Consumption",
+          "url": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-public-preview-of-agent-loop-in-azure-logic-apps/ba-p/4471056"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Standard Memory Duration",
@@ -760,6 +911,12 @@
           "description": "$0.00 per 1 (Consumption)"
         },
         {
+          "label": "Connectors Standard Connector Actions",
+          "price": "$0.000125",
+          "unit": "per 1",
+          "description": "$0.000125 per 1 (Connectors)"
+        },
+        {
           "label": "Scale Unit",
           "price": "$3.32",
           "unit": "per 1 Hour",
@@ -782,12 +939,6 @@
           "price": "$0.000125",
           "unit": "per 1",
           "description": "$0.000125 per 1 (Consumption)"
-        },
-        {
-          "label": "Hybrid vCPU Duration",
-          "price": "$0.1800",
-          "unit": "per 1 Hour",
-          "description": "$0.1800 per 1 Hour (Hybrid)"
         }
       ]
     },
@@ -835,6 +986,28 @@
         {
           "name": "Max policy size",
           "value": "256 KB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-06-28",
+          "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
+          "url": "https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/mcp-server-authorization-with-azure-api-management-from-simple-to-advanced/4528869"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "What's new in Azure API Management at Microsoft Build 2026",
+          "url": "https://techcommunity.microsoft.com/blog/IntegrationsonAzureBlog/whats-new-in-azure-api-management-at-microsoft-build-2026/4524683"
+        },
+        {
+          "date": "2026-03-15",
+          "title": "Implementing the Backend-for-Frontend BFF / Curated API Pattern Using Azure API Management",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/implementing-the-backend-for-frontend-bff-curated-api-pattern/ba-p/4499880"
+        },
+        {
+          "date": "2025-11-09",
+          "title": "Use Python library for the OpenAI APIs to access GPT-5 model on Azure OpenAI Service behind Azure API Management",
+          "url": "https://medium.com/microsoftazure/use-python-library-for-the-openai-apis-to-access-gpt-5-model-on-azure-openai-service-behind-azure-3faf324d3aef"
         }
       ],
       "pricingDetails": [
@@ -944,9 +1117,24 @@
       ],
       "news": [
         {
-          "date": "2026-06-16",
-          "title": "Modernize your data with Azure Storage: Plan and migrate with confidence",
-          "url": "https://azure.microsoft.com/en-us/blog/modernize-your-data-with-azure-storage-plan-and-migrate-with-confidence/"
+          "date": "2026-03-15",
+          "title": "Stop Burning Money in Azure Storage",
+          "url": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/stop-burning-money-in-azure-storage/ba-p/4500208"
+        },
+        {
+          "date": "2025-12-07",
+          "title": "Azure Blob Storage SFTP - Resumable Uploads (GA)",
+          "url": "https://azure.microsoft.com/updates?id=499438"
+        },
+        {
+          "date": "2025-10-26",
+          "title": "Threat activity targeting Azure Blob Storage",
+          "url": "https://www.microsoft.com/en-us/security/blog/2025/10/20/inside-the-attack-chain-threat-activity-targeting-azure-blob-storage/"
+        },
+        {
+          "date": "2025-10-12",
+          "title": "cross-resource metrics and alerts support for Azure Storage",
+          "url": "https://techcommunity.microsoft.com/t5/azure-storage-blog/introducing-cross-resource-metrics-and-alerts-support-for-azure/ba-p/4459193"
         }
       ],
       "pricingDetails": [
@@ -1180,6 +1368,18 @@
           "value": "10"
         }
       ],
+      "news": [
+        {
+          "date": "2026-04-19",
+          "title": "Azure Static Web Apps: dynamic redirects with Azure Functions",
+          "url": "https://johnnyreilly.com/azure-static-web-apps-dynamic-redirects-azure-functions"
+        },
+        {
+          "date": "2026-02-01",
+          "title": "Azure Static Web Apps Skill for GitHub Copilot",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-the-azure-static-web-apps-skill-for-github-copilot/ba-p/4487920"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "Standard plan",
@@ -1231,12 +1431,118 @@
           "value": "5,000"
         }
       ],
+      "news": [
+        {
+          "date": "2026-07-26",
+          "title": "Azure Kubernetes Service (AKS) on Bare Metal",
+          "url": "https://www.thomasmaurer.ch/2026/07/azure-kubernetes-service-aks-on-bare-metal/"
+        },
+        {
+          "date": "2026-06-21",
+          "title": "What’s new with Microsoft in open source and Kubernetes at Open Source Summit and KubeCon India",
+          "url": "https://opensource.microsoft.com/blog/2026/06/17/whats-new-with-microsoft-in-open-source-and-kubernetes-at-open-source-summit-and-kubecon-india/"
+        },
+        {
+          "date": "2026-06-21",
+          "title": "Azure Container Linux for AKS: Flatcar Grows Up",
+          "url": "https://pixelrobots.co.uk/2026/06/azure-container-linux-for-aks-flatcar-grows-up/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=azure-container-linux-for-aks-flatcar-grows-up"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "What's new in Azure Kubernetes Service at Microsoft Build 2026",
+          "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/whats-new-in-azure-kubernetes-service-at-microsoft-build-2026/4524862"
+        },
+        {
+          "date": "2026-05-24",
+          "title": "Powering multi-cluster workloads with seamless crosscluster networking for Azure Kubernetes Fleet Manager",
+          "url": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "Giving the Copilot SDK Agent a hardware-level helmet using Kata microVM on AKS",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-the-copilot-sdk-agent-a-quot-hardware-level-helmet-quot/ba-p/4518668"
+        },
+        {
+          "date": "2026-05-03",
+          "title": "Hardening OpenClaw on AKS: Mitigating Container Escapes with Kata microVM Isolation",
+          "url": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hardening-openclaw-on-aks-mitigating-container-escapes-with-kata/ba-p/4516030"
+        },
+        {
+          "date": "2026-04-26",
+          "title": "Entra Workload Identity on AKS: No More Secrets",
+          "url": "https://adamtheautomator.com/entra-workload-identity-aks-no-more-secrets/"
+        },
+        {
+          "date": "2026-04-26",
+          "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
+          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729"
+        },
+        {
+          "date": "2026-03-29",
+          "title": "What's new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026",
+          "url": "https://opensource.microsoft.com/blog/2026/03/24/whats-new-with-microsoft-in-open-source-and-kubernetes-at-kubecon-cloudnativecon-europe-2026/"
+        }
+      ],
       "pricingDetails": [
         {
-          "label": "Cluster management (Standard)",
-          "price": "$0.10",
-          "unit": "per cluster/hour",
-          "description": "$0.10 per cluster per hour"
+          "label": "Standard Uptime SLA",
+          "price": "$0.1000",
+          "unit": "per 1 Hour",
+          "description": "$0.1000 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Automatic High Performance Compute",
+          "price": "$0.007312",
+          "unit": "per 1 Hour",
+          "description": "$0.007312 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic General Purpose",
+          "price": "$0.007841",
+          "unit": "per 1 Hour",
+          "description": "$0.007841 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic GPU Accelerated",
+          "price": "$0.0360",
+          "unit": "per 1 Hour",
+          "description": "$0.0360 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Confidential Compute",
+          "price": "$0.0121",
+          "unit": "per 1 Hour",
+          "description": "$0.0121 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Memory Optimized",
+          "price": "$0.0124",
+          "unit": "per 1 Hour",
+          "description": "$0.0124 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Hosted Control Plane",
+          "price": "$0.1600",
+          "unit": "per 1 Hour",
+          "description": "$0.1600 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Standard Long Term Support",
+          "price": "$0.6000",
+          "unit": "per 1 Hour",
+          "description": "$0.6000 per 1 Hour (Standard)"
+        },
+        {
+          "label": "Automatic Storage Optimized",
+          "price": "$0.0145",
+          "unit": "per 1 Hour",
+          "description": "$0.0145 per 1 Hour (Automatic)"
+        },
+        {
+          "label": "Automatic Compute Optimized",
+          "price": "$0.0122",
+          "unit": "per 1 Hour",
+          "description": "$0.0122 per 1 Hour (Automatic)"
         }
       ]
     },
@@ -1282,6 +1588,58 @@
           "value": "1,600 (at 80 vCores)"
         }
       ],
+      "news": [
+        {
+          "date": "2026-08-10",
+          "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+          "url": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Refactor your database with SQL projects in VS Code",
+          "url": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Build locally, ship to Azure: meet Azure SQL Developer",
+          "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "T-SQL Hygiene: Introducing the Covering Index",
+          "url": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
+          "url": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
+          "url": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Fundamentals of Azure DevOps with SQL projects",
+          "url": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "Audit Frontier AI Agents with SQL MCP Server",
+          "url": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
+          "url": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "Compose your API surface with Data API builder custom paths",
+          "url": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "vCore (General Purpose)",
@@ -1325,6 +1683,58 @@
           "value": "50"
         }
       ],
+      "news": [
+        {
+          "date": "2026-05-03",
+          "title": "Microsoft-OpenAI rewrite opens the door for Anthropic and Google",
+          "url": "https://thenewstack.io/openai-microsoft-partnership-restructured/"
+        },
+        {
+          "date": "2026-04-26",
+          "title": "Extracting BOMs from Electrical Drawings with AI: Azure OpenAI GPT-5.4 + Azure Document Intelligence",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/extracting-boms-from-electrical-drawings-with-ai-azure-openai/ba-p/4506891"
+        },
+        {
+          "date": "2026-03-01",
+          "title": "Build Sensitivity Label‑Aware, Secure RAG with Azure AI Search and Purview",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-sensitivity-label-aware-secure-rag-with-azure-ai-search/ba-p/4496598"
+        },
+        {
+          "date": "2026-01-11",
+          "title": "Automated Code Reviews in Azure DevOps using OpenAI models powered by Microsoft Foundry",
+          "url": "https://johnlokerse.dev/2026/01/06/automated-code-reviews-in-azure-devops-using-openai-models-powered-by-microsoft-foundry/"
+        },
+        {
+          "date": "2025-12-14",
+          "title": "Next-Level RAG on Azure: Building Knowledge Bases with Azure AI Search and Foundry",
+          "url": "https://itnext.io/next-level-rag-on-azure-building-knowledge-bases-with-azure-ai-search-and-foundry-6d88d60e7202?source=rss----5b301f10ddcd---4"
+        },
+        {
+          "date": "2025-11-16",
+          "title": "Infinite scale: The architecture behind the Azure AI superfactory",
+          "url": "https://aka.ms/AAyjgcy"
+        },
+        {
+          "date": "2025-11-09",
+          "title": "Use Python library for the OpenAI APIs to access GPT-5 model on Azure OpenAI Service behind Azure API Management",
+          "url": "https://medium.com/microsoftazure/use-python-library-for-the-openai-apis-to-access-gpt-5-model-on-azure-openai-service-behind-azure-3faf324d3aef"
+        },
+        {
+          "date": "2025-11-02",
+          "title": "Simplify Search Development with the New Azure AI Search Wizard",
+          "url": "https://techcommunity.microsoft.com/t5/azure-ai-foundry-blog/simplify-search-development-with-the-new-azure-ai-search-wizard/ba-p/4465463"
+        },
+        {
+          "date": "2025-10-26",
+          "title": "Context-Aware RAG System with Azure AI Search to Cut Token Costs and Boost Accuracy",
+          "url": "https://techcommunity.microsoft.com/t5/azure-ai-foundry-blog/context-aware-rag-system-with-azure-ai-search-to-cut-token-costs/ba-p/4456810"
+        },
+        {
+          "date": "2025-10-12",
+          "title": "GPT-5 model family now powers Azure AI Foundry Agent Service",
+          "url": "https://techcommunity.microsoft.com/t5/azure-ai-foundry-blog/gpt-5-model-family-now-powers-azure-ai-foundry-agent-service/ba-p/4454860"
+        }
+      ],
       "pricingDetails": [
         {
           "label": "GPT-4o input",
@@ -1366,6 +1776,13 @@
         {
           "name": "Max vaults per subscription per region",
           "value": "400"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-09",
+          "title": "Azure Key Vault Premium and AES-KW Post Quantum Resistant Key Wrapping in Public Preview",
+          "url": "https://techcommunity.microsoft.com/blog/post-quantum-crypto-tech-blog/azure-key-vault-premium-and-aes-kw-post-quantum-resistant-key-wrapping-in-public/4544358"
         }
       ],
       "pricingDetails": [
@@ -1621,6 +2038,38 @@
           "name": "Max pipeline timeout",
           "value": "7 days"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-03-22",
+          "title": "Audit columns in Copy job in Fabric Data Factory - every row is traceable for data lineage and compliance",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/audit-columns-in-copy-job-in-fabric-data-factory-every-row-is-traceable-for-data-lineage-and-compliance/"
+        },
+        {
+          "date": "2026-02-01",
+          "title": "Workspace Outbound Access Protection for Data Factory and OneLake Shortcuts (Preview)",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/workspace-outbound-access-protection-for-data-factory/"
+        },
+        {
+          "date": "2025-11-23",
+          "title": "Igniting Your Pipelines: New Data Factory Features Announced at Ignite",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/igniting-your-pipelines-new-data-factory-features-announced-at-ignite/"
+        },
+        {
+          "date": "2025-10-05",
+          "title": "what's new in Fabric Data Factory",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/mission-critical-data-integration-whats-new-in-fabric-data-factory/"
+        },
+        {
+          "date": "2025-10-05",
+          "title": "reliably refreshing a Semantic Model from Azure Data Factory or Synapse Pipelines",
+          "url": "https://endjin.com/blog/2025/10/refresh-semantic-model-data-factory-synapse-pipelines.html"
+        },
+        {
+          "date": "2025-09-28",
+          "title": "New Innovations for Fabric Data Factory Orchestration",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/announcing-new-innovations-for-fabric-data-factory-orchestration-at-fabric-conference-europe-2025/"
+        }
       ]
     },
     {
@@ -1656,6 +2105,33 @@
           "name": "Max columns per query",
           "value": "8,060"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-03-29",
+          "title": "Upgrade your Synapse pipelines to Microsoft Fabric with confidence (Preview)",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/upgrade-your-synapse-pipelines-to-microsoft-fabric-with-confidence-preview/"
+        },
+        {
+          "date": "2025-10-19",
+          "title": "Azure Synapse Runtime for Apache Spark 3.5",
+          "url": "https://blog.fabric.microsoft.com/en-GB/blog/general-availability-azure-synapse-runtime-for-apache-spark-3-5/"
+        },
+        {
+          "date": "2025-10-05",
+          "title": "reliably refreshing a Semantic Model from Azure Data Factory or Synapse Pipelines",
+          "url": "https://endjin.com/blog/2025/10/refresh-semantic-model-data-factory-synapse-pipelines.html"
+        },
+        {
+          "date": "2025-10-05",
+          "title": "batch processing triggered pipeline runs in Azure Synapse",
+          "url": "https://endjin.com/blog/2025/10/batch-triggered-pipeline-runs-azure-synapse.html"
+        },
+        {
+          "date": "2025-07-27",
+          "title": "Writing structured data to SharePoint from Synapse Notebooks",
+          "url": "https://endjin.com/blog/2025/07/synapse-notebooks-write-sharepoint-data"
+        }
       ]
     },
     {
@@ -1690,6 +2166,13 @@
         {
           "name": "Max video call participants",
           "value": "1,000"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-08-10",
+          "title": "Replacing SendGrid Free Tier with Azure Communication Services for Emails via SMTP",
+          "url": "https://www.blueboxes.co.uk/replacing-sendgrid-free-tier-with-azure-communication-services-for-emails-via-smtp/"
         }
       ]
     },
@@ -1764,6 +2247,13 @@
         {
           "name": "Max custom domains per endpoint",
           "value": "25"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-09-07",
+          "title": "Azure CDN retirement, and the need to migrate to Azure Front Door on December 1, 2025",
+          "url": "https://azure.microsoft.com/updates?id=501174"
         }
       ]
     }
