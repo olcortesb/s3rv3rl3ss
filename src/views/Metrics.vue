@@ -68,7 +68,10 @@
           <div v-if="Object.keys(metrics.today.functions).length" class="space-y-2">
             <div v-for="(fn, name) in metrics.today.functions" :key="name" class="flex justify-between text-sm">
               <span class="text-gray-600">{{ name }}</span>
-              <span class="text-gray-400">{{ fn.invocations }}× · {{ fn.avgDurationMs }}ms</span>
+              <span class="text-gray-400">
+                {{ fn.invocations }}× · {{ fn.avgDurationMs }}ms
+                <span v-if="fn.errors > 0" class="ml-1 text-red-500">· {{ fn.errors }} err</span>
+              </span>
             </div>
           </div>
         </div>
@@ -93,7 +96,10 @@
           <div v-if="Object.keys(metrics.month.functions).length" class="space-y-2">
             <div v-for="(fn, name) in metrics.month.functions" :key="name" class="flex justify-between text-sm">
               <span class="text-gray-600">{{ name }}</span>
-              <span class="text-gray-400">{{ fn.invocations }}× · {{ formatDuration(fn.totalDurationMs) }}</span>
+              <span class="text-gray-400">
+                {{ fn.invocations }}× · {{ formatDuration(fn.totalDurationMs) }}
+                <span v-if="fn.errors > 0" class="ml-1 text-red-500">· {{ fn.errors }} err</span>
+              </span>
             </div>
           </div>
         </div>
