@@ -133,7 +133,7 @@
         <ul class="space-y-2">
           <li v-for="n in mergedNews" :key="n.title" class="flex gap-3 text-sm items-start">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
-            <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }} ↗</a>
+            <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }}</a>
             <span v-else class="text-gray-700">{{ n.title }}</span>
             <div class="shrink-0 flex gap-1">
               <button @click="copyForLinkedIn(n)" :title="copiedId === n.title ? 'Copied!' : 'Copy post (no link — more reach)'" class="text-gray-400 hover:text-green-600 transition">
