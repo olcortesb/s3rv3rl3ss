@@ -3,7 +3,7 @@
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Providers</router-link>
 
     <div class="mb-8 text-center">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2">{{ providerInfo.icon }} {{ providerInfo.name }} s3rv3rl3ss</h1>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-3"><img :src="providerInfo.icon" :alt="providerInfo.name" class="w-8 h-8" /> {{ providerInfo.name }} s3rv3rl3ss</h1>
       <p class="text-gray-500 mb-3">
         Runtimes, limits, quotas & news — updated daily
         <span v-if="props.provider === 'aws' && providerData?.region" class="inline-block ml-2 px-2 py-0.5 text-xs font-medium bg-orange-100 text-orange-700 rounded-full">📍 {{ providerData.region }}</span>
@@ -25,6 +25,12 @@
           <span>📊 Limits via static data (docs)</span>
           <span>💰 Pricing via <a href="https://prices.azure.com/api/retail/prices" target="_blank" class="underline hover:text-orange-500">Azure Retail Prices API</a></span>
           <span>📰 News via <a href="https://azure.microsoft.com/en-us/blog/feed/" target="_blank" class="underline hover:text-orange-500">Azure Blog</a>, <a href="https://azureweekly.info/rss.xml" target="_blank" class="underline hover:text-orange-500">Azure Weekly</a>, <a href="https://devblogs.microsoft.com/cosmosdb/feed/" target="_blank" class="underline hover:text-orange-500">CosmosDB Blog</a>, <a href="https://devblogs.microsoft.com/azure-sql/feed/" target="_blank" class="underline hover:text-orange-500">Azure SQL Blog</a></span>
+          <span>⚙️ Runtimes via static data (docs)</span>
+        </template>
+        <template v-else-if="props.provider === 'stackit'">
+          <span>📊 Limits via static data (docs)</span>
+          <span>💰 Pricing via <a href="https://pim.api.stackit.cloud/v1/skus" target="_blank" class="underline hover:text-orange-500">STACKIT PIM API</a></span>
+          <span>📰 News via <a href="https://docs.stackit.cloud/release-notes/feed.xml" target="_blank" class="underline hover:text-orange-500">STACKIT Release Notes RSS</a></span>
           <span>⚙️ Runtimes via static data (docs)</span>
         </template>
       </div>

@@ -16,7 +16,7 @@
       </router-link>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
       <router-link
         v-for="p in providers"
         :key="p.id"
@@ -24,7 +24,7 @@
         class="group block rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
         :class="cardClass(p.id)"
       >
-        <span class="text-5xl block mb-4">{{ p.icon }}</span>
+        <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
         <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
         <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
       </router-link>
@@ -61,7 +61,7 @@
 import { ref, onMounted } from 'vue'
 import { providers, getProviderData } from '../data/index.js'
 
-const counts = ref({ aws: 0, gcp: 0, azure: 0 })
+const counts = ref({ aws: 0, gcp: 0, azure: 0, stackit: 0 })
 
 onMounted(async () => {
   for (const p of providers) {
@@ -79,6 +79,7 @@ function cardClass(id) {
     aws: 'border-orange-200 bg-orange-50/50 hover:border-orange-400 hover:shadow-lg hover:shadow-orange-100',
     gcp: 'border-blue-200 bg-blue-50/50 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-100',
     azure: 'border-purple-200 bg-purple-50/50 hover:border-purple-400 hover:shadow-lg hover:shadow-purple-100',
+    stackit: 'border-green-200 bg-green-50/50 hover:border-green-400 hover:shadow-lg hover:shadow-green-100',
   }[id]
 }
 </script>

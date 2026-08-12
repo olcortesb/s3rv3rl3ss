@@ -12,7 +12,7 @@ async function loadData(provider) {
   const modules = {
     aws: () => import('../data/services-aws.json'),
     gcp: () => import('../data/services-gcp.json'),
-    azure: () => import('../data/services-azure.json'),
+    stackit: () => import('../data/services-stackit.json'),
   }
   const mod = await modules[provider]()
   dataCache[provider] = mod.default
@@ -24,7 +24,7 @@ async function loadStats(provider) {
   const modules = {
     aws: () => import('../data/statistics.json'),
     gcp: () => import('../data/statistics-gcp.json'),
-    azure: () => import('../data/statistics-azure.json'),
+    stackit: () => import('../data/statistics-stackit.json'),
   }
   const mod = await modules[provider]()
   statsCache[provider] = mod.default
@@ -36,7 +36,7 @@ async function loadChangelog(provider) {
   const modules = {
     aws: () => import('../data/changelog.json'),
     gcp: () => import('../data/changelog-gcp.json'),
-    azure: () => import('../data/changelog-azure.json'),
+    stackit: () => import('../data/changelog-stackit.json'),
   }
   const mod = await modules[provider]()
   changelogCache[provider] = mod.default
@@ -56,7 +56,7 @@ export async function getChangelog(serviceId, providerId) {
     const data = await loadChangelog(providerId)
     return (data?.changes || []).filter(c => c.service === serviceId)
   }
-  for (const pid of ['aws', 'gcp', 'azure']) {
+  for (const pid of ['aws', 'gcp', 'azure', 'stackit']) {
     const data = await loadChangelog(pid)
     const matches = (data?.changes || []).filter(c => c.service === serviceId)
     if (matches.length) return matches
