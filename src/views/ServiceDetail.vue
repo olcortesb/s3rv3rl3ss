@@ -261,6 +261,7 @@ function copyForLinkedIn(news) {
   const tag = props.provider.toUpperCase()
   const svcTag = service.value.name.replace(/\s+/g, '')
   const text = `🆕 ${news.title}\n\n🔗 ${news.url || ''}\n\nMore news at https://s3rv3rl3ss.olcortesb.com\n\n#${tag} #${svcTag} #Serverless #CloudComputing #CloudNative #s3rv3rl3ss`
+  navigator.clipboard.writeText(text)
   copiedId.value = news.title
   setTimeout(() => { copiedId.value = null }, 2000)
 }
