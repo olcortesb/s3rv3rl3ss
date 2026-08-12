@@ -2,6 +2,244 @@
   "lastUpdated": "2026-08-12",
   "changes": [
     {
+      "date": "2026-06-07",
+      "service": "azure-functions",
+      "type": "new_news",
+      "detail": "Azure Functions at Build 2026 Update",
+      "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/azure-functions-at-build-2026-update/4524075"
+    },
+    {
+      "date": "2026-05-31",
+      "service": "azure-functions",
+      "type": "new_news",
+      "detail": "Azure Functions MCP extension now supports MCP Prompts",
+      "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-mcp-extension-now-supports-mcp-prompts/ba-p/4516359"
+    },
+    {
+      "date": "2026-08-02",
+      "service": "container-apps",
+      "type": "new_news",
+      "detail": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
+      "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/bring-your-own-orchestrator-to-azure-container-apps-jobs/4541275"
+    },
+    {
+      "date": "2026-06-07",
+      "service": "container-apps",
+      "type": "new_news",
+      "detail": "What's new in Azure Container Apps at Build'26",
+      "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/whats-new-in-azure-container-apps-at-build26/4524184"
+    },
+    {
+      "date": "2026-05-17",
+      "service": "container-apps",
+      "type": "new_news",
+      "detail": "Introducing Azure Container Apps Express",
+      "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-express/ba-p/4519150"
+    },
+    {
+      "date": "2026-08-10",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+      "url": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/"
+    },
+    {
+      "date": "2026-07-24",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+      "url": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "AI agents, meet the Azure Cosmos DB vNext emulator",
+      "url": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/"
+    },
+    {
+      "date": "2026-07-08",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
+      "url": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "See our new Azure Cosmos DB Design Patterns",
+      "url": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/"
+    },
+    {
+      "date": "2026-07-06",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+      "url": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/"
+    },
+    {
+      "date": "2026-06-29",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
+      "url": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Which Azure Cosmos DB Role Does My App Need?",
+      "url": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need/"
+    },
+    {
+      "date": "2026-06-22",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
+      "url": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/"
+    },
+    {
+      "date": "2026-06-17",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
+      "url": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/"
+    },
+    {
+      "date": "2026-06-28",
+      "service": "api-management",
+      "type": "new_news",
+      "detail": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
+      "url": "https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/mcp-server-authorization-with-azure-api-management-from-simple-to-advanced/4528869"
+    },
+    {
+      "date": "2026-06-07",
+      "service": "api-management",
+      "type": "new_news",
+      "detail": "What's new in Azure API Management at Microsoft Build 2026",
+      "url": "https://techcommunity.microsoft.com/blog/IntegrationsonAzureBlog/whats-new-in-azure-api-management-at-microsoft-build-2026/4524683"
+    },
+    {
+      "date": "2026-07-26",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "Azure Kubernetes Service (AKS) on Bare Metal",
+      "url": "https://www.thomasmaurer.ch/2026/07/azure-kubernetes-service-aks-on-bare-metal/"
+    },
+    {
+      "date": "2026-06-21",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "What’s new with Microsoft in open source and Kubernetes at Open Source Summit and KubeCon India",
+      "url": "https://opensource.microsoft.com/blog/2026/06/17/whats-new-with-microsoft-in-open-source-and-kubernetes-at-open-source-summit-and-kubecon-india/"
+    },
+    {
+      "date": "2026-06-21",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "Azure Container Linux for AKS: Flatcar Grows Up",
+      "url": "https://pixelrobots.co.uk/2026/06/azure-container-linux-for-aks-flatcar-grows-up/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=azure-container-linux-for-aks-flatcar-grows-up"
+    },
+    {
+      "date": "2026-06-07",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "What's new in Azure Kubernetes Service at Microsoft Build 2026",
+      "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/whats-new-in-azure-kubernetes-service-at-microsoft-build-2026/4524862"
+    },
+    {
+      "date": "2026-05-24",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "Powering multi-cluster workloads with seamless crosscluster networking for Azure Kubernetes Fleet Manager",
+      "url": "https://azure.microsoft.com/en-us/blog/powering-multi-cluster-workloads-with-seamless-cross-cluster-networking-for-azure-kubernetes-fleet-manager/"
+    },
+    {
+      "date": "2026-05-17",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "Giving the Copilot SDK Agent a hardware-level helmet using Kata microVM on AKS",
+      "url": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-the-copilot-sdk-agent-a-quot-hardware-level-helmet-quot/ba-p/4518668"
+    },
+    {
+      "date": "2026-08-10",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+      "url": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/"
+    },
+    {
+      "date": "2026-07-28",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Refactor your database with SQL projects in VS Code",
+      "url": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Build locally, ship to Azure: meet Azure SQL Developer",
+      "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/"
+    },
+    {
+      "date": "2026-07-20",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "T-SQL Hygiene: Introducing the Covering Index",
+      "url": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/"
+    },
+    {
+      "date": "2026-07-16",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
+      "url": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/"
+    },
+    {
+      "date": "2026-07-15",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
+      "url": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/"
+    },
+    {
+      "date": "2026-07-02",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Fundamentals of Azure DevOps with SQL projects",
+      "url": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Audit Frontier AI Agents with SQL MCP Server",
+      "url": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/"
+    },
+    {
+      "date": "2026-07-01",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
+      "url": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/"
+    },
+    {
+      "date": "2026-06-30",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Compose your API surface with Data API builder custom paths",
+      "url": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/"
+    },
+    {
+      "date": "2026-08-09",
+      "service": "key-vault",
+      "type": "new_news",
+      "detail": "Azure Key Vault Premium and AES-KW Post Quantum Resistant Key Wrapping in Public Preview",
+      "url": "https://techcommunity.microsoft.com/blog/post-quantum-crypto-tech-blog/azure-key-vault-premium-and-aes-kw-post-quantum-resistant-key-wrapping-in-public/4544358"
+    },
+    {
       "date": "2026-06-16",
       "service": "blob-storage",
       "type": "new_news",
