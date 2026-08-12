@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65143,
+      "stars": 65144,
       "technology": [
         "Python",
         "Docker"
@@ -16,7 +16,7 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10923ms",
+        "startupTime": "10972ms",
         "memoryIdle": "339.3MiB",
         "imageSize": "1.38GB"
       },
@@ -145,8 +145,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.4.15",
-      "stars": 3990,
+      "version": "1.4.16",
+      "stars": 3997,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2040ms",
-        "memoryIdle": "37.28MiB",
+        "startupTime": "2034ms",
+        "memoryIdle": "37.45MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -243,7 +243,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.6.0",
-      "stars": 19459,
+      "stars": 19624,
       "technology": [
         "Java",
         "Docker"
@@ -251,8 +251,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "518ms",
-        "memoryIdle": "12.47MiB",
+        "startupTime": "522ms",
+        "memoryIdle": "12.51MiB",
         "imageSize": "342MB"
       },
       "services": [
@@ -348,8 +348,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3052ms",
-        "memoryIdle": "75.54MiB",
+        "startupTime": "3051ms",
+        "memoryIdle": "75.89MiB",
         "imageSize": "488MB"
       },
       "services": [
