@@ -1,0 +1,1916 @@
+{
+  "lastUpdated": "2026-08-12",
+  "services": [
+    {
+      "id": "kubernetes-engine",
+      "enabled": true,
+      "name": "STACKIT Kubernetes Engine",
+      "category": "Containers",
+      "description": "STACKIT Kubernetes Engine (SKE) is a managed Kubernetes service that lets you deploy, manage, and scale containerized applications on STACKIT infrastructure.",
+      "useCases": [
+        "Container orchestration",
+        "Microservices",
+        "CI/CD",
+        "Cloud-native apps"
+      ],
+      "pricing": "Pay per node hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=ske",
+      "url": "https://docs.stackit.cloud/stackit/en/stackit-kubernetes-engine-ske-19759461.html",
+      "icon": "☸️",
+      "limits": [
+        {
+          "name": "Max nodes per cluster",
+          "value": "100"
+        },
+        {
+          "name": "Max clusters per project",
+          "value": "10"
+        },
+        {
+          "name": "Supported Kubernetes versions",
+          "value": "1.28 – 1.34"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-06-12",
+          "title": "Advanced identity management features for SKE clusters",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#advanced-identity-management-features-for-ske-clusters"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Kubernetes version 1.33 is getting deprecated in SKE",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#kubernetes-version-133-is-getting-deprecated-in-ske"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "API Update: Cluster status includes Kubernetes & node pool version expiry dates",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#api-update-cluster-status-includes-kubernetes--node-pool-version-expiry-dates"
+        },
+        {
+          "date": "2026-02-20",
+          "title": "Kubernetes version 1.32 is getting deprecated in SKE",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#kubernetes-version-132-is-getting-deprecated-in-ske"
+        },
+        {
+          "date": "2025-12-31",
+          "title": "End of public preview: Dedicated Cloud Foundry on STACKIT Kubernetes Engine",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#end-of-public-preview-dedicated-cloud-foundry-on-stackit-kubernetes-engine"
+        },
+        {
+          "date": "2025-12-19",
+          "title": "SKE patchday Q1 2026 – containerd v2 upgrade",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#ske-patchday-q1-2026--containerd-v2-upgrade"
+        },
+        {
+          "date": "2025-12-16",
+          "title": "New Kubernetes version (1.34) available for your SKE cluster",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#new-kubernetes-version-134-available-for-your-ske-cluster"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "Separation of Compute and Licensing (SKU Split) for Windows Server, RHEL, and Confidential Kubernetes",
+          "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#separation-of-compute-and-licensing-sku-split-for-windows-server-rhel-and-confidential-kubernetes"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "Personalized email address included in SKE Kubeconfigs",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#personalized-email-address-included-in-ske-kubeconfigs"
+        },
+        {
+          "date": "2025-08-13",
+          "title": "Support of Kubernetes Version 1.33 and Deprecation of Kubernetes Version 1.30",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#support-of-kubernetes-version-133-and-deprecation-of-kubernetes-version-130"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Kubernetes Engine-Cluster Management-EU01",
+          "price": "€0.099595",
+          "unit": "per cluster/hour",
+          "monthly": "€71.71/mo"
+        },
+        {
+          "label": "Kubernetes Engine-Cluster Management-EU02",
+          "price": "€0.099595",
+          "unit": "per cluster/hour",
+          "monthly": "€71.71/mo"
+        }
+      ]
+    },
+    {
+      "id": "object-storage",
+      "enabled": true,
+      "name": "STACKIT Object Storage",
+      "category": "Storage",
+      "description": "STACKIT Object Storage is an S3-compatible object storage service for storing and retrieving any amount of data at any time.",
+      "useCases": [
+        "Data lakes",
+        "Backups",
+        "Static hosting",
+        "Media storage"
+      ],
+      "pricing": "Pay per GB stored and requests",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=object-storage",
+      "url": "https://docs.stackit.cloud/stackit/en/object-storage-15138705.html",
+      "icon": "📦",
+      "limits": [
+        {
+          "name": "Max object size",
+          "value": "5 TB"
+        },
+        {
+          "name": "S3 compatibility",
+          "value": "Yes"
+        },
+        {
+          "name": "Object Lock",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-02",
+          "title": "STACKIT Object Storage - New feature: Object Lock",
+          "url": "https://docs.stackit.cloud/products/storage/object-storage/release-notes/#stackit-object-storage---new-feature-object-lock"
+        },
+        {
+          "date": "2023-07-23",
+          "title": "Object Storage Management API available through the STACKIT API Gateway",
+          "url": "https://docs.stackit.cloud/developer-tools/release-notes/#object-storage-management-api-available-through-the-stackit-api-gateway"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Object Storage for Archiving Premium-EU01",
+          "price": "€0.000037",
+          "unit": "per GB/hour",
+          "monthly": "€0.03/mo"
+        },
+        {
+          "label": "Object Storage Premium-EU01",
+          "price": "€0.000037",
+          "unit": "per GB/hour",
+          "monthly": "€0.03/mo"
+        },
+        {
+          "label": "Object Storage Premium-EU02",
+          "price": "€0.000039",
+          "unit": "per GB/hour",
+          "monthly": "€0.03/mo"
+        }
+      ]
+    },
+    {
+      "id": "postgresql-flex",
+      "enabled": true,
+      "name": "STACKIT PostgreSQL Flex",
+      "category": "Database",
+      "description": "STACKIT PostgreSQL Flex is a fully managed PostgreSQL database service with flexible configuration and high availability.",
+      "useCases": [
+        "Relational data",
+        "Web apps",
+        "Analytics",
+        "Transactional workloads"
+      ],
+      "pricing": "Pay per instance hour and storage",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=postgresql",
+      "url": "https://docs.stackit.cloud/stackit/en/postgresql-flex-19759491.html",
+      "icon": "🐘",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "13, 14, 15, 16, 17"
+        },
+        {
+          "name": "Max storage",
+          "value": "2 TB"
+        },
+        {
+          "name": "High availability",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-20",
+          "title": "STACKIT PostgreSQL Flex – Version 14 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex--version-14-is-getting-deprecated"
+        },
+        {
+          "date": "2025-05-30",
+          "title": "STACKIT PostgreSQL Flex – New disk size is available",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-new-disk-size-is-available"
+        },
+        {
+          "date": "2025-05-01",
+          "title": "STACKIT PostgreSQL Flex – Version 13 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-version-13-is-getting-deprecated"
+        },
+        {
+          "date": "2025-03-26",
+          "title": "PostgreSQL version 17 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#postgresql-version-17-is-now-available"
+        },
+        {
+          "date": "2025-03-04",
+          "title": "Maintenance action for STACKIT PostgreSQL Flex",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#maintenance-action-for-stackit-postgresql-flex"
+        },
+        {
+          "date": "2024-09-20",
+          "title": "STACKIT PostgreSQL Flex – Version 16 & pgvector is now available",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-version-16--pgvector-is-now-available"
+        },
+        {
+          "date": "2024-06-12",
+          "title": "STACKIT PostgreSQL Flex – new disk size is available",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-new-disk-size-is-available"
+        },
+        {
+          "date": "2024-06-12",
+          "title": "STACKIT PostgreSQL Flex – Version 12 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-version-12-is-getting-deprecated"
+        },
+        {
+          "date": "2023-05-02",
+          "title": "STACKIT PostgreSQL Flex is now available",
+          "url": "https://docs.stackit.cloud/products/databases/postgresql-flex/release-notes/#stackit-postgresql-flex-is-now-available"
+        },
+        {
+          "date": "2022-05-20",
+          "title": "New service plan sizes for PostgreSQL and MariaDB",
+          "url": "https://docs.stackit.cloud/products/databases/mariadb/release-notes/#new-service-plan-sizes-for-postgresql-and-mariadb"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "PostgreSQL-Flex-16.128-Replica-EU01",
+          "price": "€4.684400",
+          "unit": "per hour",
+          "monthly": "€3372.77/mo"
+        },
+        {
+          "label": "PostgreSQL-Flex-16.128-Single-EU01",
+          "price": "€2.342200",
+          "unit": "per hour",
+          "monthly": "€1686.38/mo"
+        },
+        {
+          "label": "PostgreSQL-Flex-16.32-Replica-EU01",
+          "price": "€1.509772",
+          "unit": "per hour",
+          "monthly": "€1087.04/mo"
+        },
+        {
+          "label": "PostgreSQL-Flex-16.32-Single-EU01",
+          "price": "€0.936104",
+          "unit": "per hour",
+          "monthly": "€674.00/mo"
+        },
+        {
+          "label": "PostgreSQL-Flex-2.16-Replica-EU01",
+          "price": "€0.571925",
+          "unit": "per hour",
+          "monthly": "€411.79/mo"
+        }
+      ]
+    },
+    {
+      "id": "mongodb-flex",
+      "enabled": true,
+      "name": "STACKIT MongoDB Flex",
+      "category": "Database",
+      "description": "STACKIT MongoDB Flex is a fully managed MongoDB-compatible NoSQL database service for document-oriented workloads.",
+      "useCases": [
+        "Document storage",
+        "Real-time apps",
+        "Catalogs",
+        "Content management"
+      ],
+      "pricing": "Pay per instance hour and storage",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=mongodb",
+      "url": "https://docs.stackit.cloud/stackit/en/mongodb-flex-19759489.html",
+      "icon": "🍃",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "6, 7"
+        },
+        {
+          "name": "Max storage",
+          "value": "2 TB"
+        },
+        {
+          "name": "Replica sets",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-10-08",
+          "title": "Deprecation of MongoDB Flex Performance Class Upgrades",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#deprecation-of-mongodb-flex-performance-class-upgrades"
+        },
+        {
+          "date": "2025-08-05",
+          "title": "MongoDB Flex Performance Advisor is available",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#mongodb-flex-performance-advisor-is-available"
+        },
+        {
+          "date": "2024-12-01",
+          "title": "MongoDB Version 6.0 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#mongodb-version-60-is-getting-deprecated"
+        },
+        {
+          "date": "2024-06-10",
+          "title": "STACKIT MongoDB Flex 7 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#stackit-mongodb-flex-7-is-now-available"
+        },
+        {
+          "date": "2024-05-25",
+          "title": "MongoDB Version 5.0 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#mongodb-version-50-is-getting-deprecated"
+        },
+        {
+          "date": "2024-05-16",
+          "title": "MongoDB Flavor MongoDB-Flex-1.1-Replica-EU01 is getting deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#mongodb-flavor-mongodb-flex-11-replica-eu01-is-getting-deprecated"
+        },
+        {
+          "date": "2023-11-24",
+          "title": "STACKIT MongoDB Flex available on CloudFoundry",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#stackit-mongodb-flex-available-on-cloudfoundry"
+        },
+        {
+          "date": "2023-11-24",
+          "title": "STACKIT MongoDB is deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#stackit-mongodb-is-deprecated"
+        },
+        {
+          "date": "2023-10-17",
+          "title": "New flavor change feature in STACKIT MongoDB Flex",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#new-flavor-change-feature-in-stackit-mongodb-flex"
+        },
+        {
+          "date": "2023-08-01",
+          "title": "STACKIT MongoDB version 6 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/mongodb-flex/release-notes/#stackit-mongodb-version-6-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "MongoDB-Flex-1.2-Replica-EU01",
+          "price": "€0.342613",
+          "unit": "per hour",
+          "monthly": "€246.68/mo"
+        },
+        {
+          "label": "MongoDB-Flex-1.2-Single-EU01",
+          "price": "€0.124688",
+          "unit": "per hour",
+          "monthly": "€89.78/mo"
+        },
+        {
+          "label": "MongoDB-Flex-1.4-Replica-EU01",
+          "price": "€0.586052",
+          "unit": "per hour",
+          "monthly": "€421.96/mo"
+        },
+        {
+          "label": "MongoDB-Flex-1.4-Single-EU01",
+          "price": "€0.233706",
+          "unit": "per hour",
+          "monthly": "€168.27/mo"
+        },
+        {
+          "label": "MongoDB-Flex-1.8-Replica-EU01",
+          "price": "€1.107192",
+          "unit": "per hour",
+          "monthly": "€797.18/mo"
+        }
+      ]
+    },
+    {
+      "id": "mariadb",
+      "enabled": true,
+      "name": "STACKIT MariaDB",
+      "category": "Database",
+      "description": "STACKIT MariaDB is a fully managed MariaDB relational database service with SSL support and flexible sizing.",
+      "useCases": [
+        "Web apps",
+        "E-commerce",
+        "CMS",
+        "Transactional workloads"
+      ],
+      "pricing": "Pay per instance hour and storage",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=mariadb",
+      "url": "https://docs.stackit.cloud/stackit/en/mariadb-19759487.html",
+      "icon": "🐬",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "10.6, 10.11"
+        },
+        {
+          "name": "SSL support",
+          "value": "Yes"
+        },
+        {
+          "name": "Max storage",
+          "value": "2 TB"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-01",
+          "title": "STACKIT MariaDB 10.6 is deprecated",
+          "url": "https://docs.stackit.cloud/products/databases/mariadb/release-notes/#stackit-mariadb-106-is-deprecated"
+        },
+        {
+          "date": "2025-05-08",
+          "title": "STACKIT MariaDB 10.6 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/mariadb/release-notes/#stackit-mariadb-106-is-now-available"
+        },
+        {
+          "date": "2022-10-18",
+          "title": "MariaDB is now available with SSL",
+          "url": "https://docs.stackit.cloud/products/databases/mariadb/release-notes/#mariadb-is-now-available-with-ssl"
+        },
+        {
+          "date": "2022-05-20",
+          "title": "New service plan sizes for PostgreSQL and MariaDB",
+          "url": "https://docs.stackit.cloud/products/databases/mariadb/release-notes/#new-service-plan-sizes-for-postgresql-and-mariadb"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "MariaDB-1.2.10-Replica-EU01",
+          "price": "€0.171542",
+          "unit": "per hour",
+          "monthly": "€123.51/mo"
+        },
+        {
+          "label": "MariaDB-1.2.10-Replica-EU02",
+          "price": "€0.180119",
+          "unit": "per hour",
+          "monthly": "€129.69/mo"
+        },
+        {
+          "label": "MariaDB-1.4.10-Replica-EU01",
+          "price": "€0.180208",
+          "unit": "per hour",
+          "monthly": "€129.75/mo"
+        },
+        {
+          "label": "MariaDB-1.4.10-Replica-EU02",
+          "price": "€0.189219",
+          "unit": "per hour",
+          "monthly": "€136.24/mo"
+        },
+        {
+          "label": "MariaDB-1.4.10-Single-EU01",
+          "price": "€0.099958",
+          "unit": "per hour",
+          "monthly": "€71.97/mo"
+        }
+      ]
+    },
+    {
+      "id": "redis",
+      "enabled": true,
+      "name": "STACKIT Redis",
+      "category": "Database",
+      "description": "STACKIT Redis is a fully managed in-memory data store for caching, session management, and real-time analytics.",
+      "useCases": [
+        "Caching",
+        "Session management",
+        "Leaderboards",
+        "Pub/Sub"
+      ],
+      "pricing": "Pay per instance hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=redis",
+      "url": "https://docs.stackit.cloud/stackit/en/redis-19759493.html",
+      "icon": "⚡",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "7"
+        },
+        {
+          "name": "Max memory",
+          "value": "Flavor dependent"
+        },
+        {
+          "name": "Persistence",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-01",
+          "title": "STACKIT Redis Deprecation",
+          "url": "https://docs.stackit.cloud/products/databases/redis/release-notes/#stackit-redis-deprecation"
+        },
+        {
+          "date": "2024-07-26",
+          "title": "STACKIT Redis 7 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/redis/release-notes/#stackit-redis-7-is-now-available-"
+        },
+        {
+          "date": "2022-11-29",
+          "title": "STACKIT Redis 6 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/redis/release-notes/#stackit-redis-6-is-now-available-"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Redis-1.2.10-Replica-EU01",
+          "price": "€0.200569",
+          "unit": "per hour",
+          "monthly": "€144.41/mo"
+        },
+        {
+          "label": "Redis-1.4.10-Replica-EU01",
+          "price": "€0.217528",
+          "unit": "per hour",
+          "monthly": "€156.62/mo"
+        },
+        {
+          "label": "Redis-1.4.10-Single-EU01",
+          "price": "€0.099958",
+          "unit": "per hour",
+          "monthly": "€71.97/mo"
+        },
+        {
+          "label": "Redis-1.4.50-Replica-EU01",
+          "price": "€0.259153",
+          "unit": "per hour",
+          "monthly": "€186.59/mo"
+        },
+        {
+          "label": "Redis-2.8.10-Replica-EU01",
+          "price": "€0.377806",
+          "unit": "per hour",
+          "monthly": "€272.02/mo"
+        }
+      ]
+    },
+    {
+      "id": "key-value-store",
+      "enabled": true,
+      "name": "STACKIT Key Value Store",
+      "category": "Database",
+      "description": "STACKIT Key Value Store is a managed in-memory key-value store based on Valkey, the open-source Redis alternative.",
+      "useCases": [
+        "Caching",
+        "Session stores",
+        "Rate limiting",
+        "Real-time data"
+      ],
+      "pricing": "Pay per instance hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=key-value-store",
+      "url": "https://docs.stackit.cloud/stackit/en/key-value-store.html",
+      "icon": "🗝️",
+      "limits": [
+        {
+          "name": "Based on",
+          "value": "Valkey (Redis-compatible)"
+        },
+        {
+          "name": "Persistence",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-01",
+          "title": "Newly Available: Key Value Store based on Valkey",
+          "url": "https://docs.stackit.cloud/products/databases/key-value-store/release-notes/#newly-available-key-value-store-based-on-valkey"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "KeyValue-1.2.10-Replica-EU01",
+          "price": "€0.200569",
+          "unit": "per hour",
+          "monthly": "€144.41/mo"
+        },
+        {
+          "label": "KeyValue-1.2.10-Replica-EU02",
+          "price": "€0.210598",
+          "unit": "per hour",
+          "monthly": "€151.63/mo"
+        },
+        {
+          "label": "KeyValue-1.4.10-Replica-EU01",
+          "price": "€0.217528",
+          "unit": "per hour",
+          "monthly": "€156.62/mo"
+        },
+        {
+          "label": "KeyValue-1.4.10-Replica-EU02",
+          "price": "€0.228404",
+          "unit": "per hour",
+          "monthly": "€164.45/mo"
+        },
+        {
+          "label": "KeyValue-1.4.10-Single-EU01",
+          "price": "€0.099958",
+          "unit": "per hour",
+          "monthly": "€71.97/mo"
+        }
+      ]
+    },
+    {
+      "id": "opensearch",
+      "enabled": true,
+      "name": "STACKIT OpenSearch",
+      "category": "Database",
+      "description": "STACKIT OpenSearch is a fully managed OpenSearch service for search, log analytics, and observability workloads.",
+      "useCases": [
+        "Full-text search",
+        "Log analytics",
+        "Observability",
+        "Security analytics"
+      ],
+      "pricing": "Pay per instance hour and storage",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=opensearch",
+      "url": "https://docs.stackit.cloud/stackit/en/opensearch-19759490.html",
+      "icon": "🔍",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "2.x"
+        },
+        {
+          "name": "Max storage",
+          "value": "Flavor dependent"
+        },
+        {
+          "name": "High availability",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2023-05-15",
+          "title": "STACKIT OpenSearch2 is now available",
+          "url": "https://docs.stackit.cloud/products/databases/opensearch/release-notes/#stackit-opensearch2-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "OpenSearch-1.2.10-Replica-EU01",
+          "price": "€0.200569",
+          "unit": "per hour",
+          "monthly": "€144.41/mo"
+        },
+        {
+          "label": "OpenSearch-1.2.10-Replica-EU02",
+          "price": "€0.210598",
+          "unit": "per hour",
+          "monthly": "€151.63/mo"
+        },
+        {
+          "label": "OpenSearch-1.4.10-Replica-EU01",
+          "price": "€0.210708",
+          "unit": "per hour",
+          "monthly": "€151.71/mo"
+        },
+        {
+          "label": "OpenSearch-1.4.10-Replica-EU02",
+          "price": "€0.221244",
+          "unit": "per hour",
+          "monthly": "€159.30/mo"
+        },
+        {
+          "label": "OpenSearch-1.4.10-Single-EU01",
+          "price": "€0.099958",
+          "unit": "per hour",
+          "monthly": "€71.97/mo"
+        }
+      ]
+    },
+    {
+      "id": "rabbitmq",
+      "enabled": true,
+      "name": "STACKIT RabbitMQ",
+      "category": "Integration",
+      "description": "STACKIT RabbitMQ is a fully managed message broker service for decoupling applications and enabling async communication.",
+      "useCases": [
+        "Message queuing",
+        "Event streaming",
+        "Decoupling services",
+        "Task queues"
+      ],
+      "pricing": "Pay per instance hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=rabbitmq",
+      "url": "https://docs.stackit.cloud/stackit/en/rabbitmq-19759492.html",
+      "icon": "🐇",
+      "limits": [
+        {
+          "name": "Supported versions",
+          "value": "3.13, 4.0"
+        },
+        {
+          "name": "Protocols",
+          "value": "AMQP, MQTT, STOMP"
+        },
+        {
+          "name": "High availability",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-04-25",
+          "title": "STACKIT RabbitMQ 4.0 is now available",
+          "url": "https://docs.stackit.cloud/products/messaging/rabbitmq/release-notes/#stackit-rabbitmq-40-is-now-available"
+        },
+        {
+          "date": "2024-09-23",
+          "title": "STACKIT RabbitMQ 3.13 is now available",
+          "url": "https://docs.stackit.cloud/products/messaging/rabbitmq/release-notes/#stackit-rabbitmq-313-is-now-available"
+        },
+        {
+          "date": "2023-09-23",
+          "title": "STACKIT RabbitMQ 3.10 is now available",
+          "url": "https://docs.stackit.cloud/products/messaging/rabbitmq/release-notes/#stackit-rabbitmq-310-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "RabbitMQ-1.2.10-Replica-EU01",
+          "price": "€0.200569",
+          "unit": "per hour",
+          "monthly": "€144.41/mo"
+        },
+        {
+          "label": "RabbitMQ-1.2.10-Replica-EU02",
+          "price": "€0.210598",
+          "unit": "per hour",
+          "monthly": "€151.63/mo"
+        },
+        {
+          "label": "RabbitMQ-16.32.100-Replica-EU01",
+          "price": "€1.492042",
+          "unit": "per hour",
+          "monthly": "€1074.27/mo"
+        },
+        {
+          "label": "RabbitMQ-16.32.100-Replica-EU02",
+          "price": "€1.566644",
+          "unit": "per hour",
+          "monthly": "€1127.98/mo"
+        },
+        {
+          "label": "RabbitMQ-16.32.100-Replica-HiPerf-EU01",
+          "price": "€1.775530",
+          "unit": "per hour",
+          "monthly": "€1278.38/mo"
+        }
+      ]
+    },
+    {
+      "id": "secrets-manager",
+      "enabled": true,
+      "name": "STACKIT Secrets Manager",
+      "category": "Security",
+      "description": "STACKIT Secrets Manager is a secure service for storing and managing secrets, API keys, certificates, and sensitive configuration.",
+      "useCases": [
+        "Secret storage",
+        "API keys",
+        "Certificates",
+        "Configuration management"
+      ],
+      "pricing": "Pay per secret per month",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=secrets-manager",
+      "url": "https://docs.stackit.cloud/stackit/en/secrets-manager-19759494.html",
+      "icon": "🔐",
+      "limits": [
+        {
+          "name": "Audit log",
+          "value": "Yes"
+        },
+        {
+          "name": "JSON editor",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-01-13",
+          "title": "STACKIT Secrets Manager - Extended audit log functionalities",
+          "url": "https://docs.stackit.cloud/products/security/secrets-manager/release-notes/#-stackit-secrets-manager---extended-audit-log-functionalities"
+        },
+        {
+          "date": "2025-06-30",
+          "title": "STACKIT Secrets Manager - JSON editor for Secrets",
+          "url": "https://docs.stackit.cloud/products/security/secrets-manager/release-notes/#stackit-secrets-manager---json-editor-for-secrets"
+        },
+        {
+          "date": "2023-05-15",
+          "title": "STACKIT Secrets Manager is now available",
+          "url": "https://docs.stackit.cloud/products/security/secrets-manager/release-notes/#stackit-secrets-manager-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Secrets Manager-100-EU01",
+          "price": "€0.000139",
+          "unit": "per version/hour",
+          "monthly": "€0.10/mo"
+        },
+        {
+          "label": "Secrets Manager-100k-EU01",
+          "price": "€0.000049",
+          "unit": "per version/hour",
+          "monthly": "€0.03/mo"
+        },
+        {
+          "label": "Secrets Manager-10k-EU01",
+          "price": "€0.000069",
+          "unit": "per version/hour",
+          "monthly": "€0.05/mo"
+        },
+        {
+          "label": "Secrets Manager-1k-EU01",
+          "price": "€0.000097",
+          "unit": "per version/hour",
+          "monthly": "€0.07/mo"
+        },
+        {
+          "label": "Secrets Manager-1M-EU01",
+          "price": "€0.000035",
+          "unit": "per version/hour",
+          "monthly": "€0.02/mo"
+        }
+      ]
+    },
+    {
+      "id": "kms",
+      "enabled": true,
+      "name": "STACKIT Key Management Service",
+      "category": "Security",
+      "description": "STACKIT KMS is a managed key management service for creating, storing, and controlling cryptographic keys.",
+      "useCases": [
+        "Key management",
+        "Encryption",
+        "Data protection",
+        "Compliance"
+      ],
+      "pricing": "Pay per key per month and API calls",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=kms",
+      "url": "https://docs.stackit.cloud/stackit/en/key-management-service-kms.html",
+      "icon": "🔑",
+      "limits": [
+        {
+          "name": "Regions",
+          "value": "EU01, EU02"
+        },
+        {
+          "name": "Post-quantum support",
+          "value": "Yes (AES-KW)"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-07",
+          "title": "STACKIT KMS is now available in Region EU02",
+          "url": "https://docs.stackit.cloud/products/security/kms/release-notes/#stackit-kms-is-now-available-in-region-eu02"
+        },
+        {
+          "date": "2025-09-03",
+          "title": "Deprecation of KMS API version v1beta",
+          "url": "https://docs.stackit.cloud/products/security/kms/release-notes/#deprecation-of-kms-api-version-v1beta-"
+        },
+        {
+          "date": "2025-09-02",
+          "title": "STACKIT Key Management Service is now available",
+          "url": "https://docs.stackit.cloud/products/security/kms/release-notes/#stackit-key-management-service-is-now-available-"
+        },
+        {
+          "date": "2025-04-01",
+          "title": "STACKIT Key Management Service is now available as beta version",
+          "url": "https://docs.stackit.cloud/products/security/kms/release-notes/#stackit-key-management-service-is-now-available-as-beta-version"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "KMS-software-key-version-EU01",
+          "price": "€0.002091",
+          "unit": "per version/hour",
+          "monthly": "€1.51/mo"
+        },
+        {
+          "label": "KMS-software-key-version-EU02",
+          "price": "€0.002196",
+          "unit": "per version/hour",
+          "monthly": "€1.58/mo"
+        }
+      ]
+    },
+    {
+      "id": "load-balancer",
+      "enabled": true,
+      "name": "STACKIT Application Load Balancer",
+      "category": "Networking",
+      "description": "STACKIT Application Load Balancer distributes incoming traffic across multiple targets with support for WAF and advanced routing.",
+      "useCases": [
+        "Traffic distribution",
+        "High availability",
+        "SSL termination",
+        "WAF"
+      ],
+      "pricing": "Pay per hour and data processed",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=alb",
+      "url": "https://docs.stackit.cloud/stackit/en/application-load-balancer.html",
+      "icon": "⚖️",
+      "limits": [
+        {
+          "name": "WAF support",
+          "value": "Yes (GA)"
+        },
+        {
+          "name": "Protocols",
+          "value": "HTTP, HTTPS, TCP"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-08-04",
+          "title": "STACKIT ALB WAF is now generally available",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/application-load-balancer/release-notes/#stackit-alb-waf-is-now-generally-available"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "STACKIT ALB WAF available in preview",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/application-load-balancer/release-notes/#stackit-alb-waf-available-in-preview"
+        },
+        {
+          "date": "2026-01-26",
+          "title": "STACKIT Application Load Balancer API reaches general availability",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/application-load-balancer/release-notes/#stackit-application-load-balancer-api-reaches-general-availability"
+        },
+        {
+          "date": "2024-06-03",
+          "title": "STACKIT Load Balancer available in SKE",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#stackit-load-balancer-available-in-ske"
+        },
+        {
+          "date": "2023-12-05",
+          "title": "Essential Network Load Balancer is available as GA",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#essential-network-load-balancer-is-available-as-ga"
+        },
+        {
+          "date": "2022-09-12",
+          "title": "Existing Public IP Address can now be used for load balancers in SKE",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#existing-public-ip-address-can-now-be-used-for-load-balancers-in-ske"
+        },
+        {
+          "date": "2022-08-24",
+          "title": "VPN load balancer of your SKE clusters is getting removed",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#vpn-load-balancer-of-your-ske-clusters-is-getting-removed"
+        },
+        {
+          "date": "2022-05-06",
+          "title": "Cloud Foundry introduces new load balancer for App Space on 12 May 2022",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#cloud-foundry-introduces-new-load-balancer-for-app-space-on-12-may-2022"
+        },
+        {
+          "date": "2021-10-16",
+          "title": "High availability for SKE yawol Load Balancers",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#high-availability-for-ske-yawol-load-balancers"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Application-Load-Balancer-Dedicated-10-EU01",
+          "price": "€0.026278",
+          "unit": "per hour",
+          "monthly": "€18.92/mo"
+        },
+        {
+          "label": "Application-Load-Balancer-Dedicated-10-EU02",
+          "price": "€0.027583",
+          "unit": "per hour",
+          "monthly": "€19.86/mo"
+        },
+        {
+          "label": "Application-Load-Balancer-WAF-Basic-10-EU01",
+          "price": "€0.028792",
+          "unit": "per hour",
+          "monthly": "€20.73/mo"
+        },
+        {
+          "label": "Application-Load-Balancer-WAF-Basic-10-EU02",
+          "price": "€0.030231",
+          "unit": "per hour",
+          "monthly": "€21.77/mo"
+        }
+      ]
+    },
+    {
+      "id": "dns",
+      "enabled": true,
+      "name": "STACKIT DNS",
+      "category": "Networking",
+      "description": "STACKIT DNS is a managed DNS service with support for external DNS providers, ACME issuers, and bulk domain management.",
+      "useCases": [
+        "Domain management",
+        "DNS routing",
+        "Cert-Manager integration",
+        "ExternalDNS"
+      ],
+      "pricing": "Pay per zone and queries",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=dns",
+      "url": "https://docs.stackit.cloud/stackit/en/dns-19759462.html",
+      "icon": "🌐",
+      "limits": [
+        {
+          "name": "ExternalDNS support",
+          "value": "Yes"
+        },
+        {
+          "name": "ACME DNS01 support",
+          "value": "Yes"
+        },
+        {
+          "name": "Bulk domain ordering",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-25",
+          "title": "New Feature: STACKIT DNS Resolver enters Public Preview.",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns-resolver/release-notes/#new-feature-stackit-dns-resolver-enters-public-preview"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "API Update: Optional Gateway API support for DNS integration",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#api-update-optional-gateway-api-support-for-dns-integration"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "DNS resource record locking",
+          "url": "https://docs.stackit.cloud/domain-portal/release-notes/#dns-resource-record-locking"
+        },
+        {
+          "date": "2025-08-29",
+          "title": "DNS bulk edits and optimized search",
+          "url": "https://docs.stackit.cloud/domain-portal/release-notes/#dns-bulk-edits-and-optimized-search"
+        },
+        {
+          "date": "2025-07-17",
+          "title": "DNS menu and access groups",
+          "url": "https://docs.stackit.cloud/domain-portal/release-notes/#dns-menu-and-access-groups"
+        },
+        {
+          "date": "2024-08-02",
+          "title": "DNS: Feature Update",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns/release-notes/#dns-feature-update"
+        },
+        {
+          "date": "2023-11-09",
+          "title": "STACKIT DNS is now available as ExternalDNS provider",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns/release-notes/#stackit-dns-is-now-available-as-externaldns-provider"
+        },
+        {
+          "date": "2023-10-09",
+          "title": "STACKIT DNS is now available as DNS01 ACME issuer via Certbot and Cert-Manager",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns/release-notes/#stackit-dns-is-now-available-as-dns01-acme-issuer-via-certbot-and-cert-manager"
+        },
+        {
+          "date": "2023-07-23",
+          "title": "STACKIT Subdomains feature is now available in STACKIT DNS",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns/release-notes/#stackit-subdomains-feature-is-now-available-in-stackit-dns"
+        },
+        {
+          "date": "2023-05-15",
+          "title": "STACKIT DNS is now available as GA",
+          "url": "https://docs.stackit.cloud/products/network/core-networking/dns/release-notes/#stackit-dns-is-now-available-as-ga"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "DNS-100-EU01",
+          "price": "€0.002663",
+          "unit": "per hour",
+          "monthly": "€1.92/mo"
+        },
+        {
+          "label": "DNS-100-GLOBAL",
+          "price": "€0.002663",
+          "unit": "per hour",
+          "monthly": "€1.92/mo"
+        },
+        {
+          "label": "DNS-1000-EU01",
+          "price": "€0.004290",
+          "unit": "per hour",
+          "monthly": "€3.09/mo"
+        },
+        {
+          "label": "DNS-1000-GLOBAL",
+          "price": "€0.004290",
+          "unit": "per hour",
+          "monthly": "€3.09/mo"
+        },
+        {
+          "label": "DNS-10000-EU01",
+          "price": "€0.020559",
+          "unit": "per hour",
+          "monthly": "€14.80/mo"
+        }
+      ]
+    },
+    {
+      "id": "cdn",
+      "enabled": true,
+      "name": "STACKIT CDN",
+      "category": "Networking",
+      "description": "STACKIT Content Delivery Network accelerates content delivery with global edge caching, WAF, and image optimization.",
+      "useCases": [
+        "Static content delivery",
+        "Web acceleration",
+        "Media streaming",
+        "WAF"
+      ],
+      "pricing": "Pay per GB transferred",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=cdn",
+      "url": "https://docs.stackit.cloud/stackit/en/cdn.html",
+      "icon": "🚀",
+      "limits": [
+        {
+          "name": "WAF support",
+          "value": "Yes"
+        },
+        {
+          "name": "Image optimizer",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-24",
+          "title": "Image Optimizer is now available in STACKIT Content Delivery Network (CDN)",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/cdn/release-notes/#image-optimizer-is-now-available-in-stackit-content-delivery-network-cdn"
+        },
+        {
+          "date": "2025-12-02",
+          "title": "STACKIT CDN general availability",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/cdn/release-notes/#stackit-cdn-general-availability"
+        },
+        {
+          "date": "2025-11-19",
+          "title": "STACKIT Content Delivery Network (CDN) now available in beta",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/cdn/release-notes/#stackit-content-delivery-network-cdn-now-available-in-beta"
+        },
+        {
+          "date": "2025-11-19",
+          "title": "Web Application Firewall is now available in STACKIT CDN",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/cdn/release-notes/#web-application-firewall-is-now-available-in-stackit-cdn"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "CDN-Image Optimizer-GLOBAL",
+          "price": "€0.020833",
+          "unit": "per hour",
+          "monthly": "€15.00/mo"
+        },
+        {
+          "label": "CDN-Traffic-Africa-GLOBAL",
+          "price": "€0.000118",
+          "unit": "per MB",
+          "monthly": "€0.00/mo"
+        },
+        {
+          "label": "CDN-Traffic-Asia-GLOBAL",
+          "price": "€0.000077",
+          "unit": "per MB",
+          "monthly": "€0.00/mo"
+        },
+        {
+          "label": "CDN-Traffic-Europe-GLOBAL",
+          "price": "€0.000050",
+          "unit": "per MB",
+          "monthly": "€0.00/mo"
+        },
+        {
+          "label": "CDN-Traffic-North America-GLOBAL",
+          "price": "€0.000050",
+          "unit": "per MB",
+          "monthly": "€0.00/mo"
+        }
+      ]
+    },
+    {
+      "id": "vpn",
+      "enabled": true,
+      "name": "STACKIT VPN",
+      "category": "Networking",
+      "description": "STACKIT VPN provides secure site-to-site and client VPN connectivity for your cloud resources.",
+      "useCases": [
+        "Secure connectivity",
+        "Hybrid cloud",
+        "Remote access",
+        "Network isolation"
+      ],
+      "pricing": "Pay per hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=vpn",
+      "url": "https://docs.stackit.cloud/stackit/en/vpn.html",
+      "icon": "🔒",
+      "limits": [
+        {
+          "name": "API available",
+          "value": "Yes"
+        },
+        {
+          "name": "Protocols",
+          "value": "IPsec"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-05-05",
+          "title": "STACKIT VPN now available via API",
+          "url": "https://docs.stackit.cloud/products/network/connectivity-hybrid-multi-cloud/vpn/release-notes/#stackit-vpn-now-available-via-api"
+        },
+        {
+          "date": "2022-08-24",
+          "title": "VPN load balancer of your SKE clusters is getting removed",
+          "url": "https://docs.stackit.cloud/products/network/load-balancing-and-content-delivery/network-load-balancer/release-notes/#vpn-load-balancer-of-your-ske-clusters-is-getting-removed"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "VPN-IPSec-500-HA-EU01",
+          "price": "€0.210917",
+          "unit": "per hour",
+          "monthly": "€151.86/mo"
+        },
+        {
+          "label": "VPN-IPSec-100-HA-EU01",
+          "price": "€0.087875",
+          "unit": "per hour",
+          "monthly": "€63.27/mo"
+        },
+        {
+          "label": "VPN-IPSec-1000-HA-EU01",
+          "price": "€0.393389",
+          "unit": "per hour",
+          "monthly": "€283.24/mo"
+        }
+      ]
+    },
+    {
+      "id": "logs",
+      "enabled": true,
+      "name": "STACKIT Logs",
+      "category": "Observability",
+      "description": "STACKIT Logs is a managed log management service based on Grafana Loki for ingesting, storing, and querying logs.",
+      "useCases": [
+        "Log aggregation",
+        "Troubleshooting",
+        "Compliance",
+        "Security monitoring"
+      ],
+      "pricing": "Pay per GB ingested",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=logs",
+      "url": "https://docs.stackit.cloud/stackit/en/logs.html",
+      "icon": "📋",
+      "limits": [
+        {
+          "name": "Based on",
+          "value": "Grafana Loki"
+        },
+        {
+          "name": "OTLP ingestion",
+          "value": "Yes"
+        },
+        {
+          "name": "Pattern extraction",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-24",
+          "title": "STACKIT Logs now supports pattern extraction",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/logs/release-notes/#stackit-logs-now-supports-pattern-extraction"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "STACKIT Logs ingestion rate limit increased",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/logs/release-notes/#stackit-logs-ingestion-rate-limit-increased"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "STACKIT Logs was updated to Loki version 3.6",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/logs/release-notes/#stackit-logs-was-updated-to-loki-version-36"
+        },
+        {
+          "date": "2026-03-03",
+          "title": "STACKIT Logs reaches General Availability (GA)",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/logs/release-notes/#stackit-logs-reaches-general-availability-ga"
+        },
+        {
+          "date": "2025-09-02",
+          "title": "STACKIT Logs is now available as Public Preview",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/logs/release-notes/#stackit-logs-is-now-available-as-public-preview"
+        },
+        {
+          "date": "2025-05-28",
+          "title": "Optimizing Loki Querying Performance",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#optimizing-loki-querying-performance"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Logs-ingestion-EU01",
+          "price": "€1.200000",
+          "unit": "per GB ingest",
+          "monthly": "€864.00/mo"
+        },
+        {
+          "label": "Logs-retention-EU01",
+          "price": "€0.010000",
+          "unit": "per GB/days of retention",
+          "monthly": "€0.30/mo"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "enabled": true,
+      "name": "STACKIT Observability",
+      "category": "Observability",
+      "description": "STACKIT Observability provides a managed monitoring stack with Grafana, Prometheus-compatible metrics, and Alertmanager.",
+      "useCases": [
+        "Metrics monitoring",
+        "Alerting",
+        "Dashboards",
+        "Infrastructure monitoring"
+      ],
+      "pricing": "Pay per metric series and retention",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=observability",
+      "url": "https://docs.stackit.cloud/stackit/en/observability.html",
+      "icon": "📊",
+      "limits": [
+        {
+          "name": "Based on",
+          "value": "Grafana + Prometheus"
+        },
+        {
+          "name": "Alertmanager",
+          "value": "Yes"
+        },
+        {
+          "name": "Google Chat webhooks",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-04-20",
+          "title": "Grafana update to version 12.4",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#grafana-update-to-version-124"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "Observability now supports log ingestion via OTLP",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#observability-now-supports-log-ingestion-via-otlp"
+        },
+        {
+          "date": "2025-12-15",
+          "title": "Default Grafana admin deprecation",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#default-grafana-admin-deprecation"
+        },
+        {
+          "date": "2025-12-02",
+          "title": "Grafana Administrative Access via SSO",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#grafana-administrative-access-via-sso"
+        },
+        {
+          "date": "2025-08-18",
+          "title": "Alertmanager now supports Google Chat webhooks",
+          "url": "https://docs.stackit.cloud/products/logging-and-monitoring/observability/release-notes/#alertmanager-now-supports-google-chat-webhooks"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Observability-Basic-EU01",
+          "price": "€0.553533",
+          "unit": "per hour",
+          "monthly": "€398.54/mo"
+        },
+        {
+          "label": "Observability-Frontend-Starter-EU01",
+          "price": "€0.027483",
+          "unit": "per hour",
+          "monthly": "€19.79/mo"
+        },
+        {
+          "label": "Observability-Large-EU01",
+          "price": "€4.995638",
+          "unit": "per hour",
+          "monthly": "€3596.86/mo"
+        },
+        {
+          "label": "Observability-Medium-EU01",
+          "price": "€1.752856",
+          "unit": "per hour",
+          "monthly": "€1262.06/mo"
+        },
+        {
+          "label": "Observability-Monitoring-Basic-EU01",
+          "price": "€0.198161",
+          "unit": "per hour",
+          "monthly": "€142.68/mo"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-serving",
+      "enabled": true,
+      "name": "STACKIT AI Model Serving",
+      "category": "AI/ML",
+      "description": "STACKIT AI Model Serving provides a managed inference API for running large language models and multimodal AI models on sovereign European infrastructure.",
+      "useCases": [
+        "LLM inference",
+        "Text generation",
+        "Embeddings",
+        "Multimodal AI"
+      ],
+      "pricing": "Pay per token",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=ai-model-serving",
+      "url": "https://docs.stackit.cloud/stackit/en/ai-model-serving.html",
+      "icon": "🧠",
+      "limits": [
+        {
+          "name": "Infrastructure",
+          "value": "Sovereign EU (STACKIT)"
+        },
+        {
+          "name": "API compatibility",
+          "value": "OpenAI-compatible"
+        }
+      ],
+      "runtimes": [
+        {
+          "name": "GPT-OSS 120B",
+          "status": "active"
+        },
+        {
+          "name": "GPT-OSS 20B",
+          "status": "active"
+        },
+        {
+          "name": "Qwen3-VL-235B",
+          "status": "active"
+        },
+        {
+          "name": "Qwen3-VL-Embedding-8B",
+          "status": "active"
+        },
+        {
+          "name": "Google Gemma 4",
+          "status": "active"
+        },
+        {
+          "name": "Llama-8B",
+          "status": "deprecated"
+        },
+        {
+          "name": "Nemo",
+          "status": "deprecated"
+        },
+        {
+          "name": "Google Gemma 3",
+          "status": "deprecated"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-14",
+          "title": "STACKIT AI Model Serving: New Model Release Google Gemma 4 (Replacement for Google Gemma 3)",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-new-model-release-google-gemma-4-replacement-for-google-gemma-3"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "STACKIT AI Model Serving: Model release Qwen3.6 27B",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-model-release-qwen36-27b"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "New Service: STACKIT AI Model Experiments Enters Public Preview!",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-experiments/release-notes/#new-service-stackit-ai-model-experiments-enters-public-preview"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "STACKIT AI Model Serving: New Model Release GPT-OSS 20B (Replacement for Llama-8B and Nemo)",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-new-model-release-gpt-oss-20b-replacement-for-llama-8b-and-nemo"
+        },
+        {
+          "date": "2026-02-05",
+          "title": "STACKIT AI Model Serving: New Model Release Qwen3-VL-Embedding-8B as Multi-Modal Embedding",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-new-model-release-qwen3-vl-embedding-8b-as-multi-modal-embedding"
+        },
+        {
+          "date": "2026-01-19",
+          "title": "STACKIT AI Model Serving: New Model Release Qwen3-VL-235B-A22B",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-new-model-release-qwen3-vl-235b-a22b"
+        },
+        {
+          "date": "2025-12-10",
+          "title": "STACKIT AI Model Serving: New Model Release GPT-OSS-120B",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-new-model-release-gpt-oss-120b"
+        },
+        {
+          "date": "2025-05-06",
+          "title": "STACKIT AI Model Serving is now available",
+          "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/release-notes/#stackit-ai-model-serving-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Model Serving-embedding-plus-input-EU01",
+          "price": "€0.080000",
+          "unit": "mio input token",
+          "monthly": "€0.08/mo"
+        },
+        {
+          "label": "Model Serving-embedding-standard-input-EU01",
+          "price": "€0.020000",
+          "unit": "mio input token",
+          "monthly": "€0.02/mo"
+        },
+        {
+          "label": "Model Serving-llm-plus-input-EU01",
+          "price": "€0.450000",
+          "unit": "mio input token",
+          "monthly": "€0.45/mo"
+        },
+        {
+          "label": "Model Serving-llm-plus-output-EU01",
+          "price": "€0.650000",
+          "unit": "mio output token",
+          "monthly": "€0.65/mo"
+        },
+        {
+          "label": "Model Serving-llm-premium-input-EU01",
+          "price": "€1.500000",
+          "unit": "mio input token",
+          "monthly": "€1.50/mo"
+        }
+      ]
+    },
+    {
+      "id": "container-registry",
+      "enabled": true,
+      "name": "STACKIT Container Registry",
+      "category": "Containers",
+      "description": "STACKIT Container Registry is a managed private container image registry for storing and distributing Docker images.",
+      "useCases": [
+        "Image storage",
+        "CI/CD pipelines",
+        "Private registries",
+        "Image distribution"
+      ],
+      "pricing": "Pay per GB stored",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=container-registry",
+      "url": "https://docs.stackit.cloud/stackit/en/container-registry.html",
+      "icon": "🐳",
+      "limits": [
+        {
+          "name": "Private registries",
+          "value": "Yes"
+        },
+        {
+          "name": "Docker compatible",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-06-27",
+          "title": "STACKIT Container Registry beta launch",
+          "url": "https://docs.stackit.cloud/products/developer-platform/container-registry/release-notes/#stackit-container-registry-beta-launch"
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "enabled": true,
+      "name": "STACKIT Server",
+      "category": "Compute",
+      "description": "STACKIT Server provides virtual machines on sovereign European cloud infrastructure with flexible sizing and multiple hardware generations.",
+      "useCases": [
+        "General compute",
+        "Web hosting",
+        "Databases",
+        "Development environments"
+      ],
+      "pricing": "Pay per hour (vCPU + RAM)",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=server",
+      "url": "https://docs.stackit.cloud/stackit/en/virtual-servers-19759459.html",
+      "icon": "🖥️",
+      "limits": [
+        {
+          "name": "Min vCPU",
+          "value": "1"
+        },
+        {
+          "name": "Max vCPU",
+          "value": "Flavor dependent"
+        },
+        {
+          "name": "Hardware",
+          "value": "Intel (2nd/3rd gen)"
+        },
+        {
+          "name": "OS options",
+          "value": "Ubuntu, openSUSE, RHEL, Windows"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-07-10",
+          "title": "Deprecation of SQLServer Flex-API V2 and SQLServer Flex-API v3alpha1 and SQLServer Flex-API v3alpha2",
+          "url": "https://docs.stackit.cloud/products/databases/sqlserver-flex/release-notes/#deprecation-of-sqlserver-flex-api-v2-and-sqlserver-flex-api-v3alpha1-and-sqlserver-flex-api-v3alpha2"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "STACKIT Server - Microsoft 2011 UEFI Root CA certificate expires on 24 June 2026",
+          "url": "https://docs.stackit.cloud/products/compute-engine/server/release-notes/#stackit-server---microsoft-2011-uefi-root-ca-certificate-expires-on-24-june-2026"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "STACKIT Server Agent: General Availability",
+          "url": "https://docs.stackit.cloud/products/compute-engine/server-agent/release-notes/#stackit-server-agent-general-availability"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Windows Server now available in region EU02",
+          "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#windows-server-now-available-in-region-eu02"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "STACKIT Windows Server now available on Third-Generation Intel Machine Types with Overprovisioning",
+          "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#stackit-windows-server-now-available-on-third-generation-intel-machine-types-with-overprovisioning-"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "Separation of Compute and Licensing (SKU Split) for Windows Server, RHEL, and Confidential Kubernetes",
+          "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#separation-of-compute-and-licensing-sku-split-for-windows-server-rhel-and-confidential-kubernetes"
+        },
+        {
+          "date": "2025-09-18",
+          "title": "Nameserver sets and resource record improvements",
+          "url": "https://docs.stackit.cloud/domain-portal/release-notes/#nameserver-sets-and-resource-record-improvements"
+        },
+        {
+          "date": "2025-09-17",
+          "title": "STACKIT Windows Server now available on Second-Generation Intel Machine Types with Overprovisioning",
+          "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#stackit-windows-server-now-available-on-second-generation-intel-machine-types-with-overprovisioning-"
+        },
+        {
+          "date": "2025-04-15",
+          "title": "Replace MOSS API with Server Backup, Server Update and IaaS APIs",
+          "url": "https://docs.stackit.cloud/products/compute-engine/server-backup-management/release-notes/#replace-moss-api-with-server-backup-server-update-and-iaas-apis-"
+        },
+        {
+          "date": "2025-04-01",
+          "title": "STACKIT Server - End of Life for First-Generation Intel Machine Types on 01 October 2025",
+          "url": "https://docs.stackit.cloud/products/compute-engine/server/release-notes/#stackit-server---end-of-life-for-first-generation-intel-machine-types-on-01-october-2025"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Tiny Server-t2i.1-EU01",
+          "price": "€0.014133",
+          "unit": "per hour",
+          "monthly": "€10.18/mo"
+        },
+        {
+          "label": "Tiny Server-t2i.1-EU01-m",
+          "price": "€0.017594",
+          "unit": "per hour",
+          "monthly": "€12.67/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.1-EU01",
+          "price": "€0.018268",
+          "unit": "per hour",
+          "monthly": "€13.15/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.1-EU01-m",
+          "price": "€0.036535",
+          "unit": "per hour",
+          "monthly": "€26.31/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.2-EU01",
+          "price": "€0.060658",
+          "unit": "per hour",
+          "monthly": "€43.67/mo"
+        }
+      ]
+    },
+    {
+      "id": "cloud-foundry",
+      "enabled": true,
+      "name": "STACKIT Cloud Foundry",
+      "category": "Compute",
+      "description": "STACKIT Cloud Foundry is a managed Platform-as-a-Service for deploying and scaling applications without managing infrastructure.",
+      "useCases": [
+        "App deployment",
+        "PaaS",
+        "Microservices",
+        "Rapid development"
+      ],
+      "pricing": "Pay per instance hour",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=cloud-foundry",
+      "url": "https://docs.stackit.cloud/stackit/en/cloud-foundry-19759460.html",
+      "icon": "☁️",
+      "limits": [
+        {
+          "name": "Max RAM per instance",
+          "value": "32 GB"
+        },
+        {
+          "name": "Buildpacks",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-12-31",
+          "title": "End of public preview: Dedicated Cloud Foundry on STACKIT Kubernetes Engine",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#end-of-public-preview-dedicated-cloud-foundry-on-stackit-kubernetes-engine"
+        },
+        {
+          "date": "2025-08-29",
+          "title": "STACKIT Cloud Foundry Portal update",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#stackit-cloud-foundry-portal-update"
+        },
+        {
+          "date": "2024-03-08",
+          "title": "STACKIT Cloud Foundry supports 32 GB RAM instances and got some other changes",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#stackit-cloud-foundry-supports-32-gb-ram-instances-and-got-some-other-changes"
+        },
+        {
+          "date": "2022-05-06",
+          "title": "Cloud Foundry introduces new load balancer for App Space on 12 May 2022",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#cloud-foundry-introduces-new-load-balancer-for-app-space-on-12-may-2022"
+        },
+        {
+          "date": "2022-03-09",
+          "title": "Cloud Foundry Routes will on 7 April 2022 only be accessible over HTTPS",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#-cloud-foundry-routes-will-on-7-april-2022-only-be-accessible-over-https"
+        },
+        {
+          "date": "2021-10-15",
+          "title": "Reliable data service instance and Cloud Foundry management",
+          "url": "https://docs.stackit.cloud/products/runtime/cloud-foundry/release-notes/#reliable-data-service-instance-and-cloud-foundry-management"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Cloud Foundry App Usage-EU01",
+          "price": "€0.000041",
+          "unit": "per Megabyte RAM/hour",
+          "monthly": "€0.03/mo"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "enabled": true,
+      "name": "STACKIT Git",
+      "category": "DevOps",
+      "description": "STACKIT Git is a managed Git hosting service for sovereign source code management on European infrastructure.",
+      "useCases": [
+        "Source control",
+        "Code collaboration",
+        "CI/CD",
+        "DevOps"
+      ],
+      "pricing": "Pay per subscription plan",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=git",
+      "url": "https://docs.stackit.cloud/stackit/en/git.html",
+      "icon": "📁",
+      "limits": [
+        {
+          "name": "Based on",
+          "value": "Gitea"
+        },
+        {
+          "name": "Sovereign hosting",
+          "value": "Yes (EU)"
+        }
+      ],
+      "news": [
+        {
+          "date": "2025-07-18",
+          "title": "New STACKIT Git-10 Subscription",
+          "url": "https://docs.stackit.cloud/products/developer-platform/git/release-notes/#new-stackit-git-10-subscription"
+        },
+        {
+          "date": "2025-04-01",
+          "title": "STACKIT Git is now available",
+          "url": "https://docs.stackit.cloud/products/developer-platform/git/release-notes/#stackit-git-is-now-available"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "Git-10-EU01",
+          "price": "€0.020830",
+          "unit": "per hour",
+          "monthly": "€15.00/mo"
+        },
+        {
+          "label": "Git-100-EU01",
+          "price": "€0.140000",
+          "unit": "per hour",
+          "monthly": "€100.80/mo"
+        },
+        {
+          "label": "Git-AdditionalStorage-EU01",
+          "price": "€0.006110",
+          "unit": "per hour",
+          "monthly": "€4.40/mo"
+        }
+      ]
+    },
+    {
+      "id": "pipelines",
+      "enabled": true,
+      "name": "STACKIT Pipelines",
+      "category": "DevOps",
+      "description": "STACKIT Pipelines is a managed CI/CD service with STACKIT-managed runners for building and deploying applications.",
+      "useCases": [
+        "CI/CD",
+        "Automated testing",
+        "Build automation",
+        "Deployment pipelines"
+      ],
+      "pricing": "Pay per build minute",
+      "pricingUrl": "https://www.stackit.com/en/prices",
+      "calculatorUrl": "https://calculator.stackit.cloud/runtime?addService=pipelines",
+      "url": "https://docs.stackit.cloud/stackit/en/pipelines.html",
+      "icon": "🔧",
+      "limits": [
+        {
+          "name": "Managed runners",
+          "value": "Yes"
+        },
+        {
+          "name": "Pipeline approvals",
+          "value": "Yes"
+        }
+      ],
+      "news": [
+        {
+          "date": "2026-03-17",
+          "title": "STACKIT Pipelines: Introducing STACKIT-managed Runners",
+          "url": "https://docs.stackit.cloud/products/developer-platform/git/release-notes/#stackit-pipelines-introducing-stackit-managed-runners"
+        }
+      ],
+      "pricingDetails": [
+        {
+          "label": "STACKIT-Pipelines-EU01",
+          "price": "€0.004042",
+          "unit": "minutes of runtime",
+          "monthly": "€2.91/mo"
+        }
+      ]
+    }
+  ]
+}
