@@ -2,6 +2,12 @@
   "lastUpdated": "2026-08-12",
   "changes": [
     {
+      "date": "2026-08-12",
+      "service": "rekognition",
+      "type": "service_added",
+      "detail": "Amazon Rekognition"
+    },
+    {
       "date": "2026-08-11",
       "service": "aurora-serverless",
       "type": "new_news",
