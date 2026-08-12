@@ -1,0 +1,143 @@
+{
+  "lastUpdated": "2026-08-12",
+  "changes": [
+    {
+      "date": "2026-08-12",
+      "service": "kubernetes-engine",
+      "type": "service_added",
+      "detail": "STACKIT Kubernetes Engine"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "object-storage",
+      "type": "service_added",
+      "detail": "STACKIT Object Storage"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "postgresql-flex",
+      "type": "service_added",
+      "detail": "STACKIT PostgreSQL Flex"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "mongodb-flex",
+      "type": "service_added",
+      "detail": "STACKIT MongoDB Flex"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "mariadb",
+      "type": "service_added",
+      "detail": "STACKIT MariaDB"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "redis",
+      "type": "service_added",
+      "detail": "STACKIT Redis"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "key-value-store",
+      "type": "service_added",
+      "detail": "STACKIT Key Value Store"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "opensearch",
+      "type": "service_added",
+      "detail": "STACKIT OpenSearch"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "rabbitmq",
+      "type": "service_added",
+      "detail": "STACKIT RabbitMQ"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "secrets-manager",
+      "type": "service_added",
+      "detail": "STACKIT Secrets Manager"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "kms",
+      "type": "service_added",
+      "detail": "STACKIT Key Management Service"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "load-balancer",
+      "type": "service_added",
+      "detail": "STACKIT Application Load Balancer"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "dns",
+      "type": "service_added",
+      "detail": "STACKIT DNS"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "cdn",
+      "type": "service_added",
+      "detail": "STACKIT CDN"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "vpn",
+      "type": "service_added",
+      "detail": "STACKIT VPN"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "logs",
+      "type": "service_added",
+      "detail": "STACKIT Logs"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "observability",
+      "type": "service_added",
+      "detail": "STACKIT Observability"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "ai-model-serving",
+      "type": "service_added",
+      "detail": "STACKIT AI Model Serving"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "container-registry",
+      "type": "service_added",
+      "detail": "STACKIT Container Registry"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "server",
+      "type": "service_added",
+      "detail": "STACKIT Server"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "cloud-foundry",
+      "type": "service_added",
+      "detail": "STACKIT Cloud Foundry"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "git",
+      "type": "service_added",
+      "detail": "STACKIT Git"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "pipelines",
+      "type": "service_added",
+      "detail": "STACKIT Pipelines"
+    }
+  ]
+}
