@@ -260,7 +260,7 @@ const copiedId = ref(null)
 function copyForLinkedIn(news) {
   const tag = props.provider.toUpperCase()
   const svcTag = service.value.name.replace(/\s+/g, '')
-  const text = `🆕 #${tag} #${svcTag}\n\n${news.title}\n\n🔗 Link in the first comment 👇\n\n#${tag} #Serverless #CloudComputing #s3rv3rl3ss`
+  const text = `🆕 ${news.title}\n\n🔗 Link in the first comment 👇\n\n#${tag} #${svcTag} #Serverless #CloudComputing #CloudNative #s3rv3rl3ss`
   navigator.clipboard.writeText(text)
   copiedId.value = news.title
   setTimeout(() => { copiedId.value = null }, 2000)
@@ -270,8 +270,8 @@ function shareOnLinkedIn(news) {
   const tag = props.provider.toUpperCase()
   const svcTag = service.value.name.replace(/\s+/g, '')
   const svcUrl = `https://s3rv3rl3ss.olcortesb.com/${props.provider}/${props.id}`
-  const text = `🆕 #${tag} #${svcTag}\n\n${news.title}\n\n${news.url || ''}\n\nMore news at s3rv3rl3ss.olcortesb.com\n\n#s3rv3rl3ss #serverless`
-  const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(news.url || '')}&text=${encodeURIComponent(text)}`
+  const text = `🆕 ${news.title}\n\n🔗 Link in the first comment 👇\n\n#${tag} #${svcTag} #Serverless #CloudComputing #CloudNative #s3rv3rl3ss`
+  const url = `https://www.linkedin.com/sharing/share-offsite/?text=${encodeURIComponent(text)}`
   window.open(url, '_blank', 'width=600,height=500')
 }
 
