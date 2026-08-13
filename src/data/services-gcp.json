@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "services": [
     {
       "id": "cloud-run",
@@ -373,6 +373,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-11",
+          "title": "Feature\nFirestore now supports the asia-southeast3 Bangkok region.\nFor a full list of supported locations, see\nLocations",
+          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#August_11_2026"
+        },
+        {
           "date": "2026-07-20",
           "title": "Feature\nYou can now view, manage, and deploy Firestore Security Rules directly in the\nGoogle Cloud console for Firestore",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#July_20_2026"
@@ -416,11 +421,6 @@
           "date": "2026-02-02",
           "title": "Feature\nThe Firestore databases page in the Google Cloud console now includes\na status column. Possible statuses include",
           "url": "https://docs.cloud.google.com/firestore/docs/release-notes#February_02_2026"
-        },
-        {
-          "date": "2026-01-15",
-          "title": "Feature\nFirestore Enterprise edition now supports Native mode and the Pipeline operations interface.\nPipeline operations",
-          "url": "https://docs.cloud.google.com/firestore/docs/release-notes#January_15_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-12",
+          "title": "Announcement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more info",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026"
+        },
+        {
           "date": "2026-08-11",
           "title": "Feature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-15",
           "title": "Feature\nBigQuery supports data governance tags,\nwhich let you enforce column-level security and data masking. Data gover",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,9 +2288,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-09",
-          "title": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
-          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
+          "date": "2026-08-12",
+          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
+          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
           "date": "2026-08-06",
@@ -2340,9 +2340,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-09",
-          "title": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
-          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
+          "date": "2026-08-12",
+          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
+          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
           "date": "2026-08-06",
@@ -2392,9 +2392,9 @@
       ],
       "news": [
         {
-          "date": "2026-08-09",
-          "title": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
-          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
+          "date": "2026-08-12",
+          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
+          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
           "date": "2026-08-06",
@@ -2420,11 +2420,6 @@
           "date": "2026-07-22",
           "title": "Access Approval\nFeature\nAgent Identity is available in\nPreview for Access\nApproval.\nFeature\nPrivileged Access Manager is",
           "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances",
-          "url": "https://docs.cloud.google.com/release-notes#July_13_2026"
         }
       ]
     },
@@ -2468,19 +2463,14 @@
       ],
       "news": [
         {
-          "date": "2026-08-11",
-          "title": "BigQuery\nFeature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean roo",
-          "url": "https://docs.cloud.google.com/release-notes#August_11_2026"
+          "date": "2026-08-12",
+          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
+          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
           "date": "2026-08-10",
           "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
           "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
-        },
-        {
-          "date": "2026-08-09",
-          "title": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
-          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
         },
         {
           "date": "2026-08-08",
@@ -2516,6 +2506,11 @@
           "date": "2026-08-01",
           "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
+          "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
         }
       ]
     }
