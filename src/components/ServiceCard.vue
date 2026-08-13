@@ -43,14 +43,15 @@ const badge = computed(() => {
   const latest = changes.value[0].date
   if (!latest) return null
   const days = Math.floor((new Date() - new Date(latest)) / (1000 * 60 * 60 * 24))
-  if (days <= 1) return 'New'
-  if (days <= 30) return 'Updated'
+  if (days <= 2) return 'New'
+  if (days <= 15) return 'Updated'
+  if (days <= 30) return 'Recent'
   return null
 })
 
-const badgeClass = computed(() =>
-  badge.value === 'New'
-    ? 'bg-green-100 text-green-700'
-    : 'bg-blue-100 text-blue-700'
-)
+const badgeClass = computed(() => ({
+  'New': 'bg-green-100 text-green-700',
+  'Updated': 'bg-blue-100 text-blue-700',
+  'Recent': 'bg-purple-100 text-purple-700',
+})[badge.value])
 </script>

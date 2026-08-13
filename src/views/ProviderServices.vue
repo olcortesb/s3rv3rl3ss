@@ -90,6 +90,12 @@
       <CategoryFilter :categories="categories" :modelValue="selectedCategory" @select="selectedCategory = $event" />
     </div>
 
+    <div class="flex gap-3 mb-4 text-xs">
+      <span class="px-2 py-0.5 rounded-full bg-green-100 text-green-700 font-medium">New — last 48h</span>
+      <span class="px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 font-medium">Updated — last 15 days</span>
+      <span class="px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 font-medium">Recent — last 30 days</span>
+    </div>
+
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <ServiceCard v-for="s in filtered" :key="s.id" :service="s" :provider="provider" />
     </div>
