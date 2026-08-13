@@ -2079,6 +2079,176 @@
       "type": "new_news",
       "detail": "Issue\nSupport for the AI.KEY_DRIVERS function\npreview\nhas been temporarily disabled. We are working to restore this feat",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "vertex-ai",
+      "type": "service_added",
+      "detail": "Vertex AI"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "secret-manager",
+      "type": "service_added",
+      "detail": "Secret Manager"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "memorystore",
+      "type": "service_added",
+      "detail": "Memorystore"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "gke",
+      "type": "service_added",
+      "detail": "Google Kubernetes Engine"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R19) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#May_13_2026"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-storage",
+      "type": "quota_changed",
+      "detail": "Max object size: 5 TiB → 5 TiB (single object)"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-spanner",
+      "type": "service_added",
+      "detail": "Cloud Spanner"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-run-jobs",
+      "type": "service_added",
+      "detail": "Cloud Run Jobs"
+    },
+    {
+      "date": "2026-05-14",
+      "service": "cloud-build",
+      "type": "service_added",
+      "detail": "Cloud Build"
+    },
+    {
+      "date": "2026-05-13",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use the\nAI.COUNT_TOKENS function\nto estimate the token count of text input that you provide. For som",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "workflows",
+      "type": "service_added",
+      "detail": "Workflows"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "firestore",
+      "type": "service_added",
+      "detail": "Firestore"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "eventarc",
+      "type": "service_added",
+      "detail": "Eventarc"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-tasks",
+      "type": "service_added",
+      "detail": "Cloud Tasks"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-storage",
+      "type": "service_added",
+      "detail": "Cloud Storage"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-scheduler",
+      "type": "service_added",
+      "detail": "Cloud Scheduler"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run-functions",
+      "type": "service_added",
+      "detail": "Cloud Run Functions"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-run",
+      "type": "service_added",
+      "detail": "Cloud Run"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "cloud-pubsub",
+      "type": "service_added",
+      "detail": "Cloud Pub/Sub"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "bigquery",
+      "type": "service_added",
+      "detail": "BigQuery"
+    },
+    {
+      "date": "2026-05-12",
+      "service": "api-gateway",
+      "type": "service_added",
+      "detail": "API Gateway"
+    },
+    {
+      "date": "2026-05-04",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
+    },
+    {
+      "date": "2026-04-29",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Feature\nYou can manage object contexts in the Google Cloud Console.\nTo learn more, see Use object contexts.",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_29_2026"
+    },
+    {
+      "date": "2026-04-27",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Feature\nCloud Storage now offers support for AI zones. To learn more, see\nAI zones.",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_27_2026"
+    },
+    {
+      "date": "2026-04-27",
+      "service": "api-gateway",
+      "type": "new_news",
+      "detail": "v1\nChange\nNew validations on paths in API configurations\nAPI Gateway now enforces stricter syntax validations on templat",
+      "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#April_27_2026"
+    },
+    {
+      "date": "2026-04-22",
+      "service": "eventarc",
+      "type": "new_news",
+      "detail": "Feature\nEventarc support for\ncreating triggers\nfor direct events from Gemini Cloud Assist\nis available in Preview.",
+      "url": "https://docs.cloud.google.com/eventarc/docs/release-notes#April_22_2026"
     }
   ]
 }
