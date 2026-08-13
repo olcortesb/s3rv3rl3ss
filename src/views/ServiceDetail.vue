@@ -128,7 +128,7 @@
 
       <div v-if="mergedNews.length" class="mb-6">
         <h2 class="font-semibold text-gray-900 mb-2">News
-          <span class="text-xs font-normal text-gray-400 ml-1">via AWS What's New</span>
+          <span class="text-xs font-normal text-gray-400 ml-1">via {{ newsSource }}</span>
         </h2>
         <ul class="space-y-2">
           <li v-for="n in mergedNews" :key="n.title" class="flex gap-3 text-sm items-start">
@@ -239,6 +239,14 @@ onMounted(async () => {
   service.value = providerData.value?.services.find(s => s.id === props.id) || null
   changelog.value = await getChangelog(props.id, props.provider)
 })
+
+const NEWS_SOURCES = {
+  aws: "AWS What's New",
+  gcp: 'GCP Release Notes',
+  azure: 'Azure Blog',
+  stackit: 'STACKIT Release Notes',
+}
+const newsSource = computed(() => NEWS_SOURCES[props.provider] || 'Release Notes')
 
 const CALCULATORS = {
   aws: { url: 'https://calculator.aws', label: 'AWS Pricing Calculator' },
