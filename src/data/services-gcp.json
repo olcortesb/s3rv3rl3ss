@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "services": [
     {
       "id": "cloud-run",
@@ -258,6 +258,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-10",
+          "title": "Feature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to C",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Feature\nSupport for the Node.js 26 runtime is in Preview.",
           "url": "https://docs.cloud.google.com/functions/docs/release-notes#July_27_2026"
@@ -301,11 +306,6 @@
           "date": "2026-02-02",
           "title": "Feature\nSupport for PHP 8.5 runtime is in Preview.",
           "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_02_2026"
-        },
-        {
-          "date": "2026-01-27",
-          "title": "Feature\nSupport for .NET 10 runtime is in Preview.",
-          "url": "https://docs.cloud.google.com/functions/docs/release-notes#January_27_2026"
         }
       ],
       "pricingDetails": [
@@ -498,31 +498,6 @@
       ],
       "news": [
         {
-          "date": "2026-08-12",
-          "title": "Announcement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more info",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026"
-        },
-        {
-          "date": "2026-08-11",
-          "title": "Feature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026"
-        },
-        {
-          "date": "2026-08-10",
-          "title": "Feature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, ",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
-        },
-        {
           "date": "2026-07-29",
           "title": "Feature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo t",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
@@ -546,6 +521,31 @@
           "date": "2026-07-15",
           "title": "Feature\nBigQuery supports data governance tags,\nwhich let you enforce column-level security and data masking. Data gover",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+        },
+        {
+          "date": "2026-07-09",
+          "title": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
         }
       ],
       "pricingDetails": [
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-12",
+          "title": "Change\n(2026-R33) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_12_2026"
+        },
+        {
           "date": "2026-07-30",
           "title": "Change\n(2026-R32) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_30_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-07-07",
           "title": "Change\nFor GKE Standard clusters, the maximum number of nodes that you can upgrade\nsimultaneously by using surge upgrade",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_07_2026"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Change\n(2026-R26) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_29_2026"
         }
       ],
       "pricingDetails": [
@@ -2250,6 +2250,13 @@
           "name": "Free transfer",
           "value": "360 MB/day"
         }
+      ],
+      "news": [
+        {
+          "date": "2026-07-15",
+          "title": "Access Approval\nFeature\nFirebase App Hosting is available in\nPreview.\nAccess Transparency\nFeature\nFirebase App Hosting i",
+          "url": "https://docs.cloud.google.com/release-notes#July_15_2026"
+        }
       ]
     },
     {
@@ -2397,6 +2404,11 @@
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
+          "date": "2026-08-09",
+          "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
+          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
+        },
+        {
           "date": "2026-08-06",
           "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
           "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
@@ -2408,7 +2420,7 @@
         },
         {
           "date": "2026-08-02",
-          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nChange\nInstalled latest packa",
+          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
           "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
         },
         {
@@ -2463,14 +2475,19 @@
       ],
       "news": [
         {
+          "date": "2026-08-13",
+          "title": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance ",
+          "url": "https://docs.cloud.google.com/release-notes#August_13_2026"
+        },
+        {
           "date": "2026-08-12",
           "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
-          "date": "2026-08-10",
-          "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
-          "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
+          "date": "2026-08-09",
+          "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
+          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
         },
         {
           "date": "2026-08-08",
@@ -2499,18 +2516,13 @@
         },
         {
           "date": "2026-08-02",
-          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nChange\nInstalled latest packa",
+          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
           "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
         },
         {
           "date": "2026-08-01",
           "title": "Gemini Enterprise\nFeature\nGemini Enterprise: Pay for what you consume with the Pay-as-you-go edition\nThe Gemini Enterpri",
           "url": "https://docs.cloud.google.com/release-notes#August_01_2026"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
-          "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
         }
       ]
     }
