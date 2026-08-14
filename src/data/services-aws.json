@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "region": "us-east-1",
   "services": [
     {
@@ -1861,6 +1861,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-13",
+          "title": "Amazon S3 adds additional policy details to access denied error messages",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "How WeatherBug reduced storage costs by 80% using Amazon S3 Storage Lens and Kiro CLI",
+          "url": "https://aws.amazon.com/blogs/storage/how-weatherbug-reduced-storage-costs-by-80-using-amazon-s3-storage-lens-and-kiro-cli/"
+        },
+        {
           "date": "2026-08-06",
           "title": "AWS Backup for Amazon S3 now supports direct access to backup data",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-backup-amazon-s3-direct-access/"
@@ -1949,16 +1959,6 @@
           "date": "2026-07-01",
           "title": "Zero-downtime Amazon S3 Versioning: Architectural patterns for mission-critical workloads",
           "url": "https://aws.amazon.com/blogs/storage/zero-downtime-amazon-s3-versioning-architectural-patterns-for-mission-critical-workloads/"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "Replicate Amazon S3 bucket configurations across AWS Regions with AWS Step Functions",
-          "url": "https://aws.amazon.com/blogs/storage/replicate-amazon-s3-bucket-configurations-across-aws-regions-with-aws-step-functions/"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Query Amazon S3 access logs instantly with CloudWatch and S3 Tables",
-          "url": "https://aws.amazon.com/blogs/storage/query-amazon-s3-access-logs-instantly-with-cloudwatch-and-s3-tables/"
         }
       ],
       "dataStatus": "ok",
@@ -11674,6 +11674,26 @@
       ],
       "news": [
         {
+          "date": "2026-08-13",
+          "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
+        },
+        {
           "date": "2026-08-12",
           "title": "Part 2: Amazon Bedrock cost attribution with Amazon Athena and CUDOS",
           "url": "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/"
@@ -11752,26 +11772,6 @@
           "date": "2026-08-06",
           "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Build visibility for Codex on Amazon Bedrock with OpenTelemetry and Amazon CloudWatch",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-visibility-for-codex-on-amazon-bedrock-with-opentelemetry-and-amazon-cloudwatch/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Building an agentic app deployer with Amazon Bedrock and AWS Lambda",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-app-deployer-with-amazon-bedrock-and-aws-lambda/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "LLM optimization integration for Amazon SageMaker Python SDK",
-          "url": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/"
         }
       ],
       "dataStatus": "partial",
@@ -12402,6 +12402,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-13",
+          "title": "How AppFolio transformed its data streaming architecture with Amazon MSK Express brokers",
+          "url": "https://aws.amazon.com/blogs/big-data/how-appfolio-transformed-its-data-streaming-architecture-with-amazon-msk-express-brokers/"
+        },
         {
           "date": "2026-08-06",
           "title": "Amazon MSK now delivers Kafka Authorizer Logs to customers",
@@ -15198,6 +15203,7 @@
           "value": "30 minutes"
         }
       ],
+      "dataStatus": "partial",
       "news": [
         {
           "date": "2026-07-24",
@@ -15209,8 +15215,7 @@
           "title": "Serverless analytics pipelines using the Apache Spark engine in Amazon Athena",
           "url": "https://aws.amazon.com/blogs/big-data/serverless-analytics-pipelines-using-the-apache-spark-engine-in-amazon-athena/"
         }
-      ],
-      "dataStatus": "partial"
+      ]
     },
     {
       "id": "elasticache-serverless",
