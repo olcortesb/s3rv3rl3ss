@@ -2,76 +2,6 @@
   "lastUpdated": "2026-08-14",
   "changes": [
     {
-      "date": "2026-08-10",
-      "service": "cloud-run-functions",
-      "type": "new_news",
-      "detail": "Feature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to C",
-      "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_10_2026"
-    },
-    {
-      "date": "2026-07-14",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\n",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
-    },
-    {
-      "date": "2026-07-13",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nTable partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApac",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
-    },
-    {
-      "date": "2026-07-09",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
-    },
-    {
-      "date": "2026-07-08",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.\nFeature\nYou can now perform\nmulti-leve",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
-    },
-    {
-      "date": "2026-07-06",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Change\nFor data transfers from Facebook Ads,\nsupport for the AdInsightsMMM report has been temporarily disabled. Existin",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
-    },
-    {
-      "date": "2026-08-12",
-      "service": "gke",
-      "type": "new_news",
-      "detail": "Change\n(2026-R33) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_12_2026"
-    },
-    {
-      "date": "2026-07-15",
-      "service": "firebase-hosting",
-      "type": "new_news",
-      "detail": "Access Approval\nFeature\nFirebase App Hosting is available in\nPreview.\nAccess Transparency\nFeature\nFirebase App Hosting i",
-      "url": "https://docs.cloud.google.com/release-notes#July_15_2026"
-    },
-    {
-      "date": "2026-08-09",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
-      "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
-    },
-    {
-      "date": "2026-08-02",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
-      "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
-    },
-    {
       "date": "2026-08-13",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
@@ -79,18 +9,11 @@
       "url": "https://docs.cloud.google.com/release-notes#August_13_2026"
     },
     {
-      "date": "2026-08-09",
-      "service": "cloud-functions-for-firebase",
+      "date": "2026-08-12",
+      "service": "gke",
       "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
-      "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
-    },
-    {
-      "date": "2026-08-02",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
-      "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
+      "detail": "Change\n(2026-R33) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_12_2026"
     },
     {
       "date": "2026-08-11",
@@ -115,10 +38,24 @@
     },
     {
       "date": "2026-08-10",
+      "service": "cloud-run-functions",
+      "type": "new_news",
+      "detail": "Feature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to C",
+      "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_10_2026"
+    },
+    {
+      "date": "2026-08-10",
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, ",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
+    },
+    {
+      "date": "2026-08-09",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
+      "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
     },
     {
       "date": "2026-08-09",
@@ -132,6 +69,13 @@
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "Google SecOps\nFeature\n[Spotlight Feature] Analyze feed activity with Cloud Logging\nThis feature is in public preview. Yo",
+      "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
+    },
+    {
+      "date": "2026-08-09",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
       "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
     },
     {
@@ -280,6 +224,20 @@
       "type": "new_news",
       "detail": "v1\nFeature\nRoute LLM requests with model routing\nYou can now use model routing in API Gateway as a managed traffic manag",
       "url": "https://docs.cloud.google.com/api-gateway/docs/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-08-02",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
+      "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
+    },
+    {
+      "date": "2026-08-02",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
+      "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
     },
     {
       "date": "2026-08-01",
@@ -549,6 +507,13 @@
     },
     {
       "date": "2026-07-15",
+      "service": "firebase-hosting",
+      "type": "new_news",
+      "detail": "Access Approval\nFeature\nFirebase App Hosting is available in\nPreview.\nAccess Transparency\nFeature\nFirebase App Hosting i",
+      "url": "https://docs.cloud.google.com/release-notes#July_15_2026"
+    },
+    {
+      "date": "2026-07-15",
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nBigQuery supports data governance tags,\nwhich let you enforce column-level security and data masking. Data gover",
@@ -644,6 +609,13 @@
       "type": "new_news",
       "detail": "Change\n(2026-R28) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_09_2026"
+    },
+    {
+      "date": "2026-07-09",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowled",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
     },
     {
       "date": "2026-07-08",
