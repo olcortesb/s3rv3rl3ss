@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "changes": [
+    {
+      "date": "2026-08-13",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Your best friend: BlockOnPossibleDataLoss=True",
+      "url": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/"
+    },
     {
       "date": "2026-08-10",
       "service": "cosmos-db",
