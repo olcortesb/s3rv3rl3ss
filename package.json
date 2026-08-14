@@ -1,7 +1,7 @@
 {
-  "name": "temp-vue",
+  "name": "s3rv3rl3ss",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,10 +14,14 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
     "@tailwindcss/vite": "^4.2.2",
     "@vitejs/plugin-vue": "^5.2.4",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.10",
+    "semantic-release": "^24.2.9",
     "tailwindcss": "^3.4.19",
     "vite": "^5.4.21"
   }
