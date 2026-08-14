@@ -5,22 +5,29 @@
       "date": "2026-08-13",
       "service": "s3",
       "type": "new_news",
-      "detail": "Amazon S3 adds additional policy details to access denied error messages",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/"
-    },
-    {
-      "date": "2026-08-13",
-      "service": "s3",
-      "type": "new_news",
       "detail": "How WeatherBug reduced storage costs by 80% using Amazon S3 Storage Lens and Kiro CLI",
       "url": "https://aws.amazon.com/blogs/storage/how-weatherbug-reduced-storage-costs-by-80-using-amazon-s3-storage-lens-and-kiro-cli/"
     },
     {
       "date": "2026-08-13",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 adds additional policy details to access denied error messages",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/"
+    },
+    {
+      "date": "2026-08-13",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "How AppFolio transformed its data streaming architecture with Amazon MSK Express brokers",
+      "url": "https://aws.amazon.com/blogs/big-data/how-appfolio-transformed-its-data-streaming-architecture-with-amazon-msk-express-brokers/"
+    },
+    {
+      "date": "2026-08-13",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/"
+      "detail": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
     },
     {
       "date": "2026-08-13",
@@ -40,15 +47,8 @@
       "date": "2026-08-13",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-13",
-      "service": "msk-serverless",
-      "type": "new_news",
-      "detail": "How AppFolio transformed its data streaming architecture with Amazon MSK Express brokers",
-      "url": "https://aws.amazon.com/blogs/big-data/how-appfolio-transformed-its-data-streaming-architecture-with-amazon-msk-express-brokers/"
+      "detail": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/"
     },
     {
       "date": "2026-08-12",
