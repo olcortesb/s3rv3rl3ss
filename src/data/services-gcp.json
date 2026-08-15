@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14",
+  "lastUpdated": "2026-08-15",
   "services": [
     {
       "id": "cloud-run",
@@ -2249,13 +2249,6 @@
         {
           "name": "Free transfer",
           "value": "360 MB/day"
-        }
-      ],
-      "news": [
-        {
-          "date": "2026-07-15",
-          "title": "Access Approval\nFeature\nFirebase App Hosting is available in\nPreview.\nAccess Transparency\nFeature\nFirebase App Hosting i",
-          "url": "https://docs.cloud.google.com/release-notes#July_15_2026"
         }
       ]
     },
