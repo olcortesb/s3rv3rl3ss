@@ -5,168 +5,13 @@
       "date": "2026-08-15",
       "service": "lambda",
       "type": "new_runtime",
-      "detail": "Node.js 26 added (active)"
+      "detail": "Python 3.15 added (active)"
     },
     {
       "date": "2026-08-15",
       "service": "lambda",
       "type": "new_runtime",
-      "detail": "Python 3.15 added (active)"
-    },
-    {
-      "date": "2026-08-14",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Implementing dynamic feature flags with AWS AppConfig on AWS Lambda",
-      "url": "https://aws.amazon.com/blogs/compute/implementing-dynamic-feature-flags-with-aws-appconfig-on-aws-lambda/"
-    },
-    {
-      "date": "2026-08-14",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Observability best practices for Lambda durable functions",
-      "url": "https://aws.amazon.com/blogs/compute/observability-best-practices-for-lambda-durable-functions-2/"
-    },
-    {
-      "date": "2026-08-14",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "Collecting CPU and memory metrics for AWS Lambda MicroVMs",
-      "url": "https://aws.amazon.com/blogs/compute/collecting-cpu-and-memory-metrics-for-aws-lambda-microvms/"
-    },
-    {
-      "date": "2026-08-14",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Orchestrating multi-agent AI architectures with Amazon S3 Files",
-      "url": "https://aws.amazon.com/blogs/storage/orchestrating-multi-agent-ai-architectures-with-amazon-s3-files/"
-    },
-    {
-      "date": "2026-08-14",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Faster scaling for Aurora serverless to support agentic AI and other spiky workloads",
-      "url": "https://aws.amazon.com/blogs/database/faster-scaling-for-aurora-serverless-to-support-agentic-ai-and-other-spiky-workloads/"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream requests per minute per account: 60"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "(Managed Knowledge Bases) Retrieve requests per minute per knowledge base: 600"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference input file size (in GB) for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream requests per second per account removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 200K removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Cross-Region model inference tokens per minute for Anthropic Claude 3.5 Sonnet V2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per batch inference job for Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 18K removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference input file size (in GB) for Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per input file per batch inference job for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Sonnet V2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per input file per batch inference job for Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference input file size (in GB) for Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet V2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference job size (in GB) for Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per input file per batch inference job for Claude 3 Sonnet removed"
+      "detail": "Node.js 26 added (active)"
     },
     {
       "date": "2026-08-15",
@@ -178,109 +23,7 @@
       "date": "2026-08-15",
       "service": "bedrock",
       "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3 Sonnet 28K removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3.5 Sonnet V2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per batch inference job for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "On-demand model inference requests per minute for Anthropic Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Minimum number of records per batch inference job for Claude 3.5 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model invocation max tokens per day for Anthropic Claude 3.5 Sonnet V1 (doubled for cross-region calls) removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Records per batch inference job for Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference job size (in GB) for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Batch inference job size (in GB) for Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet V2 200K removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Cross-region model inference tokens per minute for Anthropic Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3 Sonnet removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 51K removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model invocation max tokens per day for Anthropic Claude 3.5 Sonnet V2 (doubled for cross-region calls) removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Minimum number of records per batch inference job for Claude 3.5 Sonnet v2 removed"
-    },
-    {
-      "date": "2026-08-15",
-      "service": "bedrock",
-      "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3 Sonnet 200K removed"
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3.5 Sonnet removed"
     },
     {
       "date": "2026-08-15",
@@ -298,7 +41,73 @@
       "date": "2026-08-15",
       "service": "bedrock",
       "type": "quota_removed",
-      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet V2 18K removed"
+      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 51K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Batch inference input file size (in GB) for Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Batch inference job size (in GB) for Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model invocation max tokens per day for Anthropic Claude 3.5 Sonnet V2 (doubled for cross-region calls) removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Batch inference job size (in GB) for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream requests per minute per account: 60"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Minimum number of records per batch inference job for Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3 Sonnet 200K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3.5 Sonnet V2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Cross-Region model inference tokens per minute for Anthropic Claude 3.5 Sonnet V2 removed"
     },
     {
       "date": "2026-08-15",
@@ -310,7 +119,198 @@
       "date": "2026-08-15",
       "service": "bedrock",
       "type": "quota_removed",
+      "detail": "Batch inference input file size (in GB) for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet V2 200K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Cross-region model inference tokens per minute for Anthropic Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 200K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference tokens per minute for Anthropic Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "(Managed Knowledge Bases) AgenticRetrieveStream requests per second per account removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
       "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet V2 51K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per input file per batch inference job for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Cross-region model inference requests per minute for Anthropic Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Batch inference input file size (in GB) for Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3 Sonnet 28K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per batch inference job for Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per batch inference job for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet V2 18K removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model invocation max tokens per day for Anthropic Claude 3.5 Sonnet V1 (doubled for cross-region calls) removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "On-demand model inference requests per minute for Anthropic Claude 3.5 Sonnet V2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "(Managed Knowledge Bases) Retrieve requests per minute per knowledge base: 600"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per input file per batch inference job for Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Cross-Region model inference requests per minute for Anthropic Claude 3.5 Sonnet V2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Batch inference job size (in GB) for Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Minimum number of records per batch inference job for Claude 3.5 Sonnet v2 removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per input file per batch inference job for Claude 3 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Records per batch inference job for Claude 3.5 Sonnet removed"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "bedrock",
+      "type": "quota_removed",
+      "detail": "Model units per provisioned model for Anthropic Claude 3.5 Sonnet 18K removed"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Orchestrating multi-agent AI architectures with Amazon S3 Files",
+      "url": "https://aws.amazon.com/blogs/storage/orchestrating-multi-agent-ai-architectures-with-amazon-s3-files/"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Observability best practices for Lambda durable functions",
+      "url": "https://aws.amazon.com/blogs/compute/observability-best-practices-for-lambda-durable-functions-2/"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Collecting CPU and memory metrics for AWS Lambda MicroVMs",
+      "url": "https://aws.amazon.com/blogs/compute/collecting-cpu-and-memory-metrics-for-aws-lambda-microvms/"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Implementing dynamic feature flags with AWS AppConfig on AWS Lambda",
+      "url": "https://aws.amazon.com/blogs/compute/implementing-dynamic-feature-flags-with-aws-appconfig-on-aws-lambda/"
     },
     {
       "date": "2026-08-14",
@@ -320,18 +320,11 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
     },
     {
-      "date": "2026-08-13",
-      "service": "redshift-serverless",
-      "type": "new_news",
-      "detail": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/"
-    },
-    {
       "date": "2026-08-14",
-      "service": "ses",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking"
+      "detail": "Faster scaling for Aurora serverless to support agentic AI and other spiky workloads",
+      "url": "https://aws.amazon.com/blogs/database/faster-scaling-for-aurora-serverless-to-support-agentic-ai-and-other-spiky-workloads/"
     },
     {
       "date": "2026-08-13",
@@ -346,6 +339,13 @@
       "type": "new_news",
       "detail": "Amazon S3 adds additional policy details to access denied error messages",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/s3-additional-policy-details-access-denied-error-messages/"
+    },
+    {
+      "date": "2026-08-13",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/"
     },
     {
       "date": "2026-08-13",
