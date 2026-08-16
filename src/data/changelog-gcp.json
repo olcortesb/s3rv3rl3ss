@@ -1,6 +1,69 @@
 {
-  "lastUpdated": "2026-08-15",
+  "lastUpdated": "2026-08-16",
   "changes": [
+    {
+      "date": "2026-08-13",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nBigQuery pipelines now support automated metadata enrichment, allowing you to\ndefine semantic metadata directly ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Announcement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more info",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nQuery templates\nfor data clean rooms are\ngenerally available\n(GA). Query templates allow data clean room owners ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026"
+    },
+    {
+      "date": "2026-08-10",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, ",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
+    },
+    {
+      "date": "2026-08-03",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
+    },
+    {
+      "date": "2026-07-30",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
+    },
+    {
+      "date": "2026-08-14",
+      "service": "gke",
+      "type": "new_news",
+      "detail": "Change\n(2026-R34) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
+      "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_14_2026"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in C",
+      "url": "https://docs.cloud.google.com/release-notes#August_15_2026"
+    },
+    {
+      "date": "2026-08-15",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in C",
+      "url": "https://docs.cloud.google.com/release-notes#August_15_2026"
+    },
     {
       "date": "2026-08-13",
       "service": "cloud-functions-for-firebase",
