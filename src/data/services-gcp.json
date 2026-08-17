@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "services": [
     {
       "id": "cloud-run",
@@ -2488,6 +2488,11 @@
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
+          "date": "2026-08-10",
+          "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
+          "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
+        },
+        {
           "date": "2026-08-09",
           "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
@@ -2516,11 +2521,6 @@
           "date": "2026-08-04",
           "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou",
           "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
-        },
-        {
-          "date": "2026-08-02",
-          "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
-          "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
         }
       ]
     }
