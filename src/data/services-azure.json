@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "services": [
     {
       "id": "azure-functions",
@@ -261,6 +261,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-16",
+          "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
+          "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe-place-to-work/4545975"
+        },
         {
           "date": "2026-08-02",
           "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
@@ -1685,6 +1690,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-16",
+          "title": "Building an Azure AI Landing Zone Without Slowing Teams Down",
+          "url": "https://thomasthornton.cloud/building-an-azure-ai-landing-zone-without-slowing-teams-down/"
+        },
+        {
           "date": "2026-05-03",
           "title": "Microsoft-OpenAI rewrite opens the door for Anthropic and Google",
           "url": "https://thenewstack.io/openai-microsoft-partnership-restructured/"
@@ -1728,11 +1738,6 @@
           "date": "2025-10-26",
           "title": "Context-Aware RAG System with Azure AI Search to Cut Token Costs and Boost Accuracy",
           "url": "https://techcommunity.microsoft.com/t5/azure-ai-foundry-blog/context-aware-rag-system-with-azure-ai-search-to-cut-token-costs/ba-p/4456810"
-        },
-        {
-          "date": "2025-10-12",
-          "title": "GPT-5 model family now powers Azure AI Foundry Agent Service",
-          "url": "https://techcommunity.microsoft.com/t5/azure-ai-foundry-blog/gpt-5-model-family-now-powers-azure-ai-foundry-agent-service/ba-p/4454860"
         }
       ],
       "pricingDetails": [
@@ -2126,11 +2131,6 @@
           "date": "2025-10-05",
           "title": "batch processing triggered pipeline runs in Azure Synapse",
           "url": "https://endjin.com/blog/2025/10/batch-triggered-pipeline-runs-azure-synapse.html"
-        },
-        {
-          "date": "2025-07-27",
-          "title": "Writing structured data to SharePoint from Synapse Notebooks",
-          "url": "https://endjin.com/blog/2025/07/synapse-notebooks-write-sharepoint-data"
         }
       ]
     },
