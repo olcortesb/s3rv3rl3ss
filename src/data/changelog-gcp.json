@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "changes": [
+    {
+      "date": "2026-08-10",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
+      "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
+    },
     {
       "date": "2026-08-15",
       "service": "cloud-identity-platform",
