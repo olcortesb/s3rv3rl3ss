@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "changes": [
+    {
+      "date": "2026-08-16",
+      "service": "container-apps",
+      "type": "new_news",
+      "detail": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
+      "url": "https://techcommunity.microsoft.com/blog/AppsonAzureBlog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe-place-to-work/4545975"
+    },
+    {
+      "date": "2026-08-16",
+      "service": "azure-ai-services",
+      "type": "new_news",
+      "detail": "Building an Azure AI Landing Zone Without Slowing Teams Down",
+      "url": "https://thomasthornton.cloud/building-an-azure-ai-landing-zone-without-slowing-teams-down/"
+    },
     {
       "date": "2026-08-13",
       "service": "azure-sql-serverless",
