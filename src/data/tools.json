@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16",
+  "lastUpdated": "2026-08-17",
   "tools": [
     {
       "id": "localstack",
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "10758ms",
-        "memoryIdle": "340MiB",
+        "startupTime": "11733ms",
+        "memoryIdle": "340.3MiB",
         "imageSize": "1.41GB"
       },
       "services": [],
@@ -145,8 +145,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.4.18",
-      "stars": 4019,
+      "version": "1.4.19",
+      "stars": 4033,
       "technology": [
         "Python",
         "Docker"
@@ -154,8 +154,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2032ms",
-        "memoryIdle": "38.85MiB",
+        "startupTime": "2543ms",
+        "memoryIdle": "38.83MiB",
         "imageSize": "175MB"
       },
       "services": [
@@ -244,7 +244,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.6.0",
-      "stars": 20155,
+      "stars": 20217,
       "technology": [
         "Java",
         "Docker"
@@ -252,8 +252,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "516ms",
-        "memoryIdle": "12.39MiB",
+        "startupTime": "521ms",
+        "memoryIdle": "12.57MiB",
         "imageSize": "342MB"
       },
       "services": [
@@ -349,8 +349,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3071ms",
-        "memoryIdle": "75.43MiB",
+        "startupTime": "3064ms",
+        "memoryIdle": "75.96MiB",
         "imageSize": "488MB"
       },
       "services": [
