@@ -9,13 +9,6 @@
       "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
     },
     {
-      "date": "2026-08-12",
-      "service": "secret-manager",
-      "type": "new_news",
-      "detail": "Fixed\nParameter Manager enforces the location organization policy\n(constraints/gcp.resourceLocations) on resources in th",
-      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#August_12_2026"
-    },
-    {
       "date": "2026-08-15",
       "service": "cloud-identity-platform",
       "type": "new_news",
@@ -49,6 +42,13 @@
       "type": "new_news",
       "detail": "Feature\nBigQuery pipelines now support automated metadata enrichment, allowing you to\ndefine semantic metadata directly ",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Fixed\nParameter Manager enforces the location organization policy\n(constraints/gcp.resourceLocations) on resources in th",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#August_12_2026"
     },
     {
       "date": "2026-08-12",
