@@ -1,6 +1,48 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "changes": [
+    {
+      "date": "2026-08-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL observability concepts and usage with Amazon CloudWatch",
+      "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Unlocking real-time analytics: Streaming Aurora DSQL changes into Apache Iceberg",
+      "url": "https://aws.amazon.com/blogs/database/unlocking-real-time-analytics-streaming-aurora-dsql-changes-into-apache-iceberg/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "NaranjaX manages multiple Amazon MSK Serverless clusters in different accounts from their IDP using AWS RAM and Route 53",
+      "url": "https://aws.amazon.com/blogs/big-data/naranjax-manages-multiple-amazon-msk-serverless-clusters-in-different-accounts-from-their-idp-using-aws-ram-and-route-53/"
+    },
     {
       "date": "2026-08-15",
       "service": "lambda",
