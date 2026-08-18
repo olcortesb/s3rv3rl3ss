@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "services": [
     {
       "id": "cloud-run",
@@ -1013,6 +1013,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-17",
+          "title": "Feature\nIf you delete your project, buckets that have soft delete enabled are\nnow retained for a limited amount of time ",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
+        },
+        {
           "date": "2026-07-20",
           "title": "Feature\nObject Lifecycle Management conditions for\nsizeAboveBytes and sizeBelowBytes\nlet you define a minimum and maximu",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#July_20_2026"
@@ -1056,11 +1061,6 @@
           "date": "2026-04-02",
           "title": "Feature\nYou can configure which encryption types are allowed or prohibited for\ncreating new objects in a bucket. For mor",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_02_2026"
-        },
-        {
-          "date": "2026-03-31",
-          "title": "Feature\nYou can now use Storage Insights datasets to help manage your data security and compliance. The ability to ident",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#March_31_2026"
         }
       ],
       "pricingDetails": [
@@ -1774,6 +1774,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-12",
+          "title": "Fixed\nParameter Manager enforces the location organization policy\n(constraints/gcp.resourceLocations) on resources in th",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#August_12_2026"
+        },
+        {
           "date": "2026-07-27",
           "title": "Feature\nAutomatic rotation of regional Cloud SQL database credentials in Secret Manager\nis available in\nPreview. This fe",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_27_2026"
@@ -1817,11 +1822,6 @@
           "date": "2026-01-20",
           "title": "Feature\nSecret Manager is available in the following region:\n\nasia-southeast3 (Bangkok)\n\nFor more information, see Secre",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#January_20_2026"
-        },
-        {
-          "date": "2025-10-13",
-          "title": "Feature\nPreview: Integrated secret synchronization feature is now available in preview. You can automatically synchroniz",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#October_13_2025"
         }
       ],
       "pricingDetails": [
