@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "region": "us-east-1",
   "services": [
     {
@@ -4265,6 +4265,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-17",
+          "title": "Amazon Aurora DSQL observability concepts and usage with Amazon CloudWatch",
+          "url": "https://aws.amazon.com/blogs/database/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "Unlocking real-time analytics: Streaming Aurora DSQL changes into Apache Iceberg",
+          "url": "https://aws.amazon.com/blogs/database/unlocking-real-time-analytics-streaming-aurora-dsql-changes-into-apache-iceberg/"
+        },
+        {
           "date": "2026-08-14",
           "title": "Faster scaling for Aurora serverless to support agentic AI and other spiky workloads",
           "url": "https://aws.amazon.com/blogs/database/faster-scaling-for-aurora-serverless-to-support-agentic-ai-and-other-spiky-workloads/"
@@ -4353,16 +4363,6 @@
           "date": "2026-07-15",
           "title": "Amazon RDS and Aurora now support R8g and M8g database instances in additional AWS Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/7/amazon-rds-aurora-r8g-m8g-regions/"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "Amazon Aurora DSQL is now available in Europe (Spain)",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-available-in-spain/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Rebuild large indexes on Aurora PostgreSQL with Blue/Green Deployments",
-          "url": "https://aws.amazon.com/blogs/database/rebuild-large-indexes-on-aurora-postgresql-with-blue-green-deployments/"
         }
       ],
       "dataStatus": "partial"
@@ -11447,6 +11447,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-17",
+          "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
+        },
+        {
           "date": "2026-08-14",
           "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
@@ -11535,16 +11545,6 @@
           "date": "2026-08-06",
           "title": "Announcing temporal policies and rate limiting in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/temporal-policies-agentcore/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Configure rate limits for AI traffic on AgentCore gateway",
-          "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/"
         }
       ],
       "dataStatus": "partial",
@@ -12175,6 +12175,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-17",
+          "title": "Amazon MSK now supports configuring custom domain names for MSK Provisioned clusters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "NaranjaX manages multiple Amazon MSK Serverless clusters in different accounts from their IDP using AWS RAM and Route 53",
+          "url": "https://aws.amazon.com/blogs/big-data/naranjax-manages-multiple-amazon-msk-serverless-clusters-in-different-accounts-from-their-idp-using-aws-ram-and-route-53/"
+        },
         {
           "date": "2026-08-13",
           "title": "How AppFolio transformed its data streaming architecture with Amazon MSK Express brokers",
