@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "changes": [
+    {
+      "date": "2026-08-17",
+      "service": "cloud-storage",
+      "type": "new_news",
+      "detail": "Feature\nIf you delete your project, buckets that have soft delete enabled are\nnow retained for a limited amount of time ",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
+    },
+    {
+      "date": "2026-08-12",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Fixed\nParameter Manager enforces the location organization policy\n(constraints/gcp.resourceLocations) on resources in th",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#August_12_2026"
+    },
     {
       "date": "2026-08-15",
       "service": "cloud-identity-platform",
