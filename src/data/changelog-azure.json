@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "changes": [
+    {
+      "date": "2026-08-18",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
+      "url": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "The Two Hybrid Searches in Microsoft SQL",
+      "url": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/"
+    },
     {
       "date": "2026-08-16",
       "service": "container-apps",
