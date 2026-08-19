@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "services": [
     {
       "id": "kubernetes-engine",
@@ -531,34 +531,34 @@
       ],
       "pricingDetails": [
         {
+          "label": "Redis-4.16.250-Replica-HiPerf-EU01",
+          "price": "€1.176579",
+          "unit": "per hour",
+          "monthly": "€847.14/mo"
+        },
+        {
+          "label": "Redis-4.16.50-Replica-EU01",
+          "price": "€0.780583",
+          "unit": "per hour",
+          "monthly": "€562.02/mo"
+        },
+        {
+          "label": "Redis-8.32.100-Replica-EU01",
+          "price": "€1.561167",
+          "unit": "per hour",
+          "monthly": "€1124.04/mo"
+        },
+        {
+          "label": "Redis-8.32.250-Replica-EU01",
+          "price": "€1.717264",
+          "unit": "per hour",
+          "monthly": "€1236.43/mo"
+        },
+        {
           "label": "Redis-1.2.10-Replica-EU01",
           "price": "€0.200569",
           "unit": "per hour",
           "monthly": "€144.41/mo"
-        },
-        {
-          "label": "Redis-1.4.10-Replica-EU01",
-          "price": "€0.217528",
-          "unit": "per hour",
-          "monthly": "€156.62/mo"
-        },
-        {
-          "label": "Redis-1.4.10-Single-EU01",
-          "price": "€0.099958",
-          "unit": "per hour",
-          "monthly": "€71.97/mo"
-        },
-        {
-          "label": "Redis-1.4.50-Replica-EU01",
-          "price": "€0.259153",
-          "unit": "per hour",
-          "monthly": "€186.59/mo"
-        },
-        {
-          "label": "Redis-2.8.10-Replica-EU01",
-          "price": "€0.377806",
-          "unit": "per hour",
-          "monthly": "€272.02/mo"
         }
       ]
     },
@@ -1262,6 +1262,12 @@
       ],
       "pricingDetails": [
         {
+          "label": "VPN-IPSec-500-HA-EU01",
+          "price": "€0.210917",
+          "unit": "per hour",
+          "monthly": "€151.86/mo"
+        },
+        {
           "label": "VPN-IPSec-100-HA-EU01",
           "price": "€0.087875",
           "unit": "per hour",
@@ -1272,12 +1278,6 @@
           "price": "€0.393389",
           "unit": "per hour",
           "monthly": "€283.24/mo"
-        },
-        {
-          "label": "VPN-IPSec-500-HA-EU01",
-          "price": "€0.210917",
-          "unit": "per hour",
-          "monthly": "€151.86/mo"
         }
       ]
     },
@@ -1710,6 +1710,12 @@
       ],
       "pricingDetails": [
         {
+          "label": "Tiny Server-t3i.1-EU02-m",
+          "price": "€0.049324",
+          "unit": "per hour",
+          "monthly": "€35.51/mo"
+        },
+        {
           "label": "Compute Optimized Server-c1.1-EU01",
           "price": "€0.018268",
           "unit": "per hour",
@@ -1732,12 +1738,6 @@
           "price": "€0.121316",
           "unit": "per hour",
           "monthly": "€87.35/mo"
-        },
-        {
-          "label": "Compute Optimized Server-c1.3-EU01",
-          "price": "€0.137902",
-          "unit": "per hour",
-          "monthly": "€99.29/mo"
         }
       ]
     },
