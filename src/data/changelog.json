@@ -1,6 +1,103 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "changes": [
+    {
+      "date": "2026-08-18",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "Amazon MWAA Serverless now supports PythonOperator and BashOperator",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Transfer Amazon S3 data from commercial AWS Regions to AWS European Sovereign Cloud using AWS DataSync Enhanced mode",
+      "url": "https://aws.amazon.com/blogs/storage/transfer-amazon-s3-data-from-aws-commercial-regions-to-aws-european-sovereign-cloud-using-aws-datasync-enhanced-mode/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Scale pgvector with binary quantization on Amazon Aurora PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/scale-pgvector-with-binary-quantization-on-amazon-aurora-postgresql/"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude Opus 5: 100"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock now supports OpenAI models in India",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Implement vector-prompt document classification using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "How Axonius built secure multi-tenant AI agents on Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "Amazon MSK simplifies configuring custom domain names",
+      "url": "https://aws.amazon.com/blogs/big-data/amazon-msk-simplifies-configuring-custom-domain-names/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "iot-core",
+      "type": "new_news",
+      "detail": "Mechanisms for IoT commands, control, and configuration",
+      "url": "https://aws.amazon.com/blogs/iot/mechanisms-for-iot-commands-control-and-configuration/"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "elasticache-serverless",
+      "type": "new_news",
+      "detail": "Integrate your Spring Boot application with Amazon ElastiCache using Spring Data Valkey",
+      "url": "https://aws.amazon.com/blogs/database/integrate-your-spring-boot-application-with-amazon-elasticache-using-spring-data-valkey/"
+    },
     {
       "date": "2026-08-17",
       "service": "msk-serverless",
