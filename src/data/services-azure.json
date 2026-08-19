@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "services": [
     {
       "id": "azure-functions",
@@ -423,6 +423,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
+          "url": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents/"
+        },
+        {
           "date": "2026-08-10",
           "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
           "url": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/"
@@ -466,11 +471,6 @@
           "date": "2026-06-22",
           "title": "How to Use Deep Agents with Azure Cosmos DB – Plan, act, and verify against operational data",
           "url": "https://devblogs.microsoft.com/cosmosdb/deep-agents-to-plan-act-verify-against-operational-data/"
-        },
-        {
-          "date": "2026-06-17",
-          "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
-          "url": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/"
         }
       ],
       "pricingDetails": [
@@ -1595,6 +1595,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "The Two Hybrid Searches in Microsoft SQL",
+          "url": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/"
+        },
+        {
           "date": "2026-08-13",
           "title": "Your best friend: BlockOnPossibleDataLoss=True",
           "url": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/"
@@ -1638,11 +1643,6 @@
           "date": "2026-07-01",
           "title": "Audit Frontier AI Agents with SQL MCP Server",
           "url": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
-          "url": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/"
         }
       ],
       "pricingDetails": [
