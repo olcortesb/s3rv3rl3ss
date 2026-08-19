@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "services": [
     {
       "id": "cloud-run",
@@ -1342,6 +1342,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "Change\nFor node pools running on GKE versions 1.36.3-gke.1480000 and later, the minimum\nsupported boot disk size is 15 G",
+          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_18_2026"
+        },
+        {
           "date": "2026-08-14",
           "title": "Change\n(2026-R34) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#August_14_2026"
@@ -1385,11 +1390,6 @@
           "date": "2026-07-10",
           "title": "Change\n(2026-R29) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
           "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_10_2026"
-        },
-        {
-          "date": "2026-07-09",
-          "title": "Change\n(2026-R28) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
-          "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#July_09_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
+          "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+        },
+        {
           "date": "2026-08-12",
           "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
@@ -2340,6 +2345,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
+          "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+        },
+        {
           "date": "2026-08-12",
           "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
@@ -2391,6 +2401,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-18",
+          "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
+          "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+        },
+        {
+          "date": "2026-08-16",
+          "title": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known",
+          "url": "https://docs.cloud.google.com/release-notes#August_16_2026"
+        },
         {
           "date": "2026-08-15",
           "title": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in C",
@@ -2473,6 +2493,21 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
+          "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "AlloyDB for PostgreSQL\nFeature\nYou can now use the\nModel Context Protocol (MCP) Toolbox for Databases\nto access AlloyDB ",
+          "url": "https://docs.cloud.google.com/release-notes#August_17_2026"
+        },
+        {
+          "date": "2026-08-16",
+          "title": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known",
+          "url": "https://docs.cloud.google.com/release-notes#August_16_2026"
+        },
+        {
           "date": "2026-08-15",
           "title": "Gemini Enterprise Agent Platform\nFeature\nMonitor semantic governance policies with built-in metrics (Preview)\nBuilt-in C",
           "url": "https://docs.cloud.google.com/release-notes#August_15_2026"
@@ -2506,21 +2541,6 @@
           "date": "2026-08-07",
           "title": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time op",
           "url": "https://docs.cloud.google.com/release-notes#August_07_2026"
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
-          "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from",
-          "url": "https://docs.cloud.google.com/release-notes#August_05_2026"
-        },
-        {
-          "date": "2026-08-04",
-          "title": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports Best Matching 25 (BM25) indexes for full-text search in\nPreview.\nYou",
-          "url": "https://docs.cloud.google.com/release-notes#August_04_2026"
         }
       ]
     }
