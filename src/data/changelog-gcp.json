@@ -10,7 +10,14 @@
     },
     {
       "date": "2026-08-18",
-      "service": "cloud-armor",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
+      "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
       "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
@@ -24,24 +31,17 @@
     },
     {
       "date": "2026-08-18",
-      "service": "cloud-identity-platform",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
       "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
     },
     {
-      "date": "2026-08-16",
-      "service": "cloud-identity-platform",
+      "date": "2026-08-17",
+      "service": "cloud-storage",
       "type": "new_news",
-      "detail": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known",
-      "url": "https://docs.cloud.google.com/release-notes#August_16_2026"
-    },
-    {
-      "date": "2026-08-18",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
-      "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+      "detail": "Feature\nIf you delete your project, buckets that have soft delete enabled are\nnow retained for a limited amount of time ",
+      "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
     },
     {
       "date": "2026-08-17",
@@ -52,17 +52,17 @@
     },
     {
       "date": "2026-08-16",
-      "service": "cloud-functions-for-firebase",
+      "service": "cloud-identity-platform",
       "type": "new_news",
       "detail": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known",
       "url": "https://docs.cloud.google.com/release-notes#August_16_2026"
     },
     {
-      "date": "2026-08-17",
-      "service": "cloud-storage",
+      "date": "2026-08-16",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "Feature\nIf you delete your project, buckets that have soft delete enabled are\nnow retained for a limited amount of time ",
-      "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
+      "detail": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known",
+      "url": "https://docs.cloud.google.com/release-notes#August_16_2026"
     },
     {
       "date": "2026-08-15",
