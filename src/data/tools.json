@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65146,
+      "stars": 65145,
       "technology": [
         "Python",
         "Docker"
@@ -16,8 +16,8 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "11199ms",
-        "memoryIdle": "340MiB",
+        "startupTime": "10933ms",
+        "memoryIdle": "340.7MiB",
         "imageSize": "1.41GB"
       },
       "services": [],
@@ -145,8 +145,8 @@
       "description": "Free, open-source AWS emulator. 60+ services on a single Docker container at port 4566. Drop-in LocalStack replacement",
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
-      "version": "1.4.20",
-      "stars": 4048,
+      "version": "1.4.21",
+      "stars": 4055,
       "technology": [
         "Python",
         "Docker"
@@ -154,9 +154,9 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2545ms",
-        "memoryIdle": "38.68MiB",
-        "imageSize": "175MB"
+        "startupTime": "2542ms",
+        "memoryIdle": "38.86MiB",
+        "imageSize": "176MB"
       },
       "services": [
         "account",
@@ -201,6 +201,7 @@
         "iam",
         "inspector2",
         "iot",
+        "iot-jobs-data",
         "iotdata",
         "kafka",
         "kinesis",
@@ -233,7 +234,7 @@
         "transfer",
         "wafv2"
       ],
-      "serviceCount": 80,
+      "serviceCount": 81,
       "paidServices": [],
       "paidServiceCount": 0
     },
@@ -244,7 +245,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.7.0",
-      "stars": 20509,
+      "stars": 20605,
       "technology": [
         "Java",
         "Docker"
@@ -253,7 +254,7 @@
       "price": "Free",
       "performance": {
         "startupTime": "519ms",
-        "memoryIdle": "14.74MiB",
+        "memoryIdle": "14.92MiB",
         "imageSize": "351MB"
       },
       "services": [
@@ -357,8 +358,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3063ms",
-        "memoryIdle": "76.92MiB",
+        "startupTime": "3051ms",
+        "memoryIdle": "75.95MiB",
         "imageSize": "488MB"
       },
       "services": [
@@ -775,6 +776,7 @@
     "identitystore": "Identity Store",
     "inspector2": "Inspector",
     "iot": "IoT",
+    "iot-jobs-data": "iot-jobs-data",
     "iotdata": "IoT Data",
     "iotwireless": "IoT Wireless",
     "ivs": "IVS",
