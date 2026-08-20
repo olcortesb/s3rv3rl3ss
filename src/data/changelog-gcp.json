@@ -3,7 +3,7 @@
   "changes": [
     {
       "date": "2026-08-19",
-      "service": "cloud-run",
+      "service": "cloud-run-jobs",
       "type": "new_news",
       "detail": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
       "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
@@ -16,22 +16,8 @@
       "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_19_2026"
     },
     {
-      "date": "2026-08-18",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
-    },
-    {
-      "date": "2026-08-11",
-      "service": "cloud-spanner",
-      "type": "new_news",
-      "detail": "Feature\nFor DML statements, Spanner now enforces the 80,000 mutation limit (including indexes) per statement rather than",
-      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#August_11_2026"
-    },
-    {
       "date": "2026-08-19",
-      "service": "cloud-run-jobs",
+      "service": "cloud-run",
       "type": "new_news",
       "detail": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
       "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
@@ -77,6 +63,13 @@
       "type": "new_news",
       "detail": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
       "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
+    },
+    {
+      "date": "2026-08-18",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
     },
     {
       "date": "2026-08-17",
@@ -161,6 +154,13 @@
       "type": "new_news",
       "detail": "Announcement\nTable Explorer behavior has moved to the Reference panel. Table Explorer\nhas been deprecated. For more info",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026"
+    },
+    {
+      "date": "2026-08-11",
+      "service": "cloud-spanner",
+      "type": "new_news",
+      "detail": "Feature\nFor DML statements, Spanner now enforces the 80,000 mutation limit (including indexes) per statement rather than",
+      "url": "https://docs.cloud.google.com/spanner/docs/release-notes#August_11_2026"
     },
     {
       "date": "2026-08-11",
