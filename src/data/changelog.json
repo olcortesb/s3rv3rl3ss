@@ -2,44 +2,10 @@
   "lastUpdated": "2026-08-20",
   "changes": [
     {
-      "date": "2026-08-19",
-      "service": "lambda",
-      "type": "new_news",
-      "detail": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "step-functions",
-      "type": "new_news",
-      "detail": "Set up your AI coding agent to build with AWS Step Functions",
-      "url": "https://aws.amazon.com/blogs/compute/set-up-your-ai-coding-agent-to-build-with-aws-step-functions/"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "Encrypt Amazon ECS traffic: VPC encryption controls and Service Connect TLS",
-      "url": "https://aws.amazon.com/blogs/containers/encrypt-amazon-ecs-traffic-vpc-encryption-controls-and-service-connect-tls/"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Understand memory management in Amazon RDS for PostgreSQL to avoid out of memory",
-      "url": "https://aws.amazon.com/blogs/database/understand-memory-management-in-amazon-rds-for-postgresql-to-avoid-out-of-memory/"
-    },
-    {
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per day for GPT-5.6 Luna: 0"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Model invocation max tokens per day for GPT-5.6 Terra (doubled for cross-region calls): 0"
+      "detail": "Global cross-region model inference tokens per day for GPT-5.6 Sol: 0"
     },
     {
       "date": "2026-08-20",
@@ -51,7 +17,13 @@
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Terra: 0"
+      "detail": "Global cross-region model inference tokens per day for GPT-5.6 Luna: 0"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per minute for GPT-5.6 Sol: 0"
     },
     {
       "date": "2026-08-20",
@@ -63,19 +35,7 @@
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Luna: 0"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Model invocation max tokens per day for GPT-5.6 Luna (doubled for cross-region calls): 0"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Sol: 0"
+      "detail": "Global cross-region model inference tokens per minute for GPT-5.6 Terra: 0"
     },
     {
       "date": "2026-08-20",
@@ -87,19 +47,59 @@
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for GPT-5.6 Terra: 0"
+      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Sol: 0"
     },
     {
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per day for GPT-5.6 Sol: 0"
+      "detail": "Model invocation max tokens per day for GPT-5.6 Terra (doubled for cross-region calls): 0"
     },
     {
       "date": "2026-08-20",
       "service": "bedrock",
       "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for GPT-5.6 Sol: 0"
+      "detail": "Model invocation max tokens per day for GPT-5.6 Luna (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Luna: 0"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for GPT-5.6 Terra: 0"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "step-functions",
+      "type": "new_news",
+      "detail": "Set up your AI coding agent to build with AWS Step Functions",
+      "url": "https://aws.amazon.com/blogs/compute/set-up-your-ai-coding-agent-to-build-with-aws-step-functions/"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "lambda",
+      "type": "new_news",
+      "detail": "AWS Lambda MicroVMs is now available in 5 additional AWS regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-5-additional-regions"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Deep dive into Amazon EKS certificate authority rotation",
+      "url": "https://aws.amazon.com/blogs/containers/deep-dive-into-amazon-eks-certificate-authority-rotation/"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "Encrypt Amazon ECS traffic: VPC encryption controls and Service Connect TLS",
+      "url": "https://aws.amazon.com/blogs/containers/encrypt-amazon-ecs-traffic-vpc-encryption-controls-and-service-connect-tls/"
     },
     {
       "date": "2026-08-19",
@@ -112,29 +112,15 @@
       "date": "2026-08-19",
       "service": "bedrock",
       "type": "new_news",
+      "detail": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
+      "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "bedrock",
+      "type": "new_news",
       "detail": "Web Search in Amazon Bedrock AgentCore adds domain and published date filtering, expands to Europe and Asia Pacific",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/web-search-amazon-bedrock/"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock now supports SpaceXAI Grok 4.6 with Cross Region Inferencing",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/"
-    },
-    {
-      "date": "2026-08-19",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Domain and publish date filters for Web Search on AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/"
     },
     {
       "date": "2026-08-19",
@@ -147,28 +133,35 @@
       "date": "2026-08-19",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
-      "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/"
+      "detail": "AWS Cost Anomaly Detection supports third-party models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-cost-anomaly-detection-bedrock-3P/"
     },
     {
       "date": "2026-08-19",
-      "service": "eks",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "Deep dive into Amazon EKS certificate authority rotation",
-      "url": "https://aws.amazon.com/blogs/containers/deep-dive-into-amazon-eks-certificate-authority-rotation/"
-    },
-    {
-      "date": "2026-08-10",
-      "service": "msk-serverless",
-      "type": "new_news",
-      "detail": "Amazon MSK now supports in-place migration from Apache ZooKeeper to KRaft",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-msk-zk-kraft-migration/"
+      "detail": "Domain and publish date filters for Web Search on AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/"
     },
     {
       "date": "2026-08-19",
       "service": "bedrock",
       "type": "quota_added",
       "detail": "Sum of in-progress and submitted batch inference jobs using a base model for Claude Opus 5: 100"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock now supports SpaceXAI Grok 4.6 with Cross Region Inferencing",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-grok-4-6/"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Understand memory management in Amazon RDS for PostgreSQL to avoid out of memory",
+      "url": "https://aws.amazon.com/blogs/database/understand-memory-management-in-amazon-rds-for-postgresql-to-avoid-out-of-memory/"
     },
     {
       "date": "2026-08-18",
@@ -731,6 +724,13 @@
       "type": "new_news",
       "detail": "Migrate RDS and Aurora logs to CloudWatch Infrequent Access",
       "url": "https://aws.amazon.com/blogs/database/migrate-rds-and-aurora-logs-to-cloudwatch-infrequent-access/"
+    },
+    {
+      "date": "2026-08-10",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "Amazon MSK now supports in-place migration from Apache ZooKeeper to KRaft",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-msk-zk-kraft-migration/"
     },
     {
       "date": "2026-08-07",
