@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-19",
+          "title": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
+        },
+        {
           "date": "2026-08-11",
           "title": "Feature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#August_11_2026"
@@ -96,11 +101,6 @@
           "date": "2026-04-15",
           "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
         }
       ],
       "pricingDetails": [
@@ -258,6 +258,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-19",
+          "title": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
+          "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_19_2026"
+        },
+        {
           "date": "2026-08-10",
           "title": "Feature\nThe Cloud Run functions upgrade tool is in General Availability. Use this tool to upgrade 1st gen functions to C",
           "url": "https://docs.cloud.google.com/functions/docs/release-notes#August_10_2026"
@@ -301,11 +306,6 @@
           "date": "2026-02-18",
           "title": "Feature\nSupport for .NET 10 runtime is in General Availability.",
           "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_18_2026"
-        },
-        {
-          "date": "2026-02-02",
-          "title": "Feature\nSupport for PHP 8.5 runtime is in Preview.",
-          "url": "https://docs.cloud.google.com/functions/docs/release-notes#February_02_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-18",
+          "title": "Feature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
+        },
+        {
           "date": "2026-08-13",
           "title": "Feature\nBigQuery pipelines now support automated metadata enrichment, allowing you to\ndefine semantic metadata directly ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-23",
           "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "Issue\nLakehouse for Apache Iceberg: Data Products with\nspecial characters, such as \"/\" or \"-\", are not supported and wil",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
         }
       ],
       "pricingDetails": [
@@ -1463,6 +1463,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-11",
+          "title": "Feature\nFor DML statements, Spanner now enforces the 80,000 mutation limit (including indexes) per statement rather than",
+          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#August_11_2026"
+        },
+        {
           "date": "2026-08-10",
           "title": "Feature\nDynamic channel pooling (DCP) for gRPC channels in the Spanner Go and Java client\nlibraries is\ngenerally availab",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#August_10_2026"
@@ -1506,11 +1511,6 @@
           "date": "2026-05-14",
           "title": "Feature\nSpanner supports the FACTORIZED_MODE join hint. You can control\nwhich sides of a join to factorize (deduplicate)",
           "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_14_2026"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Feature\nSpanner vector index and\napproximate nearest neighbor (ANN)\ndistance functions are\ngenerally available\n(GA) for ",
-          "url": "https://docs.cloud.google.com/spanner/docs/release-notes#May_04_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-19",
+          "title": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
+        },
+        {
           "date": "2026-08-11",
           "title": "Feature\nCloud Run NVIDIA L4 GPU driver version 580.x.x is available for services, jobs, and worker pools.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#August_11_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-04-15",
           "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
-        },
-        {
-          "date": "2026-04-14",
-          "title": "Feature\nSupport for worker pools is in General Availability (GA).",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_14_2026"
         }
       ],
       "pricingDetails": [
@@ -2493,6 +2493,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-19",
+          "title": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runti",
+          "url": "https://docs.cloud.google.com/release-notes#August_19_2026"
+        },
+        {
           "date": "2026-08-18",
           "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
           "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
@@ -2531,11 +2536,6 @@
           "date": "2026-08-09",
           "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
-        },
-        {
-          "date": "2026-08-08",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
         },
         {
           "date": "2026-08-07",
