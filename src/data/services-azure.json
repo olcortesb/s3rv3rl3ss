@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "services": [
     {
       "id": "azure-functions",
@@ -1595,6 +1595,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-19",
+          "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
+          "url": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
+          "url": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/"
+        },
+        {
           "date": "2026-08-18",
           "title": "The Two Hybrid Searches in Microsoft SQL",
           "url": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/"
@@ -1633,16 +1643,6 @@
           "date": "2026-07-15",
           "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
           "url": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/"
-        },
-        {
-          "date": "2026-07-02",
-          "title": "Fundamentals of Azure DevOps with SQL projects",
-          "url": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Audit Frontier AI Agents with SQL MCP Server",
-          "url": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/"
         }
       ],
       "pricingDetails": [
