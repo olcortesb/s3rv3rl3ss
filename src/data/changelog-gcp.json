@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "changes": [
+    {
+      "date": "2026-08-20",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analyti",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
+    },
+    {
+      "date": "2026-08-08",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
+      "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
+    },
     {
       "date": "2026-08-19",
       "service": "cloud-run-jobs",
