@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "region": "us-east-1",
   "services": [
     {
@@ -34,7 +34,7 @@
         },
         {
           "name": "Rate of SendDurableExecutionCallbackSuccess API requests",
-          "value": "300",
+          "value": "6000",
           "description": "The maximum number of SendDurableExecutionCallbackSuccess API requests per second.",
           "adjustable": true
         },
@@ -194,7 +194,7 @@
         },
         {
           "name": "Maximum running durable executions",
-          "value": "1000000",
+          "value": "10000000",
           "description": "The maximum number of durable executions that can be running simultaneously in the current region.",
           "adjustable": true
         },
@@ -225,7 +225,7 @@
         },
         {
           "name": "Rate of SendDurableExecutionCallbackFailure API requests",
-          "value": "300",
+          "value": "6000",
           "description": "The maximum number of SendDurableExecutionCallbackFailure API requests per second.",
           "adjustable": true
         },
@@ -238,7 +238,7 @@
         },
         {
           "name": "Rate of SendDurableExecutionCallbackHeartbeat API requests",
-          "value": "300",
+          "value": "6000",
           "description": "The maximum number of SendDurableExecutionCallbackHeartbeat API requests per second.",
           "adjustable": true
         },
@@ -257,7 +257,7 @@
         },
         {
           "name": "Rate of CheckpointDurableExecution API requests",
-          "value": "1000",
+          "value": "20000",
           "description": "The maximum number of CheckpointDurableExecution API requests per second.",
           "adjustable": true
         },
@@ -307,7 +307,7 @@
         },
         {
           "name": "Rate of GetDurableExecutionState API requests",
-          "value": "1000",
+          "value": "20000",
           "description": "The maximum number of GetDurableExecutionState API requests per second.",
           "adjustable": true
         },
@@ -456,7 +456,7 @@
         },
         {
           "name": "Rate of StopDurableExecution API requests",
-          "value": "30",
+          "value": "600",
           "description": "The maximum number of StopDurableExecution API requests per second.",
           "adjustable": true
         },
@@ -936,6 +936,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-19",
+          "title": "Amazon DynamoDB Streams now supports attribute-based access control",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/"
+        },
         {
           "date": "2026-08-10",
           "title": "Recover from accidental DynamoDB changes using Bulk Executor",
@@ -1874,6 +1879,21 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "How Nearmap built continental-scale aerial search using Amazon S3 Vectors",
+          "url": "https://aws.amazon.com/blogs/storage/how-nearmap-built-continental-scale-aerial-search-using-amazon-s3-vectors/"
+        },
+        {
           "date": "2026-08-18",
           "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions"
@@ -1957,21 +1977,6 @@
           "date": "2026-07-16",
           "title": "Amazon S3 Event Notifications now include system-generated tags",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-s3-event-notifications-system-generated-tags/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Amazon S3 removes 30-day minimum for transitions to S3 Standard-IA and S3 One Zone-IA",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/s3-removes-30-day-transitions-standard-ia-one-zone-ia"
-        },
-        {
-          "date": "2026-07-14",
-          "title": "How Vanderbilt University scales digital archive discovery with Amazon S3 Metadata",
-          "url": "https://aws.amazon.com/blogs/storage/how-vanderbilt-university-scales-digital-archive-discovery-with-s3-metadata/"
-        },
-        {
-          "date": "2026-07-13",
-          "title": "Amazon Redshift Serverless now preserves zero-ETL and Amazon S3 event integrations during snapshot restores",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/redshift-serverless-zetl-autocopy-restore/"
         }
       ],
       "dataStatus": "ok",
@@ -3967,13 +3972,13 @@
         },
         {
           "date": "2026-08-06",
-          "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/"
+          "title": "Centralize cross-account Amazon ECS telemetry with an ADOT gateway",
+          "url": "https://aws.amazon.com/blogs/containers/centralize-cross-account-amazon-ecs-telemetry-with-an-adot-gateway/"
         },
         {
           "date": "2026-08-06",
-          "title": "Centralize cross-account Amazon ECS telemetry with an ADOT gateway",
-          "url": "https://aws.amazon.com/blogs/containers/centralize-cross-account-amazon-ecs-telemetry-with-an-adot-gateway/"
+          "title": "Amazon ECS now supports fractional GPU scheduling with Amazon EC2 G6f instances",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-fractional-gpu/"
         },
         {
           "date": "2026-08-04",
@@ -4275,6 +4280,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Migrate multilingual full-text search from SQL Server to PostgreSQL",
+          "url": "https://aws.amazon.com/blogs/database/migrate-multilingual-full-text-search-from-sql-server-to-postgresql/"
+        },
+        {
           "date": "2026-08-19",
           "title": "Understand memory management in Amazon RDS for PostgreSQL to avoid out of memory",
           "url": "https://aws.amazon.com/blogs/database/understand-memory-management-in-amazon-rds-for-postgresql-to-avoid-out-of-memory/"
@@ -4368,11 +4378,6 @@
           "date": "2026-07-20",
           "title": "Connection pooling strategies in Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/connection-pooling-strategies-in-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "Amazon Aurora DSQL is now in scope for FedRAMP Moderate",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-aurora-dsql-now-in-scope-for-fedramp-moderate/"
         }
       ],
       "dataStatus": "partial"
@@ -11535,6 +11540,31 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/"
+        },
+        {
           "date": "2026-08-19",
           "title": "Launching External Web Access for Web Search on Amazon Bedrock",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/"
@@ -11608,31 +11638,6 @@
           "date": "2026-08-17",
           "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
-        },
-        {
-          "date": "2026-08-14",
-          "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Daybreak Red and Daybreak Blue from OpenAI are now available to eligible customers on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-daybreak-red-and-blue-on-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
         }
       ],
       "dataStatus": "partial",
@@ -11942,6 +11947,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management"
+        },
+        {
           "date": "2026-08-19",
           "title": "Deep dive into Amazon EKS certificate authority rotation",
           "url": "https://aws.amazon.com/blogs/containers/deep-dive-into-amazon-eks-certificate-authority-rotation/"
@@ -12035,11 +12045,6 @@
           "date": "2026-06-30",
           "title": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
-        },
-        {
-          "date": "2026-06-23",
-          "title": "Faster nodes, smarter scaling: What’s new inside Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode",
-          "url": "https://aws.amazon.com/blogs/containers/faster-nodes-smarter-scaling-whats-new-inside-amazon-elastic-kubernetes-service-amazon-eks-auto-mode/"
         }
       ],
       "dataStatus": "partial"
@@ -12549,6 +12554,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Long-term system tables retention in Amazon Redshift with Amazon S3 Tables",
+          "url": "https://aws.amazon.com/blogs/big-data/long-term-system-tables-retention-in-amazon-redshift-with-amazon-s3-tables/"
+        },
+        {
           "date": "2026-08-13",
           "title": "Amazon Redshift adds rg.large and rg.12xlarge instance sizes in AWS GovCloud (US) Regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-adds-rg-large-12xlarge-aws-govcloud-regions/"
@@ -12637,16 +12652,6 @@
           "date": "2026-06-25",
           "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances"
-        },
-        {
-          "date": "2026-06-24",
-          "title": "Multi-Region identity-based access to Amazon Redshift and S3 Tables",
-          "url": "https://aws.amazon.com/blogs/big-data/multi-region-identity-based-access-to-amazon-redshift-and-s3-tables/"
-        },
-        {
-          "date": "2026-06-22",
-          "title": "Why tombola chose Graviton-powered RG instances for Amazon Redshift",
-          "url": "https://aws.amazon.com/blogs/big-data/why-tombola-chose-graviton-powered-rg-instances-for-amazon-redshift/"
         }
       ],
       "dataStatus": "partial"
@@ -13303,6 +13308,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-20",
+          "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap"
+        },
         {
           "date": "2026-07-24",
           "title": "How Amazon CloudFront delivered traffic for the FIFA World Cup 2026",
@@ -14483,6 +14493,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-20",
+          "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/"
+        },
         {
           "date": "2026-08-07",
           "title": "Amazon Timestream for InfluxDB now supports backup and restore",
