@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-20",
+          "title": "Feature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analyti",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
+        },
+        {
           "date": "2026-08-18",
           "title": "Feature\nThe default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-27",
           "title": "Feature\nYou can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. F",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
-        },
-        {
-          "date": "2026-07-23",
-          "title": "Change\nAn updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026"
         }
       ],
       "pricingDetails": [
@@ -2538,9 +2538,9 @@
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
         },
         {
-          "date": "2026-08-07",
-          "title": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time op",
-          "url": "https://docs.cloud.google.com/release-notes#August_07_2026"
+          "date": "2026-08-08",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
         }
       ]
     }
