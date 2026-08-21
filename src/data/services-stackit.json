@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "services": [
     {
       "id": "kubernetes-engine",
@@ -1262,12 +1262,6 @@
       ],
       "pricingDetails": [
         {
-          "label": "VPN-IPSec-500-HA-EU01",
-          "price": "€0.210917",
-          "unit": "per hour",
-          "monthly": "€151.86/mo"
-        },
-        {
           "label": "VPN-IPSec-100-HA-EU01",
           "price": "€0.087875",
           "unit": "per hour",
@@ -1278,6 +1272,12 @@
           "price": "€0.393389",
           "unit": "per hour",
           "monthly": "€283.24/mo"
+        },
+        {
+          "label": "VPN-IPSec-500-HA-EU01",
+          "price": "€0.210917",
+          "unit": "per hour",
+          "monthly": "€151.86/mo"
         }
       ]
     },
@@ -1710,34 +1710,34 @@
       ],
       "pricingDetails": [
         {
-          "label": "Tiny Server-t2i.1-EU01",
-          "price": "€0.014133",
-          "unit": "per hour",
-          "monthly": "€10.18/mo"
-        },
-        {
-          "label": "Tiny Server-t2i.1-EU01-m",
-          "price": "€0.017594",
-          "unit": "per hour",
-          "monthly": "€12.67/mo"
-        },
-        {
-          "label": "Tiny Server-t3i.1-EU01",
-          "price": "€0.024662",
-          "unit": "per hour",
-          "monthly": "€17.76/mo"
-        },
-        {
-          "label": "Tiny Server-t3i.1-EU01-m",
-          "price": "€0.049324",
-          "unit": "per hour",
-          "monthly": "€35.51/mo"
-        },
-        {
           "label": "Compute Optimized Server-c1.1-EU01",
           "price": "€0.018268",
           "unit": "per hour",
           "monthly": "€13.15/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.1-EU01-m",
+          "price": "€0.036535",
+          "unit": "per hour",
+          "monthly": "€26.31/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.2-EU01",
+          "price": "€0.060658",
+          "unit": "per hour",
+          "monthly": "€43.67/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.2-EU01-m",
+          "price": "€0.121316",
+          "unit": "per hour",
+          "monthly": "€87.35/mo"
+        },
+        {
+          "label": "Compute Optimized Server-c1.3-EU01",
+          "price": "€0.137902",
+          "unit": "per hour",
+          "monthly": "€99.29/mo"
         }
       ]
     },
