@@ -1,6 +1,153 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "changes": [
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of SendDurableExecutionCallbackSuccess API requests: 300 → 6000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Maximum running durable executions: 1000000 → 10000000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of SendDurableExecutionCallbackFailure API requests: 300 → 6000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of SendDurableExecutionCallbackHeartbeat API requests: 300 → 6000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of CheckpointDurableExecution API requests: 1000 → 20000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of GetDurableExecutionState API requests: 1000 → 20000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "Rate of StopDurableExecution API requests: 30 → 600"
+    },
+    {
+      "date": "2026-08-19",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "Amazon DynamoDB Streams now supports attribute-based access control",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-dynamodb-streams-abac/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "How Nearmap built continental-scale aerial search using Amazon S3 Vectors",
+      "url": "https://aws.amazon.com/blogs/storage/how-nearmap-built-continental-scale-aerial-search-using-amazon-s3-vectors/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Migrate multilingual full-text search from SQL Server to PostgreSQL",
+      "url": "https://aws.amazon.com/blogs/database/migrate-multilingual-full-text-search-from-sql-server-to-postgresql/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Build intelligent security for healthcare APIs with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Long-term system tables retention in Amazon Redshift with Amazon S3 Tables",
+      "url": "https://aws.amazon.com/blogs/big-data/long-term-system-tables-retention-in-amazon-redshift-with-amazon-s3-tables/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "cloudfront-functions",
+      "type": "new_news",
+      "detail": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "timestream",
+      "type": "new_news",
+      "detail": "Amazon Timestream for InfluxDB now supports customer managed keys",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/"
+    },
     {
       "date": "2026-08-20",
       "service": "bedrock",
