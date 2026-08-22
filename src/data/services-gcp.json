@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-22",
   "services": [
     {
       "id": "cloud-run",
@@ -2445,11 +2445,6 @@
           "date": "2026-07-30",
           "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
           "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
-        },
-        {
-          "date": "2026-07-22",
-          "title": "Access Approval\nFeature\nAgent Identity is available in\nPreview for Access\nApproval.\nFeature\nPrivileged Access Manager is",
-          "url": "https://docs.cloud.google.com/release-notes#July_22_2026"
         }
       ]
     },
@@ -2492,6 +2487,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-21",
+          "title": "AlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (",
+          "url": "https://docs.cloud.google.com/release-notes#August_21_2026"
+        },
         {
           "date": "2026-08-19",
           "title": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runti",
@@ -2536,11 +2536,6 @@
           "date": "2026-08-09",
           "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
-        },
-        {
-          "date": "2026-08-08",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
         }
       ]
     }
