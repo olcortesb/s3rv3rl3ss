@@ -5,6 +5,18 @@
       "date": "2026-08-22",
       "service": "lambda",
       "type": "quota_changed",
+      "detail": "SendDurableExecutionCallbackSuccess API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
+    },
+    {
+      "date": "2026-08-22",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "SendDurableExecutionCallbackHeartbeat API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
+    },
+    {
+      "date": "2026-08-22",
+      "service": "lambda",
+      "type": "quota_changed",
       "detail": "CheckpointDurableExecution API requests: 1,000 requests per second. → 10,000 requests per second.<br />20,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
     },
     {
@@ -17,74 +29,13 @@
       "date": "2026-08-22",
       "service": "lambda",
       "type": "quota_changed",
-      "detail": "SendDurableExecutionCallbackFailure API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
-    },
-    {
-      "date": "2026-08-22",
-      "service": "lambda",
-      "type": "quota_changed",
-      "detail": "SendDurableExecutionCallbackHeartbeat API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
-    },
-    {
-      "date": "2026-08-22",
-      "service": "lambda",
-      "type": "quota_changed",
-      "detail": "SendDurableExecutionCallbackSuccess API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
-    },
-    {
-      "date": "2026-08-22",
-      "service": "lambda",
-      "type": "quota_changed",
       "detail": "StopDurableExecution API requests: 30 requests per second. → 300 requests per second.<br />600 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
     },
     {
-      "date": "2026-08-20",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Amazon EKS Capability for Argo CD now supports custom configuration",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration"
+      "date": "2026-08-22",
+      "service": "lambda",
+      "type": "quota_changed",
+      "detail": "SendDurableExecutionCallbackFailure API requests: 300 requests per second. → 3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
     },
     {
       "date": "2026-08-21",
@@ -92,13 +43,6 @@
       "type": "new_news",
       "detail": "Amazon SES now supports open and click tracking override parameters",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/"
-    },
-    {
-      "date": "2026-08-21",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3"
     },
     {
       "date": "2026-08-21",
@@ -141,6 +85,55 @@
       "service": "lambda",
       "type": "quota_changed",
       "detail": "Rate of SendDurableExecutionCallbackSuccess API requests: 300 → 6000"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS Capability for Argo CD now supports custom configuration",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+    },
+    {
+      "date": "2026-08-21",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/"
     },
     {
       "date": "2026-08-20",
@@ -311,6 +304,13 @@
       "type": "new_news",
       "detail": "Migrate multilingual full-text search from SQL Server to PostgreSQL",
       "url": "https://aws.amazon.com/blogs/database/migrate-multilingual-full-text-search-from-sql-server-to-postgresql/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/"
     },
     {
       "date": "2026-08-19",
