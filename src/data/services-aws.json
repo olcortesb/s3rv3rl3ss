@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-22",
   "region": "us-east-1",
   "services": [
     {
@@ -533,8 +533,12 @@
           "value": "15 requests per second. Cannot be increased."
         },
         {
+          "name": "Remainder of the control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
+          "value": "15 requests per second across all APIs (not 15 requests per second per API). Cannot be increased."
+        },
+        {
           "name": "CheckpointDurableExecution API requests",
-          "value": "1,000 requests per second."
+          "value": "10,000 requests per second.<br />20,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "GetDurableExecution API requests",
@@ -546,7 +550,7 @@
         },
         {
           "name": "GetDurableExecutionState API requests",
-          "value": "1,000 requests per second."
+          "value": "10,000 requests per second.<br />20,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "ListDurableExecutionsByFunction API requests",
@@ -554,23 +558,19 @@
         },
         {
           "name": "SendDurableExecutionCallbackFailure API requests",
-          "value": "300 requests per second."
+          "value": "3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "SendDurableExecutionCallbackHeartbeat API requests",
-          "value": "300 requests per second."
+          "value": "3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "SendDurableExecutionCallbackSuccess API requests",
-          "value": "300 requests per second."
+          "value": "3,000 requests per second.<br />6,000 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "StopDurableExecution API requests",
-          "value": "30 requests per second."
-        },
-        {
-          "name": "Remainder of the control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)",
-          "value": "15 requests per second across all APIs (not 15 requests per second per API). Cannot be increased."
+          "value": "300 requests per second.<br />600 requests per second in US East (N. Virginia), US West (Oregon), and Europe (Ireland)."
         },
         {
           "name": "Memory allocated across all MicroVMs (per account, per Region)",
@@ -766,13 +766,13 @@
         },
         {
           "date": "2026-08-10",
-          "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
+          "title": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
+          "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
         },
         {
           "date": "2026-08-10",
-          "title": "Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode",
-          "url": "https://aws.amazon.com/blogs/compute/low-latency-high-throughput-sqs-event-processing-with-aws-lambda-provisioned-mode/"
+          "title": "Amazon OpenSearch Serverless now supports up to 10,000 collections per collection group",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-serverless-supports-10000-collections-per-collection-group/"
         },
         {
           "date": "2026-08-06",
@@ -4281,6 +4281,11 @@
       "news": [
         {
           "date": "2026-08-20",
+          "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/"
+        },
+        {
+          "date": "2026-08-20",
           "title": "Migrate multilingual full-text search from SQL Server to PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/migrate-multilingual-full-text-search-from-sql-server-to-postgresql/"
         },
@@ -4373,11 +4378,6 @@
           "date": "2026-07-21",
           "title": "Migrating mission-critical payments at Nubank to Amazon Aurora PostgreSQL",
           "url": "https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "Connection pooling strategies in Amazon Aurora DSQL",
-          "url": "https://aws.amazon.com/blogs/database/connection-pooling-strategies-in-amazon-aurora-dsql/"
         }
       ],
       "dataStatus": "partial"
@@ -11540,6 +11540,31 @@
       ],
       "news": [
         {
+          "date": "2026-08-21",
+          "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+        },
+        {
           "date": "2026-08-20",
           "title": "Generative AI Inference Recommendation for Amazon SageMaker now available in the SageMaker AI Studio",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/generative-ai-inference-recommendation-for-amazon-sagemaker-now-available-in-the-sagemaker-ai-studio"
@@ -11613,31 +11638,6 @@
           "date": "2026-08-18",
           "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "Implement vector-prompt document classification using Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "How Axonius built secure multi-tenant AI agents on Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-17",
-          "title": "Amazon Bedrock expands API support and introduces Cross Region Inferencing for OpenAI models",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/"
-        },
-        {
-          "date": "2026-08-17",
-          "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
         }
       ],
       "dataStatus": "partial",
@@ -11947,6 +11947,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-21",
+          "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration"
+        },
+        {
           "date": "2026-08-20",
           "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management"
@@ -12040,11 +12045,6 @@
           "date": "2026-07-01",
           "title": "Amazon EKS now supports Kubernetes version rollback",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback"
-        },
-        {
-          "date": "2026-06-30",
-          "title": "AWS Network Firewall now supports container attribute-based inspection for Amazon EKS and Amazon ECS",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-container-attributes-referencing"
         }
       ],
       "dataStatus": "partial"
@@ -14070,6 +14070,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-21",
+          "title": "Amazon SES now supports open and click tracking override parameters",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/"
+        },
+        {
           "date": "2026-08-14",
           "title": "Amazon SES click tracking now supports custom URL paths for mobile app deep linking",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-supports-customurl-deeplinking"
@@ -14163,11 +14168,6 @@
           "date": "2026-07-01",
           "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Build an AI-powered real estate assistant on WhatsApp using Strands Agents SDK and AWS End User Messaging",
-          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/build-an-ai-powered-real-estate-assistant-on-whatsapp-using-strands-agents-sdk-and-aws-end-user-messaging/"
         }
       ],
       "dataStatus": "partial"
@@ -14808,6 +14808,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-21",
+          "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-6-0-price-reduction-iceberg-v3"
+        },
         {
           "date": "2026-08-11",
           "title": "AWS Glue adds one-click access to SageMaker Unified Studio from the AWS console",
