@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-22",
   "changes": [
+    {
+      "date": "2026-08-21",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFixed\nAlloyDB now provides more accurate memory usage estimation, and it prevents out-of-memory (",
+      "url": "https://docs.cloud.google.com/release-notes#August_21_2026"
+    },
     {
       "date": "2026-08-20",
       "service": "bigquery",
