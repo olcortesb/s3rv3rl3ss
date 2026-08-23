@@ -1,38 +1,38 @@
 {
-  "lastUpdated": "2026-08-22T06:55:21Z",
+  "lastUpdated": "2026-08-23T06:55:21Z",
   "today": {
     "invocations": 22,
-    "totalDurationMs": 116339,
+    "totalDurationMs": 120680,
     "errors": 0,
     "functions": {
       "ChangelogFunction": {
         "invocations": 1,
-        "totalDurationMs": 2156,
-        "avgDurationMs": 2156,
+        "totalDurationMs": 1862,
+        "avgDurationMs": 1862,
         "errors": 0
       },
       "GcpCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 15459,
-        "avgDurationMs": 15459,
+        "totalDurationMs": 11944,
+        "avgDurationMs": 11944,
         "errors": 0
       },
       "StackitCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 5282,
-        "avgDurationMs": 5282,
+        "totalDurationMs": 5460,
+        "avgDurationMs": 5460,
         "errors": 0
       },
       "AzureCollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 11452,
-        "avgDurationMs": 11452,
+        "totalDurationMs": 13478,
+        "avgDurationMs": 13478,
         "errors": 0
       },
       "CommitterFunction": {
         "invocations": 16,
-        "totalDurationMs": 49699,
-        "avgDurationMs": 3106,
+        "totalDurationMs": 53528,
+        "avgDurationMs": 3345,
         "errors": 0
       },
       "MetricsFunction": {
@@ -43,14 +43,14 @@
       },
       "CollectorFunction": {
         "invocations": 1,
-        "totalDurationMs": 31516,
-        "avgDurationMs": 31516,
+        "totalDurationMs": 33619,
+        "avgDurationMs": 33619,
         "errors": 0
       },
       "ComparisonsFunction": {
         "invocations": 1,
-        "totalDurationMs": 776,
-        "avgDurationMs": 776,
+        "totalDurationMs": 789,
+        "avgDurationMs": 789,
         "errors": 0
       },
       "ToolsCollectorFunction": {
@@ -62,62 +62,62 @@
     }
   },
   "month": {
-    "invocations": 568,
-    "totalDurationMs": 2774267,
+    "invocations": 595,
+    "totalDurationMs": 2915781,
     "errors": 37,
     "functions": {
       "ChangelogFunction": {
-        "invocations": 23,
-        "totalDurationMs": 40824,
-        "avgDurationMs": 1775,
+        "invocations": 24,
+        "totalDurationMs": 42686,
+        "avgDurationMs": 1779,
         "errors": 0
       },
       "GcpCollectorFunction": {
-        "invocations": 22,
-        "totalDurationMs": 329217,
-        "avgDurationMs": 14964,
+        "invocations": 23,
+        "totalDurationMs": 341161,
+        "avgDurationMs": 14833,
         "errors": 0
       },
       "StackitCollectorFunction": {
-        "invocations": 13,
-        "totalDurationMs": 64717,
-        "avgDurationMs": 4978,
+        "invocations": 14,
+        "totalDurationMs": 70177,
+        "avgDurationMs": 5013,
         "errors": 0
       },
       "AzureCollectorFunction": {
-        "invocations": 48,
-        "totalDurationMs": 189840,
-        "avgDurationMs": 3955,
+        "invocations": 49,
+        "totalDurationMs": 203318,
+        "avgDurationMs": 4149,
         "errors": 36
       },
       "CommitterFunction": {
-        "invocations": 371,
-        "totalDurationMs": 1040305,
-        "avgDurationMs": 2804,
+        "invocations": 390,
+        "totalDurationMs": 1098047,
+        "avgDurationMs": 2816,
         "errors": 0
       },
       "MetricsFunction": {
-        "invocations": 21,
-        "totalDurationMs": 218839,
-        "avgDurationMs": 10421,
+        "invocations": 22,
+        "totalDurationMs": 233642,
+        "avgDurationMs": 10620,
         "errors": 0
       },
       "CollectorFunction": {
-        "invocations": 26,
-        "totalDurationMs": 826539,
-        "avgDurationMs": 31790,
+        "invocations": 27,
+        "totalDurationMs": 860158,
+        "avgDurationMs": 31858,
         "errors": 1
       },
       "ComparisonsFunction": {
-        "invocations": 23,
-        "totalDurationMs": 17796,
+        "invocations": 24,
+        "totalDurationMs": 18585,
         "avgDurationMs": 774,
         "errors": 0
       },
       "ToolsCollectorFunction": {
-        "invocations": 21,
-        "totalDurationMs": 46190,
-        "avgDurationMs": 2200,
+        "invocations": 22,
+        "totalDurationMs": 48006,
+        "avgDurationMs": 2182,
         "errors": 0
       }
     }
