@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "changes": [
+    {
+      "date": "2026-08-23",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "AKS Hyperscale Control Plane Now in Preview",
+      "url": "https://pixelrobots.co.uk/2026/08/aks-hyperscale-control-plane-now-in-preview/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aks-hyperscale-control-plane-now-in-preview"
+    },
     {
       "date": "2026-08-19",
       "service": "azure-sql-serverless",
