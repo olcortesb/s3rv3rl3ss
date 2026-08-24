@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "services": [
     {
       "id": "azure-functions",
@@ -1438,6 +1438,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-23",
+          "title": "AKS Hyperscale Control Plane Now in Preview",
+          "url": "https://pixelrobots.co.uk/2026/08/aks-hyperscale-control-plane-now-in-preview/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aks-hyperscale-control-plane-now-in-preview"
+        },
+        {
           "date": "2026-07-26",
           "title": "Azure Kubernetes Service (AKS) on Bare Metal",
           "url": "https://www.thomasmaurer.ch/2026/07/azure-kubernetes-service-aks-on-bare-metal/"
@@ -1481,11 +1486,6 @@
           "date": "2026-04-26",
           "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
           "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729"
-        },
-        {
-          "date": "2026-03-29",
-          "title": "What's new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026",
-          "url": "https://opensource.microsoft.com/blog/2026/03/24/whats-new-with-microsoft-in-open-source-and-kubernetes-at-kubecon-cloudnativecon-europe-2026/"
         }
       ],
       "pricingDetails": [
