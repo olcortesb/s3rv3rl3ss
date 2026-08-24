@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "services": [
     {
       "id": "cloud-run",
@@ -2293,11 +2293,6 @@
           "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
         },
         {
-          "date": "2026-08-12",
-          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
-          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
-        },
-        {
           "date": "2026-08-06",
           "title": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quan",
           "url": "https://docs.cloud.google.com/release-notes#August_06_2026"
@@ -2348,11 +2343,6 @@
           "date": "2026-08-18",
           "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
           "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
-        },
-        {
-          "date": "2026-08-12",
-          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
-          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
           "date": "2026-08-06",
@@ -2418,7 +2408,7 @@
         },
         {
           "date": "2026-08-12",
-          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
+          "title": "Access Approval\nFeature\nAgent Identity is generally available\n(GA).\nAccess Transparency\nFeature\nAgent Identity is genera",
           "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
         },
         {
@@ -2518,11 +2508,6 @@
           "url": "https://docs.cloud.google.com/release-notes#August_13_2026"
         },
         {
-          "date": "2026-08-12",
-          "title": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configur",
-          "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
-        },
-        {
           "date": "2026-08-10",
           "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
           "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
@@ -2536,6 +2521,11 @@
           "date": "2026-08-08",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
+        },
+        {
+          "date": "2026-08-07",
+          "title": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time op",
+          "url": "https://docs.cloud.google.com/release-notes#August_07_2026"
         }
       ]
     }
