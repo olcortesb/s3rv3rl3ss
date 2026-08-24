@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "changes": [
+    {
+      "date": "2026-08-12",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Access Approval\nFeature\nAgent Identity is generally available\n(GA).\nAccess Transparency\nFeature\nAgent Identity is genera",
+      "url": "https://docs.cloud.google.com/release-notes#August_12_2026"
+    },
+    {
+      "date": "2026-08-07",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time op",
+      "url": "https://docs.cloud.google.com/release-notes#August_07_2026"
+    },
     {
       "date": "2026-08-21",
       "service": "cloud-functions-for-firebase",
