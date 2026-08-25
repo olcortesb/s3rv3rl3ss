@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "region": "us-east-1",
   "services": [
     {
@@ -3966,6 +3966,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health"
+        },
+        {
           "date": "2026-08-19",
           "title": "Encrypt Amazon ECS traffic: VPC encryption controls and Service Connect TLS",
           "url": "https://aws.amazon.com/blogs/containers/encrypt-amazon-ecs-traffic-vpc-encryption-controls-and-service-connect-tls/"
@@ -4280,6 +4285,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/"
+        },
+        {
           "date": "2026-08-20",
           "title": "Amazon Aurora DSQL now supports Amazon CloudWatch Database Insights",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-cloudwatch-database-insights/"
@@ -4373,11 +4383,6 @@
           "date": "2026-07-21",
           "title": "AI-powered incident analysis for Amazon RDS using automated forensic artifacts",
           "url": "https://aws.amazon.com/blogs/database/ai-powered-incident-analysis-for-amazon-rds-using-automated-forensic-artifacts/"
-        },
-        {
-          "date": "2026-07-21",
-          "title": "Migrating mission-critical payments at Nubank to Amazon Aurora PostgreSQL",
-          "url": "https://aws.amazon.com/blogs/database/migrating-mission-critical-payments-at-nubank-to-amazon-aurora-postgresql/"
         }
       ],
       "dataStatus": "partial"
@@ -4423,6 +4428,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-20",
+          "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
+        },
         {
           "date": "2026-08-10",
           "title": "AI-powered cost optimization agent for Amazon Kinesis Data Streams",
@@ -11540,6 +11550,21 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Building a restaurant telephony AI host with Amazon Connect",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
+        },
+        {
           "date": "2026-08-21",
           "title": "Amazon Bedrock announces reduced pricing for OpenAI GPT-5.6 Sol",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-openai-gpt-56-sol-reduced-pricing/"
@@ -11563,6 +11588,11 @@
           "date": "2026-08-21",
           "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads"
         },
         {
           "date": "2026-08-20",
@@ -11618,26 +11648,6 @@
           "date": "2026-08-19",
           "title": "Asynchronous patterns for calling Amazon Bedrock AgentCore agents in serverless pipelines",
           "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/"
-        },
-        {
-          "date": "2026-08-19",
-          "title": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
-          "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "Amazon Bedrock now supports OpenAI models in India",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-openai-india-v1/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "AgentCore payments is now generally available in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/"
-        },
-        {
-          "date": "2026-08-18",
-          "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
         }
       ],
       "dataStatus": "partial",
@@ -11797,6 +11807,21 @@
           "value": "20"
         }
       ],
+      "dataStatus": "partial",
+      "pricingDetails": [
+        {
+          "label": "Secret Storage",
+          "price": "$0.40",
+          "unit": "per secret/month",
+          "description": "$0.40 per secret per month"
+        },
+        {
+          "label": "API Calls",
+          "price": "$0.05",
+          "unit": "per 10K calls",
+          "description": "$0.05 per 10,000 API calls"
+        }
+      ],
       "news": [
         {
           "date": "2026-08-11",
@@ -11817,21 +11842,6 @@
           "date": "2026-06-17",
           "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/"
-        }
-      ],
-      "dataStatus": "partial",
-      "pricingDetails": [
-        {
-          "label": "Secret Storage",
-          "price": "$0.40",
-          "unit": "per secret/month",
-          "description": "$0.40 per secret per month"
-        },
-        {
-          "label": "API Calls",
-          "price": "$0.05",
-          "unit": "per 10K calls",
-          "description": "$0.05 per 10,000 API calls"
         }
       ]
     },
@@ -11947,6 +11957,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers"
+        },
+        {
           "date": "2026-08-21",
           "title": "Amazon EKS Capability for Argo CD now supports custom configuration",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-argo-cd-configuration"
@@ -12040,11 +12055,6 @@
           "date": "2026-07-01",
           "title": "Announcing Amazon EKS Rollback for safe and reliable management of cluster upgrades",
           "url": "https://aws.amazon.com/blogs/containers/announcing-amazon-eks-rollback-for-safe-and-reliable-management-of-cluster-upgrades/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Amazon EKS now supports Kubernetes version rollback",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-version-rollback"
         }
       ],
       "dataStatus": "partial"
@@ -12463,6 +12473,7 @@
           "value": "Unlimited"
         }
       ],
+      "dataStatus": "partial",
       "news": [
         {
           "date": "2026-08-10",
@@ -12494,8 +12505,7 @@
           "title": "Amazon Neptune now supports AWS CloudFormation for global databases",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-neptune-aws-cloudformation/"
         }
-      ],
-      "dataStatus": "partial"
+      ]
     },
     {
       "id": "redshift-serverless",
@@ -12553,6 +12563,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-20",
+          "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
+        },
         {
           "date": "2026-08-20",
           "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
@@ -12647,11 +12662,6 @@
           "date": "2026-06-29",
           "title": "Optimize your Tableau integration with Amazon Redshift Serverless",
           "url": "https://aws.amazon.com/blogs/big-data/optimize-your-tableau-integration-with-amazon-redshift-serverless/"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Amazon Redshift adds Reserved Instance upfront pricing options for RG instances",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-ri-upfront-pricing-rg-instances"
         }
       ],
       "dataStatus": "partial"
@@ -13308,6 +13318,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-24",
+          "title": "CloudFront Functions Unified Logging",
+          "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/cloudfront-functions-unified-logging/"
+        },
         {
           "date": "2026-08-20",
           "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
@@ -14808,6 +14823,16 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-24",
+          "title": "Introducing AWS Glue 6.0 for faster and more cost-effective data integration",
+          "url": "https://aws.amazon.com/blogs/big-data/introducing-aws-glue-6-0-for-apache-spark/"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Upgrade AWS Glue jobs to Glue 6.0 with AI-powered Spark upgrades",
+          "url": "https://aws.amazon.com/blogs/big-data/upgrade-aws-glue-jobs-to-glue-6-0-with-ai-powered-spark-upgrades/"
+        },
         {
           "date": "2026-08-21",
           "title": "AWS Glue 6.0 delivers 30% price reduction and Iceberg v3 support",
