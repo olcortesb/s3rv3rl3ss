@@ -3,6 +3,27 @@
   "changes": [
     {
       "date": "2026-08-24",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Introducing AWS Glue 6.0 for faster and more cost-effective data integration",
+      "url": "https://aws.amazon.com/blogs/big-data/introducing-aws-glue-6-0-for-apache-spark/"
+    },
+    {
+      "date": "2026-08-24",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "Upgrade AWS Glue jobs to Glue 6.0 with AI-powered Spark upgrades",
+      "url": "https://aws.amazon.com/blogs/big-data/upgrade-aws-glue-jobs-to-glue-6-0-with-ai-powered-spark-upgrades/"
+    },
+    {
+      "date": "2026-08-24",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers"
+    },
+    {
+      "date": "2026-08-24",
       "service": "ecs",
       "type": "new_news",
       "detail": "Amazon ECS now automatically detects and repairs container instances with impaired agent connectivity",
@@ -10,24 +31,17 @@
     },
     {
       "date": "2026-08-24",
-      "service": "aurora-serverless",
+      "service": "cloudfront-functions",
       "type": "new_news",
-      "detail": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "kinesis",
-      "type": "new_news",
-      "detail": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
+      "detail": "CloudFront Functions Unified Logging",
+      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/cloudfront-functions-unified-logging/"
     },
     {
       "date": "2026-08-24",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/"
+      "detail": "Building a restaurant telephony AI host with Amazon Connect",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
     },
     {
       "date": "2026-08-24",
@@ -40,50 +54,15 @@
       "date": "2026-08-24",
       "service": "bedrock",
       "type": "new_news",
-      "detail": "Building a restaurant telephony AI host with Amazon Connect",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads"
+      "detail": "OpenAI GPT-5.6 Terra and Luna now available on Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/"
     },
     {
       "date": "2026-08-24",
-      "service": "eks",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Amazon EKS now supports multiple external OIDC identity providers per cluster",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers"
-    },
-    {
-      "date": "2026-08-20",
-      "service": "redshift-serverless",
-      "type": "new_news",
-      "detail": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
-    },
-    {
-      "date": "2026-08-24",
-      "service": "cloudfront-functions",
-      "type": "new_news",
-      "detail": "CloudFront Functions Unified Logging",
-      "url": "https://aws.amazon.com/blogs/networking-and-content-delivery/cloudfront-functions-unified-logging/"
-    },
-    {
-      "date": "2026-08-24",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "Introducing AWS Glue 6.0 for faster and more cost-effective data integration",
-      "url": "https://aws.amazon.com/blogs/big-data/introducing-aws-glue-6-0-for-apache-spark/"
-    },
-    {
-      "date": "2026-08-24",
-      "service": "glue",
-      "type": "new_news",
-      "detail": "Upgrade AWS Glue jobs to Glue 6.0 with AI-powered Spark upgrades",
-      "url": "https://aws.amazon.com/blogs/big-data/upgrade-aws-glue-jobs-to-glue-6-0-with-ai-powered-spark-upgrades/"
+      "detail": "Amazon Aurora now supports PostgreSQL 18.4, 17.10, 16.14, 15.18, and 14.23",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/"
     },
     {
       "date": "2026-08-22",
@@ -263,6 +242,20 @@
     },
     {
       "date": "2026-08-20",
+      "service": "redshift-serverless",
+      "type": "new_news",
+      "detail": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "kinesis",
+      "type": "new_news",
+      "detail": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/"
+    },
+    {
+      "date": "2026-08-20",
       "service": "eks",
       "type": "new_news",
       "detail": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
@@ -293,6 +286,13 @@
       "type": "new_news",
       "detail": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
       "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/"
+    },
+    {
+      "date": "2026-08-20",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore Memory now supports extracting memories from non-conversational JSON payloads",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcore-memory-json-payloads"
     },
     {
       "date": "2026-08-20",
