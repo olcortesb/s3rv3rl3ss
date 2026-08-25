@@ -3,6 +3,13 @@
   "changes": [
     {
       "date": "2026-08-24",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK",
+      "url": "https://docs.cloud.google.com/release-notes#August_24_2026"
+    },
+    {
+      "date": "2026-08-24",
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by",
@@ -14,13 +21,6 @@
       "type": "new_news",
       "detail": "Feature\nRapid Cache supports prefix-level ingest-on-write filtering, allowing\nyou to selectively ingest objects that mat",
       "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_21_2026"
-    },
-    {
-      "date": "2026-08-24",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK",
-      "url": "https://docs.cloud.google.com/release-notes#August_24_2026"
     },
     {
       "date": "2026-08-21",
