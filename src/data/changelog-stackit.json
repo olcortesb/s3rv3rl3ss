@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "changes": [
+    {
+      "date": "2026-07-03",
+      "service": "container-registry",
+      "type": "new_news",
+      "detail": "STACKIT Container Registry now supports Service Accounts",
+      "url": "https://docs.stackit.cloud/products/developer-platform/container-registry/release-notes/#stackit-container-registry-now-supports-service-accounts"
+    },
     {
       "date": "2026-08-12",
       "service": "kubernetes-engine",
