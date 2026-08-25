@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "changes": [
+    {
+      "date": "2026-08-24",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
+      "url": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/"
+    },
     {
       "date": "2026-08-23",
       "service": "aks",
