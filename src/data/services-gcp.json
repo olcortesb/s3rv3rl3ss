@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Feature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026"
+        },
+        {
           "date": "2026-08-20",
           "title": "Feature\nBigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analyti",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-29",
           "title": "Feature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo t",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Feature\nYou can discover commercial BigQuery sharing listings on Google Cloud Marketplace with the Marketplace filter. F",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
         }
       ],
       "pricingDetails": [
@@ -1013,6 +1013,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-21",
+          "title": "Feature\nRapid Cache supports prefix-level ingest-on-write filtering, allowing\nyou to selectively ingest objects that mat",
+          "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_21_2026"
+        },
+        {
           "date": "2026-08-17",
           "title": "Feature\nIf you delete your project, buckets that have soft delete enabled are\nnow retained for a limited amount of time ",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#August_17_2026"
@@ -1056,11 +1061,6 @@
           "date": "2026-04-06",
           "title": "Feature\nYou can now use Storage batch operations\nto update object contexts for multiple objects\nin a single job. You can",
           "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_06_2026"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Feature\nYou can configure which encryption types are allowed or prohibited for\ncreating new objects in a bucket. For mor",
-          "url": "https://docs.cloud.google.com/storage/docs/release-notes#April_02_2026"
         }
       ],
       "pricingDetails": [
@@ -2478,6 +2478,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK",
+          "url": "https://docs.cloud.google.com/release-notes#August_24_2026"
+        },
+        {
           "date": "2026-08-19",
           "title": "App Engine flexible environment Go\nFeature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runti",
           "url": "https://docs.cloud.google.com/release-notes#August_19_2026"
@@ -2521,11 +2526,6 @@
           "date": "2026-08-08",
           "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
           "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
-        },
-        {
-          "date": "2026-08-07",
-          "title": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time op",
-          "url": "https://docs.cloud.google.com/release-notes#August_07_2026"
         }
       ]
     }
