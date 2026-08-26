@@ -3,6 +3,13 @@
   "changes": [
     {
       "date": "2026-08-25",
+      "service": "secrets-manager",
+      "type": "new_news",
+      "detail": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/"
+    },
+    {
+      "date": "2026-08-25",
       "service": "lambda",
       "type": "new_news",
       "detail": "AWS Lambda MicroVMs now supports AWS PrivateLink",
@@ -24,34 +31,6 @@
     },
     {
       "date": "2026-08-25",
-      "service": "dynamodb",
-      "type": "new_news",
-      "detail": "How Channel Corporation modernized their architecture with Amazon DynamoDB, Part 3: User and Badge",
-      "url": "https://aws.amazon.com/blogs/database/how-channel-corporation-modernized-their-architecture-with-amazon-dynamodb-part-3-user-and-badge/"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "ecs",
-      "type": "new_news",
-      "detail": "AWS Batch now supports Amazon ECS Managed Instances",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "secrets-manager",
-      "type": "new_news",
-      "detail": "AWS Secrets Manager adds managed external secrets support for Cisco Security Platform and Netskope",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/secrets-manager-cisco-netskope/"
-    },
-    {
-      "date": "2026-08-24",
-      "service": "msk-serverless",
-      "type": "new_news",
-      "detail": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support"
-    },
-    {
-      "date": "2026-08-25",
       "service": "iot-core",
       "type": "new_news",
       "detail": "AWS IoT Core now supports native InfluxDB routing for time-series data",
@@ -70,6 +49,27 @@
       "type": "new_news",
       "detail": "Enable cross-cloud analytics with Amazon S3 Tables and Google BigQuery, Part 1: IAM-based access control",
       "url": "https://aws.amazon.com/blogs/big-data/enable-cross-cloud-analytics-with-amazon-s3-tables-and-google-bigquery-part-1-iam-based-access-control/"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "ecs",
+      "type": "new_news",
+      "detail": "AWS Batch now supports Amazon ECS Managed Instances",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "dynamodb",
+      "type": "new_news",
+      "detail": "How Channel Corporation modernized their architecture with Amazon DynamoDB, Part 3: User and Badge",
+      "url": "https://aws.amazon.com/blogs/database/how-channel-corporation-modernized-their-architecture-with-amazon-dynamodb-part-3-user-and-badge/"
+    },
+    {
+      "date": "2026-08-24",
+      "service": "msk-serverless",
+      "type": "new_news",
+      "detail": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support"
     },
     {
       "date": "2026-08-24",
