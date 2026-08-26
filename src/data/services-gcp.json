@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "services": [
     {
       "id": "cloud-run",
@@ -53,6 +53,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-25",
+          "title": "Feature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and ind",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_25_2026"
+        },
+        {
           "date": "2026-08-19",
           "title": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
@@ -96,11 +101,6 @@
           "date": "2026-04-16",
           "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
-        },
-        {
-          "date": "2026-04-15",
-          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
         }
       ],
       "pricingDetails": [
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-25",
+          "title": "Feature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026"
+        },
+        {
           "date": "2026-08-24",
           "title": "Feature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026"
@@ -541,11 +546,6 @@
           "date": "2026-07-30",
           "title": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Feature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Klaviyo t",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
         }
       ],
       "pricingDetails": [
@@ -1572,6 +1572,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-25",
+          "title": "Feature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and ind",
+          "url": "https://docs.cloud.google.com/run/docs/release-notes#August_25_2026"
+        },
+        {
           "date": "2026-08-19",
           "title": "Feature\nSupport for the Go 1.27 runtime is in\nPreview.\nFeature\nStarting from Go runtime version 1.26 and later, the life",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#August_19_2026"
@@ -1615,11 +1620,6 @@
           "date": "2026-04-16",
           "title": "Feature\nSupport for specifying custom CPU or concurrency targets using scaling controls is in Preview.",
           "url": "https://docs.cloud.google.com/run/docs/release-notes#April_16_2026"
-        },
-        {
-          "date": "2026-04-15",
-          "title": "Feature\nThe Cloud Run remote MCP server, which lets agents and AI applications deploy with Cloud Run, is in General Avai",
-          "url": "https://docs.cloud.google.com/run/docs/release-notes#April_15_2026"
         }
       ],
       "pricingDetails": [
@@ -2288,6 +2288,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-25",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+        },
+        {
           "date": "2026-08-18",
           "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
           "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
@@ -2339,6 +2344,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-25",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+        },
         {
           "date": "2026-08-18",
           "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
@@ -2392,6 +2402,16 @@
       ],
       "news": [
         {
+          "date": "2026-08-25",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+        },
+        {
+          "date": "2026-08-23",
+          "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
+          "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
+        },
+        {
           "date": "2026-08-18",
           "title": "App Engine standard environment Java\nFeature\nSupport for migrating from the App Engine Images service to\nCloud Run is in",
           "url": "https://docs.cloud.google.com/release-notes#August_18_2026"
@@ -2430,11 +2450,6 @@
           "date": "2026-08-02",
           "title": "Agent Platform Workbench\nChange\n20260802-2330-rc0 Release\nChange\n20260802-2330-rc0 Release\nFixed\nFixed issue with Jupyte",
           "url": "https://docs.cloud.google.com/release-notes#August_02_2026"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "Agent Platform Workbench\nChange\nM145 Release\nChange\n20260730-2130-rc0 Release\nChange\nInstalled latest packages from upst",
-          "url": "https://docs.cloud.google.com/release-notes#July_30_2026"
         }
       ]
     },
@@ -2478,9 +2493,14 @@
       ],
       "news": [
         {
-          "date": "2026-08-24",
-          "title": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK",
-          "url": "https://docs.cloud.google.com/release-notes#August_24_2026"
+          "date": "2026-08-25",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+        },
+        {
+          "date": "2026-08-23",
+          "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
+          "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
         },
         {
           "date": "2026-08-19",
@@ -2521,11 +2541,6 @@
           "date": "2026-08-09",
           "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
           "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
-        },
-        {
-          "date": "2026-08-08",
-          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.96 is now\navailable for all regions.",
-          "url": "https://docs.cloud.google.com/release-notes#August_08_2026"
         }
       ]
     }
