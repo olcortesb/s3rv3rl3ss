@@ -3,20 +3,6 @@
   "changes": [
     {
       "date": "2026-08-25",
-      "service": "cloud-run",
-      "type": "new_news",
-      "detail": "Feature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and ind",
-      "url": "https://docs.cloud.google.com/run/docs/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "bigquery",
-      "type": "new_news",
-      "detail": "Feature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.",
-      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-25",
       "service": "cloud-run-jobs",
       "type": "new_news",
       "detail": "Feature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and ind",
@@ -24,7 +10,21 @@
     },
     {
       "date": "2026-08-25",
-      "service": "cloud-armor",
+      "service": "cloud-run",
+      "type": "new_news",
+      "detail": "Feature\nCloud Run instances\nare available in\nPreview. Instances\nare specifically designed for running long-lived and ind",
+      "url": "https://docs.cloud.google.com/run/docs/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
       "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
       "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
@@ -38,31 +38,17 @@
     },
     {
       "date": "2026-08-25",
-      "service": "cloud-identity-platform",
+      "service": "cloud-armor",
       "type": "new_news",
       "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
       "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-23",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
-      "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
     },
     {
       "date": "2026-08-25",
-      "service": "cloud-functions-for-firebase",
+      "service": "bigquery",
       "type": "new_news",
-      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
-      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-23",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
-      "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
+      "detail": "Feature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026"
     },
     {
       "date": "2026-08-24",
@@ -77,6 +63,20 @@
       "type": "new_news",
       "detail": "Feature\nYou can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by",
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_24_2026"
+    },
+    {
+      "date": "2026-08-23",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
+      "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
+    },
+    {
+      "date": "2026-08-23",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
+      "detail": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260823-2330-rc0 Release\nC",
+      "url": "https://docs.cloud.google.com/release-notes#August_23_2026"
     },
     {
       "date": "2026-08-21",
