@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-26",
+          "title": "Security\nAn Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service ",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026"
+        },
+        {
           "date": "2026-08-25",
           "title": "Feature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_25_2026"
@@ -541,11 +546,6 @@
           "date": "2026-08-03",
           "title": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
-        },
-        {
-          "date": "2026-07-30",
-          "title": "Feature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more informa",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
         }
       ],
       "pricingDetails": [
@@ -1875,6 +1875,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-24",
+          "title": "Security\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was ",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#August_24_2026"
+        },
+        {
           "date": "2026-06-24",
           "title": "Security\nFor GitLab Enterprise and Bitbucket Data Center connections, Cloud Build now\nchecks permissions on the calling ",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#June_24_2026"
@@ -1918,11 +1923,6 @@
           "date": "2025-09-29",
           "title": "Feature\nDeveloper Connect build triggers are now generally available.\nYou can now create build triggers that build from ",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#September_29_2025"
-        },
-        {
-          "date": "2025-09-02",
-          "title": "Feature\nDark theme is now available for Cloud Build. To enable the dark theme, in the Google Cloud console, click Settin",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_02_2025"
         }
       ],
       "pricingDetails": [
@@ -2289,7 +2289,7 @@
       "news": [
         {
           "date": "2026-08-25",
-          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
           "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
         },
         {
@@ -2346,7 +2346,7 @@
       "news": [
         {
           "date": "2026-08-25",
-          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
           "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
         },
         {
@@ -2403,7 +2403,7 @@
       "news": [
         {
           "date": "2026-08-25",
-          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
           "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
         },
         {
@@ -2494,7 +2494,7 @@
       "news": [
         {
           "date": "2026-08-25",
-          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+          "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
           "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
         },
         {
