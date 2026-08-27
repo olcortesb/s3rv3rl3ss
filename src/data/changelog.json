@@ -2,25 +2,16 @@
   "lastUpdated": "2026-08-27",
   "changes": [
     {
-      "date": "2026-08-26",
-      "service": "s3",
-      "type": "new_news",
-      "detail": "Mountpoint for Amazon S3 adds memory usage controls",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls"
+      "date": "2026-08-27",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Cross-region model inference tokens per minute for Grok 4.6: 0"
     },
     {
-      "date": "2026-08-26",
-      "service": "cognito",
-      "type": "new_news",
-      "detail": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/"
-    },
-    {
-      "date": "2026-08-26",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "CORTO’s billion-scale legal semantic search with Aurora PostgreSQL pgvector",
-      "url": "https://aws.amazon.com/blogs/database/cortos-billion-scale-legal-semantic-search-with-aurora-postgresql-pgvector/"
+      "date": "2026-08-27",
+      "service": "bedrock",
+      "type": "quota_added",
+      "detail": "Global cross-region model inference tokens per minute for Grok 4.6: 0"
     },
     {
       "date": "2026-08-27",
@@ -35,44 +26,18 @@
       "detail": "Model invocation max tokens per day for Grok 4.6 (doubled for cross-region calls): 0"
     },
     {
-      "date": "2026-08-27",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Cross-region model inference tokens per minute for Grok 4.6: 0"
-    },
-    {
-      "date": "2026-08-27",
-      "service": "bedrock",
-      "type": "quota_added",
-      "detail": "Global cross-region model inference tokens per minute for Grok 4.6: 0"
+      "date": "2026-08-26",
+      "service": "s3",
+      "type": "new_news",
+      "detail": "Mountpoint for Amazon S3 adds memory usage controls",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls"
     },
     {
       "date": "2026-08-26",
-      "service": "bedrock",
+      "service": "msk-serverless",
       "type": "new_news",
-      "detail": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
-    },
-    {
-      "date": "2026-08-26",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
-    },
-    {
-      "date": "2026-08-26",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
-      "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
-    },
-    {
-      "date": "2026-08-26",
-      "service": "eks",
-      "type": "new_news",
-      "detail": "Break-glass access for Amazon EKS when federated identity fails",
-      "url": "https://aws.amazon.com/blogs/containers/break-glass-access-for-amazon-eks-when-federated-identity-fails/"
+      "detail": "Amazon MSK Service 101: How many partitions does an Amazon MSK topic need?",
+      "url": "https://aws.amazon.com/blogs/big-data/amazon-msk-service-101-how-many-partitions-does-an-amazon-msk-topic-need/"
     },
     {
       "date": "2026-08-26",
@@ -90,10 +55,24 @@
     },
     {
       "date": "2026-08-26",
-      "service": "msk-serverless",
+      "service": "glue",
       "type": "new_news",
-      "detail": "Amazon MSK Service 101: How many partitions does an Amazon MSK topic need?",
-      "url": "https://aws.amazon.com/blogs/big-data/amazon-msk-service-101-how-many-partitions-does-an-amazon-msk-topic-need/"
+      "detail": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud"
+    },
+    {
+      "date": "2026-08-26",
+      "service": "eks",
+      "type": "new_news",
+      "detail": "Break-glass access for Amazon EKS when federated identity fails",
+      "url": "https://aws.amazon.com/blogs/containers/break-glass-access-for-amazon-eks-when-federated-identity-fails/"
+    },
+    {
+      "date": "2026-08-26",
+      "service": "cognito",
+      "type": "new_news",
+      "detail": "Amazon Cognito adds admin API operation to reset user TOTP configurations",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/"
     },
     {
       "date": "2026-08-26",
@@ -104,17 +83,31 @@
     },
     {
       "date": "2026-08-26",
-      "service": "glue",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "AWS Glue 5.1 is now available in AWS European Sovereign Cloud Region",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-5-1-european-sovereign-cloud"
+      "detail": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
     },
     {
-      "date": "2026-08-24",
-      "service": "glue",
+      "date": "2026-08-26",
+      "service": "bedrock",
       "type": "new_news",
-      "detail": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/"
+      "detail": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
+      "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
+    },
+    {
+      "date": "2026-08-26",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
+    },
+    {
+      "date": "2026-08-26",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "CORTO’s billion-scale legal semantic search with Aurora PostgreSQL pgvector",
+      "url": "https://aws.amazon.com/blogs/database/cortos-billion-scale-legal-semantic-search-with-aurora-postgresql-pgvector/"
     },
     {
       "date": "2026-08-25",
@@ -199,6 +192,13 @@
       "type": "new_news",
       "detail": "Upgrade AWS Glue jobs to Glue 6.0 with AI-powered Spark upgrades",
       "url": "https://aws.amazon.com/blogs/big-data/upgrade-aws-glue-jobs-to-glue-6-0-with-ai-powered-spark-upgrades/"
+    },
+    {
+      "date": "2026-08-24",
+      "service": "glue",
+      "type": "new_news",
+      "detail": "AWS Glue now supports catalog federation for remote Apache Iceberg catalogs in AWS GovCloud (US) regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-glue-catalog-federation-iceberg-govcloud/"
     },
     {
       "date": "2026-08-24",
