@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "services": [
     {
       "id": "azure-functions",
@@ -1595,6 +1595,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-26",
+          "title": "New Azure SQL Foundations video series with GitHub samples",
+          "url": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/"
+        },
+        {
           "date": "2026-08-19",
           "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
           "url": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/"
@@ -1638,11 +1643,6 @@
           "date": "2026-07-16",
           "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
           "url": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/"
-        },
-        {
-          "date": "2026-07-15",
-          "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
-          "url": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/"
         }
       ],
       "pricingDetails": [
