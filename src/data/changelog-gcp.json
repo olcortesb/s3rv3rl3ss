@@ -9,41 +9,6 @@
       "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026"
     },
     {
-      "date": "2026-08-24",
-      "service": "cloud-build",
-      "type": "new_news",
-      "detail": "Security\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was ",
-      "url": "https://docs.cloud.google.com/build/docs/release-notes#August_24_2026"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "cloud-armor",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
-      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "cloud-cdn",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
-      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "cloud-identity-platform",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
-      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
-      "date": "2026-08-25",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
-      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
-    },
-    {
       "date": "2026-08-25",
       "service": "cloud-run-jobs",
       "type": "new_news",
@@ -61,6 +26,13 @@
       "date": "2026-08-25",
       "service": "cloud-identity-platform",
       "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
+      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "cloud-identity-platform",
+      "type": "new_news",
       "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
       "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
     },
@@ -68,7 +40,21 @@
       "date": "2026-08-25",
       "service": "cloud-functions-for-firebase",
       "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
+      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "cloud-functions-for-firebase",
+      "type": "new_news",
       "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud SDK\nBreakin",
+      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
+      "service": "cloud-cdn",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
       "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
     },
     {
@@ -87,6 +73,13 @@
     },
     {
       "date": "2026-08-25",
+      "service": "cloud-armor",
+      "type": "new_news",
+      "detail": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
+      "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
+    },
+    {
+      "date": "2026-08-25",
       "service": "bigquery",
       "type": "new_news",
       "detail": "Feature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.",
@@ -98,6 +91,13 @@
       "type": "new_news",
       "detail": "Backup and DR\nFeature\nBackup vault support for Filestore instances encrypted with customer-managed encryption keys (CMEK",
       "url": "https://docs.cloud.google.com/release-notes#August_24_2026"
+    },
+    {
+      "date": "2026-08-24",
+      "service": "cloud-build",
+      "type": "new_news",
+      "detail": "Security\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was ",
+      "url": "https://docs.cloud.google.com/build/docs/release-notes#August_24_2026"
     },
     {
       "date": "2026-08-24",
