@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "changes": [
+    {
+      "date": "2026-08-26",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "New Azure SQL Foundations video series with GitHub samples",
+      "url": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/"
+    },
     {
       "date": "2026-08-24",
       "service": "cosmos-db",
