@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "services": [
     {
       "id": "azure-functions",
@@ -423,6 +423,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-26",
+          "title": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
+          "url": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/"
+        },
+        {
           "date": "2026-08-24",
           "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
           "url": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/"
@@ -466,11 +471,6 @@
           "date": "2026-06-29",
           "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
           "url": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/"
-        },
-        {
-          "date": "2026-06-25",
-          "title": "Which Azure Cosmos DB Role Does My App Need?",
-          "url": "https://devblogs.microsoft.com/cosmosdb/which-azure-cosmos-db-role-does-my-app-need/"
         }
       ],
       "pricingDetails": [
@@ -1615,6 +1615,11 @@
           "url": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/"
         },
         {
+          "date": "2026-08-17",
+          "title": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
+          "url": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/"
+        },
+        {
           "date": "2026-08-13",
           "title": "Your best friend: BlockOnPossibleDataLoss=True",
           "url": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/"
@@ -1638,11 +1643,6 @@
           "date": "2026-07-20",
           "title": "T-SQL Hygiene: Introducing the Covering Index",
           "url": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/"
-        },
-        {
-          "date": "2026-07-16",
-          "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
-          "url": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/"
         }
       ],
       "pricingDetails": [
