@@ -3,34 +3,6 @@
   "changes": [
     {
       "date": "2026-08-27",
-      "service": "aurora-serverless",
-      "type": "new_news",
-      "detail": "Amazon Aurora DSQL now supports foreign key constraints",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/"
-    },
-    {
-      "date": "2026-08-27",
-      "service": "kinesis",
-      "type": "new_news",
-      "detail": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records"
-    },
-    {
-      "date": "2026-08-27",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Amazon Bedrock AgentCore expands to two new regions",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/"
-    },
-    {
-      "date": "2026-08-27",
-      "service": "bedrock",
-      "type": "new_news",
-      "detail": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/"
-    },
-    {
-      "date": "2026-08-27",
       "service": "redshift-serverless",
       "type": "new_news",
       "detail": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
@@ -42,6 +14,13 @@
       "type": "new_news",
       "detail": "Amazon Redshift integrates with Agent Toolkit for AWS for AI-assisted data warehouse management",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-agenttoolkit-for-ai-assisted-datawarehouse-mgmt"
+    },
+    {
+      "date": "2026-08-27",
+      "service": "kinesis",
+      "type": "new_news",
+      "detail": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records"
     },
     {
       "date": "2026-08-27",
@@ -65,6 +44,20 @@
     {
       "date": "2026-08-27",
       "service": "bedrock",
+      "type": "new_news",
+      "detail": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/"
+    },
+    {
+      "date": "2026-08-27",
+      "service": "bedrock",
+      "type": "new_news",
+      "detail": "Amazon Bedrock AgentCore expands to two new regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/"
+    },
+    {
+      "date": "2026-08-27",
+      "service": "bedrock",
       "type": "quota_added",
       "detail": "Global cross-region model inference tokens per day for Grok 4.6: 0"
     },
@@ -73,6 +66,13 @@
       "service": "bedrock",
       "type": "quota_added",
       "detail": "Model invocation max tokens per day for Grok 4.6 (doubled for cross-region calls): 0"
+    },
+    {
+      "date": "2026-08-27",
+      "service": "aurora-serverless",
+      "type": "new_news",
+      "detail": "Amazon Aurora DSQL now supports foreign key constraints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/"
     },
     {
       "date": "2026-08-26",
