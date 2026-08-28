@@ -9,13 +9,6 @@
       "url": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/"
     },
     {
-      "date": "2026-08-17",
-      "service": "azure-sql-serverless",
-      "type": "new_news",
-      "detail": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
-      "url": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/"
-    },
-    {
       "date": "2026-08-26",
       "service": "azure-sql-serverless",
       "type": "new_news",
@@ -63,6 +56,13 @@
       "type": "new_news",
       "detail": "The Two Hybrid Searches in Microsoft SQL",
       "url": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
+      "url": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/"
     },
     {
       "date": "2026-08-16",
