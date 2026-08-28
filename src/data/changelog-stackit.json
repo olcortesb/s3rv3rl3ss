@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "changes": [
+    {
+      "date": "2026-08-27",
+      "service": "kubernetes-engine",
+      "type": "new_news",
+      "detail": "New Kubernetes version (1.36) available for your SKE cluster",
+      "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#new-kubernetes-version-136-available-for-your-ske-cluster"
+    },
     {
       "date": "2026-07-03",
       "service": "container-registry",
