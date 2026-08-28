@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "services": [
     {
       "id": "cloud-run",
@@ -498,6 +498,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-27",
+          "title": "Feature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nA",
+          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026"
+        },
+        {
           "date": "2026-08-26",
           "title": "Security\nAn Improper Input Validation vulnerability was discovered in the JDBC driver\nin BigQuery Data Transfer Service ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026"
@@ -541,11 +546,6 @@
           "date": "2026-08-10",
           "title": "Feature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for the us, ",
           "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
-        },
-        {
-          "date": "2026-08-03",
-          "title": "Feature\nYou can now use\ncross-cloud connections to query data\nin AWS, Azure, and Salesforce Data 360 from all BigQuery r",
-          "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
         }
       ],
       "pricingDetails": [
