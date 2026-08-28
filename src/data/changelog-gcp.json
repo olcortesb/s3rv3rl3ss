@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "changes": [
+    {
+      "date": "2026-08-27",
+      "service": "bigquery",
+      "type": "new_news",
+      "detail": "Feature\nThe Data Engineering Agent\nis now HIPAA compliant.\nFor more information, see HIPAA compliance on Google Cloud.\nA",
+      "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026"
+    },
     {
       "date": "2026-08-26",
       "service": "bigquery",
