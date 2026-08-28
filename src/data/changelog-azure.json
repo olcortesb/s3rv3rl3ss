@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "changes": [
+    {
+      "date": "2026-08-26",
+      "service": "cosmos-db",
+      "type": "new_news",
+      "detail": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
+      "url": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/"
+    },
+    {
+      "date": "2026-08-17",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
+      "url": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/"
+    },
     {
       "date": "2026-08-26",
       "service": "azure-sql-serverless",
