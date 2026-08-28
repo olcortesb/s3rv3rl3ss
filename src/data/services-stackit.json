@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27",
+  "lastUpdated": "2026-08-28",
   "services": [
     {
       "id": "kubernetes-engine",
@@ -33,6 +33,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-27",
+          "title": "New Kubernetes version (1.36) available for your SKE cluster",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#new-kubernetes-version-136-available-for-your-ske-cluster"
+        },
         {
           "date": "2026-06-12",
           "title": "Advanced identity management features for SKE clusters",
@@ -77,11 +82,6 @@
           "date": "2025-11-03",
           "title": "Personalized email address included in SKE Kubeconfigs",
           "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#personalized-email-address-included-in-ske-kubeconfigs"
-        },
-        {
-          "date": "2025-08-13",
-          "title": "Support of Kubernetes Version 1.33 and Deprecation of Kubernetes Version 1.30",
-          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#support-of-kubernetes-version-133-and-deprecation-of-kubernetes-version-130"
         }
       ],
       "pricingDetails": [
@@ -1262,12 +1262,6 @@
       ],
       "pricingDetails": [
         {
-          "label": "VPN-IPSec-500-HA-EU01",
-          "price": "€0.210917",
-          "unit": "per hour",
-          "monthly": "€151.86/mo"
-        },
-        {
           "label": "VPN-IPSec-100-HA-EU01",
           "price": "€0.087875",
           "unit": "per hour",
@@ -1278,6 +1272,12 @@
           "price": "€0.393389",
           "unit": "per hour",
           "monthly": "€283.24/mo"
+        },
+        {
+          "label": "VPN-IPSec-500-HA-EU01",
+          "price": "€0.210917",
+          "unit": "per hour",
+          "monthly": "€151.86/mo"
         }
       ]
     },
@@ -1715,34 +1715,34 @@
       ],
       "pricingDetails": [
         {
-          "label": "Tiny Server-t1.1-EU01",
-          "price": "€0.003048",
+          "label": "Compute Optimized Server-c1.1-EU01",
+          "price": "€0.018268",
           "unit": "per hour",
-          "monthly": "€2.19/mo"
+          "monthly": "€13.15/mo"
         },
         {
-          "label": "Tiny Server-t1.1-EU01-m",
-          "price": "€0.013219",
+          "label": "Compute Optimized Server-c1.1-EU01-m",
+          "price": "€0.036535",
           "unit": "per hour",
-          "monthly": "€9.52/mo"
+          "monthly": "€26.31/mo"
         },
         {
-          "label": "Tiny Server-t1.2-EU01",
-          "price": "€0.005450",
+          "label": "Compute Optimized Server-c1.2-EU01",
+          "price": "€0.060658",
           "unit": "per hour",
-          "monthly": "€3.92/mo"
+          "monthly": "€43.67/mo"
         },
         {
-          "label": "Tiny Server-t1.2-EU01-m",
-          "price": "€0.015312",
+          "label": "Compute Optimized Server-c1.2-EU01-m",
+          "price": "€0.121316",
           "unit": "per hour",
-          "monthly": "€11.02/mo"
+          "monthly": "€87.35/mo"
         },
         {
-          "label": "Tiny Server-t2i.1-EU01",
-          "price": "€0.014133",
+          "label": "Compute Optimized Server-c1.3-EU01",
+          "price": "€0.137902",
           "unit": "per hour",
-          "monthly": "€10.18/mo"
+          "monthly": "€99.29/mo"
         }
       ]
     },
