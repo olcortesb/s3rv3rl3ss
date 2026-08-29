@@ -2,11 +2,11 @@
   "lastUpdated": "2026-08-29",
   "changes": [
     {
-      "date": "2026-06-25",
-      "service": "secret-manager",
+      "date": "2026-08-28",
+      "service": "cloud-functions-for-firebase",
       "type": "new_news",
-      "detail": "Change\nGKE 1.36.0-gke.4447000 and later\nGKE version 1.36.0-gke.4447000 and later include the following updates for the\nS",
-      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_25_2026"
+      "detail": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is upda",
+      "url": "https://docs.cloud.google.com/release-notes#August_28_2026"
     },
     {
       "date": "2026-08-28",
@@ -14,13 +14,6 @@
       "type": "new_news",
       "detail": "Feature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd gene",
       "url": "https://docs.cloud.google.com/build/docs/release-notes#August_28_2026"
-    },
-    {
-      "date": "2026-08-28",
-      "service": "cloud-functions-for-firebase",
-      "type": "new_news",
-      "detail": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is upda",
-      "url": "https://docs.cloud.google.com/release-notes#August_28_2026"
     },
     {
       "date": "2026-08-27",
@@ -1148,6 +1141,13 @@
       "type": "new_news",
       "detail": "Change\n(2026-R25) Version updates\nGKE cluster versions have been updated.\nNew versions available for upgrades and new cl",
       "url": "https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#June_26_2026"
+    },
+    {
+      "date": "2026-06-25",
+      "service": "secret-manager",
+      "type": "new_news",
+      "detail": "Change\nGKE 1.36.0-gke.4447000 and later\nGKE version 1.36.0-gke.4447000 and later include the following updates for the\nS",
+      "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_25_2026"
     },
     {
       "date": "2026-06-25",
