@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "services": [
     {
       "id": "kubernetes-engine",
@@ -33,6 +33,11 @@
         }
       ],
       "news": [
+        {
+          "date": "2026-08-28",
+          "title": "Kubernetes version 1.34 is getting deprecated in SKE",
+          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#kubernetes-version-134-is-getting-deprecated-in-ske"
+        },
         {
           "date": "2026-08-27",
           "title": "New Kubernetes version (1.36) available for your SKE cluster",
@@ -77,11 +82,6 @@
           "date": "2025-11-03",
           "title": "Separation of Compute and Licensing (SKU Split) for Windows Server, RHEL, and Confidential Kubernetes",
           "url": "https://docs.stackit.cloud/products/compute-engine/windows-server/release-notes/#separation-of-compute-and-licensing-sku-split-for-windows-server-rhel-and-confidential-kubernetes"
-        },
-        {
-          "date": "2025-11-03",
-          "title": "Personalized email address included in SKE Kubeconfigs",
-          "url": "https://docs.stackit.cloud/products/runtime/kubernetes-engine/release-notes/#personalized-email-address-included-in-ske-kubeconfigs"
         }
       ],
       "pricingDetails": [
