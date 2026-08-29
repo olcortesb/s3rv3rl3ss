@@ -3,6 +3,13 @@
   "changes": [
     {
       "date": "2026-08-28",
+      "service": "ses",
+      "type": "new_news",
+      "detail": "How to build a serverless mass email solution with Amazon SES",
+      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-build-a-serverless-mass-email-solution-with-amazon-ses/"
+    },
+    {
+      "date": "2026-08-28",
       "service": "s3",
       "type": "new_news",
       "detail": "Detect stalled Amazon S3 live replication to prevent unexpected storage costs",
@@ -10,10 +17,10 @@
     },
     {
       "date": "2026-08-28",
-      "service": "aurora-serverless",
+      "service": "redshift-serverless",
       "type": "new_news",
-      "detail": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
+      "detail": "Razor Group’s journey to a modern data lakehouse on AWS",
+      "url": "https://aws.amazon.com/blogs/big-data/razor-groups-journey-to-a-modern-data-lakehouse-on-aws/"
     },
     {
       "date": "2026-08-28",
@@ -38,17 +45,10 @@
     },
     {
       "date": "2026-08-28",
-      "service": "redshift-serverless",
+      "service": "aurora-serverless",
       "type": "new_news",
-      "detail": "Razor Group’s journey to a modern data lakehouse on AWS",
-      "url": "https://aws.amazon.com/blogs/big-data/razor-groups-journey-to-a-modern-data-lakehouse-on-aws/"
-    },
-    {
-      "date": "2026-08-28",
-      "service": "ses",
-      "type": "new_news",
-      "detail": "How to build a serverless mass email solution with Amazon SES",
-      "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-build-a-serverless-mass-email-solution-with-amazon-ses/"
+      "detail": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
     },
     {
       "date": "2026-08-27",
