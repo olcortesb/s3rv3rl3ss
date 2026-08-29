@@ -9,13 +9,6 @@
       "url": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/"
     },
     {
-      "date": "2026-07-23",
-      "service": "azure-sql-serverless",
-      "type": "new_news",
-      "detail": "Build locally, ship to Azure: meet Azure SQL Database container",
-      "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-database-container-prpr/"
-    },
-    {
       "date": "2026-08-26",
       "service": "cosmos-db",
       "type": "new_news",
@@ -154,6 +147,13 @@
       "type": "new_news",
       "detail": "Build locally, ship to Azure: meet Azure SQL Developer",
       "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Build locally, ship to Azure: meet Azure SQL Database container",
+      "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-database-container-prpr/"
     },
     {
       "date": "2026-07-20",
