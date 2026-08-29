@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "services": [
     {
       "id": "azure-functions",
@@ -1595,6 +1595,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-29",
+          "title": "Try the new SqlClient and Retry connections natively",
+          "url": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/"
+        },
+        {
           "date": "2026-08-26",
           "title": "New Azure SQL Foundations video series with GitHub samples",
           "url": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/"
@@ -1636,13 +1641,8 @@
         },
         {
           "date": "2026-07-23",
-          "title": "Build locally, ship to Azure: meet Azure SQL Developer",
-          "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "T-SQL Hygiene: Introducing the Covering Index",
-          "url": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/"
+          "title": "Build locally, ship to Azure: meet Azure SQL Database container",
+          "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-database-container-prpr/"
         }
       ],
       "pricingDetails": [
