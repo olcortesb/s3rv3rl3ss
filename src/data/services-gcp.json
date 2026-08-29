@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "services": [
     {
       "id": "cloud-run",
@@ -1789,6 +1789,11 @@
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#July_12_2026"
         },
         {
+          "date": "2026-06-25",
+          "title": "Change\nGKE 1.36.0-gke.4447000 and later\nGKE version 1.36.0-gke.4447000 and later include the following updates for the\nS",
+          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_25_2026"
+        },
+        {
           "date": "2026-06-19",
           "title": "Feature\nSecret Manager supports multi-region storage. You can choose between a single\nregion or a multi-region location ",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#June_19_2026"
@@ -1817,11 +1822,6 @@
           "date": "2026-02-06",
           "title": "Feature\nParameter version comparison: You can compare two versions of a parameter to\nidentify changes in their payload. ",
           "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#February_06_2026"
-        },
-        {
-          "date": "2026-01-20",
-          "title": "Feature\nSecret Manager is available in the following region:\n\nasia-southeast3 (Bangkok)\n\nFor more information, see Secre",
-          "url": "https://docs.cloud.google.com/secret-manager/docs/release-notes#January_20_2026"
         }
       ],
       "pricingDetails": [
@@ -1875,6 +1875,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Feature\nYou can now update access tokens from the Connection details page for\nyour 2nd generation Bitbucket and 2nd gene",
+          "url": "https://docs.cloud.google.com/build/docs/release-notes#August_28_2026"
+        },
+        {
           "date": "2026-08-24",
           "title": "Security\nAn Incorrect Authorization vulnerability CVE-2026-19410,\nin GitHub Trigger Comment Control in Cloud Build, was ",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#August_24_2026"
@@ -1918,11 +1923,6 @@
           "date": "2025-10-09",
           "title": "Change\nThe Service Account User role has been removed from the Cloud Build Permissions page in the Google Cloud Console.",
           "url": "https://docs.cloud.google.com/build/docs/release-notes#October_09_2025"
-        },
-        {
-          "date": "2025-09-29",
-          "title": "Feature\nDeveloper Connect build triggers are now generally available.\nYou can now create build triggers that build from ",
-          "url": "https://docs.cloud.google.com/build/docs/release-notes#September_29_2025"
         }
       ],
       "pricingDetails": [
@@ -2493,6 +2493,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is upda",
+          "url": "https://docs.cloud.google.com/release-notes#August_28_2026"
+        },
+        {
           "date": "2026-08-25",
           "title": "BigQuery\nFeature\nBigQuery data governance tags are\nsupported in Terraform. This feature is in\nPreview.\nCloud Run\nFeature",
           "url": "https://docs.cloud.google.com/release-notes#August_25_2026"
@@ -2536,11 +2541,6 @@
           "date": "2026-08-10",
           "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
           "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
-        },
-        {
-          "date": "2026-08-09",
-          "title": "Agent Platform Workbench\nChange\nInstalled latest packages from upstream dependencies.\nChange\n20260809-2330-rc0 Release\nC",
-          "url": "https://docs.cloud.google.com/release-notes#August_09_2026"
         }
       ]
     }
