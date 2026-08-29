@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "region": "us-east-1",
   "services": [
     {
@@ -1884,6 +1884,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Detect stalled Amazon S3 live replication to prevent unexpected storage costs",
+          "url": "https://aws.amazon.com/blogs/storage/detect-stalled-amazon-s3-live-replication-to-prevent-unexpected-storage-costs/"
+        },
+        {
           "date": "2026-08-26",
           "title": "Mountpoint for Amazon S3 adds memory usage controls",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/mountpoint-for-S3-adds-memory-usage-controls"
@@ -1905,13 +1910,13 @@
         },
         {
           "date": "2026-08-18",
-          "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions"
+          "title": "Transfer Amazon S3 data from commercial AWS Regions to AWS European Sovereign Cloud using AWS DataSync Enhanced mode",
+          "url": "https://aws.amazon.com/blogs/storage/transfer-amazon-s3-data-from-aws-commercial-regions-to-aws-european-sovereign-cloud-using-aws-datasync-enhanced-mode/"
         },
         {
           "date": "2026-08-18",
-          "title": "Transfer Amazon S3 data from commercial AWS Regions to AWS European Sovereign Cloud using AWS DataSync Enhanced mode",
-          "url": "https://aws.amazon.com/blogs/storage/transfer-amazon-s3-data-from-aws-commercial-regions-to-aws-european-sovereign-cloud-using-aws-datasync-enhanced-mode/"
+          "title": "Amazon S3 Metadata and annotations are now available in AWS GovCloud (US) Regions",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-s3-metadata-annotations-govcloud-regions"
         },
         {
           "date": "2026-08-14",
@@ -1977,11 +1982,6 @@
           "date": "2026-07-23",
           "title": "How Turso built a transactional database using Amazon S3 Express One Zone",
           "url": "https://aws.amazon.com/blogs/storage/how-turso-built-a-transactional-database-using-amazon-s3-express-one-zone/"
-        },
-        {
-          "date": "2026-07-20",
-          "title": "Unlocking data residency use cases with Amazon S3 in AWS Local Zones",
-          "url": "https://aws.amazon.com/blogs/storage/unlocking-data-residency-use-cases-with-amazon-s3-in-aws-local-zones/"
         }
       ],
       "dataStatus": "ok",
@@ -4300,6 +4300,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
+        },
+        {
           "date": "2026-08-27",
           "title": "Amazon Aurora DSQL now supports foreign key constraints",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-dsql-foreign-key-constraints/"
@@ -4393,11 +4398,6 @@
           "date": "2026-07-28",
           "title": "Building scalable applications on Amazon Aurora DSQL",
           "url": "https://aws.amazon.com/blogs/database/building-scalable-applications-on-amazon-aurora-dsql/"
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Migrate self-managed PostgreSQL to Amazon RDS using the RDS console",
-          "url": "https://aws.amazon.com/blogs/database/migrate-self-managed-postgresql-to-amazon-rds-using-the-rds-console/"
         }
       ],
       "dataStatus": "partial"
@@ -11594,6 +11594,21 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "SpaceXAI Grok 4.6 now available on Amazon Bedrock in AWS GovCloud (US)",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/spacexai-grok-4-6-govcloud/"
+        },
+        {
           "date": "2026-08-27",
           "title": "Amazon Bedrock AgentCore expands to two new regions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-two-new-regions/"
@@ -11677,21 +11692,6 @@
           "date": "2026-08-20",
           "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-20",
-          "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
-        },
-        {
-          "date": "2026-08-20",
-          "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/"
-        },
-        {
-          "date": "2026-08-19",
-          "title": "Launching External Web Access for Web Search on Amazon Bedrock",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-web-access-web-search/"
         }
       ],
       "dataStatus": "partial",
@@ -12633,6 +12633,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "Razor Group’s journey to a modern data lakehouse on AWS",
+          "url": "https://aws.amazon.com/blogs/big-data/razor-groups-journey-to-a-modern-data-lakehouse-on-aws/"
+        },
+        {
           "date": "2026-08-27",
           "title": "Amazon Redshift streaming can now ingest 10MiB records from Amazon Kinesis Data Streams",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records"
@@ -12726,11 +12731,6 @@
           "date": "2026-07-01",
           "title": "AI-powered performance recommendations for Amazon Redshift",
           "url": "https://aws.amazon.com/blogs/big-data/ai-powered-performance-recommendations-for-amazon-redshift/"
-        },
-        {
-          "date": "2026-06-29",
-          "title": "Scale analytics with Amazon Redshift multi-warehouse enhancements",
-          "url": "https://aws.amazon.com/blogs/big-data/scale-analytics-with-amazon-redshift-multi-warehouse-enhancements/"
         }
       ],
       "dataStatus": "partial"
@@ -14159,6 +14159,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-28",
+          "title": "How to build a serverless mass email solution with Amazon SES",
+          "url": "https://aws.amazon.com/blogs/messaging-and-targeting/how-to-build-a-serverless-mass-email-solution-with-amazon-ses/"
+        },
+        {
           "date": "2026-08-21",
           "title": "Amazon SES now supports open and click tracking override parameters",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ses-adds-open-click-tracking-override/"
@@ -14252,11 +14257,6 @@
           "date": "2026-07-07",
           "title": "Amazon GameLift Streams introduces secure terminal access for stream sessions",
           "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-gamelift-streams-terminal-access/"
-        },
-        {
-          "date": "2026-07-01",
-          "title": "Amazon Bedrock AgentCore increases default runtime quota limits",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-bedrock-agentcore-increases-default-runtime-quota-limits/"
         }
       ],
       "dataStatus": "partial"
