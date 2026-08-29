@@ -1,6 +1,20 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-29",
   "changes": [
+    {
+      "date": "2026-08-29",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Try the new SqlClient and Retry connections natively",
+      "url": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/"
+    },
+    {
+      "date": "2026-07-23",
+      "service": "azure-sql-serverless",
+      "type": "new_news",
+      "detail": "Build locally, ship to Azure: meet Azure SQL Database container",
+      "url": "https://devblogs.microsoft.com/azure-sql/azure-sql-database-container-prpr/"
+    },
     {
       "date": "2026-08-26",
       "service": "cosmos-db",
