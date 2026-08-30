@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29",
+  "lastUpdated": "2026-08-30",
   "tools": [
     {
       "id": "localstack",
@@ -8,7 +8,7 @@
       "url": "https://localstack.cloud/",
       "repoUrl": "https://github.com/localstack/localstack",
       "version": "4.14.0",
-      "stars": 65142,
+      "stars": 65144,
       "technology": [
         "Python",
         "Docker"
@@ -16,7 +16,7 @@
       "license": "BSL (restricted) / Proprietary (Pro)",
       "price": "Now paid / $35/mo (Pro)",
       "performance": {
-        "startupTime": "11909ms",
+        "startupTime": "13010ms",
         "memoryIdle": "345.3MiB",
         "imageSize": "1.28GB"
       },
@@ -148,7 +148,7 @@
       "url": "https://ministack.org/",
       "repoUrl": "https://github.com/ministackorg/ministack",
       "version": "1.5.3",
-      "stars": 4152,
+      "stars": 4284,
       "technology": [
         "Python",
         "Docker"
@@ -156,8 +156,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "2039ms",
-        "memoryIdle": "32.19MiB",
+        "startupTime": "2038ms",
+        "memoryIdle": "32.09MiB",
         "imageSize": "184MB"
       },
       "services": [
@@ -247,7 +247,7 @@
       "url": "https://floci.io/floci/",
       "repoUrl": "https://github.com/floci-io/floci",
       "version": "1.7.0",
-      "stars": 22600,
+      "stars": 22727,
       "technology": [
         "Java",
         "Docker"
@@ -255,8 +255,8 @@
       "license": "MIT",
       "price": "Free",
       "performance": {
-        "startupTime": "518ms",
-        "memoryIdle": "14.85MiB",
+        "startupTime": "522ms",
+        "memoryIdle": "14.68MiB",
         "imageSize": "351MB"
       },
       "services": [
@@ -360,8 +360,8 @@
       "license": "Apache 2.0",
       "price": "Free",
       "performance": {
-        "startupTime": "3055ms",
-        "memoryIdle": "76.8MiB",
+        "startupTime": "3559ms",
+        "memoryIdle": "76.89MiB",
         "imageSize": "492MB"
       },
       "services": [
