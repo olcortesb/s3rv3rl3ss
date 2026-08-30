@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29",
+  "lastUpdated": "2026-08-30",
   "services": [
     {
       "id": "cloud-run",
@@ -2493,6 +2493,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-29",
+          "title": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.98 is now\navailable for all regions.",
+          "url": "https://docs.cloud.google.com/release-notes#August_29_2026"
+        },
+        {
           "date": "2026-08-28",
           "title": "Application Integration\nAnnouncement\nUpcoming authorization changes for integration runs\nApplication Integration is upda",
           "url": "https://docs.cloud.google.com/release-notes#August_28_2026"
@@ -2536,11 +2541,6 @@
           "date": "2026-08-13",
           "title": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance ",
           "url": "https://docs.cloud.google.com/release-notes#August_13_2026"
-        },
-        {
-          "date": "2026-08-10",
-          "title": "BigQuery\nFeature\nBigQuery now supports the gemini-3.1-flash-lite and gemini-3.5-flash GA\nmodels, which are available for",
-          "url": "https://docs.cloud.google.com/release-notes#August_10_2026"
         }
       ]
     }
