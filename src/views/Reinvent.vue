@@ -184,9 +184,11 @@ const timelineLabels = computed(() => {
   const step = Math.floor((t.length - 1) / (count - 1))
   return Array.from({ length: count }, (_, i) => {
     const idx = Math.min(i * step, t.length - 1)
-    return t[idx].week.slice(0, 7) // YYYY-MM
+    return t[idx].week.slice(0, 7)
   })
 })
+
+const pace = computed(() => {
   const timeline = reinvent.value?.activityTimeline
   if (!timeline || timeline.length < 2) return null
   const current = timeline[timeline.length - 1].changes
