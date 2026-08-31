@@ -1,5 +1,5 @@
 {
-  "fetchMode": false,
+  "fetchMode": true,
   "providers": [
     { "id": "aws", "name": "AWS", "enabled": true, "icon": "/icons/amazonaws.svg" },
     { "id": "gcp", "name": "GCP", "enabled": true, "icon": "/icons/googlecloud.svg" },
