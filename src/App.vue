@@ -7,6 +7,17 @@
         </router-link>
         <nav class="flex gap-2">
           <router-link
+            to="/reinvent"
+            :class="[
+              'px-3 py-1 rounded-full text-sm font-medium transition',
+              $route.path === '/reinvent'
+                ? 'bg-orange-500 text-white'
+                : 'text-gray-400 hover:text-white'
+            ]"
+          >
+            🎪 re:Invent
+          </router-link>
+          <router-link
             v-for="p in providers"
             :key="p.id"
             :to="`/${p.id}`"
