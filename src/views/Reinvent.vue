@@ -27,16 +27,29 @@
 
     <DataLoader :loading="loading" :error="error" @retry="load">
 
+      <!-- This Week's Pace -->
+      <div v-if="pace" class="bg-white rounded-2xl border border-gray-100 p-6 mb-6 flex items-center gap-6">
+        <div class="text-center">
+          <div class="text-4xl font-bold" :class="pace.delta >= 0 ? 'text-orange-500' : 'text-gray-400'">{{ pace.current }}</div>
+          <div class="text-xs text-gray-400 mt-1">changes this week</div>
+        </div>
+        <div class="text-2xl">{{ pace.delta > 0 ? '🔺' : pace.delta < 0 ? '🔻' : '➡️' }}</div>
+        <div class="text-sm text-gray-500">
+          <span class="font-medium" :class="pace.delta >= 0 ? 'text-orange-500' : 'text-red-400'">{{ pace.delta >= 0 ? '+' : '' }}{{ pace.delta }}</span>
+          vs last week ({{ pace.previous }})
+        </div>
+      </div>
+
       <!-- Activity Timeline -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
         <h2 class="font-semibold text-gray-900 mb-4">📈 AWS Activity Timeline</h2>
         <div v-if="reinvent?.activityTimeline?.length">
-          <div class="flex items-end gap-1 h-24">
+          <div class="flex items-end gap-1" style="height: 96px">
             <div
               v-for="week in reinvent.activityTimeline"
               :key="week.week"
               class="flex-1 bg-orange-400 rounded-t hover:bg-orange-500 transition cursor-default"
-              :style="{ height: barHeight(week.changes) + '%' }"
+              :style="{ height: barHeight(week.changes) + 'px' }"
               :title="`${week.week}: ${week.changes} changes`"
             ></div>
           </div>
@@ -105,7 +118,8 @@
           <div v-for="n in reinvent.recentNews.slice(0, 10)" :key="n.title" class="flex gap-3 text-sm">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
             <router-link :to="`/aws/${n.service}`" class="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700 shrink-0">{{ n.service }}</router-link>
-            <a :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-200">{{ n.title }}</a>
+            <span v-if="n.reinvent" class="text-xs shrink-0">🎪</span>
+          <a :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-200">{{ n.title }}</a>
           </div>
         </div>
         <div v-else class="flex items-center justify-center h-16 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
@@ -164,8 +178,16 @@ const maxChanges = computed(() =>
   Math.max(...(reinvent.value?.activityTimeline || []).map(w => w.changes), 1)
 )
 
+const pace = computed(() => {
+  const timeline = reinvent.value?.activityTimeline
+  if (!timeline || timeline.length < 2) return null
+  const current = timeline[timeline.length - 1].changes
+  const previous = timeline[timeline.length - 2].changes
+  return { current, previous, delta: current - previous }
+})
+
 function barHeight(changes) {
-  return Math.max(5, Math.round((changes / maxChanges.value) * 100))
+  return Math.max(4, Math.round((changes / maxChanges.value) * 96))
 }
 
 function trendIcon(trend) {
