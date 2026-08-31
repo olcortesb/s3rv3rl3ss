@@ -1,6 +1,13 @@
 {
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "changes": [
+    {
+      "date": "2026-08-30",
+      "service": "aks",
+      "type": "new_news",
+      "detail": "AKS Prepared Image Specification Is in Preview",
+      "url": "https://pixelrobots.co.uk/2026/08/aks-prepared-image-specification-is-in-preview/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aks-prepared-image-specification-is-in-preview"
+    },
     {
       "date": "2026-08-29",
       "service": "azure-sql-serverless",
