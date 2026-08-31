@@ -54,8 +54,7 @@
             ></div>
           </div>
           <div class="flex justify-between text-xs text-gray-400 mt-1">
-            <span>{{ reinvent.activityTimeline[0]?.week }}</span>
-            <span>{{ reinvent.activityTimeline[reinvent.activityTimeline.length - 1]?.week }}</span>
+            <span v-for="label in timelineLabels" :key="label">{{ label }}</span>
           </div>
         </div>
         <div v-else class="flex items-center justify-center h-24 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
@@ -178,7 +177,16 @@ const maxChanges = computed(() =>
   Math.max(...(reinvent.value?.activityTimeline || []).map(w => w.changes), 1)
 )
 
-const pace = computed(() => {
+const timelineLabels = computed(() => {
+  const t = reinvent.value?.activityTimeline
+  if (!t?.length) return []
+  const count = 5
+  const step = Math.floor((t.length - 1) / (count - 1))
+  return Array.from({ length: count }, (_, i) => {
+    const idx = Math.min(i * step, t.length - 1)
+    return t[idx].week.slice(0, 7) // YYYY-MM
+  })
+})
   const timeline = reinvent.value?.activityTimeline
   if (!timeline || timeline.length < 2) return null
   const current = timeline[timeline.length - 1].changes
