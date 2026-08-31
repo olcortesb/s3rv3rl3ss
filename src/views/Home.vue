@@ -1,4 +1,5 @@
 <template>
+  <DataLoader :loading="loading" :error="error" @retry="load">
   <div>
     <div class="mb-10 text-center">
       <h1 class="text-4xl font-bold text-gray-900 mb-2">s3rv3rl3ss</h1>
@@ -55,20 +56,34 @@
       </div>
     </div>
   </div>
+  </DataLoader>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
 import { providers, getProviderData } from '../data/index.js'
+import DataLoader from '../components/DataLoader.vue'
 
 const counts = ref({ aws: 0, gcp: 0, azure: 0, stackit: 0 })
+const loading = ref(true)
+const error = ref(null)
 
-onMounted(async () => {
-  for (const p of providers) {
-    const data = await getProviderData(p.id)
-    if (data) counts.value[p.id] = data.services.length
+async function load() {
+  loading.value = true
+  error.value = null
+  try {
+    for (const p of providers) {
+      const data = await getProviderData(p.id)
+      if (data) counts.value[p.id] = data.services.length
+    }
+  } catch (e) {
+    error.value = e.message || 'Failed to load data'
+  } finally {
+    loading.value = false
   }
-})
+}
+
+onMounted(load)
 
 function serviceCount(id) {
   return counts.value[id] || '—'

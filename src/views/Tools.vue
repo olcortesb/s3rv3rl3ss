@@ -2,6 +2,8 @@
   <div>
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
+    <DataLoader :loading="loading" :error="error" @retry="load">
+    <div>
     <div class="mb-8 text-center">
       <h1 class="text-2xl font-bold text-gray-900 mb-2">🛠️ AWS Local Dev Tools</h1>
       <p class="text-gray-500 text-sm">Compare AWS service emulators for local development</p>
@@ -127,16 +129,37 @@
         </table>
       </div>
     </div>
+    </div>
+    </DataLoader>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
-import tools from '../data/tools.json'
+import { ref, computed, onMounted } from 'vue'
+import DataLoader from '../components/DataLoader.vue'
+
+const tools = ref({ tools: [], serviceDisplayNames: {} })
+const loading = ref(true)
+const error = ref(null)
+
+async function load() {
+  loading.value = true
+  error.value = null
+  try {
+    const mod = await import('../data/tools.json')
+    tools.value = mod.default
+  } catch (e) {
+    error.value = e.message || 'Failed to load tools'
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(load)
 
 const allServices = computed(() => {
   const set = new Set()
-  for (const tool of tools.tools) {
+  for (const tool of tools.value.tools) {
     for (const s of tool.services) set.add(s)
     if (tool.paidServices) {
       for (const s of tool.paidServices) set.add(s)
@@ -146,6 +169,6 @@ const allServices = computed(() => {
 })
 
 const displayName = (service) => {
-  return tools.serviceDisplayNames?.[service] || service
+  return tools.value.serviceDisplayNames?.[service] || service
 }
 </script>

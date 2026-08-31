@@ -8,7 +8,8 @@
       <p v-if="metrics" class="text-xs text-gray-400 mt-1">Last updated: {{ metrics.lastUpdated }}</p>
     </div>
 
-    <div v-if="metrics">
+    <DataLoader :loading="loading" :error="error" @retry="load">
+    <div>
       <!-- Cost card -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
         <h2 class="font-semibold text-gray-900 mb-4">💰 Monthly Cost</h2>
@@ -113,17 +114,17 @@
         </div>
       </div>
     </div>
-
-    <div v-else class="text-center text-gray-400 py-12">
-      Loading metrics...
-    </div>
+    </DataLoader>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import DataLoader from '../components/DataLoader.vue'
 
 const metrics = ref(null)
+const loading = ref(true)
+const error = ref(null)
 
 const techStack = [
   'AWS Lambda (arm64)',
@@ -138,14 +139,20 @@ const techStack = [
   'AWS Amplify',
 ]
 
-onMounted(async () => {
+async function load() {
+  loading.value = true
+  error.value = null
   try {
     const mod = await import('../data/metrics.json')
     metrics.value = mod.default
-  } catch {
-    metrics.value = null
+  } catch (e) {
+    error.value = e.message || 'Failed to load metrics'
+  } finally {
+    loading.value = false
   }
-})
+}
+
+onMounted(load)
 
 function formatDuration(ms) {
   if (!ms) return '0s'

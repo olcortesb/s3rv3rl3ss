@@ -3,9 +3,10 @@
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
     <h1 class="text-2xl font-bold text-gray-900 mb-1">Compare Services</h1>
-    <p v-if="comparisons.lastUpdated" class="text-xs text-gray-400 mb-6">Last updated: {{ comparisons.lastUpdated }}</p>
+    <p v-if="comparisons.value?.lastUpdated" class="text-xs text-gray-400 mb-6">Last updated: {{ comparisons.value.lastUpdated }}</p>
     <p v-else class="mb-6"></p>
 
+    <DataLoader :loading="loading" :error="error" @retry="load">
     <!-- Category selector -->
     <div class="flex flex-wrap gap-3 mb-8">
       <button
@@ -106,22 +107,26 @@
         </div>
       </div>
     </div>
+    </DataLoader>
   </div>
 </template>
 
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import comparisons from '../data/comparisons.json'
 import { getProviderData } from '../data/index.js'
+import DataLoader from '../components/DataLoader.vue'
 
 const PROVIDERS = ['aws', 'gcp', 'azure']
 const route = useRoute()
-const categories = comparisons.categories
-const selected = ref(route.params.category || categories[0].id)
+const comparisons = ref({ categories: [] })
+const categories = computed(() => comparisons.value.categories)
+const selected = ref(route.params.category || '')
 const servicesData = ref({ aws: null, gcp: null, azure: null })
+const loading = ref(true)
+const error = ref(null)
 
-const comparison = computed(() => categories.find(c => c.id === selected.value))
+const comparison = computed(() => categories.value.find(c => c.id === selected.value))
 
 async function loadServices() {
   for (const p of PROVIDERS) {
@@ -132,7 +137,22 @@ async function loadServices() {
   }
 }
 
-onMounted(loadServices)
+async function load() {
+  loading.value = true
+  error.value = null
+  try {
+    const mod = await import('../data/comparisons.json')
+    comparisons.value = mod.default
+    if (!selected.value) selected.value = comparisons.value.categories[0]?.id || ''
+    await loadServices()
+  } catch (e) {
+    error.value = e.message || 'Failed to load data'
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(load)
 watch(selected, loadServices)
 
 function getService(provider) {

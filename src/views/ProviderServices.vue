@@ -2,6 +2,8 @@
   <div v-if="providerData">
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Providers</router-link>
 
+    <DataLoader :loading="loading" :error="error" @retry="load">
+
     <div class="mb-8 text-center">
       <h1 class="text-3xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-3"><img :src="providerInfo.icon" :alt="providerInfo.name" class="w-8 h-8" /> {{ providerInfo.name }} s3rv3rl3ss</h1>
       <p class="text-gray-500 mb-3">
@@ -101,6 +103,7 @@
     </div>
 
     <p v-if="!filtered.length" class="text-center text-gray-400 mt-12">No services found.</p>
+    </DataLoader>
   </div>
   <div v-else class="text-center text-gray-400 mt-12">Provider not found.</div>
 </template>
@@ -112,12 +115,15 @@ import { getProviderData, getProvider, getStatistics } from '../data/index.js'
 import SearchBar from '../components/SearchBar.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import CategoryFilter from '../components/CategoryFilter.vue'
+import DataLoader from '../components/DataLoader.vue'
 
 const props = defineProps({ provider: String })
 
 const providerInfo = getProvider(props.provider)
 const providerData = ref(null)
 const stats = ref({})
+const loading = ref(true)
+const error = ref(null)
 const showStats = ref(false)
 const search = ref('')
 const selectedCategory = ref('')
@@ -125,16 +131,26 @@ const enabledServices = ref([])
 const categories = ref([])
 let fuse = null
 
-onMounted(async () => {
-  providerData.value = await getProviderData(props.provider)
-  stats.value = await getStatistics(props.provider)
-  enabledServices.value = providerData.value ? providerData.value.services.filter(s => s.enabled) : []
-  categories.value = [...new Set(enabledServices.value.map(s => s.category))].sort()
-  fuse = new Fuse(enabledServices.value, {
-    keys: ['name', 'description', 'category', 'useCases'],
-    threshold: 0.3,
-  })
-})
+async function load() {
+  loading.value = true
+  error.value = null
+  try {
+    providerData.value = await getProviderData(props.provider)
+    stats.value = await getStatistics(props.provider)
+    enabledServices.value = providerData.value ? providerData.value.services.filter(s => s.enabled) : []
+    categories.value = [...new Set(enabledServices.value.map(s => s.category))].sort()
+    fuse = new Fuse(enabledServices.value, {
+      keys: ['name', 'description', 'category', 'useCases'],
+      threshold: 0.3,
+    })
+  } catch (e) {
+    error.value = e.message || 'Failed to load data'
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(load)
 
 const filtered = computed(() => {
   if (!enabledServices.value.length) return []

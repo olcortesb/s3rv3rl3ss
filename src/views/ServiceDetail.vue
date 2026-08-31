@@ -1,6 +1,7 @@
 <template>
   <div v-if="service">
     <router-link :to="`/${provider}`" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Back</router-link>
+    <DataLoader :loading="loading" :error="error" @retry="load">
 
     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 max-w-3xl">
       <div class="flex items-center gap-3 mb-4">
@@ -219,26 +220,40 @@
         View on {{ provider.toUpperCase() }} →
       </a>
     </div>
+    </DataLoader>
   </div>
-  <div v-else class="text-center text-gray-400 mt-12">Service not found.</div>
+  <div v-else-if="!loading" class="text-center text-gray-400 mt-12">Service not found.</div>
 </template>
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import Fuse from 'fuse.js'
 import { getProviderData, getChangelog } from '../data/index.js'
+import DataLoader from '../components/DataLoader.vue'
 
 const props = defineProps({ provider: String, id: String })
 const providerData = ref(null)
 const service = ref(null)
 const changelog = ref([])
+const loading = ref(true)
+const error = ref(null)
 const iconUrl = computed(() => `/icons/${props.provider}/${props.id}.svg`)
 
-onMounted(async () => {
-  providerData.value = await getProviderData(props.provider)
-  service.value = providerData.value?.services.find(s => s.id === props.id) || null
-  changelog.value = await getChangelog(props.id, props.provider)
-})
+async function load() {
+  loading.value = true
+  error.value = null
+  try {
+    providerData.value = await getProviderData(props.provider)
+    service.value = providerData.value?.services.find(s => s.id === props.id) || null
+    changelog.value = await getChangelog(props.id, props.provider)
+  } catch (e) {
+    error.value = e.message || 'Failed to load data'
+  } finally {
+    loading.value = false
+  }
+}
+
+onMounted(load)
 
 const NEWS_SOURCES = {
   aws: "AWS What's New",
