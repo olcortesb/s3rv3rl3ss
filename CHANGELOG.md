@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.0...v1.2.1) (2026-08-31)
+
+
+### Bug Fixes
+
+* add official AWS icons for Organizations and Control Tower ([6dff327](https://github.com/olcortesb/s3rv3rl3ss/commit/6dff327626e3dd98c99e380eb7d298e5ff811a26))
+
 # [1.2.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.1.0...v1.2.0) (2026-08-31)
 
 
