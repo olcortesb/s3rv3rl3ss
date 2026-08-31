@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.0...v1.3.1) (2026-08-31)
+
+
+### Bug Fixes
+
+* add period to reinvent view ([450fd98](https://github.com/olcortesb/s3rv3rl3ss/commit/450fd98c6ed711550d46fc2b5c57d3901e415815))
+
 # [1.3.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.3...v1.3.0) (2026-08-31)
 
 
