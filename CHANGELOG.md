@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.3...v1.3.0) (2026-08-31)
+
+
+### Features
+
+* add tags to activity timeline ([acedab4](https://github.com/olcortesb/s3rv3rl3ss/commit/acedab462c917c540be59c05c37086db6db9b2a2))
+
 ## [1.2.3](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.2...v1.2.3) (2026-08-31)
 
 
