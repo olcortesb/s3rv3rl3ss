@@ -65,7 +65,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <!-- Top Services -->
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">🏆 Most Active Services</h2>
+          <h2 class="font-semibold text-gray-900 mb-1">🏆 Most Active Services</h2>
+          <p class="text-xs text-gray-400 mb-4">Last 180 days</p>
           <div v-if="reinvent?.topServices?.length" class="space-y-3">
             <div v-for="svc in reinvent.topServices.slice(0, 8)" :key="svc.service" class="flex items-center gap-3">
               <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-orange-500 w-32 truncate shrink-0">{{ svc.name }}</router-link>
@@ -83,7 +84,8 @@
 
         <!-- Hot Services -->
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">🔥 Hot Right Now</h2>
+          <h2 class="font-semibold text-gray-900 mb-1">🔥 Hot Right Now</h2>
+          <p class="text-xs text-gray-400 mb-4">Last 30 days</p>
           <div v-if="reinvent?.hotServices?.length" class="space-y-2">
             <div v-for="svc in reinvent.hotServices.slice(0, 8)" :key="svc.service" class="flex items-center justify-between">
               <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-orange-500">{{ svc.name }}</router-link>
@@ -98,7 +100,8 @@
 
       <!-- Changes by type -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
-        <h2 class="font-semibold text-gray-900 mb-4">📊 Changes by Type</h2>
+        <h2 class="font-semibold text-gray-900 mb-1">📊 Changes by Type</h2>
+        <p class="text-xs text-gray-400 mb-4">Last 180 days</p>
         <div v-if="reinvent?.changesByType" class="flex flex-wrap gap-3">
           <div v-for="(count, type) in reinvent.changesByType" :key="type" class="text-center px-4 py-3 bg-gray-50 rounded-xl">
             <div class="text-2xl font-bold text-gray-900">{{ count }}</div>
@@ -112,7 +115,8 @@
 
       <!-- Recent News -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6">
-        <h2 class="font-semibold text-gray-900 mb-4">📰 Recent Announcements</h2>
+        <h2 class="font-semibold text-gray-900 mb-1">📰 Recent Announcements</h2>
+        <p class="text-xs text-gray-400 mb-4">Last 20 news with URL</p>
         <div v-if="reinvent?.recentNews?.length" class="space-y-2">
           <div v-for="n in reinvent.recentNews.slice(0, 10)" :key="n.title" class="flex gap-3 text-sm">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
