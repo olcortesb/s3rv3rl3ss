@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30",
+  "lastUpdated": "2026-08-31",
   "services": [
     {
       "id": "azure-functions",
@@ -1438,6 +1438,11 @@
       ],
       "news": [
         {
+          "date": "2026-08-30",
+          "title": "AKS Prepared Image Specification Is in Preview",
+          "url": "https://pixelrobots.co.uk/2026/08/aks-prepared-image-specification-is-in-preview/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aks-prepared-image-specification-is-in-preview"
+        },
+        {
           "date": "2026-08-23",
           "title": "AKS Hyperscale Control Plane Now in Preview",
           "url": "https://pixelrobots.co.uk/2026/08/aks-hyperscale-control-plane-now-in-preview/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aks-hyperscale-control-plane-now-in-preview"
@@ -1481,11 +1486,6 @@
           "date": "2026-04-26",
           "title": "Entra Workload Identity on AKS: No More Secrets",
           "url": "https://adamtheautomator.com/entra-workload-identity-aks-no-more-secrets/"
-        },
-        {
-          "date": "2026-04-26",
-          "title": "AKS App Routing's Next Chapter: Gateway API with Istio",
-          "url": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/aks-app-routing-s-next-chapter-gateway-api-with-istio/ba-p/4512729"
         }
       ],
       "pricingDetails": [
@@ -2166,13 +2166,6 @@
         {
           "name": "Max video call participants",
           "value": "1,000"
-        }
-      ],
-      "news": [
-        {
-          "date": "2025-08-10",
-          "title": "Replacing SendGrid Free Tier with Azure Communication Services for Emails via SMTP",
-          "url": "https://www.blueboxes.co.uk/replacing-sendgrid-free-tier-with-azure-communication-services-for-emails-via-smtp/"
         }
       ]
     },
