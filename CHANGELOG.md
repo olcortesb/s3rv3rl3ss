@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.1...v1.2.2) (2026-08-31)
+
+
+### Bug Fixes
+
+* reinvent timeline flex container ([ef9be91](https://github.com/olcortesb/s3rv3rl3ss/commit/ef9be910c2215b40acf496456163204b06076c58))
+
 ## [1.2.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.0...v1.2.1) (2026-08-31)
 
 
