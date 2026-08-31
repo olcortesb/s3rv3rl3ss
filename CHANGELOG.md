@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.2...v1.2.3) (2026-08-31)
+
+
+### Bug Fixes
+
+* most active services timeline graphf ([0d32130](https://github.com/olcortesb/s3rv3rl3ss/commit/0d321304aa16e3a6e9acabd0cf7746d686afc78a))
+
 ## [1.2.2](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.2.1...v1.2.2) (2026-08-31)
 
 
