@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.0.0...v1.1.0) (2026-08-31)
+
+
+### Features
+
+* fetch() + DataLoader composable, feature flag via CloudFront providers.json ([a08b8a4](https://github.com/olcortesb/s3rv3rl3ss/commit/a08b8a4d8e51d382c82b2b45d8bf549a21983fcb))
+
 # 1.0.0 (2026-08-14)
 
 
