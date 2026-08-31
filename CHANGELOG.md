@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.1.0...v1.2.0) (2026-08-31)
+
+
+### Features
+
+* /reinvent view — countdown + WIP sections ([88999a3](https://github.com/olcortesb/s3rv3rl3ss/commit/88999a3523c9bd4f25d0696ccf64815b4a368e33))
+
 # [1.1.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.0.0...v1.1.0) (2026-08-31)
 
 
