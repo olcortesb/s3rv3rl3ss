@@ -114,7 +114,7 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { getProviderData } from '../data/index.js'
+import { getProviderData, getComparisons } from '../data/index.js'
 import DataLoader from '../components/DataLoader.vue'
 
 const PROVIDERS = ['aws', 'gcp', 'azure']
@@ -141,8 +141,7 @@ async function load() {
   loading.value = true
   error.value = null
   try {
-    const mod = await import('../data/comparisons.json')
-    comparisons.value = mod.default
+    comparisons.value = await getComparisons()
     if (!selected.value) selected.value = comparisons.value.categories[0]?.id || ''
     await loadServices()
   } catch (e) {

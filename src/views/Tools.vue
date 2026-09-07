@@ -137,6 +137,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import DataLoader from '../components/DataLoader.vue'
+import { getTools } from '../data/index.js'
 
 const tools = ref({ tools: [], serviceDisplayNames: {} })
 const loading = ref(true)
@@ -146,8 +147,7 @@ async function load() {
   loading.value = true
   error.value = null
   try {
-    const mod = await import('../data/tools.json')
-    tools.value = mod.default
+    tools.value = await getTools()
   } catch (e) {
     error.value = e.message || 'Failed to load tools'
   } finally {

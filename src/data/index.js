@@ -117,3 +117,24 @@ export async function getChangelog(serviceId, providerId) {
 export async function getStatistics(providerId = 'aws') {
   return loadStats(providerId)
 }
+
+let comparisonsCache = null
+export async function getComparisons() {
+  if (comparisonsCache) return comparisonsCache
+  comparisonsCache = await fetchOrImport('comparisons.json', () => import('../data/comparisons.json'))
+  return comparisonsCache
+}
+
+let toolsCache = null
+export async function getTools() {
+  if (toolsCache) return toolsCache
+  toolsCache = await fetchOrImport('tools.json', () => import('../data/tools.json'))
+  return toolsCache
+}
+
+let metricsCache = null
+export async function getMetrics() {
+  if (metricsCache) return metricsCache
+  metricsCache = await fetchOrImport('metrics.json', () => import('../data/metrics.json'))
+  return metricsCache
+}

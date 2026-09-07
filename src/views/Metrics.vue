@@ -121,6 +121,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import DataLoader from '../components/DataLoader.vue'
+import { getMetrics } from '../data/index.js'
 
 const metrics = ref(null)
 const loading = ref(true)
@@ -143,8 +144,7 @@ async function load() {
   loading.value = true
   error.value = null
   try {
-    const mod = await import('../data/metrics.json')
-    metrics.value = mod.default
+    metrics.value = await getMetrics()
   } catch (e) {
     error.value = e.message || 'Failed to load metrics'
   } finally {
