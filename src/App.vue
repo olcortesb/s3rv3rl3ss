@@ -54,8 +54,13 @@
 </template>
 
 <script setup>
-import { providers } from './data/index.js'
-import awsData from './data/services-aws.json'
+import { ref, onMounted } from 'vue'
+import { providers, getProviderData } from './data/index.js'
 
-const lastUpdated = awsData.lastUpdated
+const lastUpdated = ref('')
+
+onMounted(async () => {
+  const data = await getProviderData('aws')
+  lastUpdated.value = data.lastUpdated
+})
 </script>
