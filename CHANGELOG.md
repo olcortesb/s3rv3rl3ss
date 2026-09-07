@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.1...v1.3.2) (2026-09-07)
+
+
+### Bug Fixes
+
+* date update daily sources ([20562ee](https://github.com/olcortesb/s3rv3rl3ss/commit/20562ee6db35d5aef6a4a848068c29b550bcd2a3))
+
 ## [1.3.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.0...v1.3.1) (2026-08-31)
 
 
