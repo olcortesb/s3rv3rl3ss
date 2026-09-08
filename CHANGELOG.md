@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.6.0...v1.7.0) (2026-09-08)
+
+
+### Features
+
+*  ui cleanup — status links, icons, card colors, monochrome ([6e99394](https://github.com/olcortesb/s3rv3rl3ss/commit/6e99394d5557c024a3c0e679f0dd8d45762b01da))
+
 # [1.6.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.5.1...v1.6.0) (2026-09-08)
 
 
