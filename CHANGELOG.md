@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.4.0...v1.5.0) (2026-09-08)
+
+
+### Features
+
+* add status links to providers ([451a338](https://github.com/olcortesb/s3rv3rl3ss/commit/451a33839d422aafa4403b79407a2548c895ae06))
+
 # [1.4.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.3...v1.4.0) (2026-09-08)
 
 
