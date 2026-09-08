@@ -1,5 +1,5 @@
 {
-  "fetchMode": true,
+  "fetchMode": false,
   "providers": [
     { "id": "aws", "name": "AWS", "enabled": true, "icon": "/icons/amazonaws.svg", "statusUrl": "https://health.aws.amazon.com/" },
     { "id": "gcp", "name": "GCP", "enabled": true, "icon": "/icons/googlecloud.svg", "statusUrl": "https://status.cloud.google.com/" },

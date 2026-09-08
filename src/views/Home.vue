@@ -15,7 +15,7 @@
           class="group block w-full rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
           :class="cardClass(p.id)"
         >
-          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
+          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" :class="p.id === 'stackit' ? 'brightness-0' : ''" />
           <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
           <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
         </router-link>

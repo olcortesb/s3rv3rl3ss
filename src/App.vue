@@ -33,13 +33,17 @@
             :key="p.id"
             :to="`/${p.id}`"
             :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition',
+              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
               $route.path.startsWith(`/${p.id}`)
                 ? 'bg-orange-500 text-white'
                 : 'text-gray-400 hover:text-white'
             ]"
           >
-            <img :src="p.icon" :alt="p.name" class="w-4 h-4 inline-block brightness-0 invert" /> {{ p.name }}
+            <img
+              :src="p.icon" :alt="p.name"
+              class="w-4 h-4"
+              :class="'brightness-0 invert'"
+            /> {{ p.name }}
           </router-link>
         </nav>
       </div>
