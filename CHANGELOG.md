@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.7.0...v1.8.0) (2026-09-08)
+
+
+### Features
+
+* redesing views and update logos and views ([82b0073](https://github.com/olcortesb/s3rv3rl3ss/commit/82b00732a14f3490db226dc3d70b7d20ddeede81))
+
 # [1.7.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.6.0...v1.7.0) (2026-09-08)
 
 
