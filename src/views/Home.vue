@@ -25,16 +25,17 @@
         class="group block rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
         :class="cardClass(p.id)"
       >
-        <div class="relative inline-block mb-4">
-          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block" />
-          <span v-if="status[p.id] !== undefined" class="absolute -top-1 -right-1 w-3 h-3 rounded-full border-2 border-white"
-            :class="status[p.id] === 'operational' ? 'bg-green-400' : status[p.id] === 'incident' ? 'bg-red-400' : 'bg-gray-300'"
-            :title="status[p.id] === 'operational' ? 'All systems operational' : status[p.id] === 'incident' ? 'Active incident' : 'Status unknown'"
-          />
-        </div>
+        <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
         <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
         <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
-        <a :href="p.statusUrl" target="_blank" @click.stop class="text-xs text-gray-300 hover:text-gray-500 transition mt-2 inline-block">status ↗</a>
+        <a :href="p.statusUrl" target="_blank" @click.stop
+          class="text-xs text-gray-300 hover:text-gray-500 transition mt-2 inline-flex items-center gap-1"
+        >
+          <span v-if="status[p.id] !== undefined" class="w-2 h-2 rounded-full"
+            :class="status[p.id] === 'operational' ? 'bg-green-400' : 'bg-red-400'"
+          />
+          status
+        </a>
       </router-link>
     </div>
 
