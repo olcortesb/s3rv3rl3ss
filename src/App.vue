@@ -7,6 +7,17 @@
         </router-link>
         <nav class="flex gap-2">
           <router-link
+            to="/tools"
+            :class="[
+              'px-3 py-1 rounded-full text-sm font-medium transition',
+              $route.path === '/tools'
+                ? 'bg-orange-500 text-white'
+                : 'text-gray-400 hover:text-white'
+            ]"
+          >
+            🛠️ Tools
+          </router-link>
+          <router-link
             to="/reinvent"
             :class="[
               'px-3 py-1 rounded-full text-sm font-medium transition',

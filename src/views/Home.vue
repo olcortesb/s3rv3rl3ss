@@ -6,37 +6,26 @@
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
-    <!-- Local Dev Tools -->
-    <div class="mt-10 mb-6 text-center">
-      <router-link to="/tools" class="group inline-flex items-center gap-3 px-6 py-4 rounded-2xl border-2 border-gray-200 bg-gray-50/50 hover:border-gray-400 hover:shadow-lg transition-all duration-200 hover:-translate-y-1">
-        <span class="text-3xl">🛠️</span>
-        <div class="text-left">
-          <h2 class="text-lg font-bold text-gray-900">AWS Local Dev Tools</h2>
-          <p class="text-xs text-gray-400">Compare AWS service emulators</p>
-        </div>
-      </router-link>
-    </div>
-
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-      <router-link
-        v-for="p in providers"
-        :key="p.id"
-        :to="`/${p.id}`"
-        class="group block rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
-        :class="cardClass(p.id)"
-      >
-        <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
-        <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
-        <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
-        <a :href="p.statusUrl" target="_blank" @click.stop
-          class="text-xs text-gray-300 hover:text-gray-500 transition mt-2 inline-flex items-center gap-1"
+      <div v-for="p in providers" :key="p.id" class="flex flex-col items-center">
+        <router-link
+          :to="`/${p.id}`"
+          class="group block w-full rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
+          :class="cardClass(p.id)"
+        >
+          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
+          <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
+          <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
+        </router-link>
+        <a :href="p.statusUrl" target="_blank"
+          class="text-xs text-gray-400 hover:text-gray-600 transition mt-2 inline-flex items-center gap-1"
         >
           <span v-if="status[p.id] !== undefined" class="w-2 h-2 rounded-full"
             :class="status[p.id] === 'operational' ? 'bg-green-400' : 'bg-red-400'"
           />
           status
         </a>
-      </router-link>
+      </div>
     </div>
 
     <div class="flex justify-center gap-4 mt-10">
