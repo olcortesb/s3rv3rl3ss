@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.5.1...v1.6.0) (2026-09-08)
+
+
+### Features
+
+* refactor the cards in the home ([e50fd64](https://github.com/olcortesb/s3rv3rl3ss/commit/e50fd642d225f87a4a1a04b66ed525e798a11408))
+
 ## [1.5.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.5.0...v1.5.1) (2026-09-08)
 
 
