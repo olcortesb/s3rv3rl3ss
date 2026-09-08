@@ -34,6 +34,7 @@
         </div>
         <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
         <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
+        <a :href="p.statusUrl" target="_blank" @click.stop class="text-xs text-gray-300 hover:text-gray-500 transition mt-2 inline-block">status ↗</a>
       </router-link>
     </div>
 

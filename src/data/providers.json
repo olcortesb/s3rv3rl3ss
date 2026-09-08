@@ -1,9 +1,9 @@
 {
   "fetchMode": true,
   "providers": [
-    { "id": "aws", "name": "AWS", "enabled": true, "icon": "/icons/amazonaws.svg" },
-    { "id": "gcp", "name": "GCP", "enabled": true, "icon": "/icons/googlecloud.svg" },
-    { "id": "azure", "name": "Azure", "enabled": true, "icon": "/icons/microsoftazure.svg" },
-    { "id": "stackit", "name": "STACKIT", "enabled": true, "icon": "/icons/stackit.svg" }
+    { "id": "aws", "name": "AWS", "enabled": true, "icon": "/icons/amazonaws.svg", "statusUrl": "https://health.aws.amazon.com/" },
+    { "id": "gcp", "name": "GCP", "enabled": true, "icon": "/icons/googlecloud.svg", "statusUrl": "https://status.cloud.google.com/" },
+    { "id": "azure", "name": "Azure", "enabled": true, "icon": "/icons/microsoftazure.svg", "statusUrl": "https://azure.status.microsoft/" },
+    { "id": "stackit", "name": "STACKIT", "enabled": true, "icon": "/icons/stackit.svg", "statusUrl": "https://status.stackit.cloud/" }
   ]
 }
