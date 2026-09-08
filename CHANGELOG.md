@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.3...v1.4.0) (2026-09-08)
+
+
+### Features
+
+* add provider status for gcp and stackit ([57298b8](https://github.com/olcortesb/s3rv3rl3ss/commit/57298b83939b6be126a2cb5bbdaef335e8c930f3))
+
 ## [1.3.3](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.3.2...v1.3.3) (2026-09-07)
 
 
