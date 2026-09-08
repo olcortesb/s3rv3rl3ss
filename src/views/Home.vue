@@ -2,7 +2,9 @@
   <DataLoader :loading="loading" :error="error" @retry="load">
   <div>
     <div class="mb-10 text-center">
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">s3rv3rl3ss</h1>
+      <h1 class="text-4xl font-bold text-gray-900 mb-2 font-mono">
+        s<span class="text-gray-400 italic">3</span>rv<span class="text-gray-400 italic">3</span>rl<span class="text-gray-400 italic">3</span>ss
+      </h1>
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
@@ -29,11 +31,11 @@
     </div>
 
     <div class="flex justify-center gap-4 mt-10">
-      <router-link to="/compare" class="px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition font-medium text-sm">
-        ⚖️ Compare Services
+      <router-link to="/compare" class="px-5 py-2.5 text-sm font-medium border border-gray-900 text-gray-900 rounded-xl hover:bg-gray-900 hover:text-white transition">
+        Compare
       </router-link>
-      <router-link to="/metrics" class="px-6 py-3 bg-white text-gray-700 border border-gray-200 rounded-xl hover:border-gray-400 transition font-medium text-sm">
-        📊 Project Metrics
+      <router-link to="/metrics" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 rounded-xl hover:border-gray-900 hover:text-gray-900 transition">
+        Metrics
       </router-link>
     </div>
 
@@ -41,14 +43,14 @@
     <div class="mt-12 text-center">
       <p class="text-sm text-gray-400 mb-3">Have feedback, ideas or found a bug?</p>
       <div class="flex justify-center gap-3">
-        <a href="https://github.com/olcortesb/s3rv3rl3ss/issues/new" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
-          🐛 Open an Issue
+        <a href="https://github.com/olcortesb/s3rv3rl3ss/issues/new" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
+          <img src="/icons/github.svg" class="w-4 h-4" />
         </a>
-        <a href="https://x.com/olcortesb" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
-          🐦 @olcortesb
+        <a href="https://x.com/olcortesb" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
+          <img src="/icons/x.svg" class="w-4 h-4" />
         </a>
-        <a href="https://www.linkedin.com/in/oscarcortesbracho/" target="_blank" class="px-4 py-2 text-xs text-gray-600 border border-gray-200 rounded-lg hover:border-gray-400 transition">
-          💼 LinkedIn
+        <a href="https://www.linkedin.com/in/oscarcortesbracho/" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
+          <img src="/icons/linkedin.svg" class="w-4 h-4" />
         </a>
       </div>
     </div>
@@ -93,10 +95,10 @@ function serviceCount(id) {
 
 function cardClass(id) {
   return {
-    aws: 'border-orange-200 bg-orange-50/50 hover:border-orange-400 hover:shadow-lg hover:shadow-orange-100',
-    gcp: 'border-blue-200 bg-blue-50/50 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-100',
-    azure: 'border-purple-200 bg-purple-50/50 hover:border-purple-400 hover:shadow-lg hover:shadow-purple-100',
-    stackit: 'border-green-200 bg-green-50/50 hover:border-green-400 hover:shadow-lg hover:shadow-green-100',
+    aws: 'border-orange-100 bg-orange-50/30 hover:border-orange-200 hover:shadow-lg hover:shadow-orange-50',
+    gcp: 'border-blue-100 bg-blue-50/30 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50',
+    azure: 'border-purple-100 bg-purple-50/30 hover:border-purple-200 hover:shadow-lg hover:shadow-purple-50',
+    stackit: 'border-green-100 bg-green-50/30 hover:border-green-200 hover:shadow-lg hover:shadow-green-50',
   }[id]
 }
 </script>
