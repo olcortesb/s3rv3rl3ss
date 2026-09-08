@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.8.0...v1.8.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* change fetchMode to true ([4a7cb03](https://github.com/olcortesb/s3rv3rl3ss/commit/4a7cb03c9165b63b0f082e30415b910624d61099))
+
 # [1.8.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.7.0...v1.8.0) (2026-09-08)
 
 
