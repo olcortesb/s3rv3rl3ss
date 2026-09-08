@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.5.0...v1.5.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* change location of status links ([cf9703c](https://github.com/olcortesb/s3rv3rl3ss/commit/cf9703c815febee50f4366021a133f9f56e521a4))
+
 # [1.5.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.4.0...v1.5.0) (2026-09-08)
 
 
