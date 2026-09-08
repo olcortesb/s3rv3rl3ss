@@ -138,3 +138,23 @@ export async function getMetrics() {
   metricsCache = await fetchOrImport('metrics.json', () => import('../data/metrics.json'))
   return metricsCache
 }
+
+// Returns 'operational' | 'incident' | null (null = unknown/no CORS)
+export async function getProviderStatus(providerId) {
+  try {
+    if (providerId === 'gcp') {
+      const res = await fetch('https://status.cloud.google.com/incidents.json', { signal: AbortSignal.timeout(5000) })
+      const data = await res.json()
+      const active = data.filter(i => !i.end)
+      return active.length === 0 ? 'operational' : 'incident'
+    }
+    if (providerId === 'stackit') {
+      const res = await fetch('https://status.stackit.cloud/api/v2/status.json', { signal: AbortSignal.timeout(5000) })
+      const data = await res.json()
+      return data.status?.indicator === 'none' ? 'operational' : 'incident'
+    }
+  } catch {
+    // network error or timeout
+  }
+  return null
+}

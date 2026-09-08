@@ -25,7 +25,13 @@
         class="group block rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
         :class="cardClass(p.id)"
       >
-        <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" />
+        <div class="relative inline-block mb-4">
+          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block" />
+          <span v-if="status[p.id] !== undefined" class="absolute -top-1 -right-1 w-3 h-3 rounded-full border-2 border-white"
+            :class="status[p.id] === 'operational' ? 'bg-green-400' : status[p.id] === 'incident' ? 'bg-red-400' : 'bg-gray-300'"
+            :title="status[p.id] === 'operational' ? 'All systems operational' : status[p.id] === 'incident' ? 'Active incident' : 'Status unknown'"
+          />
+        </div>
         <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
         <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
       </router-link>
@@ -61,10 +67,11 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { providers, getProviderData } from '../data/index.js'
+import { providers, getProviderData, getProviderStatus } from '../data/index.js'
 import DataLoader from '../components/DataLoader.vue'
 
 const counts = ref({ aws: 0, gcp: 0, azure: 0, stackit: 0 })
+const status = ref({})
 const loading = ref(true)
 const error = ref(null)
 
@@ -80,6 +87,10 @@ async function load() {
     error.value = e.message || 'Failed to load data'
   } finally {
     loading.value = false
+  }
+  // Status en paralelo, no bloquea el render
+  for (const p of providers) {
+    getProviderStatus(p.id).then(s => { if (s !== null) status.value = { ...status.value, [p.id]: s } })
   }
 }
 
