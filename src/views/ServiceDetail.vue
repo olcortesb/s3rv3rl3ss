@@ -292,8 +292,12 @@ function copyForLinkedIn(news) {
 function shareOnLinkedIn(news) {
   const tag = props.provider.toUpperCase()
   const svcTag = service.value.name.replace(/\s+/g, '')
-  const svcUrl = `https://s3rv3rl3ss.olcortesb.com/${props.provider}/${props.id}`
-  const text = `🆕 ${news.title}\n\n🔗 Link in the first comment 👇\n\n#${tag} #${svcTag} #Serverless #CloudComputing #CloudNative #s3rv3rl3ss`
+  const PROVIDER_NAMES = { aws: 'AWS', gcp: 'Google Cloud', azure: 'Azure', stackit: 'STACKIT' }
+  const providerName = PROVIDER_NAMES[props.provider] || tag
+  const title = news.title.toLowerCase().includes(providerName.toLowerCase()) || news.title.toLowerCase().includes('aws')
+    ? `⚡ ${news.title}`
+    : `⚡ [${providerName}] ${news.title}`
+  const text = `${title}\n\n${news.url ? news.url + '\n\n' : ''}#${tag} #${svcTag} #Serverless #CloudComputing #CloudNative #s3rv3rl3ss`
   const url = `https://www.linkedin.com/sharing/share-offsite/?text=${encodeURIComponent(text)}`
   window.open(url, '_blank', 'width=600,height=500')
 }
