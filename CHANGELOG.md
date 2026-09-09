@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.8.1...v1.9.0) (2026-09-09)
+
+
+### Features
+
+* update shared linkedin format ([f7dcbc2](https://github.com/olcortesb/s3rv3rl3ss/commit/f7dcbc258bb1224bafa449492e0fcc4170432fc8))
+
 ## [1.8.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.8.0...v1.8.1) (2026-09-08)
 
 
