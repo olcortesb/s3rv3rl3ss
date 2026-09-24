@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.9.1...v1.10.0) (2026-09-24)
+
+
+### Features
+
+* localStorage cache 12h for CloudFront JSON requests ([313b350](https://github.com/olcortesb/s3rv3rl3ss/commit/313b35084781a5fa6964d1a7057bcb85877dd048))
+
 ## [1.9.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.9.0...v1.9.1) (2026-09-24)
 
 
