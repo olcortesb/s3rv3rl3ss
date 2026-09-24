@@ -4,6 +4,25 @@ export const providers = providersData.providers.filter(p => p.enabled)
 
 export const CLOUDFRONT_URL = 'https://d2p0oqeck3arvl.cloudfront.net'
 
+const CACHE_TTL_MS = 12 * 60 * 60 * 1000 // 12h
+const LS_PREFIX = 's3rv3rl3ss:'
+
+function lsGet(key) {
+  try {
+    const item = localStorage.getItem(LS_PREFIX + key)
+    if (!item) return null
+    const { data, ts } = JSON.parse(item)
+    if (Date.now() - ts > CACHE_TTL_MS) return null
+    return data
+  } catch { return null }
+}
+
+function lsSet(key, data) {
+  try {
+    localStorage.setItem(LS_PREFIX + key, JSON.stringify({ data, ts: Date.now() }))
+  } catch {} // quota exceeded — silencioso
+}
+
 const dataCache = {}
 const statsCache = {}
 const changelogCache = {}
@@ -23,14 +42,22 @@ async function getFetchMode() {
 }
 
 async function fetchOrImport(key, importFn) {
+  const cached = lsGet(key)
+  if (cached) return cached
+
   const useFetch = await getFetchMode()
+  let data
   if (useFetch) {
     const res = await fetch(`${CLOUDFRONT_URL}/data/${key}`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    return res.json()
+    data = await res.json()
+  } else {
+    const mod = await importFn()
+    data = mod.default
   }
-  const mod = await importFn()
-  return mod.default
+
+  lsSet(key, data)
+  return data
 }
 
 const DATA_FILES = {
