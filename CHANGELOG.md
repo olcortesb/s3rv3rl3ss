@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.9.0...v1.9.1) (2026-09-24)
+
+
+### Bug Fixes
+
+* svg observability ([52811bf](https://github.com/olcortesb/s3rv3rl3ss/commit/52811bf2f9a0038e0978a0db769d446d874fa861))
+
 # [1.9.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.8.1...v1.9.0) (2026-09-09)
 
 
