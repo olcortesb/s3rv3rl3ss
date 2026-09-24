@@ -2,7 +2,7 @@ import providersData from '../data/providers.json'
 
 export const providers = providersData.providers.filter(p => p.enabled)
 
-const CLOUDFRONT_URL = 'https://d2p0oqeck3arvl.cloudfront.net'
+export const CLOUDFRONT_URL = 'https://d2p0oqeck3arvl.cloudfront.net'
 
 const dataCache = {}
 const statsCache = {}

@@ -138,10 +138,9 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import DataLoader from '../components/DataLoader.vue'
+import { CLOUDFRONT_URL } from '../data/index.js'
 
 const REINVENT_START = new Date('2026-11-30T09:00:00-08:00')
-const CLOUDFRONT_URL = 'https://d2p0oqeck3arvl.cloudfront.net'
-
 const reinvent = ref(null)
 const loading = ref(true)
 const error = ref(null)
