@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.11.0...v1.12.0) (2026-09-29)
+
+
+### Features
+
+* add search in News History and Quota Changes sections ([ca5f238](https://github.com/olcortesb/s3rv3rl3ss/commit/ca5f2383e71b6ca003661e5234d5a1afe0f84163))
+
 # [1.11.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.10.0...v1.11.0) (2026-09-29)
 
 
