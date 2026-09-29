@@ -191,16 +191,23 @@
         <button @click="showNews = !showNews" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
           <span class="text-xs">{{ showNews ? '▼' : '▶' }}</span>
           📰 News History
-          <span class="text-xs font-normal text-gray-400">({{ newsHistory.length }})</span>
+          <span class="text-xs font-normal text-gray-400">({{ filteredNewsHistory.length }})</span>
         </button>
         <div v-show="showNews">
+          <input
+            v-model="newsHistorySearch"
+            type="text"
+            placeholder="Search news history..."
+            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          />
           <ul class="space-y-2">
-            <li v-for="(c, i) in newsHistory" :key="i" class="flex gap-3 text-sm">
+            <li v-for="(c, i) in filteredNewsHistory" :key="i" class="flex gap-3 text-sm">
               <span class="text-gray-400 shrink-0">{{ c.date }}</span>
               <a v-if="c.url" :href="c.url" target="_blank" class="text-orange-600 hover:underline">{{ c.detail }}</a>
               <span v-else class="text-gray-700">{{ c.detail }}</span>
             </li>
           </ul>
+          <p v-if="!filteredNewsHistory.length" class="text-sm text-gray-400 mt-2">No news match.</p>
         </div>
       </div>
 
@@ -209,16 +216,23 @@
         <button @click="showQuotaChanges = !showQuotaChanges" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
           <span class="text-xs">{{ showQuotaChanges ? '▼' : '▶' }}</span>
           📊 Quota Changes
-          <span class="text-xs font-normal text-gray-400">({{ quotaChanges.length }})</span>
+          <span class="text-xs font-normal text-gray-400">({{ filteredQuotaChanges.length }})</span>
         </button>
         <div v-show="showQuotaChanges">
+          <input
+            v-model="quotaChangesSearch"
+            type="text"
+            placeholder="Search quota changes..."
+            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          />
           <ul class="space-y-2">
-            <li v-for="(c, i) in quotaChanges" :key="i" class="flex gap-3 text-sm">
+            <li v-for="(c, i) in filteredQuotaChanges" :key="i" class="flex gap-3 text-sm">
               <span class="text-gray-400 shrink-0">{{ c.date }}</span>
               <span class="shrink-0">{{ typeIcon(c.type) }}</span>
               <span class="text-gray-700">{{ c.detail }}</span>
             </li>
           </ul>
+          <p v-if="!filteredQuotaChanges.length" class="text-sm text-gray-400 mt-2">No changes match.</p>
           <a :href="quotasUrl" target="_blank" class="inline-block mt-3 text-xs text-orange-500 hover:underline">View quotas ↗</a>
         </div>
       </div>
@@ -317,6 +331,8 @@ const showQuotaChanges = ref(false)
 const quotaSearch = ref('')
 const limitSearch = ref('')
 const newsSearch = ref('')
+const newsHistorySearch = ref('')
+const quotaChangesSearch = ref('')
 
 const newsHistory = computed(() =>
   changelog.value.filter(c => c.type === 'new_news' || c.type === 'service_added')
@@ -400,6 +416,30 @@ const filteredNews = computed(() =>
   newsSearch.value
     ? newsFuse.value.search(newsSearch.value).map(r => r.item)
     : mergedNews.value
+)
+
+const newsHistoryFuse = computed(() => new Fuse(newsHistory.value, {
+  keys: ['detail', 'date'],
+  threshold: 0.4,
+  ignoreLocation: true,
+}))
+
+const filteredNewsHistory = computed(() =>
+  newsHistorySearch.value
+    ? newsHistoryFuse.value.search(newsHistorySearch.value).map(r => r.item)
+    : newsHistory.value
+)
+
+const quotaChangesFuse = computed(() => new Fuse(quotaChanges.value, {
+  keys: ['detail', 'date'],
+  threshold: 0.4,
+  ignoreLocation: true,
+}))
+
+const filteredQuotaChanges = computed(() =>
+  quotaChangesSearch.value
+    ? quotaChangesFuse.value.search(quotaChangesSearch.value).map(r => r.item)
+    : quotaChanges.value
 )
 
 const quotaFuse = computed(() => new Fuse(apiQuotas.value, {
