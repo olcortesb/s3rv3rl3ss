@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.10.0...v1.11.0) (2026-09-29)
+
+
+### Bug Fixes
+
+* improve news search with ignoreLocation in ServiceDetail ([fbdf285](https://github.com/olcortesb/s3rv3rl3ss/commit/fbdf2854fc9ee4bd9dce8aa0dd148a4881d08abf))
+
+
+### Features
+
+* add news search in ServiceDetail ([6777829](https://github.com/olcortesb/s3rv3rl3ss/commit/6777829c2b1c0573f754a051370f0b51c1f2cadc))
+
 # [1.10.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.9.1...v1.10.0) (2026-09-24)
 
 
