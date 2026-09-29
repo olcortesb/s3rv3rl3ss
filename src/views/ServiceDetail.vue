@@ -392,7 +392,8 @@ const staticLimits = computed(() =>
 
 const newsFuse = computed(() => new Fuse(mergedNews.value, {
   keys: ['title', 'date'],
-  threshold: 0.3,
+  threshold: 0.4,
+  ignoreLocation: true,
 }))
 
 const filteredNews = computed(() =>
