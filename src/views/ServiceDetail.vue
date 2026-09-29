@@ -131,8 +131,14 @@
         <h2 class="font-semibold text-gray-900 mb-2">News
           <span class="text-xs font-normal text-gray-400 ml-1">via {{ newsSource }}</span>
         </h2>
+        <input
+          v-model="newsSearch"
+          type="text"
+          placeholder="Search news..."
+          class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+        />
         <ul class="space-y-2">
-          <li v-for="n in mergedNews" :key="n.title" class="flex gap-3 text-sm items-start">
+          <li v-for="n in filteredNews" :key="n.title" class="flex gap-3 text-sm items-start">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
             <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }}</a>
             <span v-else class="text-gray-700">{{ n.title }}</span>
@@ -147,6 +153,7 @@
             </div>
           </li>
         </ul>
+        <p v-if="!filteredNews.length" class="text-sm text-gray-400 mt-2">No news match.</p>
       </div>
 
       <!-- Pricing -->
@@ -309,6 +316,7 @@ const showNews = ref(false)
 const showQuotaChanges = ref(false)
 const quotaSearch = ref('')
 const limitSearch = ref('')
+const newsSearch = ref('')
 
 const newsHistory = computed(() =>
   changelog.value.filter(c => c.type === 'new_news' || c.type === 'service_added')
@@ -380,6 +388,17 @@ const apiQuotas = computed(() =>
 )
 const staticLimits = computed(() =>
   (service.value?.limits || []).filter(l => !l.description)
+)
+
+const newsFuse = computed(() => new Fuse(mergedNews.value, {
+  keys: ['title', 'date'],
+  threshold: 0.3,
+}))
+
+const filteredNews = computed(() =>
+  newsSearch.value
+    ? newsFuse.value.search(newsSearch.value).map(r => r.item)
+    : mergedNews.value
 )
 
 const quotaFuse = computed(() => new Fuse(apiQuotas.value, {
