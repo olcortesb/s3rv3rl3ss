@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.0...v1.13.1) (2026-09-30)
+
+
+### Bug Fixes
+
+* remove Statistics section, improve service search with exact match priority ([cd11e5a](https://github.com/olcortesb/s3rv3rl3ss/commit/cd11e5ae5fda36e8950ba928de05883528c34ddc))
+
 # [1.13.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.12.0...v1.13.0) (2026-09-30)
 
 
