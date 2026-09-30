@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.12.0...v1.13.0) (2026-09-30)
+
+
+### Features
+
+* add global Stats view with donut charts ([2adc8f3](https://github.com/olcortesb/s3rv3rl3ss/commit/2adc8f33e14d306cdeeb223dc7fa7b3f5352f188))
+
 # [1.12.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.11.0...v1.12.0) (2026-09-29)
 
 
