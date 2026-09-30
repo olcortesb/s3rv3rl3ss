@@ -6,6 +6,7 @@ import Compare from '../views/Compare.vue'
 import Metrics from '../views/Metrics.vue'
 import Tools from '../views/Tools.vue'
 import Reinvent from '../views/Reinvent.vue'
+import Stats from '../views/Stats.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -14,6 +15,7 @@ const router = createRouter({
     { path: '/compare', component: Compare },
     { path: '/compare/:category', component: Compare, props: true },
     { path: '/metrics', component: Metrics },
+    { path: '/stats', component: Stats },
     { path: '/tools', component: Tools },
     { path: '/reinvent', component: Reinvent },
     { path: '/:provider', component: ProviderServices, props: true },

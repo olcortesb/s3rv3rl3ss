@@ -34,6 +34,9 @@
       <router-link to="/compare" class="px-5 py-2.5 text-sm font-medium border border-gray-900 text-gray-900 rounded-xl hover:bg-gray-900 hover:text-white transition">
         Compare
       </router-link>
+      <router-link to="/stats" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 rounded-xl hover:border-gray-900 hover:text-gray-900 transition">
+        Stats
+      </router-link>
       <router-link to="/metrics" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 rounded-xl hover:border-gray-900 hover:text-gray-900 transition">
         Metrics
       </router-link>
