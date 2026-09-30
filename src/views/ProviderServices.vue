@@ -38,54 +38,7 @@
       </div>
     </div>
 
-    <!-- Statistics -->
-    <div v-if="stats.summary?.totalServices" class="mb-6">
-      <button @click="showStats = !showStats" class="flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-500 transition mb-3">
-        <span class="text-xs">{{ showStats ? '▼' : '▶' }}</span>
-        Statistics
-      </button>
-      <div v-show="showStats">
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-4">
-          <div class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ stats.summary.totalServices }}</div>
-            <div class="text-xs text-gray-500">Services</div>
-          </div>
-          <div class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ stats.summary.totalQuotas }}</div>
-            <div class="text-xs text-gray-500">Service Quotas</div>
-          </div>
-          <div class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ stats.summary.totalLimits }}</div>
-            <div class="text-xs text-gray-500">Limits</div>
-          </div>
-          <div class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ stats.summary.totalNews }}</div>
-            <div class="text-xs text-gray-500">News</div>
-          </div>
-          <div v-if="stats.summary.totalRuntimes" class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ stats.summary.activeRuntimes }}<span class="text-sm text-gray-400">/{{ stats.summary.totalRuntimes }}</span></div>
-            <div class="text-xs text-gray-500">Active Runtimes</div>
-          </div>
-          <div v-if="stats.topServices?.mostQuotas" class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-lg font-bold text-gray-900">{{ stats.topServices.mostQuotas.name }}</div>
-            <div class="text-xs text-gray-500">Most Quotas ({{ stats.topServices.mostQuotas.count }})</div>
-          </div>
-          <div v-if="stats.topServices?.mostNews" class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-lg font-bold text-gray-900">{{ stats.topServices.mostNews.name }}</div>
-            <div class="text-xs text-gray-500">Most News ({{ stats.topServices.mostNews.count }})</div>
-          </div>
-          <div v-if="stats.topServices?.mostLimits" class="bg-white rounded-lg border border-gray-100 p-4 text-center">
-            <div class="text-lg font-bold text-gray-900">{{ stats.topServices.mostLimits.name }}</div>
-            <div class="text-xs text-gray-500">Most Limits ({{ stats.topServices.mostLimits.count }})</div>
-          </div>
-        </div>
-        <div v-if="stats.byCategory?.length" class="flex flex-wrap gap-2 mb-2">
-          <span v-for="cat in stats.byCategory" :key="cat.category" class="px-3 py-1 rounded-full text-sm bg-gray-100 text-gray-600">
-            {{ cat.category }} ({{ cat.count }})
-          </span>
-        </div>
-      </div>
-    </div>
+    <!-- Statistics removed: moved to /stats -->
 
     <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center mb-6">
       <SearchBar v-model="search" />
@@ -111,7 +64,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import Fuse from 'fuse.js'
-import { getProviderData, getProvider, getStatistics } from '../data/index.js'
+import { getProviderData, getProvider } from '../data/index.js'
 import SearchBar from '../components/SearchBar.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import CategoryFilter from '../components/CategoryFilter.vue'
@@ -121,10 +74,8 @@ const props = defineProps({ provider: String })
 
 const providerInfo = getProvider(props.provider)
 const providerData = ref(null)
-const stats = ref({})
 const loading = ref(true)
 const error = ref(null)
-const showStats = ref(false)
 const search = ref('')
 const selectedCategory = ref('')
 const enabledServices = ref([])
@@ -136,12 +87,13 @@ async function load() {
   error.value = null
   try {
     providerData.value = await getProviderData(props.provider)
-    stats.value = await getStatistics(props.provider)
     enabledServices.value = providerData.value ? providerData.value.services.filter(s => s.enabled) : []
     categories.value = [...new Set(enabledServices.value.map(s => s.category))].sort()
     fuse = new Fuse(enabledServices.value, {
       keys: ['name', 'description', 'category', 'useCases'],
       threshold: 0.3,
+      ignoreLocation: true,
+      minMatchCharLength: 2,
     })
   } catch (e) {
     error.value = e.message || 'Failed to load data'
@@ -154,9 +106,18 @@ onMounted(load)
 
 const filtered = computed(() => {
   if (!enabledServices.value.length) return []
-  let results = search.value && fuse
-    ? fuse.search(search.value).map(r => r.item)
-    : enabledServices.value
+  let results
+  if (search.value && fuse) {
+    const q = search.value.toLowerCase()
+    const exact = enabledServices.value.filter(s =>
+      s.name.toLowerCase().includes(q) ||
+      s.id.toLowerCase().includes(q)
+    )
+    const fuzzy = fuse.search(search.value).map(r => r.item).filter(r => !exact.includes(r))
+    results = [...exact, ...fuzzy]
+  } else {
+    results = enabledServices.value
+  }
 
   if (selectedCategory.value) {
     results = results.filter(s => s.category === selectedCategory.value)
