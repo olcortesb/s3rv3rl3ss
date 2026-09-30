@@ -4,36 +4,39 @@
 
     <DataLoader :loading="loading" :error="error" @retry="load">
 
-    <div class="mb-8 text-center">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-3"><img :src="providerInfo.icon" :alt="providerInfo.name" class="w-8 h-8" /> {{ providerInfo.name }} s3rv3rl3ss</h1>
-      <p class="text-gray-500 mb-3">
+    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-8">
+      <div class="flex items-center justify-center gap-3 mb-3">
+        <img :src="providerInfo.icon" :alt="providerInfo.name" class="w-10 h-10 brightness-0 invert" />
+        <h1 class="text-3xl font-bold text-white">{{ providerInfo.name }}</h1>
+      </div>
+      <p class="text-gray-400 text-sm text-center mb-3">
         Runtimes, limits, quotas & news — updated daily
-        <span v-if="props.provider === 'aws' && providerData?.region" class="inline-block ml-2 px-2 py-0.5 text-xs font-medium bg-orange-100 text-orange-700 rounded-full">📍 {{ providerData.region }}</span>
+        <span v-if="props.provider === 'aws' && providerData?.region" class="inline-block ml-2 px-2 py-0.5 text-xs font-medium bg-orange-900 text-orange-300 rounded-full">📍 {{ providerData.region }}</span>
       </p>
-      <div class="flex flex-wrap justify-center gap-3 text-xs text-gray-400">
+      <div class="flex flex-wrap justify-center gap-3 text-xs text-gray-500">
         <template v-if="props.provider === 'aws'">
-          <span>📊 Quotas via <a href="https://docs.aws.amazon.com/servicequotas/2019-06-24/apireference/API_ListServiceQuotas.html" target="_blank" class="underline hover:text-orange-500">Service Quotas API</a></span>
-          <span>💰 Pricing via <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html" target="_blank" class="underline hover:text-orange-500">Price List API</a></span>
-          <span>📰 News via <a href="https://aws.amazon.com/about-aws/whats-new/recent/feed/" target="_blank" class="underline hover:text-orange-500">AWS What's New RSS</a></span>
-          <span>⚙️ Runtimes via <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html" target="_blank" class="underline hover:text-orange-500">AWS Docs</a></span>
+          <span>Quotas via <a href="https://docs.aws.amazon.com/servicequotas/2019-06-24/apireference/API_ListServiceQuotas.html" target="_blank" class="underline hover:text-orange-400">Service Quotas API</a></span>
+          <span>Pricing via <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html" target="_blank" class="underline hover:text-orange-400">Price List API</a></span>
+          <span>News via <a href="https://aws.amazon.com/about-aws/whats-new/recent/feed/" target="_blank" class="underline hover:text-orange-400">AWS What's New RSS</a></span>
+          <span>Runtimes via <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html" target="_blank" class="underline hover:text-orange-400">AWS Docs</a></span>
         </template>
         <template v-else-if="props.provider === 'gcp'">
-          <span>📊 Limits via static data (docs)</span>
-          <span>💰 Pricing via static data (docs)</span>
-          <span>📰 News via <a href="https://cloud.google.com/feeds/run-release-notes.xml" target="_blank" class="underline hover:text-orange-500">GCP Release Notes RSS</a></span>
-          <span>⚙️ Runtimes via static data (docs)</span>
+          <span>Limits via static data (docs)</span>
+          <span>Pricing via static data (docs)</span>
+          <span>News via <a href="https://cloud.google.com/feeds/run-release-notes.xml" target="_blank" class="underline hover:text-orange-400">GCP Release Notes RSS</a></span>
+          <span>Runtimes via static data (docs)</span>
         </template>
         <template v-else-if="props.provider === 'azure'">
-          <span>📊 Limits via static data (docs)</span>
-          <span>💰 Pricing via <a href="https://prices.azure.com/api/retail/prices" target="_blank" class="underline hover:text-orange-500">Azure Retail Prices API</a></span>
-          <span>📰 News via <a href="https://azure.microsoft.com/en-us/blog/feed/" target="_blank" class="underline hover:text-orange-500">Azure Blog</a>, <a href="https://azureweekly.info/rss.xml" target="_blank" class="underline hover:text-orange-500">Azure Weekly</a>, <a href="https://devblogs.microsoft.com/cosmosdb/feed/" target="_blank" class="underline hover:text-orange-500">CosmosDB Blog</a>, <a href="https://devblogs.microsoft.com/azure-sql/feed/" target="_blank" class="underline hover:text-orange-500">Azure SQL Blog</a></span>
-          <span>⚙️ Runtimes via static data (docs)</span>
+          <span>Limits via static data (docs)</span>
+          <span>Pricing via <a href="https://prices.azure.com/api/retail/prices" target="_blank" class="underline hover:text-orange-400">Azure Retail Prices API</a></span>
+          <span>News via <a href="https://azure.microsoft.com/en-us/blog/feed/" target="_blank" class="underline hover:text-orange-400">Azure Blog</a>, <a href="https://azureweekly.info/rss.xml" target="_blank" class="underline hover:text-orange-400">Azure Weekly</a></span>
+          <span>Runtimes via static data (docs)</span>
         </template>
         <template v-else-if="props.provider === 'stackit'">
-          <span>📊 Limits via static data (docs)</span>
-          <span>💰 Pricing via <a href="https://pim.api.stackit.cloud/v1/skus" target="_blank" class="underline hover:text-orange-500">STACKIT PIM API</a></span>
-          <span>📰 News via <a href="https://docs.stackit.cloud/release-notes/feed.xml" target="_blank" class="underline hover:text-orange-500">STACKIT Release Notes RSS</a></span>
-          <span>⚙️ Runtimes via static data (docs)</span>
+          <span>Limits via static data (docs)</span>
+          <span>Pricing via <a href="https://pim.api.stackit.cloud/v1/skus" target="_blank" class="underline hover:text-orange-400">STACKIT PIM API</a></span>
+          <span>News via <a href="https://docs.stackit.cloud/release-notes/feed.xml" target="_blank" class="underline hover:text-orange-400">STACKIT Release Notes RSS</a></span>
+          <span>Runtimes via static data (docs)</span>
         </template>
       </div>
     </div>

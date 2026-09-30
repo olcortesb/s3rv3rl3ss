@@ -7,43 +7,36 @@
         </router-link>
         <nav class="flex gap-2">
           <router-link
-            to="/tools"
-            :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path === '/tools'
-                ? 'bg-orange-500 text-white'
-                : 'text-gray-400 hover:text-white'
-            ]"
-          >
-            <img src="/icons/tools.svg" class="w-3.5 h-3.5 brightness-0 invert" /> Tools
-          </router-link>
-          <router-link
-            to="/reinvent"
-            :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path === '/reinvent'
-                ? 'bg-orange-500 text-white'
-                : 'text-gray-400 hover:text-white'
-            ]"
-          >
-            <img src="/icons/reinvent.svg" class="w-3.5 h-3.5 brightness-0 invert" /> re:Invent
-          </router-link>
-          <router-link
             v-for="p in providers"
             :key="p.id"
             :to="`/${p.id}`"
             :class="[
               'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path.startsWith(`/${p.id}`)
-                ? 'bg-orange-500 text-white'
-                : 'text-gray-400 hover:text-white'
+              $route.path.startsWith(`/${p.id}`) ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
             ]"
           >
-            <img
-              :src="p.icon" :alt="p.name"
-              class="w-4 h-4"
-              :class="'brightness-0 invert'"
-            /> {{ p.name }}
+            <img :src="p.icon" :alt="p.name" class="w-4 h-4 brightness-0 invert" />
+            <span class="hidden md:inline">{{ p.name }}</span>
+          </router-link>
+          <router-link
+            to="/reinvent"
+            :class="[
+              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
+              $route.path === '/reinvent' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
+            ]"
+          >
+            <img src="/icons/reinvent.svg" class="w-3.5 h-3.5 brightness-0 invert" />
+            <span class="hidden sm:inline">re:Invent</span>
+          </router-link>
+          <router-link
+            to="/tools"
+            :class="[
+              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
+              $route.path === '/tools' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
+            ]"
+          >
+            <img src="/icons/tools.svg" class="w-3.5 h-3.5 brightness-0 invert" />
+            <span class="hidden sm:inline">Tools</span>
           </router-link>
         </nav>
       </div>

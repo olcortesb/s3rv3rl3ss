@@ -8,7 +8,7 @@
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-4">
       <div v-for="p in providers" :key="p.id" class="flex flex-col items-center">
         <router-link
           :to="`/${p.id}`"
@@ -28,6 +28,19 @@
           status
         </a>
       </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-6 max-w-5xl mx-auto mb-4">
+      <router-link to="/reinvent" class="group block rounded-2xl border-2 border-gray-100 bg-gray-50/30 hover:border-gray-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
+        <img src="/icons/reinvent.svg" alt="re:Invent" class="w-10 h-10 block mb-3 mx-auto" />
+        <h2 class="text-lg font-bold text-gray-900 mb-1">re:Invent 2026</h2>
+        <p class="text-sm text-gray-400">Nov 30 – Dec 4, Las Vegas</p>
+      </router-link>
+      <router-link to="/tools" class="group block rounded-2xl border-2 border-gray-100 bg-gray-50/30 hover:border-gray-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
+        <img src="/icons/tools.svg" alt="Tools" class="w-10 h-10 block mb-3 mx-auto" />
+        <h2 class="text-lg font-bold text-gray-900 mb-1">Tools</h2>
+        <p class="text-sm text-gray-400">Local AWS emulators</p>
+      </router-link>
     </div>
 
     <div class="flex justify-center gap-4 mt-10">

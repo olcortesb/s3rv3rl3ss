@@ -3,31 +3,24 @@
     <router-link :to="`/${provider}`" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Back</router-link>
     <DataLoader :loading="loading" :error="error" @retry="load">
 
-    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 max-w-3xl">
-      <div class="flex items-center gap-3 mb-4">
-        <img :src="iconUrl" :alt="service.name" class="w-12 h-12" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
+    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-6 max-w-3xl">
+      <div class="flex items-center gap-4 mb-3">
+        <img :src="iconUrl" :alt="service.name" class="w-12 h-12" :class="props.provider === 'stackit' ? 'brightness-0 invert' : ''" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
         <span class="text-4xl" style="display:none">{{ service.icon }}</span>
         <div>
-          <h1 class="text-2xl font-bold text-gray-900">{{ service.name }}</h1>
-          <span class="text-xs font-medium px-2 py-1 rounded-full bg-gray-100 text-gray-600">
-            {{ service.category }}
-          </span>
-          <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-1 rounded-full bg-yellow-100 text-yellow-700 ml-1" title="Some data sources were unavailable">
-            Partial data
-          </span>
+          <h1 class="text-2xl font-bold text-white">{{ service.name }}</h1>
+          <div class="flex gap-2 mt-1">
+            <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-700 text-gray-300">{{ service.category }}</span>
+            <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-0.5 rounded-full bg-yellow-900 text-yellow-300">Partial data</span>
+          </div>
         </div>
       </div>
+      <p class="text-gray-400 text-sm">{{ service.description }}</p>
+    </div>
 
-      <p class="text-gray-700 mb-6">{{ service.description }}</p>
+    <div v-if="service.runtimes" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
 
-      <h2 class="font-semibold text-gray-900 mb-2">Use Cases</h2>
-      <div class="flex flex-wrap gap-2 mb-6">
-        <span v-for="uc in service.useCases" :key="uc" class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-          {{ uc }}
-        </span>
-      </div>
-
-      <div v-if="service.runtimes" class="mb-6">
+      <div class="mb-2">
         <button @click="showRuntimes = !showRuntimes" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
           <span class="text-xs">{{ showRuntimes ? '▼' : '▶' }}</span>
           Runtime Support
@@ -48,6 +41,10 @@
           </span>
         </div>
       </div>
+    </div>
+
+    <!-- Quotas + Limits card -->
+    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
 
       <!-- Service Quotas (from API, with description) -->
       <div v-if="apiQuotas.length" class="mb-6">
@@ -108,29 +105,25 @@
           <p v-if="!filteredLimits.length" class="text-sm text-gray-400 mt-2">No limits match.</p>
         </div>
       </div>
+    </div>
 
-      <!-- Integrations -->
-      <div v-if="service.integrations" class="mb-6">
-        <div v-for="group in service.integrations" :key="group.label" class="mb-4">
-          <h2 class="font-semibold text-gray-900 mb-1">{{ group.label }}
-            <span v-if="group.description" class="text-xs font-normal text-gray-400 ml-1">{{ group.description }}</span>
-          </h2>
-          <div class="flex flex-wrap gap-2">
-            <span
-              v-for="item in group.items"
-              :key="item.id"
-              class="px-3 py-1 rounded-full text-sm bg-purple-50 text-purple-700"
-            >
-              {{ item.name }}
-            </span>
-          </div>
+    <!-- Integrations card -->
+    <div v-if="service.integrations" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+      <div v-for="group in service.integrations" :key="group.label" class="mb-4 last:mb-0">
+        <h2 class="font-semibold text-gray-900 mb-1">{{ group.label }}
+          <span v-if="group.description" class="text-xs font-normal text-gray-400 ml-1">{{ group.description }}</span>
+        </h2>
+        <div class="flex flex-wrap gap-2">
+          <span v-for="item in group.items" :key="item.id" class="px-3 py-1 rounded-full text-sm bg-purple-50 text-purple-700">{{ item.name }}</span>
         </div>
       </div>
+    </div>
 
-      <div v-if="mergedNews.length" class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">News
-          <span class="text-xs font-normal text-gray-400 ml-1">via {{ newsSource }}</span>
-        </h2>
+    <!-- News card -->
+    <div v-if="mergedNews.length" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+      <h2 class="font-semibold text-gray-900 mb-2">News
+        <span class="text-xs font-normal text-gray-400 ml-1">via {{ newsSource }}</span>
+      </h2>
         <input
           v-model="newsSearch"
           type="text"
@@ -154,13 +147,13 @@
           </li>
         </ul>
         <p v-if="!filteredNews.length" class="text-sm text-gray-400 mt-2">No news match.</p>
-      </div>
+    </div>
 
-      <!-- Pricing -->
-      <div class="mb-6">
-        <h2 class="font-semibold text-gray-900 mb-2">Pricing
-          <span class="text-xs font-normal text-gray-400 ml-1">{{ pricingSubtitle }}</span>
-        </h2>
+    <!-- Pricing card -->
+    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+      <h2 class="font-semibold text-gray-900 mb-2">Pricing
+        <span class="text-xs font-normal text-gray-400 ml-1">{{ pricingSubtitle }}</span>
+      </h2>
         <p class="text-gray-600 text-sm mb-3">{{ service.pricing }}</p>
         <div v-if="service.pricingDetails" class="bg-gray-50 rounded-lg p-3 mb-3">
           <table class="w-full text-sm">
@@ -184,7 +177,10 @@
           <a v-if="service.pricingUrl" :href="service.pricingUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">Full pricing details ↗</a>
           <a :href="calculatorUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">{{ calculatorLabel }} ↗</a>
         </div>
-      </div>
+    </div>
+
+    <!-- History card -->
+    <div v-if="newsHistory.length || quotaChanges.length" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
 
       <!-- News History -->
       <div v-if="newsHistory.length" class="mb-6">
@@ -236,7 +232,6 @@
           <a :href="quotasUrl" target="_blank" class="inline-block mt-3 text-xs text-orange-500 hover:underline">View quotas ↗</a>
         </div>
       </div>
-
       <a :href="service.url" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition text-sm">
         View on {{ provider.toUpperCase() }} →
       </a>
