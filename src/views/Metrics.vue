@@ -2,19 +2,19 @@
   <div>
     <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
-    <div class="mb-8 text-center">
-      <h1 class="text-2xl font-bold text-gray-900 mb-2">📊 Project Metrics</h1>
-      <p class="text-gray-500 text-sm">Real infrastructure costs and usage — this project runs on serverless</p>
-      <p v-if="metrics" class="text-xs text-gray-400 mt-1">Last updated: {{ metrics.lastUpdated }}</p>
+    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-8 text-center">
+      <h1 class="text-2xl font-bold text-white mb-1">Project Metrics</h1>
+      <p class="text-gray-400 text-sm">Real infrastructure costs and usage — this project runs on serverless</p>
+      <p v-if="metrics" class="text-xs text-gray-500 mt-3">Last updated: {{ metrics.lastUpdated }}</p>
     </div>
 
     <DataLoader :loading="loading" :error="error" @retry="load">
     <div>
       <!-- Cost card -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
-        <h2 class="font-semibold text-gray-900 mb-4">💰 Monthly Cost</h2>
+        <h2 class="font-semibold text-gray-900 mb-4">Monthly Cost</h2>
         <div class="text-center mb-4">
-          <span class="text-4xl font-bold text-green-600">{{ metrics.cost.monthly.total }}</span>
+          <span class="text-4xl font-bold text-orange-500">{{ metrics.cost.monthly.total }}</span>
           <span class="text-gray-400 text-sm block mt-1">{{ metrics.cost.note }}</span>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -26,24 +26,24 @@
       </div>
 
       <!-- Infrastructure -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
-        <h2 class="font-semibold text-gray-900 mb-4">🏗️ Infrastructure</h2>
+      <div class="bg-gray-900 rounded-2xl p-6 mb-6">
+        <h2 class="font-semibold text-white mb-4">Infrastructure</h2>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.lambdaFunctions }}</div>
-            <div class="text-xs text-gray-500">Lambda Functions</div>
+            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.lambdaFunctions }}</div>
+            <div class="text-xs text-gray-400">Lambda Functions</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.architecture }}</div>
-            <div class="text-xs text-gray-500">Architecture</div>
+            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.architecture }}</div>
+            <div class="text-xs text-gray-400">Architecture</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ formatNumber(metrics.infrastructure.dynamodbItems) }}</div>
-            <div class="text-xs text-gray-500">DynamoDB Items</div>
+            <div class="text-2xl font-bold text-orange-400">{{ formatNumber(metrics.infrastructure.dynamodbItems) }}</div>
+            <div class="text-xs text-gray-400">DynamoDB Items</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.s3Objects }}</div>
-            <div class="text-xs text-gray-500">S3 Objects</div>
+            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.s3Objects }}</div>
+            <div class="text-xs text-gray-400">S3 Objects</div>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
       <!-- Today -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">⚡ Today <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
+          <h2 class="font-semibold text-gray-900 mb-4">Today <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
               <div class="text-2xl font-bold text-gray-900">{{ metrics.today.invocations }}</div>
@@ -79,7 +79,7 @@
 
         <!-- Month -->
         <div class="bg-white rounded-2xl border border-gray-100 p-6">
-          <h2 class="font-semibold text-gray-900 mb-4">📅 This Month <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
+          <h2 class="font-semibold text-gray-900 mb-4">This Month <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
               <div class="text-2xl font-bold text-gray-900">{{ metrics.month.invocations }}</div>
@@ -108,7 +108,7 @@
 
       <!-- Tech stack -->
       <div class="bg-white rounded-2xl border border-gray-100 p-6">
-        <h2 class="font-semibold text-gray-900 mb-4">🛠️ Tech Stack</h2>
+        <h2 class="font-semibold text-gray-900 mb-4">Tech Stack</h2>
         <div class="flex flex-wrap gap-2">
           <span v-for="tech in techStack" :key="tech" class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">{{ tech }}</span>
         </div>
