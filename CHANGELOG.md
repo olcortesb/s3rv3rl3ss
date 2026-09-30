@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.1...v1.13.2) (2026-09-30)
+
+
+### Bug Fixes
+
+* reorder nav header and responsive text ([e66bc61](https://github.com/olcortesb/s3rv3rl3ss/commit/e66bc6154e7f2549ea73b8686124243d5123dc8a))
+
 ## [1.13.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.0...v1.13.1) (2026-09-30)
 
 
