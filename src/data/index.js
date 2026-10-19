@@ -166,6 +166,13 @@ export async function getMetrics() {
   return metricsCache
 }
 
+let visitsCache = null
+export async function getVisits() {
+  if (visitsCache) return visitsCache
+  visitsCache = await fetchOrImport('visits.json', () => ({ total: 0, yesterday: 0, last_30_days: [], updated_at: '' }))
+  return visitsCache
+}
+
 // Returns 'operational' | 'incident' | null (null = unknown/no CORS)
 export async function getProviderStatus(providerId) {
   try {

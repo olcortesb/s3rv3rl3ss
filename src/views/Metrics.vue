@@ -113,19 +113,57 @@
           <span v-for="tech in techStack" :key="tech" class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">{{ tech }}</span>
         </div>
       </div>
+
+      <!-- Site Visits -->
+      <div v-if="visits" class="bg-gray-900 rounded-2xl p-6 mt-6">
+        <h2 class="font-semibold text-white mb-4">Site Visits</h2>
+        <div class="grid grid-cols-2 gap-6 mb-6">
+          <div class="text-center">
+            <div class="text-3xl font-bold text-orange-400">{{ formatNumber(visits.total) }}</div>
+            <div class="text-xs text-gray-400 mt-1">Total visits</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-bold text-orange-400">{{ formatNumber(visits.yesterday) }}</div>
+            <div class="text-xs text-gray-400 mt-1">Yesterday</div>
+          </div>
+        </div>
+        <div v-if="visits.last_30_days && visits.last_30_days.length">
+          <div class="text-xs text-gray-400 mb-3">Last 30 days</div>
+          <div class="flex items-end gap-0.5 h-16">
+            <div
+              v-for="day in visits.last_30_days"
+              :key="day.date"
+              :title="`${day.date}: ${day.visits} visits`"
+              class="flex-1 bg-orange-500 rounded-sm opacity-80 hover:opacity-100 transition-opacity"
+              :style="{ height: maxVisits > 0 ? `${Math.max(4, (day.visits / maxVisits) * 100)}%` : '4%' }"
+            />
+          </div>
+          <div class="flex justify-between text-xs text-gray-500 mt-1">
+            <span>{{ visits.last_30_days[0]?.date }}</span>
+            <span>{{ visits.last_30_days[visits.last_30_days.length - 1]?.date }}</span>
+          </div>
+        </div>
+        <p class="text-xs text-gray-500 mt-4">Updated: {{ visits.updated_at }} · Bots filtered · Data from CloudFront logs</p>
+      </div>
     </div>
     </DataLoader>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import DataLoader from '../components/DataLoader.vue'
-import { getMetrics } from '../data/index.js'
+import { getMetrics, getVisits } from '../data/index.js'
 
 const metrics = ref(null)
+const visits = ref(null)
 const loading = ref(true)
 const error = ref(null)
+
+const maxVisits = computed(() => {
+  if (!visits.value?.last_30_days?.length) return 0
+  return Math.max(...visits.value.last_30_days.map(d => d.visits))
+})
 
 const techStack = [
   'AWS Lambda (arm64)',
@@ -145,6 +183,7 @@ async function load() {
   error.value = null
   try {
     metrics.value = await getMetrics()
+    visits.value = await getVisits()
   } catch (e) {
     error.value = e.message || 'Failed to load metrics'
   } finally {
