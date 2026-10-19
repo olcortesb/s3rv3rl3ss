@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.14.0...v1.15.0) (2026-10-19)
+
+
+### Features
+
+* add tooltip to visits chart ([bd2d49f](https://github.com/olcortesb/s3rv3rl3ss/commit/bd2d49f44aa20e8e19c53a1142fb77b8d959d5e2))
+
 # [1.14.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.2...v1.14.0) (2026-10-19)
 
 
