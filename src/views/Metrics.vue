@@ -133,10 +133,20 @@
             <div
               v-for="day in visits.last_30_days"
               :key="day.date"
-              :title="`${day.date}: ${day.visits} visits`"
-              class="flex-1 bg-orange-500 rounded-sm opacity-80 hover:opacity-100 transition-opacity"
-              :style="{ height: maxVisits > 0 ? `${Math.max(4, (day.visits / maxVisits) * 100)}%` : '4%' }"
-            />
+              class="relative flex-1 group"
+              style="height: 100%"
+            >
+              <div
+                class="absolute bottom-0 w-full bg-orange-500 rounded-sm opacity-80 group-hover:opacity-100 transition-opacity"
+                :style="{ height: maxVisits > 0 ? `${Math.max(4, (day.visits / maxVisits) * 100)}%` : '4%' }"
+              />
+              <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 hidden group-hover:block z-10 pointer-events-none">
+                <div class="bg-white text-gray-900 text-xs rounded px-2 py-1 whitespace-nowrap shadow">
+                  <div class="font-semibold">{{ day.visits }}</div>
+                  <div class="text-gray-400">{{ day.date }}</div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="flex justify-between text-xs text-gray-500 mt-1">
             <span>{{ visits.last_30_days[0]?.date }}</span>
