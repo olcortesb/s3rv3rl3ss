@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.2...v1.14.0) (2026-10-19)
+
+
+### Features
+
+* add visits counter widget to metrics ([0831951](https://github.com/olcortesb/s3rv3rl3ss/commit/08319518eeff595ad8be4b2e5dd6fab25cc50aa4))
+
 ## [1.13.2](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.13.1...v1.13.2) (2026-09-30)
 
 
