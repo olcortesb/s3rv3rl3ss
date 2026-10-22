@@ -173,6 +173,13 @@ export async function getVisits() {
   return visitsCache
 }
 
+let securityCache = null
+export async function getSecurityNews() {
+  if (securityCache) return securityCache
+  securityCache = await fetchOrImport('security.json', () => ({ bulletins: [], updated_at: '' }))
+  return securityCache
+}
+
 // Returns 'operational' | 'incident' | null (null = unknown/no CORS)
 export async function getProviderStatus(providerId) {
   try {

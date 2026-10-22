@@ -7,6 +7,7 @@ import Metrics from '../views/Metrics.vue'
 import Tools from '../views/Tools.vue'
 import Reinvent from '../views/Reinvent.vue'
 import Stats from '../views/Stats.vue'
+import Security from '../views/Security.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -18,6 +19,7 @@ const router = createRouter({
     { path: '/stats', component: Stats },
     { path: '/tools', component: Tools },
     { path: '/reinvent', component: Reinvent },
+    { path: '/security', component: Security },
     { path: '/:provider', component: ProviderServices, props: true },
     { path: '/:provider/:id', component: ServiceDetail, props: true },
   ],

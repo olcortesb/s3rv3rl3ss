@@ -30,7 +30,12 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-2 gap-6 max-w-5xl mx-auto mb-4">
+    <div class="grid grid-cols-3 gap-6 max-w-5xl mx-auto mb-4">
+      <router-link to="/security" class="group block rounded-2xl border-2 border-red-100 bg-red-50/30 hover:border-red-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
+        <svg class="w-10 h-10 block mb-3 mx-auto text-red-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        <h2 class="text-lg font-bold text-gray-900 mb-1">Security</h2>
+        <p class="text-sm text-gray-400">AWS Security Bulletins</p>
+      </router-link>
       <router-link to="/reinvent" class="group block rounded-2xl border-2 border-gray-100 bg-gray-50/30 hover:border-gray-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
         <img src="/icons/reinvent.svg" alt="re:Invent" class="w-10 h-10 block mb-3 mx-auto" />
         <h2 class="text-lg font-bold text-gray-900 mb-1">re:Invent 2026</h2>

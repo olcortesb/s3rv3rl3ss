@@ -19,6 +19,16 @@
             <span class="hidden md:inline">{{ p.name }}</span>
           </router-link>
           <router-link
+            to="/security"
+            :class="[
+              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
+              $route.path === '/security' ? 'bg-red-500 text-white' : 'text-gray-400 hover:text-white'
+            ]"
+          >
+            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            <span class="hidden sm:inline">Security</span>
+          </router-link>
+          <router-link
             to="/reinvent"
             :class="[
               'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
