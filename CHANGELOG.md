@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.15.0...v1.16.0) (2026-10-22)
+
+
+### Features
+
+* security bulletins page ([6b7bf1b](https://github.com/olcortesb/s3rv3rl3ss/commit/6b7bf1b7a5e502c3d33e7b6caed99818b110ae62))
+
 # [1.15.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.14.0...v1.15.0) (2026-10-19)
 
 
