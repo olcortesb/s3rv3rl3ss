@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.16.0...v1.17.0) (2026-10-23)
+
+
+### Features
+
+* share buttons on security bulletins ([bc6455a](https://github.com/olcortesb/s3rv3rl3ss/commit/bc6455a65e85993dd4b8f5e72379e91b2ff76cca))
+
 # [1.16.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.15.0...v1.16.0) (2026-10-22)
 
 
