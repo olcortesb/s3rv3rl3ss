@@ -7,40 +7,72 @@
             <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/>
           </svg>
           <div>
-            <h1 class="text-2xl font-bold text-white">AWS Security Bulletins</h1>
-            <p class="text-gray-400 text-sm mt-1">Security advisories and vulnerability disclosures from AWS</p>
+            <h1 class="text-2xl font-bold text-white">Security Bulletins</h1>
+            <p class="text-gray-400 text-sm mt-1">Security advisories and incidents from AWS and GCP</p>
           </div>
         </div>
-        <a href="https://aws.amazon.com/security/security-bulletins/" target="_blank"
-          class="text-xs text-gray-400 hover:text-red-400 transition">
-          aws.amazon.com/security/security-bulletins ↗
-        </a>
+        <div class="flex flex-wrap gap-3 text-xs text-gray-400">
+          <a href="https://aws.amazon.com/security/security-bulletins/" target="_blank" class="hover:text-red-400 transition">
+            aws.amazon.com/security/security-bulletins ↗
+          </a>
+          <span class="text-gray-600">·</span>
+          <a href="https://docs.cloud.google.com/support/bulletins" target="_blank" class="hover:text-blue-400 transition">
+            cloud.google.com/support/bulletins ↗
+          </a>
+          <span class="text-gray-600">·</span>
+          <a href="https://status.cloud.google.com" target="_blank" class="hover:text-blue-400 transition">
+            status.cloud.google.com ↗
+          </a>
+        </div>
       </div>
 
       <div class="bg-white rounded-2xl border border-gray-100 p-6">
-        <div class="flex items-center justify-between mb-4">
-          <h2 class="font-semibold text-gray-900">
-            Bulletins
-            <span class="text-xs font-normal text-gray-400 ml-1">({{ filteredBulletins.length }})</span>
-          </h2>
-          <span class="text-xs text-gray-400">Updated: {{ news.updated_at?.slice(0, 10) || '—' }}</span>
+        <!-- Tabs -->
+        <div class="flex gap-1 mb-5 border-b border-gray-100 pb-4">
+          <button
+            v-for="tab in tabs" :key="tab.id"
+            @click="activeTab = tab.id"
+            :class="['px-3 py-1.5 rounded-lg text-sm font-medium transition', activeTab === tab.id ? tab.activeClass : 'text-gray-500 hover:text-gray-700 hover:bg-gray-50']"
+          >
+            {{ tab.label }}
+            <span class="ml-1 text-xs opacity-70">({{ tabCount(tab.id) }})</span>
+          </button>
         </div>
 
-        <input
-          v-model="search"
-          type="text"
-          placeholder="Search bulletins..."
-          class="w-full mb-4 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-red-400"
-        />
+        <div class="flex items-center justify-between mb-4">
+          <input
+            v-model="search"
+            type="text"
+            placeholder="Search bulletins..."
+            class="flex-1 mr-4 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-red-400"
+          />
+          <span class="text-xs text-gray-400 shrink-0">Updated: {{ news.updated_at?.slice(0, 10) || '—' }}</span>
+        </div>
 
         <ul class="space-y-3">
-          <li v-for="b in filteredBulletins" :key="b.title" class="flex gap-3 text-sm items-start border-b border-gray-100 pb-3 last:border-0 last:pb-0">
+          <li v-for="b in filteredBulletins" :key="b.title + b.date" class="flex gap-3 text-sm items-start border-b border-gray-100 pb-3 last:border-0 last:pb-0">
             <span class="text-gray-400 shrink-0 font-mono">{{ b.date }}</span>
             <div class="flex-1 min-w-0">
               <div class="flex items-center gap-2 flex-wrap">
-                <span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium bg-red-50 text-red-600 shrink-0">
+                <!-- Provider badge -->
+                <span v-if="b.provider === 'aws'" class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium bg-orange-50 text-orange-600 shrink-0">
+                  AWS
+                </span>
+                <span v-else-if="b.provider === 'gcp'" class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-600 shrink-0">
+                  GCP
+                </span>
+                <!-- Tag badge -->
+                <span :class="tagClass(b.tag)" class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-xs font-medium shrink-0">
                   <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
-                  Security
+                  {{ b.tag === 'incident' ? 'Incident' : 'Security' }}
+                </span>
+                <!-- Severity badge -->
+                <span v-if="b.severity" :class="severityClass(b.severity)" class="px-1.5 py-0.5 rounded text-xs font-medium shrink-0">
+                  {{ b.severity }}
+                </span>
+                <!-- Active incident indicator -->
+                <span v-if="b.status === true" class="px-1.5 py-0.5 rounded text-xs font-medium bg-red-100 text-red-700 shrink-0 animate-pulse">
+                  Active
                 </span>
                 <a v-if="b.url" :href="b.url" target="_blank"
                   class="text-gray-700 hover:text-red-500 underline decoration-gray-300 hover:decoration-red-400 transition break-words">
@@ -75,6 +107,15 @@ const news = ref({ bulletins: [], updated_at: '' })
 const loading = ref(true)
 const error = ref(null)
 const search = ref('')
+const activeTab = ref('all')
+const copiedId = ref(null)
+
+const tabs = [
+  { id: 'all',      label: 'All',      activeClass: 'bg-gray-900 text-white' },
+  { id: 'aws',      label: 'AWS',      activeClass: 'bg-orange-100 text-orange-700' },
+  { id: 'gcp',      label: 'GCP',      activeClass: 'bg-blue-100 text-blue-700' },
+  { id: 'incident', label: 'Incidents', activeClass: 'bg-red-100 text-red-700' },
+]
 
 async function load() {
   loading.value = true
@@ -94,26 +135,50 @@ async function load() {
 
 onMounted(load)
 
-const copiedId = ref(null)
+function tabCount(tabId) {
+  const all = news.value.bulletins || []
+  if (tabId === 'all') return all.length
+  if (tabId === 'incident') return all.filter(b => b.tag === 'incident').length
+  return all.filter(b => b.provider === tabId).length
+}
 
-function copyForX(bulletin) {
-  const text = `🔒 ${bulletin.title}\n\n${bulletin.url || ''}\n\n#AWS #Security #CloudSecurity #s3rv3rl3ss`
+function tagClass(tag) {
+  return tag === 'incident'
+    ? 'bg-yellow-50 text-yellow-700'
+    : 'bg-red-50 text-red-600'
+}
+
+function severityClass(severity) {
+  const s = (severity || '').toLowerCase()
+  if (s === 'high' || s === 'alta' || s === 'critical') return 'bg-red-100 text-red-700'
+  if (s === 'medium' || s === 'media') return 'bg-yellow-100 text-yellow-700'
+  return 'bg-gray-100 text-gray-600'
+}
+
+function copyForX(b) {
+  const provider = b.provider?.toUpperCase() || 'Cloud'
+  const text = `🔒 [${provider} Security] ${b.title}\n\n${b.url || ''}\n\n#${provider} #Security #CloudSecurity #s3rv3rl3ss`
   navigator.clipboard.writeText(text)
-  copiedId.value = bulletin.title
+  copiedId.value = b.title
   setTimeout(() => { copiedId.value = null }, 2000)
 }
 
-function shareOnLinkedIn(bulletin) {
-  const text = `🔒 [AWS Security] ${bulletin.title}\n\n${bulletin.url ? bulletin.url + '\n\n' : ''}#AWS #Security #CloudSecurity #s3rv3rl3ss`
+function shareOnLinkedIn(b) {
+  const provider = b.provider?.toUpperCase() || 'Cloud'
+  const text = `🔒 [${provider} Security] ${b.title}\n\n${b.url ? b.url + '\n\n' : ''}#${provider} #Security #CloudSecurity #s3rv3rl3ss`
   const url = `https://www.linkedin.com/sharing/share-offsite/?text=${encodeURIComponent(text)}`
   window.open(url, '_blank', 'width=600,height=500')
 }
 
 const filteredBulletins = computed(() => {
+  let items = news.value.bulletins || []
+  if (activeTab.value === 'incident') {
+    items = items.filter(b => b.tag === 'incident')
+  } else if (activeTab.value !== 'all') {
+    items = items.filter(b => b.provider === activeTab.value)
+  }
   const q = search.value.toLowerCase()
-  if (!q) return news.value.bulletins || []
-  return (news.value.bulletins || []).filter(b =>
-    b.title.toLowerCase().includes(q) || b.date.includes(q)
-  )
+  if (!q) return items
+  return items.filter(b => b.title.toLowerCase().includes(q) || b.date.includes(q))
 })
 </script>
