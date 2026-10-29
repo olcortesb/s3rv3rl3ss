@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.17.0...v1.18.0) (2026-10-29)
+
+
+### Features
+
+* **security:** add GCP bulletins and incidents to /security view ([2ce9216](https://github.com/olcortesb/s3rv3rl3ss/commit/2ce921675455b06803d1ce8623782d296d7d6742))
+
 # [1.17.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.16.0...v1.17.0) (2026-10-23)
 
 
