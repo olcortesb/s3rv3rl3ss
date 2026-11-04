@@ -80,6 +80,7 @@
                 </a>
                 <span v-else class="text-gray-700">{{ b.title }}</span>
               </div>
+              <p v-if="b.description" class="text-xs text-gray-500 mt-1">{{ b.description }}</p>
             </div>
             <div class="shrink-0 flex gap-1">
               <button @click="copyForX(b)" :title="copiedId === b.title ? 'Copied!' : 'Copy post for X'" class="text-gray-400 hover:text-gray-700 transition">
