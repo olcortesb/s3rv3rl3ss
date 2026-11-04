@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.18.0...v1.19.0) (2026-11-04)
+
+
+### Features
+
+* **security:** show bulletin description ([70131a6](https://github.com/olcortesb/s3rv3rl3ss/commit/70131a68ce9bcea561f6de3d58191d6f8f00b71d))
+
 # [1.18.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.17.0...v1.18.0) (2026-10-29)
 
 
