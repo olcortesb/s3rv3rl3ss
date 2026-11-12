@@ -176,7 +176,7 @@ export async function getVisits() {
 let securityCache = null
 export async function getSecurityNews() {
   if (securityCache) return securityCache
-  securityCache = await fetchOrImport('security.json', () => ({ bulletins: [], updated_at: '' }))
+  securityCache = await fetchOrImport('security.json', () => Promise.resolve({ default: { bulletins: [], updated_at: '' } }))
   return securityCache
 }
 
