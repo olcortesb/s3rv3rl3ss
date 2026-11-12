@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.19.0...v1.19.1) (2026-11-12)
+
+
+### Bug Fixes
+
+* getSecurityNews fallback import format ([3e34194](https://github.com/olcortesb/s3rv3rl3ss/commit/3e341946273cf5702b8e0471a301f7b0cf34e042))
+
 # [1.19.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.18.0...v1.19.0) (2026-11-04)
 
 
