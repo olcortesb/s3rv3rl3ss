@@ -64,6 +64,12 @@
       <p class="text-xs text-gray-400 mb-2 px-1">Fresh containers, no cache. Updated daily via CodeBuild.</p>
       <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
         <table class="w-full text-sm min-w-[400px]">
+          <thead>
+            <tr class="border-b border-gray-100 bg-gray-50">
+              <th class="text-left py-2 px-4 text-xs text-gray-400 font-normal"></th>
+              <th v-for="tool in tools.tools" :key="tool.id" class="text-center py-2 px-3 text-xs text-gray-400 font-normal">{{ tool.name }}</th>
+            </tr>
+          </thead>
           <tbody>
             <tr class="border-b border-gray-50 hover:bg-gray-50/50 transition-colors">
               <td class="py-2.5 px-4 text-gray-500 text-xs whitespace-nowrap">Startup time</td>
@@ -87,6 +93,12 @@
       <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Technology</h2>
       <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
         <table class="w-full text-sm min-w-[400px]">
+          <thead>
+            <tr class="border-b border-gray-100 bg-gray-50">
+              <th class="text-left py-2 px-4 text-xs text-gray-400 font-normal"></th>
+              <th v-for="tool in tools.tools" :key="tool.id" class="text-center py-2 px-3 text-xs text-gray-400 font-normal">{{ tool.name }}</th>
+            </tr>
+          </thead>
           <tbody>
             <tr class="border-b border-gray-50 hover:bg-gray-50/50 transition-colors">
               <td class="py-2.5 px-4 text-gray-500 text-xs whitespace-nowrap">Language</td>
