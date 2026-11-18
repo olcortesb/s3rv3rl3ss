@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.19.1...v1.20.0) (2026-11-18)
+
+
+### Features
+
+* visual refresh — header gray-800, cards neutras, feedback en footer, sin colores por provider ([7f183cd](https://github.com/olcortesb/s3rv3rl3ss/commit/7f183cd2c37bfc3f42789df0556e742d77e7959c))
+
 ## [1.19.1](https://github.com/olcortesb/s3rv3rl3ss/compare/v1.19.0...v1.19.1) (2026-11-12)
 
 
