@@ -1,27 +1,26 @@
 <template>
   <div v-if="service">
-    <router-link :to="`/${provider}`" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Back</router-link>
     <DataLoader :loading="loading" :error="error" @retry="load">
 
-    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-6 max-w-3xl">
+    <div class="border-b border-gray-200 pb-6 mb-6 max-w-3xl">
       <div class="flex items-center gap-4 mb-3">
-        <img :src="iconUrl" :alt="service.name" class="w-12 h-12" :class="props.provider === 'stackit' ? 'brightness-0 invert' : ''" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
-        <span class="text-4xl" style="display:none">{{ service.icon }}</span>
+        <img :src="iconUrl" :alt="service.name" class="w-10 h-10" :class="props.provider === 'stackit' ? 'brightness-0' : ''" @error="$event.target.style.display='none';$event.target.nextElementSibling.style.display='inline'" />
+        <span class="text-3xl" style="display:none">{{ service.icon }}</span>
         <div>
-          <h1 class="text-2xl font-bold text-white">{{ service.name }}</h1>
+          <h1 class="text-2xl font-bold text-gray-900">{{ service.name }}</h1>
           <div class="flex gap-2 mt-1">
-            <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-700 text-gray-300">{{ service.category }}</span>
-            <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-0.5 rounded-full bg-yellow-900 text-yellow-300">Partial data</span>
+            <span class="text-xs font-medium px-2 py-0.5 bg-gray-100 text-gray-600">{{ service.category }}</span>
+            <span v-if="service.dataStatus === 'partial'" class="text-xs font-medium px-2 py-0.5 bg-yellow-50 text-yellow-700 border border-yellow-200">Partial data</span>
           </div>
         </div>
       </div>
-      <p class="text-gray-400 text-sm">{{ service.description }}</p>
+      <p class="text-gray-500 text-sm">{{ service.description }}</p>
     </div>
 
-    <div v-if="service.runtimes" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div v-if="service.runtimes" class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
 
       <div class="mb-2">
-        <button @click="showRuntimes = !showRuntimes" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+        <button @click="showRuntimes = !showRuntimes" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-gray-500 transition">
           <span class="text-xs">{{ showRuntimes ? '▼' : '▶' }}</span>
           Runtime Support
           <span class="text-xs font-normal text-gray-400">({{ service.runtimes.length }})</span>
@@ -31,7 +30,7 @@
             v-for="rt in service.runtimes"
             :key="rt.name"
             :class="[
-              'px-3 py-1 rounded-full text-sm',
+              'px-3 py-1 text-sm',
               runtimeClass(rt)
             ]"
             :title="rt.eol ? `EOL: ${rt.eol}${rt.identifier ? ' | ' + rt.identifier : ''}` : rt.identifier || ''"
@@ -44,11 +43,11 @@
     </div>
 
     <!-- Quotas + Limits card -->
-    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
 
       <!-- Service Quotas (from API, with description) -->
       <div v-if="apiQuotas.length" class="mb-6">
-        <button @click="showQuotas = !showQuotas" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+        <button @click="showQuotas = !showQuotas" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-gray-500 transition">
           <span class="text-xs">{{ showQuotas ? '▼' : '▶' }}</span>
           Service Quotas
           <span class="text-xs font-normal text-gray-400">({{ filteredQuotas.length }})</span>
@@ -58,7 +57,7 @@
             v-model="quotaSearch"
             type="text"
             placeholder="Search quotas..."
-            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            class="w-full mb-3 px-3 py-1.5 border border-gray-200 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
           <div class="space-y-1">
             <div
@@ -68,7 +67,7 @@
             >
               <div class="pr-4 min-w-0">
                 <span class="text-sm text-gray-700">{{ l.name }}</span>
-                <span v-if="l.adjustable" class="ml-1 text-xs px-1.5 py-0.5 rounded bg-blue-50 text-blue-600" title="This quota can be increased">adjustable</span>
+                <span v-if="l.adjustable" class="ml-1 text-xs px-1.5 py-0.5 border border-gray-200 text-gray-500" title="This quota can be increased">adjustable</span>
                 <p v-if="l.description" class="text-xs text-gray-400 mt-0.5">{{ l.description }}</p>
               </div>
               <span class="text-sm text-gray-900 font-medium shrink-0">{{ l.value }}</span>
@@ -80,7 +79,7 @@
 
       <!-- Static Limits -->
       <div v-if="staticLimits.length" class="mb-6">
-        <button @click="showLimits = !showLimits" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+        <button @click="showLimits = !showLimits" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-gray-500 transition">
           <span class="text-xs">{{ showLimits ? '▼' : '▶' }}</span>
           Limits
           <span class="text-xs font-normal text-gray-400">({{ filteredLimits.length }})</span>
@@ -90,7 +89,7 @@
             v-model="limitSearch"
             type="text"
             placeholder="Search limits..."
-            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            class="w-full mb-3 px-3 py-1.5 border border-gray-200 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
           <div class="space-y-1">
             <div
@@ -108,19 +107,19 @@
     </div>
 
     <!-- Integrations card -->
-    <div v-if="service.integrations" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div v-if="service.integrations" class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
       <div v-for="group in service.integrations" :key="group.label" class="mb-4 last:mb-0">
         <h2 class="font-semibold text-gray-900 mb-1">{{ group.label }}
           <span v-if="group.description" class="text-xs font-normal text-gray-400 ml-1">{{ group.description }}</span>
         </h2>
         <div class="flex flex-wrap gap-2">
-          <span v-for="item in group.items" :key="item.id" class="px-3 py-1 rounded-full text-sm bg-purple-50 text-purple-700">{{ item.name }}</span>
+          <span v-for="item in group.items" :key="item.id" class="px-3 py-1 text-sm border border-gray-200 text-gray-600">{{ item.name }}</span>
         </div>
       </div>
     </div>
 
     <!-- News card -->
-    <div v-if="mergedNews.length" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div v-if="mergedNews.length" class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
       <h2 class="font-semibold text-gray-900 mb-2">News
         <span class="text-xs font-normal text-gray-400 ml-1">via {{ newsSource }}</span>
       </h2>
@@ -128,12 +127,12 @@
           v-model="newsSearch"
           type="text"
           placeholder="Search news..."
-          class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+          class="w-full mb-3 px-3 py-1.5 border border-gray-200 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
         />
         <ul class="space-y-2">
           <li v-for="n in filteredNews" :key="n.title" class="flex gap-3 text-sm items-start">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
-            <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-300 hover:decoration-orange-500 transition">{{ n.title }}</a>
+            <a v-if="n.url" :href="n.url" target="_blank" class="text-gray-700 hover:text-gray-900 underline decoration-gray-300 transition">{{ n.title }}</a>
             <span v-else class="text-gray-700">{{ n.title }}</span>
             <div class="shrink-0 flex gap-1">
               <button @click="copyForLinkedIn(n)" :title="copiedId === n.title ? 'Copied!' : 'Copy post (no link — more reach)'" class="text-gray-400 hover:text-green-600 transition">
@@ -150,12 +149,12 @@
     </div>
 
     <!-- Pricing card -->
-    <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
       <h2 class="font-semibold text-gray-900 mb-2">Pricing
         <span class="text-xs font-normal text-gray-400 ml-1">{{ pricingSubtitle }}</span>
       </h2>
         <p class="text-gray-600 text-sm mb-3">{{ service.pricing }}</p>
-        <div v-if="service.pricingDetails" class="bg-gray-50 rounded-lg p-3 mb-3">
+        <div v-if="service.pricingDetails" class="bg-gray-50 p-3 mb-3">
           <table class="w-full text-sm">
             <thead>
               <tr class="border-b border-gray-200">
@@ -174,17 +173,17 @@
           </table>
         </div>
         <div class="flex flex-wrap gap-4">
-          <a v-if="service.pricingUrl" :href="service.pricingUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">Full pricing details ↗</a>
-          <a :href="calculatorUrl" target="_blank" class="text-sm text-orange-500 hover:text-orange-600 underline">{{ calculatorLabel }} ↗</a>
+          <a v-if="service.pricingUrl" :href="service.pricingUrl" target="_blank" class="text-sm text-gray-500 hover:text-gray-900 underline">Full pricing details ↗</a>
+          <a :href="calculatorUrl" target="_blank" class="text-sm text-gray-500 hover:text-gray-900 underline">{{ calculatorLabel }} ↗</a>
         </div>
     </div>
 
     <!-- History card -->
-    <div v-if="newsHistory.length || quotaChanges.length" class="bg-white rounded-2xl border border-gray-100 p-6 mb-4 max-w-3xl">
+    <div v-if="newsHistory.length || quotaChanges.length" class="border-b border-gray-100 py-6 mb-4 max-w-3xl">
 
       <!-- News History -->
       <div v-if="newsHistory.length" class="mb-6">
-        <button @click="showNews = !showNews" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+        <button @click="showNews = !showNews" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-gray-500 transition">
           <span class="text-xs">{{ showNews ? '▼' : '▶' }}</span>
           📰 News History
           <span class="text-xs font-normal text-gray-400">({{ filteredNewsHistory.length }})</span>
@@ -194,12 +193,12 @@
             v-model="newsHistorySearch"
             type="text"
             placeholder="Search news history..."
-            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            class="w-full mb-3 px-3 py-1.5 border border-gray-200 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
           <ul class="space-y-2">
             <li v-for="(c, i) in filteredNewsHistory" :key="i" class="flex gap-3 text-sm">
               <span class="text-gray-400 shrink-0">{{ c.date }}</span>
-              <a v-if="c.url" :href="c.url" target="_blank" class="text-orange-600 hover:underline">{{ c.detail }}</a>
+              <a v-if="c.url" :href="c.url" target="_blank" class="text-gray-700 hover:text-gray-900 underline decoration-gray-300">{{ c.detail }}</a>
               <span v-else class="text-gray-700">{{ c.detail }}</span>
             </li>
           </ul>
@@ -209,7 +208,7 @@
 
       <!-- Quota Changes -->
       <div v-if="quotaChanges.length" class="mb-6">
-        <button @click="showQuotaChanges = !showQuotaChanges" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-orange-500 transition">
+        <button @click="showQuotaChanges = !showQuotaChanges" class="flex items-center gap-2 font-semibold text-gray-900 mb-2 hover:text-gray-500 transition">
           <span class="text-xs">{{ showQuotaChanges ? '▼' : '▶' }}</span>
           📊 Quota Changes
           <span class="text-xs font-normal text-gray-400">({{ filteredQuotaChanges.length }})</span>
@@ -219,7 +218,7 @@
             v-model="quotaChangesSearch"
             type="text"
             placeholder="Search quota changes..."
-            class="w-full mb-3 px-3 py-1.5 rounded-lg border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400"
+            class="w-full mb-3 px-3 py-1.5 border border-gray-200 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
           <ul class="space-y-2">
             <li v-for="(c, i) in filteredQuotaChanges" :key="i" class="flex gap-3 text-sm">
@@ -229,10 +228,10 @@
             </li>
           </ul>
           <p v-if="!filteredQuotaChanges.length" class="text-sm text-gray-400 mt-2">No changes match.</p>
-          <a :href="quotasUrl" target="_blank" class="inline-block mt-3 text-xs text-orange-500 hover:underline">View quotas ↗</a>
+          <a :href="quotasUrl" target="_blank" class="inline-block mt-3 text-xs text-gray-500 hover:text-gray-900 underline">View quotas ↗</a>
         </div>
       </div>
-      <a :href="service.url" target="_blank" class="inline-block px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition text-sm">
+      <a :href="service.url" target="_blank" class="inline-block px-4 py-2 bg-gray-900 text-white hover:bg-gray-700 transition text-sm">
         View on {{ provider.toUpperCase() }} →
       </a>
     </div>

@@ -1,9 +1,8 @@
 <template>
   <div>
-    <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
-    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-8 text-center">
-      <h1 class="text-2xl font-bold text-white mb-1">Global Statistics</h1>
+    <div class="border-b border-gray-200 pb-8 mb-8 text-center">
+      <h1 class="text-3xl font-bold text-gray-900 mb-1">Global Statistics</h1>
       <p class="text-gray-400 text-sm">Aggregated data across all 4 cloud providers</p>
       <p class="text-xs text-gray-500 mt-3">Last updated: {{ lastUpdated }}</p>
     </div>
@@ -11,27 +10,27 @@
     <DataLoader :loading="loading" :error="error" @retry="load">
 
       <!-- Totals -->
-      <div class="bg-gray-900 rounded-2xl p-6 mb-6">
-        <h2 class="font-semibold text-white mb-4">Totals</h2>
+      <div class="border-b border-gray-200 pb-6 mb-6">
+        <h2 class="font-bold text-gray-900 mb-4">Totals</h2>
         <div class="grid grid-cols-2 sm:grid-cols-5 gap-4">
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ totals.services }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ totals.services }}</div>
             <div class="text-xs text-gray-400">Services</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ totals.quotas }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ totals.quotas }}</div>
             <div class="text-xs text-gray-400">Quotas</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ totals.limits }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ totals.limits }}</div>
             <div class="text-xs text-gray-400">Limits</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ totals.news }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ totals.news }}</div>
             <div class="text-xs text-gray-400">News</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ totals.runtimes }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ totals.runtimes }}</div>
             <div class="text-xs text-gray-400">Active Runtimes</div>
           </div>
         </div>
@@ -39,26 +38,26 @@
 
       <!-- Charts -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">Services by Provider</h2>
           <div class="flex justify-center"><canvas ref="servicesChart" width="260" height="260"></canvas></div>
         </div>
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">News by Provider</h2>
           <div class="flex justify-center"><canvas ref="newsChart" width="260" height="260"></canvas></div>
         </div>
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">Limits by Provider</h2>
           <div class="flex justify-center"><canvas ref="limitsChart" width="260" height="260"></canvas></div>
         </div>
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">Active Runtimes by Provider</h2>
           <div class="flex justify-center"><canvas ref="runtimesChart" width="260" height="260"></canvas></div>
         </div>
       </div>
 
       <!-- Per provider table -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
+      <div class="border-b border-gray-100 py-6 mb-6">
         <h2 class="font-semibold text-gray-900 mb-4">By Provider</h2>
         <div class="overflow-x-auto">
           <table class="w-full text-sm">
@@ -76,7 +75,7 @@
               <tr v-for="row in tableRows" :key="row.id" class="border-b border-gray-50 last:border-0">
                 <td class="py-3 flex items-center gap-2">
                   <img :src="row.icon" :alt="row.name" class="w-5 h-5" :class="row.id === 'stackit' ? 'brightness-0' : ''" />
-                  <router-link :to="`/${row.id}`" class="text-gray-700 hover:text-orange-500">{{ row.name }}</router-link>
+                  <router-link :to="`/${row.id}`" class="text-gray-700 hover:text-gray-500">{{ row.name }}</router-link>
                 </td>
                 <td class="py-3 text-right font-medium text-gray-900">{{ row.services }}</td>
                 <td class="py-3 text-right text-gray-600">{{ row.quotas || '—' }}</td>

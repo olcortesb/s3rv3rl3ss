@@ -1,9 +1,8 @@
 <template>
   <div>
-    <router-link to="/" class="text-orange-500 hover:underline text-sm mb-4 inline-block">← Home</router-link>
 
-    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-8 text-center">
-      <h1 class="text-2xl font-bold text-white mb-1">Project Metrics</h1>
+    <div class="border-b border-gray-200 pb-8 mb-8 text-center">
+      <h1 class="text-3xl font-bold text-gray-900 mb-1">Project Metrics</h1>
       <p class="text-gray-400 text-sm">Real infrastructure costs and usage — this project runs on serverless</p>
       <p v-if="metrics" class="text-xs text-gray-500 mt-3">Last updated: {{ metrics.lastUpdated }}</p>
     </div>
@@ -11,14 +10,14 @@
     <DataLoader :loading="loading" :error="error" @retry="load">
     <div>
       <!-- Cost card -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
-        <h2 class="font-semibold text-gray-900 mb-4">Monthly Cost</h2>
+      <div class="border-b border-gray-100 py-6 mb-6">
+        <h2 class="font-semibold text-gray-900 mb-4 text-center">Monthly Cost</h2>
         <div class="text-center mb-4">
-          <span class="text-4xl font-bold text-orange-500">{{ metrics.cost.monthly.total }}</span>
+          <span class="text-4xl font-bold text-gray-900">{{ metrics.cost.monthly.total }}</span>
           <span class="text-gray-400 text-sm block mt-1">{{ metrics.cost.note }}</span>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-          <div v-for="(value, service) in metrics.cost.monthly" :key="service" v-show="service !== 'total'" class="text-center p-3 bg-gray-50 rounded-lg">
+          <div v-for="(value, service) in metrics.cost.monthly" :key="service" v-show="service !== 'total'" class="text-center p-3 bg-gray-50">
             <div class="text-xs text-gray-500 capitalize">{{ service }}</div>
             <div class="text-sm font-medium text-gray-900">{{ value }}</div>
           </div>
@@ -26,23 +25,23 @@
       </div>
 
       <!-- Infrastructure -->
-      <div class="bg-gray-900 rounded-2xl p-6 mb-6">
-        <h2 class="font-semibold text-white mb-4">Infrastructure</h2>
+      <div class="border-b border-gray-200 pb-6 mb-6">
+        <h2 class="font-bold text-gray-900 mb-4">Infrastructure</h2>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.lambdaFunctions }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.lambdaFunctions }}</div>
             <div class="text-xs text-gray-400">Lambda Functions</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.architecture }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.architecture }}</div>
             <div class="text-xs text-gray-400">Architecture</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ formatNumber(metrics.infrastructure.dynamodbItems) }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ formatNumber(metrics.infrastructure.dynamodbItems) }}</div>
             <div class="text-xs text-gray-400">DynamoDB Items</div>
           </div>
           <div class="text-center">
-            <div class="text-2xl font-bold text-orange-400">{{ metrics.infrastructure.s3Objects }}</div>
+            <div class="text-2xl font-bold text-gray-900">{{ metrics.infrastructure.s3Objects }}</div>
             <div class="text-xs text-gray-400">S3 Objects</div>
           </div>
         </div>
@@ -50,7 +49,7 @@
 
       <!-- Today -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">Today <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
@@ -62,7 +61,7 @@
               <div class="text-xs text-gray-500">Total Duration</div>
             </div>
             <div class="text-center">
-              <div class="text-2xl font-bold" :class="metrics.today.errors > 0 ? 'text-red-500' : 'text-green-600'">{{ metrics.today.errors }}</div>
+              <div class="text-2xl font-bold" :class="metrics.today.errors > 0 ? 'text-gray-900' : 'text-gray-900'">{{ metrics.today.errors }}</div>
               <div class="text-xs text-gray-500">Errors</div>
             </div>
           </div>
@@ -71,14 +70,14 @@
               <span class="text-gray-600">{{ name }}</span>
               <span class="text-gray-400">
                 {{ fn.invocations }}× · {{ fn.avgDurationMs }}ms
-                <span v-if="fn.errors > 0" class="ml-1 text-red-500">· {{ fn.errors }} err</span>
+                <span v-if="fn.errors > 0" class="ml-1 text-gray-400">· {{ fn.errors }} err</span>
               </span>
             </div>
           </div>
         </div>
 
         <!-- Month -->
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-4">This Month <span class="text-xs font-normal text-gray-400">(Lambda executions)</span></h2>
           <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="text-center">
@@ -90,7 +89,7 @@
               <div class="text-xs text-gray-500">Total Duration</div>
             </div>
             <div class="text-center">
-              <div class="text-2xl font-bold" :class="metrics.month.errors > 0 ? 'text-red-500' : 'text-green-600'">{{ metrics.month.errors }}</div>
+              <div class="text-2xl font-bold" :class="metrics.month.errors > 0 ? 'text-gray-900' : 'text-gray-900'">{{ metrics.month.errors }}</div>
               <div class="text-xs text-gray-500">Errors</div>
             </div>
           </div>
@@ -99,7 +98,7 @@
               <span class="text-gray-600">{{ name }}</span>
               <span class="text-gray-400">
                 {{ fn.invocations }}× · {{ formatDuration(fn.totalDurationMs) }}
-                <span v-if="fn.errors > 0" class="ml-1 text-red-500">· {{ fn.errors }} err</span>
+                <span v-if="fn.errors > 0" class="ml-1 text-gray-400">· {{ fn.errors }} err</span>
               </span>
             </div>
           </div>
@@ -107,23 +106,23 @@
       </div>
 
       <!-- Tech stack -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6">
+      <div class="border-b border-gray-100 py-6">
         <h2 class="font-semibold text-gray-900 mb-4">Tech Stack</h2>
         <div class="flex flex-wrap gap-2">
-          <span v-for="tech in techStack" :key="tech" class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs">{{ tech }}</span>
+          <span v-for="tech in techStack" :key="tech" class="px-3 py-1 bg-gray-100 text-gray-700 text-xs">{{ tech }}</span>
         </div>
       </div>
 
       <!-- Site Visits -->
-      <div v-if="visits" class="bg-gray-900 rounded-2xl p-6 mt-6">
-        <h2 class="font-semibold text-white mb-4">Site Visits</h2>
+      <div v-if="visits" class="border-t border-gray-200 pt-6 mt-6">
+        <h2 class="font-bold text-gray-900 mb-4">Site Visits</h2>
         <div class="grid grid-cols-2 gap-6 mb-6">
           <div class="text-center">
-            <div class="text-3xl font-bold text-orange-400">{{ formatNumber(visits.total) }}</div>
+            <div class="text-3xl font-bold text-gray-900">{{ formatNumber(visits.total) }}</div>
             <div class="text-xs text-gray-400 mt-1">Total visits</div>
           </div>
           <div class="text-center">
-            <div class="text-3xl font-bold text-orange-400">{{ formatNumber(visits.yesterday) }}</div>
+            <div class="text-3xl font-bold text-gray-900">{{ formatNumber(visits.yesterday) }}</div>
             <div class="text-xs text-gray-400 mt-1">Yesterday</div>
           </div>
         </div>
@@ -137,7 +136,7 @@
               style="height: 100%"
             >
               <div
-                class="absolute bottom-0 w-full bg-orange-500 rounded-sm opacity-80 group-hover:opacity-100 transition-opacity"
+                class="absolute bottom-0 w-full bg-gray-400 opacity-80 group-hover:opacity-100 transition-opacity"
                 :style="{ height: maxVisits > 0 ? `${Math.max(4, (day.visits / maxVisits) * 100)}%` : '4%' }"
               />
               <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 hidden group-hover:block z-10 pointer-events-none">

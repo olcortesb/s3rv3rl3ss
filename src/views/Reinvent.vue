@@ -3,24 +3,24 @@
     <div class="mb-8">
       <h1 class="text-2xl font-bold text-gray-900 mb-1">re:Invent 2026</h1>
       <p class="text-gray-400 text-sm">November 30 – December 4, 2026 · Las Vegas ·
-        <a href="https://reinvent.awsevents.com" target="_blank" class="text-orange-500 hover:underline">reinvent.awsevents.com ↗</a>
+        <a href="https://reinvent.awsevents.com" target="_blank" class="text-gray-500 hover:text-gray-900 underline">reinvent.awsevents.com ↗</a>
       </p>
     </div>
 
     <!-- Countdown -->
-    <div class="bg-gray-900 text-white rounded-2xl p-8 mb-8 text-center">
+    <div class="border border-gray-200 p-8 mb-8 text-center">
       <p class="text-gray-400 text-sm mb-3">Starts in</p>
       <div class="flex justify-center gap-8">
         <div>
-          <div class="text-5xl font-bold text-orange-400">{{ countdown.days }}</div>
+          <div class="text-5xl font-bold text-gray-900">{{ countdown.days }}</div>
           <div class="text-xs text-gray-400 mt-1">days</div>
         </div>
         <div>
-          <div class="text-5xl font-bold text-orange-400">{{ countdown.hours }}</div>
+          <div class="text-5xl font-bold text-gray-900">{{ countdown.hours }}</div>
           <div class="text-xs text-gray-400 mt-1">hours</div>
         </div>
         <div>
-          <div class="text-5xl font-bold text-orange-400">{{ countdown.minutes }}</div>
+          <div class="text-5xl font-bold text-gray-900">{{ countdown.minutes }}</div>
           <div class="text-xs text-gray-400 mt-1">minutes</div>
         </div>
       </div>
@@ -30,26 +30,26 @@
     <DataLoader :loading="loading" :error="error" @retry="load">
 
       <!-- This Week's Pace -->
-      <div v-if="pace" class="bg-white rounded-2xl border border-gray-100 p-6 mb-6 flex items-center gap-6">
+      <div v-if="pace" class="border-b border-gray-100 py-6 mb-6 flex items-center gap-6">
         <div class="text-center">
-          <div class="text-4xl font-bold" :class="pace.delta >= 0 ? 'text-orange-500' : 'text-gray-400'">{{ pace.current }}</div>
+          <div class="text-4xl font-bold" :class="pace.delta >= 0 ? 'text-gray-900' : 'text-gray-400'">{{ pace.current }}</div>
           <div class="text-xs text-gray-400 mt-1">changes this week</div>
         </div>
         <div class="text-sm text-gray-500">
-          <span class="font-medium" :class="pace.delta > 0 ? 'text-orange-500' : pace.delta < 0 ? 'text-red-400' : 'text-gray-400'">{{ pace.delta >= 0 ? '+' : '' }}{{ pace.delta }}</span>
+          <span class="font-medium" :class="pace.delta > 0 ? 'text-gray-900' : pace.delta < 0 ? 'text-gray-400' : 'text-gray-400'">{{ pace.delta >= 0 ? '+' : '' }}{{ pace.delta }}</span>
           vs last week ({{ pace.previous }})
         </div>
       </div>
 
       <!-- Activity Timeline -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
+      <div class="border-b border-gray-100 py-6 mb-6">
         <h2 class="font-semibold text-gray-900 mb-4">AWS Activity Timeline</h2>
         <div v-if="reinvent?.activityTimeline?.length">
           <div class="flex items-end gap-1" style="height: 96px">
             <div
               v-for="week in reinvent.activityTimeline"
               :key="week.week"
-              class="flex-1 bg-orange-400 rounded-t hover:bg-orange-500 transition cursor-default"
+              class="flex-1 bg-gray-400 hover:bg-gray-600 transition cursor-default"
               :style="{ height: barHeight(week.changes) + 'px' }"
               :title="`${week.week}: ${week.changes} changes`"
             ></div>
@@ -58,75 +58,75 @@
             <span v-for="label in timelineLabels" :key="label">{{ label }}</span>
           </div>
         </div>
-        <div v-else class="flex items-center justify-center h-24 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
+        <div v-else class="flex items-center justify-center h-24 bg-gray-50 border border-dashed border-gray-200">
           <span class="text-gray-400 text-sm">Available from Nov 17</span>
         </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <!-- Top Services -->
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-1">Most Active Services</h2>
           <p class="text-xs text-gray-400 mb-4">Last 180 days</p>
           <div v-if="reinvent?.topServices?.length" class="space-y-3">
             <div v-for="svc in reinvent.topServices.slice(0, 8)" :key="svc.service" class="flex items-center gap-3">
-              <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-orange-500 w-32 truncate shrink-0">{{ svc.name }}</router-link>
-              <div class="flex-1 bg-gray-100 rounded-full h-2">
-                <div class="bg-orange-400 h-2 rounded-full" :style="{ width: svc.percentage + '%' }"></div>
+              <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-gray-500 w-32 truncate shrink-0">{{ svc.name }}</router-link>
+              <div class="flex-1 bg-gray-100 h-2">
+                <div class="bg-gray-700 h-2" :style="{ width: svc.percentage + '%' }"></div>
               </div>
               <span class="text-xs text-gray-400 shrink-0">{{ svc.changes }}</span>
-              <span class="text-xs shrink-0" :class="svc.trend === 'up' ? 'text-orange-400' : svc.trend === 'down' ? 'text-red-400' : 'text-gray-300'">{{ svc.trend === 'up' ? '↑' : svc.trend === 'down' ? '↓' : '→' }}</span>
+              <span class="text-xs shrink-0" :class="svc.trend === 'up' ? 'text-gray-700' : svc.trend === 'down' ? 'text-gray-400' : 'text-gray-300'">{{ svc.trend === 'up' ? '↑' : svc.trend === 'down' ? '↓' : '→' }}</span>
             </div>
           </div>
-          <div v-else class="flex items-center justify-center h-32 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
+          <div v-else class="flex items-center justify-center h-32 bg-gray-50 border border-dashed border-gray-200">
             <span class="text-gray-400 text-sm">Available from Nov 17</span>
           </div>
         </div>
 
         <!-- Hot Services -->
-        <div class="bg-white rounded-2xl border border-gray-100 p-6">
+        <div class="border-b border-gray-100 py-6">
           <h2 class="font-semibold text-gray-900 mb-1">Hot Right Now</h2>
           <p class="text-xs text-gray-400 mb-4">Last 30 days</p>
           <div v-if="reinvent?.hotServices?.length" class="space-y-2">
             <div v-for="svc in reinvent.hotServices.slice(0, 8)" :key="svc.service" class="flex items-center justify-between">
-              <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-orange-500">{{ svc.name }}</router-link>
-              <span class="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-600 font-medium">+{{ svc.recentChanges }}</span>
+              <router-link :to="`/aws/${svc.service}`" class="text-sm text-gray-700 hover:text-gray-500">{{ svc.name }}</router-link>
+              <span class="text-xs px-2 py-0.5 border border-gray-200 text-gray-600 font-medium">+{{ svc.recentChanges }}</span>
             </div>
           </div>
-          <div v-else class="flex items-center justify-center h-32 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
+          <div v-else class="flex items-center justify-center h-32 bg-gray-50 border border-dashed border-gray-200">
             <span class="text-gray-400 text-sm">Available from Nov 30</span>
           </div>
         </div>
       </div>
 
       <!-- Changes by type -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6 mb-6">
+      <div class="border-b border-gray-100 py-6 mb-6">
         <h2 class="font-semibold text-gray-900 mb-1">Changes by Type</h2>
         <p class="text-xs text-gray-400 mb-4">Last 180 days</p>
         <div v-if="reinvent?.changesByType" class="flex flex-wrap gap-3">
-          <div v-for="(count, type) in reinvent.changesByType" :key="type" class="text-center px-4 py-3 bg-gray-50 rounded-xl">
+          <div v-for="(count, type) in reinvent.changesByType" :key="type" class="text-center px-4 py-3 bg-gray-50">
             <div class="text-2xl font-bold text-gray-900">{{ count }}</div>
             <div class="text-xs text-gray-500 mt-0.5">{{ typeLabel(type) }}</div>
           </div>
         </div>
-        <div v-else class="flex items-center justify-center h-16 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
+        <div v-else class="flex items-center justify-center h-16 bg-gray-50 border border-dashed border-gray-200">
           <span class="text-gray-400 text-sm">Available from Nov 17</span>
         </div>
       </div>
 
       <!-- Recent News -->
-      <div class="bg-white rounded-2xl border border-gray-100 p-6">
+      <div class="border-b border-gray-100 py-6">
         <h2 class="font-semibold text-gray-900 mb-1">Recent Announcements</h2>
         <p class="text-xs text-gray-400 mb-4">Last 20 news with URL</p>
         <div v-if="reinvent?.recentNews?.length" class="space-y-2">
           <div v-for="n in reinvent.recentNews.slice(0, 10)" :key="n.title" class="flex gap-3 text-sm">
             <span class="text-gray-400 shrink-0">{{ n.date }}</span>
-            <router-link :to="`/aws/${n.service}`" class="text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700 shrink-0">{{ n.service }}</router-link>
-            <span v-if="n.reinvent" class="text-xs px-1.5 py-0.5 rounded bg-orange-100 text-orange-600 shrink-0">re:Invent</span>
-          <a :href="n.url" target="_blank" class="text-gray-700 hover:text-orange-500 underline decoration-gray-200">{{ n.title }}</a>
+            <router-link :to="`/aws/${n.service}`" class="text-xs px-2 py-0.5 border border-gray-200 text-gray-600 shrink-0">{{ n.service }}</router-link>
+            <span v-if="n.reinvent" class="text-xs px-1.5 py-0.5 border border-gray-200 text-gray-600 shrink-0">re:Invent</span>
+          <a :href="n.url" target="_blank" class="text-gray-700 hover:text-gray-900 underline decoration-gray-200">{{ n.title }}</a>
           </div>
         </div>
-        <div v-else class="flex items-center justify-center h-16 rounded-xl bg-gray-50 border-2 border-dashed border-gray-200">
+        <div v-else class="flex items-center justify-center h-16 bg-gray-50 border border-dashed border-gray-200">
           <span class="text-gray-400 text-sm">Available from Nov 30</span>
         </div>
       </div>

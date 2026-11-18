@@ -2,7 +2,7 @@
   <div>
     <!-- Header -->
     <div class="mb-6">
-      <h1 class="text-2xl font-bold text-gray-900">Compare Services</h1>
+      <h1 class="text-3xl font-bold text-gray-900">Compare Services</h1>
       <div class="flex items-center gap-3 mt-1">
         <p v-if="comparisons.lastUpdated" class="text-xs text-gray-400">Updated {{ comparisons.lastUpdated }}</p>
         <span class="text-gray-200">·</span>
@@ -21,10 +21,10 @@
           :key="cat.id"
           @click="selected = cat.id"
           :class="[
-            'px-3 py-1.5 rounded-full text-sm font-medium transition',
+            'px-3 py-1.5 text-sm font-medium transition border-b-2',
             selected === cat.id
-              ? 'bg-orange-500 text-white'
-              : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-300 hover:text-gray-900'
+              ? 'border-gray-900 text-gray-900'
+              : 'border-transparent text-gray-500 hover:text-gray-700'
           ]"
         >
           {{ cat.icon }} {{ cat.name }}
@@ -37,8 +37,8 @@
         <div class="grid grid-cols-5 gap-3 min-w-[600px] sm:min-w-0">
           <div></div>
           <div v-for="provider in PROVIDERS" :key="provider"
-            class="bg-white rounded-xl border border-gray-100 p-3 text-center">
-            <span class="text-xs font-semibold px-2 py-0.5 rounded-full" :class="providerBadge(provider)">
+            class="border border-gray-100 p-3 text-center">
+            <span class="text-xs font-semibold px-2 py-0.5" :class="providerBadge(provider)">
               {{ provider.toUpperCase() }}
             </span>
             <div v-if="getService(provider)" class="mt-2">
@@ -47,9 +47,9 @@
               <p class="text-xs font-semibold text-gray-900 leading-tight">{{ getService(provider).name }}</p>
               <div class="flex justify-center gap-2 mt-2">
                 <router-link :to="`/${provider}/${comparison.services[provider]}`"
-                  class="text-xs text-orange-500 hover:underline">details →</router-link>
+                  class="text-xs text-gray-500 hover:text-gray-900 underline">details →</router-link>
                 <a v-if="comparison.limitsUrls?.[provider]" :href="comparison.limitsUrls[provider]"
-                  target="_blank" class="text-xs text-gray-400 hover:text-orange-500">limits ↗</a>
+                  target="_blank" class="text-xs text-gray-400 hover:text-gray-900">limits ↗</a>
               </div>
             </div>
             <p v-else class="mt-3 text-xs text-gray-300">N/A</p>
@@ -60,7 +60,7 @@
         <!-- Limits -->
         <div v-if="comparison.limits?.length" class="mb-6">
           <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Limits</h2>
-          <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
+          <div class="border border-gray-100 overflow-x-auto">
             <table class="w-full text-sm min-w-[500px]">
               <tbody>
                 <tr v-for="row in comparison.limits" :key="row.label"
@@ -81,7 +81,7 @@
         <!-- Pricing -->
         <div v-if="comparison.pricing?.length" class="mb-6">
           <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Pricing</h2>
-          <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
+          <div class="border border-gray-100 overflow-x-auto">
             <table class="w-full text-sm min-w-[500px]">
               <tbody>
                 <tr v-for="row in comparison.pricing" :key="row.label"
@@ -102,13 +102,13 @@
         <!-- Runtimes -->
         <div v-if="hasRuntimes" class="mb-6">
           <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Runtimes</h2>
-          <div class="bg-white rounded-xl border border-gray-100 p-4 overflow-x-auto">
+          <div class="border border-gray-100 p-4 overflow-x-auto">
             <div class="grid grid-cols-5 gap-3 min-w-[500px]">
               <div></div>
               <div v-for="provider in PROVIDERS" :key="provider">
                 <div v-if="getService(provider)?.runtimes" class="flex flex-wrap gap-1">
                   <span v-for="rt in getService(provider).runtimes.filter(r => r.status === 'active')" :key="rt.name"
-                    class="text-xs px-2 py-0.5 rounded-full bg-green-50 text-green-700 border border-green-100">
+                    class="text-xs px-2 py-0.5 border border-gray-200 text-gray-600">
                     {{ rt.name }}
                   </span>
                 </div>
@@ -229,10 +229,10 @@ const hasRuntimes = computed(() =>
 
 function providerBadge(provider) {
   return {
-    aws: 'bg-orange-100 text-orange-700',
-    gcp: 'bg-blue-100 text-blue-700',
+    aws: 'bg-gray-100 text-gray-700',
+    gcp: 'bg-gray-100 text-gray-700',
     azure: 'bg-sky-100 text-sky-700',
-    stackit: 'bg-green-100 text-green-700',
+    stackit: 'bg-gray-100 text-gray-700',
   }[provider]
 }
 </script>

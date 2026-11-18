@@ -12,7 +12,7 @@
         then reads Docker metrics from a CodeBuild run that pulls each image fresh, starts the container,
         hits the health endpoint to list supported services, and measures startup time and idle memory.
       </p>
-      <div class="mt-3 bg-gray-900 rounded-xl px-4 py-3 font-mono text-xs text-gray-300 space-y-1 max-w-2xl">
+      <div class="mt-3 bg-gray-900 px-4 py-3 font-mono text-xs text-gray-300 space-y-1 max-w-2xl">
         <div><span class="text-gray-500"># pull and start any tool locally</span></div>
         <div>docker run --rm -p 4566:4566 ministackorg/ministack:latest</div>
         <div>docker run --rm -p 4566:4566 floci/floci:latest</div>
@@ -24,9 +24,9 @@
     </div>
 
     <!-- Tool cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    <div class="divide-y divide-gray-100 mb-8">
       <div v-for="tool in tools.tools" :key="tool.id"
-        class="bg-white rounded-xl border border-gray-100 p-5">
+        class="border-b border-gray-100 py-5">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-3">
             <img :src="`/icons/tools/${tool.id}.png`" :alt="tool.name"
@@ -37,14 +37,14 @@
               <p class="text-xs text-gray-400 mt-0.5 leading-snug">{{ tool.description }}</p>
             </div>
           </div>
-          <span class="text-xs px-2 py-0.5 bg-gray-100 text-gray-500 rounded-full shrink-0 ml-2 font-mono">v{{ tool.version }}</span>
+          <span class="text-xs px-2 py-0.5 bg-gray-100 text-gray-500 shrink-0 ml-2 font-mono">v{{ tool.version }}</span>
         </div>
 
         <div class="flex flex-wrap gap-1 mb-3">
           <span v-for="tech in tool.technology" :key="tech"
-            class="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 border border-blue-100">{{ tech }}</span>
-          <span class="text-xs px-2 py-0.5 rounded-full"
-            :class="tool.price === '$0 forever' || tool.price === 'Free' ? 'bg-green-50 text-green-600 border border-green-100' : 'bg-orange-50 text-orange-600 border border-orange-100'">
+            class="text-xs px-2 py-0.5 border border-gray-200 text-gray-600">{{ tech }}</span>
+          <span class="text-xs px-2 py-0.5"
+            :class="tool.price === '$0 forever' || tool.price === 'Free' ? 'border border-gray-200 text-gray-600' : 'border border-gray-200 text-gray-600'">
             {{ tool.price }}
           </span>
         </div>
@@ -52,8 +52,8 @@
         <p class="text-xs text-gray-400 mb-3">{{ tool.serviceCount || tool.services.length }} services supported</p>
 
         <div class="flex gap-3">
-          <a :href="tool.url" target="_blank" class="text-xs text-orange-500 hover:underline">Website ↗</a>
-          <a v-if="tool.repoUrl" :href="tool.repoUrl" target="_blank" class="text-xs text-gray-400 hover:text-orange-500">GitHub ↗</a>
+          <a :href="tool.url" target="_blank" class="text-xs text-gray-500 hover:text-gray-900 underline">Website ↗</a>
+          <a v-if="tool.repoUrl" :href="tool.repoUrl" target="_blank" class="text-xs text-gray-400 hover:text-gray-900">GitHub ↗</a>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
     <div class="mb-4">
       <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Performance</h2>
       <p class="text-xs text-gray-400 mb-2 px-1">Fresh containers, no cache. Updated daily via CodeBuild.</p>
-      <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
+      <div class="border border-gray-100 overflow-x-auto">
         <table class="w-full text-sm min-w-[400px]">
           <thead>
             <tr class="border-b border-gray-100 bg-gray-50">
@@ -91,7 +91,7 @@
     <!-- Technology -->
     <div class="mb-4">
       <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Technology</h2>
-      <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
+      <div class="border border-gray-100 overflow-x-auto">
         <table class="w-full text-sm min-w-[400px]">
           <thead>
             <tr class="border-b border-gray-100 bg-gray-50">
@@ -115,14 +115,14 @@
             <tr class="border-b border-gray-50 hover:bg-gray-50/50 transition-colors">
               <td class="py-2.5 px-4 text-gray-500 text-xs whitespace-nowrap">Price</td>
               <td v-for="tool in tools.tools" :key="tool.id" class="py-2.5 px-3 text-center text-xs font-medium"
-                :class="tool.price === '$0 forever' || tool.price === 'Free' ? 'text-green-600' : 'text-orange-600'">
+                :class="tool.price === '$0 forever' || tool.price === 'Free' ? 'text-green-600' : 'text-gray-500'">
                 {{ tool.price }}
               </td>
             </tr>
             <tr class="hover:bg-gray-50/50 transition-colors">
               <td class="py-2.5 px-4 text-gray-500 text-xs whitespace-nowrap">Services (free)</td>
               <td v-for="tool in tools.tools" :key="tool.id" class="py-2.5 px-3 text-center text-xs text-gray-900">
-                <span v-if="tool.serviceCount === 0 && tool.paidServiceCount > 0">0 <span class="text-orange-500">({{ tool.paidServiceCount }} paid)</span></span>
+                <span v-if="tool.serviceCount === 0 && tool.paidServiceCount > 0">0 <span class="text-gray-400">({{ tool.paidServiceCount }} paid)</span></span>
                 <span v-else-if="tool.serviceMeta?.native">{{ tool.serviceCount || tool.services.length }} <span class="text-gray-400">({{ tool.serviceMeta.native.length }} native + {{ tool.serviceMeta.moto.length }} moto)</span></span>
                 <span v-else>{{ tool.serviceCount || tool.services.length }}</span>
               </td>
@@ -135,7 +135,7 @@
     <!-- Services supported -->
     <div>
       <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2 px-1">Services Supported</h2>
-      <div class="bg-white rounded-xl border border-gray-100 overflow-x-auto">
+      <div class="border border-gray-100 overflow-x-auto">
         <table class="w-full text-sm min-w-[400px]">
           <thead>
             <tr class="border-b border-gray-100 bg-gray-50">
@@ -149,7 +149,7 @@
               <td class="py-2 px-4 text-xs text-gray-700">{{ displayName(service) }}</td>
               <td v-for="tool in tools.tools" :key="tool.id" class="py-2 px-3 text-center text-xs">
                 <span v-if="tool.services.includes(service)" class="text-green-500">✓</span>
-                <span v-else-if="tool.paidServices?.includes(service)" class="text-orange-400" title="Paid">💰</span>
+                <span v-else-if="tool.paidServices?.includes(service)" class="text-gray-400" title="Paid">💰</span>
                 <span v-else class="text-gray-200">—</span>
               </td>
             </tr>
