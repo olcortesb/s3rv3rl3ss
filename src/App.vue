@@ -1,51 +1,48 @@
 <template>
-  <div class="min-h-screen bg-gray-50 flex flex-col">
-    <header class="bg-gray-900 text-white shadow-lg">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <router-link to="/" class="text-xl font-bold tracking-tight hover:text-gray-300 transition inline-flex items-center gap-1.5">
-          <img src="/icons/zap.svg" class="w-5 h-5 brightness-0 invert" /> s3rv3rl3ss
+  <div class="min-h-screen bg-white flex flex-col">
+    <header class="bg-gray-800 border-b border-gray-700">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <router-link to="/" class="text-base font-bold tracking-tight text-white hover:text-zinc-300 transition inline-flex items-center gap-1.5">
+          <img src="/icons/zap.svg" class="w-4 h-4 brightness-0 invert" /> s3rv3rl3ss
         </router-link>
-        <nav class="flex gap-2">
+        <nav class="flex gap-1">
           <router-link
             v-for="p in providers"
             :key="p.id"
             :to="`/${p.id}`"
             :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path.startsWith(`/${p.id}`) ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
+              'px-3 py-1.5 text-sm font-medium transition',
+              $route.path.startsWith(`/${p.id}`) ? 'text-white border-b-2 border-white' : 'text-zinc-400 hover:text-white'
             ]"
           >
-            <img :src="p.icon" :alt="p.name" class="w-4 h-4 brightness-0 invert" />
             <span class="hidden md:inline">{{ p.name }}</span>
+            <img :src="p.icon" :alt="p.name" class="w-4 h-4 md:hidden brightness-0 invert" />
           </router-link>
           <router-link
             to="/security"
             :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path === '/security' ? 'bg-red-500 text-white' : 'text-gray-400 hover:text-white'
+              'px-3 py-1.5 text-sm font-medium transition',
+              $route.path === '/security' ? 'text-white border-b-2 border-white' : 'text-zinc-400 hover:text-white'
             ]"
           >
-            <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
             <span class="hidden sm:inline">Security</span>
           </router-link>
           <router-link
             to="/reinvent"
             :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path === '/reinvent' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
+              'px-3 py-1.5 text-sm font-medium transition',
+              $route.path === '/reinvent' ? 'text-white border-b-2 border-white' : 'text-zinc-400 hover:text-white'
             ]"
           >
-            <img src="/icons/reinvent.svg" class="w-3.5 h-3.5 brightness-0 invert" />
             <span class="hidden sm:inline">re:Invent</span>
           </router-link>
           <router-link
             to="/tools"
             :class="[
-              'px-3 py-1 rounded-full text-sm font-medium transition inline-flex items-center gap-1.5',
-              $route.path === '/tools' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
+              'px-3 py-1.5 text-sm font-medium transition',
+              $route.path === '/tools' ? 'text-white border-b-2 border-white' : 'text-zinc-400 hover:text-white'
             ]"
           >
-            <img src="/icons/tools.svg" class="w-3.5 h-3.5 brightness-0 invert" />
             <span class="hidden sm:inline">Tools</span>
           </router-link>
         </nav>
@@ -55,15 +52,15 @@
       <router-view :key="$route.fullPath" />
     </main>
     <footer class="border-t border-gray-200">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-500">
-        <span>Built by
-          <a href="https://linkedin.com/in/olcortesb" target="_blank" class="hover:text-orange-400 transition">olcortesb</a>
-        </span>
+      <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-400">
+        <span>Built by <a href="https://linkedin.com/in/olcortesb" target="_blank" class="hover:text-gray-700 transition">olcortesb</a></span>
         <span>Updated daily · Last: {{ lastUpdated }}</span>
-        <a href="https://github.com/olcortesb/s3rv3rl3ss" target="_blank" class="hover:text-orange-400 transition">GitHub</a>
-      </div>
-      <div class="max-w-6xl mx-auto px-4 pb-3 text-center text-xs text-gray-400">
-        This site does not collect personal data or use cookies.
+        <div class="flex items-center gap-4">
+          <a href="https://github.com/olcortesb/s3rv3rl3ss/issues/new" target="_blank" class="hover:text-gray-700 transition">Feedback</a>
+          <a href="https://x.com/olcortesb" target="_blank" class="hover:text-gray-700 transition">X</a>
+          <a href="https://www.linkedin.com/in/oscarcortesbracho/" target="_blank" class="hover:text-gray-700 transition">LinkedIn</a>
+          <a href="https://github.com/olcortesb/s3rv3rl3ss" target="_blank" class="hover:text-gray-700 transition">GitHub</a>
+        </div>
       </div>
     </footer>
   </div>

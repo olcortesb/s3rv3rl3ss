@@ -8,16 +8,15 @@
       <p class="text-gray-500">Runtimes, limits, quotas & news for serverless services — updated daily</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto mb-4">
       <div v-for="p in providers" :key="p.id" class="flex flex-col items-center">
         <router-link
           :to="`/${p.id}`"
-          class="group block w-full rounded-2xl border-2 transition-all duration-200 p-8 text-center hover:-translate-y-1"
-          :class="cardClass(p.id)"
+          class="group block w-full border border-gray-200 bg-white hover:border-gray-400 transition-all duration-200 p-6 text-center"
         >
-          <img :src="p.icon" :alt="p.name" class="w-12 h-12 block mb-4 mx-auto" :class="p.id === 'stackit' ? 'brightness-0' : ''" />
-          <h2 class="text-xl font-bold text-gray-900 mb-1">{{ p.name }}</h2>
-          <p class="text-sm text-gray-400">{{ serviceCount(p.id) }} services</p>
+          <img :src="p.icon" :alt="p.name" class="w-10 h-10 block mb-3 mx-auto" :class="p.id === 'stackit' ? 'brightness-0' : ''" />
+          <h2 class="text-base font-semibold text-gray-900 mb-1">{{ p.name }}</h2>
+          <p class="text-xs text-gray-400">{{ serviceCount(p.id) }} services</p>
         </router-link>
         <a :href="p.statusUrl" target="_blank"
           class="text-xs text-gray-400 hover:text-gray-600 transition mt-2 inline-flex items-center gap-1"
@@ -30,50 +29,34 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-3 gap-6 max-w-5xl mx-auto mb-4">
-      <router-link to="/security" class="group block rounded-2xl border-2 border-red-100 bg-red-50/30 hover:border-red-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
-        <svg class="w-10 h-10 block mb-3 mx-auto text-red-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
-        <h2 class="text-lg font-bold text-gray-900 mb-1">Security</h2>
-        <p class="text-sm text-gray-400">AWS Security Bulletins</p>
+    <div class="grid grid-cols-3 gap-4 max-w-5xl mx-auto mb-4">
+      <router-link to="/security" class="group block border border-gray-200 bg-white hover:border-gray-400 transition-all duration-200 p-5 text-center">
+        <svg class="w-8 h-8 block mb-2 mx-auto text-gray-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        <h2 class="text-sm font-semibold text-gray-900 mb-1">Security</h2>
+        <p class="text-xs text-gray-400">AWS Security Bulletins</p>
       </router-link>
-      <router-link to="/reinvent" class="group block rounded-2xl border-2 border-gray-100 bg-gray-50/30 hover:border-gray-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
-        <img src="/icons/reinvent.svg" alt="re:Invent" class="w-10 h-10 block mb-3 mx-auto" />
-        <h2 class="text-lg font-bold text-gray-900 mb-1">re:Invent 2026</h2>
-        <p class="text-sm text-gray-400">Nov 30 – Dec 4, Las Vegas</p>
+      <router-link to="/reinvent" class="group block border border-gray-200 bg-white hover:border-gray-400 transition-all duration-200 p-5 text-center">
+        <img src="/icons/reinvent.svg" alt="re:Invent" class="w-8 h-8 block mb-2 mx-auto" />
+        <h2 class="text-sm font-semibold text-gray-900 mb-1">re:Invent 2026</h2>
+        <p class="text-xs text-gray-400">Nov 30 – Dec 4, Las Vegas</p>
       </router-link>
-      <router-link to="/tools" class="group block rounded-2xl border-2 border-gray-100 bg-gray-50/30 hover:border-gray-200 hover:shadow-lg transition-all duration-200 p-6 text-center hover:-translate-y-1">
-        <img src="/icons/tools.svg" alt="Tools" class="w-10 h-10 block mb-3 mx-auto" />
-        <h2 class="text-lg font-bold text-gray-900 mb-1">Tools</h2>
-        <p class="text-sm text-gray-400">Local AWS emulators</p>
+      <router-link to="/tools" class="group block border border-gray-200 bg-white hover:border-gray-400 transition-all duration-200 p-5 text-center">
+        <img src="/icons/tools.svg" alt="Tools" class="w-8 h-8 block mb-2 mx-auto" />
+        <h2 class="text-sm font-semibold text-gray-900 mb-1">Tools</h2>
+        <p class="text-xs text-gray-400">Local AWS emulators</p>
       </router-link>
     </div>
 
     <div class="flex justify-center gap-4 mt-10">
-      <router-link to="/compare" class="px-5 py-2.5 text-sm font-medium border border-gray-900 text-gray-900 rounded-xl hover:bg-gray-900 hover:text-white transition">
+      <router-link to="/compare" class="px-5 py-2.5 text-sm font-medium border border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition">
         Compare
       </router-link>
-      <router-link to="/stats" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 rounded-xl hover:border-gray-900 hover:text-gray-900 transition">
+      <router-link to="/stats" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900 transition">
         Stats
       </router-link>
-      <router-link to="/metrics" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 rounded-xl hover:border-gray-900 hover:text-gray-900 transition">
+      <router-link to="/metrics" class="px-5 py-2.5 text-sm font-medium border border-gray-300 text-gray-600 hover:border-gray-900 hover:text-gray-900 transition">
         Metrics
       </router-link>
-    </div>
-
-    <!-- Feedback -->
-    <div class="mt-12 text-center">
-      <p class="text-sm text-gray-400 mb-3">Have feedback, ideas or found a bug?</p>
-      <div class="flex justify-center gap-3">
-        <a href="https://github.com/olcortesb/s3rv3rl3ss/issues/new" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
-          <img src="/icons/github.svg" class="w-4 h-4" />
-        </a>
-        <a href="https://x.com/olcortesb" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
-          <img src="/icons/x.svg" class="w-4 h-4" />
-        </a>
-        <a href="https://www.linkedin.com/in/oscarcortesbracho/" target="_blank" class="p-2 text-gray-400 border border-gray-200 rounded-lg hover:border-gray-900 hover:text-gray-900 transition">
-          <img src="/icons/linkedin.svg" class="w-4 h-4" />
-        </a>
-      </div>
     </div>
   </div>
   </DataLoader>
@@ -112,14 +95,5 @@ onMounted(load)
 
 function serviceCount(id) {
   return counts.value[id] || '—'
-}
-
-function cardClass(id) {
-  return {
-    aws: 'border-orange-100 bg-orange-50/30 hover:border-orange-200 hover:shadow-lg hover:shadow-orange-50',
-    gcp: 'border-blue-100 bg-blue-50/30 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50',
-    azure: 'border-purple-100 bg-purple-50/30 hover:border-purple-200 hover:shadow-lg hover:shadow-purple-50',
-    stackit: 'border-green-100 bg-green-50/30 hover:border-green-200 hover:shadow-lg hover:shadow-green-50',
-  }[id]
 }
 </script>
